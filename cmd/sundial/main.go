@@ -25,9 +25,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
-	"github.com/nicoconvoz/diosyunalma/riemann"
-	"github.com/nicoconvoz/diosyunalma/spectral"
+	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/numerosprimos/riemann"
+	"github.com/nicoconvoz/numerosprimos/spectral"
 )
 
 func main() {

@@ -24,7 +24,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // every station this laboratory measured, dial by dial.

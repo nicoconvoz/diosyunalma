@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 const width = 20_000_000

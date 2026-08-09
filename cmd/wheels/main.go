@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 func golden(p int) bool { r := p % 5; return r == 1 || r == 4 }

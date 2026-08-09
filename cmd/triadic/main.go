@@ -22,7 +22,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 const floors = 8 // 3^8 = 6561

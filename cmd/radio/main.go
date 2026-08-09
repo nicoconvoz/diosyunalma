@@ -16,9 +16,9 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/nicoconvoz/diosyunalma/control"
-	"github.com/nicoconvoz/diosyunalma/primes"
-	"github.com/nicoconvoz/diosyunalma/spectral"
+	"github.com/nicoconvoz/numerosprimos/control"
+	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/numerosprimos/spectral"
 )
 
 const (

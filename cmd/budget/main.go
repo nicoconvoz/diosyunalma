@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/information"
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/information"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 func main() {

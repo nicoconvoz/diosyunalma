@@ -29,7 +29,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // hlWeight returns B(d) = Π (p−1)/(p−2) over odd primes p dividing d.

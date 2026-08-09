@@ -114,7 +114,8 @@ El libro NO necesita permiso de nadie ni validación técnica — es tu historia
 ## Checklist final (imprimible)
 
 - [ ] Re-verificación completa desde cero en máquina limpia (Regla 0 nueva)
-- [ ] LICENSE + README con la frase protectora
+- [x] LICENSE (MIT) + LICENSE-CONTENIDO.txt (CC BY 4.0) + LICENCIAS.md +
+      README con la frase protectora — **hecho 2026-08-09**
 - [ ] Repo público en GitHub
 - [ ] GitHub Pages sirviendo la galería
 - [ ] DOI de Zenodo (¡antes de difundir!)

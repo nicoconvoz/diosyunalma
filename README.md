@@ -4,7 +4,7 @@ A laboratory for the arithmetic of the primes — built test-first across a hand
 
 The project began with one question: *is there a relation between all the prime numbers?* The answer it found is a score with layers. The gaps between primes obey an exact parity law whose constants were derived, not fitted — an Euler product for the level, `2 − c₀/c` for the step, the just fourth 4/3 for the destination. The primes themselves are a superposition of waves: **some seventy zeros of nine distinct L-function dials were measured from a single sieve** — ζ's first ten (γ₁ to 0.001%, real parts on the critical line to ±0.003), and the stations of the residue tribes mod 3, 4, 5, 7, 8, 11 and 13, verified against the published tables to within 0.005–0.02 — the mod-5 dial to a depth of fourteen zeros out of fourteen. The primes were then reconstructed *back* from the measured zeros, closing the duality in both directions. And the harmony question — is there one wave compatible with all the tribes? — was answered by demonstration: the summed signal of ζ and the golden tribe carries both musics at once, as the Dedekind zeta of Q(√5) says it must.
 
-The full record — 89 findings with the numbers that produced them, the commands that reproduce them, seven killed hypotheses kept on display, and nine visible corrections — is in **[docs/FINDINGS.md](docs/FINDINGS.md)**. A step-by-step reviewer's guide for independent validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
+The full record — 260 findings with the numbers that produced them, the commands that reproduce them, seven killed hypotheses kept on display, and nine visible corrections — is in **[docs/FINDINGS.md](docs/FINDINGS.md)**. A step-by-step reviewer's guide for independent validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
 
 ## Quick start
 
@@ -85,3 +85,42 @@ Three lessons the record keeps returning to:
 ## The one-sentence summary
 
 The primes look like noise, keep a budget, obey an exact mirror law with derivable constants, behave like the spectrum of an operator nobody has found, and sing — one song per tribe, some seventy measured notes across nine dials, all from a laptop, test-first, in a handful of nights.
+
+---
+
+## Funding
+
+<img src="galeria/open-doors.jpg" alt="Open Doors" height="72">
+
+This work is **funded by Open Doors**.
+
+## What this claims — and what it does not
+
+This laboratory publishes **measurements, instruments and visualisations of
+known mathematics**, plus a number of original instruments. **No proof of the
+Riemann Hypothesis is claimed here.** Every result carries its stated limit
+beside it, and the laboratory's own errors are published alongside its
+successes — including the ones it caught in its own work.
+
+## Licence
+
+Two licences, because code and content are different things:
+
+| What | Licence | File |
+|---|---|---|
+| **The code** — everything under `cmd/` and any Go source | **MIT** | [LICENSE](LICENSE) |
+| **The content** — `galeria/` (plates and sounds), `docs/` (logbook, findings, technical report, the museum) and the explanatory texts | **CC BY 4.0** | [LICENSE-CONTENIDO.txt](LICENSE-CONTENIDO.txt) |
+
+To cite a plate, a text or a finding:
+
+```
+Jesús Nicolás Astorga and RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
+https://github.com/nicoconvoz/numerosprimos
+CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+```
+
+Full details, in Spanish, in **[LICENCIAS.md](LICENCIAS.md)**.
+
+**Third-party dependencies: none.** `go.mod` carries no `require` line — the
+whole laboratory is built on the Go standard library.
+

@@ -27,7 +27,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 const floors = 12

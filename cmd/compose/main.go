@@ -29,8 +29,8 @@ import (
 	"math"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/pattern"
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/pattern"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // eulerC is Π (q−3)(q−1)/(q−2)² over primes q ≥ 5 (Finding 20).

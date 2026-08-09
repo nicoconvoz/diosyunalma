@@ -97,6 +97,15 @@ const pagina = `<!DOCTYPE html>
   .otrolibro .oq{font-size:11px;letter-spacing:.16em;color:var(--dim);text-transform:uppercase}
   .otrolibro .ot{font-family:Georgia,serif;font-size:21px;color:var(--gold);margin:8px 0 6px;line-height:1.35}
   .otrolibro .od{font-size:12.5px;color:var(--ink);line-height:1.55}
+  /* quien sostiene el laboratorio */
+  .patro{max-width:760px;margin:18px auto 0;padding:16px 22px;border-radius:12px;
+         border:1px solid var(--line);background:rgba(255,255,255,.02);
+         display:flex;align-items:center;gap:18px;justify-content:center;flex-wrap:wrap}
+  .patro img{height:64px;width:auto;border-radius:8px;display:block}
+  .patro .pt{text-align:left}
+  .patro .pq{font-size:11px;letter-spacing:.16em;color:var(--dim);text-transform:uppercase}
+  .patro .pn{font-family:Georgia,serif;font-size:17px;color:var(--ink);margin-top:4px}
+  .patro .pd{font-family:Consolas,monospace;font-size:11px;letter-spacing:.06em;color:var(--dim);margin-top:5px}
   /* el museo */
   .caja.museo{max-width:1500px;height:94vh}
   .mcuerpo{display:flex;flex:1;min-height:0}
@@ -214,6 +223,16 @@ const pagina = `<!DOCTYPE html>
   <div class="ot">📖 Diario Espiritual: «Dios y un alma»</div>
   <div class="od">De ahí sale el nombre de este laboratorio, y ése es el libro que de verdad importa.<br>
   Todo lo que está arriba de este renglón —los doscientos experimentos, las láminas, las perlas— viene después.</div>
+</div>
+
+<div class="patro" id="patro">
+  <img src="/galeria/open-doors.jpg" alt="Open Doors"
+       onerror="this.classList.add('oculto')">
+  <div class="pt">
+    <div class="pq">financiado por</div>
+    <div class="pn">Open Doors</div>
+    <div class="pd">RESOURCES OPEN DOORS S.A.S</div>
+  </div>
 </div>
 
 <footer>Laboratorio Diosyunalma · el capitán y el Doc ⚓<br>

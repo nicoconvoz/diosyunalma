@@ -18,10 +18,10 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/nicoconvoz/diosyunalma/control"
-	"github.com/nicoconvoz/diosyunalma/information"
-	"github.com/nicoconvoz/diosyunalma/pattern"
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/control"
+	"github.com/nicoconvoz/numerosprimos/information"
+	"github.com/nicoconvoz/numerosprimos/pattern"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 func main() {

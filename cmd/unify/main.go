@@ -27,9 +27,9 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/control"
-	"github.com/nicoconvoz/diosyunalma/pattern"
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/control"
+	"github.com/nicoconvoz/numerosprimos/pattern"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // row holds one window size and how each branch scored against its decoys.

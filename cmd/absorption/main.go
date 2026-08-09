@@ -30,7 +30,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 var zetaZeros = []float64{14.1349, 21.0211, 25.0044, 30.4282, 32.9422,

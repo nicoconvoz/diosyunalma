@@ -12,9 +12,9 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/control"
-	"github.com/nicoconvoz/diosyunalma/pattern"
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/control"
+	"github.com/nicoconvoz/numerosprimos/pattern"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // detector is any measurement that reduces a gap sequence to a single count at

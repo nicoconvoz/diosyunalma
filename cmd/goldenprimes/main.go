@@ -26,7 +26,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 // golden reports whether x² = x + 1 has a solution modulo p, i.e. whether 5

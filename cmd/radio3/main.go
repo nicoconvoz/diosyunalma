@@ -31,8 +31,8 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
-	"github.com/nicoconvoz/diosyunalma/spectral"
+	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/numerosprimos/spectral"
 )
 
 // chi is the quadratic character mod 5: +1 on the golden residues, −1 on the

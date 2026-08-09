@@ -1,5 +1,15 @@
 # APLICACIONES Y FINANCIAMIENTO — qué vale lo construido y cómo sostenerlo
 
+<img src="../galeria/open-doors.jpg" alt="Open Doors" height="72">
+
+> ## 🤝 FINANCIADO POR OPEN DOORS
+>
+> **Financiado por Open Doors.**
+>
+> Y que quede escrito arriba de todo, antes que cualquier proyección: el
+> trabajo YA TIENE QUIÉN LO SOSTENGA. Todo lo que sigue son caminos posibles y
+> estimaciones — no promesas ni plata en mano.
+
 **Para el capitán** · escrito con honestidad total, como todo en este barco.
 
 > El fin declarado: poner el nombre de DIOS por encima de todo, ayudar a los

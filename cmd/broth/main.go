@@ -29,7 +29,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/numerosprimos/primes"
 )
 
 func rungCounts(lo, hi, maxK int) []float64 {
