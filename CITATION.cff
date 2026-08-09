@@ -17,6 +17,8 @@ authors:
   - name: "RESOURCES OPEN DOORS S.A.S"
 license: AGPL-3.0-or-later
 repository-code: "https://github.com/nicoconvoz/diosyunalma"
+doi: "10.5281/zenodo.21864277"
+version: "v1.0.0"
 keywords:
   - riemann-hypothesis
   - riemann-zeta-function

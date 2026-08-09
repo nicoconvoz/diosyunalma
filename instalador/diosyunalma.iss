@@ -76,6 +76,7 @@ Source: "..\go.mod";           DestDir: "{app}";         Flags: ignoreversion
 Source: "..\README.md";        DestDir: "{app}";         Flags: ignoreversion
 ; las licencias viajan siempre: la AGPL las exige junto al programa
 Source: "..\LICENSE";                DestDir: "{app}"; Flags: ignoreversion
+Source: "..\NOTICE";                 DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LICENSE-CONTENIDO.txt";  DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LICENCIA-COMERCIAL.md";  DestDir: "{app}"; Flags: ignoreversion
 Source: "..\LICENCIAS.md";           DestDir: "{app}"; Flags: ignoreversion

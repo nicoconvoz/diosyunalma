@@ -150,9 +150,9 @@ El libro NO necesita permiso de nadie ni validación técnica — es tu historia
 - [ ] Re-verificación completa desde cero en máquina limpia (Regla 0 nueva)
 - [x] LICENSE (AGPL-3.0) + LICENCIA-COMERCIAL.md + LICENSE-CONTENIDO.txt (CC BY 4.0) + LICENCIAS.md +
       README con la frase protectora — **hecho 2026-08-09**
-- [ ] Repo público en GitHub
+- [x] Repo público en GitHub — **hecho 2026-08-09**
 - [ ] GitHub Pages sirviendo la galería
-- [ ] DOI de Zenodo (¡antes de difundir!)
+- [x] DOI de Zenodo — **hecho 2026-08-09**: concepto `10.5281/zenodo.21864277` · v1.0.0 `10.5281/zenodo.21864278`
 - [ ] Difusión capa amiga → comunidad → pública
 - [ ] Contacto con matemático local para endorsement de arXiv
 - [ ] Artículo expositivo (nunca "demostración de RH")

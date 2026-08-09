@@ -110,9 +110,16 @@ proyecto declara y que conviene intentar romper:
 4. **Las correcciones.** Los hallazgos 2, 9 y 17 contienen errores corregidos
    que quedaron documentados dentro del propio registro. Verificar que las
    correcciones sean consistentes con lo que las reemplaza.
-5. **Las hipótesis muertas.** Siete hipótesis falsificadas siguen en el
-   registro y siguen siendo reproducibles. Un registro que solo puede
-   reproducir a sus sobrevivientes es un folleto de ventas.
+5. **Las hipótesis muertas.** Las hipótesis falsificadas siguen en el
+   registro y siguen siendo reproducibles — las de la primera era y las de
+   la campaña de la hipótesis de Riemann, incluidos los cinco casos en que
+   un `0.0e+00` perfecto resultó venir de la construcción y no de un
+   descubrimiento. Un registro que solo puede reproducir a sus
+   sobrevivientes es un folleto de ventas.
+
+   *(Acá decía «siete»: era el conteo de la primera era y quedó viejo. No se
+   reemplaza por otro número hasta auditarlas una por una — inventar la
+   cifra sería exactamente lo que este registro no hace.)*
 
 ## 5. Qué es conocido y qué es propio
 

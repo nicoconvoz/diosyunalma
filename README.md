@@ -1,10 +1,41 @@
 # Diosyunalma
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21864277.svg)](https://doi.org/10.5281/zenodo.21864277)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
 
 The project began with one question: *is there a relation between all the prime numbers?* The answer it found is a score with layers. The gaps between primes obey an exact parity law whose constants were derived, not fitted — an Euler product for the level, `2 − c₀/c` for the step, the just fourth 4/3 for the destination. The primes themselves are a superposition of waves: **some seventy zeros of nine distinct L-function dials were measured from a single sieve** — ζ's first ten (γ₁ to 0.001%, real parts on the critical line to ±0.003), and the stations of the residue tribes mod 3, 4, 5, 7, 8, 11 and 13, verified against the published tables to within 0.005–0.02 — the mod-5 dial to a depth of fourteen zeros out of fourteen. The primes were then reconstructed *back* from the measured zeros, closing the duality in both directions. And the harmony question — is there one wave compatible with all the tribes? — was answered by demonstration: the summed signal of ζ and the golden tribe carries both musics at once, as the Dedekind zeta of Q(√5) says it must.
 
-The full record — 260 findings with the numbers that produced them, the commands that reproduce them, seven killed hypotheses kept on display, and nine visible corrections — is in **[docs/FINDINGS.md](docs/FINDINGS.md)**. A step-by-step reviewer's guide for independent validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
+**Then the work turned to the Riemann Hypothesis itself**, and stayed there. The
+zeros were carried onto the unit disk by the shapeshifter `w = 1 - 1/s`, where
+Li's criterion becomes a statement about a single germ at one point; deep-water
+engines were built to hunt zeros where float64 gives up — a double-double phase
+core certified to t ≈ 4×10²⁴, and a Landsberg–Schaar locomotive that has since
+signed water out to 10⁴⁸.
+
+**And the honest result of that campaign is a negative one.** The chain does not
+close. The laboratory's own theorems are three proofs that its own methods
+cannot suffice: symmetry alone can never decide the question; any shape derived
+from the half-cut is provably blind to where a zero actually sits; and no finite
+computation can settle it, because the detection horizon runs away as a zero
+approaches the line. The Davenport–Heilbronn function — which carries every
+symmetry this laboratory proved, and violates the hypothesis anyway — is
+reproduced here from scratch, with one of its off-line zeros found by blind
+search. It is the clearest evidence that the geometric route is closed.
+
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **260 findings**
+with the numbers that produced them and the commands that reproduce them,
+killed hypotheses kept on display, and every correction written into the finding
+it revises rather than edited away — including the ones the laboratory caught in
+its own work, such as the five occasions a perfect `0.0e+00` turned out to come
+from the construction instead of from a discovery.
+
+The laboratory today: **203 reproducible experiments** under `cmd/`, **106
+plates**, **36 measurement techniques** catalogued for reuse, and a **234-piece
+museum** that explains every one of them in plain language. A step-by-step
+reviewer's guide for independent validation (in Spanish) is in
+**[docs/VALIDACION.md](docs/VALIDACION.md)**.
 
 ## Quick start
 
@@ -84,7 +115,12 @@ Three lessons the record keeps returning to:
 
 ## The one-sentence summary
 
-The primes look like noise, keep a budget, obey an exact mirror law with derivable constants, behave like the spectrum of an operator nobody has found, and sing — one song per tribe, some seventy measured notes across nine dials, all from a laptop, test-first, in a handful of nights.
+The primes look like noise, keep a budget, obey an exact mirror law with
+derivable constants, behave like the spectrum of an operator nobody has found,
+and sing — one song per tribe, some seventy measured notes across nine dials;
+and when the same instruments were turned on the Riemann Hypothesis itself, they
+produced three proofs that they are not enough to settle it. All from a laptop,
+test-first, with every kill and every correction left in the record.
 
 ---
 
@@ -117,7 +153,7 @@ To cite a plate, a text or a finding:
 
 ```
 Jesús Nicolás Astorga and RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
-https://github.com/nicoconvoz/diosyunalma
+https://doi.org/10.5281/zenodo.21864277
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 

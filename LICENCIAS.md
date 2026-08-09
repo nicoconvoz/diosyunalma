@@ -18,7 +18,7 @@ Si usás una lámina, un texto o un hallazgo, alcanza con esto:
 
 ```
 Jesús Nicolás Astorga y RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
-https://github.com/nicoconvoz/diosyunalma
+https://doi.org/10.5281/zenodo.21864277
 Licencia CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
