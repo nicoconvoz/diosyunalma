@@ -3,6 +3,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21864277.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
+### 🖼️ **[→ Open the gallery: 106 plates, live](https://nicoconvoz.github.io/diosyunalma/galeria/)**
+
+*Every experiment in this repository draws a plate. They are all here, in one page.*
+
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
 
 The project began with one question: *is there a relation between all the prime numbers?* The answer it found is a score with layers. The gaps between primes obey an exact parity law whose constants were derived, not fitted — an Euler product for the level, `2 − c₀/c` for the step, the just fourth 4/3 for the destination. The primes themselves are a superposition of waves: **some seventy zeros of nine distinct L-function dials were measured from a single sieve** — ζ's first ten (γ₁ to 0.001%, real parts on the critical line to ±0.003), and the stations of the residue tribes mod 3, 4, 5, 7, 8, 11 and 13, verified against the published tables to within 0.005–0.02 — the mod-5 dial to a depth of fourteen zeros out of fourteen. The primes were then reconstructed *back* from the measured zeros, closing the duality in both directions. And the harmony question — is there one wave compatible with all the tribes? — was answered by demonstration: the summed signal of ζ and the golden tribe carries both musics at once, as the Dedekind zeta of Q(√5) says it must.
@@ -46,7 +50,7 @@ go run ./cmd/puente   # THE BRIDGE: opens the whole laboratory at localhost:8118
 One command starts everything: a dashboard listing every experiment in `cmd/`,
 grouped by hall, each one launchable with a click, with live output and the
 plate it draws shown inline. The gallery of plates is at
-**[galeria/index.html](galeria/index.html)**; the journey is documented in
+**[galeria/index.html](https://nicoconvoz.github.io/diosyunalma/galeria/)**; the journey is documented in
 **[docs/RECORRIDO.md](docs/RECORRIDO.md)**.
 
 ```bash
