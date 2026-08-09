@@ -1,0 +1,52 @@
+LISTO. El laboratorio quedo instalado.
+
+
+COMO ZARPAR
+
+Doble clic en "El Puente de Mando". Se abre solo el navegador en
+http://localhost:8118 y desde ahi se maneja todo: encender cualquier
+experimento, ver su salida en vivo, mirar su lamina.
+
+
+EL PUESTO DE MANDO
+
+Arriba de todo estan los tres vehiculos, cada uno con su boton:
+
+  EL DELOREAN            la nave que caza. Casco doble-doble de 32
+                         digitos, facetas cuarticas, balde de luz y el
+                         plegado de Fresnel. Techo certificado 4x10^24.
+
+  EL TREN DEL DOC BROWN  la locomotora del circulo: reciprocidad de
+                         Landsberg-Schaar, matematica exacta de 1805.
+                         Arranca donde el DeLorean toca su techo, y ya
+                         anexo la frontera abisal hasta 10^48.
+
+  EL FARO                el tablero del Almirante, en vivo. No calcula:
+                         mira. Sirve en http://localhost:8117.
+
+
+LO DEMAS QUE HAY ADENTRO
+
+  EL MUSEO            un recorrido por todo el trabajo explicado en
+                      criollo, con una parada por cada experimento y un
+                      bloque de limites honestos en cada pieza.
+
+  LA INVESTIGACION    los documentos completos: la bitacora, los
+                      hallazgos, el informe tecnico, el acta del intento.
+
+  LA GALERIA          todas las laminas, ordenadas por sala.
+
+
+SI ALGO NO ANDA
+
+El puente marca "sin compilar" los experimentos que falten. Con Go
+instalado los compila al vuelo; sin Go, corre igual los que vinieron
+en el paquete.
+
+
+FINANCIADO POR OPEN DOORS
+
+  Financiado por Open Doors.
+
+
+Y sobre todos los libros, el Otro Libro.

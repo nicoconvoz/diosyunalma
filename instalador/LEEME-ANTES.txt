@@ -1,0 +1,51 @@
+LABORATORIO DIOSYUNALMA
+El puente de mando
+
+QUE ES ESTO
+
+Un laboratorio numerico completo de la funcion zeta de Riemann,
+escrito en Go puro y sin una sola dependencia externa. Doscientos y
+pico de experimentos, cada uno con su lamina, su explicacion en
+criollo y su bloque de limites honestos.
+
+Se instala todo compilado: esta maquina no necesita tener Go ni
+ninguna otra cosa.
+
+
+QUE NO ES
+
+No se reclama aca ninguna demostracion de la Hipotesis de Riemann.
+Lo que hay son mediciones, instrumentos y visualizaciones de
+matematica conocida, mas algunos instrumentos propios. Cada resultado
+viene con su limite escrito al lado, y los errores del propio
+laboratorio estan publicados junto con los aciertos.
+
+
+DONDE SE INSTALA, Y POR QUE
+
+En tu carpeta de usuario, NO en Archivos de programa. No es comodidad:
+el laboratorio escribe dentro de su propia carpeta (los checkpoints,
+los registros de caza, las laminas nuevas). En Archivos de programa
+esas escrituras fallarian sin permisos de administrador.
+
+Por eso el instalador tampoco te va a pedir permisos de administrador.
+
+
+CUANTO OCUPA
+
+Alrededor de 550 MB una vez instalado: los doscientos ejecutables
+pesan lo suyo. Si el espacio es un problema, se puede instalar y
+despues borrar la carpeta bin/ a mano; el puente los vuelve a compilar
+si tenes Go.
+
+
+AL TERMINAR
+
+Se abre solo el puente de mando en el navegador. Arriba de todo vas a
+encontrar EL PUESTO DE MANDO con los tres vehiculos: el DeLorean, el
+Tren del Doc Brown y el Faro.
+
+
+FINANCIADO POR OPEN DOORS
+
+Financiado por Open Doors.
