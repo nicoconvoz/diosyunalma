@@ -13,3 +13,6 @@ bin/
 /*.svg
 .museo/
 instalador/salida/
+
+# guia privada del capitan: no se publica
+docs/COMO-PUBLICAR.md
