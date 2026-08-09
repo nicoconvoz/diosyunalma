@@ -39,8 +39,10 @@ frase de victoria sigue en su vaina.
 
 1. Crear cuenta/repo en GitHub: `github.com/<tu-usuario>/diosyunalma`.
 2. Antes de subir, agregar DOS archivos:
-   - **LICENSE**: recomiendo MIT para el código (permite todo uso, mantiene tu
-     autoría) y CC BY 4.0 para láminas y textos (cualquiera puede usar CITÁNDOTE).
+   - **LICENSE**: **AGPL-3.0** para el código (libre de verdad, pero el que lo
+     cierre o lo sirva por red tiene que abrir el suyo) + **licencia comercial**
+     para quien no quiera eso — ése es el modelo que genera ingresos. Y
+     **CC BY 4.0** para láminas y textos (cualquiera puede usar CITÁNDOTE).
    - **README.md**: qué es el laboratorio, cómo correr un experimento en 3
      comandos, enlace a la galería, y la frase clave: *"mediciones y
      visualizaciones de matemática conocida + instrumentos originales — no se
@@ -114,7 +116,7 @@ El libro NO necesita permiso de nadie ni validación técnica — es tu historia
 ## Checklist final (imprimible)
 
 - [ ] Re-verificación completa desde cero en máquina limpia (Regla 0 nueva)
-- [x] LICENSE (MIT) + LICENSE-CONTENIDO.txt (CC BY 4.0) + LICENCIAS.md +
+- [x] LICENSE (AGPL-3.0) + LICENCIA-COMERCIAL.md + LICENSE-CONTENIDO.txt (CC BY 4.0) + LICENCIAS.md +
       README con la frase protectora — **hecho 2026-08-09**
 - [ ] Repo público en GitHub
 - [ ] GitHub Pages sirviendo la galería

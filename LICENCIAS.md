@@ -5,7 +5,8 @@ contenido. No es un capricho: son cosas distintas y se usan distinto.
 
 | Qué | Licencia | Archivo | En criollo |
 |---|---|---|---|
-| **El código** — todo `cmd/` y cualquier fuente Go | **MIT** | [LICENSE](LICENSE) | hacé lo que quieras con él, incluso venderlo; solo dejá el aviso de autoría |
+| **El código** — todo `cmd/` y cualquier fuente Go | **AGPL-3.0** | [LICENSE](LICENSE) | libre de usar, estudiar y modificar — pero si lo metés en tu producto o lo servís por red, tenés que abrir tu código |
+| **El código, para uso cerrado** | **Licencia comercial** | [LICENCIA-COMERCIAL.md](LICENCIA-COMERCIAL.md) | te exime de la AGPL a cambio de un acuerdo |
 | **El contenido** — `galeria/` (láminas y sonidos), `docs/` (bitácora, hallazgos, informe, museo) y los textos | **CC BY 4.0** | [LICENSE-CONTENIDO.txt](LICENSE-CONTENIDO.txt) | usalo, copialo, modificalo, hasta comercialmente — **pero citá de dónde salió** |
 
 ---
@@ -20,17 +21,20 @@ https://github.com/nicoconvoz/numerosprimos
 Licencia CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
-Si usás el código, no hace falta citar en la documentación: alcanza con dejar
-el archivo `LICENSE` donde esté, como pide MIT.
+Si usás el código, tenés que cumplir la AGPL: dejar el aviso de copyright y la
+licencia, y **publicar el fuente de lo que construyas encima** — también si lo
+servís por red (artículo 13). Si eso no te sirve, hay
+[licencia comercial](LICENCIA-COMERCIAL.md).
 
 ---
 
 ## Por qué dos y no una
 
-- **MIT en el código** es la licencia más permisiva que existe entre las
-  serias. Que alguien agarre el motor doble-doble, o el balde de luz, o el
-  tren, y lo use en su propio trabajo es **exactamente lo que queremos** —
-  ése es medio el punto de publicar.
+- **AGPL en el código** para que el trabajo circule sin que nadie lo cierre: el
+  que lo use y mejore, devuelve. Y el artículo 13 cubre el caso moderno — no
+  alcanza con no distribuir el binario: si lo servís por red, también abrís.
+  Sobre esa base se apoya la **licencia comercial**: quien no quiera abrir su
+  código, paga. Ese es el modelo con el que viven MySQL, Qt y Ghostscript.
 - **CC BY 4.0 en el contenido** porque las láminas y los textos no son
   software: son obra. La MIT no está pensada para eso. Y CC BY pide lo único
   que importa acá: **que digan de dónde salió**.
@@ -91,6 +95,18 @@ El módulo de Go también dice `github.com/nicoconvoz/numerosprimos`, que es lo
 que hace falta para que `go get` funcione: si el módulo y la URL del repo no
 coinciden, Go se niega a bajarlo.
 
-GitHub va a detectar la MIT sola y te va a poner la etiqueta en la portada del
-repositorio. La CC BY va a quedar como archivo, que es lo normal para
-licencias de contenido.
+GitHub va a detectar la AGPL-3.0 y te va a poner la etiqueta en la portada del
+repositorio. La CC BY y la comercial quedan como archivos, que es lo normal.
+
+## El artículo 13, y por qué nos toca de lleno
+
+El puente de mando **es un servidor HTTP**. Bajo AGPL eso no es un detalle: el
+artículo 13 obliga a que cualquiera que use el programa POR RED pueda obtener
+su fuente. Por eso el puente sirve, y tiene que seguir sirviendo:
+
+- **`/fuente`** — la oferta, en pantalla
+- **`/fuente.zip`** — el fuente correspondiente de verdad: todo `cmd/`, el
+  `go.mod` y las licencias, armado en vivo
+
+Si alguien alguna vez saca ese enlace del pie de la página, el laboratorio
+queda incumpliendo su propia licencia. Está anotado acá para que no pase.

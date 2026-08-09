@@ -108,7 +108,8 @@ Two licences, because code and content are different things:
 
 | What | Licence | File |
 |---|---|---|
-| **The code** — everything under `cmd/` and any Go source | **MIT** | [LICENSE](LICENSE) |
+| **The code** — everything under `cmd/` and any Go source | **AGPL-3.0** | [LICENSE](LICENSE) |
+| **The code, for closed/commercial use** | **Commercial licence** | [LICENCIA-COMERCIAL.md](LICENCIA-COMERCIAL.md) |
 | **The content** — `galeria/` (plates and sounds), `docs/` (logbook, findings, technical report, the museum) and the explanatory texts | **CC BY 4.0** | [LICENSE-CONTENIDO.txt](LICENSE-CONTENIDO.txt) |
 
 To cite a plate, a text or a finding:
@@ -120,6 +121,11 @@ CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
 Full details, in Spanish, in **[LICENCIAS.md](LICENCIAS.md)**.
+
+The bridge is a network service, so **AGPL section 13** applies: it serves its
+own corresponding source at `/fuente` and `/fuente.zip` while running. If those
+terms do not suit your use — closed products, SaaS without publishing your
+source — a commercial licence is available.
 
 **Third-party dependencies: none.** `go.mod` carries no `require` line — the
 whole laboratory is built on the Go standard library.

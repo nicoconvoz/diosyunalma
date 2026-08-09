@@ -9,6 +9,7 @@
 package main
 
 import (
+	"archive/zip"
 	"bufio"
 	"encoding/json"
 	"fmt"
@@ -725,6 +726,85 @@ func (p *puente) apiDoc(w http.ResponseWriter, r *http.Request) {
 	_, _ = w.Write(b)
 }
 
+// ---- AGPL section 13: the source, offered to whoever uses the bridge ----
+//
+// The bridge is a network service, so the licence is not satisfied by shipping
+// a LICENSE file: anyone who merely interacts with it over the network must be
+// able to GET the corresponding source. That is what these two routes do, and
+// why they are not decoration.
+
+// paginaFuente is the human-facing offer.
+const paginaFuente = `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<title>El código fuente — Laboratorio Diosyunalma</title>
+<style>body{margin:0;background:#0b1526;color:#dce8f7;font-family:Georgia,serif;
+padding:46px 22px;line-height:1.65}main{max-width:720px;margin:0 auto}
+h1{color:#ffd166;font-size:23px}code{font-family:Consolas,monospace;color:#7fd7a8;font-size:13px}
+a{color:#7fb2ff}.caja{border:1px solid #1d3a63;border-radius:12px;padding:18px 22px;margin:22px 0}
+.dim{color:#8fa8c7;font-size:13px}</style></head><body><main>
+<h1>El código fuente de este programa</h1>
+<p>El puente de mando es <b>software libre</b> bajo la
+<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU Affero General Public License v3</a>.
+Se entrega SIN NINGUNA GARANTÍA.</p>
+<p class="dim">Copyright © 2026 Jesús Nicolás Astorga y RESOURCES OPEN DOORS S.A.S</p>
+<div class="caja">
+<p><b>Descargá el fuente completo de esta aplicación:</b></p>
+<p><a href="/fuente.zip">⬇ fuente-diosyunalma.zip</a></p>
+<p class="dim">Incluye todo <code>cmd/</code>, el <code>go.mod</code> y las licencias:
+es exactamente lo que hace falta para reconstruir este programa.</p>
+</div>
+<div class="caja">
+<p><b>¿Necesitás usarlo sin abrir tu propio código?</b></p>
+<p>Existe una <a href="/api/doc?f=LICENCIA-COMERCIAL.md" target="_blank">licencia comercial</a>
+que te exime de las obligaciones de la AGPL.</p>
+</div>
+<p class="dim">La sección 13 de la AGPL exige que quien usa este programa por red
+pueda obtener su fuente. Esta página es esa oferta, y el enlace de arriba la cumple.</p>
+<p><a href="/">← volver al puente</a></p>
+</main></body></html>`
+
+func (p *puente) fuente(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+	_, _ = w.Write([]byte(paginaFuente))
+}
+
+// fuenteZip streams the corresponding source of the running program.
+func (p *puente) fuenteZip(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/zip")
+	w.Header().Set("Content-Disposition", `attachment; filename="fuente-diosyunalma.zip"`)
+	z := zip.NewWriter(w)
+	defer z.Close()
+
+	agregar := func(rel string) {
+		abs := filepath.Join(p.raiz, rel)
+		b, err := os.ReadFile(abs)
+		if err != nil {
+			return
+		}
+		f, err := z.Create(filepath.ToSlash(rel))
+		if err != nil {
+			return
+		}
+		_, _ = f.Write(b)
+	}
+
+	for _, suelto := range []string{
+		"go.mod", "LICENSE", "LICENSE-CONTENIDO.txt",
+		"LICENCIA-COMERCIAL.md", "LICENCIAS.md", "README.md",
+	} {
+		agregar(suelto)
+	}
+	// todo el arbol de fuentes Go
+	_ = filepath.Walk(filepath.Join(p.raiz, "cmd"), func(ruta string, fi os.FileInfo, err error) error {
+		if err != nil || fi.IsDir() || !strings.HasSuffix(ruta, ".go") {
+			return nil
+		}
+		if rel, err := filepath.Rel(p.raiz, ruta); err == nil {
+			agregar(rel)
+		}
+		return nil
+	})
+}
+
 // ---- opening the helm ----
 //
 // The bridge must land on screen by itself: nothing is left to the captain's
@@ -839,6 +919,8 @@ func main() {
 	http.HandleFunc("/api/museo", p.apiMuseo)
 	http.HandleFunc("/api/doc", p.apiDoc)
 	http.HandleFunc("/api/docs", p.apiDocs)
+	http.HandleFunc("/fuente", p.fuente)        // AGPL art. 13
+	http.HandleFunc("/fuente.zip", p.fuenteZip) // el fuente correspondiente
 	http.Handle("/galeria/", http.StripPrefix("/galeria/",
 		http.FileServer(http.Dir(filepath.Join(raiz, "galeria")))))
 

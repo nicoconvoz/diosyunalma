@@ -106,6 +106,13 @@ const pagina = `<!DOCTYPE html>
   .patro .pq{font-size:11px;letter-spacing:.16em;color:var(--dim);text-transform:uppercase}
   .patro .pn{font-family:Georgia,serif;font-size:17px;color:var(--ink);margin-top:4px}
   .patro .pd{font-family:Consolas,monospace;font-size:11px;letter-spacing:.06em;color:var(--dim);margin-top:5px}
+  /* AGPL §13: el puente es un servicio de red, asi que el fuente se ofrece aca */
+  .agpl{max-width:760px;margin:18px auto 0;padding:14px 20px;border-radius:12px;
+        border:1px solid var(--line);background:rgba(255,255,255,.015);
+        font-size:11.5px;color:var(--dim);line-height:1.6;text-align:center}
+  .agpl b{color:var(--ink);font-weight:normal}
+  .agpl a{color:var(--blue);text-decoration:none}
+  .agpl a:hover{text-decoration:underline}
   /* el museo */
   .caja.museo{max-width:1500px;height:94vh}
   .mcuerpo{display:flex;flex:1;min-height:0}
@@ -233,6 +240,15 @@ const pagina = `<!DOCTYPE html>
     <div class="pn">Open Doors</div>
     <div class="pd">RESOURCES OPEN DOORS S.A.S</div>
   </div>
+</div>
+
+<div class="agpl">
+  <b>Laboratorio Diosyunalma</b> · Copyright © 2026 Jesús Nicolás Astorga y RESOURCES OPEN DOORS S.A.S<br>
+  Este programa es software libre bajo <b>GNU AGPL v3</b>. Se entrega SIN NINGUNA GARANTÍA.<br>
+  El código fuente completo de esta aplicación está disponible acá:
+  <a href="/fuente" target="_blank">obtener el código fuente</a> ·
+  <a href="/api/doc?f=LICENSE" target="_blank">licencia</a> ·
+  <a href="/api/doc?f=LICENCIA-COMERCIAL.md" target="_blank">licencia comercial</a>
 </div>
 
 <footer>Laboratorio Diosyunalma · el capitán y el Doc ⚓<br>
