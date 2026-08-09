@@ -888,6 +888,24 @@ func main() {
 		fmt.Println("⚠ no encuentro el laboratorio: poné el puente en la carpeta que contiene galeria/ y bin/")
 		os.Exit(1)
 	}
+
+	// modo generador: escribe el museo como pagina estatica y sale. Existe
+	// porque GitHub Pages no puede correr un servidor, y el museo tiene que
+	// poder verse desde la web igual que desde el puente.
+	if len(os.Args) > 2 && os.Args[1] == "-museo" {
+		destino := os.Args[2]
+		if !filepath.IsAbs(destino) {
+			destino = filepath.Join(raiz, destino)
+		}
+		if err := escribirMuseoWeb(raiz, destino); err != nil {
+			fmt.Println("⚠ no pude escribir el museo:", err)
+			os.Exit(1)
+		}
+		fi, _ := os.Stat(destino)
+		fmt.Printf("🏛️  museo escrito: %s (%.0f KB)\n", destino, float64(fi.Size())/1024)
+		return
+	}
+
 	p := nuevoPuente(raiz)
 
 	porSala := map[string]int{}
