@@ -6,6 +6,7 @@ contenido. No es un capricho: son cosas distintas y se usan distinto.
 | Qué | Licencia | Archivo | En criollo |
 |---|---|---|---|
 | **El código** — todo `cmd/` y cualquier fuente Go | **AGPL-3.0** | [LICENSE](LICENSE) | libre de usar, estudiar y modificar — pero si lo metés en tu producto o lo servís por red, tenés que abrir tu código |
+| **El aviso de copyright y quién es dueño** | — | [NOTICE](NOTICE) | el resumen de todo esto en una página |
 | **El código, para uso cerrado** | **Licencia comercial** | [LICENCIA-COMERCIAL.md](LICENCIA-COMERCIAL.md) | te exime de la AGPL a cambio de un acuerdo |
 | **El contenido** — `galeria/` (láminas y sonidos), `docs/` (bitácora, hallazgos, informe, museo) y los textos | **CC BY 4.0** | [LICENSE-CONTENIDO.txt](LICENSE-CONTENIDO.txt) | usalo, copialo, modificalo, hasta comercialmente — **pero citá de dónde salió** |
 
@@ -96,7 +97,10 @@ que hace falta para que `go get` funcione: si el módulo y la URL del repo no
 coinciden, Go se niega a bajarlo.
 
 GitHub va a detectar la AGPL-3.0 y te va a poner la etiqueta en la portada del
-repositorio. La CC BY y la comercial quedan como archivos, que es lo normal.
+repositorio — **y por eso `LICENSE` tiene el texto oficial y NADA MÁS**, idéntico
+byte a byte al de SPDX. El lector automático compara contra el texto conocido:
+cualquier encabezado propio arriba y deja de reconocerlo. Por eso el aviso de
+copyright vive aparte, en [NOTICE](NOTICE). **No le agregues nada a `LICENSE`.** La CC BY y la comercial quedan como archivos, que es lo normal.
 
 ## El artículo 13, y por qué nos toca de lleno
 

@@ -110,6 +110,7 @@ Two licences, because code and content are different things:
 |---|---|---|
 | **The code** — everything under `cmd/` and any Go source | **AGPL-3.0** | [LICENSE](LICENSE) |
 | **The code, for closed/commercial use** | **Commercial licence** | [LICENCIA-COMERCIAL.md](LICENCIA-COMERCIAL.md) |
+| **Copyright notice and ownership** | — | [NOTICE](NOTICE) |
 | **The content** — `galeria/` (plates and sounds), `docs/` (logbook, findings, technical report, the museum) and the explanatory texts | **CC BY 4.0** | [LICENSE-CONTENIDO.txt](LICENSE-CONTENIDO.txt) |
 
 To cite a plate, a text or a finding:

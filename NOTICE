@@ -1,0 +1,64 @@
+Laboratorio Diosyunalma
+=======================
+
+Copyright (C) 2026  Jesús Nicolás Astorga
+Copyright (C) 2026  RESOURCES OPEN DOORS S.A.S
+
+
+EL CÓDIGO
+---------
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+El texto completo está en el archivo LICENSE.
+
+
+EL ARTÍCULO 13, QUE ACÁ NOS TOCA
+--------------------------------
+
+El puente de mando es un servicio de red. La sección 13 de la AGPL obliga a que
+quien use el programa POR RED pueda obtener su código fuente. El puente lo
+cumple mientras corre:
+
+    /fuente        la oferta, en pantalla
+    /fuente.zip    el código fuente correspondiente, armado en vivo
+
+
+LICENCIA COMERCIAL
+------------------
+
+Si estos términos no te sirven —producto cerrado, SaaS sin abrir tu código—
+existe una licencia comercial que te exime de la AGPL.
+Ver LICENCIA-COMERCIAL.md.
+
+
+EL CONTENIDO
+------------
+
+Las láminas de galeria/, los documentos de docs/ y los textos explicativos NO
+están bajo AGPL: van bajo Creative Commons Attribution 4.0 International
+(CC BY 4.0). Ver LICENSE-CONTENIDO.txt.
+
+
+FINANCIAMIENTO
+--------------
+
+Financiado por Open Doors (RESOURCES OPEN DOORS S.A.S).
+
+
+LO QUE NINGUNA LICENCIA CUBRE
+-----------------------------
+
+La matemática no se licencia. Los teoremas, las identidades y las mediciones
+publicadas acá son de dominio público desde el momento en que se publican.
+Lo licenciado es el software y la obra escrita, no los hechos.

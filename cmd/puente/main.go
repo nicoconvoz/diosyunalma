@@ -788,7 +788,7 @@ func (p *puente) fuenteZip(w http.ResponseWriter, r *http.Request) {
 	}
 
 	for _, suelto := range []string{
-		"go.mod", "LICENSE", "LICENSE-CONTENIDO.txt",
+		"go.mod", "LICENSE", "NOTICE", "LICENSE-CONTENIDO.txt",
 		"LICENCIA-COMERCIAL.md", "LICENCIAS.md", "README.md",
 	} {
 		agregar(suelto)
