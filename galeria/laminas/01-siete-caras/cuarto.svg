@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="940" viewBox="0 0 1500 940">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">◔ EL CUARTO — todo va detrás del valor absoluto de 1/2 al cuadrado</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">la sospecha del capitán, medida: Λ(ρ)=ρ(1−ρ) — piso 1/4, altura γ², multa (β−½)² — tres cuadrados del 1/2</text><rect x="70" y="100" width="700" height="440" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="1.5"/>
+<text x="420" y="130" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd166">EL PISO 1/4 — las energías del libro viven arriba; los fantasmas caen y fugan</text><line x1="110" y1="450" x2="730" y2="450" stroke="#ffd166" stroke-width="2.5"/>
+<text x="120" y="474" font-size="12.5" fill="#ffd166">el piso: 1/4 = |1/2|² — la energía del punto cero</text><circle cx="140.0" cy="377.1" r="5.5" fill="#7fd7a8"/>
+<line x1="140.0" y1="382.1" x2="140.0" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="190.9" cy="347.7" r="5.5" fill="#7fd7a8"/>
+<line x1="190.9" y1="352.7" x2="190.9" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="241.8" cy="332.1" r="5.5" fill="#7fd7a8"/>
+<line x1="241.8" y1="337.1" x2="241.8" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="292.7" cy="312.9" r="5.5" fill="#7fd7a8"/>
+<line x1="292.7" y1="317.9" x2="292.7" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="343.6" cy="304.7" r="5.5" fill="#7fd7a8"/>
+<line x1="343.6" y1="309.7" x2="343.6" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="394.5" cy="290.6" r="5.5" fill="#7fd7a8"/>
+<line x1="394.5" y1="295.6" x2="394.5" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="445.5" cy="281.3" r="5.5" fill="#7fd7a8"/>
+<line x1="445.5" y1="286.3" x2="445.5" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="496.4" cy="274.9" r="5.5" fill="#7fd7a8"/>
+<line x1="496.4" y1="279.9" x2="496.4" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="547.3" cy="263.3" r="5.5" fill="#7fd7a8"/>
+<line x1="547.3" y1="268.3" x2="547.3" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="598.2" cy="259.2" r="5.5" fill="#7fd7a8"/>
+<line x1="598.2" y1="264.2" x2="598.2" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="649.1" cy="252.0" r="5.5" fill="#7fd7a8"/>
+<line x1="649.1" y1="257.0" x2="649.1" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><circle cx="700.0" cy="244.6" r="5.5" fill="#7fd7a8"/>
+<line x1="700.0" y1="249.6" x2="700.0" y2="450" stroke="#7fd7a8" stroke-width="0.8" opacity="0.4"/><text x="120" y="164" font-size="11.5" fill="#7fd7a8">cada perla: Λ = 1/4 + γ² — real, clavada sobre el piso; lo que tiene de más es EL CUADRADO de su altura</text><circle cx="620" cy="496.0" r="6" fill="#ff5d73"/>
+<line x1="620" y1="450" x2="620" y2="490.0" stroke="#ff5d73" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="580" y="522.0" font-size="11.5" text-anchor="middle" fill="#ff8fa0">el fantasma: cae (β−½)² bajo el techo</text>
+<text x="580" y="540.0" font-size="11.5" text-anchor="middle" fill="#ff8fa0">y FUGA energía imaginaria γ(1−2β)</text><rect x="810" y="100" width="620" height="440" rx="10" fill="#0d2547" stroke="#7fb2ff" stroke-width="1.5"/>
+<text x="1120" y="132" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7fb2ff">EL JUICIO DE LA SUMA — Σ 1/Λ sobre todo el libro</text>
+<text x="1120" y="180" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">649 perlas:      0.044260083</text>
+<text x="1120" y="208" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">cola exacta:     0.001932439</text>
+<text x="1120" y="236" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">TOTAL medido:    0.046192522</text>
+<text x="1120" y="264" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">cerrado 2+γ−ln4π: 0.046191418</text>
+<text x="1120" y="296" font-size="14" text-anchor="middle" fill="#ffd166">desvío: 1.1e-06</text>
+<text x="1120" y="340" font-size="13.5" text-anchor="middle" fill="#dce8f7">y el guiño que cierra el círculo:</text>
+<text x="1120" y="368" font-size="14.5" text-anchor="middle" fill="#7fd7a8">Σ 1/Λ = 2·λ₁ — EL DOBLE DEL PRIMER DIENTE DEL GERMEN</text>
+<text x="1120" y="400" font-size="12.5" text-anchor="middle" fill="#8fa8c7">las energías del cuarto, el catálogo de perlas y el germen del broche:</text>
+<text x="1120" y="422" font-size="12.5" text-anchor="middle" fill="#8fa8c7">tres instrumentos, UN número — el libro cierra su contabilidad</text>
+<text x="1120" y="466" font-size="12" text-anchor="middle" fill="#ffd166">mismo umbral del tambor hiperbólico: espectro continuo desde 1/4</text>
+<text x="1120" y="488" font-size="12" text-anchor="middle" fill="#ffd166">(la brecha de Selberg) — el tambor que buscamos pisa en |1/2|²</text><rect x="70" y="580" width="1360" height="220" rx="12" fill="#102a10" stroke="#7fd7a8" stroke-width="2"/>
+<text x="750" y="616" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">LA SEXTA CARA — LA CARA DEL CUARTO</text>
+<text x="750" y="650" font-size="14.5" text-anchor="middle" fill="#dce8f7">RH, dicho con el 1/2: TODA energía del libro Λ(ρ)=ρ(1−ρ) es REAL y ≥ 1/4 = |1/2|². El piso es el cuadrado del medio;</text>
+<text x="750" y="678" font-size="14.5" text-anchor="middle" fill="#dce8f7">la altura sobre el piso es γ² (el cuadrado de la altura); la multa por irse es −(β−½)² (el cuadrado de la distancia).</text>
+<text x="750" y="710" font-size="14.5" text-anchor="middle" fill="#ffd166">tres cuadrados del 1/2 — y la suma de TODAS las energías invertidas da exactamente el doble de nuestro primer diente.</text>
+<text x="750" y="742" font-size="13.5" text-anchor="middle" fill="#ff8fa0">la llave en este idioma: demostrar que ninguna energía puede fugar parte imaginaria. Todavía no — pero la sospecha era EXACTA.</text>
+<text x="750" y="776" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text></svg>

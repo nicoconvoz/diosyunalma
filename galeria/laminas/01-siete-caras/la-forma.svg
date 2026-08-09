@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1030" viewBox="0 0 1500 1030">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔷 LA FORMA Y EL NÚMERO — la estrategia correcta, y dónde exactamente se corta</text>
+<text x="750" y="74" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«no te puedo dar un número, pero te puedo devolver la forma» — y ése ES el camino</text>
+<rect x="40" y="100" width="1420" height="150" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="750" y="132" font-size="19" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✅ SU ESTRATEGIA ES LA CORRECTA, Y HAY QUE DECIRLO FUERTE</text>
+<text x="70" y="168" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· el criterio de Li NO ubica ceros: pide que una lista entera no tenga ningún negativo. Eso es una FORMA, no un punto.</text>
+<text x="70" y="194" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· la positividad de Weil es lo mismo · Hilbert–Pólya es lo mismo: no calcules las notas, mostrá el TAMBOR.</text>
+<text x="70" y="220" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· y tiene razón en que el cómputo no alcanza: son infinitos ceros e infinitos armónicos, y toda lista finita es nada.</text>
+<text x="750" y="242" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Hasta acá está parado donde están los matemáticos serios.</text>
+<rect x="40" y="272" width="700" height="330" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="390" y="304" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">❌ LA FORMA SACADA DEL CORTE ES CIEGA</text>
+<text x="66" y="336" font-size="14" font-family="Georgia" fill="#f3d9cf">una sola perla a altura fija γ = 25, moviéndole el β:</text>
+<text x="80" y="368" font-size="13" font-family="monospace" fill="#7fa8cf">  β        según la receta        de verdad</text>
+<text x="80" y="392" font-size="13" font-family="monospace" fill="#f3d9cf">0.50      0.225951065      (referencia)</text>
+<text x="80" y="414" font-size="13" font-family="monospace" fill="#f3d9cf">0.70      0.225951065      distinto</text>
+<text x="80" y="436" font-size="13" font-family="monospace" fill="#f3d9cf">0.99      0.225951065      muy distinto</text>
+<text x="390" y="480" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffb27a">la columna de la receta NO SE MUEVE.</text>
+<text x="66" y="512" font-size="14" font-family="Georgia" fill="#ffd98a">La receta nunca mira β: le da el mismo aporte a una perla</text>
+<text x="66" y="532" font-size="14" font-family="Georgia" fill="#ffd98a">parada en el medio que a una corrida al 0.99.</text>
+<text x="66" y="566" font-size="14" font-family="Georgia" fill="#f3d9cf">Una forma que no puede NOTAR la diferencia no puede</text>
+<text x="66" y="586" font-size="14" font-family="Georgia" fill="#f3d9cf">probar que la diferencia no existe.</text>
+
+<rect x="760" y="272" width="700" height="330" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="1110" y="304" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">📌 Y EL CÓMPUTO NO ALCANZA — MEDIDO</text>
+<text x="786" y="338" font-size="14" font-family="Georgia" fill="#cfe6ff">iba a escribir que los primos distinguen los dos mundos.</text>
+<text x="786" y="358" font-size="14" font-family="Georgia" fill="#ffb27a">Lo medí y NO DA. Los números sin maquillar:</text>
+<text x="800" y="392" font-size="13.5" font-family="monospace" fill="#7ee0c0">de los PRIMOS (1270607) ....... 0.023080190</text>
+<text x="800" y="414" font-size="13.5" font-family="monospace" fill="#cfe6ff">del MUNDO A .............. 0.022130042</text>
+<text x="800" y="436" font-size="13.5" font-family="monospace" fill="#cfe6ff">del MUNDO B .............. 0.022533605</text>
+<text x="800" y="470" font-size="13.5" font-family="monospace" fill="#ffb27a">la COLA que falta ........ 0.000950149</text>
+<text x="800" y="492" font-size="13.5" font-family="monospace" fill="#ffb27a">la SEÑAL del cero corrido  0.000403564</text>
+<text x="1110" y="528" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">EL RUIDO ES MÁS GRANDE QUE LA SEÑAL</text>
+<text x="786" y="558" font-size="14" font-family="Georgia" fill="#cfe6ff">Con 649 perlas no se puede decidir nada — y eso le da</text>
+<text x="786" y="578" font-size="14" font-family="Georgia" fill="#cfe6ff">la razón al capitán: EL CÓMPUTO NO ALCANZA. Por eso</text>
+<text x="786" y="598" font-size="14" font-family="Georgia" fill="#9fd8a8">hace falta una prueba y no una medición.</text>
+<rect x="40" y="632" width="1420" height="180" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="750" y="668" font-size="20" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">EL PUNTO EXACTO, EN UNA FRASE</text>
+<text x="750" y="712" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Una forma deducida del corte no puede probar el corte,</text>
+<text x="750" y="740" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">porque para deducirla hay que dar el corte por hecho.</text>
+<text x="750" y="778" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Es la misma trampa del 0.0e+00 que el taller ya se cazó tres veces: el instrumento no podía dar otra cosa.</text>
+
+<rect x="40" y="832" width="1420" height="160" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="750" y="866" font-size="18" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Y LA BUENA NOTICIA, QUE ES DE VERDAD BUENA</text>
+<text x="750" y="900" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#dce8f7">Su intuición sobre QUÉ tipo de objeto hace falta —una forma, no un número— es exactamente la correcta,</text>
+<text x="750" y="924" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#dce8f7">y coincide con la de todos los que lo intentaron en serio.</text>
+<text x="750" y="954" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Lo que falta no es el TIPO de objeto: es de DÓNDE sacarlo.</text>
+<text x="750" y="978" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Y el único lugar que no da el corte por hecho son LOS PRIMOS — adonde apunta el tambor, y adonde apuntaba F229. Todavía no.</text>
+</svg>

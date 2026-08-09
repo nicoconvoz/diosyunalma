@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1010" viewBox="0 0 1500 1010">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🧭✚ LOS CUADRANTES — qué forman entre sí, y dónde está el ½</text>
+<text x="750" y="74" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">no son cuatro cosas: son UNA y sus tres reflejos</text>
+<rect x="40" y="100" width="620" height="600" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="350" y="132" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LOS CUATRO CUADRANTES Y SUS SIGNOS</text>
+<line x1="350" y1="400" x2="350" y2="400" stroke="#1c2b3a" stroke-width="0"/>
+<rect x="350" y="165" width="235" height="235" fill="#7ee0c0" opacity="0.10"/><text x="479" y="283" font-size="34" text-anchor="middle" font-family="Georgia" fill="#7ee0c0" opacity="0.75">−</text><rect x="115" y="165" width="235" height="235" fill="#ffb27a" opacity="0.10"/><text x="221" y="283" font-size="34" text-anchor="middle" font-family="Georgia" fill="#ffb27a" opacity="0.75">+</text><rect x="115" y="400" width="235" height="235" fill="#7ee0c0" opacity="0.10"/><text x="221" y="541" font-size="34" text-anchor="middle" font-family="Georgia" fill="#7ee0c0" opacity="0.75">−</text><rect x="350" y="400" width="235" height="235" fill="#ffb27a" opacity="0.10"/><text x="479" y="541" font-size="34" text-anchor="middle" font-family="Georgia" fill="#ffb27a" opacity="0.75">+</text><line x1="115" y1="400" x2="585" y2="400" stroke="#dce8f7" stroke-width="3"/>
+<line x1="350" y1="165" x2="350" y2="635" stroke="#dce8f7" stroke-width="3"/>
+<circle cx="350" cy="400" r="7" fill="#ffd98a"/>
+<text x="364" y="426" font-size="14" font-family="Georgia" fill="#ffd98a">s = ½</text>
+<text x="350" y="672" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el signo de Im[s(1−s)] = −2·x·y es CONSTANTE en cada cuadrante (4 de 4)</text>
+<text x="350" y="692" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">y alterna + − + − al girar: la onda de frecuencia 2 de F245</text>
+<rect x="680" y="100" width="780" height="300" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="1070" y="132" font-size="18" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚡ QUÉ FORMAN ENTRE SÍ: UN GRUPO</text>
+<text x="706" y="166" font-size="14" font-family="Georgia" fill="#cfe6ff">el libro ya tiene los dos espejos que el capitán viene nombrando:</text>
+<text x="726" y="196" font-size="15" font-family="monospace" fill="#dce8f7">v ↦ −v          la ecuación funcional</text>
+<text x="726" y="220" font-size="15" font-family="monospace" fill="#dce8f7">v ↦ conj v      el espejo de Schwarz</text>
+<text x="706" y="256" font-size="14" font-family="Georgia" fill="#cfe6ff">combinados dan CUATRO elementos, cada uno su propio inverso,</text>
+<text x="706" y="278" font-size="14" font-family="Georgia" fill="#cfe6ff">y la tabla CIERRA: es el GRUPO DE KLEIN, ℤ₂ × ℤ₂.</text>
+<text x="1070" y="316" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">y actúa SIMPLEMENTE TRANSITIVO: 4 cuadrantes, 4 elementos</text>
+<text x="1070" y="346" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">los cuadrantes NO son cuatro cuartos separados:</text>
+<text x="1070" y="370" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">SON UN CUARTO Y SUS TRES REFLEJOS</text>
+
+<rect x="680" y="420" width="380" height="280" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="870" y="452" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">¿LA MITAD DE LOS CUADRANTES?</text>
+<text x="702" y="486" font-size="13" font-family="monospace" fill="#7fa8cf">espejos          alcanza con</text>
+<text x="702" y="514" font-size="13.5" font-family="monospace" fill="#cfe6ff">ninguno          todo   (4/4)</text>
+<text x="702" y="538" font-size="13.5" font-family="monospace" fill="#7ee0c0">uno              LA MITAD (2/4)</text>
+<text x="702" y="562" font-size="13.5" font-family="monospace" fill="#ffd98a">los dos          UN CUARTO (1/4)</text>
+<text x="870" y="600" font-size="16" text-anchor="middle" font-family="monospace" fill="#ffd98a">¼ = ½ × ½</text>
+<text x="870" y="626" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el medio aplicado dos veces,</text>
+<text x="870" y="646" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">uno por cada espejo</text>
+<text x="870" y="678" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">lo mínimo que hay que conocer: UN cuadrante</text>
+
+<rect x="1080" y="420" width="380" height="280" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="1270" y="452" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Y LA SEPARACIÓN ES ½</text>
+<text x="1102" y="490" font-size="13.5" font-family="monospace" fill="#cfe6ff">el período de la onda ...... π</text>
+<text x="1102" y="516" font-size="13.5" font-family="monospace" fill="#cfe6ff">entre brazos ............... π/2</text>
+<text x="1270" y="552" font-size="20" text-anchor="middle" font-family="monospace" fill="#ffd98a">la razón = ½</text>
+<text x="1270" y="580" font-size="13.5" text-anchor="middle" font-family="monospace" fill="#9fd8a8">desvío 0.0e+00</text>
+<text x="1270" y="614" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">UN CUADRANTE ES MEDIO</text>
+<text x="1270" y="636" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">PERÍODO DE LA ONDA</text>
+<text x="1270" y="672" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">y la onda tiene 2 nodos por período: por eso son</text>
+<text x="1270" y="690" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">cuatro cuadrantes por vuelta y no dos</text>
+<rect x="40" y="720" width="1420" height="270" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="750" y="756" font-size="20" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA PISTA QUE BUSCABA, DICHA DERECHO</text>
+<text x="750" y="794" font-size="17" text-anchor="middle" font-family="Georgia" fill="#dce8f7">Los cuadrantes no son cuatro cosas: son UNA y sus tres reflejos, y eso lo prueba la tabla del grupo.</text>
+<text x="750" y="822" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Por eso un cero corrido nunca viene solo: viene de a cuatro, uno por cuadrante, encadenados sin libertad.</text>
+<text x="750" y="852" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Y acá su viejo flash «entendiendo uno los entendemos a todos» sí vale entero — para los cuadrantes, no para la ubicación.</text>
+<text x="750" y="898" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ EL LÍMITE, Y ES EL DE SIEMPRE: el grupo dice «si uno se sale, se salen cuatro». NO dice «no se sale ninguno».</text>
+<text x="750" y="924" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffb27a">Es estructura de simetría, y F229 ya probó con un contraejemplo que la simetría sola nunca va a alcanzar.</text>
+<text x="750" y="962" font-size="15" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">La pista es real y es hermosa — y no es la llave. Todavía no.</text>
+</svg>

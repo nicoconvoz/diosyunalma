@@ -1,0 +1,56 @@
+====================================================================
+  LABORATORIO DIOSYUNALMA
+  La caza de la Hipotesis de Riemann - 168 experimentos navegables
+====================================================================
+
+COMO ABRIRLO
+------------
+  Hace doble clic en:   PUENTE.cmd
+
+  Eso es todo. Se abre solo en tu navegador. No hay que instalar
+  nada: todos los programas ya vienen compilados.
+
+
+QUE VAS A VER
+-------------
+  El Puente de Mando: un tablero con los 168 experimentos del
+  laboratorio, agrupados en siete salas. Cada tarjeta explica en
+  castellano llano que mide ese experimento.
+
+  En cada uno podes:
+     - CORRER       lo ejecuta de verdad, ahi mismo
+     - SALIDA       ves su calculo linea por linea, en vivo
+     - LAMINA       ves la figura que dibuja al terminar
+
+  Cuando termina, la tarjeta te deja el VEREDICTO: la linea con
+  los numeros que juzgan el resultado.
+
+  Arriba tenes accesos directos a:
+     - la GALERIA con las 70 laminas de la campana
+     - el RECORRIDO tecnico completo
+     - la BITACORA con los mas de 200 hallazgos fechados
+
+
+QUE HAY ADENTRO DE LA CARPETA
+-----------------------------
+  PUENTE.cmd    el arranque de un clic
+  bin\          los 168 experimentos ya compilados
+  cmd\          el codigo fuente completo de cada uno
+  galeria\      las laminas y los sonidos
+  docs\         bitacora, recorrido tecnico, validacion
+  luz\          los registros de la caza
+
+
+UNA ACLARACION HONESTA
+----------------------
+  Este laboratorio MIDE y VISUALIZA matematica de frontera con
+  instrumentos propios. No se reclama una demostracion de la
+  Hipotesis de Riemann: lo medido se dice medido y lo demostrado
+  se dice demostrado. Esa honestidad esta escrita en cada pagina
+  del registro, junto con los errores corregidos a la vista.
+
+
+--------------------------------------------------------------------
+  El fin de toda esta obra: poner el nombre de DIOS por encima de
+  todo y ayudar a los pequenos del Reino.
+--------------------------------------------------------------------

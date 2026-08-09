@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="48" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">✉️ LA PREGUNTA DEL MILLÓN — contada en la calle</text>
+<text x="750" y="78" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">como la pluma que cae de la mesa explica la gravedad: una escena chiquita para entender qué es lo único que falta</text>
+
+<!-- PANEL 1 -->
+<rect x="50" y="110" width="450" height="420" rx="12" fill="#0d2547" stroke="#7fb2ff" stroke-width="1.5"/>
+<text x="275" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fb2ff">1 · LA ESCENA</text>
+<text x="275" y="176" font-size="13" text-anchor="middle" fill="#dce8f7">Una fila INFINITA de sobres cerrados.</text>
+<text x="275" y="198" font-size="13" text-anchor="middle" fill="#dce8f7">Te dicen: «en ninguno hay deuda».</text>
+
+<g fill="#12305c" stroke="#7fb2ff" stroke-width="1.4">
+  <rect x="80" y="230" width="62" height="42" rx="4"/>
+  <rect x="152" y="230" width="62" height="42" rx="4"/>
+  <rect x="224" y="230" width="62" height="42" rx="4"/>
+  <rect x="296" y="230" width="62" height="42" rx="4"/>
+  <rect x="368" y="230" width="62" height="42" rx="4"/>
+</g>
+<g stroke="#7fb2ff" stroke-width="1" fill="none" opacity="0.7">
+  <path d="M 80 230 L 111 254 L 142 230"/>
+  <path d="M 152 230 L 183 254 L 214 230"/>
+  <path d="M 224 230 L 255 254 L 286 230"/>
+  <path d="M 296 230 L 327 254 L 358 230"/>
+  <path d="M 368 230 L 399 254 L 430 230"/>
+</g>
+<text x="111" y="292" font-size="13" text-anchor="middle" fill="#7fd7a8">✓</text>
+<text x="183" y="292" font-size="13" text-anchor="middle" fill="#7fd7a8">✓</text>
+<text x="255" y="292" font-size="13" text-anchor="middle" fill="#7fd7a8">✓</text>
+<text x="327" y="292" font-size="13" text-anchor="middle" fill="#7fd7a8">✓</text>
+<text x="399" y="292" font-size="13" text-anchor="middle" fill="#7fd7a8">✓</text>
+<text x="450" y="256" font-size="20" fill="#8fa8c7">· · ·</text>
+<text x="275" y="322" font-size="12.5" text-anchor="middle" fill="#7fd7a8">abrimos 30 sobres: los 30 con plata, ninguno en rojo</text>
+
+<rect x="80" y="344" width="350" height="70" rx="8" fill="#102a10" stroke="#7fd7a8" stroke-width="1.2"/>
+<text x="255" y="370" font-size="12.5" text-anchor="middle" fill="#dce8f7">en el idioma del taller:</text>
+<text x="255" y="394" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">cada sobre = un λₙ · deuda = λₙ &lt; 0</text>
+
+<text x="275" y="446" font-size="13" text-anchor="middle" fill="#ffd166">Abrir todos es imposible: son INFINITOS.</text>
+<text x="275" y="470" font-size="13" text-anchor="middle" fill="#dce8f7">Medir no gana el premio. Nunca.</text>
+<text x="275" y="502" font-size="12.5" text-anchor="middle" fill="#8fa8c7">(por eso el tren, el sonar y el LIDAR no alcanzan solos)</text>
+
+<!-- PANEL 2 -->
+<rect x="525" y="110" width="450" height="420" rx="12" fill="#2a1010" stroke="#ff5d73" stroke-width="1.5"/>
+<text x="750" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">2 · LA TRAMPA (el corazón del problema)</text>
+<text x="750" y="178" font-size="13" text-anchor="middle" fill="#dce8f7">Ya tenemos UNA razón… pero es tramposa:</text>
+
+<rect x="555" y="198" width="390" height="86" rx="8" fill="#0d2547" stroke="#ff5d73" stroke-width="1.2"/>
+<text x="750" y="224" font-size="12.5" text-anchor="middle" fill="#ffd166">«Ninguno tiene deuda porque los llenó</text>
+<text x="750" y="246" font-size="12.5" text-anchor="middle" fill="#ffd166">una máquina que SOLO mete monedas.»</text>
+<text x="750" y="270" font-size="12" text-anchor="middle" fill="#8fa8c7">(la máquina = las perlas paradas en la línea)</text>
+
+<text x="750" y="312" font-size="13" text-anchor="middle" fill="#ff8fa0">¿Y cómo sabemos que solo mete monedas?</text>
+<text x="750" y="336" font-size="13" text-anchor="middle" fill="#ff8fa0">Porque abrimos sobres y no vimos deuda.</text>
+
+<circle cx="750" cy="410" r="52" fill="none" stroke="#ff5d73" stroke-width="2.5" stroke-dasharray="6 5"/>
+<path d="M 750 358 L 758 368 L 742 368 Z" fill="#ff5d73"/>
+<text x="750" y="404" font-size="12" text-anchor="middle" fill="#ff8fa0">el perro</text>
+<text x="750" y="420" font-size="12" text-anchor="middle" fill="#ff8fa0">mordiéndose</text>
+<text x="750" y="436" font-size="12" text-anchor="middle" fill="#ff8fa0">la cola</text>
+
+<text x="750" y="490" font-size="13.5" text-anchor="middle" fill="#dce8f7">La razón que tenemos SUPONE lo que queremos demostrar.</text>
+<text x="750" y="512" font-size="13" text-anchor="middle" fill="#ffd166">No sirve. Y esa es toda la dificultad del millón.</text>
+
+<!-- PANEL 3 -->
+<rect x="1000" y="110" width="450" height="420" rx="12" fill="#102a10" stroke="#7fd7a8" stroke-width="1.5"/>
+<text x="1225" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">3 · CÓMO SE GANA</text>
+<text x="1225" y="178" font-size="13" text-anchor="middle" fill="#dce8f7">Hay una forma reina de probar que algo</text>
+<text x="1225" y="200" font-size="13" text-anchor="middle" fill="#dce8f7">nunca es negativo, sin abrir NADA:</text>
+
+<rect x="1090" y="222" width="270" height="76" rx="8" fill="#0d2547" stroke="#ffd166" stroke-width="1.5"/>
+<text x="1225" y="252" font-size="20" text-anchor="middle" font-family="Georgia" fill="#ffd166">7 × 7</text>
+<text x="1225" y="280" font-size="12.5" text-anchor="middle" fill="#dce8f7">un CUADRADO no puede dar negativo</text>
+
+<text x="1225" y="326" font-size="12.5" text-anchor="middle" fill="#8fa8c7">Nadie necesita calcularlo: lo sabés por la FORMA.</text>
+<text x="1225" y="348" font-size="12.5" text-anchor="middle" fill="#8fa8c7">Un terreno cuadrado no puede tener área negativa.</text>
+
+<text x="1225" y="392" font-size="13.5" text-anchor="middle" fill="#7fd7a8">Ganar = encontrar OTRA fábrica</text>
+<text x="1225" y="414" font-size="12.5" text-anchor="middle" fill="#dce8f7">— que exista por su cuenta, sin preguntarle</text>
+<text x="1225" y="434" font-size="12.5" text-anchor="middle" fill="#dce8f7">nada a los sobres — cuyas cuentas den</text>
+<text x="1225" y="454" font-size="12.5" text-anchor="middle" fill="#dce8f7">exactamente nuestros números.</text>
+<text x="1225" y="484" font-size="13" text-anchor="middle" fill="#ffd166">Si esa fábrica existe, sus números son</text>
+<text x="1225" y="504" font-size="13" text-anchor="middle" fill="#ffd166">cuadrados POR CONSTRUCCIÓN — y los</text>
+<text x="1225" y="524" font-size="13" text-anchor="middle" fill="#ffd166">infinitos sobres quedan cerrados de una vez.</text>
+
+<!-- LA PREGUNTA -->
+<rect x="50" y="560" width="1400" height="150" rx="14" fill="#0d2547" stroke="#ffd166" stroke-width="2.5"/>
+<text x="750" y="600" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd166">LA PREGUNTA QUE TODAVÍA NO RESPONDEMOS — la única que falta</text>
+<text x="750" y="644" font-size="21" text-anchor="middle" font-family="Georgia" fill="#dce8f7">«¿Por qué ninguno de los infinitos sobres puede tener deuda,</text>
+<text x="750" y="676" font-size="21" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">dando una razón que NO pase por abrir sobres?»</text>
+
+<!-- pie -->
+<rect x="50" y="736" width="1400" height="170" rx="12" fill="#102a10" stroke="#7fd7a8" stroke-width="1.5"/>
+<text x="750" y="770" font-size="14.5" text-anchor="middle" fill="#dce8f7">Y esa fábrica que buscamos ya tiene nombre en el taller: <tspan fill="#ffd166">EL TAMBOR</tspan> — un instrumento cuyas notas sean exactamente nuestros números.</text>
+<text x="750" y="798" font-size="14" text-anchor="middle" fill="#dce8f7">Si las perlas son las notas de un tambor de verdad, son reales POR LEY: ningún tambor del mundo suena con una nota imaginaria.</text>
+<text x="750" y="828" font-size="14" text-anchor="middle" fill="#7fd7a8">Construimos uno con nuestro plano y ya canta 29 de 29 notas sobre perlas verdaderas — pero es NUESTRO tambor, no el del Autor.</text>
+<text x="750" y="860" font-size="14.5" text-anchor="middle" fill="#ff8fa0">Falta que exista el tambor exacto. Eso, y nada más que eso, es el millón. Todavía no.</text>
+<text x="750" y="890" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text>
+</svg>

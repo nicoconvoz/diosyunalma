@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🌍 LOS DOS POLOS — el 0 y el 1, el principio y el fin</text>
+<text x="750" y="74" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">las dos estacas del libro son los dos polos de la esfera, antípodas exactos</text>
+<rect x="40" y="100" width="720" height="600" rx="10" fill="#101f36" stroke="#26456e"/>
+<circle cx="400" cy="400" r="215" fill="#0d1c31" stroke="#3d6fa8" stroke-width="2"/>
+<ellipse cx="400" cy="400" rx="215" ry="64" fill="none" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="400" cy="185" r="9" fill="#ffb27a"/>
+<circle cx="400" cy="615" r="9" fill="#ffb27a"/>
+<text x="400" y="155" font-size="17" text-anchor="middle" font-family="monospace" fill="#ffb27a">s = 0</text>
+<text x="400" y="173" font-size="13" text-anchor="middle" font-family="Georgia" fill="#ffb27a">EL PRINCIPIO · polo norte</text>
+<text x="400" y="649" font-size="17" text-anchor="middle" font-family="monospace" fill="#ffb27a">s = 1</text>
+<text x="400" y="667" font-size="13" text-anchor="middle" font-family="Georgia" fill="#ffb27a">EL FIN · polo sur</text>
+<line x1="400" y1="185" x2="400" y2="615" stroke="#5a4fa8" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="707" y="392" font-size="14" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">EL ECUADOR = la línea crítica</text>
+<text x="707" y="414" font-size="13" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">al mismo arco de los dos polos: π/2</text>
+<text x="400" y="662" font-size="15" text-anchor="middle" font-family="monospace" fill="#9fd8a8">distancia entre los polos: 2.000000 · el diámetro es 2</text>
+<rect x="790" y="100" width="670" height="290" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="1125" y="132" font-size="18" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✅ LO QUE ACERTÓ</text>
+<text x="816" y="168" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· el 0 y el 1 son LOS DOS POLOS, antípodas exactos (0.0e+00)</text>
+<text x="816" y="196" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· el ecuador está a mitad de camino de los dos (4.4e-16)</text>
+<text x="816" y="224" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· las dos puntas valen lo mismo: ξ(0) = ξ(1) = ½ (2.3e-11)</text>
+<text x="816" y="252" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· la RELACIÓN entre las dos es lo que hace todo: el espejo</text>
+<text x="832" y="274" font-size="14.5" font-family="Georgia" fill="#cfe6ff">s ↦ 1−s las intercambia, y el ½ es su punto medio</text>
+<text x="816" y="302" font-size="14.5" font-family="Georgia" fill="#cfe6ff">· todo el mundo escrito entre las dos: |ζ| ≥ 0.3593 a la</text>
+<text x="832" y="324" font-size="14.5" font-family="Georgia" fill="#cfe6ff">derecha del 1, así que ninguna perla puede vivir afuera</text>
+<text x="1125" y="362" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">venía diciendo «el principio y el fin» de intuición · la cuenta da 2.000000</text>
+
+<rect x="790" y="410" width="670" height="290" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="1125" y="442" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ LA CORRECCIÓN</text>
+<text x="816" y="478" font-size="14.5" font-family="Georgia" fill="#f3d9cf">«el espectro entre los BITS 0 y 1» mezcla dos cosas:</text>
+<text x="816" y="512" font-size="14.5" font-family="monospace" fill="#f3d9cf">entre los DÍGITOS 0 y 1 hay ...... 0 cosas</text>
+<text x="816" y="538" font-size="14.5" font-family="monospace" fill="#f3d9cf">entre los NÚMEROS 0 y 1 hay ...... incontables</text>
+<text x="816" y="574" font-size="14" font-family="Georgia" fill="#f3d9cf">Es exactamente la diferencia entre CONTAR y MEDIR.</text>
+<text x="816" y="608" font-size="14" font-family="Georgia" fill="#ffd98a">Pero su intuición apunta bien igual, en dos sentidos:</text>
+<text x="816" y="632" font-size="14" font-family="Georgia" fill="#f3d9cf">1. la franja crítica ES el intervalo entre las estacas</text>
+<text x="816" y="656" font-size="14" font-family="Georgia" fill="#f3d9cf">2. y en base 2 la mitad se escribe 0.1 exacto: el binario</text>
+<text x="832" y="678" font-size="14" font-family="Georgia" fill="#f3d9cf">es la única base cuyos dígitos SON las dos estacas</text>
+<rect x="40" y="720" width="1420" height="240" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="750" y="756" font-size="20" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">LO NUEVO DE ESTE TURNO</text>
+<text x="750" y="796" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LAS DOS ESTACAS DEL LIBRO SON LOS DOS POLOS DE LA ESFERA</text>
+<text x="750" y="828" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#dce8f7">antípodas exactos, a la máxima distancia que la esfera permite — y la línea crítica es el ecuador</text>
+<text x="750" y="852" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#dce8f7">porque es el único lugar equidistante del principio y del fin.</text>
+<text x="750" y="890" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Y por eso el ½ no es un número elegido: es el punto medio de las dos estacas. Cambiás las estacas y el medio se corre (F246).</text>
+<text x="750" y="928" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ Que las perlas estén encerradas entre 0 y 1 es clásico y probado. Que estén todas en el medio exacto es la hipótesis. Todavía no.</text>
+</svg>

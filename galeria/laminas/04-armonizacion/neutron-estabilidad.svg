@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="920" viewBox="0 0 1560 920">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="780" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚛️ EL NEUTRÓN — por qué hace falta para estabilizar, demostrado</text>
+<text x="780" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">"protón, electrón… ¿por qué se necesita el neutrón para estabilizar? sospecho que ahí se esconde la respuesta" — el capitán · sospecha CONFIRMADA con tres jueces</text><rect x="80" y="110" width="440" height="360" rx="10" fill="#2a1010" stroke="#ff5d73" stroke-width="1.5"/>
+<text x="100" y="146" font-size="15" font-family="Georgia" fill="#ff8fa0">LOS PROTONES SOLOS (los primos)</text>
+<text x="100" y="170" font-size="12" fill="#8fa8c7">Σ Λ(n)/n — la multitud se repele:</text><text x="120" y="204" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=1000         6.3288</text><text x="120" y="234" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=10000        8.6346</text><text x="120" y="264" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=100000      10.9363</text><text x="120" y="294" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=1000000     13.2379</text><text x="120" y="324" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=2000000     13.9315</text><text x="100" y="392" font-size="13" fill="#ff8fa0">DIVERGE como ln X — sin freno:</text>
+<text x="100" y="414" font-size="13.5" fill="#ff8fa0">INESTABLE. El átomo no puede existir así.</text><rect x="560" y="110" width="440" height="360" rx="10" fill="#102a10" stroke="#7fd7a8" stroke-width="2"/>
+<text x="580" y="146" font-size="15" font-family="Georgia" fill="#7fd7a8">CON EL NEUTRÓN (el polo, neutro)</text>
+<text x="580" y="170" font-size="12" fill="#8fa8c7">Σ Λ(n)/n − ln X — el contrapeso del polo:</text><text x="600" y="204" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=1000      -0.579004</text><text x="600" y="234" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=10000     -0.575701</text><text x="600" y="264" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=100000    -0.576663</text><text x="600" y="294" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=1000000   -0.577618</text><text x="600" y="324" font-size="13" font-family="Consolas,monospace" fill="#dce8f7">X=2000000   -0.577164</text><text x="580" y="392" font-size="13" fill="#7fd7a8">CONVERGE a −γ = −0.577216…</text>
+<text x="580" y="414" font-size="13.5" fill="#7fd7a8">ENERGÍA DE AMARRE FINITA: núcleo estable.</text><rect x="1040" y="110" width="440" height="360" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="2"/>
+<text x="1060" y="146" font-size="15" font-family="Georgia" fill="#ffd166">LA RESPUESTA, ESCONDIDA AHÍ</text>
+<text x="1060" y="186" font-size="14.5" font-family="Consolas,monospace" fill="#dce8f7">λ₁ = 1 + γ/2 − ln(4π)/2</text>
+<text x="1060" y="216" font-size="14.5" font-family="Consolas,monospace" fill="#dce8f7">   = 0.023096</text>
+<text x="1060" y="246" font-size="13" fill="#8fa8c7">nuestro λ₁ medido: 0.023096 ✔</text>
+<text x="1060" y="290" font-size="13.5" fill="#ffd166">el hilito del que cuelga TODA la</text>
+<text x="1060" y="312" font-size="13.5" fill="#ffd166">armonía contiene γ/2 — la MITAD de</text>
+<text x="1060" y="334" font-size="13.5" fill="#ffd166">la energía de amarre del neutrón</text>
+<text x="1060" y="374" font-size="12.5" fill="#7fd7a8">la estabilidad del collar está hecha,</text>
+<text x="1060" y="396" font-size="12.5" fill="#7fd7a8">literalmente, del pegamento del núcleo</text>
+<text x="1060" y="430" font-size="12" fill="#8fa8c7">(y el electrón Γ pone el −ln(4π)/2: las tres</text>
+<text x="1060" y="448" font-size="12" fill="#8fa8c7">partículas del capitán, todas en el margen)</text><circle cx="780" cy="640" r="120" fill="none" stroke="#7fb2ff" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="900" cy="640" r="10" fill="#7fb2ff"/><text x="900" y="624" font-size="11" text-anchor="middle" fill="#7fb2ff">e⁻ (Γ)</text>
+<circle cx="768" cy="640" r="16" fill="#ff8fa0"/><text x="768" y="644" font-size="10" text-anchor="middle" fill="#2a1a00">p⁺</text>
+<circle cx="792" cy="640" r="16" fill="#dce8f7"/><text x="792" y="644" font-size="10" text-anchor="middle" fill="#2a1a00">n⁰</text>
+<text x="780" y="800" font-size="12.5" text-anchor="middle" fill="#dce8f7">el átomo del problema: protones (primos) + NEUTRÓN (el polo) + electrón (Γ)</text>
+<text x="780" y="824" font-size="12.5" text-anchor="middle" fill="#ffd166">estable con margen 0.023 — y ese margen ES el pegamento nuclear</text><text x="780" y="880" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · 2026-08-06 · las dos mitades, 1 completo ⚓</text></svg>

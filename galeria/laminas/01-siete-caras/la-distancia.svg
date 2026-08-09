@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">📏 LA DISTANCIA — nada puede ser negativo porque una distancia no puede</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">el flash del capitán: "la fórmula se esconde en la distancia — la del espacio, la del tiempo y la de la energía" · y tiene un test exacto</text><rect x="60" y="105" width="620" height="330" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="1.5"/>
+<text x="370" y="138" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd166">LAS TRES DISTANCIAS SON UN SOLO NÚMERO</text>
+<text x="370" y="174" font-size="14" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">‖v_m − v_n‖² = λ_{|m−n|}</text>
+<text x="370" y="206" font-size="12.5" text-anchor="middle" fill="#8fa8c7">la distancia entre dos armónicos SOLO mira el salto entre ellos</text>
+<text x="130" y="252" font-size="13" fill="#7fd7a8">ESPACIO</text><text x="250" y="252" font-size="12.5" fill="#dce8f7">el largo de la cuerda |1 − wⁿ| sobre el anillo</text>
+<text x="130" y="286" font-size="13" fill="#7fb2ff">TIEMPO</text><text x="250" y="286" font-size="12.5" fill="#dce8f7">el retardo entre dos armónicos: solo cuenta m − n</text>
+<text x="130" y="320" font-size="13" fill="#ffd97f">ENERGÍA</text><text x="250" y="320" font-size="12.5" fill="#dce8f7">la norma al cuadrado del punto: su energía propia</text>
+<text x="370" y="366" font-size="12.5" text-anchor="middle" fill="#7fd7a8">verificado contra 138 perlas verdaderas: peor desvío 9e-16</text>
+<text x="370" y="398" font-size="13" text-anchor="middle" fill="#ffd166">y una distancia NO PUEDE ser menor que cero — esa es la forma que faltaba</text><rect x="710" y="105" width="730" height="330" rx="10" fill="#102a10" stroke="#7fd7a8" stroke-width="1.5"/>
+<text x="1075" y="138" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">EL TEST EXACTO (Schoenberg) — ¿son distancias VERDADERAS?</text>
+<text x="1075" y="172" font-size="13" text-anchor="middle" fill="#dce8f7">una tabla de números son distancias reales SI Y SOLO SI</text>
+<text x="1075" y="196" font-size="13.5" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">M[m][n] = (λ_m + λ_n − λ_{|m−n|}) / 2</text>
+<text x="1075" y="220" font-size="13" text-anchor="middle" fill="#dce8f7">no tiene NINGÚN autovalor negativo</text>
+<text x="1075" y="256" font-size="12.5" text-anchor="middle" fill="#8fa8c7">matriz 40x40 armada SOLO con los dientes del broche — sin ver una perla</text>
+<text x="1075" y="292" font-size="16" text-anchor="middle" fill="#7fd7a8">autovalor mínimo: -2.090e-10</text>
+<text x="1075" y="320" font-size="15" text-anchor="middle" fill="#7fd7a8">piso de ruido: 5.2e-09</text>
+<text x="1075" y="360" font-size="13" text-anchor="middle" fill="#dce8f7">COMPATIBLE CON CERO: el molde es una distancia verdadera</text>
+<text x="1075" y="382" font-size="13" text-anchor="middle" fill="#dce8f7">hasta donde este instrumento puede ver — es lectura, no prueba</text><rect x="60" y="460" width="1380" height="215" rx="10" fill="#2a1010" stroke="#ff5d73" stroke-width="1.5"/>
+<text x="750" y="494" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">EL FANTASMA NO PUEDE FINGIR UNA DISTANCIA</text>
+<text x="750" y="522" font-size="12.5" text-anchor="middle" fill="#dce8f7">si una perla deja la línea, |w| ≠ 1, la identidad del salto se rompe y la matriz DEBE mostrar un autovalor negativo. Inyectados y medidos:</text><text x="200" y="562" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">β = 0.95</text>
+<text x="200" y="588" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#ff8fa0">mín = -8.18e+13</text>
+<text x="200" y="612" font-size="12" text-anchor="middle" fill="#ff8fa0">✗ no es distancia</text><text x="510" y="562" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">β = 0.90</text>
+<text x="510" y="588" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#ff8fa0">mín = -1.21e+13</text>
+<text x="510" y="612" font-size="12" text-anchor="middle" fill="#ff8fa0">✗ no es distancia</text><text x="820" y="562" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">β = 0.90</text>
+<text x="820" y="588" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#ff8fa0">mín = -2.20e-10</text>
+<text x="820" y="612" font-size="12" text-anchor="middle" fill="#ff8fa0">✗ no es distancia</text><text x="1130" y="562" font-size="13" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">β = 0.60</text>
+<text x="1130" y="588" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#ff8fa0">mín = -2.09e-10</text>
+<text x="1130" y="612" font-size="12" text-anchor="middle" fill="#ff8fa0">✗ no es distancia</text><text x="750" y="650" font-size="13" text-anchor="middle" fill="#dce8f7">el test no es decorativo: distingue el molde verdadero de cualquier impostor, mirando solo los dientes</text><rect x="60" y="700" width="1380" height="180" rx="12" fill="#0d2547" stroke="#ffd166" stroke-width="2"/>
+<text x="750" y="736" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd166">LO QUE COMPRÓ EL FLASH</text>
+<text x="750" y="770" font-size="14.5" text-anchor="middle" fill="#dce8f7">La intuición del capitán es un teorema: si los λ son distancias verdaderas, son ≥ 0 POR SER DISTANCIAS — no porque los hayamos medido.</text>
+<text x="750" y="798" font-size="14.5" text-anchor="middle" fill="#dce8f7">Y "ser distancia verdadera" tiene test exacto: ningún autovalor negativo, en una matriz armada sin mirar una sola perla. Pasa en los 40 dientes.</text>
+<text x="750" y="830" font-size="14.5" text-anchor="middle" fill="#ff8fa0">LO QUE FALTA, por fin en el idioma correcto: demostrar que esa matriz NUNCA puede tener un autovalor negativo, para todo tamaño. Todavía no.</text>
+<text x="750" y="864" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text></svg>

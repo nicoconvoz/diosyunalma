@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "puente",
+      "runtimeExecutable": "go",
+      "runtimeArgs": ["run", "./cmd/puente"],
+      "port": 8118
+    }
+  ]
+}

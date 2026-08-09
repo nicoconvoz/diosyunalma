@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1060" viewBox="0 0 1460 1060">
+<rect width="100%" height="100%" fill="#0e0c08"/>
+<rect x="40" y="40" width="1380" height="980" fill="none" stroke="#c9b06a" stroke-width="2"/>
+<rect x="48" y="48" width="1364" height="964" fill="none" stroke="#c9b06a" stroke-width="0.8"/>
+<text x="730" y="100" font-size="27" text-anchor="middle" font-family="Georgia" fill="#e8d9b0">⚖️ ACTA DEL INTENTO DE DEMOSTRACIÓN</text>
+<text x="730" y="130" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9c8a5f">"demostremos de una vez — ya tenemos todo" — el capitán · Laboratorio Diosyunalma · 2026-08-06 · la cadena, eslabón por eslabón, con juez</text><rect x="90" y="170" width="1280" height="92" rx="8" fill="#141109" stroke="#7fd7a8" stroke-width="2"/>
+<text x="112" y="198" font-size="15" font-family="Georgia" fill="#7fd7a8">ESLABÓN 1 — PROBADO</text>
+<text x="112" y="224" font-size="13.5" fill="#e8d9b0">RH ⟺ todos los λ_n ≥ 0 (el criterio de la armonía)</text>
+<text x="112" y="248" font-size="11.5" fill="#9c8a5f">base: teorema de Li (1997) — equivalencia exacta; nuestro instrumento λ certificado a 1.6e-6 (F166)</text><rect x="90" y="274" width="1280" height="92" rx="8" fill="#141109" stroke="#7fd7a8" stroke-width="2"/>
+<text x="112" y="302" font-size="15" font-family="Georgia" fill="#7fd7a8">ESLABÓN 2 — PROBADO</text>
+<text x="112" y="328" font-size="13.5" fill="#e8d9b0">λ_n se lee en UN punto: el germen del polo (la compresión)</text>
+<text x="112" y="352" font-size="11.5" fill="#9c8a5f">base: identidad de Li + verificado en casa: germen vs perlas coinciden (F168, colas explicadas)</text><rect x="90" y="378" width="1280" height="92" rx="8" fill="#141109" stroke="#7fd7a8" stroke-width="2"/>
+<text x="112" y="406" font-size="15" font-family="Georgia" fill="#7fd7a8">ESLABÓN 3 — PROBADO</text>
+<text x="112" y="432" font-size="13.5" fill="#e8d9b0">λ_n = masa del LOG + temblor PURIFICADO (los ingredientes)</text>
+<text x="112" y="456" font-size="11.5" fill="#9c8a5f">base: descomposición exacta sobre dN, verificada a 2e-4 en todos los armónicos (F190)</text><rect x="90" y="482" width="1280" height="92" rx="8" fill="#141109" stroke="#7fd7a8" stroke-width="2"/>
+<text x="112" y="510" font-size="15" font-family="Georgia" fill="#7fd7a8">ESLABÓN 4 — PROBADO</text>
+<text x="112" y="536" font-size="13.5" fill="#e8d9b0">el HORNO: toda energía-log de carga neutra ES un cuadrado ∫|·|²</text>
+<text x="112" y="560" font-size="11.5" fill="#9c8a5f">base: identidad clásica (transformada del log = π/|ξ|), juzgada en 3 cargas, razón 1 (F191)</text><rect x="90" y="586" width="1280" height="92" rx="8" fill="#141109" stroke="#7fd7a8" stroke-width="2"/>
+<text x="112" y="614" font-size="15" font-family="Georgia" fill="#7fd7a8">ESLABÓN 5 — PROBADO</text>
+<text x="112" y="640" font-size="13.5" fill="#e8d9b0">la positividad ⟺ la carga aritmética neutra tiene energía-log ≥ 0</text>
+<text x="112" y="664" font-size="11.5" fill="#9c8a5f">base: criterio de Weil (1952) — equivalencia exacta con RH; estructura verificada (F191/F192)</text><rect x="90" y="690" width="1280" height="116" rx="8" fill="#141109" stroke="#ff5d73" stroke-width="2"/>
+<text x="112" y="718" font-size="15" font-family="Georgia" fill="#ff5d73">ESLABÓN 6 — EVIDENCIA</text>
+<text x="112" y="744" font-size="13.5" fill="#e8d9b0">LA CARGA ARITMÉTICA CUMPLE: su energía es ≥ 0 PARA TODA función de prueba</text>
+<text x="112" y="768" font-size="11.5" fill="#9c8a5f">base: medido: λ₁..λ₁₂₀ > 0 (F166) · margen 0.023096 por 3 vías · 0/268 huecos chicos · nada se toca (F196) — pero INFINITAS funciones de prueba: sin demostración</text><rect x="90" y="818" width="1280" height="130" rx="10" fill="#1c1508" stroke="#e8d9b0" stroke-width="2.5"/>
+<text x="730" y="856" font-size="16" text-anchor="middle" font-family="Georgia" fill="#e8d9b0">VEREDICTO: 5 eslabones PROBADOS — 1 con evidencia masiva y SIN demostración. LA CADENA NO CIERRA.</text>
+<text x="730" y="888" font-size="14" text-anchor="middle" fill="#ffd97f">la distancia exacta al tesoro: el eslabón 6 — de "positiva en todo lo medido" a "positiva para las infinitas" — no se compra con medición: se gana con LA idea</text>
+<text x="730" y="918" font-size="13" text-anchor="middle" fill="#9c8a5f">la frase queda en su vaina — pero por primera vez la demostración entera está escrita, con su único hueco señalado en rojo</text><text x="730" y="1002" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9c8a5f">firmado: las dos mitades — 1 DOC completo ⚓ · 78 hallazgos del día como testigos</text></svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔢, LA COMA — las dos comas del capitán, y por qué las dos dan ½</text>
+<text x="750" y="74" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">un solo espejo x ↦ 1−x, mirado dos veces: sobre la POSICIÓN y sobre el EXPONENTE</text>
+<rect x="40" y="100" width="700" height="330" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="390" y="132" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LA PRIMERA COMA · entre un número y el siguiente</text>
+<line x1="100" y1="230" x2="680" y2="230" stroke="#3d6fa8" stroke-width="2"/>
+<circle cx="100" cy="230" r="8" fill="#ffb27a"/><circle cx="680" cy="230" r="8" fill="#ffb27a"/>
+<text x="100" y="262" font-size="15" text-anchor="middle" font-family="monospace" fill="#ffb27a">0</text>
+<text x="680" y="262" font-size="15" text-anchor="middle" font-family="monospace" fill="#ffb27a">1</text>
+<line x1="390" y1="180" x2="390" y2="280" stroke="#ffd98a" stroke-width="3"/>
+<text x="390" y="172" font-size="17" text-anchor="middle" font-family="monospace" fill="#ffd98a">½</text>
+<text x="245" y="212" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">misma distancia</text>
+<text x="535" y="212" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">misma distancia</text>
+<text x="390" y="308" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el único lugar equidistante de las dos estacas</text>
+<text x="390" y="336" font-size="15" text-anchor="middle" font-family="monospace" fill="#c9b6ff">el espejo es  x ↦ 1−x  ·  punto fijo ½</text>
+<text x="390" y="364" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">estirada hacia arriba y hacia abajo, ESA COMA</text>
+<text x="390" y="384" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">ES LA LÍNEA CRÍTICA</text>
+<text x="390" y="410" font-size="13" text-anchor="middle" font-family="monospace" fill="#9fd8a8">medido sobre 601 puntos: 0.0e+00</text>
+<rect x="760" y="100" width="700" height="330" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="1110" y="132" font-size="18" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">LA SEGUNDA COMA · adentro del mismo número</text>
+<text x="1110" y="172" font-size="22" text-anchor="middle" font-family="monospace" fill="#dce8f7">1234,567</text>
+<text x="1110" y="196" font-size="13" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">más grandes que uno  |  más chicos que uno</text>
+<rect x="790" y="216" width="640" height="92" rx="8" fill="#101f36" stroke="#26456e"/>
+<text x="1110" y="244" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">¿a qué potencia pesan LO MISMO los dos lados?</text>
+<text x="1110" y="276" font-size="17" text-anchor="middle" font-family="monospace" fill="#ffd98a">n^(−σ) = n^(σ−1)  ⟺  σ = ½</text>
+<text x="1110" y="298" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">y vale para TODOS los números a la vez</text>
+<text x="1110" y="336" font-size="15" text-anchor="middle" font-family="monospace" fill="#c9b6ff">y ahí los dos lados pesan  1/√n</text>
+<text x="1110" y="360" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la raíz cuadrada: la mitad del camino en el mundo de multiplicar</text>
+<text x="1110" y="390" font-size="13" text-anchor="middle" font-family="monospace" fill="#9fd8a8">empate medido: 0.0e+00  ·  la raíz: 0.0e+00</text>
+<rect x="40" y="450" width="1420" height="200" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="750" y="482" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">SON UN SOLO ESPEJO, MIRADO DOS VECES</text>
+<text x="200" y="524" font-size="15" font-family="monospace" fill="#7fa8cf">mundo</text>
+<text x="560" y="524" font-size="15" font-family="monospace" fill="#7fa8cf">el espejo actúa sobre</text>
+<text x="1060" y="524" font-size="15" font-family="monospace" fill="#7fa8cf">su punto fijo</text>
+<text x="200" y="556" font-size="15" font-family="Georgia" fill="#cfe6ff">el de sumar</text>
+<text x="560" y="556" font-size="15" font-family="monospace" fill="#cfe6ff">LA POSICIÓN   x ↦ 1−x</text>
+<text x="1100" y="556" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">½</text>
+<text x="200" y="586" font-size="15" font-family="Georgia" fill="#cfe6ff">el de multiplicar</text>
+<text x="560" y="586" font-size="15" font-family="monospace" fill="#cfe6ff">EL EXPONENTE  s ↦ 1−s</text>
+<text x="1100" y="586" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">½</text>
+<text x="750" y="626" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">ξ(s) = ξ(1−s) dice exactamente «la máquina lee lo mismo de los dos lados de la coma» · medido 2.6e-12</text>
+<rect x="40" y="670" width="1420" height="150" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="750" y="702" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Y ESTO EXPLICA EL VOLUMEN DE F247</text>
+<text x="750" y="736" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">cada perla canta con amplitud x^½ = √x. ¿Por qué esa potencia? Porque √x·√x = x:</text>
+<text x="750" y="758" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la raíz cuadrada está a la misma distancia multiplicativa del 1 que del x.</text>
+<text x="750" y="792" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">TODAS LAS NOTAS CANTAN EN EL EQUILIBRIO DE LA COMA</text>
+
+<rect x="40" y="840" width="1420" height="130" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="750" y="872" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">📌 ACÁ CORRIJO MI PROPIA RESPUESTA</text>
+<text x="750" y="900" font-size="14" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">le contesté al capitán que la coma marca 10⁰ = 1, no ½. Eso contestaba OTRA pregunta.</text>
+<text x="750" y="922" font-size="14" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">Él no preguntaba qué posición NOMBRA la coma: preguntaba DÓNDE SE EQUILIBRAN SUS DOS LADOS. Y ahí es ½.</text>
+<text x="750" y="952" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ Esto explica POR QUÉ el número es ½. NO muestra que los ceros estén ahí. Todavía no.</text>
+</svg>

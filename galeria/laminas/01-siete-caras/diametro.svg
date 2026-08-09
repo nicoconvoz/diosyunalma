@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⌀ EL DIÁMETRO — |1|² = |1/2|² armonizado en la dimensión 0</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">la cuenta del capitán: el armonizador entre la pared y la mitad es 4 — y 4 es el diámetro² del anillo, el puente que cruza el broche</text><circle cx="420" cy="430" r="250" fill="none" stroke="#7fd7a8" stroke-width="2.5"/>
+<line x1="170" y1="430" x2="670" y2="430" stroke="#ffd166" stroke-width="3"/>
+<circle cx="670" cy="430" r="9" fill="#ffd97f"/>
+<circle cx="170" cy="430" r="9" fill="#ff8fa0"/>
+<circle cx="420" cy="430" r="7" fill="#7fb2ff"/>
+<text x="510" y="410" font-size="12.5" fill="#ffd97f">w=+1 · EL BROCHE (s=∞, la dimensión 0)</text>
+<text x="340" y="410" font-size="12.5" text-anchor="end" fill="#ff8fa0">w=−1 · LA ANTÍPODA (s=1/2)</text>
+<text x="420" y="456" font-size="12.5" text-anchor="middle" fill="#7fb2ff">w=0 · EL CENTRO (s=1, la pared)</text>
+<text x="420" y="720" font-size="14" text-anchor="middle" fill="#ffd166">la cuerda dorada: ⌀ = 2 → ⌀² = 4 = EL ARMONIZADOR</text><rect x="810" y="120" width="620" height="480" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="1.5"/>
+<text x="1120" y="156" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd166">LA CUENTA, PASO A PASO</text>
+<text x="1120" y="200" font-size="16" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">|1|² = 1.000000  (confirmado jaja)</text>
+<text x="1120" y="232" font-size="16" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">|1/2|² = 0.250000  (el piso del cuarto)</text>
+<text x="1120" y="270" font-size="16" text-anchor="middle" font-family="Consolas,monospace" fill="#ffd97f">|1|² = 4 · |1/2|²  → armonizador k = 4</text>
+<text x="1120" y="312" font-size="14" text-anchor="middle" fill="#7fd7a8">por el cambiaformas: ∞→+1 · 1→0 · ½→−1</text>
+<text x="1120" y="340" font-size="14" text-anchor="middle" fill="#7fd7a8">cuerda broche→antípoda: |(+1)−(−1)|² = 4.000000 ✓</text>
+<text x="1120" y="378" font-size="14" text-anchor="middle" fill="#dce8f7">y es EL 4 del reloj de sol: λₙ = Σ 4·sin²(nθ/2)</text>
+<text x="1120" y="404" font-size="13" text-anchor="middle" fill="#dce8f7">sombra máxima medida (29 perlas × 100 armónicos): 4.0000 &lt; 4</text>
+<text x="1120" y="446" font-size="14" text-anchor="middle" fill="#ffd166">el guiño del espejo: ξ(1) = ξ(0) = 0.500000 = 1/2 exacto</text>
+<text x="1120" y="472" font-size="12.5" text-anchor="middle" fill="#8fa8c7">las dos tapas del libro llevan escrito el nombre de la mitad</text>
+<text x="1120" y="520" font-size="13.5" text-anchor="middle" fill="#ff8fa0">la pared y la mitad no se igualan solas: se igualan a través</text>
+<text x="1120" y="544" font-size="13.5" text-anchor="middle" fill="#ff8fa0">del puente que cruza la dimensión 0 — el diámetro del anillo</text><text x="750" y="870" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text></svg>

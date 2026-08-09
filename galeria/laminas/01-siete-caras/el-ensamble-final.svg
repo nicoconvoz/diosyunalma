@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1080" viewBox="0 0 1560 1080">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="780" y="48" font-size="27" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚙️ EL GRAN ENSAMBLE FINAL — la cadena entera, eslabón por eslabón</text>
+<text x="780" y="78" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">todo el laboratorio en un solo programa · y el agujero del eslabón rojo, por primera vez, MEDIDO</text>
+<rect x="40" y="118" width="1480" height="62" rx="9" fill="#2f7f63" opacity="0.22" stroke="#2f7f63" stroke-width="1.6"/>
+<text x="76" y="159" font-size="27" font-family="Georgia" fill="#dce8f7">1</text>
+<text x="128" y="156" font-size="18" font-family="Georgia" fill="#dce8f7">la campana da el espejo ξ(s) = ξ(1−s)</text>
+<text x="1490" y="156" font-size="15.5" text-anchor="end" font-family="monospace" fill="#2f7f63">PROBADO · clásico</text>
+<rect x="40" y="188" width="1480" height="62" rx="9" fill="#2f6f8f" opacity="0.22" stroke="#2f6f8f" stroke-width="1.6"/>
+<text x="76" y="229" font-size="27" font-family="Georgia" fill="#dce8f7">2</text>
+<text x="128" y="226" font-size="18" font-family="Georgia" fill="#dce8f7">RH ⟺ λₙ ≥ 0 para TODO n</text>
+<text x="1490" y="226" font-size="15.5" text-anchor="end" font-family="monospace" fill="#2f6f8f">CITADO · Li 1997</text>
+<rect x="40" y="258" width="1480" height="62" rx="9" fill="#2f7f63" opacity="0.22" stroke="#2f7f63" stroke-width="1.6"/>
+<text x="76" y="299" font-size="27" font-family="Georgia" fill="#dce8f7">3</text>
+<text x="128" y="296" font-size="18" font-family="Georgia" fill="#dce8f7">λₙ = Σ [2 − 2·Re(wⁿ)] — incondicional</text>
+<text x="1490" y="296" font-size="15.5" text-anchor="end" font-family="monospace" fill="#2f7f63">PROBADO ACÁ · F232</text>
+<rect x="40" y="328" width="1480" height="62" rx="9" fill="#8a7320" opacity="0.22" stroke="#8a7320" stroke-width="1.6"/>
+<text x="76" y="369" font-size="27" font-family="Georgia" fill="#dce8f7">4</text>
+<text x="128" y="366" font-size="18" font-family="Georgia" fill="#dce8f7">λₙ > 0 para n = 1..120 con perlas reales</text>
+<text x="1490" y="366" font-size="15.5" text-anchor="end" font-family="monospace" fill="#8a7320">SOLO MEDIDO</text>
+<rect x="40" y="398" width="1480" height="62" rx="9" fill="#2f7f63" opacity="0.22" stroke="#2f7f63" stroke-width="1.6"/>
+<text x="76" y="439" font-size="27" font-family="Georgia" fill="#dce8f7">5</text>
+<text x="128" y="436" font-size="18" font-family="Georgia" fill="#dce8f7">el criterio denuncia un cero fugado</text>
+<text x="1490" y="436" font-size="15.5" text-anchor="end" font-family="monospace" fill="#2f7f63">PROBADO · configuración</text>
+<rect x="40" y="468" width="1480" height="62" rx="9" fill="#c0392b" opacity="0.22" stroke="#c0392b" stroke-width="1.6"/>
+<text x="76" y="509" font-size="27" font-family="Georgia" fill="#dce8f7">6</text>
+<text x="128" y="506" font-size="18" font-family="Georgia" fill="#dce8f7">por lo tanto vale para TODO n</text>
+<text x="1490" y="506" font-size="15.5" text-anchor="end" font-family="monospace" fill="#c0392b">🔴 NO CAE</text>
+<rect x="40" y="554" width="726" height="290" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="403" y="588" font-size="18" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">LA COLA, CALIBRADA CONTRA EL ÚNICO λ EXACTO</text>
+<text x="70" y="630" font-size="15" font-family="monospace" fill="#dce8f7">λ₁ exacto = 1 + γ/2 − ln(4π)/2  =  0.023095709</text>
+<text x="70" y="658" font-size="15" font-family="monospace" fill="#dce8f7">λ₁ medido con 649 perlas         =  0.022130042</text>
+<text x="70" y="686" font-size="15" font-family="monospace" fill="#ffd98a">lo que falta                    =  0.000965667</text>
+<text x="70" y="714" font-size="15" font-family="monospace" fill="#7ee0c0">la cola estimada por la fórmula =  0.000966051</text>
+<text x="70" y="752" font-size="14.5" font-family="Georgia" fill="#cfe6ff">La fórmula de la cola no es un supuesto: acierta contra el único</text>
+<text x="70" y="774" font-size="14.5" font-family="Georgia" fill="#cfe6ff">valor que se conoce en fórmula cerrada. Por eso puede usarse para</text>
+<text x="70" y="796" font-size="14.5" font-family="Georgia" fill="#cfe6ff">medir el agujero del eslabón rojo en vez de solo nombrarlo.</text>
+<rect x="794" y="554" width="726" height="290" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="1157" y="586" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffb27a">EL AGUJERO DEL ESLABÓN ROJO, MEDIDO</text>
+<text x="1157" y="634" font-size="34" text-anchor="middle" font-family="Georgia" fill="#ffd98a">γ_horizonte ≈ 1658</text>
+<text x="824" y="672" font-size="15.5" font-family="Georgia" fill="#f3d9cf">Debajo de esa altura el laboratorio VE y puede afirmar algo.</text>
+<text x="824" y="694" font-size="15.5" font-family="Georgia" fill="#f3d9cf">Por encima, un cero podría estar tan fuera de la línea como</text>
+<text x="824" y="716" font-size="15.5" font-family="Georgia" fill="#f3d9cf">la franja permite (δ = ½) sin que nos enteremos.</text>
+<text x="824" y="744" font-size="15.5" font-family="Georgia" fill="#ffb27a">Y por encima de cualquier altura hay INFINITOS ceros.</text>
+<text x="824" y="778" font-size="14.5" font-family="Georgia" fill="#c9b6ff">▸ pasado n = 1298 la cola pesa más que todo lo medido</text>
+<text x="824" y="802" font-size="14.5" font-family="Georgia" fill="#c9b6ff">▸ el criterio tiene dientes: un fugado en 0.9+3i lo hunde en n = 96</text>
+<text x="780" y="874" font-size="21" text-anchor="middle" font-family="Georgia" fill="#ffd98a">EL ÚLTIMO ESLABÓN NO CAYÓ — pero ahora el agujero tiene tamaño</text>
+<text x="780" y="902" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Correr el horizonte más lejos NO cierra nada: siempre quedan infinitos ceros arriba.</text>
+<text x="780" y="926" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El eslabón 6 se cierra con un argumento que valga para TODOS a la vez — y ése tiene que traer aritmética.</text>
+<text x="780" y="954" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">dos motores independientes, peor desvío 1.7e-05 · cola calibrada al 0.040% · ¿el premio? todavía no</text>
+</svg>

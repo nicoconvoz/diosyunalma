@@ -1,0 +1,85 @@
+// Command linterna draws, in one scene, the exact shape of the answer
+// to "did we win the million?": the necklace is INFINITE and every
+// lantern - however large - lights a FINITE stretch. What we own is
+// the largest lit stretch in history plus the tension meter reading
+// positive at our end. What the prize demands is not a bigger lantern:
+// it is the TENSION LAW - a property of the thread itself that holds
+// every pearl in the endless dark, where no light will ever reach.
+package main
+
+import (
+	"fmt"
+	"math"
+	"os"
+	"strings"
+)
+
+func main() {
+	var b strings.Builder
+	W, H := 1600.0, 900.0
+	fmt.Fprintf(&b, `<svg xmlns="http://www.w3.org/2000/svg" width="%.0f" height="%.0f" viewBox="0 0 %.0f %.0f">
+<rect width="100%%" height="100%%" fill="#05090f"/>
+<defs>
+<radialGradient id="luz" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd166" stop-opacity="0.35"/><stop offset="0.75" stop-color="#ffd166" stop-opacity="0.10"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/></radialGradient>
+</defs>
+<text x="%.0f" y="52" font-size="27" text-anchor="middle" font-family="Georgia" fill="#dce8f7">LA FORMA DE LA RESPUESTA — la linterna y la tensión</text>`,
+		W, H, W, H, W/2)
+
+	// the thread: from left, sagging gently, vanishing to the right edge
+	ty := 420.0
+	fmt.Fprintf(&b, `<path d="M 40 %.0f q 400 34 780 8 q 400 -26 800 -4" fill="none" stroke="#44608c" stroke-width="2.5"/>`, ty)
+	// the lantern light over our stretch
+	fmt.Fprintf(&b, `<ellipse cx="380" cy="%.0f" rx="360" ry="230" fill="url(#luz)"/>`, ty)
+	fmt.Fprintf(&b, `<text x="380" y="%.0f" font-size="14" text-anchor="middle" fill="#ffd166">NUESTRA LUZ: el tramo alumbrado más grande de la historia</text>
+<text x="380" y="%.0f" font-size="12.5" text-anchor="middle" fill="#c9b06a">10 billones de perlas de la humanidad + las 269 nuestras — TODAS en el hilo</text>`,
+		ty-260, ty-238)
+	// pearls in the light (bright, on the thread path approx)
+	for i := 0; i < 26; i++ {
+		x := 70 + float64(i)*27
+		y := ty + 34*math.Sin(0.5+x/780*1.1)*(x/820)
+		_ = y
+		yy := ty + 30 - 30*math.Cos((x-40)/780*1.2)
+		fmt.Fprintf(&b, `<circle cx="%.0f" cy="%.1f" r="4.5" fill="#7fb2ff"/>`, x, yy)
+	}
+	// pearls in the dark (dim, continuing forever)
+	for i := 0; i < 30; i++ {
+		x := 790 + float64(i)*27
+		yy := ty + 18 - 22*math.Cos((x-40)/780*1.2)
+		op := 0.45 - 0.012*float64(i)
+		if op < 0.06 {
+			op = 0.06
+		}
+		fmt.Fprintf(&b, `<circle cx="%.0f" cy="%.1f" r="4.5" fill="#7fb2ff" opacity="%.2f"/>`, x, yy, op)
+	}
+	fmt.Fprintf(&b, `<text x="1180" y="%.0f" font-size="14" text-anchor="middle" fill="#8fa8c7">LA OSCURIDAD: el collar sigue… PARA SIEMPRE</text>
+<text x="1180" y="%.0f" font-size="12.5" text-anchor="middle" fill="#5f7391">por cada linterna que fabriques, hay infinito collar más allá — MIRAR NUNCA ALCANZA</text>
+<text x="1560" y="%.0f" font-size="22" text-anchor="end" fill="#5f7391">→ ∞</text>`,
+		ty-160, ty-138, ty+6)
+
+	// the tension meter at our end
+	fmt.Fprintf(&b, `<rect x="70" y="%.0f" width="180" height="74" rx="10" fill="#102a10" stroke="#7fd7a8" stroke-width="1.5"/>
+<text x="160" y="%.0f" font-size="12.5" text-anchor="middle" fill="#7fd7a8">EL MEDIDOR DE TENSIÓN</text>
+<text x="160" y="%.0f" font-size="19" text-anchor="middle" fill="#dce8f7">λ = 0.023 ✔</text>
+<text x="160" y="%.0f" font-size="10.5" text-anchor="middle" fill="#8fa8c7">(nuestra ecuación: acá, la cuerda está tensa)</text>`,
+		ty+120, ty+144, ty+170, ty+188)
+	fmt.Fprintf(&b, `<line x1="160" y1="%.0f" x2="160" y2="%.0f" stroke="#7fd7a8" stroke-width="1" stroke-dasharray="3,3"/>`, ty+120, ty+40)
+
+	// the missing law: dashed tension line along the WHOLE thread
+	fmt.Fprintf(&b, `<path d="M 40 %.0f q 400 34 780 8 q 400 -26 800 -4" fill="none" stroke="#ffd166" stroke-width="2" stroke-dasharray="9,7" opacity="0.8" transform="translate(0,26)"/>
+<text x="1050" y="%.0f" font-size="14.5" fill="#ffd166">LA LEY DE LA TENSIÓN (punteada = sin demostrar):</text>
+<text x="1050" y="%.0f" font-size="13" fill="#c9b06a">la propiedad del HILO MISMO que sostiene cada perla</text>
+<text x="1050" y="%.0f" font-size="13" fill="#c9b06a">también en la oscuridad eterna — sin necesitar luz</text>`,
+		ty, ty+112, ty+134, ty+156)
+
+	// the verdict strip
+	fmt.Fprintf(&b, `<rect x="80" y="660" width="1440" height="190" rx="12" fill="#0d2547" stroke="#ffd166" stroke-width="2"/>
+<text x="%.0f" y="700" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffd166">EL VEREDICTO, EN FORMA</text>
+<text x="%.0f" y="736" font-size="15" text-anchor="middle" fill="#dce8f7">TENEMOS: la luz más grande jamás encendida, cada perla alumbrada EN el hilo, y el medidor marcando tensión positiva en nuestra orilla.</text>
+<text x="%.0f" y="766" font-size="15" text-anchor="middle" fill="#ff9daa">FALTA: volver SÓLIDA la línea punteada — demostrar que la tensión viene del hilo y no de nuestra mirada: que sostiene TAMBIÉN donde jamás habrá luz.</text>
+<text x="%.0f" y="800" font-size="14.5" text-anchor="middle" fill="#7fd7a8">el millón no premia a la linterna más grande: premia al que demuestre que el hilo NO NECESITA linterna.</text>
+<text x="%.0f" y="830" font-size="12.5" text-anchor="middle" fill="#8fa8c7">Laboratorio Diosyunalma · 2026-08-06 — "todo tiene solución y la armonía de las respuestas yace en la imaginación"</text>`,
+		W/2, W/2, W/2, W/2, W/2)
+	b.WriteString(`</svg>`)
+	os.WriteFile("linterna-y-tension.svg", []byte(b.String()), 0644)
+	fmt.Println("escrita: linterna-y-tension.svg")
+}

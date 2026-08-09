@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1080" viewBox="0 0 1500 1080">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🌉 EL PRIMO Y LA ESCALA — ¿hay puentes?</text>
+<text x="750" y="74" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">cinco puentes exactos… y el resultado de que no hacían falta</text>
+<rect x="40" y="108" width="1420" height="76" rx="9" fill="#101f36" stroke="#26456e"/>
+<text x="66" y="134" font-size="15" font-family="Georgia" fill="#ffd98a">PUENTE 1 · LOS CEROS DEL FINAL</text>
+<text x="66" y="164" font-size="16" font-family="monospace" fill="#bfe3ff">v_p(n) = ceros con que n termina en base p</text>
+<text x="820" y="164" font-size="14" font-family="Georgia" fill="#8fb4d9">cuántas veces p divide a n, leído en la escritura</text>
+<text x="1400" y="156" font-size="22" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✓</text>
+<rect x="40" y="194" width="1420" height="76" rx="9" fill="#101f36" stroke="#26456e"/>
+<text x="66" y="220" font-size="15" font-family="Georgia" fill="#ffd98a">PUENTE 2 · LEGENDRE</text>
+<text x="66" y="250" font-size="16" font-family="monospace" fill="#bfe3ff">v_p(n!) = ( n − s_p(n) ) / (p−1)</text>
+<text x="820" y="250" font-size="14" font-family="Georgia" fill="#8fb4d9">la potencia de p en n! ES la suma de dígitos</text>
+<text x="1400" y="242" font-size="22" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✓</text>
+<rect x="40" y="280" width="1420" height="76" rx="9" fill="#101f36" stroke="#26456e"/>
+<text x="66" y="306" font-size="15" font-family="Georgia" fill="#ffd98a">PUENTE 3 · KUMMER</text>
+<text x="66" y="336" font-size="16" font-family="monospace" fill="#bfe3ff">v_p(C(m+n,m)) = acarreos al sumar en base p</text>
+<text x="820" y="336" font-size="14" font-family="Georgia" fill="#8fb4d9">llevarse una ES que el primo entre una vez más</text>
+<text x="1400" y="328" font-size="22" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✓</text>
+<rect x="40" y="366" width="1420" height="76" rx="9" fill="#101f36" stroke="#26456e"/>
+<text x="66" y="392" font-size="15" font-family="Georgia" fill="#ffd98a">PUENTE 4 · LUCAS</text>
+<text x="66" y="422" font-size="16" font-family="monospace" fill="#bfe3ff">C(m,n) ≡ Π C(mᵢ,nᵢ)  (mod p)</text>
+<text x="820" y="422" font-size="14" font-family="Georgia" fill="#8fb4d9">el combinatorio se arma dígito por dígito</text>
+<text x="1400" y="414" font-size="22" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✓</text>
+<rect x="40" y="452" width="1420" height="76" rx="9" fill="#101f36" stroke="#26456e"/>
+<text x="66" y="478" font-size="15" font-family="Georgia" fill="#ffd98a">PUENTE 5 · EL PERÍODO</text>
+<text x="66" y="508" font-size="16" font-family="monospace" fill="#bfe3ff">período de 1/q en base b = ord_b(q)</text>
+<text x="820" y="508" font-size="14" font-family="Georgia" fill="#8fb4d9">la escritura ve la estructura del grupo del primo</text>
+<text x="1400" y="500" font-size="22" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">✓</text>
+<rect x="40" y="538" width="1420" height="196" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="750" y="570" font-size="21" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">Y ACÁ SE ACABA LA METÁFORA — no hay puente: EL PRIMO **ES** LA ESCALA</text>
+<text x="70" y="606" font-size="16" font-family="monospace" fill="#9fd8a8">|x+y|_p ≤ max(|x|_p, |y|_p)   ultramétrica — en la escala de un primo, SIEMPRE</text>
+<text x="70" y="632" font-size="15" font-family="monospace" fill="#cfe6ff">      0 violaciones en 600 pares probados sobre las escalas de 6 primos</text>
+<text x="70" y="662" font-size="16" font-family="monospace" fill="#ff9e9e">|x+y|   ≤ max(|x|, |y|)       en la escala común, NO: 100 violaciones</text>
+<text x="70" y="694" font-size="15" font-family="Georgia" fill="#c9b6ff">OSTROWSKI: toda manera no trivial de medir tamaño en los racionales es O BIEN la común, O BIEN la de algún primo.</text>
+<text x="70" y="718" font-size="15" font-family="Georgia" fill="#ffd98a">No hay ninguna otra. Primos y escalas no son dos familias con puentes: SON LA MISMA FAMILIA, CONTADA DOS VECES.</text>
+<rect x="40" y="744" width="1420" height="150" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="750" y="774" font-size="19" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Y ASÍ SE LEE EL LIBRO — un factor por escala, y el sobrante es el ½</text>
+<text x="750" y="806" font-size="19" text-anchor="middle" font-family="monospace" fill="#dce8f7">ξ(s) = ½·s(s−1) · π^(−s/2)Γ(s/2) · Π 1/(1−p⁻ˢ)</text>
+<text x="750" y="826" font-size="14" text-anchor="middle" font-family="monospace" fill="#c9b6ff">                la escala extra        una por cada primo</text>
+<text x="750" y="856" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">los primos entregan TODAS las escalas menos una — y esa única que no es de ningún primo es la que trae el ½ (F242).</text>
+<text x="750" y="880" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">por eso los primos no saben nada del ½: el ½ es de la escala que les falta. Nada de esto toca dónde están los ceros. Todavía no.</text>
+</svg>

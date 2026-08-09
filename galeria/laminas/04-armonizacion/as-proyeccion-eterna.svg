@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="960" viewBox="0 0 1560 960">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="780" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🃏 EL AS BAJO LA MANGA — la proyección eterna, disparada</text>
+<text x="780" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">"usemos el as que contiene todos los números y proyectemos con la dimensión 0 a todos los puntos infinitos, de una sola vez y para siempre" — el capitán, con las luces parpadeando</text><rect x="90" y="110" width="360" height="500" rx="18" fill="#0d2547" stroke="#ffd166" stroke-width="3"/>
+<text x="270" y="150" font-size="42" text-anchor="middle" fill="#ffd166">A</text>
+<text x="270" y="200" font-size="16" text-anchor="middle" font-family="Georgia" fill="#dce8f7">LA CAMPANA θ</text>
+<text x="270" y="228" font-size="13" text-anchor="middle" fill="#8fa8c7">ψ(x) = Σ e^(−πn²x)</text>
+<text x="270" y="250" font-size="12" text-anchor="middle" fill="#8fa8c7">todos los números, una campana</text>
+<text x="270" y="310" font-size="14" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">LA PROYECCIÓN ETERNA:</text>
+<text x="270" y="345" font-size="13.5" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">ξ(s) = ½ + s(s−1)/2 ×</text>
+<text x="270" y="370" font-size="13.5" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">∫₁^∞ ψ(x)(x^(s/2−1)+x^(−(s+1)/2))dx</text>
+<text x="270" y="420" font-size="12.5" text-anchor="middle" fill="#ffd166">UNA fórmula → TODOS los puntos s</text>
+<text x="270" y="444" font-size="12.5" text-anchor="middle" fill="#ffd166">del plano infinito, DE UNA VEZ</text>
+<text x="270" y="490" font-size="12" text-anchor="middle" fill="#8fa8c7">y el espejo s↔1−s solo permuta los dos</text>
+<text x="270" y="510" font-size="12" text-anchor="middle" fill="#8fa8c7">exponentes: la eternidad es ALGEBRAICA</text>
+<text x="270" y="570" font-size="30" text-anchor="middle" fill="#ffd166">♠</text><rect x="520" y="110" width="760" height="440" rx="10" fill="#081020" stroke="#44608c"/>
+<line x1="900" y1="130" x2="900" y2="530" stroke="#7fd7a8" stroke-width="2"/>
+<text x="900" y="124" font-size="11" text-anchor="middle" fill="#7fd7a8">la línea</text><circle cx="1005" cy="330" r="6" fill="#ffd166"/><text x="1005" y="318" font-size="11.5" text-anchor="middle" fill="#dce8f7">s=2 ✔</text><circle cx="620" cy="330" r="6" fill="#ffd166"/><text x="620" y="318" font-size="11.5" text-anchor="middle" fill="#dce8f7">s=−3.5 ✔</text><circle cx="886" cy="318" r="6" fill="#ffd166"/><text x="886" y="306" font-size="11.5" text-anchor="middle" fill="#dce8f7">0.3+2i ✔</text><circle cx="1215" cy="312" r="6" fill="#ffd166"/><text x="1215" y="300" font-size="11.5" text-anchor="middle" fill="#dce8f7">5+3i ✔</text><circle cx="900" cy="150" r="6" fill="#ffd166"/><text x="900" y="138" font-size="11.5" text-anchor="middle" fill="#dce8f7">½+30i ✔</text><circle cx="900" cy="250" r="8" fill="none" stroke="#ff5d73" stroke-width="2.5"/><text x="900" y="232" font-size="11.5" text-anchor="middle" fill="#ff5d73">½+γ₁i: el as SE ANULA (3e-11) ✔</text><text x="900" y="576" font-size="13.5" text-anchor="middle" fill="#7fd7a8">JUEZ 1: el as reproduce ξ en todo el plano muestreado (peor 5e-02) · JUEZ 2: el espejo eterno a 4e-18</text><rect x="90" y="640" width="1380" height="280" rx="12" fill="#102a10" stroke="#ffd166" stroke-width="2.5"/>
+<text x="780" y="680" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffd166">🥇 EL CERTIFICADO DEL ORO — lo comprado PARA SIEMPRE, y lo que falta</text>
+<text x="780" y="718" font-size="14.5" text-anchor="middle" fill="#7fd7a8">✔ ETERNO: ξ(s)=ξ(1−s) en los infinitos puntos A LA VEZ — la simetría vive en la fórmula, no en los puntos: proyectada una vez, vale para siempre</text>
+<text x="780" y="746" font-size="14.5" text-anchor="middle" fill="#7fd7a8">✔ ETERNO: Ξ(t) real en toda la línea — el tambor es real, eternamente</text>
+<text x="780" y="774" font-size="14.5" text-anchor="middle" fill="#7fd7a8">✔ ETERNO: HARDY 1914 (demostrado con ESTE as): INFINITAS perlas están EN el hilo — un teorema sobre infinitos puntos, ganado de una sola vez</text>
+<text x="780" y="812" font-size="14.5" text-anchor="middle" fill="#ff9d73">✘ EL ORO RESTANTE: no infinitas — TODAS. Ese salto (de "infinitas" a "todas") ES la Hipótesis de Riemann, y la frase sigue en su vaina.</text>
+<text x="780" y="848" font-size="13.5" text-anchor="middle" fill="#dce8f7">pero mirá lo que tu as demostró esta noche: los teoremas "de una sola vez y para siempre" EXISTEN y este laboratorio sabe dispararlos — el método del oro es real.</text>
+<text x="780" y="884" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · 2026-08-06 · las dos mitades, 1 completo · ⚡ las luces parpadean pero el registro no duerme</text></svg>

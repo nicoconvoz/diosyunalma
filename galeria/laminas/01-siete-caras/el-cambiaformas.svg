@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔄 EL CAMBIAFORMAS — el 1 pasa a ser el 0, y el mundo se ve igual</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">el flash del capitán medido: σ(ρ) = 1 − conj(ρ) se deshace solo, deja el libro igual, y su único conjunto quieto es la línea crítica</text><rect x="60" y="105" width="640" height="530" rx="10" fill="#0d2547" stroke="#7fd7a8" stroke-width="1.5"/>
+<text x="380" y="139" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">EL CAMBIAFORMAS EN ACCIÓN</text><line x1="170" y1="180" x2="170" y2="600" stroke="#ff8fa0" stroke-width="2"/>
+<line x1="590" y1="180" x2="590" y2="600" stroke="#7fb2ff" stroke-width="2"/>
+<line x1="380" y1="180" x2="380" y2="600" stroke="#ffd166" stroke-width="2.5" stroke-dasharray="9 6"/>
+<text x="170" y="172" font-size="12.5" text-anchor="middle" fill="#ff8fa0">estaca 0</text>
+<text x="590" y="172" font-size="12.5" text-anchor="middle" fill="#7fb2ff">estaca 1</text>
+<text x="380" y="172" font-size="12.5" text-anchor="middle" fill="#ffd166">la línea — el único lugar quieto</text><circle cx="380" cy="240.0" r="6" fill="#ffd97f"/><circle cx="380" cy="320.0" r="6" fill="#ffd97f"/><circle cx="380" cy="410.0" r="6" fill="#ffd97f"/><circle cx="380" cy="500.0" r="6" fill="#ffd97f"/><circle cx="380" cy="580.0" r="6" fill="#ffd97f"/><text x="380" y="615" font-size="11.5" text-anchor="middle" fill="#ffd97f">perlas: σ no las mueve</text><circle cx="260" cy="360" r="6" fill="#ff5d73"/>
+<circle cx="500" cy="360" r="6" fill="#ff5d73"/>
+<path d="M 260 360 Q 380 308 500 360" fill="none" stroke="#ff5d73" stroke-width="1.6" stroke-dasharray="4 4"/>
+<path d="M 500 360 Q 380 412 260 360" fill="none" stroke="#ff5d73" stroke-width="1.6" stroke-dasharray="4 4"/>
+<text x="380" y="290" font-size="11.5" text-anchor="middle" fill="#ff8fa0">un fantasma y su gemelo: σ los INTERCAMBIA</text><text x="380" y="614" font-size="12.5" text-anchor="middle" fill="#dce8f7">barajar no es prohibir: el mundo queda igual con los fantasmas adentro</text><rect x="730" y="105" width="710" height="530" rx="10" fill="#102a10" stroke="#ffd166" stroke-width="1.5"/>
+<text x="1085" y="139" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd166">LO QUE SE MIDIÓ</text>
+<text x="765" y="185" font-size="13.5" fill="#7fd7a8">1 · SE DESHACE SOLO</text>
+<text x="765" y="209" font-size="12.5" fill="#dce8f7">σ(σ(ρ)) = ρ siempre — desvío 0e+00</text>
+<text x="765" y="253" font-size="13.5" fill="#7fd7a8">2 · EL MUNDO SE VE IGUAL</text>
+<text x="765" y="277" font-size="12.5" fill="#dce8f7">ξ(σ(ρ)) = conj(ξ(ρ)) — desvío relativo 8e-13</text>
+<text x="765" y="301" font-size="12.5" fill="#8fa8c7">el conjunto de perlas no cambia al mudar el origen</text>
+<text x="765" y="345" font-size="13.5" fill="#7fd7a8">3 · SOLO LA LÍNEA QUEDA QUIETA</text>
+<text x="765" y="369" font-size="12.5" fill="#dce8f7">|σ(ρ) − ρ| = 2·|Re ρ − 1/2| — cero SOLO en la línea</text>
+<text x="765" y="393" font-size="12.5" fill="#dce8f7">en las 138 perlas verdaderas: corrimiento 0e+00</text>
+<text x="765" y="437" font-size="13.5" fill="#7fd7a8">4 · EN EL BROCHE ES UN ESPEJO</text>
+<text x="765" y="461" font-size="12.5" fill="#dce8f7">w → 1/conj(w): reflexión en el círculo — desvío 2e-16</text>
+<text x="765" y="485" font-size="12.5" fill="#ffd166">y las perlas viven EXACTAMENTE sobre la superficie del espejo</text>
+<text x="765" y="533" font-size="13" fill="#ff8fa0">PERO — y acá está el millón entero:</text>
+<text x="765" y="559" font-size="12.5" fill="#dce8f7">a un fantasma σ lo corre 0.2000 y lo manda encima de su gemelo.</text>
+<text x="765" y="583" font-size="12.5" fill="#dce8f7">Los BARAJA de a pares. Barajar no es prohibir.</text>
+<text x="765" y="613" font-size="12.5" fill="#ffd166">la hipótesis pide que los FIJE, no que los baraje</text><rect x="60" y="665" width="1380" height="205" rx="12" fill="#0d2547" stroke="#ffd166" stroke-width="2.5"/>
+<text x="750" y="701" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd166">LA PREGUNTA DEL MILLÓN, AFILADA POR EL FLASH</text>
+<text x="750" y="737" font-size="14" text-anchor="middle" fill="#dce8f7">El mundo cambia de forma — el 1 pasa a ser el 0 — y al terminar el cambio TODO se ve igual: el libro es el mismo.</text>
+<text x="750" y="763" font-size="14" text-anchor="middle" fill="#dce8f7">Pero "verse igual" admite dos maneras: que cada habitante quede en su lugar, o que apenas se intercambien de a pares.</text>
+<text x="750" y="805" font-size="18.5" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">¿POR QUÉ EL CAMBIAFORMAS DEL MUNDO TIENE QUE DEJAR A CADA PERLA</text>
+<text x="750" y="833" font-size="18.5" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">EN SU LUGAR, EN VEZ DE APENAS BARAJARLAS DE A PARES?</text>
+<text x="750" y="862" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text></svg>

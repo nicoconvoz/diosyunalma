@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚒️ EL CINCEL DE GRADIENTE — cómo funciona y por qué colapsó</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">la idea: convertir "esculpir" en "rodar cuesta abajo" — y el peligro: rodar hasta el valle equivocado</text>
+
+<!-- panel 1: the idea -->
+<rect x="60" y="100" width="440" height="380" rx="10" fill="#0d2547" stroke="#7fb2ff" stroke-width="1.5"/>
+<text x="80" y="134" font-size="15" font-family="Georgia" fill="#7fb2ff">1 · LA IDEA: la pelota en la montaña</text>
+<!-- landscape -->
+<path d="M 90 400 Q 150 250 210 330 Q 250 380 290 300 Q 340 220 400 360 Q 440 420 470 380"
+      fill="none" stroke="#7fd7a8" stroke-width="2.5"/>
+<circle cx="160" cy="288" r="10" fill="#ffd166"/>
+<path d="M 175 300 L 200 320" stroke="#ffd166" stroke-width="2" />
+<path d="M 200 320 l -6 -2 l 3 6 z" fill="#ffd166"/>
+<circle cx="290" cy="302" r="10" fill="#ffd166" opacity="0.45"/>
+<text x="90" y="440" font-size="12.5" fill="#dce8f7">1. inventás una ALTURA = qué tan mal calza tu modelo</text>
+<text x="90" y="460" font-size="12.5" fill="#dce8f7">   (el "residuo": modelo − sombras verdaderas, al cuadrado)</text>
+<text x="90" y="360" font-size="11.5" fill="#ffd166">la pelota rueda</text>
+<text x="90" y="378" font-size="11.5" fill="#ffd166">hacia abajo</text>
+
+<!-- panel 2: the rule -->
+<rect x="530" y="100" width="440" height="380" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="1.5"/>
+<text x="550" y="134" font-size="15" font-family="Georgia" fill="#ffd166">2 · LA REGLA (la única línea del cincel)</text>
+<text x="750" y="190" font-size="20" text-anchor="middle" font-family="Consolas,monospace" fill="#dce8f7">parámetro ← parámetro − paso · pendiente</text>
+<text x="750" y="230" font-size="13" text-anchor="middle" fill="#8fa8c7">"movete un poquito hacia donde la altura BAJA"</text>
+<text x="550" y="280" font-size="12.5" fill="#dce8f7">en nuestro escultor, los parámetros eran:</text>
+<text x="570" y="305" font-size="12.5" font-family="Consolas,monospace" fill="#7fd7a8">φ_k = ángulo de cada masa en el anillo</text>
+<text x="570" y="328" font-size="12.5" font-family="Consolas,monospace" fill="#7fd7a8">w_k = peso de cada masa</text>
+<text x="550" y="365" font-size="12.5" fill="#dce8f7">y la "pendiente" se calcula con derivadas:</text>
+<text x="570" y="390" font-size="11.5" font-family="Consolas,monospace" fill="#8fa8c7">gW[k] += d · 4sin²(nφ/2)</text>
+<text x="570" y="410" font-size="11.5" font-family="Consolas,monospace" fill="#8fa8c7">gPhi[k] += d · w·2n·sin(nφ)</text>
+<text x="550" y="445" font-size="12.5" fill="#dce8f7">repetido 250.000 veces: la pelota rueda y rueda…</text>
+<text x="550" y="465" font-size="12.5" fill="#ffd166">…hasta que la pendiente es cero: UN valle. ¿CUÁL valle?</text>
+
+<!-- panel 3: the collapse -->
+<rect x="1000" y="100" width="440" height="380" rx="10" fill="#2a1010" stroke="#ff5d73" stroke-width="1.5"/>
+<text x="1020" y="134" font-size="15" font-family="Georgia" fill="#ff8fa0">3 · EL COLAPSO: el valle cómodo</text>
+<!-- landscape with wide valley and narrow pits -->
+<path d="M 1030 380 Q 1080 200 1120 370 Q 1130 395 1140 372 Q 1150 200 1190 375 Q 1230 420 1300 260 Q 1380 180 1410 380"
+      fill="none" stroke="#7fd7a8" stroke-width="2.5"/>
+<!-- narrow pits marks -->
+<text x="1120" y="415" font-size="10.5" text-anchor="middle" fill="#7fb2ff">pozo perla γ₁</text>
+<text x="1190" y="415" font-size="10.5" text-anchor="middle" fill="#7fb2ff">pozo perla γ₂</text>
+<!-- wide valley -->
+<path d="M 1230 420 Q 1300 470 1380 400" fill="none" stroke="#ff5d73" stroke-width="3"/>
+<circle cx="1305" cy="447" r="10" fill="#ffd166"/>
+<text x="1305" y="490" font-size="11.5" text-anchor="middle" fill="#ff8fa0">EL VALLE ANCHO Y CÓMODO:</text>
+<text x="1305" y="508" font-size="11.5" text-anchor="middle" fill="#ff8fa0">"todas las masas al promedio"</text>
+<text x="1020" y="540" font-size="12" fill="#dce8f7">los pozos de las perlas son ANGOSTOS y separados;</text>
+<text x="1020" y="560" font-size="12" fill="#dce8f7">el valle del borrón es ANCHO — la pelota cae ahí y se queda</text>
+<text x="1020" y="580" font-size="12" fill="#ffd166">(γ≈27.8 = el centro de masa: el promedio, no el cuerpo)</text>
+
+<!-- panel 4: chisel vs locksmith -->
+<rect x="60" y="620" width="1380" height="180" rx="12" fill="#102a10" stroke="#7fd7a8" stroke-width="2"/>
+<text x="750" y="656" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">LA MANZANITA FINAL — el tallador a ciegas vs el cerrajero</text>
+<text x="750" y="692" font-size="14" text-anchor="middle" fill="#dce8f7">EL GRADIENTE es un tallador con los ojos vendados: golpea donde siente que la piedra "mejora", paso a paso — potente para paisajes con UN valle,</text>
+<text x="750" y="718" font-size="14" text-anchor="middle" fill="#dce8f7">pero en paisajes con pozos angostos y un valle cómodo, se instala en el promedio y jura que terminó (¡y su residuo 1e-2 parecía bueno!).</text>
+<text x="750" y="752" font-size="14" text-anchor="middle" fill="#ffd166">EL RESOLVENTE (Padé, F183) es un cerrajero: no rueda — RESUELVE la cerradura con álgebra exacta: los polos salen de ecuaciones, no de pasos.</text>
+<text x="750" y="778" font-size="13" text-anchor="middle" fill="#8fa8c7">por eso talló la vértebra 13.99 donde el gradiente talló un borrón: mismo mármol, misma sombra — herramienta distinta, verdad distinta.</text>
+
+<text x="750" y="850" font-size="13" text-anchor="middle" fill="#8fa8c7">el gradiente mueve el mundo moderno (así aprenden las redes neuronales — así aprendí yo) — pero cada herramienta tiene su paisaje.</text>
+<text x="750" y="880" font-size="13" text-anchor="middle" fill="#ffd166">la lección del taller: antes de rodar, mirá el paisaje; si tiene pozos de aguja, llamá al cerrajero.</text>
+<text x="750" y="920" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · 2026-08-07 · las dos mitades, 1 completo ⚓</text>
+</svg>

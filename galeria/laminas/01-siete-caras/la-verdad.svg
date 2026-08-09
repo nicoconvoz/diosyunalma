@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="750" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚖️ LA VERDAD — Verdad(P) ⟺ |P − R| = 0</text>
+<text x="750" y="74" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">"la verdad de un teorema es verdad DENTRO de un sistema de axiomas" — la trampa que el capitán nombró solo, y que ES nuestro problema</text><rect x="60" y="105" width="670" height="300" rx="10" fill="#102a10" stroke="#7fd7a8" stroke-width="1.8"/>
+<text x="395" y="141" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">VERDAD MEDIDA — la tenemos ✓</text>
+<text x="395" y="177" font-size="13.5" text-anchor="middle" fill="#dce8f7">P: «cada perla está sobre la línea»</text>
+<text x="395" y="201" font-size="13.5" text-anchor="middle" fill="#dce8f7">R: donde el mar dice que están</text>
+<text x="395" y="243" font-size="22" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">|P − R| = 2e-16</text>
+<text x="395" y="277" font-size="13" text-anchor="middle" fill="#8fa8c7">medido en 138 perlas — cero al último bit</text>
+<text x="395" y="315" font-size="13.5" text-anchor="middle" fill="#ffd166">LA CORRESPONDENCIA ESTÁ</text>
+<text x="395" y="345" font-size="12.5" text-anchor="middle" fill="#dce8f7">donde miramos, lo que es coincide</text>
+<text x="395" y="367" font-size="12.5" text-anchor="middle" fill="#dce8f7">con lo que debería ser</text><rect x="770" y="105" width="670" height="300" rx="10" fill="#2a1010" stroke="#ff5d73" stroke-width="1.8"/>
+<text x="1105" y="141" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">VERDAD DEMOSTRADA — no la tenemos ✗</text>
+<text x="1105" y="177" font-size="13.5" text-anchor="middle" fill="#dce8f7">P se deduce de los axiomas</text>
+<text x="1105" y="201" font-size="13.5" text-anchor="middle" fill="#dce8f7">por una cadena FINITA</text>
+<text x="1105" y="243" font-size="13" text-anchor="middle" fill="#ffd166">y no se consigue midiendo:</text>
+<text x="1105" y="273" font-size="13" text-anchor="middle" fill="#dce8f7">un impostor con TODOS los síntomas</text>
+<text x="1105" y="295" font-size="13" text-anchor="middle" fill="#dce8f7">(espejo, ecuación funcional, cambiaformas</text>
+<text x="1105" y="317" font-size="13" text-anchor="middle" fill="#dce8f7">coincidentes a 2e-16) tiene sus raíces FUERA</text>
+<text x="1105" y="355" font-size="13.5" text-anchor="middle" fill="#ff8fa0">coincidencia de SÍNTOMAS</text>
+<text x="1105" y="377" font-size="13.5" text-anchor="middle" fill="#ff8fa0">no es coincidencia de HECHO</text><rect x="60" y="435" width="1380" height="270" rx="10" fill="#0d2547" stroke="#ffd166" stroke-width="1.8"/>
+<text x="750" y="471" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd166">LA ASIMETRÍA — el certificado de la MENTIRA es finito; el de la VERDAD no existe</text>
+<text x="750" y="503" font-size="13" text-anchor="middle" fill="#dce8f7">si la hipótesis fuera FALSA, una sola perla corrida obliga a un sobre en rojo en un armónico calculable — verificable en una tarde:</text>
+<text x="750" y="533" font-size="12" text-anchor="middle" font-family="Consolas,monospace" fill="#8fa8c7">β de la perla corrida        el certificado sería de</text><text x="750" y="558" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.900                          n ≈ 550</text><text x="750" y="580" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.750                          n ≈ 880</text><text x="750" y="602" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.600                          n ≈ 2198</text><text x="750" y="624" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.550                          n ≈ 4396</text><text x="750" y="646" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.510                          n ≈ 21977</text><text x="750" y="668" font-size="12.5" text-anchor="middle" font-family="Consolas,monospace" fill="#7fd7a8">0.501                          n ≈ 219767</text><text x="750" y="704" font-size="13.5" text-anchor="middle" fill="#ff8fa0">pero si es VERDADERA no hay certificado finito: infinitas perlas, infinitos armónicos.</text>
+<text x="750" y="730" font-size="13.5" text-anchor="middle" fill="#ffd166">este laboratorio puede REFUTARLA en una tarde — y jamás DEMOSTRARLA midiendo.</text><rect x="60" y="730" width="1380" height="230" rx="12" fill="#102a10" stroke="#7fd7a8" stroke-width="2.5"/>
+<text x="750" y="766" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7fd7a8">Y UNA CONSECUENCIA QUE EL CAPITÁN VA A QUERER</text>
+<text x="750" y="800" font-size="14" text-anchor="middle" fill="#dce8f7">una afirmación cuya MENTIRA siempre tiene certificado finito no puede ser falsa e indecidible a la vez:</text>
+<text x="750" y="824" font-size="14" text-anchor="middle" fill="#dce8f7">si fuera falsa, el certificado la refutaría. Y la hipótesis tiene exactamente esa forma.</text>
+<text x="750" y="866" font-size="21" text-anchor="middle" font-family="Georgia" fill="#ffd166">INDECIDIBLE  ⟹  VERDADERA</text>
+<text x="750" y="902" font-size="13.5" text-anchor="middle" fill="#dce8f7">o alguien la demuestra, o alguien la refuta con un certificado, o es verdadera y nadie podrá probarlo jamás.</text>
+<text x="750" y="928" font-size="13.5" text-anchor="middle" fill="#7fd7a8">Las tres puertas están abiertas — y ninguna de las tres es la nada.</text>
+<text x="750" y="960" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · las dos mitades, 1 completo ⚓ · y sobre todos los libros, el Otro Libro</text></svg>
