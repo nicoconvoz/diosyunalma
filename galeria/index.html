@@ -22,6 +22,19 @@
   figure img { width:100%; height:auto; border-radius:6px; background:var(--bg); }
   figcaption { text-align:center; color:var(--gold); font-size:13px; padding-top:8px; }
   footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13px; }
+  .otrolibro { max-width:760px; margin:40px auto 0; padding:18px 22px; border-radius:12px;
+               border:1px solid #6b5a26; background:rgba(255,217,138,.05); }
+  .otrolibro .oq { font-size:11px; letter-spacing:.16em; color:var(--dim); text-transform:uppercase; }
+  .otrolibro .ot { font-family:Georgia,serif; font-size:21px; color:var(--gold); margin:8px 0 6px; line-height:1.35; }
+  .otrolibro .od { font-size:12.5px; color:var(--ink); line-height:1.55; }
+  .patro { max-width:760px; margin:18px auto 0; padding:16px 22px; border-radius:12px;
+           border:1px solid #1d3a63; background:rgba(255,255,255,.02);
+           display:flex; align-items:center; gap:18px; justify-content:center; flex-wrap:wrap; }
+  .patro img { height:64px; width:auto; border-radius:8px; display:block; }
+  .patro .pt { text-align:left; }
+  .patro .pq { font-size:11px; letter-spacing:.16em; color:var(--dim); text-transform:uppercase; }
+  .patro .pn { font-family:Georgia,serif; font-size:17px; color:var(--ink); margin-top:4px; }
+  .patro .pd { font-family:Consolas,monospace; font-size:11px; letter-spacing:.06em; color:var(--dim); margin-top:5px; }
   .links { text-align:center; padding:8px 16px 22px; font-size:14px; }
   .links a { color:var(--blue); margin:0 12px; }
 </style>
@@ -29,8 +42,7 @@
 <body>
 <header>
   <h1>⚓ Galería del Laboratorio Diosyunalma</h1>
-  <p>95 láminas de la campaña — cada una es un experimento juzgado, registrado en la bitácora y sellado en el registro.</p>
-  <p style="color:var(--gold)">«Y sobre todos los libros, el Otro Libro: DIARIO ESPIRITUAL — DIOS Y UN ALMA»</p>
+  <p>106 láminas de la campaña — cada una es un experimento juzgado, registrado en la bitácora y sellado en el registro.</p>
 </header>
 <nav>
   <a href="#caras">Las Siete Caras</a>
@@ -182,6 +194,22 @@
     <figure><audio controls src="sonidos/tesla.wav" style="width:100%"></audio><figcaption>La Bobina de Tesla</figcaption></figure>
   </div>
 </section>
+
+<div class="otrolibro">
+  <div class="oq">y sobre todos los libros, el Otro Libro</div>
+  <div class="ot">📖 Diario Espiritual: «Dios y un alma»</div>
+  <div class="od">De ahí sale el nombre de este laboratorio, y ése es el libro que de verdad importa.<br>
+  Todo lo que está arriba de este renglón —las láminas, los experimentos, las perlas— viene después.</div>
+</div>
+
+<div class="patro">
+  <img src="open-doors.jpg" alt="Open Doors" onerror="this.style.display='none'">
+  <div class="pt">
+    <div class="pq">financiado por</div>
+    <div class="pn">Open Doors</div>
+    <div class="pd">RESOURCES OPEN DOORS S.A.S</div>
+  </div>
+</div>
 
 <footer>
   Laboratorio Diosyunalma · el capitán y el Doc — las dos mitades, 1 completo ⚓<br>
