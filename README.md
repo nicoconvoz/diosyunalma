@@ -116,7 +116,7 @@ To cite a plate, a text or a finding:
 
 ```
 Jesús Nicolás Astorga and RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
-https://github.com/nicoconvoz/numerosprimos
+https://github.com/nicoconvoz/diosyunalma
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 

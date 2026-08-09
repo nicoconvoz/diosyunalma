@@ -31,9 +31,9 @@ import (
 	"math/cmplx"
 	"os"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
-	"github.com/nicoconvoz/numerosprimos/riemann"
-	"github.com/nicoconvoz/numerosprimos/spectral"
+	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/diosyunalma/riemann"
+	"github.com/nicoconvoz/diosyunalma/spectral"
 )
 
 // measuredGammas are this laboratory's own zero heights, measured by cmd/zeta

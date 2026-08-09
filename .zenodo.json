@@ -1,0 +1,26 @@
+{
+  "title": "Laboratorio Diosyunalma — un laboratorio numérico de la función zeta",
+  "description": "<p>Un laboratorio numérico completo de la función zeta de Riemann, escrito en Go puro y sin dependencias externas: doscientos experimentos reproducibles, cada uno con su lámina, su explicación en lenguaje llano y un bloque declarado de límites honestos.</p><p><strong>Qué es:</strong> mediciones, instrumentos y visualizaciones de matemática conocida, más varios instrumentos originales — entre ellos un motor de fase doble-doble con techo certificado t ≈ 4×10²⁴, un balde de luz de banda limitada, y un plegado de Fresnel basado en la reciprocidad de Landsberg–Schaar.</p><p><strong>Qué NO es:</strong> no se reclama aquí ninguna demostración de la Hipótesis de Riemann. Cada resultado viene con su límite declarado, y los errores del propio laboratorio están publicados junto con los aciertos, incluidos los que el laboratorio se cazó a sí mismo.</p><p><strong>Licencias:</strong> el código bajo AGPL-3.0-or-later (con licencia comercial disponible); las láminas, textos y documentación bajo CC BY 4.0.</p>",
+  "upload_type": "software",
+  "language": "spa",
+  "license": "AGPL-3.0-or-later",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Astorga, Jesús Nicolás"
+    },
+    {
+      "name": "RESOURCES OPEN DOORS S.A.S"
+    }
+  ],
+  "keywords": [
+    "hipótesis de Riemann",
+    "función zeta de Riemann",
+    "matemática experimental",
+    "teoría de números",
+    "números primos",
+    "investigación reproducible",
+    "Go"
+  ],
+  "notes": "Financiado por RESOURCES OPEN DOORS S.A.S."
+}

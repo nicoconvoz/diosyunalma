@@ -12,7 +12,7 @@ El CODIGO va aparte, bajo licencia MIT: ver el archivo LICENSE.
 Como citar (atribucion minima que pide esta licencia):
 
     Jesús Nicolás Astorga y RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
-    https://github.com/nicoconvoz/numerosprimos
+    https://github.com/nicoconvoz/diosyunalma
     Licencia CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 Resumen legible para humanos (NO sustituye al texto legal de abajo):

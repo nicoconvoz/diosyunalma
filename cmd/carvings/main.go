@@ -23,7 +23,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 type dial struct {

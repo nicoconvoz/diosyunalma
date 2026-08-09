@@ -15,8 +15,8 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/numerosprimos/pattern"
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/pattern"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 // walkFloor is the first prime the mod-3 residue walk is defined for. 2 and 3

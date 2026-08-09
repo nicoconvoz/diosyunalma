@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 var residues = []int{1, 2, 4, 7, 8, 11, 13, 14}

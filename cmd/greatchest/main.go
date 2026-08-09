@@ -29,7 +29,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 const (

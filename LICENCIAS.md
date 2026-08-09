@@ -17,7 +17,7 @@ Si usás una lámina, un texto o un hallazgo, alcanza con esto:
 
 ```
 Jesús Nicolás Astorga y RESOURCES OPEN DOORS S.A.S, "Laboratorio Diosyunalma", 2026.
-https://github.com/nicoconvoz/numerosprimos
+https://github.com/nicoconvoz/diosyunalma
 Licencia CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
@@ -87,11 +87,11 @@ obra habría quedado 100% del autor. Esto es un acto voluntario suyo.
 
 - **Autor:** Jesús Nicolás Astorga
 - **Co-titular:** RESOURCES OPEN DOORS S.A.S
-- **Repositorio:** https://github.com/nicoconvoz/numerosprimos
+- **Repositorio:** https://github.com/nicoconvoz/diosyunalma
 - **Año:** 2026 — si el repo se publica más adelante, actualizar en `LICENSE`
   (línea 3) y en `LICENSE-CONTENIDO.txt` (línea 3)
 
-El módulo de Go también dice `github.com/nicoconvoz/numerosprimos`, que es lo
+El módulo de Go también dice `github.com/nicoconvoz/diosyunalma`, que es lo
 que hace falta para que `go get` funcione: si el módulo y la URL del repo no
 coinciden, Go se niega a bajarlo.
 

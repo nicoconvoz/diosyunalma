@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nicoconvoz/numerosprimos/pattern"
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/pattern"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 func main() {

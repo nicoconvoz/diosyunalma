@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si usás este laboratorio, citalo así."
+title: "Laboratorio Diosyunalma — un laboratorio numérico de la función zeta"
+abstract: >-
+  Un laboratorio numérico completo de la función zeta de Riemann, escrito en Go
+  puro y sin dependencias externas: doscientos experimentos reproducibles, cada
+  uno con su lámina, su explicación en lenguaje llano y un bloque declarado de
+  límites honestos. Publica mediciones, instrumentos y visualizaciones de
+  matemática conocida, más varios instrumentos originales. NO se reclama aquí
+  ninguna demostración de la Hipótesis de Riemann; los errores del propio
+  laboratorio se publican junto con los aciertos.
+type: software
+authors:
+  - family-names: Astorga
+    given-names: "Jesús Nicolás"
+    email: mza.nicolas.astorga@gmail.com
+  - name: "RESOURCES OPEN DOORS S.A.S"
+license: AGPL-3.0-or-later
+repository-code: "https://github.com/nicoconvoz/diosyunalma"
+keywords:
+  - riemann-hypothesis
+  - riemann-zeta-function
+  - experimental-mathematics
+  - number-theory
+  - prime-numbers
+  - reproducible-research
+  - go

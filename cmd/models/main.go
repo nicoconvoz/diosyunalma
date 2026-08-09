@@ -29,9 +29,9 @@ import (
 	"math/rand"
 	"os"
 
-	"github.com/nicoconvoz/numerosprimos/control"
-	"github.com/nicoconvoz/numerosprimos/pattern"
-	"github.com/nicoconvoz/numerosprimos/primes"
+	"github.com/nicoconvoz/diosyunalma/control"
+	"github.com/nicoconvoz/diosyunalma/pattern"
+	"github.com/nicoconvoz/diosyunalma/primes"
 )
 
 func centreFree(w []int) bool { return w[len(w)/2]%3 != 0 }

@@ -29,8 +29,8 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
-	"github.com/nicoconvoz/numerosprimos/spectral"
+	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/diosyunalma/spectral"
 )
 
 var knownZeros = []float64{14.134725, 21.022040, 25.010858, 30.424876, 32.935062, 37.586178, 40.918719, 43.327073, 48.005151, 49.773832}

@@ -21,8 +21,8 @@ import (
 	"os"
 	"sort"
 
-	"github.com/nicoconvoz/numerosprimos/primes"
-	"github.com/nicoconvoz/numerosprimos/spectral"
+	"github.com/nicoconvoz/diosyunalma/primes"
+	"github.com/nicoconvoz/diosyunalma/spectral"
 )
 
 func chi7(n int) float64 {
