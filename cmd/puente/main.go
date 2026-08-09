@@ -626,6 +626,7 @@ func (p *puente) apiLamina(w http.ResponseWriter, r *http.Request) {
 // read inside the dashboard itself.
 
 var fichasDoc = map[string][2]string{
+	"DIFUSION.md":                      {"📢 La Difusión", "el kit para sacar el laboratorio al mundo: los textos ya escritos, el orden de las capas y qué no decir nunca"},
 	"EL-MUSEO.md":                      {"🏛️ El Museo", "el recorrido de ocho salas explicado a lo criollo, para que lo entienda cualquiera"},
 	"RECORRIDO.md":                     {"El Recorrido Técnico", "el viaje completo con números: instrumentos, la caza, el acta y las siete caras"},
 	"INFORME-TECNICO.md":               {"El Informe Técnico", "el informe formal, el salón de honor y los treinta y ocho que nacieron del capitán"},
