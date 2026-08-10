@@ -5416,6 +5416,82 @@ that is, how much the step shrank or grew relative to the step before. **It matc
 
 ---
 
+## Finding 268 — THE RELIEF: what the ups and downs form, and the two things that were NOT drawn
+
+The captain's order: "graph the jumps, the positive ones and the negative ones, and build me what they form."
+
+**What they form is the Gilbreath triangle.** Take the gaps, take absolute differences neighbour by neighbour, and repeat. Row 1 is the gaps, and **row 2 is exactly the absolute value of his "plus two, minus two" terms** from Finding 267. Built 220 rows: **every one begins with a 1, none fails.**
+
+**And the limit that travels with it, or the plate is worthless: the property is NOT special to the primes.** Proth stated it in 1878 and it holds for a broad family of sequences. Gilbreath's conjecture (1958) is beautiful and open, and it **says nothing that is only about primes**.
+
+**What was NOT drawn, and why.** The running sum of the signed second differences **telescopes**: d_1 + ... + d_n = g_1 - g_{n+1}. Measured by hand to n = 50,000: **-11**. By the formula: **-11**. That walk cannot go anywhere the gaps do not already send it, so drawing it as a discovery would have been the **seventh `0.0e+00` trap** of this laboratory. It is named in the record and left off the plate.
+
+**And a second one held back for the same reason:** the near-tie between ups (48.206%) and downs (48.146%) is **forced** - a sustained imbalance would make the gaps grow without bound, and they grow only like ln(p).
+
+**Measured:** 148,931 signed second differences up to 2x10^6. Odd ones: **exactly one** (0.00067%), and it can only occur around 2, the only even prime.
+
+**A note of craft.** The plate first came out at **4.8 MB** with 86,000 rectangles, then 1.3 MB with run-length runs, and settled at **92 KB** with the triangle embedded as a PNG. A finding nobody can open is not a finding.
+
+---
+
+## Finding 269 — THE TWOS: the pattern the captain asked for, and the retraction that was needed to find it
+
+He asked exactly this: "put the twos on a graph relative to the previous prime - none means it is the same - then when there is one two, or several. Show me how they grow or shrink until they change sign, and whether there is a pattern."
+
+**First the trap, declared before measuring.** Two neighbouring twos **share a gap with opposite signs** (d_i = g_i - g_{i+1}, d_{i+1} = g_{i+1} - g_{i+2}). That alone forces a lag-1 correlation of **-1/2** and short runs **even if the gaps were drawn at random**. Measured: primes **-0.5116**, shuffled **-0.4986**, algebra alone **-0.5000**. **It is the subtraction, not the primes.**
+
+**RETRACTION, from the previous turn of this same session.** The assistant told the captain the primes "walk much tighter than chance", comparing the sign walk against **sqrt(n)**. That was wrong: a fair coin is not a valid witness here, because the anti-persistence is already built into the construction. Against the shuffled control the walk is unremarkable. The retraction is printed on the plate where it was discovered.
+
+**And here is the pattern, in his own unit.** Count the twos in each step and ask whether that count is a **multiple of 3** (none, three, six...):
+
+| count of twos | primes | shuffled | z |
+|---|---|---|---|
+| **multiple of 3** | **17.153%** | **34.639%** | **-244.6** |
+| remainder 1 | 41.415% | 32.662% | +97.8 |
+| remainder 2 | 41.433% | 32.699% | +102.4 |
+
+**Crushed to exactly half.** And the sharpest instance is the one he named first, the "no twos" case: **3.413% against 7.749% +/- 0.033, z = -130.1**.
+
+**What it means.** A gap that changes by a multiple of 6 leaves the next prime on the **same side mod 6**. That this is halved means **the primes avoid repeating themselves**.
+
+**And it has an owner and a date:** this is the **Lemke Oliver - Soundararajan bias (2016)**, "Unexpected biases in the distribution of consecutive primes". Nine years published. It is not ours. **But the captain touched it with his hands, counting twos.**
+
+**The other half of his question answers NO.** They do not grow until they flip. The mean |twos| by position inside a run starts at **7.17** and falls to 4.98, 4.29, 4.12. **There is no ramp**, and the shuffle does the same.
+
+---
+
+## Finding 270 — THE CYCLES: the beat hypothesis, killed by three tests
+
+His hypothesis: "if that is a law, there is a relation - every so many minus plus, the sign collects a repeated one... **but they must mark cycles of something**."
+
+**The trap of every cycle hunt, declared first.** Any noise produces peaks in a spectrum, and **the more frequencies you scan, the taller the tallest one gets**. So the witness cannot be a fixed threshold: it must be **the tallest peak the shuffled control produces** over the same frequencies.
+
+**Test 1, the spacing.** Standard deviation over mean between repeats: **0.7800** in the primes against **0.8153** shuffled. Both near 1, which is the signature of **scattered without memory**. A beat would give near 0.
+
+**Test 2, the spectrum.** 1,500 frequencies over a 60,000-step window. Tallest peak in the primes: **6.73** (period 811). Tallest peak in the control: **7.37**. **The primes do not even beat the noise.**
+
+**Test 3, the memory.** Outside lag 1, the strongest lag is **4 with z = -3.1**. Nothing.
+
+**Correction made mid-experiment.** The first version announced "there is something" because lag 1 gave **z = -26.3**. **That lag cannot count**: it is where the neighbourhood bias of Finding 269 lives. A CYCLE would have to appear at a **long** lag. The verdict now judges from lag 2 onward.
+
+**But he was half right, and it is the important half.** There IS a law - Finding 269 stands, z = -244. There is no cycle. **The bias lives in the very next step: it is a rule of neighbourhood, not a heartbeat.**
+
+**A real side observation:** repeats fall **more often** in the primes (every 3.3862 steps) than shuffled (3.8289) - but that is the other face of the same bias, not a new finding.
+
+---
+
+## Finding 271 — LEAK CLOSED: the private guide was travelling inside the installer
+
+`docs/COMO-PUBLICAR.md` has been in `.gitignore` from the start, so **git never published it**.
+
+**But Inno Setup knows nothing about `.gitignore`.** The installer script packaged `..\docs\*` **whole and recursive**, so the 9,049 bytes of the captain's private guide travelled **inside every setup.exe built that day**.
+
+Closed with `Excludes: "COMO-PUBLICAR.md"`, plus a comment on the line explaining why it is there so nobody removes it without understanding.
+
+**The lesson, recorded because it is a lesson of craft: `.gitignore` protects the repository, NOT the installer.** They are two separate lists and both have to be maintained. Anything private has to appear in both.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

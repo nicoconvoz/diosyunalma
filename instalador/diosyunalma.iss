@@ -70,7 +70,12 @@ Source: "..\bin\*.exe";        DestDir: "{app}\bin";     Flags: ignoreversion
 
 ; --- la obra: laminas, documentos y codigo fuente ---
 Source: "..\galeria\*";        DestDir: "{app}\galeria"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "..\docs\*";           DestDir: "{app}\docs";    Flags: ignoreversion recursesubdirs createallsubdirs
+; OJO CON ESTA LINEA, Y VA LA EXPLICACION PORQUE COSTO CARO: .gitignore NO
+; protege al instalador. Git nunca publico la guia privada del capitan, pero
+; Inno Setup empaqueta ..\docs\* entero y recursivo, asi que la guia viajo
+; adentro de varios setup.exe antes de que alguien lo notara. Todo lo que sea
+; privado tiene que estar ademas en este Excludes, no solo en .gitignore.
+Source: "..\docs\*";           DestDir: "{app}\docs";    Excludes: "COMO-PUBLICAR.md"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\cmd\*";            DestDir: "{app}\cmd";     Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\go.mod";           DestDir: "{app}";         Flags: ignoreversion
 Source: "..\README.md";        DestDir: "{app}";         Flags: ignoreversion

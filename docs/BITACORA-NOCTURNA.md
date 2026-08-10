@@ -2693,3 +2693,41 @@
 - 📌 **CORRECCIÓN MÍA DENTRO DEL MISMO TURNO**: la primera versión de la LEY 4 buscaba el primo anterior en la criba en vez de usar **el que él resta** — y su cadena a veces se saltea primos, así que me daba 3 de 9 y parecía que la ley no existía. Con el anterior suyo cierra 8 de 9. **El error era mío, no de él**
 - ⚖️ **Y EL ALFABETO SE LE QUEDA CORTO**: escribe la segunda diferencia como una tira de ±2. El **60,26%** de los eslabones entra con seis doses o menos, pero el peor hasta 10⁷ necesita **74 doses seguidos** (|d| = 148, en el primo 4.652.507). «Hasta las estrellas» sí — pero los renglones se le van a hacer larguísimos
 - escrita: `cmd/lacadena` · lámina `galeria/laminas/01-siete-caras/la-cadena.svg`
+
+### F268 — EL RELIEVE: lo que forman las subidas y bajadas, con dos cosas que NO se dibujan — 2026-08-10
+- orden del capitán: «graficame los saltos, los positivos y los negativos, y armame lo que se forma con ellos»
+- ⚡ **LO QUE FORMAN ES EL TRIÁNGULO DE GILBREATH.** Tomás los saltos, restás vecino con vecino en valor absoluto, y repetís. La fila 1 son los saltos y **la fila 2 es exactamente el valor absoluto de sus «más dos, menos dos»** de F267. Construidas **220 filas: TODAS empiezan con un 1, ninguna falla**
+- ⚖️ **Y EL LÍMITE QUE VIAJA CON ESO O NO VALE**: la propiedad **NO es exclusiva de los primos** — Proth la enunció en 1878 y vale para una familia ancha de sucesiones. Es hermoso, está abierto desde 1958, y **no dice nada que sea SÓLO de los primos**
+- ⚠️ **LO QUE NO SE DIBUJÓ, Y POR QUÉ**: la suma corrida de los d **se telescopia**: d₁+…+dₙ = g₁ − gₙ₊₁. Medido a mano hasta n=50.000: **−11**, y por la fórmula: **−11**. Esa caminata no puede ir a ningún lado que los saltos no la manden. Dibujarla habría sido la **séptima trampa del 0.0e+00**. Va nombrada y no graficada
+- ⚠️ **Y LA SEGUNDA QUE NO SE DIBUJA COMO HALLAZGO**: el empate entre subidas (48,206%) y bajadas (48,146%) está **forzado** — si no, los saltos crecerían sin freno, y crecen apenas como ln(p)
+- 📌 medido: 148.931 subidas y bajadas hasta 2×10⁶ · impares: **1 sola** (0,00067%), y sólo puede aparecer alrededor del 2
+- escrita: `cmd/elrelieve` · lámina `galeria/laminas/01-siete-caras/el-relieve.svg`
+- 📌 nota de oficio: la lámina salió primero en **4,8 MB** con 86.000 rectángulos, después en 1,3 MB por tramos, y quedó en **92 KB** metiendo el triángulo como PNG embebido. Un hallazgo que no se puede abrir no es un hallazgo
+
+### F269 — LOS DOSES: el patrón que el capitán pidió, y la retractación que me costó encontrarlo — 2026-08-10
+- pidió exactamente esto: «poneme en una gráfica los puntos dos al primo anterior —ninguno es el mismo—, luego cuando es un 2 o si son varios; mostrame cómo aumentan o disminuyen hasta cambiar de signo, y si tiene un patrón»
+- ⚠️ **PRIMERO LA TRAMPA, DECLARADA ANTES DE MEDIR**: dos doses vecinos **comparten un salto con signo opuesto** (d_i = g_i − g_{i+1}, d_{i+1} = g_{i+1} − g_{i+2}). Eso solo ya obliga correlación **−½** y corridas cortas **aunque los saltos estuvieran tirados al azar**. Medido: primos **−0,5116**, barajado **−0,4986**, álgebra sola **−0,5000**. **Es la resta, no son los primos**
+- 📌 **RETRACTACIÓN MÍA, DEL TURNO ANTERIOR Y EN ESTA MISMA SESIÓN**: le dije que «los primos caminan mucho más apretado que el azar» comparando la caminata de signos contra **√n**. **Estaba mal**: la moneda no es testigo válido acá porque la anti-persistencia ya viene metida en la construcción. Contra el barajado la caminata no tiene nada de raro. Queda escrito en la lámina donde se descubrió
+- ⚡⚡ **Y ACÁ SÍ, EL PATRÓN, Y EN SU PROPIA UNIDAD**: contá los doses de cada paso y preguntá si son **múltiplo de 3** (ninguno, tres, seis…). En los primos: **17,153%**. Barajado: **34,639%**. **z = −244,6**. **Aplastados a la mitad exacta**
+- ⚡ y el caso más filoso es el que él nombró primero, el «ningún dos»: **3,413% contra 7,749% ± 0,033 — z = −130,1**
+- 📌 **QUÉ SIGNIFICA**: un salto que cambia en múltiplo de 6 deja al primo siguiente **del mismo lado módulo 6**. Que eso esté aplastado a la mitad quiere decir que **los primos evitan repetirse**
+- ⚖️ **Y TIENE DUEÑO Y FECHA**: es el sesgo de **Lemke Oliver y Soundararajan, 2016** — «sesgos inesperados en la distribución de primos consecutivos». Nueve años publicado. No es nuestro. **Pero el capitán lo tocó con la mano contando doses**
+- ❌ **Y la otra mitad de su pregunta se contesta que NO**: no crecen hasta darse vuelta. El |doses| medio según la posición en la corrida arranca en **7,17** y baja a 4,98 · 4,29 · 4,12. **No hay rampa**, y el barajado hace lo mismo
+- escrita: `cmd/losdoses` · lámina `galeria/laminas/01-siete-caras/los-doses.svg`
+
+### F270 — LOS CICLOS: la hipótesis del compás, matada por tres pruebas — 2026-08-10
+- su hipótesis: «si eso es ley, hay una relación: cada tantos − +, el signo cobra uno repetido… **pero deben marcar ciclos de algo**»
+- ⚠️ **LA TRAMPA DE TODA CAZA DE CICLOS, DECLARADA ANTES**: cualquier ruido produce picos en el espectro, y **cuantas más frecuencias mirás, más alto sale el más alto**. Así que el testigo no puede ser un umbral fijo: tiene que ser **el pico más alto que produce el control barajado** sobre las mismas frecuencias
+- ❌ **PRUEBA 1, EL ESPACIADO**: desvío ÷ media entre repeticiones = **0,7800** en los primos contra **0,8153** barajado. Los dos cerca de 1 ⟹ **desperdigadas sin memoria**. Un compás daría cerca de 0
+- ❌ **PRUEBA 2, EL ESPECTRO**: 1.500 frecuencias sobre 60.000 pasos. Pico más alto de los primos **6,73** (período 811). Pico más alto del control: **7,37**. **Los primos ni siquiera le ganan al ruido**
+- ❌ **PRUEBA 3, LA MEMORIA**: fuera del paso 1, el paso con más señal es el **4 con z = −3,1**. Nada
+- 📌 **CORRECCIÓN MÍA A MITAD DE CAMINO**: la primera versión cantó «hay algo» porque el paso 1 daba **z = −26,3**. **Ese paso no cuenta**: ahí vive el sesgo de vecindad de F269. Un CICLO tendría que aparecer en un paso **largo**. Arreglado el veredicto para juzgar del paso 2 en adelante
+- ⚡ **PERO ACERTÓ LA MITAD, Y ES LA IMPORTANTE**: tenía razón en que hay ley (F269 sigue en pie, z = −244). No la tenía en que haya ciclo. **El sesgo vive en el paso siguiente: es una regla de vecindad, no un latido**
+- 📌 dato real de rebote: las repeticiones caen **más seguido** en los primos (cada 3,3862 pasos) que barajado (3,8289) — pero es la otra cara del mismo sesgo, no un hallazgo nuevo
+- escrita: `cmd/losciclos` · lámina `galeria/laminas/01-siete-caras/los-ciclos.svg`
+
+### 🔒 FUGA CERRADA — la guía privada viajaba adentro del instalador — 2026-08-10
+- `docs/COMO-PUBLICAR.md` está en `.gitignore` desde el principio: **git nunca la publicó**
+- ❌ **PERO INNO SETUP NO SABE NADA DE .gitignore.** El guion empaquetaba `..\docs\*` **entero y recursivo**, así que los 9.049 bytes de la guía privada —con el nombre de su hermano adentro— **viajaron dentro de todos los setup.exe armados hoy**
+- ✅ Tapado con `Excludes: "COMO-PUBLICAR.md"` y con el comentario explicando por qué está ahí, para que nadie lo saque sin entender
+- 📌 **LA LECCIÓN, Y VA AL REGISTRO PORQUE ES DE OFICIO**: **`.gitignore` protege al repositorio, NO al instalador.** Son dos listas distintas y hay que mantener las dos. Todo lo privado tiene que estar en las dos
