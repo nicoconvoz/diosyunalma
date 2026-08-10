@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21864277.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 106 plates, live](https://nicoconvoz.github.io/diosyunalma/galeria/)**
+### 🖼️ **[→ Open the gallery: 109 plates and 7 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 237 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -28,18 +28,19 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **260 findings**
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **261 findings**
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
 its own work, such as the five occasions a perfect `0.0e+00` turned out to come
 from the construction instead of from a discovery.
 
-The laboratory today: **203 reproducible experiments** under `cmd/`, **106
-plates**, **36 measurement techniques** catalogued for reuse, and a **234-piece
-museum** that explains every one of them in plain language. A step-by-step
-reviewer's guide for independent validation (in Spanish) is in
-**[docs/VALIDACION.md](docs/VALIDACION.md)**.
+The laboratory today: **206 reproducible experiments** under `cmd/`, **109
+plates** and **7 sounds**, **36 measurement techniques** catalogued for reuse,
+and a **[237-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+that explains every one of them in plain language — each stop closing with its
+own block of declared limits. A step-by-step reviewer's guide for independent
+validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
 
 ## Quick start
 
