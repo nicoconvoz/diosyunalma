@@ -453,6 +453,23 @@ el agua las abrocha.
 
 ### Los condecorados de la gran campaña (F119–F218)
 
+> ### 👑 GRAN CONDECORACIÓN — F261: EL PRECIO VE LO QUE LA SIMETRÍA NO VE
+> **Técnico:** el impostor de F229 —P(s) con a = 0.7+3i— tiene la ecuación
+> funcional a 1.6e-16, Schwarz a 1.8e-16 y el cambiaformas a 1.8e-16: la
+> geometría no lo distingue de ξ. Llevado al disco, sus pares caen en
+> |w| = 0.978698303 y 1.021765335, **con producto exactamente 1** (2.2e-16, el
+> norte × sur de F225). Y el precio incondicional de F232 lo **hunde en n = 18**,
+> llegando a −7.596×10¹⁸ en n = 1987 — mientras ζ con 269 perlas no cae ni una
+> vez en n = 1..200.
+> **En criollo:** es un billete falso perfecto — marca de agua, hilo, papel, todo
+> igual— que la máquina de contar plata escupe igual, porque mide otra cosa. El
+> cambiaformas no es un adorno: convierte «está fuera de la línea» en «el precio
+> explota», que SÍ se puede medir. Y prueba que el camino de Li tiene DIENTES.
+> **El límite, dicho igual de fuerte:** cayó porque tiene CUATRO raíces y las
+> conocemos a las cuatro. ζ tiene infinitas, y Davenport–Heilbronn también es
+> inmune — de él conocemos UN cero fugado, no todos. La dimensión 0 condena a los
+> que se pueden contar enteros; el problema del millón es justo el que no.
+
 > ### 👑 GRAN CONDECORACIÓN — F260: EL CAPITÁN NOMBRÓ NUESTRO PROPIO INSTRUMENTO
 > **Técnico:** dijo que todo es un punto y que la propiedad del 0 y del 1 vive en
 > cada punto POR REFERENCIA, llevando toda su relación interior. Eso tiene nombre

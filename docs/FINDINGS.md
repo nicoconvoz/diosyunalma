@@ -5220,6 +5220,48 @@ The captain's flash: everything is a point, everything is a pixel; the property 
 
 ---
 
+## Finding 261 — THE IMPOSTOR HARMONIZED AT DIMENSION 0: where the geometry saw nothing, the price sings
+
+The captain's order: bring back the impostor's formula and harmonize it at dimension 0.
+
+**The formula, exactly as Finding 229 registered it:** P(s) = (s−a)(s−conj a)(s−(1−a))(s−(1−conj a)) with **a = 0.7 + 3i**. Its three symmetries re-verified now rather than recalled: functional equation **1.6e-16**, Schwarz reflection **1.8e-16**, the shapeshifter sigma **1.8e-16**. Perfect on all three — the geometry cannot tell it from xi.
+
+**Carried to the disk, the costume shows.** All four roots pass through w = 1 − 1/rho and land OFF the skin: one pair at **|w| = 0.978698303**, the other at **|w| = 1.021765335**. And their product is **exactly 1** (deviation 2.2e-16) — Finding 225's north times south. The impostor cannot escape that law: if one pair sinks the other rises, and the one that rises grows like r^n. That is its undoing.
+
+**Li's price convicts it.** With Finding 232's unconditional form, lambda_n = sum over pairs of [2 − 2 Re(w^n)]: on the skin every term lies in [0, 4] and can never be negative; off the skin there is no ceiling. Measured on the impostor: **first negative at n = 18**, and it keeps going — **−7.596e+18 at n = 1987**.
+
+**And against the real pearls, so that it is not a trick.** With 269 pearls, zeta does not fall once for n = 1..200 (zero negatives), while the impostor falls at 18. The instrument discriminates: it does not say everything is fine, it says what is true of each, and they differ.
+
+**So dimension 0 sees what the geometry cannot.** The shapeshifter is not decoration: it turns "this root is off the line" into "the price explodes", which is a measurable quantity. And it confirms that Li's route has teeth — it is not a jammed thermometer.
+
+**The limit, and it is the whole point.** The impostor fell because it has FOUR roots and we know all four. Li's price is a sum over ALL roots: with four, the sum is exact and so is the verdict. Zeta has infinitely many and we hold 269 — zero percent. That is why Finding 259 measured the laboratory's horizon at gamma ~ 1658.
+
+**And the same applies to Davenport-Heilbronn**, Finding 259's larger impostor: of it we know exactly one off-line zero, not all of them, so its price cannot be assembled either. **It is immune to this test for precisely the reason zeta is.** It would be dishonest to say dimension 0 "catches impostors": it catches the ones that can be **counted in full**, and neither zeta nor Davenport-Heilbronn can be counted in full.
+
+---
+
+## Finding 258 — THALES: plus-or-minus one is not w, but the half relation exists and is exact
+
+The captain's correction of his own flash: "something was missing — plus-or-minus one is not equal to w, but there IS a half relation that can be harmonized at dimension 0."
+
+**He corrected himself, and he was right.** Finding 254 had already measured that |w| = 1 does NOT force w = ±1. What was missing was the other half of his sentence: the relation between the pair (−1, +1) and an arbitrary pearl does exist, it is exact, and harmonized at the clasp it gives one half.
+
+**Law 1 — plus one and minus one are the two ends of a diameter.** They are not two arbitrary points: they sit 2 apart, the maximum the disk allows. And a theorem from 600 BC says what follows — **Thales: every point of a circle sees a diameter at a right angle.** Measured over the 649 pearls: all 649 see the pair (−1, +1) at ninety degrees, worst deviation 3.1e-12. With a right angle Pythagoras holds: |w − 1|² + |w + 1|² = **4** always, the diameter squared.
+
+**Law 2 — and here the half appears written out.** Carrying both distances back through the shapeshifter takes two lines of algebra:
+
+- w − 1 = (1 − 1/ρ) − 1 = −1/ρ, so **|w − 1| = 1/|ρ|** (verified to 3.5e-18). The pearl's distance to the clasp is the reciprocal of its distance to the stake at zero.
+- w + 1 = (2ρ − 1)/ρ, so **|w + 1| = 2·|ρ − ½|/|ρ|** (verified to 4.4e-16). **The pearl's distance to the lower pole is TWICE its distance to one half** — the half appears explicitly, and the 2 beside it is its reciprocal.
+- and the limiting case explains why −1 carries no pearl: if ρ = ½ exactly then |ρ − ½| = 0, so |w + 1| = 0. **Minus one is the image of the half, the single point where that distance dies.**
+
+**Law 3 — and harmonized at dimension 0 it gives the line.** Substituting both into Thales: 1/|ρ|² + 4|ρ − ½|²/|ρ|² = 4, that is **4·|ρ|² − 4·|ρ − ½|² = 1**. And what does that left side equal? The computation gives **4·β − 1** (verified to 1.6e-12). So Thales requires 4β − 1 = 1, that is **β = ½, and only β = ½**. Measured at β = 0.30, 0.40, 0.50, 0.60, 0.70: it equals 1 at exactly one of them.
+
+**The relation he was after, in one sentence: a pearl lies on the line if and only if it sees the pair (−1, +1) at a right angle.** Plus-or-minus one is not w, as he corrected himself; but ±1 and w are tied together by a right angle, and that tie harmonized at the clasp gives exactly the half.
+
+**The limit, and it is the usual one.** The identity 4β − 1 = 1 ⟺ β = ½ is, word for word, the perpendicular bisector of Finding 226 ("the line is the locus equidistant from the two stakes"): they agree on 5 of 5 tests — the SAME sentence written two ways. And to use the right angle one would have to know **in advance** that the pearl lies on the skin, which is precisely what needs proving — the same circular trap as Finding 256. One more exact translation: beautiful, 2,600 years old, and it decides nothing.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
