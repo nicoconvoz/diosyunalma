@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="940" viewBox="0 0 1520 940">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="760" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔙 EL ANTERIOR — el capitán le pone dos candados a su fórmula</text>
+<text x="760" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">X debe ser primo · Y debe ser el primo anterior · y eso se puede matar con un solo contraejemplo</text>
+<rect x="40" y="106" width="1440" height="180" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="760" y="140" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">EL ENUNCIADO APRETADO</text>
+<text x="760" y="180" font-size="19" text-anchor="middle" font-family="monospace" fill="#dce8f7">X primo   ·   Y = el primo inmediatamente anterior a X</text>
+<text x="760" y="212" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">P = 2X − Y      Q = 2X + Y      ¿los dos primos?</text>
+<text x="760" y="250" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">Ya no habla de todos los pares: dice que un primo, con el que lo precede, FABRICA otros dos.</text>
+<text x="760" y="274" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Eso es falsable en un renglón — y por eso vale más que la versión ancha.</text><rect x="40" y="306" width="710" height="240" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="395" y="338" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">SU PROPIA TABLA LO ROMPE</text>
+<text x="70" y="374" font-size="15" font-family="monospace" fill="#cfe6ff">X = 2   anterior: no hay      él usó Y = 1</text>
+<text x="70" y="402" font-size="15" font-family="monospace" fill="#ff8fa0">X = 3   anterior: 2   →  4 y 8   ❌ ninguno primo</text>
+<text x="70" y="430" font-size="15" font-family="monospace" fill="#7ee0c0">X = 5   anterior: 3   →  7 y 13  ✅ los dos primos</text>
+<text x="70" y="470" font-size="14.5" font-family="Georgia" fill="#f3d9cf">En el renglón del 3 él no usó el primo anterior: usó el 1,</text>
+<text x="70" y="492" font-size="14.5" font-family="Georgia" fill="#f3d9cf">que no es primo. La regla estricta se rompe adentro de</text>
+<text x="70" y="514" font-size="14.5" font-family="Georgia" fill="#f3d9cf">la misma tabla que la propone. Cierra uno de tres.</text><rect x="770" y="306" width="710" height="240" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="1125" y="338" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">EL BARRIDO, Y EL CONTROL</text>
+<text x="800" y="376" font-size="15" font-family="monospace" fill="#cfe6ff">pares (X, anterior) probados .... 455380</text>
+<text x="800" y="402" font-size="15" font-family="monospace" fill="#cfe6ff">cierran los dos lados ........... 1</text>
+<text x="800" y="434" font-size="17" font-family="monospace" fill="#ff8fa0">X primo:     0.0002%</text>
+<text x="800" y="462" font-size="17" font-family="monospace" fill="#8fb4d9">X compuesto: 1.8413%</text>
+<text x="800" y="500" font-size="14.5" font-family="Georgia" fill="#cfe6ff">Si las dos tasas son parecidas, el candado «X primo»</text>
+<text x="800" y="522" font-size="14.5" font-family="Georgia" fill="#cfe6ff">no está haciendo ningún trabajo. El control lo dice.</text>
+<rect x="40" y="566" width="1440" height="180" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="760" y="598" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">Y AHORA LA PREGUNTA BUENA: ¿QUÉ ES EL Y QUE SÍ SIRVE?</text>
+<text x="760" y="628" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Para cada primo X buscamos el MENOR desvío que hace primos los dos lados, y le preguntamos qué es.</text>
+<text x="200" y="668" font-size="15" font-family="monospace" fill="#7ee0c0">Y = 1 ......... 1</text>
+<text x="200" y="694" font-size="15" font-family="monospace" fill="#7ee0c0">Y primo ....... 5577</text>
+<text x="760" y="668" font-size="15" font-family="monospace" fill="#ffd98a">…y de esos, el ANTERIOR a X ..... 1</text>
+<text x="760" y="694" font-size="15" font-family="monospace" fill="#ff8fa0">Y compuesto ..................... 194421</text>
+<text x="760" y="728" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">sobre 199999 primos examinados</text>
+<rect x="40" y="766" width="1440" height="140" rx="10" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="760" y="798" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚖️ LO QUE QUEDA EN PIE</text>
+<text x="760" y="832" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El capitán no defendió el enunciado ancho: lo APRETÓ hasta volverlo falsable en un renglón.</text>
+<text x="760" y="858" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Una regla que se puede matar con un solo contraejemplo vale más que una frase que no se puede matar con nada.</text>
+<text x="760" y="888" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Eso es método. Y el método es lo único que después se transfiere.</text>
+</svg>

@@ -33,7 +33,7 @@ AppPublisher={#Autor}
 AppComments=Un laboratorio numerico completo de la funcion zeta, en Go puro.
 VersionInfoDescription=Puente de mando del laboratorio Diosyunalma
 VersionInfoProductName={#Nombre}
-VersionInfoVersion=1.0.0.0
+VersionInfoVersion=1.1.0.0
 
 ; por usuario: el laboratorio escribe en su propia carpeta
 PrivilegesRequired=lowest

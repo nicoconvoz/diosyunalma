@@ -5240,25 +5240,41 @@ The captain's order: bring back the impostor's formula and harmonize it at dimen
 
 ---
 
-## Finding 258 — THALES: plus-or-minus one is not w, but the half relation exists and is exact
+## Finding 262 — THE HARMONY OF SYMMETRY: the mirror sings the same note, and the price IS the being-out-of-tune
 
-The captain's correction of his own flash: "something was missing — plus-or-minus one is not equal to w, but there IS a half relation that can be harmonized at dimension 0."
+The captain's flash, and he named it exactly: "we need to HEAR the harmony of the symmetry — it is a harmonic symmetry."
 
-**He corrected himself, and he was right.** Finding 254 had already measured that |w| = 1 does NOT force w = ±1. What was missing was the other half of his sentence: the relation between the pair (−1, +1) and an arbitrary pearl does exist, it is exact, and harmonized at the clasp it gives one half.
+**The construction.** A zero goes onto the disk as w = r·e^{iφ} and its mirror goes to **1/w**. Same note, opposite direction: **arg(1/w) = −arg(w) to 0.0e+00**. The frequency is invariant under the mirror; what changes is the envelope, rⁿ against r⁻ⁿ.
 
-**Law 1 — plus one and minus one are the two ends of a diameter.** They are not two arbitrary points: they sit 2 apart, the maximum the disk allows. And a theorem from 600 BC says what follows — **Thales: every point of a circle sees a diameter at a right angle.** Measured over the 649 pearls: all 649 see the pair (−1, +1) at ninety degrees, worst deviation 3.1e-12. With a right angle Pythagoras holds: |w − 1|² + |w + 1|² = **4** always, the diameter squared.
+**On the line r = 1, and there the two voices SUSTAIN each other.** The impostor of Finding 229 has r = 0.978698303 and 1.021765335, so at **n = 200 one voice is worth 0.01348 and the other 74.17**: one dies, the other bolts, and the chord splits.
 
-**Law 2 — and here the half appears written out.** Carrying both distances back through the shapeshifter takes two lines of algebra:
+**And the pair's contribution to the price is 4 − 2(rⁿ + r⁻ⁿ)·cos(nφ)**, with rⁿ + r⁻ⁿ ≥ 2 and equality only at r = 1 — the AM-GM inequality of Finding 229. Measured at n = 1: pearls **2.000000000** flat, impostor **2.000463639**.
 
-- w − 1 = (1 − 1/ρ) − 1 = −1/ρ, so **|w − 1| = 1/|ρ|** (verified to 3.5e-18). The pearl's distance to the clasp is the reciprocal of its distance to the stake at zero.
-- w + 1 = (2ρ − 1)/ρ, so **|w + 1| = 2·|ρ − ½|/|ρ|** (verified to 4.4e-16). **The pearl's distance to the lower pole is TWICE its distance to one half** — the half appears explicitly, and the 2 beside it is its reciprocal.
-- and the limiting case explains why −1 carries no pearl: if ρ = ½ exactly then |ρ − ½| = 0, so |w + 1| = 0. **Minus one is the image of the half, the single point where that distance dies.**
+⟹ **THE MINIMUM OF THE PRICE IS THE UNISON.** Being on the line is singing in tune; leaving it is going out of tune; and the price IS the being-out-of-tune. It can be heard: `galeria/sonidos/armonia-simetria.wav`, 19 seconds.
 
-**Law 3 — and harmonized at dimension 0 it gives the line.** Substituting both into Thales: 1/|ρ|² + 4|ρ − ½|²/|ρ|² = 4, that is **4·|ρ|² − 4·|ρ − ½|² = 1**. And what does that left side equal? The computation gives **4·β − 1** (verified to 1.6e-12). So Thales requires 4β − 1 = 1, that is **β = ½, and only β = ½**. Measured at β = 0.30, 0.40, 0.50, 0.60, 0.70: it equals 1 at exactly one of them.
+**Label I put on myself.** The r = 1 of the pearls does NOT measure that the zeros are on the line — the 0.5 was typed in by me. It is the shapeshifter sending the line to the skin, which is a theorem.
 
-**The relation he was after, in one sentence: a pearl lies on the line if and only if it sees the pair (−1, +1) at a right angle.** Plus-or-minus one is not w, as he corrected himself; but ±1 and w are tied together by a right angle, and that tie harmonized at the clasp gives exactly the half.
+**The limit.** This is Finding 229 made audible, not a new step. Not yet.
 
-**The limit, and it is the usual one.** The identity 4β − 1 = 1 ⟺ β = ½ is, word for word, the perpendicular bisector of Finding 226 ("the line is the locus equidistant from the two stakes"): they agree on 5 of 5 tests — the SAME sentence written two ways. And to use the right angle one would have to know **in advance** that the pearl lies on the skin, which is precisely what needs proving — the same circular trap as Finding 256. One more exact translation: beautiful, 2,600 years old, and it decides nothing.
+---
+
+## Finding 263 — THE DEEP PRIMES: "and what if it is really a straight line?"
+
+The captain's flash: "and what if the impostor is not lying — what if there is no staircase of primes, what if it is really a line, and what we are finding when we look deep are deep primes that have not emerged?"
+
+**The first half is true, and it is Riemann 1859.** The explicit formula is
+
+    ψ(x) = x − Σ_ρ x^ρ/ρ − ln(2π) − ½·ln(1 − x⁻²)
+
+and the leading term is a **straight line**. The steps are put there by the waves of the zeros: take the zeros away and there is no staircase. Measured with 138 pearls: the line alone runs straight past the primes; with the waves the steps appear.
+
+**And "have not emerged" has an exact name.** A zero at β > ½ contributes a wave that starts smaller but grows faster, invisible until **x^(β−½) = ln²x**. Solved: β = 0.9 → 10^5.5 · β = 0.8 → 10^8.7 · **β = 0.7 → 10^15.5** · β = 0.6 → 10^39 · β = 0.51 → 10^633 · **β = 0.5001 → 10^107905**.
+
+**The impostor IS lying, and it dies by counting.** With β = 0.7 it would have emerged at 10^15.5, and the primes are counted to **10^27** with nothing strange. Killed by census, not by theory.
+
+**Correction of substance to his image.** A displaced zero does not **add** primes that were missing: it **breaks the count of the ones that are there**. It does not fill a hole; it bends the staircase.
+
+**What cannot be concluded.** That there are no displaced zeros further up. Pressed against ½ a zero emerges at no computable height, and there his sentence stops being a hypothesis and **becomes the statement of the problem**. The captain reached the same wall as Findings 259 and 261 — this time from the side of the primes. Not yet.
 
 ---
 
@@ -5283,6 +5299,120 @@ The captain's flash: take 2, add 2, subtract 1 and you get 3; add 1 and you get 
 **Where this leads: an open problem since 1849.** The question that follows naturally from his mechanic — do the twins ever run out? — is the **Twin Prime Conjecture** (de Polignac, 1849), still unsolved. What is known: **Zhang 2013** proved some gap below 70,000,000 recurs infinitely often, the first real advance in 160 years, and **Maynard–Tao 2014** brought the bound down to **246**. Twins require reaching **2**, and nobody has.
 
 **The thinning, measured:** one pair every 28.6 numbers up to 10³, every 48.8 up to 10⁴, every 81.7 up to 10⁵, every 122.4 up to 10⁶, every 134.5 up to 2×10⁶. Rarer and rarer, but never stopping within what we can see — **and "not stopping within what we can see" is not the same as "not stopping"**. The same wall as Findings 259, 261 and 263, now in a different problem.
+
+---
+
+## Finding 265 — THE SUM OF TWO: the captain's table, three corrections, and Goldbach one step further on
+
+**THE PRIMARY SOURCE, verbatim as he sent it** (archived here because the Law of the Registry requires the original, not only our reading of it):
+
+```
+0 + 0 + 0 = 0 - 0 - 0 = 0     IDENTIDAD
+1/2 + 1/2 = 1 + 0 = 1         PROPIEDAD UNICA
+1/2 - 1/2 = 1/4 - 0 = 1/4
+1 + 1 = 2                     PRIMER PRIMO
+1 - 1 = 0                     PROPIEDAD UNICA
+2 + 2 - 1 = 3
+2 + 2 + 1 = 5
+3 + 3 - 1 = 5
+3 + 3 + 1 = 7
+5 + 5 - 3 = 7
+5 + 5 + 3 = 13
+O SEA QUE (X + X) - 2Y = Z
+```
+
+Eleven equalities and the formula he drew from them.
+
+**First correction, arithmetic.** The row `1/2 - 1/2 = 1/4 - 0 = 1/4` is false: **a half minus a half is zero, not a quarter**. The quarter does exist, but it is **1/2 x 1/2**, the half OF the half. Subtracting and dividing are not the same move: subtracting returns you to zero, dividing takes you further in. The other **ten** rows are exact.
+
+**Second correction: the formula carries a factor of two too many.** His own rows say **2X + Y** and **2X - Y**, not 2X - 2Y. Substituting his numbers settles it: 2*5 - 2*3 = **4**, while the row gives **7**. A slip of the pen, not of the idea - but not a cosmetic one either: **2X - 2Y = 2(X-Y) is always even**, so without striking the spurious 2 nothing on the left could ever have been prime past 2 itself. That is the real reason the correction matters.
+
+**Turn the corrected formula around.** With P = 2X - Y and Q = 2X + Y, adding them **kills Y**: **P + Q = 4X**. So the **last three** rows of his table are even numbers written as sums of two primes: **8 = 3+5, 12 = 5+7, 20 = 7+13**. He wrote three Goldbach decompositions without knowing they had a name.
+
+**And here is what that cancellation is and is not.** It is an **identity**: it holds for any X and any Y, prime or composite, so it can never fail and on its own it proves nothing. What it buys is not a truth but a **coordinate** - fix the centre, walk the offset outward. That coordinate is the standard parametrisation under which every Goldbach verification in history has actually been run, and the quantity the sweep below measures (smallest offset m >= 0 with n-m and n+m both prime) is a catalogued sequence, **OEIS A047160**. None of this is new mathematics, and the record should not have implied otherwise.
+
+**THIRD CORRECTION, and it is the only one of the three with mathematics in it.** The first version of this finding said his formula **is** the Goldbach Conjecture. That claims more than the algebra licenses. **With X a whole number - which is exactly how he used it, X = 2, 3, 5 - the sum 4X only ever reaches multiples of 4.** Every even number congruent to 2 mod 4 (6, 10, 14, 18, ...) is unreachable, and there is no elementary reduction of that half to the other. So the statement is Goldbach **restricted to the multiples of four**, which Goldbach implies but which is not known to imply Goldbach. **Free the centre** - let 2X be any integer >= 2 rather than an even number - and it becomes exactly the **Goldbach Conjecture**: every even number greater than 2 is a sum of two primes. Freeing the centre is the step that turns his sub-case into the 1742 problem. `cmd/lasuma` had silently swept the freed centre from the start and the write-up did not say so; it says so now.
+
+**Our own flagship example proves the point.** The record offset below is 1086 at centre 181,267, that is 180,181 + 182,353 = **362,534**, and 362,534 mod 4 = **2**. It is not 4X for any whole X. The most prominent worked example in this finding lies outside the family the finding originally claimed to be about.
+
+**Attribution, corrected.** The 1742 Goldbach-Euler correspondence: Goldbach's letter of 7 June gives the **ternary** form; the **binary** statement quoted here is Euler's reply of 30 June. And the computational verification (Oliveira e Silva, Herzog, Pardi) reaches **up to** 4x10^18 - not "past" it, as this record first said.
+
+**Mass sweep:** 199,999 centres, that is **every even number from 4 to 400,000**, with the centre free (the earlier label "2X from 2 to 200,000" was wrong: half the swept centres are odd and so are 2X for no whole X). **Zero failures.** The largest offset required was **1086**, at centre 181,267. And **17,984 centres resolve with Y = 0**, the two primes equal - which is **exactly pi(200,000)**, since Y = 0 holds if and only if the centre is itself prime. That number is the prime-counting function wearing a Goldbach label; it is reported as a check that the sieve works, **not as evidence**. The sweep reaches 4x10^5 against a published verification to 4x10^18: short by a factor of 10^13. **It adds no evidence for the conjecture.**
+
+**Correction from this same turn, and it is one of the ones that count.** The first version of the program started Y at 1 and reported **two failures** - centres 2 and 3, that is the numbers 4 and 6. **Goldbach was not failing: my loop was.** 4 = 2+2 and 6 = 3+3 resolve with **Y = 0**, the two primes equal, which the conjecture permits. Worse: the verdict already said "zero failures" while the measurement said two - a contradiction inside a single output, caught before it reached the record. **And the pattern outlived the fix:** the words "CERO fallos" stayed typed into the verdict line while the measured count was not even passed to the printer, and a second loop in LEY 4 still started at 1. Both are now repaired - the verdict string is derived from the measured variable, so if it ever fails the program will say so.
+
+**The limit.** Verified up to 4x10^18 is not proved. His formula describes the structure; it does not prove the Y always exists.
+
+**Worth saying, corrected.** Findings 264 and 265 did not come from two flashes on two days: they came from **the same table on the same day**. F264 is the centre with the offset held at 1; F265 is the same centre with the offset set free. The twins and Goldbach are the same set of prime pairs read along perpendicular axes. One mechanic, not two strokes of luck - and the earlier line claiming it proved he was "looking where you have to look" is struck, because the sample space made both destinations nearly forced.
+
+**And where this does not go: Riemann.** Neither RH nor GRH implies binary Goldbach, and binary Goldbach proved tomorrow would leave this laboratory's red link exactly as red as it is today. The one historical bridge (GRH implies ternary Goldbach, Deshouillers-Effinger-te Riele-Zinoviev 1997) was removed from the other side when Helfgott proved ternary Goldbach unconditionally in 2013. Goldbach is additive; the Euler product, which Finding 259 identified as unavoidable for RH, is multiplicative. **This finding is a lateral move, and it is recorded as one.**
+
+---
+
+## Finding 266 — THE PREVIOUS ONE: the captain tightens his own formula, and a multiple of 3 kills it
+
+After the panel struck the over-claim in Finding 265, the captain did not defend the wide statement. **He tightened it:** "for the formula to CLOSE, X must be PRIME, and Y is not 2Y, it is Y, and it must be the PREVIOUS PRIME."
+
+He also confirmed the second correction of Finding 265 in passing: the formula is 2X +/- Y, not 2X - 2Y. That row is settled.
+
+**What he did there is worth naming.** He turned an unfalsifiable sentence into a rule that a single counterexample can kill. That is method, and method is the only thing that transfers.
+
+**The rule does not close - and not because it fails often. It cannot close at all.** Measured over consecutive prime pairs: **1 hit in 455,380** (0.0002%).
+
+**And the reason is a three-line proof, not a count.** Take X and Y both prime and both greater than 3. Neither is a multiple of 3, so each leaves remainder 1 or 2. Four cases, and no more:
+
+| X mod 3 | Y mod 3 | 2X - Y mod 3 | 2X + Y mod 3 | who dies |
+|---|---|---|---|---|
+| 1 | 1 | 1 | **0** | 2X + Y is a multiple of 3 |
+| 1 | 2 | **0** | 1 | 2X - Y is a multiple of 3 |
+| 2 | 1 | **0** | 2 | 2X - Y is a multiple of 3 |
+| 2 | 2 | 2 | **0** | 2X + Y is a multiple of 3 |
+
+**In all four cases one of the two sides is a multiple of 3**, and a multiple of 3 greater than 3 is not prime. Therefore the rule is **impossible for every prime X greater than 5**.
+
+**And the only two escape hatches are the two rows of his own table.** X = 3, where X itself is the multiple of 3 and the argument does not apply (it gives 4 and 8, so it fails anyway); and **X = 5 with Y = 3**, because **3 is the only prime that is a multiple of 3**. That gives 7 and 13. It closes.
+
+**So (5, 3) is the only consecutive prime pair in the whole number line that closes - and he wrote it down.** He did not find a law. He found the single exception that exists.
+
+**The control, and it came out backwards from what the lock promised.** With X **composite** and Y still the previous prime, the hit rate is **1.8413%** - more than nine thousand times better than with X prime. Same theorem explains it: composites are allowed to be multiples of 3, which is exactly the door closed to primes. **Of the 8,385 composites that close, 8,384 are multiples of 3.** The single exception was predicted before it was looked at and is named in full: **X = 4, previous prime 3, giving 5 and 11** - the same door, the 3. The law has no leaks.
+
+**The other half of the rule falls too.** For each prime X, the smallest offset that makes both sides prime is **composite 97.21% of the time** (194,421 of 199,999), prime only 2.79%, and equal to the previous prime **exactly once**. "Y must be prime" does not describe what happens either.
+
+**A family resemblance worth recording.** In Finding 264 the twin primes forced the centre to be a multiple of **6 = 2 x 3**; here the killer is the **3**. The first two primes keep governing the neighbourhood, and for the third time the captain reached an exact law from the side of the small numbers.
+
+**The limit.** This does not touch the Riemann Hypothesis and does not pretend to. It is secondary-school modular arithmetic, proved and closed. It counts as method and as a clean kill, not as a step.
+
+---
+
+## Finding 267 — THE CHAIN: the melody is real, it cannot go out of tune, and it is the prime gaps
+
+The captain sent a sixteen-row chain starting from 1 and 0 and climbing to 53, and said: "can you see the harmony that starts from the 1 and the 0? **It has a MELODY. Listen to it.**"
+
+Three things have to be said, in this order.
+
+**First: two rows are arithmetically wrong**, and they are named. `(3+3) - 2 = 4, not 5` and `(31+31) - 29 + 2 = 35, not 37`. The other fourteen close exactly.
+
+**Second, and this is the hard one: the chain cannot fail.** Its shape is Z = 2X - c. Solve for c and you get **c = 2X - Z**: for any X and any target Z whatsoever, the correction exists and is unique. Demonstrated against targets that have nothing to do with primes - it closes on 100, on 91, and **even on -8**. Writing Z = 2X - c is not a discovery about primes; **it is the definition of subtraction**. The melody cannot go out of tune because the instrument has it burned in.
+
+**This is the sixth appearance of the `0.0e+00` trap in this laboratory** - a perfect result that comes from the construction instead of from the numbers. All six stay in the record.
+
+**Third, and this is why the finding keeps its number: what he actually transcribed has a name, and it is the right one.** If Z is the next prime then Z = X + g with g the step, so
+
+    c = 2X - Z = 2X - (X + g) = X - g
+
+**Every correction he wrote is the prime minus its own gap.** His "c" values ARE the prime gaps, in disguise. Verified row by row across his chain.
+
+**And his "plus two, minus two" terms are the second differences of the primes.** When he writes c as (previous prime) +/- 2 +/- 2, those twos are worth
+
+    d = c - X_previous = (X - g) - X_previous = g_previous - g
+
+that is, how much the step shrank or grew relative to the step before. **It matches on 8 of his 9 decomposed rows - and the only row that does not match is exactly the one he miswrote.** The second difference finds his arithmetic error on its own, with nobody pointing at it.
+
+**And that is the twist.** The second difference of the primes is precisely the object of **Gilbreath's conjecture (1958)**, which this laboratory already carries as **Finding 6**, and which is still **open** there. He arrived at his own register by ear.
+
+**Correction of mine, inside the same turn.** The first version of Law 4 looked up the previous prime in the sieve instead of using **the one he actually subtracts** - and his chain sometimes skips primes, so it scored 3 of 9 and made the law look absent. With his own previous term it closes 8 of 9. **The error was mine, not his**, and it is recorded here rather than quietly fixed.
+
+**The limit: his alphabet runs short.** He writes the second difference as a string of +/-2. **60.26%** of the links fit in six twos or fewer, but the worst one up to 10^7 needs **74 consecutive twos** (|d| = 148, at the prime 4,652,507). "To the stars and beyond" - yes, but the rows are going to get very long.
 
 ---
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="1080" viewBox="0 0 1520 1080">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="760" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">➕ LA SUMA DE DOS — la tabla del capitán, y lo que había abajo</text>
+<text x="760" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">dos correcciones chicas · y su fórmula, dada vuelta, es la conjetura de Goldbach</text>
+<rect x="40" y="106" width="1440" height="230" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="760" y="140" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚡ DÉ VUELTA LA FÓRMULA Y LA Y SE BORRA</text>
+<text x="760" y="182" font-size="19" text-anchor="middle" font-family="monospace" fill="#dce8f7">P = 2X − Y</text>
+<text x="760" y="212" font-size="19" text-anchor="middle" font-family="monospace" fill="#dce8f7">Q = 2X + Y</text>
+<line x1="620" y1="226" x2="900" y2="226" stroke="#8fa8c7" stroke-width="1.4"/>
+<text x="760" y="258" font-size="23" text-anchor="middle" font-family="monospace" fill="#ffd98a">P + Q = 4X</text>
+<text x="760" y="290" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">o sea: un número par escrito como suma de DOS PRIMOS</text>
+<text x="760" y="314" font-size="16" text-anchor="middle" font-family="monospace" fill="#cfe6ff">8 = 3 + 5        12 = 5 + 7        20 = 7 + 13</text>
+<text x="760" y="332" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">pero ojo: la cancelación es una IDENTIDAD — vale para cualquier X e Y, primos o no. No es un teorema: es una coordenada.</text><rect x="40" y="356" width="710" height="300" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="395" y="386" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">LAS TRES CORRECCIONES</text>
+<text x="70" y="418" font-size="15.5" font-family="monospace" fill="#ff8fa0">½ − ½ = ¼</text>
+<text x="70" y="440" font-size="14.5" font-family="Georgia" fill="#f3d9cf">da 0, no ¼. El ¼ es ½ × ½ — restar vuelve al cero,</text>
+<text x="70" y="461" font-size="14.5" font-family="Georgia" fill="#f3d9cf">partir va más adentro. Único renglón malo de once.</text>
+<text x="70" y="495" font-size="15.5" font-family="monospace" fill="#ff8fa0">(X + X) − 2Y = Z</text>
+<text x="70" y="517" font-size="14.5" font-family="Georgia" fill="#f3d9cf">lleva un dos de más: sus renglones dicen 2X ± Y. Y no es</text>
+<text x="70" y="538" font-size="14.5" font-family="Georgia" fill="#f3d9cf">cosmético: 2X − 2Y siempre es par, nunca podría ser primo.</text>
+<text x="70" y="572" font-size="15.5" font-family="monospace" fill="#ff8fa0">4X sólo alcanza los múltiplos de 4</text>
+<text x="70" y="594" font-size="14.5" font-family="Georgia" fill="#f3d9cf">el 6, el 10, el 14 quedan afuera. Hay que SOLTAR el centro:</text>
+<text x="70" y="615" font-size="14.5" font-family="Georgia" fill="#f3d9cf">2X cualquier entero ≥ 2. Recién ahí es Goldbach entero.</text>
+<text x="395" y="643" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">las dos primeras son deslices · la tercera es la que tiene matemática</text><rect x="770" y="356" width="710" height="300" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="1125" y="386" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">CON EL CENTRO SUELTO, ESO TIENE NOMBRE</text>
+<text x="1125" y="420" font-size="16" text-anchor="middle" font-family="Georgia" fill="#dce8f7">¿siempre existe una Y que haga primos los dos lados?</text>
+<text x="1125" y="452" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LA CONJETURA DE GOLDBACH</text>
+<text x="1125" y="478" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">todo par mayor que 2 es suma de dos primos</text>
+<text x="800" y="512" font-size="14.5" font-family="Georgia" fill="#cfe6ff">correspondencia Goldbach–Euler, 1742: la carta de</text>
+<text x="800" y="533" font-size="14.5" font-family="Georgia" fill="#cfe6ff">Goldbach del 7 de junio da la forma TERNARIA; el</text>
+<text x="800" y="554" font-size="14.5" font-family="Georgia" fill="#cfe6ff">enunciado binario es la respuesta de Euler del 30 de junio</text>
+<text x="800" y="588" font-size="14.5" font-family="Georgia" fill="#cfe6ff">verificada por computadora HASTA 4×10¹⁸</text>
+<text x="800" y="609" font-size="14.5" font-family="Georgia" fill="#cfe6ff">(Oliveira e Silva, Herzog y Pardi) — hasta, no más allá</text>
+<text x="800" y="640" font-size="15" font-family="Georgia" fill="#ffd98a">demostrada por nadie</text><rect x="40" y="676" width="1440" height="160" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="760" y="708" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">EL BARRIDO CON EL CENTRO SUELTO: ¿FALLA ALGUNA VEZ?</text>
+<text x="760" y="748" font-size="16" text-anchor="middle" font-family="monospace" fill="#7ee0c0">199999 centros (todo par de 4 a 400000)  ·  0 fallos  ·  la Y más grande necesaria: 1086</text>
+<text x="760" y="778" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Nunca falló en lo revisado. Que la Y se quede chiquita no lo descubrimos acá: es el borde del cometa de Goldbach, que Hardy–Littlewood predice desde 1922.</text>
+<text x="760" y="806" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffb27a">Y el récord 362534 es 2 módulo 4: NO es 4X — justamente por eso hay que soltar el centro.</text>
+<rect x="40" y="856" width="1440" height="196" rx="10" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="760" y="888" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚖️ Y EL LÍMITE, QUE ES EL DE SIEMPRE</text>
+<text x="760" y="922" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Verificada HASTA 4×10¹⁸ no es demostrada. Nosotros llegamos a 4×10⁵: diez billones de veces más corto, así que este barrido</text>
+<text x="760" y="946" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">no agrega evidencia. Su fórmula DESCRIBE la estructura; no prueba que la Y exista siempre.</text>
+<text x="760" y="984" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">📌 F264 y F265 salieron de LA MISMA TABLA y el MISMO día: los gemelos son el centro con el desvío clavado en 1,</text>
+<text x="760" y="1010" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Goldbach es el mismo centro con el desvío suelto. Una mecánica leída por dos ejes, no dos flashes distintos.</text>
+<text x="760" y="1038" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Y esto no camina hacia Riemann: Goldbach es aditivo, y el producto de Euler que F259 marcó como obligatorio es multiplicativo.</text>
+</svg>
