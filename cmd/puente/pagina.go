@@ -313,7 +313,9 @@ var SALAS = null, FICHAS = {}, nodos = {}, abierto = null, modoModal = null, tim
 // el vigia es el que mira desde la cofa y nunca se duerme: los que corren siempre
 var VELNOM = {rapido:'rápido', medio:'medio', lento:'lento', vigia:'vigía · siempre despierto'};
 
-function esc(s){ var d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+function esc(s){ var d=document.createElement('div'); d.textContent=s||'';
+  // los saltos de linea se respetan: hay formulas que van en su propio renglon
+  return d.innerHTML.split('\n').join('<br>'); }
 function reloj(s){ if(!s) return ''; var m=Math.floor(s/60), r=s%60; return m? m+'m '+r+'s' : r+'s'; }
 
 function construir(fichas){

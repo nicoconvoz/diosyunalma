@@ -34,7 +34,11 @@ func indiceLaminas(raiz string) map[string]string {
 	return idx
 }
 
-func esc(s string) string { return html.EscapeString(s) }
+// esc escapa y convierte los saltos de linea en <br>, porque algunas piezas
+// traen formulas que tienen que verse en su propio renglon.
+func esc(s string) string {
+	return strings.ReplaceAll(html.EscapeString(s), "\n", "<br>")
+}
 
 func piezaHTML(pz Pieza, idx map[string]string) string {
 	var b strings.Builder
