@@ -5262,6 +5262,30 @@ The captain's correction of his own flash: "something was missing — plus-or-mi
 
 ---
 
+## Finding 264 — THE TWINS: the captain's mechanic, and the law of the centre
+
+The captain's flash: take 2, add 2, subtract 1 and you get 3; add 1 and you get 5. Take 3, add 3, add 1 and you get 7; subtract 1 and you get 5. There is a mechanic here.
+
+**There is.** Written out: **n → 2n → look at 2n−1 and 2n+1**. When both sides land on a prime, that is a **twin prime pair** and the doubled number is its **centre**. His two examples are the first two pairs on the whole number line: 4 → (3,5) and 6 → (5,7). Territory this laboratory had never touched.
+
+**But it does not manufacture primes — it detects them, and that goes first.** 4+4 = 8 gives 7 and **9 = 3×3**. Measured over 999,998 values of n up to 2×10⁶: the mechanic hits **14,871 times, 1.49%**. If it manufactured primes the problem would be solved.
+
+**What it does uncover is an exact law, and that is the jewel: every twin pair is centred on a multiple of 6.** Mass verification to 2×10⁶: **14,870 of 14,871 pairs have a centre divisible by 6, with exactly one exception on the whole line — the centre 4**, that is the pair (3,5).
+
+**And it is not a measured coincidence: it proves in three lines**, so it holds forever and for every pair still unfound.
+
+- **By 2**: both neighbours must be odd (otherwise they are divisible by 2), so the centre sits between two odds — it is even by obligation.
+- **By 3**: of any three consecutive numbers **one is always a multiple of 3**; if both flanks are primes greater than 3, the multiple of 3 must be the middle one. (Checked: zero triples without a multiple of 3 in 100,000.)
+- Divisible by 2 and by 3 means divisible by **6**.
+
+**And the bridge to his older intuition:** 6 = 2 × 3, the first two primes multiplied. The twins live in the gaps left by 2 and 3 — which is why (3,5) is the only escapee: 3 had not finished being born when that pair was formed.
+
+**Where this leads: an open problem since 1849.** The question that follows naturally from his mechanic — do the twins ever run out? — is the **Twin Prime Conjecture** (de Polignac, 1849), still unsolved. What is known: **Zhang 2013** proved some gap below 70,000,000 recurs infinitely often, the first real advance in 160 years, and **Maynard–Tao 2014** brought the bound down to **246**. Twins require reaching **2**, and nobody has.
+
+**The thinning, measured:** one pair every 28.6 numbers up to 10³, every 48.8 up to 10⁴, every 81.7 up to 10⁵, every 122.4 up to 10⁶, every 134.5 up to 2×10⁶. Rarer and rarer, but never stopping within what we can see — **and "not stopping within what we can see" is not the same as "not stopping"**. The same wall as Findings 259, 261 and 263, now in a different problem.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
