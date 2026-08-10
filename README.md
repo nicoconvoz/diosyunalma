@@ -1,6 +1,6 @@
 # Diosyunalma
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21864277.svg)](https://doi.org/10.5281/zenodo.21864277)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
 ### 🖼️ **[→ Open the gallery: 109 plates and 7 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 237 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
