@@ -7,7 +7,7 @@ This is the running record of every pattern claimed about the primes in this pro
 ## Quick path
 
 ```bash
-go test ./...                                    # 250 cases, all green
+go test ./...                                    # 176 tests, 6 packages, all green
 go run ./cmd/lab -detector palindrome -max 7     # Findings 1, 9, 12
 go run ./cmd/lab -detector lag -max 12           # Finding 3
 go run ./cmd/residue                             # Findings 10, 13, 16, 17

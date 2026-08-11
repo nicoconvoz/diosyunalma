@@ -473,7 +473,7 @@ sin numerar: no se inventan números de hallazgo hacia atrás.*
 ## Limitaciones conocidas
 
 - Los comandos bajo `cmd/` son finos y sin tests; la superficie testeada
-  son los paquetes de librería que componen (250 casos verdes).
+  son los paquetes de librería que componen (176 pruebas verdes en 6 paquetes).
 - La tabla de memoria del flip-chain (F14) sigue solo en scratch.
 - Los veredictos de señuelo de `cmd/firstpass` varían unos puntos con la
   semilla; las conclusiones no.

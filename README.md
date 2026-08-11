@@ -56,7 +56,7 @@ plate it draws shown inline. The gallery of plates is at
 **[docs/RECORRIDO.md](docs/RECORRIDO.md)**.
 
 ```bash
-go test ./...        # 250 cases, all green
+go test ./...        # 176 tests across 6 packages, all green
 ```
 
 Every finding regenerates from a clean checkout. The main experiments:
