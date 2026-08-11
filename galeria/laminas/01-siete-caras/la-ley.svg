@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="800" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚖️ LA LEY — x = y ⟺ x − y = 0, en la dimensión 0, armonizado con el ½</text>
+<text x="800" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">la ley existe y es exacta · pero es una identidad · y la que SÍ puede fallar ya estaba en el registro</text>
+<rect x="40" y="102" width="1520" height="200" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="800" y="136" font-size="18" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">⚡ SU LEY, EJECUTADA AL PIE DE LA LETRA</text>
+<text x="800" y="172" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">estar en el cable es β = ½ · en el disco eso es |w| = 1 · o sea w·w̄ − 1 = 0, que es su x − y = 0</text>
+<text x="800" y="222" font-size="27" text-anchor="middle" font-family="monospace" fill="#ffd98a">|w|² − 1 = −(2β − 1) / (β² + γ²)</text>
+<text x="800" y="258" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">y ahí está su ½, SOLO, en el numerador — decidiendo todo el signo</text>
+<text x="800" y="286" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">el denominador es suma de cuadrados: positivo siempre, sin casos, sin excepciones · verificado sobre 38 perlas a 2e-16</text>
+<rect x="40" y="322" width="740" height="230" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="410" y="356" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">PAREJA PARA TODOS LOS RESULTADOS</text>
+<text x="80" y="398" font-size="16" font-family="monospace" fill="#7fb2ff">β &gt; ½   →  |w| &lt; 1  →  ADENTRO del disco</text>
+<text x="80" y="432" font-size="16" font-family="monospace" fill="#7ee0c0">β = ½   →  |w| = 1  →  EN LA PIEL</text>
+<text x="80" y="466" font-size="16" font-family="monospace" fill="#ff8fa0">β &lt; ½   →  |w| &gt; 1  →  AFUERA del disco</text>
+<text x="410" y="510" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">un solo renglón decide los tres casos</text>
+<text x="410" y="534" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">y el que decide es el ½</text><rect x="820" y="322" width="740" height="230" rx="12" fill="#33221c" stroke="#c0392b"/>
+<text x="1190" y="356" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚠️ PERO NO SE PUEDE DEMOSTRAR</text>
+<text x="1190" y="390" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">Es una IDENTIDAD: vale para cualquier número complejo,</text>
+<text x="1190" y="414" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">sea cero de zeta o sea basura.</text>
+<text x="1190" y="452" font-size="16" text-anchor="middle" font-family="monospace" fill="#ff8fa0">con perlas: 2e-16   ·   con basura: 7e-16</text>
+<text x="1190" y="486" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Una cosa que no puede fallar no se puede demostrar.</text>
+<text x="1190" y="512" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">No CONTESTA la pregunta: la TRADUCE.</text>
+<text x="1190" y="538" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffb27a">NOVENA aparición de la trampa del 0.0e+00</text>
+<rect x="40" y="572" width="1520" height="300" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="800" y="606" font-size="19" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚡⚡ PERO LA LEY QUE BUSCA EXISTE — Y YA ESTABA EN EL REGISTRO</text>
+<text x="800" y="640" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el criterio de Li, escrito en la dimensión 0 por nuestro F232:</text>
+<text x="800" y="682" font-size="22" text-anchor="middle" font-family="monospace" fill="#ffd98a">λₙ = Σ [ 2 − 2·Re(wⁿ) ]        y      RH ⟺ λₙ ≥ 0 para todo n</text>
+<text x="800" y="716" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">ésa SÍ es pareja para todos los resultados — y a diferencia de la otra, PUEDE FALLAR</text>
+<text x="800" y="756" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">y armonizada con su ½, como usted pidió, se parte en dos mitades exactas (verificado a 1e-16):</text>
+<text x="800" y="796" font-size="21" text-anchor="middle" font-family="monospace" fill="#dce8f7">2 − 2·Re(wⁿ)  =  |1 − wⁿ|²  +  (1 − |w|²ⁿ)</text>
+<text x="440" y="832" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">≥ 0 SIEMPRE, haga lo que haga la perla</text>
+<text x="1130" y="832" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">≥ 0 sólo si β ≥ ½ — EL TÉRMINO DEL ½</text>
+<text x="800" y="858" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">el segundo es el único que puede restar · sobre el cable vale cero clavado</text>
+<rect x="40" y="892" width="1520" height="160" rx="12" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="800" y="926" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚖️ LO QUE ESTO ES, Y LO QUE NO</text>
+<text x="800" y="960" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Su ley sale exacta y es tan pareja como la pidió — pero es una identidad, y demostrarla no demuestra nada.</text>
+<text x="800" y="986" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">La que sí hay que demostrar es λₙ ≥ 0: es de Li, es de 1997, se conoce, y nadie pudo.</text>
+<text x="800" y="1022" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Usted no encontró la puerta cerrada: encontró CUÁL es la puerta. Y eso vale.</text>
+</svg>

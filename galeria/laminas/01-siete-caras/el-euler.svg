@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="800" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">𝑒 EL EULER — su número, sus primos, y las perlas en la dimensión 0</text>
+<text x="800" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">los tres hilos se juntan exacto · y RH se vuelve «toda perla es un giro puro»</text>
+<rect x="40" y="102" width="490" height="270" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="285" y="134" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">1 · 𝑒 YA ESTABA EN SU RELACIÓN</text>
+<text x="285" y="172" font-size="17" text-anchor="middle" font-family="monospace" fill="#dce8f7">1/w(p) = 1 + 1/(p−1)</text>
+<text x="285" y="208" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">(1 + 1/(p−1))^(p−1) → 𝑒</text>
+<text x="70" y="248" font-size="14.5" font-family="monospace" fill="#cfe6ff">p = 2  →  2,000000000</text>
+<text x="70" y="272" font-size="14.5" font-family="monospace" fill="#cfe6ff">p = 3  →  2,250000000</text>
+<text x="70" y="296" font-size="14.5" font-family="monospace" fill="#cfe6ff">p = 5  →  2,441406250</text>
+<text x="70" y="320" font-size="14.5" font-family="monospace" fill="#cfe6ff">p = 97 →  2,704133578</text>
+<text x="285" y="352" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">cada primo es un escalón hacia 𝑒 = 2,718281828</text><rect x="560" y="102" width="480" height="270" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="800" y="134" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">2 · EL CABLE ES LA FÓRMULA DE EULER</text>
+<circle cx="800" cy="260" r="110" fill="none" stroke="#7ee0c0" stroke-width="2"/>
+<circle cx="800" cy="260" r="3" fill="#8fa8c7"/>
+<circle cx="909.7" cy="252.2" r="4" fill="#7ee0c0"/><circle cx="909.9" cy="254.8" r="4" fill="#7ee0c0"/><circle cx="909.9" cy="255.6" r="4" fill="#7ee0c0"/><circle cx="909.9" cy="256.4" r="4" fill="#7ee0c0"/><circle cx="909.9" cy="256.7" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.1" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.3" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.5" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.7" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.8" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="257.9" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.1" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.1" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.2" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.3" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.4" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.4" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.5" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.5" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.6" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.6" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.7" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.7" r="4" fill="#7ee0c0"/><circle cx="910.0" cy="258.7" r="4" fill="#7ee0c0"/><text x="800" y="405" font-size="16" text-anchor="middle" font-family="monospace" fill="#ffd98a">|w| = 1 ⟺ w = e^(iφ)</text>
+<text x="800" y="352" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">RH dice: toda perla es un GIRO PURO, sin estiramiento</text>
+<rect x="1070" y="102" width="490" height="270" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="1315" y="134" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">4 · SU IDENTIDAD FAMOSA</text>
+<text x="1315" y="184" font-size="24" text-anchor="middle" font-family="monospace" fill="#dce8f7">e^(iπ) + 1 = 0</text>
+<text x="1315" y="222" font-size="20" text-anchor="middle" font-family="monospace" fill="#cfe6ff">e^(iπ) = −1</text>
+<text x="1315" y="266" font-size="24" text-anchor="middle" font-family="monospace" fill="#ffd98a">w(½) = −1</text>
+<text x="1315" y="304" font-size="19" text-anchor="middle" font-family="monospace" fill="#7ee0c0">⟹ e^(iπ) = w(½)</text>
+<text x="1315" y="340" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la identidad más famosa de la matemática es</text>
+<text x="1315" y="360" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">adonde el cambiaformas manda su ½</text><rect x="40" y="392" width="1520" height="290" rx="12" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="800" y="428" font-size="20" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">3 · ⚡⚡ Y ESO CONVIERTE EL CRITERIO DE LI EN UN CUADRADO PERFECTO</text>
+<text x="800" y="466" font-size="16" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">escribí w = r·e^(iφ). El término de Li de F279 se vuelve 2 − 2·rⁿ·cos(nφ). Y sobre el cable, donde r = 1:</text>
+<text x="800" y="518" font-size="30" text-anchor="middle" font-family="monospace" fill="#ffd98a">2 − 2·cos(nφ)  =  4·sen²(nφ/2)</text>
+<text x="800" y="556" font-size="18" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">UN CUADRADO. Automáticamente ≥ 0, para todo n, para siempre, sin nada que demostrar.</text>
+<text x="800" y="584" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">verificado a 6e-15 sobre nuestras perlas y varios n</text>
+<text x="800" y="626" font-size="21" text-anchor="middle" font-family="Georgia" fill="#ffd98a">RH ⟺ toda perla es e^(iφ) ⟺ todo término de Li es un cuadrado</text>
+<text x="800" y="662" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el ½ obliga al módulo a valer uno · Euler convierte módulo uno en ángulo puro · y el ángulo puro hace el cuadrado</text>
+<rect x="40" y="702" width="740" height="230" rx="12" fill="#33221c" stroke="#c0392b"/>
+<text x="410" y="736" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">QUÉ ROMPE EL CUADRADO</text>
+<text x="410" y="772" font-size="15" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">si r ≠ 1, el par aporta 4 − 2(rⁿ + r⁻ⁿ)·cos(nφ)</text>
+<text x="410" y="804" font-size="16" text-anchor="middle" font-family="monospace" fill="#dce8f7">rⁿ + r⁻ⁿ ≥ 2, con igualdad SÓLO en r = 1</text>
+<text x="410" y="836" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">(la desigualdad de las medias, F229)</text>
+<text x="410" y="874" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">salirse del cable rompe el cuadrado</text>
+<text x="410" y="900" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#ff8fa0">y el daño CRECE con n</text><rect x="820" y="702" width="740" height="230" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="1190" y="736" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL CÍRCULO COMPLETO</text>
+<text x="1190" y="782" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">2  →  ½  →  e^(iπ)</text>
+<text x="1190" y="820" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el cambiaformas manda el 2 al ½ (F276)</text>
+<text x="1190" y="846" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">y manda el ½ a e^(iπ) = −1 (F260)</text>
+<text x="1190" y="886" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">sus dos números y el de Euler, encadenados</text>
+<text x="1190" y="912" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">por la misma lente, en dos pasos</text><rect x="40" y="952" width="1520" height="140" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="800" y="986" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">⚖️ Y LA HONESTIDAD</text>
+<text x="800" y="1018" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Nada de esto demuestra que las perlas tengan r = 1. La forma polar es de Euler, el ángulo mitad es antiquísimo, Li es de 1997.</text>
+<text x="800" y="1044" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Lo que hicimos fue TRADUCIR la hipótesis a su idioma: de «todos los ceros en una línea» a «todas las perlas son giros puros».</text>
+<text x="800" y="1078" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Es la formulación más limpia que este laboratorio consiguió. Y sigue abierta. Todavía no.</text>
+</svg>

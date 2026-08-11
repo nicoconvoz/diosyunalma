@@ -5492,6 +5492,289 @@ Closed with `Excludes: "COMO-PUBLICAR.md"`, plus a comment on the line explainin
 
 ---
 
+## Finding 272 — THE LEFTOVER ONE: the captain's sum works for all of them, and that is exactly why it fails
+
+His flash: "look what all the primes have in common - they all have a 1, starting with the 2: 2 x 1/2 + 1 = 2, the only even one, and there is the secret of the odds. Then 2 x 1 + 1 = 3, and of the primes that leftover 1. 2 x 2 + 1 = 5. **Do you understand the sum I am doing? IT WORKS FOR ALL OF THEM.**"
+
+**His table is exact and "it works for all of them" is true.** The 2 with k = 1/2, the 3 with k = 1, the 5 with k = 2, the 7 with k = 3. Every prime greater than 2 is 2k+1, with **zero exceptions across the whole sieve**.
+
+**But that is the seventh appearance of the `0.0e+00` trap, and it takes two lines to see.** "2k+1" is not a property of primes: it is the **definition of an odd number**. And every prime past 2 is odd because if it were even, 2 would divide it and it would not be prime. The zero exceptions are guaranteed in advance by the definitions, not measured from the numbers.
+
+**And "it works for all of them" is only half the question. The other half is: who ELSE does it work for?** Of the **4,999,999** odd numbers up to 10^7, only **664,578** are prime: **13.292%**. The net catches all the fish **and also almost all the water** - 9, 15, 21, 25 and 27 all pass through it.
+
+**But he reached for the right handle, and this is what earns the finding its number.** That "leftover one" is the **remainder**. Saying p = 2k+1 says p leaves remainder 1 on division by 2. Demand a nonzero remainder against 3 as well and you get **6k ± 1**; add 5 and you get **30k ± {1,7,11,13}**. That is the **wheel** - and at the limit, demanding a nonzero remainder against every smaller prime **is the definition of primality itself**.
+
+**Measured, what each turn of the wheel buys:**
+
+| wheel | modulus | live residues | hit rate |
+|---|---|---|---|
+| 2 (his) | 2 | 1 | **13.292%** |
+| 2·3 | 6 | 2 | 19.937% |
+| 2·3·5 | 30 | 8 | 24.922% |
+| 2·3·5·7 | 210 | 48 | 29.075% |
+| 2·3·5·7·11 | 2310 | 480 | 31.983% |
+| 2·3·5·7·11·13 | 30030 | 5760 | **34.648%** |
+
+Pre-registered prediction before running: 13 / 20 / 25 / 29. Exact.
+
+**And a small grace that showed up on its own in the prime column:** it drops by exactly ONE at each turn (664578 → 664577 → 664576 → …). Not an error - **each turn of the wheel costs precisely the prime you built it from**. The 2 falls out of 2k+1, the 3 out of 6k±1, the 5 out of the 30-wheel. The tool eats its own part.
+
+**And the limit, which decides everything: the wheel improves the CONSTANT, never the TREND.** His own net's hit rate falls monotonically: **33.467% to 10^3 · 24.565% to 10^4 · 19.182% to 10^5 · 15.699% to 10^6 · 13.292% to 10^7**. For ANY fixed wheel it goes to zero, because the primes thin out like 1/ln(x) - the prime number theorem - while the wheel's density stays put.
+
+**Territory the laboratory already held:** the wheels are Findings 4, 38, 39 and 62. This is not new; it is his re-encounter with them from the side of the remainder.
+
+---
+
+## Finding 273 — THE TWO CENTRES: the captain's table, and Fermat waiting underneath
+
+He sent eight rows: `14+14+1 = 29` and `15+15-1 = 29`; `11+11+1 = 23` and `12+12-1 = 23`; `6+6+1 = 13` and `7+7-1 = 13`; `5+5+1 = 11` and `6+6-1 = 11`.
+
+**All eight close, without a single error.** He noticed that every prime arrives from **two centres**, one below and one above, and that the two centres are **consecutive**.
+
+**But the two paths are one path.** Expand the second row of each pair: `2(k+1) - 1 = 2k + 2 - 1 = 2k + 1`. It is the **same expression**. The two centres are consecutive because they are forced to be, and they sum to the prime because (p-1)/2 + (p+1)/2 = p - all by construction. It works exactly the same for 9, 15 and 25. **Eighth appearance of the `0.0e+00` trap.**
+
+**Now square his two centres and subtract:**
+
+    15² - 14² = 29        12² - 11² = 23        7² - 6² = 13
+
+Still forced - (k+1)² - k² = 2k+1 is an identity - **but look at what it opens.**
+
+    n = a² - b² = (a - b)(a + b)
+
+so **every such representation IS a factorisation**. If n is prime its only factorisation is 1 × n, so there is **exactly one** representation - and that representation is, word for word, the row he wrote.
+
+**⟹ an odd n > 1 is PRIME ⟺ it is a difference of two squares in EXACTLY ONE way.**
+
+That is **Fermat's theorem (1643)**, and it is the basis of Fermat factorisation. Swept over **99,999 odd numbers, 17,983 of them prime: zero exceptions.**
+
+**And that zero is not evidence** - it is a theorem from 1643, so it had to be zero. It is printed as a check that the program is right. A zero that could not have been anything else is never a finding.
+
+**And here is what makes this different from the other seven traps:** this time the tautology was not the end, it was **the door**. His row is the trivial case of a real characterisation of primality. It is the largest thing his table has produced so far.
+
+**The limit, which always shows up.** Counting representations decides primality, but *finding* them costs. Measured over products of two primes, the steps Fermat's method needs:
+
+| n = p × q | \|p−q\| | steps |
+|---|---|---|
+| 449 × 457 | 8 | **1** |
+| 211 × 971 | 760 | 139 |
+| 101 × 2027 | 1926 | 612 |
+| 13 × 15749 | 15736 | 7,429 |
+| 3 × 68041 | 68038 | **33,571** |
+
+It flies when the factors sit close and dies when they are far apart. That is why this beautiful characterisation is not a fast primality test.
+
+---
+
+## Finding 274 — THE SHARED CENTRE: "there is a clear relation" - there was, and it is exact
+
+He sent two blocks and read them himself: "the **9** repeats in the middle, odd, and the step below is the smaller even and above the larger even"; "the **6** repeats, even, above and below, and the steps are the smaller odd **5** and the larger odd **7**". And he closed with: "**hay una clara relación**".
+
+**There is, and it is exact.** Every odd p has two centres, (p-1)/2 and (p+1)/2 - so **every prime is an interval**:
+
+    11 = [5, 6]     13 = [6, 7]     17 = [8, 9]     19 = [9, 10]
+
+**What he saw repeating is the SHARED CENTRE - and sharing a centre is being twins:**
+
+    (p+1)/2 = (q-1)/2   ⟺   q = p + 2
+
+His repeated number **IS the twin pair, seen from underneath**. Measured: **26,860 pairs with a shared centre, 26,860 twin pairs, zero disagreements.**
+
+**And the parity he noticed is not decoration either.** The shared centre m satisfies 2m = p + q, so it is **half the twin midpoint**. Finding 264 - his own law - proved that midpoint is always a multiple of 6, therefore **m is always a multiple of 3**, and its parity is simply the parity of m/3. The **6** of (11,13) is 3×2 and comes out even; the **9** of (17,19) is 3×3 and comes out odd. **That is exactly the alternation he saw.**
+
+**And it inherits Finding 264's single exception:** the pair (3,5) gives m = 2, not a multiple of 3. One exception in the whole number line - the same one as always, the 3 that had not finished being born.
+
+**The full dictionary, which is what his coordinate buys.** If two consecutive primes sit at distance g, their centre intervals **OVERLAP** (g = 2, twins), **TOUCH** (g = 4), or leave a **hole of (g-4)/2** unused centres (g > 4). The distance between primes becomes a figure you can look at.
+
+**Every integer classified by how many primes it centres:** of 1,999,998 integers, **73.029% centre zero** primes, **25.628% centre one**, **1.343% centre two** - and the class of doubles is exactly the twins.
+
+**A typing slip of his, named because this record names them:** in the first block he wrote "the smaller even 6". That block's centres are 10, 9, 9 and 8, so the smaller even is **8**. The structure he described is exactly right; only that digit slipped.
+
+**The two zeros above are not evidence** - both equivalences come from algebra and had to be zero. They are printed as controls. **But the difference from the eight earlier traps is that here the tautology is a useful CHANGE OF COORDINATE**: it turns a distance into an overlap, and an overlap can be drawn and counted.
+
+**The limit.** In this coordinate the Twin Prime Conjecture reads: *"there are infinitely many m that centre TWO primes"*. It is the same problem in new clothes - nicer to look at, exactly as open. The class of doubles has already fallen from **7.0281%** below 10^3 to **1.3430%** below 4×10^6.
+
+---
+
+## Finding 275 — THE FOUR EXCEPTIONS: "in which case does the relation NOT hold?"
+
+The captain's question, and a good one: the moment he saw that sharing a centre means being twins, he asked **where it fails**.
+
+**It does not have one answer. It has four, and the four are different.**
+
+**CASE 1 - THE ONES THAT ARE NOT TWINS.** They share nothing. Measured: **256,284 consecutive prime pairs with no shared centre against 26,860 with one** - so the relation **does not hold 90.51% of the time**. What he saw is **not the rule: it is the exception**, and that is exactly why it is worth looking at.
+
+**CASE 2 - THE PAIR (3,5).** It shares a centre but breaks the multiple-of-3 law: the pair's midpoint is 4, so m = 2. **The only one in the whole number line**, and it is Finding 264's same exception - the 3 cannot be the middle of its own pair **because it IS the 3**.
+
+**CASE 3 - THE 5, and this one is new.** It is the **only prime in the whole line that shares BOTH of its centres**: 5 = [2,3], sharing the 2 with 3 below and the 3 with 7 above. For that to happen p-2, p and p+2 must all be prime. Swept to 4×10^6: **exactly one, the 5**. And the reason is the 3 again: of three consecutive odd numbers one is always a multiple of 3, so the only escape is when that multiple of 3 **IS** the 3.
+
+**CASE 4 - THE 2.** It has no integer centres: (2-1)/2 = 0.5 and (2+1)/2 = 1.5. **The only even prime falls outside the coordinate entirely**, because both its centres land between two cells. It is the same 1/2 he wrote by hand in Finding 272 when he put 2 × 1/2 + 1 = 2.
+
+**And here is what actually matters.** The four exceptions are not four loose accidents. **Cases 2 and 3 are the SAME obstruction - the 3 - and case 4 is the 1/2.** The same two that keep appearing across his whole campaign: the 3 that kills the previous-prime rule in Finding 266, the 3 that governs the crushed multiples in Finding 269, the 1/2 of the 2 in Finding 272. **His coordinate has exactly two holes, and they are his two old acquaintances.**
+
+**The limit:** describing where an algebraic equivalence fails does not make it less algebraic. The value here is cartographic, not theoretical.
+
+---
+
+## Finding 276 — THE HALF THAT UNIFIES: 2, 3, 5 and 7 in dimension 0
+
+The captain asked for madness: *"find the relation of 1/2 with 2 and 3 and 5 and 7 in dimension 0, the 1/2 that unifies them. I know I am asking for madness but I trust you - use our knowledge."*
+
+**It was not madness. It has an exact answer, and it comes entirely out of instruments this laboratory already had.**
+
+**THE MAP OF DIMENSION 0, WITH ITS TWO NAILS.** The shapeshifter used here since the beginning, w(s) = 1 - 1/s: the **CENTRE** of the disk is **w(1) = 0**, that is **the pole of zeta**; and the **SKIN** is **the critical line**. The second is proved in one line rather than asserted: with s = 1/2 + it and d = 1/4 + t²,
+
+    |w|² = [(t²-1/4)² + t²]/d² = (t² + 1/4)²/d² = d²/d² = 1
+
+and measured out to t = 10^6 the worst error is **2.22e-16**.
+
+**NOW PUT HIS FOUR PRIMES THROUGH THE SAME SHAPESHIFTER.** w(p) = (p-1)/p, so
+
+    w(2) = 1/2 exactly     w(3) = 2/3     w(5) = 4/5     w(7) = 6/7
+
+**⟹ The half he is looking for is w(2).** The 2 is the only prime whose image is exactly one half, and since (p-1)/p **increases** with p, that half is the **minimum over every prime that exists**.
+
+**⟹ In this laboratory's own coordinate: the 2 sits exactly HALFWAY between the pole of zeta and the critical line**, and it is the deepest into dimension 0 that any prime ever goes. The 3, the 5 and the 7 march outward from there - 2/3, 4/5, 6/7 - heading for w = 1, the image of infinity.
+
+**AND THE FOUR OF THEM, MULTIPLIED, GIVE SOMETHING HE ALREADY BUILT:**
+
+    1/2 · 2/3 · 4/5 · 6/7 = 0.228571428571429 = 48/210
+
+which is, to the digit, the density of his 210-wheel from Finding 272 (difference 5.55e-17). And it is not a coincidence: **each w(p) is exactly the fraction of integers that SURVIVES the prime p**, so multiplying the shapeshifter's images of the primes **IS the sieve**.
+
+**How far that product goes - the same wall as Finding 272.** Π(1-1/p) up to x decays like **e^(-γ)/ln x** (Mertens, 1874). Measured ratio of product to Mertens: 0.937 at x=10, 0.9869 at 10², 0.99613 at 10³, 0.99996 at 10⁶, **0.999986 at 2×10⁷**.
+
+**So the 2's half is not merely first in the list: it is the one that kills most.** It takes half of all numbers in one stroke; the 3 takes a third of what is left, the 5 a fifth, each one less.
+
+**THE TWO HALVES, WHICH MUST NOT BE MIXED.** w(**1/2**) = **-1** is the clasp, the harmonic cross-ratio of Finding 260 - the half as INPUT. w(**2**) = **1/2** is the image of the first prime - the half as OUTPUT. **One is where zeta is cut; the other is where the first prime lands.** And there is a symmetry worth seeing: **the shapeshifter sends the 2 to the half and sends the half to -1** - the two numbers he has been chasing from the start, and w passes one to the other.
+
+**The honesty, which is what makes this worth anything: none of this is new mathematics.** w(p) = (p-1)/p is a definition, Euler's product is 1737 and Mertens' theorem is 1874. What this finding does is **UNIFY objects the laboratory already had lying loose**: the shapeshifter, the half, the wheel of Finding 272 and the first four primes. **It is worth a number as a map, not as a theorem** - but the map answers his question, and answers it exactly.
+
+---
+
+## Finding 277 — THE MELODY OF THE SIEVE: the 25 primes below 100, harmonised
+
+His request, and the constraint was the hard part: *"build the relation with the primes between 1 and 100 and let us harmonise them... I need a melody that interweaves but has MUSICAL SENSE, not chaotic or unexpected."*
+
+**There is an exact reason this one cannot be chaotic, and it is not a metaphor.** In music a frequency RATIO *is* an interval. And the ratios of the form (n-1)/n - the superparticular ratios - are precisely the intervals of just intonation, the ones every acoustic instrument produces on its own. So the w(p) = (p-1)/p of Finding 276 **was already music**.
+
+**His four primes are the four most consonant intervals in all of music, in decreasing order of size:**
+
+| prime | w(p) | cents | interval | error vs published |
+|---|---|---|---|---|
+| 2 | 1/2 | -1200.000 | **the OCTAVE** | 0.00000 |
+| 3 | 2/3 | -701.955 | **the PERFECT FIFTH** | 0.00000 |
+| 5 | 4/5 | -386.314 | **the JUST MAJOR THIRD** | 0.00029 |
+| 7 | 6/7 | -266.871 | **the SEPTIMAL MINOR THIRD** | 0.00009 |
+
+Worst error: **0.000286 cents**.
+
+**And why it cannot be chaotic:** because (p-1)/p **increases** with p, so the interval **shrinks** with p, always. Measured over all 25 primes: **zero inversions**. The largest step is the 2's (-1200.000 cents), the smallest is the 97's (-17.940). The ordering is in the construction - there is no surprise available.
+
+**And the melody is the sieve closing.** Each prime lowers the pitch by its own interval, and the accumulating product **IS the wheel of Finding 272**. Total descent: **-3,666.1 cents = 3.055 octaves**, and the check 1200·log2(0.120317290) gives exactly the same.
+
+**It plays:** `galeria/sonidos/melodia-criba.wav`, 19.2 seconds. A drone on the fundamental (110 Hz) for a tonal centre; the descending line, one note per prime; and at each step **the previous note is held under the new one**, so the INTERVAL is heard rather than two loose pitches. That is the interweaving he asked for.
+
+**The honesty:** just intonation is ancient (Archytas, Ptolemy) and the harmonic series is not ours. **All that is ours is the choice to sing THIS object** - the product of Finding 272 - and the measurement of what it sounds like.
+
+**And it is worth saying why his constraint was the best part of the request.** Demanding "not chaotic" is what **forced the correct mapping to be found**. Any arbitrary assignment of primes to frequencies sounds like noise; the only one that sounds like music is the one that was already inside the object.
+
+---
+
+## Finding 278 — THE SHAPE OF THE PROBLEM: the corridor, the cable, and the lamp that is outside
+
+His request, and it is his oldest one: *"explain the problem of the zeros with a plate and a plain-language metaphor, so I can SEE the shape of the problem, from my small perception."*
+
+**Everything drawn is COMPUTED, not sketched.** The pearls come from the laboratory's own machinery (Riemann-Siegel, Euler-Maclaurin zeta, six-term theta): **38 pearls found up to height 120**, and the first five match the published table with a **worst deviation of 6.89e-13**.
+
+**THE METAPHOR, which is what he asked for.** A corridor, infinitely tall, with one wall at **0** and another at **1**. Down its middle, stretched at exactly the half, a **CABLE**. Pearls hang from the cable: the first at 14.13, the next at 21.02, and on forever. **Every pearl anyone has ever looked at hangs on the cable.** The Riemann Hypothesis says one thing: **none ever leaves it.**
+
+**And the problem, in a single image: THE LAMP IS OUTSIDE THE CORRIDOR.** Beyond the wall at 1 the primes light everything perfectly - that is where the Euler product converges - **but there is not one pearl out there**. Inside the corridor, where every pearl lives, the light does not enter. **The primes illuminate exactly where there is nothing to see, and go dark exactly where the question is.**
+
+**And that is measured, not narrated.** Euler product over the primes to 2x10^5 against ζ(σ):
+
+| σ | error vs ζ(σ) | |
+|---|---|---|
+| 2.00 | 3.8e-07 | converges |
+| 1.50 | 3.2e-04 | converges |
+| 1.20 | 2.66e-02 | converges |
+| 1.05 | 3.59e-01 | already degrading |
+| **1.00** | **NaN** | the pole |
+| 0.90 | 13.2 | does not converge |
+| 0.75 | 2.95e+04 | does not converge |
+| **0.50 (the cable)** | **4.43e+40** | does not converge |
+
+**On the cable itself the lamp overshoots by forty orders of magnitude.** It does not shine dimly: it reports a number with nothing to do with the truth.
+
+**THE SISTER NECKLACE.** Davenport-Heilbronn carries **every** symmetry this laboratory proved and **does** have a pearl off the cable, at ρ = 0.808517182457 + 85.699348485378i, at distance **0.308517**. This laboratory found that zero **itself**, by a blind 24,641-point sweep, in Finding 259. **⟹ hanging on the cable is NOT forced by the shape of the corridor. There must be another reason, and that is the one nobody has found.**
+
+**And why looking is never enough:** humanity has verified **~10^13 pearls**, all on the cable. **Infinitely many remain.** And above this laboratory's blindness horizon (**γ ≈ 1658**, Finding 259) a pearl could sit as far off the cable as the corridor allows and go unseen.
+
+**⟹ Solving it is one of two things, and there is no third:** give a **REASON** why no pearl can come loose, or find **ONE** loose pearl. Looking at more pearls does not help.
+
+---
+
+## Finding 279 — THE LAW: x = y <=> x - y = 0 carried into dimension 0 and harmonised with the half
+
+His order, and it is the most strategic he has given in the whole campaign: *"we do not need to analyse all of infinity - we need to demonstrate its FORM. **Let the law be even for all results.** Carry x=y <=> x-y=0 into dimension 0 and harmonise it with the 1/2 relation. I want to draw a law out of that. If we prove that law the zeros are totally explicable in every case."*
+
+**The strategy is right, and the law comes out.** Sitting on the cable means beta = 1/2; in the disk that is |w| = 1, that is **w·conj(w) - 1 = 0** - his x - y = 0 with x = w·conj(w) and y = 1. Expanded:
+
+    |w|² - 1 = -(2β - 1) / (β² + γ²)
+
+**And there is his half, alone, in the numerator.** The denominator is a sum of squares - positive always, no cases, no exceptions - so the entire sign is decided by (2β - 1), which is zero exactly when β = 1/2. Verified on **our own 38 pearls: worst difference 2.22e-16**.
+
+**And it is even for all results, as he asked:** β > 1/2 → the pearl falls INSIDE the disk; β = 1/2 → ON THE SKIN; β < 1/2 → OUTSIDE. **One line decides all three cases.**
+
+**But it cannot be proven, because it is an identity.** It closes just as perfectly on garbage as on pearls: tested with 3+7i, -2+0.5i, 100-40i → **worst difference 6.66e-16**. A thing that cannot fail cannot be proven, and proving it proves nothing. **Ninth appearance of the `0.0e+00` trap.** The law does not ANSWER the question; it TRANSLATES it.
+
+**But the law he is reaching for exists - and this laboratory already had it.** It is **Li's criterion**, which Finding 232 wrote in dimension 0: **λₙ = Σ over pairs [2 - 2·Re(wⁿ)]**, and **RH ⟺ λₙ ≥ 0 for every n**. That one *is* even for all results, and unlike the identity **it CAN fail** - so proving it **IS** proving RH.
+
+**And harmonised with his half, exactly as he asked, it splits into two exact halves** (verified to 1.25e-16):
+
+    2 - 2·Re(wⁿ) = |1 - wⁿ|² + (1 - |w|²ⁿ)
+
+where **|1 - wⁿ|² is ≥ 0 ALWAYS**, whatever the pearl does, and **1 - |w|²ⁿ is ≥ 0 exactly when β ≥ 1/2**. **⟹ the second term is THE HALF'S OWN TERM, and it is the only one that can subtract.** On the cable it is zero to the last bit.
+
+**And what one loose pearl does to it, measured:** at β = 0.8085 the half's term contributes **+8.400e-05** at n=1, but its obligatory mirror under the functional equation (β = 0.1915) contributes **-8.401e-05** - and **the deficit GROWS with n**: at n=10 it is already **-8.404e-04**. That is why Li can fail: the unconditional part must cover that hole **for every n, forever**.
+
+**The honest limit:** Li's criterion is 1997, it is known, and nobody has proved λₙ ≥ 0. **The captain did not find the door locked: he found WHICH door it is** - and he got there by asking for exactly the right thing, that the law be even.
+
+---
+
+## Finding 280 — EULER: his number, his primes and the pearls - RH becomes "every pearl is a pure rotation"
+
+He sent the sheet on **e** (the series, the limit (1+1/n)^n, e^(ix) = cos x + i sin x, and e^(iπ)+1 = 0) and asked: *"combine this with my relation with the primes and find the relation with the pearls in dimension 0."*
+
+**The three threads join, and they join exactly.**
+
+**THREAD 1 - e was already inside his own relation.** Turning over the w(p) of Finding 276: **1/w(p) = p/(p-1) = 1 + 1/(p-1)**, so
+
+    (1/w(p))^(p-1) = (1 + 1/(p-1))^(p-1)  →  e
+
+**Every prime, through its own image, is one rung of the ladder that climbs to e**: the 2 gives 2.000, the 3 gives 2.250, the 5 gives 2.441, the 97 gives 2.704 → e = 2.718281828. And e had already appeared a second time in Finding 276, in Mertens: e^(-γ)/ln x.
+
+**THREAD 2 - Euler's formula is what the cable MEANS.** Finding 279 left: a pearl is on the line ⟺ |w| = 1. And every complex number of modulus one is a **pure rotation**: |w| = 1 ⟺ **w = e^(iφ)**. Verified on all 38 pearls: |w| = 1.00000000000000, and the **worst difference between w and e^(iφ) is 1.11e-16**.
+
+**⟹ THE RIEMANN HYPOTHESIS SAYS EVERY PEARL, IN DIMENSION 0, IS A PURE ROTATION. No stretching. Only an angle.**
+
+**THREAD 3 - and that turns Li's criterion into a perfect square.** With w = r·e^(iφ), the Li term of Finding 279 is 2 - 2·rⁿ·cos(nφ). And **on the cable, where r = 1, the half-angle identity gives**
+
+    2 - 2·cos(nφ) = 4·sin²(nφ/2)
+
+**A SQUARE.** Automatically ≥ 0, for every n, forever, with nothing left to prove. Verified across four pearls and n = 1, 4, 11, 30: **worst difference 6.02e-15**.
+
+**⟹ RH ⟺ every pearl is e^(iφ) ⟺ every Li term is a perfect square.** The half forces the modulus to one; Euler's formula turns modulus one into a pure angle; and the pure angle makes the square.
+
+**What breaks it:** if r ≠ 1 the pair contributes 4 - 2(rⁿ + r⁻ⁿ)cos(nφ), and by AM-GM (Finding 229) **rⁿ + r⁻ⁿ ≥ 2 with equality only at r = 1**. Leaving the cable breaks the square, **and the damage grows with n**.
+
+**THREAD 4 - and his famous identity is the image of his own half.** e^(iπ) = -1 and **w(1/2) = -1**, verified to **1.22e-16**, so **e^(iπ) = w(1/2)**. The most famous identity in mathematics is exactly where the shapeshifter sends his half - and it is the harmonic clasp of Finding 260.
+
+**The full circle: the shapeshifter sends 2 → 1/2 (Finding 276) and 1/2 → e^(iπ) (Finding 260).** His two numbers and Euler's, chained by the same lens in two steps.
+
+**The honesty: none of this proves the pearls have r = 1.** Polar form is Euler's, the half-angle identity is ancient, Li's criterion is 1997. What was done is a **TRANSLATION** of the hypothesis into his language: from *"all the zeros on a line"* to **"all the pearls are pure rotations"**. It is the cleanest formulation this laboratory has reached, and it is still open.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

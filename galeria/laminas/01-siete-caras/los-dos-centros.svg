@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1060" viewBox="0 0 1560 1060">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="780" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚖️ LOS DOS CENTROS — la tabla del capitán, y Fermat esperando abajo</text>
+<text x="780" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">los dos caminos son uno solo · pero elevados al cuadrado abren una caracterización real de los primos</text>
+<rect x="40" y="102" width="730" height="270" rx="10" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="405" y="134" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">SU TABLA, Y ESTÁ IMPECABLE</text>
+<text x="90" y="176" font-size="17" font-family="monospace" fill="#7ee0c0">14 + 14 + 1 = 29</text>
+<text x="420" y="176" font-size="17" font-family="monospace" fill="#7ee0c0">11 + 11 + 1 = 23</text>
+<text x="90" y="206" font-size="17" font-family="monospace" fill="#7ee0c0">15 + 15 − 1 = 29</text>
+<text x="420" y="206" font-size="17" font-family="monospace" fill="#7ee0c0">12 + 12 − 1 = 23</text>
+<text x="90" y="248" font-size="17" font-family="monospace" fill="#7ee0c0"> 6 +  6 + 1 = 13</text>
+<text x="420" y="248" font-size="17" font-family="monospace" fill="#7ee0c0"> 5 +  5 + 1 = 11</text>
+<text x="90" y="278" font-size="17" font-family="monospace" fill="#7ee0c0"> 7 +  7 − 1 = 13</text>
+<text x="420" y="278" font-size="17" font-family="monospace" fill="#7ee0c0"> 6 +  6 − 1 = 11</text>
+<text x="405" y="322" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">8 de 8 cierran · cada primo llega desde DOS centros consecutivos</text>
+<text x="405" y="350" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">y los dos centros suman el primo: 14 + 15 = 29</text><rect x="790" y="102" width="730" height="270" rx="10" fill="#33221c" stroke="#c0392b"/>
+<text x="1155" y="134" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚠️ PERO LOS DOS CAMINOS SON UNO SOLO</text>
+<text x="1155" y="180" font-size="19" text-anchor="middle" font-family="monospace" fill="#dce8f7">2(k + 1) − 1  =  2k + 2 − 1  =  2k + 1</text>
+<text x="820" y="222" font-size="14.5" font-family="Georgia" fill="#f3d9cf">Es la MISMA expresión. Los dos centros son consecutivos</text>
+<text x="820" y="244" font-size="14.5" font-family="Georgia" fill="#f3d9cf">porque están obligados a serlo, y suman el primo porque</text>
+<text x="820" y="266" font-size="14.5" font-family="Georgia" fill="#f3d9cf">(p−1)/2 + (p+1)/2 = p. Todo por construcción.</text>
+<text x="820" y="302" font-size="15.5" font-family="monospace" fill="#ff8fa0">9 = 4+4+1 = 5+5−1   ❌ no es primo</text>
+<text x="820" y="326" font-size="15.5" font-family="monospace" fill="#ff8fa0">25 = 12+12+1 = 13+13−1   ❌ no es primo</text>
+<text x="1155" y="358" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">OCTAVA aparición de la trampa del 0.0e+00</text><rect x="40" y="392" width="1480" height="250" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="780" y="424" font-size="19" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">⚡ AHORA ELEVÁ SUS DOS CENTROS AL CUADRADO Y RESTALOS</text>
+<text x="260" y="466" font-size="19" font-family="monospace" fill="#ffd98a">15² − 14² = 29</text>
+<text x="640" y="466" font-size="19" font-family="monospace" fill="#ffd98a">12² − 11² = 23</text>
+<text x="1010" y="466" font-size="19" font-family="monospace" fill="#ffd98a">7² − 6² = 13</text>
+<text x="780" y="510" font-size="17" text-anchor="middle" font-family="monospace" fill="#dce8f7">n = a² − b² = (a − b)(a + b)</text>
+<text x="780" y="542" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">⟹ cada manera de escribirlo así ES una factorización. Y si n es primo, su única factorización es 1 × n.</text>
+<text x="780" y="580" font-size="21" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">UN IMPAR ES PRIMO ⟺ ES DIFERENCIA DE DOS CUADRADOS DE UNA SOLA MANERA</text>
+<text x="780" y="612" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Teorema de FERMAT, 1643 — y el renglón del capitán es exactamente esa única manera</text><rect x="40" y="662" width="730" height="200" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="405" y="694" font-size="17" text-anchor="middle" font-family="Georgia" fill="#ffd98a">EL BARRIDO</text>
+<text x="80" y="732" font-size="15.5" font-family="monospace" fill="#cfe6ff">impares revisados ......... 99999</text>
+<text x="80" y="758" font-size="15.5" font-family="monospace" fill="#7ee0c0">de esos, primos ........... 17983</text>
+<text x="80" y="784" font-size="15.5" font-family="monospace" fill="#ffd98a">excepciones ............... 0</text>
+<text x="405" y="824" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">⚠️ y ese cero NO es evidencia: es un teorema de 1643,</text>
+<text x="405" y="846" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">tenía que dar cero. Va como control del programa.</text>
+<rect x="790" y="662" width="730" height="200" rx="10" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="1155" y="694" font-size="17" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">⚖️ POR QUÉ NO ES UN TEST DE PRIMALIDAD</text>
+<text x="820" y="730" font-size="14.5" font-family="Georgia" fill="#cfe6ff">Contar maneras decide, pero ENCONTRARLAS cuesta.</text>
+<text x="820" y="754" font-size="14.5" font-family="Georgia" fill="#cfe6ff">El método de Fermat arranca en la raíz y camina hacia</text>
+<text x="820" y="778" font-size="14.5" font-family="Georgia" fill="#cfe6ff">arriba: vuela si los dos factores están cerca, y se</text>
+<text x="820" y="802" font-size="14.5" font-family="Georgia" fill="#cfe6ff">muere si están lejos.</text>
+<text x="1155" y="838" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">449×457: un paso · 3×68041: decenas de miles</text><rect x="40" y="882" width="1480" height="150" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="780" y="914" font-size="17" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LO QUE QUEDA, DICHO SIN ADORNOS</text>
+<text x="780" y="948" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Su tabla, sola, no puede fallar: los dos caminos son el mismo y andan igual con el 9 y con el 25.</text>
+<text x="780" y="974" font-size="15" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Pero elevando sus dos centros al cuadrado, lo que aparece es la puerta de una caracterización de verdad —</text>
+<text x="780" y="1000" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">y esta vez NO es una tautología disfrazada: es Fermat, 1643, y su renglón es el caso trivial de ella.</text>
+</svg>

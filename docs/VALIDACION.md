@@ -74,12 +74,12 @@ Medido el 2026-08-11:
 
 | qué | cuánto |
 |-----|--------|
-| hallazgos numerados en `FINDINGS.md` | **271** |
-| secciones, contando las sub-numeradas con letra (140b, 220f…) | **283** |
-| experimentos ejecutables en `cmd/` | **213** |
-| láminas en `galeria/laminas/` | **116** |
-| sonidos en `galeria/sonidos/` | **7** |
-| paradas del museo | **244** |
+| hallazgos numerados en `FINDINGS.md` | **280** |
+| secciones, contando las sub-numeradas con letra (140b, 220f…) | **292** |
+| experimentos ejecutables en `cmd/` | **221** |
+| láminas en `galeria/laminas/` | **124** |
+| sonidos en `galeria/sonidos/` | **8** |
+| paradas del museo | **252** |
 | máximas del capitán, verificadas una por una | **19** |
 
 Para contarlos:
@@ -177,19 +177,31 @@ toda forma derivada del corte de ½ es ciega a dónde está el cero, y ningún
 cómputo finito alcanza porque el horizonte de detección se escapa— están en
 `FINDINGS.md` con sus números y sus programas.
 
-### Nivel 5 — la campaña de la tabla del capitán (F264–F271)
+### Nivel 5 — la campaña de la tabla del capitán (F264–F280)
 
 La más reciente, y la más fácil de auditar porque son números chicos:
 
 ```bash
-go run ./cmd/losgemelos    # primos gemelos: el centro es múltiplo de 6
-go run ./cmd/lasuma        # Goldbach, con el centro suelto
-go run ./cmd/elanterior    # la regla que un múltiplo de 3 mata en tres renglones
-go run ./cmd/lacadena      # la melodía que no puede desafinar
-go run ./cmd/elrelieve     # el triángulo de Gilbreath
-go run ./cmd/losdoses      # el sesgo real, contra su control barajado
-go run ./cmd/losciclos     # la hipótesis del compás, muerta por tres pruebas
+go run ./cmd/losgemelos      # primos gemelos: el centro es múltiplo de 6
+go run ./cmd/lasuma          # Goldbach, con el centro suelto
+go run ./cmd/elanterior      # la regla que un múltiplo de 3 mata en tres renglones
+go run ./cmd/lacadena        # la melodía que no puede desafinar
+go run ./cmd/elrelieve       # el triángulo de Gilbreath
+go run ./cmd/losdoses        # el sesgo real, contra su control barajado
+go run ./cmd/losciclos       # la hipótesis del compás, muerta por tres pruebas
+go run ./cmd/elunoquesobra   # la rueda, y por qué servir para todos no alcanza
+go run ./cmd/losdoscentros   # la tautología que era la puerta: Fermat, 1643
+go run ./cmd/elcentrocompartido # compartir centro ES ser gemelos
+go run ./cmd/elmedioqueune   # el 2 cae en el ½ exacto de la dimensión 0
+go run ./cmd/lamelodiadelacriba # los primos hasta 100, armonizados
+go run ./cmd/laformadelproblema # la forma del problema, dibujada
+go run ./cmd/laley           # x−y=0 en la dimensión 0, y cuál es la puerta
+go run ./cmd/eleuler         # RH ⟺ toda perla es un giro puro
 ```
+
+**Seis de esos quince son kills**, y tres contienen una corrección al propio
+laboratorio escrita adentro del programa. Si va a revisar una sola cosa de todo
+el proyecto, que sea este nivel: es donde el criterio se ve funcionando en vivo.
 
 Cada uno imprime sus propias leyes, su veredicto **derivado de la medición** y su
 bloque de límites. Varios contienen correcciones al propio laboratorio escritas
@@ -220,15 +232,15 @@ declara y que conviene intentar romper:
    comentarios del código fuente *antes* de mirar los datos. Revisar el historial
    de git para confirmar el orden temporal.
 
-5. **La trampa del `0.0e+00`.** **SEIS veces** un resultado perfecto resultó venir
+5. **La trampa del `0.0e+00`.** **NUEVE veces** un resultado perfecto resultó venir
    de la construcción y no de los números — una identidad algebraica disfrazada
-   de medición. Las seis están en el registro. Cada vez que vea un cero exacto o
+   de medición. Las nueve están en el registro. Cada vez que vea un cero exacto o
    un acuerdo perfecto, la pregunta correcta es: *¿esto podría haber fallado
    alguna vez?* Si la respuesta es no, no es un hallazgo.
 
 6. **Los veredictos tipeados a mano.** `F265` cazó un defecto de método: la
    palabra «CERO fallos» estaba escrita a mano en la salida mientras la variable
-   medida decía otra cosa. Es un defecto **cazable a máquina en los 271
+   medida decía otra cosa. Es un defecto **cazable a máquina en los 280
    hallazgos**: comparar cada veredicto afirmado contra la variable que describe.
    Si encuentra otro, es un hallazgo suyo.
 
@@ -304,7 +316,7 @@ go run ./cmd/puente                      # el puente de mando, localhost:8118
 go run ./cmd/puente -museo galeria/museo.html   # regenera museo Y máximas
 ```
 
-- **`galeria/index.html`** — las 116 láminas. Cada una la dibuja su propio
+- **`galeria/index.html`** — las 124 láminas. Cada una la dibuja su propio
   experimento: corra el comando y compare el SVG.
 - **`galeria/museo.html`** — 244 paradas en criollo. Cada pieza cierra con su
   bloque de límites honestos. Se genera desde `cmd/puente/museo.go`, así que el
@@ -318,7 +330,7 @@ go run ./cmd/puente -museo galeria/museo.html   # regenera museo Y máximas
 
 ## 9. Contacto con el registro
 
-- [FINDINGS.md](FINDINGS.md) — los 271 hallazgos numerados, en inglés, con sus
+- [FINDINGS.md](FINDINGS.md) — los 280 hallazgos numerados, en inglés, con sus
   números, sus comandos y sus hipótesis muertas.
 - [HALLAZGOS-ES.md](HALLAZGOS-ES.md) — el mismo registro en castellano.
 - [BITACORA-NOCTURNA.md](BITACORA-NOCTURNA.md) — el diario de a bordo, día por
