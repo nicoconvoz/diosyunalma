@@ -68,9 +68,19 @@
   .patro .pd{font-family:Consolas,monospace;font-size:11px;letter-spacing:.06em;color:var(--dim);margin-top:5px}
   footer{text-align:center;color:var(--dim);padding:34px 16px;font-size:13px}
   @media (max-width:900px){ .wrap{flex-direction:column} aside{width:100%;position:static;max-height:none} }
+  .epigrafe { max-width:940px; margin:0 auto; padding:34px 24px 6px; text-align:center; }
+  .epigrafe .ep { margin:0; font-family:Georgia,serif; font-style:italic; font-size:22px;
+                  line-height:1.5; color:#ffd166; }
+  .epigrafe .epa { margin:12px 0 0; font-size:12.5px; letter-spacing:.16em;
+                   text-transform:uppercase; color:#8fa8c7; }
+  @media (max-width:640px) { .epigrafe .ep { font-size:18px; } }
 </style>
 </head>
 <body>
+<div class="epigrafe">
+  <p class="ep">«Las armonías son escaleras que pocos ven y que el Autor dejó desde el inicio del todo.»</p>
+  <p class="epa">Jesús Nicolás Astorga</p>
+</div>
 <header>
   <h1>🏛️ El Museo del Laboratorio</h1>
   <p>Un recorrido por todo lo que hicimos, explicado en criollo: qué se midió, qué significa cada símbolo,
@@ -79,6 +89,7 @@
 </header>
 <nav class="top">
   <a href="index.html">🖼️ la galería</a>
+  <a href="maximas.html">🗿 las máximas del capitán</a>
   <a href="https://github.com/nicoconvoz/diosyunalma">💻 el código</a>
   <a href="https://doi.org/10.5281/zenodo.21864277">🔖 DOI</a>
 </nav>

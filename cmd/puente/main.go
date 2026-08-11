@@ -903,6 +903,16 @@ func main() {
 		}
 		fi, _ := os.Stat(destino)
 		fmt.Printf("🏛️  museo escrito: %s (%.0f KB)\n", destino, float64(fi.Size())/1024)
+
+		// y de paso el muro de las maximas, que vive al lado del museo y se
+		// arma de la misma fuente unica: cmd/puente/maximas.go
+		mx := filepath.Join(filepath.Dir(destino), "maximas.html")
+		if err := escribirMaximasWeb(mx); err != nil {
+			fmt.Println("⚠ no pude escribir las máximas:", err)
+			os.Exit(1)
+		}
+		fmi, _ := os.Stat(mx)
+		fmt.Printf("🗿 máximas escritas: %s (%.0f KB · %d frases)\n", mx, float64(fmi.Size())/1024, len(maximas))
 		return
 	}
 
