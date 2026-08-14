@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🌉 EL PUENTE EN MINIATURA — el mismo λ₁ por tres caminos</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">las perlas, el germen de la dimensión 0, y los primos solos — se encuentran en el mismo número</text>
+<rect x="60" y="110" width="400" height="240" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="260" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL GERMEN (dimensión 0)</text>
+<text x="90" y="186" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la fórmula de las perlas adentro del</text>
+<text x="90" y="208" font-size="13.5" font-family="Georgia" fill="#cfe6ff">cambiaformas, leída en el punto 0</text>
+<text x="90" y="250" font-size="17" font-family="monospace" fill="#ffd98a">λ₁ = 0.023095709</text>
+<text x="90" y="286" font-size="13" font-family="Georgia" fill="#7ee0c0">λ₂…λ₈ todos positivos</text>
+<text x="90" y="310" font-size="12.5" font-family="Georgia" fill="#9aa8c4">RH ⟺ siguen positivos para siempre</text>
+<rect x="500" y="110" width="400" height="240" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LAS PERLAS</text>
+<text x="530" y="186" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la suma sobre nuestras 38 perlas sube</text>
+<text x="530" y="208" font-size="13.5" font-family="Georgia" fill="#cfe6ff">hacia el mismo número — la cola infinita</text>
+<text x="530" y="230" font-size="13.5" font-family="Georgia" fill="#cfe6ff">queda declarada, no estimada</text>
+<text x="530" y="286" font-size="13" font-family="Georgia" fill="#9aa8c4">(la fórmula de cola de F259 era circular</text>
+<text x="530" y="308" font-size="13" font-family="Georgia" fill="#9aa8c4">y no se usa: eso es lo honesto)</text>
+<rect x="940" y="110" width="400" height="240" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="1140" y="146" font-size="16" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">LOS PRIMOS SOLOS</text>
+<text x="970" y="186" font-size="13.5" font-family="Georgia" fill="#cfe6ff">sin ceros, sin ξ: una criba y Mertens</text>
+<text x="970" y="208" font-size="13.5" font-family="Georgia" fill="#cfe6ff">(1874) producen γ, y con γ sale λ₁</text>
+<text x="970" y="250" font-size="15" font-family="monospace" fill="#ffd98a">γ = lím[ln x − ΣΛ(m)/m]</text>
+<text x="970" y="286" font-size="13" font-family="Georgia" fill="#7ee0c0">converge al mismo número con x</text>
+<text x="970" y="310" font-size="12.5" font-family="Georgia" fill="#9aa8c4">la voz de los primos, cruzando la pared</text>
+<text x="700" y="420" font-size="26" text-anchor="middle" font-family="monospace" fill="#ffd98a">λ₁ = 1 + γ/2 − ln(4π)/2 = 0.023095709</text>
+<text x="700" y="456" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">los tres caminos se encuentran acá — medido con instrumentos propios</text>
+<rect x="60" y="500" width="1280" height="130" rx="12" fill="#1a1030" stroke="#5a4fa8"/>
+<text x="700" y="534" font-size="16" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">Y LA ESCALERA ENTERA TIENE LADO-PRIMOS</text>
+<text x="700" y="566" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Bombieri–Lagarias (1999): TODO λₙ se escribe con sumas sobre primos, y la positividad desde ese lado ⟺ RH.</text>
+<text x="700" y="592" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El puente EXISTE como fórmula. Lo que nadie pudo demostrar es que del lado de los primos siempre dé positivo.</text>
+<text x="700" y="680" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">λ₁ clásico · Mertens 1874 · Li 1997 · B–L 1999 — lo nuestro es haberlo medido. Un escalón, no la escalera.</text>
+<text x="700" y="712" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

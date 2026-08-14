@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔪 EL CUCHILLO — es ley, y unifica con los primos en la dimensión 0</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">el ½ pela único, respeta la multiplicación, define una escala — y todas las escalas multiplican a 1 exacto</text>
+<rect x="50" y="110" width="420" height="250" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="260" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL CUCHILLO ES LEY</text>
+<text x="80" y="184" font-size="14" font-family="monospace" fill="#cfe6ff">46 → un corte  → 23 (primo)</text>
+<text x="80" y="210" font-size="14" font-family="monospace" fill="#cfe6ff">44 → dos cortes → 11 (primo)</text>
+<text x="80" y="236" font-size="14" font-family="monospace" fill="#cfe6ff">45 → sin corte → 45 = 3·3·5</text>
+<text x="80" y="276" font-size="13.5" font-family="Georgia" fill="#7ee0c0">partición única: 10⁶ números, 0 fallos</text>
+<text x="80" y="300" font-size="13.5" font-family="Georgia" fill="#7ee0c0">cortes(a·b) = cortes(a)+cortes(b): 0 fallos en 10⁶</text>
+<text x="80" y="336" font-size="13" font-family="Georgia" fill="#9aa8c4">ley, no costumbre — el TFA en el primo 2</text>
+<rect x="490" y="110" width="420" height="250" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="700" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">EL ½ COMO UNIDAD DE MEDIDA</text>
+<text x="520" y="188" font-size="15" font-family="monospace" fill="#ffd98a">|n|₂ = (½)^cortes</text>
+<text x="520" y="224" font-size="14" font-family="monospace" fill="#cfe6ff">|23|₂ = 1 · |46|₂ = ½ · |96|₂ = 1/32</text>
+<text x="520" y="262" font-size="13.5" font-family="Georgia" fill="#cfe6ff">cada corte parte el tamaño por la mitad:</text>
+<text x="520" y="286" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el ½ no es solo cuchillo — es la escala</text>
+<text x="520" y="322" font-size="13" font-family="Georgia" fill="#9aa8c4">y cada primo p tiene la suya: |·|_p</text>
+<rect x="930" y="110" width="420" height="250" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1140" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">TODAS MULTIPLICAN A 1 EXACTO</text>
+<text x="960" y="188" font-size="15" font-family="monospace" fill="#ffd98a">|x|∞ · Π|x|_p = 1</text>
+<text x="960" y="222" font-size="13.5" font-family="Georgia" fill="#cfe6ff">verificado en aritmética ENTERA, sin</text>
+<text x="960" y="246" font-size="13.5" font-family="Georgia" fill="#cfe6ff">redondeo: ¿exacto en todos los casos? true</text>
+<text x="960" y="284" font-size="13.5" font-family="Georgia" fill="#ffd98a">la meta sin correrse un milímetro,</text>
+<text x="960" y="308" font-size="13.5" font-family="Georgia" fill="#ffd98a">otra vez — ahora en tamaños (F242)</text>
+<text x="700" y="430" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El 2 usa dos sombreros: cuchillo de DENSIDAD (come la mitad, la torta) y de TAMAÑO (parte la medida).</text>
+<text x="700" y="462" font-size="19" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El mismo ½, dos oficios, dos contabilidades exactas.</text>
+<rect x="50" y="490" width="1300" height="100" rx="12" fill="#33221c" stroke="#c0392b"/>
+<text x="700" y="524" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚡ Adónde da la puerta: el ensamble de TODAS las escalas es el mundo ADÉLICO — la frontera que F259 marcó como el camino serio.</text>
+<text x="700" y="552" font-size="14" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">Hensel ~1897, fórmula del producto clásica, F242 ya lo midió — lo nuestro es la identificación: su juego de fracciones es el picaporte.</text>
+<text x="700" y="578" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

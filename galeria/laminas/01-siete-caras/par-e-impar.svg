@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚖️ PAR E IMPAR — la relación intermedia, y la lámpara que sí cruza</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">todos los pares contra todos los impares: tres medios exactos, y una luz adentro del pasillo</text>
+<rect x="50" y="110" width="420" height="260" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="260" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL ½ DE LA BALANZA</text>
+<text x="260" y="192" font-size="18" text-anchor="middle" font-family="monospace" fill="#ffd98a">pares/impares = 1/(2ˢ−1)</text>
+<text x="260" y="232" font-size="16" text-anchor="middle" font-family="monospace" fill="#7ee0c0">= ½ exacto en s = log₂3</text>
+<text x="80" y="280" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el medio de la balanza es donde el 2</text>
+<text x="80" y="302" font-size="13.5" font-family="Georgia" fill="#cfe6ff">alcanza al 3 — sus dos primos otra vez</text>
+<text x="260" y="344" font-size="13" text-anchor="middle" font-family="monospace" fill="#9aa8c4">log₂3 = 1.584962500…</text>
+<rect x="490" y="110" width="420" height="260" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="700" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">LA CINCHADA: η DE EULER</text>
+<text x="700" y="192" font-size="16" text-anchor="middle" font-family="monospace" fill="#ffd98a">η = 1 − ½ˢ + ⅓ˢ − ¼ˢ + …</text>
+<text x="520" y="236" font-size="13.5" font-family="Georgia" fill="#cfe6ff">impares menos pares, tirando por turnos —</text>
+<text x="520" y="258" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y CONVERGE EN TODO EL PASILLO, donde</text>
+<text x="520" y="280" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la lámpara de los primos erraba por 10⁴⁰</text>
+<text x="700" y="322" font-size="14" text-anchor="middle" font-family="monospace" fill="#7ee0c0">verificada sobre el cable a 5e-14</text>
+<text x="700" y="348" font-size="13" text-anchor="middle" font-family="Georgia" fill="#ffd98a">la lámpara que SÍ cruza la pared</text>
+<rect x="930" y="110" width="420" height="260" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1140" y="144" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">Y VE LAS PERLAS</text>
+<text x="960" y="192" font-size="14" font-family="monospace" fill="#cfe6ff">η(½+10i)    ≈ 1.5   (no perla)</text>
+<text x="960" y="220" font-size="14" font-family="monospace" fill="#ffd98a">η(½+14.13i) ≈ 0     ← PERLA</text>
+<text x="960" y="248" font-size="14" font-family="monospace" fill="#cfe6ff">η(½+18i)    ≈ 1.2   (no perla)</text>
+<text x="960" y="276" font-size="14" font-family="monospace" fill="#ffd98a">η(½+21.02i) ≈ 0     ← PERLA</text>
+<text x="960" y="320" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la cinchada se anula exactamente en</text>
+<text x="960" y="342" font-size="13.5" font-family="Georgia" fill="#cfe6ff">las perlas: no solo cruza — las VE</text>
+<text x="700" y="440" font-size="20" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El saldo de la pelea infinita entre impares y pares es ln 2 — el logaritmo del primo que las parte.</text>
+<rect x="50" y="480" width="1300" height="110" rx="12" fill="#33221c" stroke="#c0392b"/>
+<text x="700" y="514" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ Honesto: η es de Euler (1749) y su convergencia es clásica — así se encendió la luz del pasillo.</text>
+<text x="700" y="542" font-size="14" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">Lo nuestro es la medición y la lectura. Y el límite: esta lámpara VE las perlas, no las encadena.</text>
+<text x="700" y="570" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Saber dónde están no dice por qué no pueden soltarse. Todavía no.</text>
+</svg>

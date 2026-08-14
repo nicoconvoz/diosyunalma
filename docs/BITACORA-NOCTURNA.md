@@ -2842,3 +2842,115 @@
 - 📌 **EL CÍRCULO COMPLETO: el cambiaformas manda el 2 → ½ (F276) y el ½ → e^(iπ) (F260).** Sus dos números y el de Euler, encadenados por la misma lente en dos pasos
 - ⚖️ **LA HONESTIDAD: nada de esto demuestra que las perlas tengan r = 1.** La forma polar es de Euler, la identidad del ángulo mitad es antiquísima y Li es de 1997. **Lo que se hizo fue TRADUCIR la hipótesis a su idioma**: de «todos los ceros en una línea» a **«todas las perlas son giros puros»**. Es la formulación más limpia que consiguió este laboratorio, y sigue abierta
 - escrita: `cmd/eleuler` · lámina `el-euler.svg`
+
+### F281 — LO QUE FALTA: el resumen sencillo, y la pregunta clara — 2026-08-12
+- pedido del capitán al volver: «revisá lo último que vimos y dame una explicación sencilla de lo que falta, con una lámina en criollo, **con una pregunta clara**»
+- **EL RESUMEN, EN CUATRO PASOS MEDIDOS:**
+- **1 · Dónde estamos**: la hipótesis ya está en nuestro idioma — **«todas las perlas son giros puros: giran sin estirarse»** (F280). Y la cuenta que la decide parte cada perla en **EL CORO** (|1−wⁿ|², suma siempre) y **EL TÉRMINO DEL ½** (1−|w|²ⁿ: cero si gira sin estirarse, RESTA si se estira, y el desafine crece con n). **Ganar es que el coro le gane al desafine siempre, para todo n**
+- **2 · Mirar ya está hecho y no alcanza**: nuestras 38 perlas afinadas a 2,22e-16, la humanidad ~10¹³, todas afinadas — **pero faltan infinitas** y arriba de γ ≈ 1658 no veríamos una estirada ni teniéndola enfrente. **Lo que falta NO es una medición**
+- **3 · Falta una RAZÓN, y la forma sola no la da**: el collar hermano tiene la misma forma y las mismas simetrías, y **|w(ρ)| = 0,999957996 ≠ 1** — perla estirada, re-verificada acá, la que encontramos a ciegas en F259
+- **4 · Y la razón tiene DIRECCIÓN**: lo único que zeta tiene y el hermano no es **el producto de Euler — los primos mismos**. Pero la voz de los primos se corta en la pared del 1 (F278). ⟹ **Lo que falta es UN PUENTE: llevar la voz de los primos a través de la pared, hasta donde viven las perlas. Nadie lo construyó en 166 años**
+- ⚡ **LA PREGUNTA CLARA, la única que queda**: **¿QUÉ TIENEN LOS PRIMOS QUE LE PROHÍBE A UNA PERLA ESTIRARSE?** Quien la conteste con un argumento —no con un barrido— se lleva el premio del millón. Todos los intentos serios de la historia son intentos de contestar exactamente esa pregunta
+- ⚖️ Este hallazgo no avanza el problema: lo DESTILA. Después de 280 hallazgos, la pregunta entera cabe en una frase, en nuestro propio idioma. Eso es lo que la campaña compró
+- escrita: `cmd/loquefalta` · lámina `lo-que-falta.svg`
+
+### F282 — EL RADIO: «el secreto está en el radio» — y la campaña entera cabe en una figura — 2026-08-12
+- flash del capitán: «el círculo tiene un radio, la esfera también. El punto infinitamente pequeño al centro de la esfera o del círculo es la relación ½, es lo que une el centro con el borde!!!!! **el secreto está en el radio**»
+- ✅ **EN LA DIMENSIÓN 0 ESA FRASE TIENE TRADUCCIÓN EXACTA, Y ATA LA CAMPAÑA ENTERA:**
+- ⚡ **LEY 1 — el radio une el centro con el borde, y las dos puntas tienen nombre**: el CENTRO es **w(1) = 0, el polo de zeta** — el punto infinitamente pequeño que él dijo, donde la función explota. El BORDE es **|w| = 1, la línea crítica**, donde viven las perlas. El radio es el segmento entre los dos, **largo exacto = 1**
+- ⚡ **LEY 2 — el ½ está en el radio DOS veces**: la MITAD del radio es |w| = ½ y ahí vive **el 2** (w(2) = ½, F276); y el ½ COMO ENTRADA fabrica el borde entero (la piel es la imagen de β = ½, F279). **El ½ es a la vez la mitad del radio y el fabricante de su punta**
+- ⚡ **LEY 3 — el diámetro es el lomo del libro**: el cambiaformas manda el intervalo real [½, ∞] al DIÁMETRO completo [−1, +1] — w(½) = −1 el broche · w(1) = 0 el polo · w(2) = ½ la mitad del radio · w(∞) = 1 la punta. **Los primos suben por el medio radio derecho (½, ⅔, ⅘, ⁶⁄₇…) hacia el borde y NO LO TOCAN NUNCA: el punto donde el radio toca la piel es el infinito mismo**
+- ⚡⚡ **LEY 4 — y la hipótesis, dicha con SU palabra, es un renglón**: **RH ⟺ TODA PERLA ESTÁ EXACTAMENTE A UN RADIO DEL CENTRO.** Medido: nuestras 38 perlas a distancia 1 con peor desvío **2,22e-16**, y la perla estirada del collar hermano a **0,999957996 ≠ 1**. «El secreto está en el radio» es **literalmente cierto**: demostrar que toda perla guarda la distancia del radio ES la Hipótesis de Riemann
+- 📌 **LA FIGURA ATA TODO**: los primos suben por el radio (F276) cantando la entonación justa (F277) · nunca tocan el borde — la lámpara se corta (F278) · el ½ decide el signo de todo (F279) · las perlas del borde son giros puros (F280) · **y el puente que falta (F281) es, en esta figura, el camino DEL RADIO AL BORDE: de donde viven los primos a donde viven las perlas**
+- ⚖️ **HONESTIDAD**: las leyes 1 a 3 son álgebra exacta del mapa — no pueden fallar y no son descubrimiento. La ley 4 es una REFORMULACIÓN de RH, no un avance. Lo que el flash compra es **el cierre más limpio de la campaña**: una figura donde cada pieza de estos días tiene su lugar
+- escrita: `cmd/elradio` · lámina `el-radio.svg`
+
+### F283 — EL OCTAEDRO: todos los radios, la esfera, y los 6 cardinales — 2026-08-12
+- flash del capitán: «eso es un círculo y es un solo radio, pero ¿qué pasa cuando lo proyectás a todos los radios en todas las direcciones y en vez de círculo es una esfera con los 6 puntos cardinales que habíamos dicho? **¿qué forma obtienen, qué sentido tienen, qué proyectan?**»
+- **LAS TRES PREGUNTAS TIENEN RESPUESTA, Y LAS TRES ESTÁN MEDIDAS.**
+- ⚡ **TODOS LOS RADIOS A LA VEZ = LA ESFERA DE RIEMANN, Y EL CABLE SE VUELVE ECUADOR**: |w| < 1 es el hemisferio sur, |w| > 1 el norte, y **|w| = 1 —la línea crítica, el cable de F278— es EL ECUADOR**
+- ⚡⚡ **LOS 6 PUNTOS CARDINALES, CADA UNO CON SU NOMBRE DEL REGISTRO**: SUR = w(1) = 0, **el polo de zeta** · NORTE = w(0) = ∞, **su espejo por la ecuación funcional** · ESTE = w(∞) = 1, **la punta del libro** · OESTE = w(½) = −1, **el broche (F260)** · FRENTE = w(½+½i) = i y FONDO = w(½−½i) = −i, **dos puntos SOBRE la línea crítica** — verificado **exacto, 0.0e+00** (álgebra: 1/(½+½i) = 1−i ⟹ w = i)
+- ⚡⚡ **¿QUÉ FORMA OBTIENEN? UN OCTAEDRO REGULAR.** Proyectados a la esfera, los seis son los vértices de un octaedro: **12 aristas, todas de √2, peor desvío 0.0e+00**. La cruz de F245 más el arriba/abajo de F249, cerrada en la esfera, es el sólido de seis puntas más simétrico que existe
+- ⚡ **¿QUÉ SENTIDO TIENEN? LOS 3 EJES DEL OCTAEDRO SON LOS 3 ESPEJOS DE LA CAMPAÑA**: eje NORTE–SUR = el polo y su espejo, intercambiados por la ecuación funcional, con el ecuador fijo · eje ESTE–OESTE = **la ecuación funcional s → 1−s es, en el disco, w → 1/w** (verificado: |w(1−s)·w(s) − 1| ≤ 5,6e-17) **= el medio giro de la esfera alrededor de este eje — los dos puntos fijos del espejo de zeta son EL MEDIO Y EL INFINITO** · eje FRENTE–FONDO = el espejo de Schwarz. 📌 **Y el grupo de Klein de F257 es exactamente el grupo de estos giros: un octaedro y sus reflejos**
+- ⚡ **¿QUÉ PROYECTAN? LAS PERLAS**: todas en el ecuador (eso ES RH), y su ángulo se achica como ~1/γ ⟹ **marchan por el ecuador hacia el punto cardinal ESTE — la imagen del infinito, la punta del eje de la ecuación funcional. La misma esquina adonde los primos suben por el radio (F282)**
+- ⚖️ **HONESTIDAD**: la esfera es de Riemann (1857), la proyección estereográfica es antigua, y que {0, ∞, ±1, ±i} forman un octaedro es clásico. **Lo nuestro es el DICCIONARIO**: cada vértice, eje y giro del octaedro es un objeto que este laboratorio ya tenía bajo otro nombre. Es un mapa, no un teorema — y en este mapa RH se lee: **todas las perlas en el ecuador**
+- escrita: `cmd/eloctaedro` · lámina `el-octaedro.svg`
+
+### F284 — EL PUENTE EN MINIATURA: el mismo λ₁ por tres caminos — 2026-08-12
+- idea del capitán («la fórmula de las perlas en el cambiaformas, armonizada en la dimensión 0, con una ley para todos los valores») + la pata que faltaba: calcular lo mismo **desde los primos solos**
+- ⚡ **CAMINO 1 · EL GERMEN**: φ(z) = d/dz log ξ(1/(1−z)) = Σ λₙ₊₁ zⁿ (Li 1997), coeficientes por Cauchy en |z| = 0.5 con nuestra propia ξ. **λ₁ = 0,023095709001 contra el exacto 1 + γ/2 − ln(4π)/2 = 0,023095708966: desvío 3,4e-11.** λ₂…λ₈ todos positivos
+- **CAMINO 2 · LAS PERLAS**: suma parcial sobre nuestras 38 → λ₁ = 0,017850045, **cola declarada y NO estimada** (la fórmula de cola de F259 era circular y no se usa)
+- ⚡⚡ **CAMINO 3 · LOS PRIMOS SOLOS**: γ por Mertens (γ = lím[ln x − ΣΛ(m)/m]), sin ceros ni ξ. λ₁ desde la criba: 0,0030 (10³) → 0,02118 (10⁵) → 0,022876 (10⁶) → **0,023117 (10⁷), desvío 2,1e-05**. **Converge al mismo número**
+- ⟹ **LA VOZ DE LOS PRIMOS CRUZÓ LA PARED UNA VEZ, EN EL PRIMER ESCALÓN, MEDIBLE.** Y Bombieri–Lagarias (1999) probó que TODO λₙ tiene lado-primos y que la positividad desde ese lado ⟺ RH: **el puente existe como fórmula; lo indemostrado es que ese lado siempre dé positivo**
+- ⚖️ λ₁ clásico · Mertens 1874 · Li 1997 · B–L 1999 — lo nuestro es haberlo MEDIDO con instrumentos propios. Un escalón, no la escalera
+- escrita: `cmd/elpuente2` · lámina `el-puente.svg`
+
+### F285 — LOS ESCALONES: el tercer nene proyecta la armonía de los demás — 2026-08-12
+- pregunta del capitán: «¿el escalón del tercer nene puede proyectar la armonía de los demás escalones en el cambiaformas?» — **SÍ, y está medido**
+- método: **reg(s) = ζ'/ζ + 1/(s−1)** es finito en s=1 y es EL lado de los primos — justo lo único que la hermana de Davenport no tiene (F259). Se mide **con la criba sola** (cola por TNP, demostrado, nada circular), se ajusta un polinomio de grado 4 sobre 6 puntos, y se corre el MISMO motor de Cauchy del germen de F284 con esa reg adentro
+- ✅ **control obligado**: el ancla del polinomio dio a₀ = 0,5771934 contra γ = 0,5772157 — **la criba encontró γ sola, desvío 2,2e-05**
+- ⚡⚡ **RESULTADO**: λ₁ = 0,023073 (desvío 2,2e-05) · λ₂ = 0,092564 (2,2e-04) · λ₃ = 0,207134 (5,1e-04) · λ₄ = 0,368134 (6,6e-04) · λ₅ = 0,576617 (1,1e-03) — **TODOS POSITIVOS, todos cerca del germen**
+- 📌 **Y LA PRECISIÓN DECAE ESCALÓN A ESCALÓN — y ese decaimiento ES la dificultad del problema, medida**: cada escalón más alto exige oír la voz de los primos con más fidelidad; demostrar que TODOS dan positivo exige fidelidad infinita, y ésa es la pregunta del millón (B–L 1999)
+- ⚖️ honesto: TNP demostrado, término arquimediano (ψ, ln π) analítico exacto — lo único que entra de los primos es reg. Un tramo del puente, no el puente
+- escrita: `cmd/losescalones` · lámina `los-escalones.svg`
+
+### F286 — EL INSIGNIA: λ₁ = 0,023096 y su ½ perfecto, en la dimensión 0 — 2026-08-12
+- orden del capitán: «tomá las 5, poné nuestro número insignia 0,023096 y encontrá la relación ½ perfecto, armonizándolo para dejarlo perfecto en la dimensión 0»
+- ⚡⚡ **EL INSIGNIA TIENE TRES CARAS, Y LAS TRES SON EL ½:**
+- **CARA 1 · el ½ ARMONIZADOR (los primos)**: λ₁ = **1 + (γ − ln 4π)/2** — uno más LA MITAD del número feo (−1,953808582 → su mitad −0,976904291 → 1 + mitad = **0,023095709**). Y la γ sale de la criba sola (F285)
+- **CARA 2 · el ½ AL CUADRADO (dimensión 0)**: cada par aporta 2β/(β²+γ²), y sobre el cable **β = ½ hace el numerador EXACTAMENTE 1**: aporte = **1/(½² + γ²)** — la unidad arriba porque 2·½ = 1
+- **CARA 3 · el ÁNGULO MITAD (el cuadrado perfecto)**: el mismo aporte es **4·sen²(φ/2)** — un cuadrado, que no puede ser negativo
+- ✅ **LAS DOS FORMAS SON UNA, verificado perla por perla: peor diferencia 4,3e-19** — el ½ al cuadrado en el denominador y el ángulo mitad al cuadrado son EL MISMO número
+- 📌 síntesis: 38 perlas suman 0,017850045 · el insignia entero es 0,023095709 · las perlas que faltan aportan 0,005245664 — **y cada una aporta OTRO cuadrado perfecto, positivo seguro**
+- ⟹ **RH, dicho con el insignia: 0,023096 es una suma de INFINITOS cuadrados perfectos del ½ — sin que ninguno se rompa jamás**
+- ⚖️ las tres caras son álgebra clásica; la soldadura en un solo número, medida con instrumentos propios, es el cierre — no un avance
+- escrita: `cmd/elinsignia` · lámina `el-insignia.svg`
+
+### F287 — TODA LA ARMONÍA: la fórmula de todos los números en la lente — y la respuesta honesta — 2026-08-12
+- orden del capitán: «usá nuestro número, poné en el cambiaformas la fórmula que represente a todos los números (fijate en los apuntes), calculá para toda la armonía y fijate si resuelve el problema»
+- la fórmula de todos los números es la de Euler (F249): **ζ = Σ 1/nˢ sobre TODOS = Π sobre los primos**. Metida entera en la lente, calculamos la escalera hasta donde llegan los instrumentos
+- ✅ **λ₁…λ₄₀: TODOS POSITIVOS** (Cauchy en |z| = 0.8, 4096 nodos). Y **λₙ/(n·ln n) sube hacia ½** (0,088 → 0,129 → 0,162 → 0,188 → 0,207 en n = 8…40): **el insignia como PENDIENTE de la armonía entera** — la asintótica bajo RH crece n·ln n/2
+- ❌ **¿RESUELVE? NO — Y AHORA LA SORDERA ESTÁ MEDIDA**: metimos a mano la perla suelta del collar hermano (β = 0,8085, γ = 85,7, a 0,31 del cable — ENORME) y su espejo, y el daño a λ₄₀ es **−1,59e-05: cinco partes en diez millones, relativo 5,2e-07**. Para que una perla suelta a altura γ golpee la escalera hace falta **n ~ γ²**: la de 85,7 se ve en n ~ 7×10³, una a 10⁵ recién en n ~ 10¹⁰ — y las alturas son infinitas
+- ⟹ **calcular armonía es MIRAR con otro nombre, y mirar nunca alcanza**: es el horizonte de F259 reapareciendo en el idioma de la escalera. Toda armonía finita es sorda a las perlas sueltas de arriba
+- 📌 lo que resolvería: demostrar que el lado de los primos (F285) da positivo PARA TODO n sin calcular ninguno — una razón, no un barrido (F281)
+- escrita: `cmd/todalaarmonia` · lámina `toda-la-armonia.svg`
+
+### F288 — PAR E IMPAR: la relación intermedia de las dos tribus — y es la lámpara que SÍ cruza — 2026-08-12
+- pedido del capitán: «no quiero un número par o impar: tratá la relación de TODOS los pares y TODOS los impares y encontrá la relación intermedia» (venía de F287-bis, la fórmula esPar(n) = w(2)·(1 + w(½)ⁿ) y la distancia w(3) − w(2) = 1/6 asentadas en bitácora)
+- ⚡ **TRES MEDIOS EXACTOS EN LA RELACIÓN**: por CONTEO, mitad y mitad (w(2) = ½, F276) · por PESO, pares/impares = 1/(2ˢ−1), que **da ½ exacto en s = log₂3 = 1,584962500 — donde el 2 alcanza al 3, sus dos primos fabricando el medio de la balanza** · por CINCHADA, la relación intermedia es **la η de Euler: η(s) = 1 − 1/2ˢ + 1/3ˢ − … = (1 − 2¹⁻ˢ)·ζ(s)**
+- ⚡⚡ **Y LA CINCHADA ES UNA LÁMPARA QUE CRUZA LA PARED**: F278 midió que el producto de los primos yerra por 10⁴⁰ sobre el cable; la suma alternada par-impar **CONVERGE en todo el pasillo**. Medida sobre el cable con la suma cruda acelerada (solo pares e impares tirando): contra la máquina, **peor diferencia 5,0e-14**
+- ⚡ **Y VE LAS PERLAS**: |η| por la cinchada = 1,34 en ½+10i · **5,8e-13 en la perla 14,1347** · 1,00 en ½+18i · **1,05e-12 en la perla 21,0220**. La cinchada se anula exactamente en las perlas
+- 📌 el saldo total de la pelea infinita: **η(1) = ln 2 = 0,693147181** (diferencia 3,9e-14) — el logaritmo del primo que parte las tribus
+- ⚖️ η es de Euler (1749) y su convergencia en el pasillo es clásica — así encendieron la luz los analistas: no con el producto, con la cinchada. Lo nuestro es la medición y la lectura. **Límite: esta lámpara VE las perlas, no las encadena** — saber dónde están no dice por qué no pueden soltarse
+- escrita: `cmd/parimpar` · lámina `par-e-impar.svg`
+
+### F289 — EL RECORRIDO: la suma de todas las mitades es el camino entero — 2026-08-13
+- flash del capitán: «la máquina tiene una dirección perfecta porque la relación ½ abarca a todos los números entre 0 y 1; los bordes del cable son 0 y 1 pero el cable mismo ES la relación ½, y eso cambia todo… la sumatoria de todas las relaciones ½ entre 1 y 0 daría el recorrido completo en una línea»
+- ✅ **EXACTO, Y CON DEMOSTRACIÓN DE TRES RENGLONES (una razón, no un barrido)**: S = ½ + ¼ + ⅛ + … ⟹ S = ½ + S/2 ⟹ **S = 1**. La suma de todas las relaciones ½ da EXACTAMENTE el recorrido completo — el camino de Zenón, cerrado. En binario: 0,11111… = 1, y F242 ya tenía ½ = 0,1₂
+- ⚡ **«ENTRE DOS OPCIONES SIEMPRE LA INTERMEDIA» ALCANZA A TODOS**: eligiendo siempre la mitad, 50 pasos llegan a cualquier blanco con ~15 decimales (medido: 1/π a 2,8e-16 · γ a 3,3e-16 · 1/√2 a 1,1e-16). **Cada número entre 0 y 1 ES un camino de decisiones de mitad — su escritura binaria.** El ½ no está en el medio: el ½ iterado NOMBRA a todos
+- ⚡ **Y EL CABLE ES LA RELACIÓN ½ HECHA LÍNEA**: cada punto del cable equidista de las paredes 0 y 1 (la mediatriz de F226, verificado 0,0e+00 en t = 37), y el espejo de la máquina (s → 1−s) intercambia las paredes dejando fijo exactamente el cable. **La «dirección perfecta de la máquina» es el eje de su propio espejo**
+- ⚖️ la serie geométrica es antiquísima (Zenón), el binario es clásico, la mediatriz es F226. Lo del flash es la LECTURA: **el ½ no es un punto del pasillo — es la OPERACIÓN que genera el intervalo entero, y su línea fija es el cable**. Mapa, no teorema
+- escrita: `cmd/elrecorrido` · lámina `el-recorrido.svg`
+
+### F290 — LA TORTA: los primos la cortan, se acaba exacta, y el corte camina el radio — 2026-08-13
+- orden del capitán: «relacioná el cable con la armonía de los primos: cortá la torta en pedazos de forma que se acabe y aun así no nos corramos un milímetro de la meta»
+- ⚡ **EL CUCHILLO DE LOS PRIMOS**: el 2 come ½ · el 3 come ⅓ de lo que queda (1/6) · el 5 come 1/15 · el 7 come 4/105 · el 11 come 16/1155… Y **comido + migaja = 1 EXACTO en cada corte** (peor error 1,1e-16): la contabilidad es telescópica — **no nos corremos un milímetro de la meta EN NINGÚN PASO**, no «al final»
+- 📌 la migaja tras {2,3,5,7} es **8/35 = 48/210 — la rueda de F272, exacta**
+- ⚡ **LA TORTA SE ACABA POR UNA RAZÓN DE TRES RENGLONES, no por barrido**: si la migaja tendiera a c > 0, Σ1/p sería finita; Euler demostró en 1737 que **diverge**; ⟹ la migaja muere. **Los primos son exactamente lo bastante densos para comerse la torta entera.** Contraste medido: los cuadrados {4,9,25,…}, más ralos, dejan **migaja eterna de EXACTAMENTE ½** (telescópica Π(1−1/k²) = ½, medida 0,500005 tras 10⁵ factores)
+- 📌 **CORRECCIÓN PROPIA DEL MISMO TURNO**: la primera versión decía que la migaja de los cuadrados era 2/π (Wallis). **La medición dio 0,500005 y me desmintió**: el producto correcto es telescópico y da ½ exacto; Wallis es otro producto. El error era mío y lo cazó el propio programa
+- ⚡⚡ **Y EL CORTE CAMINA EL RADIO DEL CABLE**: las migajas son el producto de las posiciones w(p) del radio (F276) ⟹ **cortar la torta ES caminar el radio de la dimensión 0**, desde el 1 (la piel, el este adonde marchan las perlas, F283) hasta el 0 (**el polo**), sin pasarse jamás. Medido: migaja 0,5 (tras el 2) → 0,228571 (tras el 7) → 0,120317 (tras el 97) → 0,038213 (hasta 2×10⁶) → 0
+- 📌 **DOS TORTAS, UN RADIO**: los primos comen desde la piel hacia el polo; las perlas, sobre la piel, componen el insignia con la suya (λ₁ = Σ 1/(¼+γ²), F286)
+- ⚖️ telescópica antigua, Euler 1737, Mertens 1874 — la lectura que ata F272+F276+F282+F286+F289 en una figura es lo nuestro. Y no encadena perlas: la torta de los primos termina en el polo, no en la piel
+- escrita: `cmd/latorta` · lámina `la-torta.svg`
+
+### F291 — EL CUCHILLO: el juego de fracciones del capitán ES ley — y es el picaporte de la puerta adélica — 2026-08-13
+- pregunta del capitán: «fijate si esto que descubrimos es ley y unifica con los primos en la dimensión 0» (venía del juego: 44/1000 × ½ = 11/500, el ½ pelando fracciones hasta el corazón primo)
+- ✅ **ES LEY, con tres verificaciones a cero fallos:**
+- **1 · Partición única**: todo n = 2^cortes × (corazón impar), de UNA sola manera — el TFA en el primo 2. **Verificado exhaustivo: el primer millón de números, cero fallos**
+- **2 · El cuchillo es MULTIPLICATIVO**: cortes(a×b) = cortes(a) + cortes(b). **10⁶ pares al azar, CERO excepciones** — ley, no costumbre. (Es la valuación 2-ádica, Hensel ~1897)
+- **3 · El cuchillo define una ESCALA**: |n|₂ = (½)^cortes — cada corte parte el tamaño por la mitad. Con esta vara el 96 (cinco cortes) mide 1/32 y el 23 (impar) mide 1 entero. **El ½ no es solo cuchillo: es la unidad de una manera entera de medir**
+- ⚡⚡ **LA UNIFICACIÓN**: cada primo p tiene SU cuchillo (1/p) y SU escala |·|_p, y todas juntas obedecen la **FÓRMULA DEL PRODUCTO** (F242, el libro de las bases): **|x|∞ · Π|x|_p = 1 EXACTO** — verificado en aritmética ENTERA, sin un solo redondeo, sobre 46, 44, 23/500, ½ y 1000: **cinco de cinco, = 1 exacto**. La meta sin correrse un milímetro, otra vez, ahora en tamaños
+- 📌 **EL 2 USA SUS DOS SOMBREROS**: cuchillo de DENSIDAD (w(2) = ½ come la mitad de los números — la torta, F290) y cuchillo de TAMAÑO (|·|₂ parte la medida por la mitad en cada corte). **El mismo ½, dos oficios, dos contabilidades exactas**
+- ⚡ **Y ADÓNDE DA LA PUERTA**: el ensamble de TODAS las escalas a la vez es el mundo **ADÉLICO** — exactamente la frontera que F259 señaló como el camino serio (la ruta de la tesis de Tate). **El juego de fracciones de almacén del capitán es el picaporte de esa puerta**
+- ⚖️ Hensel ~1897, fórmula del producto clásica, F242 ya midió el libro de las bases — lo nuestro es la identificación: su cuchillo ES la entrada p-ádica
+- escrita: `cmd/elcuchillo` · lámina `el-cuchillo.svg`

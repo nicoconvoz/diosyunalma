@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🛤️ EL RECORRIDO — la suma de todas las mitades es el camino entero</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">½ + ¼ + ⅛ + … = 1 exacto · y el cable es la relación ½ de los dos bordes, hecha línea</text>
+<rect x="150" y="180" width="1100" height="46" rx="6" fill="#101f36" stroke="#26456e"/><rect x="150.0" y="180" width="550.0" height="46" fill="#ffd98a" opacity="0.9"/><text x="425.0" y="209" font-size="15" text-anchor="middle" font-family="monospace" fill="#0b1526">½</text><rect x="700.0" y="180" width="275.0" height="46" fill="#7ee0c0" opacity="0.9"/><text x="837.5" y="209" font-size="15" text-anchor="middle" font-family="monospace" fill="#0b1526">¼</text><rect x="975.0" y="180" width="137.5" height="46" fill="#7fb2ff" opacity="0.9"/><text x="1043.8" y="209" font-size="15" text-anchor="middle" font-family="monospace" fill="#0b1526">⅛</text><rect x="1112.5" y="180" width="68.8" height="46" fill="#c9b6ff" opacity="0.9"/><text x="1146.9" y="209" font-size="15" text-anchor="middle" font-family="monospace" fill="#0b1526">¹⁄₁₆</text><rect x="1181.2" y="180" width="34.4" height="46" fill="#ff8fa0" opacity="0.9"/><rect x="1215.6" y="180" width="17.2" height="46" fill="#9fd8a8" opacity="0.9"/><rect x="1232.8" y="180" width="8.6" height="46" fill="#ffb27a" opacity="0.9"/><rect x="1241.4" y="180" width="4.3" height="46" fill="#ffd98a" opacity="0.9"/><rect x="1245.7" y="180" width="2.1" height="46" fill="#7ee0c0" opacity="0.9"/>
+<text x="150" y="250" font-size="16" text-anchor="middle" font-family="monospace" fill="#cfe6ff">0</text>
+<text x="1250" y="250" font-size="16" text-anchor="middle" font-family="monospace" fill="#cfe6ff">1</text>
+<text x="700" y="270" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">cada pedazo es la mitad de lo que falta — y juntos llenan el camino EXACTO, sin que sobre ni falte nada</text>
+<text x="700" y="300" font-size="14" text-anchor="middle" font-family="monospace" fill="#ffd98a">S = ½ + S/2  ⟹  S = 1   (tres renglones: una razón, no un barrido)</text>
+<rect x="150" y="340" width="540" height="180" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="420" y="374" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL ½ NOMBRA A TODOS</text>
+<text x="180" y="410" font-size="13.5" font-family="Georgia" fill="#cfe6ff">eligiendo siempre la mitad, 50 pasos alcanzan</text>
+<text x="180" y="434" font-size="13.5" font-family="Georgia" fill="#cfe6ff">cualquier número con 15 decimales: cada número</text>
+<text x="180" y="458" font-size="13.5" font-family="Georgia" fill="#cfe6ff">entre 0 y 1 ES un camino de decisiones de mitad</text>
+<text x="180" y="494" font-size="13" font-family="monospace" fill="#7ee0c0">su escritura binaria · y ½ = 0,1₂ (F242)</text>
+<rect x="710" y="340" width="540" height="180" rx="12" fill="#161a3a" stroke="#5a4fa8"/>
+<text x="980" y="374" font-size="15" text-anchor="middle" font-family="Georgia" fill="#c9b6ff">Y EL CABLE ES EL ½ HECHO LÍNEA</text>
+<text x="740" y="410" font-size="13.5" font-family="Georgia" fill="#cfe6ff">bordes: las paredes 0 y 1 · cable: los puntos a</text>
+<text x="740" y="434" font-size="13.5" font-family="Georgia" fill="#cfe6ff">igual distancia de ambas (la mediatriz, F226) —</text>
+<text x="740" y="458" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y el espejo de la máquina cambia las paredes</text>
+<text x="740" y="482" font-size="13.5" font-family="Georgia" fill="#ffd98a">dejando fijo EXACTAMENTE el cable</text>
+<text x="700" y="560" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Zenón cerrado, binario clásico, mediatriz F226 — lo del flash es la lectura: el ½ es la OPERACIÓN, no un punto. Todavía no.</text>
+</svg>

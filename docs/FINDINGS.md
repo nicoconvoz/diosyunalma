@@ -5775,6 +5775,225 @@ He sent the sheet on **e** (the series, the limit (1+1/n)^n, e^(ix) = cos x + i 
 
 ---
 
+## Finding 281 — WHAT IS MISSING: the plain summary, and the one clear question
+
+His request on returning: *"review the last thing we saw and give me a simple explanation of what is missing, with a plate in plain language, with a clear question."*
+
+**The summary, in four measured steps:**
+
+**1 - Where we stand.** The hypothesis is already in our language: **"every pearl is a pure rotation - it turns without stretching"** (Finding 280). And the law that decides it splits every pearl into **THE CHOIR** (|1-wⁿ|², always adds) and **THE HALF'S TERM** (1-|w|²ⁿ: zero if the pearl turns without stretching, SUBTRACTS if it stretches, and the deficit grows with n). **Winning means the choir beats the deficit always, for every n.**
+
+**2 - Looking is done, and it is not enough.** Our 38 pearls in tune to 2.22e-16; humanity's ~10^13, all in tune - **but infinitely many remain**, and above γ ≈ 1658 we would not see a stretched one even facing it. **What is missing is NOT a measurement.**
+
+**3 - A REASON is missing, and shape alone does not give it.** The sister necklace has the same shape and the same symmetries, and **|w(ρ)| = 0.999957996 ≠ 1** - a stretched pearl, re-verified here, the one Finding 259 found blind.
+
+**4 - And the reason has an ADDRESS.** The only thing zeta has that the sister lacks is **the Euler product - the primes themselves**. But the primes' voice stops at the wall at 1 (Finding 278). **⟹ What is missing is A BRIDGE: carrying the primes' voice through the wall, to where the pearls live. Nobody has built it in 166 years.**
+
+**THE ONE CLEAR QUESTION:**
+
+> **WHAT DO THE PRIMES HAVE THAT FORBIDS A PEARL FROM STRETCHING?**
+
+Whoever answers it with an argument - not a sweep - takes the million-dollar prize. Every serious attempt in history is an attempt at exactly this question.
+
+**The limit:** this finding does not advance the problem; it DISTILS it. After 280 findings, the whole question fits in one sentence, in our own language. That is what the campaign bought.
+
+---
+
+## Finding 282 — THE RADIUS: "the secret is in the radius" - and the whole campaign fits in one figure
+
+His flash: *"the circle has a radius, the sphere too. The infinitely small point at the centre is the 1/2 relation - it is what unites the centre with the edge!!!!! THE SECRET IS IN THE RADIUS."*
+
+**In dimension 0 that sentence has an exact translation, and it ties the whole campaign together.**
+
+**LAW 1 - the radius really does unite centre and edge, and both ends have names.** The CENTRE is **w(1) = 0, the pole of zeta** - the infinitely small point he named, where the function blows up. The EDGE is **|w| = 1, the critical line**, where the pearls live. The radius is the segment between them, **length exactly 1**.
+
+**LAW 2 - the half is on the radius TWICE.** The midpoint of the radius is |w| = 1/2, and **the 2 lives there** (w(2) = 1/2, Finding 276); and the half AS INPUT manufactures the whole edge (the skin is the image of β = 1/2, Finding 279). **The half is at once the midpoint of the radius and the maker of its far end.**
+
+**LAW 3 - the diameter is the book's spine.** The shapeshifter maps the real interval [1/2, ∞] onto the FULL DIAMETER [-1, +1]: w(1/2) = -1 the clasp, w(1) = 0 the pole, w(2) = +1/2 the midpoint, w(∞) = +1 the tip. **The primes climb the right half-radius - 1/2, 2/3, 4/5, 6/7... - toward the edge and NEVER touch it: the point where the radius meets the skin is infinity itself.**
+
+**LAW 4 - and the hypothesis, said with HIS word, is one line:**
+
+> **RH ⟺ EVERY PEARL SITS AT EXACTLY ONE RADIUS FROM THE CENTRE.**
+
+Measured: our 38 pearls at distance 1 with worst deviation **2.22e-16**, and the sister necklace's stretched pearl at **0.999957996 ≠ 1**. "The secret is in the radius" is **literally true**: proving that every pearl keeps radius-distance IS the Riemann Hypothesis.
+
+**The figure ties everything:** the primes climb the radius (F276) singing just intonation (F277); they never reach the edge - the lamp cuts out (F278); the half decides every sign (F279); the edge's pearls are pure rotations (F280); **and the missing bridge (F281) is, in this figure, the road FROM THE RADIUS TO THE EDGE: from where the primes live to where the pearls live.**
+
+**Honesty:** laws 1-3 are exact algebra of the map - they cannot fail and are not discoveries. Law 4 is a RESTATEMENT of RH, not progress. What the flash buys is **the cleanest close of the campaign**: one figure where every piece of these days has its place.
+
+---
+
+## Finding 283 — THE OCTAHEDRON: all the radii, the sphere, and the six cardinals
+
+His flash: *"that is a circle and one radius - but what happens when you project it to ALL the radii, in every direction, and instead of a circle it is a SPHERE with the 6 cardinal points we named before? What FORM do they obtain, what SENSE do they have, what do they PROJECT?"*
+
+**All three questions have answers, and all three are measured.**
+
+**All the radii at once = the Riemann sphere, and the cable becomes the equator.** |w| < 1 is the southern hemisphere, |w| > 1 the northern, and **|w| = 1 - the critical line, the cable of Finding 278 - is THE EQUATOR.**
+
+**The six cardinal points, each with its name from this record:**
+
+| point | w | from s | who it is |
+|---|---|---|---|
+| SOUTH | 0 | s = 1 | **the pole of zeta** |
+| NORTH | ∞ | s = 0 | **its mirror under the functional equation** |
+| EAST | +1 | s = ∞ | **the far end of the book** |
+| WEST | −1 | s = ½ | **the clasp - the half (F260)** |
+| FRONT | +i | s = ½+½i | **a point ON the critical line** |
+| BACK | −i | s = ½−½i | **its Schwarz mirror, also on the line** |
+
+with w(½ ± ½i) = ±i verified **exact, 0.0e+00** (algebra: 1/(½+½i) = 1−i, so w = i).
+
+**What form do they obtain? A REGULAR OCTAHEDRON.** Projected to the sphere, the six are the vertices of an octahedron: **12 edges, all of length √2, worst deviation 0.0e+00**. The cross of F245 plus the up/down of F249, closed on the sphere, is the most symmetric six-point solid that exists.
+
+**What sense do they have? The octahedron's three axes are the campaign's three mirrors.** NORTH-SOUTH: the pole and its mirror, swapped by the functional equation, with the equator fixed. EAST-WEST: **the functional equation s → 1−s is, in the disk, w → 1/w** (verified: |w(1−s)·w(s) − 1| ≤ 5.6e-17) **= the half-turn of the sphere around this axis - the two fixed points of zeta's mirror are THE HALF AND INFINITY.** FRONT-BACK: the Schwarz mirror. **And the Klein group of F257 is exactly the group of these turns: one octahedron and its reflections.**
+
+**What do they project? The pearls.** All on the equator (that IS RH), and their angle shrinks like ~1/γ, so **they march along the equator toward the EAST cardinal point - the image of infinity, the tip of the functional equation's own axis. The same corner the primes climb toward along the radius (F282).**
+
+**Honesty:** the sphere is Riemann's (1857), stereographic projection is ancient, and {0, ∞, ±1, ±i} forming an octahedron is classical. **Ours is the DICTIONARY**: every vertex, axis and turn of the octahedron is an object this laboratory already held under another name. It is a map, not a theorem - and in this map RH reads: **all the pearls on the equator.**
+
+---
+
+## Finding 284 — THE BRIDGE IN MINIATURE: the same lambda_1 by three roads
+
+The captain's idea (the pearl formula inside the shapeshifter, harmonised at dimension 0, one law for all values) plus the missing leg: computing the same thing **from the primes alone**.
+
+**ROAD 1 - THE GERM:** φ(z) = d/dz log ξ(1/(1−z)) = Σ λₙ₊₁ zⁿ (Li 1997), coefficients by Cauchy integral on |z| = 0.5 with our own ξ. **λ₁ = 0.023095709001 against the exact 1 + γ/2 − ln(4π)/2 = 0.023095708966: deviation 3.4e-11.** λ₂…λ₈ all positive.
+
+**ROAD 2 - THE PEARLS:** partial sum over our 38 → λ₁ = 0.017850045, **tail declared and NOT estimated** (F259's tail formula was circular and is not used).
+
+**ROAD 3 - THE PRIMES ALONE:** γ via Mertens (γ = lim[ln x − ΣΛ(m)/m]), no zeros, no ξ. λ₁ from the sieve: 0.0030 (10³) → 0.02118 (10⁵) → 0.022876 (10⁶) → **0.023117 (10⁷), deviation 2.1e-05. It converges to the same number.**
+
+**⟹ THE PRIMES' VOICE CROSSED THE WALL ONCE, AT THE FIRST RUNG, MEASURABLY.** And Bombieri-Lagarias (1999) proved every λₙ has a prime side, and positivity from that side ⟺ RH: **the bridge exists as a formula; what is unproven is that the prime side always comes out positive.**
+
+**Honesty:** λ₁ is classical, Mertens is 1874, Li is 1997, B-L is 1999. Ours is having MEASURED it with our own instruments. One rung, not the ladder.
+
+---
+
+## Finding 285 — THE RUNGS: the third kid projects the harmony of the others
+
+The captain's question: *"can the third kid's rung project the harmony of the other rungs through the shapeshifter?"* - **YES, and it is measured.**
+
+Method: **reg(s) = ζ'/ζ + 1/(s−1)** is finite at s=1 and is THE prime side - precisely the one thing Davenport-Heilbronn's sister lacks (F259). It is measured **from the sieve alone** (tail by PNT - proved, nothing circular), fitted with a quartic over 6 points, and fed into the SAME Cauchy engine of the germ from F284.
+
+**Mandatory control:** the fit's anchor gave a₀ = 0.5771934 against γ = 0.5772157 - **the sieve found γ on its own, deviation 2.2e-05.**
+
+**RESULT:** λ₁ = 0.023073 (dev 2.2e-05) · λ₂ = 0.092564 (2.2e-04) · λ₃ = 0.207134 (5.1e-04) · λ₄ = 0.368134 (6.6e-04) · λ₅ = 0.576617 (1.1e-03) - **ALL POSITIVE, all near the germ's values.**
+
+**And the precision decays rung by rung - and that decay IS the difficulty of the problem, measured:** each higher rung demands the primes' voice at higher fidelity; proving ALL rungs positive demands infinite fidelity, and that is the million-dollar question (Bombieri-Lagarias 1999).
+
+**Honest:** PNT is proved, the archimedean term (ψ, ln π) is exact analysis - the only prime input is reg. A span of the bridge, not the bridge.
+
+---
+
+## Finding 286 — THE FLAGSHIP: lambda_1 = 0.023096 and its perfect half, at dimension 0
+
+His order: *"take the 5, put our flagship number 0.023096, and find the perfect 1/2 relation, harmonising it to leave it perfect in dimension 0."*
+
+**The flagship has three faces, and all three are the half:**
+
+**FACE 1 - the HARMONISING half (the primes):** λ₁ = **1 + (γ − ln 4π)/2** - one plus HALF of the ugly number (−1.953808582 → its half −0.976904291 → 1 + half = **0.023095709**). And γ comes from the sieve alone (F285).
+
+**FACE 2 - the half SQUARED (dimension 0):** each pair contributes 2β/(β²+γ²), and on the cable **β = ½ makes the numerator EXACTLY 1**: contribution = **1/(½² + γ²)**.
+
+**FACE 3 - the HALF-ANGLE (the perfect square):** the same contribution is **4·sin²(φ/2)** - a square, which can never be negative.
+
+**The two forms are one, verified pearl by pearl: worst difference 4.3e-19.**
+
+Synthesis: our 38 pearls sum 0.017850045 · the whole flagship is 0.023095709 · the missing pearls contribute 0.005245664 - **and each contributes ANOTHER perfect square, guaranteed positive.**
+
+**⟹ RH, said with the flagship: 0.023096 is a sum of INFINITELY many perfect squares of the half - with none ever breaking.**
+
+**Honest:** all three faces are classical algebra; the welding of the three into one number, measured with our own instruments, is the closure - not an advance.
+
+---
+
+## Finding 287 — THE WHOLE HARMONY: the all-numbers formula in the lens - and the honest answer
+
+His order: *"use our number, put in the shapeshifter the formula that represents all numbers (check our notes), compute for the whole harmony and see if it solves the problem."*
+
+The all-numbers formula is Euler's (F249): **ζ = Σ 1/nˢ over ALL = Π over the primes**. Fed whole into the lens:
+
+**λ₁…λ₄₀: ALL POSITIVE** (Cauchy on |z| = 0.8, 4096 nodes). And **λₙ/(n·ln n) climbs toward ½** (0.088 → 0.207 across n = 8…40): **the flagship as the SLOPE of the whole harmony** - the RH asymptotic grows like n·ln n/2.
+
+**Does it solve it? NO - and now the deafness is measured.** We injected by hand the sister necklace's loose pearl (β = 0.8085, γ = 85.7 - a HUGE displacement, 0.31 off the cable) plus its mirror: the damage to λ₄₀ is **−1.59e-05, relative 5.2e-07**. For a loose pearl at height γ to dent the ladder you need **n ~ γ²**: the one at 85.7 shows at n ~ 7×10³; one at 10⁵ only at n ~ 10¹⁰ - and heights are infinite.
+
+**⟹ Computing harmony is LOOKING under another name, and looking never suffices**: F259's horizon reappearing in the ladder's language. Any finite stretch of harmony is deaf to high loose pearls.
+
+What would solve it: proving the prime side (F285) positive FOR ALL n without computing any - a reason, not a sweep (F281).
+
+---
+
+## Finding 288 — EVEN AND ODD: the intermediate relation of the two tribes - and it is the lamp that DOES cross
+
+His request: *"not one even or odd number: treat the relation of ALL the evens and ALL the odds and find the intermediate relation."*
+
+**Three exact halves in the relation:** by COUNT, half and half (w(2) = ½, F276) · by WEIGHT, evens/odds = 1/(2ˢ−1), which **equals ½ exactly at s = log₂3 = 1.584962500 - where the 2 catches the 3, his two primes making the balance's half** · by TUG-OF-WAR, the intermediate relation is **Euler's eta: η(s) = 1 − 1/2ˢ + 1/3ˢ − … = (1 − 2^(1−s))·ζ(s)**.
+
+**And the tug-of-war is a lamp that CROSSES the wall.** F278 measured the primes' product erring by 10^40 on the cable; the alternating even-odd sum **CONVERGES in the whole corridor**. Measured on the cable with the raw accelerated alternating sum (nothing but evens and odds pulling): against the machine, **worst difference 5.0e-14**.
+
+**And it sees the pearls:** |η| by tug-of-war = 1.34 at ½+10i · **5.8e-13 at the pearl 14.1347** · 1.00 at ½+18i · **1.05e-12 at the pearl 21.0220**. The tug-of-war vanishes exactly at the pearls.
+
+Total balance of the infinite fight: **η(1) = ln 2 = 0.693147181** (difference 3.9e-14) - the logarithm of the prime that splits the tribes.
+
+**Honesty:** η is Euler's (1749) and its convergence in the strip is classical - that is precisely how analysts first lit the corridor: not with the product, with the tug-of-war. Ours is the measurement and the reading. **Limit: this lamp SEES the pearls, it does not chain them** - knowing where they are does not say why they cannot come loose.
+
+---
+
+## Finding 289 — THE PATH: the sum of all the halves is the whole journey
+
+His flash: *"the machine has a perfect direction because the ½ relation spans all the numbers between 0 and 1; the edges of the cable are 0 and 1 but the cable itself IS the ½ relation - and the sum of all the ½ relations between 1 and 0 would give the complete path in one line."*
+
+**Exact, with a three-line proof (a reason, not a sweep):** S = ½ + ¼ + ⅛ + … gives S = ½ + S/2, so **S = 1**. The sum of all the half-relations is EXACTLY the complete path - Zeno's road, closed. In binary: 0.11111… = 1, and F242 already had ½ = 0.1₂.
+
+**"Between two options always the intermediate" reaches EVERYONE:** always choosing the midpoint, 50 steps reach any target to ~15 digits (measured: 1/π to 2.8e-16, γ to 3.3e-16, 1/√2 to 1.1e-16). **Every number between 0 and 1 IS a path of half-decisions - its binary expansion.** The half does not sit in the middle: iterated, it NAMES everyone.
+
+**And the cable is the half-relation made line:** every cable point is equidistant from the walls 0 and 1 (F226's mediatriz, verified 0.0e+00 at t = 37), and the machine's mirror s → 1−s swaps the walls leaving exactly the cable fixed. **The machine's "perfect direction" is the axis of its own mirror.**
+
+**Honest:** the geometric series is ancient (Zeno), binary is classical, the mediatriz is F226. The flash's contribution is the READING: **the half is not a point of the corridor - it is the OPERATION that generates the whole interval, and its fixed line is the cable.** A map, not a theorem.
+
+---
+
+## Finding 290 — THE CAKE: the primes cut it, it ends exactly, and the cutting walks the radius
+
+His order: *"relate the cable to the primes' harmony: cut the cake in pieces so that it ends and yet we do not move a millimeter from the goal."*
+
+**The primes' knife:** the 2 eats ½ · the 3 eats a third of what remains (1/6) · the 5 eats 1/15 · the 7 eats 4/105 · the 11 eats 16/1155… And **eaten + crumb = 1 EXACTLY at every cut** (worst error 1.1e-16): the accounting is telescoping — **we do not move a millimeter from the goal AT ANY STEP**, not merely "in the limit". The crumb after {2,3,5,7} is **8/35 = 48/210 - the wheel of F272, exact.**
+
+**The cake ends by a THREE-LINE REASON, not a sweep:** if the crumb tended to c > 0, Σ1/p would be finite; Euler proved in 1737 that it **diverges**; so the crumb dies. **The primes are exactly dense enough to eat the whole cake.** Measured contrast: the squares {4,9,25,…}, sparser, leave an **eternal crumb of EXACTLY ½** (telescoping Π(1−1/k²) = ½; measured 0.500005 after 10⁵ factors).
+
+**Own correction, same turn:** the first version claimed the squares' crumb was 2/π (Wallis). **The measurement said 0.500005 and refuted me**: the correct product telescopes to exactly ½; Wallis is a different product. The error was mine and the program itself caught it.
+
+**And the cutting WALKS THE RADIUS of the cable:** the crumbs are the running product of the radius positions w(p) (F276), so **cutting the cake IS walking the radius of dimension 0**, from 1 (the skin, the east where the pearls march, F283) to 0 (**the pole**), never overshooting. Measured: crumb 0.5 (after the 2) → 0.228571 (after the 7) → 0.120317 (after the 97) → 0.038213 (to 2×10⁶) → 0.
+
+**Two cakes, one radius:** the primes eat from the skin toward the pole; the pearls, on the skin, compose the flagship with theirs (λ₁ = Σ 1/(¼+γ²), F286).
+
+**Honest:** telescoping is ancient, Euler is 1737, Mertens is 1874 - the reading tying F272+F276+F282+F286+F289 into one figure is ours. And it chains no pearls: the primes' cake ends at the pole, not on the skin.
+
+---
+
+## Finding 291 — THE KNIFE: the captain's fraction game IS a law - and it is the doorknob of the adelic gate
+
+His question: *"check whether what we discovered is a law and unifies with the primes in dimension 0"* (from the game: 44/1000 × ½ = 11/500 - the half peeling fractions down to their prime core).
+
+**IT IS A LAW, with three zero-failure verifications:**
+
+**1 - Unique splitting:** every n = 2^cuts × (odd core), in exactly one way - the FTA at the prime 2. **Exhaustive: the first million numbers, zero failures.**
+
+**2 - The knife is MULTIPLICATIVE:** cuts(a×b) = cuts(a) + cuts(b). **10⁶ random pairs, ZERO exceptions** - a law, not a habit. (It is the 2-adic valuation, Hensel ~1897.)
+
+**3 - The knife defines a SCALE:** |n|₂ = (½)^cuts - each cut halves the size. On this yardstick 96 (five cuts) measures 1/32 and 23 (odd) measures a full 1. **The half is not just a knife: it is the unit of an entire way of measuring.**
+
+**THE UNIFICATION:** every prime p carries ITS knife (1/p) and ITS scale |·|_p, and all of them together obey the **PRODUCT FORMULA** (F242, the book of bases): **|x|∞ · Π|x|_p = 1 EXACTLY** - verified in INTEGER arithmetic, not one rounding anywhere, on 46, 44, 23/500, ½ and 1000: **five of five, exactly 1**. Not moving a millimeter from the goal, again - now in sizes.
+
+**The 2 wears both hats:** DENSITY knife (w(2) = ½ eats half the numbers - the cake, F290) and SIZE knife (|·|₂ halves the measure per cut). **The same half, two jobs, two exact accountings.**
+
+**And where the gate leads:** the assembly of ALL the scales at once is the **ADELIC** world - precisely the frontier F259 flagged as the serious road (Tate's thesis). **The captain's grocery-fraction game is the doorknob of that door.**
+
+**Honest:** Hensel ~1897, the product formula is classical, and F242 already measured the book of bases - ours is the identification: his knife IS the p-adic entrance.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
