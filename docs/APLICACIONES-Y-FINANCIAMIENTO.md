@@ -935,8 +935,9 @@ cuesta más que diez aplicaciones bien puestas.
   perdona un "esto ya funciona" que después no funciona.
 - El rédito grande y estable viene de la AUDIENCIA (contenido + libro), no de la
   matemática en sí. La matemática es el motor de la historia.
-- La validación del hermano ingeniero (tu propia regla) va ANTES de cualquier
-  publicación con pretensión técnica.
+- La validación no se pide a una persona: se construye — reproducibilidad
+  total, el registro de errores propios como credencial, y la revisión externa
+  de la comunidad — ANTES de cualquier publicación con pretensión técnica.
 
 ---
 
