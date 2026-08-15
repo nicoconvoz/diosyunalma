@@ -64,8 +64,7 @@ NO tirar el margen en D1 y encadenar en D6.
 
 **Testigo m = 2** (el de DYN, F320/F321): Δ = 4.34×10⁴⁴ contra la
 −λ = 6.496×10⁴⁴ medida (y verificada a 50 dígitos) en la cita 1040809.
-**Cociente 1.50: la cota no es un piso decorativo — captura la escala
-exponencial real de la ruptura.** (El exceso 1.50 se reparte entre el
+**El cociente 1.50 muestra que, en este testigo, la cota captura la escala exponencial real y no resulta meramente decorativa.** (El exceso 1.50 se reparte entre el
 techo del ceiling, el coseno real > ½, y el coro real ≪ su cota.)
 
 **Testigo NUEVO m = 3** (construido para esta misión): tres cuartetos

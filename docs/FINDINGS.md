@@ -6581,7 +6581,7 @@ Yui's THEOREM 3 PLAN arrived (🔵 open investigation): four candidates and the 
 
 **T3 CANDIDATE (DYN Robustness):** under H0-H4, with Δ = u³·(u^{3m} − 1) > 0 (u = 3(m+1)/δ ≥ 6), there exists n ≤ N₀ with **λₙ ≤ −Δ** — DYN said the rupture arrives; robustness says HOW DEEP: exponential in m.
 
-**The three shelves:** derivation battery g(n_rad) ≥ Δ > 0 on 50 cases (0 violations) · m=2 witness: Δ = 4.34×10⁴⁴ against the measured −λ = 6.496×10⁴⁴ — **ratio 1.50: the bound is TIGHT, capturing the real exponential scale** · and the NEW m=3 witness (DH + 0.7+45i + 0.75+62i, never built before): **Δ = 1.04×10⁶¹ computed BEFORE the run; the first triple appointment past n_rad,3 = 1422703 fell at 1423112 with λ = −1.91×10⁶¹ ≤ −Δ** ✅ (ratio 1.84) — the formula predicted the floor of a virgin configuration and reality obeyed.
+**The three shelves:** derivation battery g(n_rad) ≥ Δ > 0 on 50 cases (0 violations) · m=2 witness: Δ = 4.34×10⁴⁴ against the measured −λ = 6.496×10⁴⁴ — **ratio 1.50: in this witness the bound captures the real exponential scale and is not merely decorative** (wording corrected by the auditor: "tight" sounded like a mathematical optimality claim — what we have is scale evidence in one witness) · and the NEW m=3 witness (DH + 0.7+45i + 0.75+62i, never built before): **Δ = 1.04×10⁶¹ computed BEFORE the run; the first triple appointment past n_rad,3 = 1422703 fell at 1423112 with λ = −1.91×10⁶¹ ≤ −Δ** ✅ (ratio 1.84) — the formula predicted the floor of a virgin configuration and reality obeyed.
 
 **Gift for Nico's mission (§9):** the structural resonance↔depth relation, parametric in ε from L7: −λ ≥ 2(1−ε²/2)·r_maxⁿ − coro − 2ε²(m−1) − 4 — a perfect appointment doubles the leader's blow and silences the companions like ε².
 

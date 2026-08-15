@@ -217,7 +217,7 @@ margen entero de D1 viene del techo.
 **Caso testigo:**
 
     m = 2 (DH + 0.7+45i): Delta = 4.34×10⁴⁴ contra −lambda = 6.496×10⁴⁴
-    medida y verificada a 50 dígitos — cociente 1.50: cota AJUSTADA.
+    medida y verificada a 50 dígitos — el cociente 1.50 muestra que, en este testigo, la cota captura la escala exponencial real y no resulta meramente decorativa.
     m = 3 (testigo virgen): Delta = 1.04×10⁶¹ calculado ANTES de la
     corrida; la primera cita triple respondió lambda = −1.91×10⁶¹.
 

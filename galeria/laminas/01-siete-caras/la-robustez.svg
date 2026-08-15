@@ -8,12 +8,12 @@
 <text x="700" y="205" font-size="21" text-anchor="middle" font-family="monospace" fill="#ffd98a">Δ(r_max, m) = u³·(u^{3m} − 1),  u = 3(m+1)/δ  ⟹  ∃n ≤ N₀ : λₙ ≤ −Δ</text>
 <text x="700" y="235" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">bajo H0-H4, sin hipótesis nuevas, sin inputs externos nuevos — solo R1, R4-R6, R8-R10 y L7, todos auditados</text>
 <rect x="70" y="280" width="620" height="230" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
-<text x="380" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">TESTIGO m = 2 — ¿la cota es AJUSTADA?</text>
+<text x="380" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">TESTIGO m = 2 — ¿en qué escala vive la cota?</text>
 <text x="100" y="348" font-size="13.5" font-family="monospace" fill="#cfe6ff">u = 91138.0 · Δ = 4.34e+44</text>
 <text x="100" y="378" font-size="13.5" font-family="monospace" fill="#cfe6ff">−λ medida (cita 1040809) = 6.50e+44</text>
 <text x="100" y="408" font-size="14" font-family="monospace" fill="#ffd98a">−λ ≥ Δ ✅ · cociente = 1.50</text>
-<text x="100" y="442" font-size="12.5" font-family="Georgia" fill="#9aa8c4">la cota no es un piso decorativo: captura la escala</text>
-<text x="100" y="464" font-size="12.5" font-family="Georgia" fill="#9aa8c4">exponencial REAL de la ruptura (mismo exponente 10⁴⁴)</text>
+<text x="100" y="442" font-size="12.5" font-family="Georgia" fill="#9aa8c4">en este testigo la cota captura la escala</text>
+<text x="100" y="464" font-size="12.5" font-family="Georgia" fill="#9aa8c4">exponencial real (mismo exponente 10⁴⁴) — no meramente decorativa</text>
 <rect x="710" y="280" width="620" height="230" rx="12" fill="#2b1020" stroke="#8a3557"/>
 <text x="1020" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">TESTIGO NUEVO m = 3 — EN VIVO</text>
 <text x="740" y="348" font-size="13.5" font-family="monospace" fill="#cfe6ff">tres cuartetos reales · δ = 9.875e-05 · n_rad,3 = 1422703</text>

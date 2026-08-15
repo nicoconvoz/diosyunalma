@@ -17,8 +17,8 @@
 //
 // This program verifies: (1) the derivation battery on the (m, delta)
 // grid - g(n_rad) >= Delta > 0, 50 cases; (2) the m=2 witness - the
-// measured lambda at appointment 1040809 against its Delta (the bound
-// should be TIGHT, same exponential scale); (3) a NEW live m=3 witness -
+// measured lambda at appointment 1040809 against its Delta (scale
+// evidence in this witness - not an optimality claim); (3) a NEW live m=3 witness -
 // three real quartets + the 38-pearl choir, first triple appointment
 // past n_rad,3, measured -lambda >= Delta(m=3).
 //
@@ -138,7 +138,7 @@ func main() {
 	fmt.Printf("        50 casos (m = 1..10 × δ ≤ 1): %d violaciones ✅\n", viol)
 
 	// ---- 2: the m=2 witness, measured against Delta ----
-	fmt.Println("\n§2 · EL TESTIGO m = 2 (DH + 0.7+45i) — ¿la cota es AJUSTADA?")
+	fmt.Println("\n§2 · EL TESTIGO m = 2 (DH + 0.7+45i) — ¿en qué escala vive la cota?")
 	q1 := armar(complex(0.808517, 85.699348))
 	q2 := armar(complex(0.7, 45.0))
 	d2 := math.Log(math.Max(q1.r, q2.r))
@@ -207,13 +207,13 @@ func main() {
 	}
 	fmt.Printf("        la primera cita triple (ε = 1) después de n_rad,3: n = %d\n", citaN)
 	fmt.Printf("        λ en la cita = %.3e — ¿λ ≤ −Δ como promete la robustez? %v ✅\n", lam, lam <= -D3)
-	fmt.Printf("        cociente (−λ)/Δ = %.2f — de nuevo la escala exacta\n", -lam/D3)
+	fmt.Printf("        cociente (−λ)/Δ = %.2f — de nuevo la misma escala, en este testigo\n", -lam/D3)
 
 	fmt.Println("\n════════ VEREDICTO ════════")
 	fmt.Println("🛡️ **LA COTA DE ROBUSTEZ, DERIVADA Y VERIFICADA — el candidato a T3:**")
 	fmt.Printf("\n  · Δ(r_max, m) = u³·(u^{3m} − 1) con u = 3(m+1)/δ — el margen que R7 tiraba\n")
 	fmt.Printf("  · batería de la derivación: 50 casos, 0 violaciones\n")
-	fmt.Printf("  · testigo m = 2: −λ = 6.5×10⁴⁴ ≥ Δ = %.1e (cociente %.2f: AJUSTADA)\n", D2, lamMedida/D2)
+	fmt.Printf("  · testigo m = 2: −λ = 6.5×10⁴⁴ ≥ Δ = %.1e (cociente %.2f: misma escala en este testigo, no meramente decorativa)\n", D2, lamMedida/D2)
 	fmt.Printf("  · testigo NUEVO m = 3 en vivo: λ = %.1e ≤ −Δ = −%.1e ✅\n", lam, D3)
 	fmt.Println("\n⚖️ Honesto: H0-H4 sin tocar; ningún resultado externo nuevo; la corrida es")
 	fmt.Println("  evidencia, jamás demostración — la prueba universal vive en el acta y usa")
@@ -236,12 +236,12 @@ func escribirLamina(D2, lam2, u2, d3 float64, nrad3, citaN int, lam3, D3 float64
 <text x="700" y="205" font-size="21" text-anchor="middle" font-family="monospace" fill="#ffd98a">Δ(r_max, m) = u³·(u^{3m} − 1),  u = 3(m+1)/δ  ⟹  ∃n ≤ N₀ : λₙ ≤ −Δ</text>
 <text x="700" y="235" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">bajo H0-H4, sin hipótesis nuevas, sin inputs externos nuevos — solo R1, R4-R6, R8-R10 y L7, todos auditados</text>
 <rect x="70" y="280" width="620" height="230" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
-<text x="380" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">TESTIGO m = 2 — ¿la cota es AJUSTADA?</text>
+<text x="380" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">TESTIGO m = 2 — ¿en qué escala vive la cota?</text>
 <text x="100" y="348" font-size="13.5" font-family="monospace" fill="#cfe6ff">u = %.1f · Δ = %.2e</text>
 <text x="100" y="378" font-size="13.5" font-family="monospace" fill="#cfe6ff">−λ medida (cita 1040809) = %.2e</text>
 <text x="100" y="408" font-size="14" font-family="monospace" fill="#ffd98a">−λ ≥ Δ ✅ · cociente = %.2f</text>
-<text x="100" y="442" font-size="12.5" font-family="Georgia" fill="#9aa8c4">la cota no es un piso decorativo: captura la escala</text>
-<text x="100" y="464" font-size="12.5" font-family="Georgia" fill="#9aa8c4">exponencial REAL de la ruptura (mismo exponente 10⁴⁴)</text>
+<text x="100" y="442" font-size="12.5" font-family="Georgia" fill="#9aa8c4">en este testigo la cota captura la escala</text>
+<text x="100" y="464" font-size="12.5" font-family="Georgia" fill="#9aa8c4">exponencial real (mismo exponente 10⁴⁴) — no meramente decorativa</text>
 <rect x="710" y="280" width="620" height="230" rx="12" fill="#2b1020" stroke="#8a3557"/>
 <text x="1020" y="312" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">TESTIGO NUEVO m = 3 — EN VIVO</text>
 <text x="740" y="348" font-size="13.5" font-family="monospace" fill="#cfe6ff">tres cuartetos reales · δ = %.3e · n_rad,3 = %d</text>
