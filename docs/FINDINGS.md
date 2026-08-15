@@ -6561,6 +6561,18 @@ Added as a highlighted "La imagen para llevarse — del puente de mando" box in 
 
 ---
 
+## Finding 325 — THE POCKET-WATCH MAXIM: the captain's audio answer to what the two theorems are
+
+The captain transcribed his voice note of the day, and it turned out to be THE answer — his definition of what this moment of the laboratory means. Verbatim (only the transcription's timestamps removed, which are not speech): "imagine you have a watch, right? On one side I managed to build the watch's structure, on another I got the gears, on another the quartz stone, on another the hands, on another the little face with the numbers. It's a pocket watch — I also got the little chain — and now I assembled it all in these two theorems to see that the watch REALLY WORKS. You see? That is the answer."
+
+Installed as maxim number 20 in the Captain's Maxims hall ("El reloj de bolsillo", type metaphor, with the shop's gloss and this entry as source), and its closing line, verbatim, as the epigraph of the theorems' section of honor in the gallery.
+
+The shop's gloss: years of pieces obtained separately — the shapeshifter, the lemmas, the bounds, the audits — and the day he assembled them into Astorga's Theorem and the DYN Theorem, the watch told the time in front of everyone. Not a shop metaphor: the captain's own definition of a finished theorem — that the watch really runs.
+
+Maxims regenerated (20 phrases) · the release stays as is.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
