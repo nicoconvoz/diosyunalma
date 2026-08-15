@@ -173,10 +173,10 @@ var maximas = []Maxima{
 	},
 	{
 		Titulo: "El reloj de bolsillo",
-		Texto:  "imagínate que tenés un reloj, cierto? Yo por un lado conseguí armar la estructura del reloj, por el otro lado conseguí los engranajes, por el otro lado conseguí la piedra de escuarzo, por el otro lado conseguí las agujas, por el otro lado conseguí la tapita con los números. Es un reloj de bolsillo, también conseguí la cadenita y ahora ensamblé todo en estos dos teoremas para ver que el reloj realmente funciona. ¿Entendés? Esa es la respuesta.",
+		Texto:  "imagínate que tenés un reloj, cierto? Yo por un lado conseguí armar la estructura del reloj, por el otro lado conseguí los engranajes, por el otro lado conseguí la piedra de cuarzo, por el otro lado conseguí las agujas, por el otro lado conseguí la tapita con los números. Es un reloj de bolsillo, también conseguí la cadenita y ahora ensamblé todo en estos dos teoremas para ver que el reloj realmente funciona. ¿Entendés? Esa es la respuesta.",
 		Glosa:  "Su respuesta, por audio, a qué son los dos teoremas del laboratorio. Años de piezas conseguidas por separado — el cambiaformas, los lemas, las cotas, las auditorías, cada engranaje con su prueba — y el día que las ensambló en el Teorema de Astorga y el Teorema de DYN, el reloj dio la hora delante de todos: la campana sonó exactamente donde el plano decía. No es una metáfora del taller: es la definición del capitán de qué significa que un teorema esté terminado — que el reloj realmente funcione.",
 		Fuente: "docs/BITACORA-NOCTURNA.md · F325 (transcripción de su audio del 2026-08-15)",
 		Tipo:   "metafora",
-		Nota:   "Transcripto por él mismo de su nota de voz; el taller solo quitó las marcas de tiempo de la transcripción, que no son habla. «escuarzo» queda como lo dijo: la regla de esta sala es que lo suyo no se toca.",
+		Nota:   "Transcripto por él mismo de su nota de voz; el taller solo quitó las marcas de tiempo. La transcripción automática había escrito «escuarzo» y él mismo lo corrigió a «cuarzo»: la corrección del autor vale más que el error de la máquina, y queda anotada.",
 	},
 }
