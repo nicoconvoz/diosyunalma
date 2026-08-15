@@ -6549,6 +6549,18 @@ The captain's order: "the theorems are under-explained on the web — their proo
 
 ---
 
+## Finding 324 — THE BRIDGE'S TWO IMAGES: the metal detector and the cathedral bells — the captain's metaphors join the theorem classrooms
+
+The captain brought two images from the bridge so the classrooms read even easier, ordering them onto the web (the release stays as is).
+
+**Astorga = the mathematical metal detector:** a beach full of particles; the normal ones make a collective noise that grows slowly, the strange one emits an exponentially growing signal; it can try to hide by oscillating, but after a CALCULABLE number of steps the signal necessarily rises above the noise — and that moment is bounded using only two data: how far off the particle is, and its phase.
+
+**DYN = the defective bells in the cathedral:** each with its own rhythm; at first they can cancel each other, but the hands of their clocks keep finding moments of coincidence — and when all the off-key bells strike together the sound is enormous, grows exponentially, and the rest of the choir cannot keep up; shielding for a while yes, forever no — and the theorem computes a FINITE ceiling to find that beat.
+
+Added as a highlighted "La imagen para llevarse — del puente de mando" box in each classroom's What-does-it-say section (galeria/teorema-astorga.html, teorema-dyn.html), lightly polished.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
