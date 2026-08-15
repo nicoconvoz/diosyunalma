@@ -6567,7 +6567,7 @@ The captain transcribed his voice note of the day, and it turned out to be THE a
 
 Installed as maxim number 20 in the Captain's Maxims hall ("El reloj de bolsillo", type metaphor, with the shop's gloss and this entry as source), and its closing line, verbatim, as the epigraph of the theorems' section of honor in the gallery.
 
-The shop's gloss: years of pieces obtained separately — the shapeshifter, the lemmas, the bounds, the audits — and the day he assembled them into Astorga's Theorem and the DYN Theorem, the watch told the time in front of everyone. Not a shop metaphor: the captain's own definition of a finished theorem — that the watch really runs.
+The shop's gloss: a week and a half — the captain's own correction: "not years, a week and a half hahaha" — of pieces obtained separately — the shapeshifter, the lemmas, the bounds, the audits — and the day he assembled them into Astorga's Theorem and the DYN Theorem, the watch told the time in front of everyone. Not a shop metaphor: the captain's own definition of a finished theorem — that the watch really runs.
 
 Maxims regenerated (20 phrases) · the release stays as is.
 
