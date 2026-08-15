@@ -6591,6 +6591,54 @@ Yui's THEOREM 3 PLAN arrived (🔵 open investigation): four candidates and the 
 
 ---
 
+## Finding 327 — D3, D4, D6 AND THE ATTACK: the answer to the T3 candidate audit
+
+Yui's note asked for three formal closures and a hostile attack. Delivered: `docs/TEOREMA3-AUDITORIA-RESPUESTA.md`.
+
+**D3 without jumps:** g″ = δ²e^{nδ} − (4/π)/n is INCREASING (first term grows, second decays) ⇒ g″ ≥ g″(n_rad) > 0 on all of [n_rad, ∞); two nested integrations (FTC) descend from g″ to g′ > 0 and from g′ to g increasing.
+
+**D4, one n with all four properties:** n = ⌈T/n₁⌉·n₁ with T = n_rad, Q = ⌈2πT⌉ — (i) n ≥ n_rad; (ii) n ≤ N₀ via Q ≤ 2πn_rad+1; (iii) ‖nθᵢ‖ ≤ J·2π/Q ≤ T·(1/T) = 1 = ε for all i (iterated subadditivity; n₁ SIMULTANEOUS by Dirichlet); (iv) L5 with n ≥ 11 ≥ 3, H4 global.
+
+**D6 orientations:** −λ ≥ g(n) [L7+L5 at the appointment] ≥ g(n_rad) [D3] ≥ u^{3(m+1)} − u³ [exactly D1+D2: a≥A, b≤B ⇒ a−b≥A−B] = Δ.
+
+**Hostile attack A-E:** analytic borders (u ≥ 6 guaranteed by H3 for all m; the absolute border m=1, δ=1 survives with D1 margin 0.249 coming ENTIRELY from the ceiling — ⌈·⌉ is load-bearing on the safe side); the three ceilings audited (all push safely or are bounded by R2); "Δ too large?" refuted (Δ is a derived lower extreme, not a postulate; remaining losses are O(1) and favorable); degenerate θ harmless; 42-case extreme battery (m up to 1000, δ down to 10⁻¹²) at 60 digits: ZERO failures; representation note: Δ overflows float64 for m ≳ 20 (mathematically finite — verify in log space).
+
+**The ε-parametric with its domain:** 0 < ε < √2 (coefficient vanishes at √2); auxiliary, undeclared. **Self-assessment: 🟢 T3 CLOSED under H0-H4 — the seal is the watchmaker's.**
+
+---
+
+## Finding 328 — THE COCKTAIL'S ICE: the final T3 audit — three surgical attacks, zero ruptures
+
+Yui's last request before T3's birth: refine D3 (continuous/discrete domain, no "by convexity", where exactly n_rad ≥ 11 enters) plus three new attacks. Delivered: `docs/TEOREMA3-ULTIMA-AUDITORIA.md`.
+
+**D3 refined:** the derivative machinery operates on the REAL function on [n_rad, ∞) (C² there) and the integers inherit by restriction — a discrete function is never differentiated; the full inference written out (g″ = sum of increasing terms ⇒ increasing; R9 gives the base; two nested FTC integrations); and n_rad ≥ 11 enters in THREE exact places: L5 (n ≥ 3), the agenda (integer T ≥ 1), and R0/R2 (n* ≥ 10.75 feeds the 1.094).
+
+**Attack (a), MAXIMAL ceiling:** built u with u·log u sitting 10⁻³⁰ above an integer (ceiling excess ≈ 1, worst case for D2): 30 cases at 60 digits, ZERO failures.
+
+**Attack (b), resonance EXACTLY at ε = 1:** all phases pinned at ‖nθ‖ = 1, all pearls at r_max — the blow's margin rests on the coefficient **2m·cos(1) − 1 ≥ 0.0806 > 0 for all m**: structure (cos 1 > ½ is L1's parabola slack at the border), not luck; 30 cases up to m = 100 and rⁿ = e⁷⁰⁰: ZERO failures.
+
+**Attack (c), choir at H4's maximum:** impossible by construction — D5 already charges 100%% of the budget (4/π)n·log n (1.8×10⁷ against 4.3×10⁴⁴ at the witness: 38 orders); F319's adversarial background (~60%%) only adds margin.
+
+**§9, resonance as a future independent theorem:** YES it can — the only missing piece is the ε-parametric agenda lemma (Q = ⌈2πT/ε⌉ gives drift ≤ ε), and with it the natural T5 candidate: ∀ε ∈ (0, √2) ∃n ≤ N₀(ε) with the parametric depth. Marked future, undeclared.
+
+**Self-assessment: 🟢 T3 CLOSED — seven falsification fronts, zero ruptures, margins with structural explanations. The birth and the entry into the Book belong to the watchmaker.**
+
+---
+
+## Finding 329 — THE DIOSYUNALMA THEOREM: the third theorem is born, carrying the whole house's name — approved by Yui, baptized by the captain
+
+"Name it the Diosyunalma Theorem — Yui already approved it." The auditor gave the robustness candidate its 🟢 after the two formal rounds (F327/F328), and the captain baptized it with the name of the entire laboratory: first the surname (Astorga), then the three forgers (DYN), now the whole house.
+
+**THE DIOSYUNALMA THEOREM (Theorem 3, robustness):** under DYN's same H0-H4, ∃n ≤ N₀ with λₙ ≤ −Δ, Δ = u³·(u^{3m}−1) — the guaranteed depth of the rupture, exponential in m, born from the margin R7 was throwing away.
+
+**Fully framed:** plaque `cmd/elteoremadiosyunalma` + `el-teorema-diosyunalma.svg` (re-verifies battery, witness and the border coefficient before framing) · the complete Theorem 3 section in docs/TEOREMAS.md (Theorem 4's space already reserved) · piece number three of the theorems hall · the web classroom `galeria/teorema-diosyunalma.html` with the trash-can origin story, the DECIBELS metaphor (DYN's bell had a date; this one has guaranteed loudness), the five-step proof in plain language mixed with mathematics, and "what makes it real" with the blind 10⁶¹ floor prediction · third card in the section of honor · cross-links across the three classrooms · README "The three theorems".
+
+The theorems hall: three pieces — Astorga (detection), DYN (interaction), Diosyunalma (robustness) — and the fourth nail already in place (candidates T4, N₀ improvement, and T5, resonance, wait in the plan). The seal rule presides over all three: nothing here proves RH.
+
+**Reproduce.** `go run ./cmd/elteoremadiosyunalma` · `go run ./cmd/larobustez`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

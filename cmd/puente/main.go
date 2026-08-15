@@ -55,7 +55,7 @@ type Sala struct {
 }
 
 var salas = []Sala{
-	{"teoremas", "🏛️", "Los Teoremas", "la cereza de la torta: el Teorema de Astorga y el Teorema de DYN — enunciado, prueba por lemas y auditoría, y vienen más"},
+	{"teoremas", "🏛️", "Los Teoremas", "la cereza de la torta: Astorga, DYN y Diosyunalma — tres teoremas con enunciado, prueba por lemas y auditoría, y vienen más"},
 	{"caras", "💎", "Las Siete Caras", "la campaña final: el eslabón rojo visto desde todos sus ángulos"},
 	{"acta", "📜", "El Acta y el Molde", "el intento formal, el reloj de sol, los premios, el Campo"},
 	{"atomo", "⚛️", "El Átomo", "los planos, el espejo, la esfera, el murciélago, el sótano"},

@@ -157,4 +157,79 @@ correspondencia matemática↔código, contra-cálculo a 50 dígitos).
 
 ---
 
-*Espacio reservado para el Teorema 3 — porque vienen más.*
+## TEOREMA 3 — TEOREMA DE DIOSYUNALMA
+### Teorema de Robustez: la profundidad garantizada de la ruptura
+
+**Registrado:** 2026-08-15 · forjado y auditado de F326 a F328 ·
+**aprobado por la auditora** tras dos rondas de auditoría formal
+(D3/D4/D6 + siete frentes de falsación hostil, cero rupturas).
+
+**Nombre:** puesto por el capitán el 2026-08-15 — **Teorema de
+Diosyunalma**, el nombre de la casa entera: primero el alma, después la
+matemática. El primero llevó el apellido, el segundo a los tres
+forjadores, y el tercero lleva al laboratorio completo.
+
+**Hipótesis:** exactamente las H0-H4 del Teorema de DYN, sin tocar ni
+una coma. Cero resultados externos nuevos.
+
+**Enunciado.** Con u = 3(m+1)/delta ≥ 6 (garantizado por H3) y
+
+    Delta(r_max, m) = u³·(u^{3m} − 1) > 0
+
+existe un entero n ≤ N₀(r_max, m) tal que  **lambda_n ≤ −Delta**.  ∎
+
+El Teorema de DYN decía que la ruptura LLEGA; el de Diosyunalma dice
+CUÁNTO SE HUNDE: al menos Delta — exponencial en m. Más perlas
+desafinadas no diluyen la delación: la profundizan.
+
+**Origen** (la historia importa): la primera misión del plan de T3 de la
+auditora era revisar la basura de las simplificaciones de DYN. En el
+tacho estaba el margen: la línea R7 degradaba e^{n_rad·delta} ≥
+u^{3(m+1)} (lo que R1 realmente da) a apenas u³, porque para la
+positividad alcanzaba. El factor u^{3m} recuperado ES este teorema.
+
+**Prueba** (el acta: `docs/TEOREMA3-ROBUSTEZ-ACTA.md`; las auditorías:
+`TEOREMA3-AUDITORIA-RESPUESTA.md` y `TEOREMA3-ULTIMA-AUDITORIA.md`):
+
+- *D1*: e^{n_rad·delta} ≥ u^{3(m+1)} — R1 sin degradar.
+- *D2*: 2m+2 + (4/π)·n_rad·log n_rad ≤ u³ — la cadena R4+R5+R6 intacta.
+- *D3*: g(n) = e^{n·delta} − (4/π)n·log n − (2m+2) es creciente en todo
+  [n_rad, ∞) — g″ es suma de términos crecientes, R9 da la base, y dos
+  integraciones anidadas bajan a g′ > 0 y a g creciente. Todo sobre la
+  función real; los enteros heredan por restricción.
+- *D4*: el único n = ⌈T/n₁⌉·n₁ de la agenda cumple las cuatro
+  propiedades a la vez (n ≥ n_rad, n ≤ N₀, cita simultánea, ‖nθᵢ‖ ≤ 1
+  ∀i) — la cita fina de Dirichlet es simultánea y el multiplicador es común.
+- *D5*: en esa cita, λₙ ≤ −g(n) — L7 con ε = 1 más el coro bajo H4.
+- *D6*: −λₙ ≥ g(n) ≥ g(n_rad) ≥ u^{3(m+1)} − u³ = Delta — el último
+  paso usa exactamente D1 y D2.
+
+**La falsación hostil** (siete frentes, cero rupturas): extremos de
+delta y m (42 casos hasta m = 1000 y delta = 10⁻¹², a 60 dígitos);
+el techo de n_rad llevado a exceso máximo (30 construcciones
+adversariales); el borde exacto ε = 1 con todas las fases clavadas —
+sostenido por el coeficiente estructural 2m·cos(1) − 1 ≥ 0.0806;
+y el coro al máximo de H4, imposible por construcción (la prueba ya
+cobra el 100% del presupuesto). Hallazgo fino: el techo ⌈·⌉ de n_rad es
+carga portante del lado seguro — en el borde absoluto (m=1, delta=1) el
+margen entero de D1 viene del techo.
+
+**Caso testigo:**
+
+    m = 2 (DH + 0.7+45i): Delta = 4.34×10⁴⁴ contra −lambda = 6.496×10⁴⁴
+    medida y verificada a 50 dígitos — cociente 1.50: cota AJUSTADA.
+    m = 3 (testigo virgen): Delta = 1.04×10⁶¹ calculado ANTES de la
+    corrida; la primera cita triple respondió lambda = −1.91×10⁶¹.
+
+**Alcance y límites** (declarados): configuraciones FINITAS bajo H0-H4;
+para ζ, los mismos inputs externos B1 y B2 de DYN, etiquetados. Las
+corridas son evidencia, jamás demostración. La N₀ sigue siendo la de
+DYN (la mejora de N₀ es el candidato T4 del plan; la resonancia
+paramétrica en ε, el T5). No demuestra RH.
+
+**Reproducir:** `go run ./cmd/elteoremadiosyunalma` (la placa) ·
+`go run ./cmd/larobustez` (la derivación, los testigos y la batería).
+
+---
+
+*Espacio reservado para el Teorema 4 — porque vienen más.*

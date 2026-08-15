@@ -3,11 +3,11 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 154 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 282 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 156 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 284 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
-### 🏛️ The two theorems
+### 🏛️ The three theorems
 
 The laboratory's sealed results, framed with their plaques at the top of the
 gallery and in the museum's opening hall ([docs/TEOREMAS.md](docs/TEOREMAS.md)):
@@ -18,9 +18,14 @@ gallery and in the museum's opening hall ([docs/TEOREMAS.md](docs/TEOREMAS.md)):
   shield each other forever; under the declared hypotheses H0–H4 some
   `n ≤ N₀(r_max, m) = n_rad,m + (2π·n_rad,m + 1)^m` has `λₙ < 0`. Named for its
   three forgers — **D** for Doc, **Y** for Yui, **N** for Nico.
+- **The Diosyunalma Theorem** — the Robustness Theorem: the rupture is not a
+  graze but a guaranteed plunge — some `n ≤ N₀` has `λₙ ≤ −Δ` with
+  `Δ = u³·(u^{3m} − 1)`, exponential in m. Born from a margin a simplification
+  had thrown away, recovered on the auditor's orders and named after the whole
+  laboratory.
 
-Both carry their full lemma chains, audited acts, and executable end-to-end
-verification runs. Neither is a proof of RH, and both say so on their plaques.
+All three carry their full lemma chains, audited acts, and executable
+verification runs. None is a proof of RH, and each says so on its plaque.
 
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
 
@@ -43,8 +48,8 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **322 numbered
-findings** (334 entries counting the lettered sub-findings)
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **329 numbered
+findings** (341 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -58,19 +63,17 @@ proofs, explicit constants and saved data at every step. Three errors of the
 laboratory's and three of the audit drafts' were caught and corrected, all in
 the open, the breakage theorem's *structure* was signed closed, and the cycle
 produced the laboratory's first named theorem. The cycle then continued
-(findings 307–322) and forged a second one: the theorems hall now holds
-**Astorga's Theorem** (quantitative finite detection of an off-line zero,
-with an explicit bound N₀(r,θ)) and **the DYN Theorem** (the Interaction
-Theorem: m off-line quartets cannot shield each other forever — named for
-its three forgers, D for Doc, Y for Yui, N for Nico), both with audited
-lemma chains, executable end-to-end verification runs and a 50-digit
-independent counter-calculation — see [docs/TEOREMAS.md](docs/TEOREMAS.md). The seal rule adopted from that cycle
+(findings 307–329) and forged two more: the theorems hall now holds
+**Astorga's Theorem** (finite detection), **the DYN Theorem** (interaction)
+and **the Diosyunalma Theorem** (robustness), each with audited lemma
+chains, executable verification runs and 50-digit independent
+counter-calculations — see [docs/TEOREMAS.md](docs/TEOREMAS.md). The seal rule adopted from that cycle
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **250 reproducible experiments** under `cmd/`, **154
+The laboratory today: **252 reproducible experiments** under `cmd/`, **156
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[282-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[284-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
