@@ -82,12 +82,12 @@ Medido el 2026-08-11:
 
 | qué | cuánto |
 |-----|--------|
-| hallazgos numerados en `FINDINGS.md` | **302** |
-| secciones, contando las sub-numeradas con letra (140b, 220f…) | **314** |
-| experimentos ejecutables en `cmd/` | **241** |
-| láminas en `galeria/laminas/` | **144** |
+| hallazgos numerados en `FINDINGS.md` | **306** |
+| secciones, contando las sub-numeradas con letra (140b, 220f…) | **318** |
+| experimentos ejecutables en `cmd/` | **244** |
+| láminas en `galeria/laminas/` | **147** |
 | sonidos en `galeria/sonidos/` | **8** |
-| paradas del museo | **272** |
+| paradas del museo | **275** |
 | máximas del capitán, verificadas una por una | **19** |
 
 Para contarlos:
@@ -324,9 +324,9 @@ go run ./cmd/puente                      # el puente de mando, localhost:8118
 go run ./cmd/puente -museo galeria/museo.html   # regenera museo Y máximas
 ```
 
-- **`galeria/index.html`** — las 144 láminas. Cada una la dibuja su propio
+- **`galeria/index.html`** — las 147 láminas. Cada una la dibuja su propio
   experimento: corra el comando y compare el SVG.
-- **`galeria/museo.html`** — 272 paradas en criollo. Cada pieza cierra con su
+- **`galeria/museo.html`** — 275 paradas en criollo. Cada pieza cierra con su
   bloque de límites honestos. Se genera desde `cmd/puente/museo.go`, así que el
   museo y el registro no se pueden desincronizar.
 - **`galeria/maximas.html`** — 19 frases del autor. **Cada una lleva su archivo y

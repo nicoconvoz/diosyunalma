@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 144 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 272 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 147 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 275 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -28,26 +28,29 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **302 numbered
-findings** (314 entries counting the lettered sub-findings)
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **306 numbered
+findings** (318 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
 its own work, such as the nine occasions a perfect `0.0e+00` turned out to come
 from the construction instead of from a discovery.
 
-The record now includes a complete **external audit cycle** (findings 293–302):
-eight independent audit documents reviewed the laboratory's central
+The record now includes a complete **external audit cycle** (findings 293–306):
+ten independent audit documents reviewed the laboratory's central
 construction — a matrix reformulation of Li's criterion — demanding written
-proofs, explicit constants and saved data at every step. Two errors of the
-laboratory's and two of the audit drafts' were caught and corrected, all in the
-open, and the breakage theorem's *structure* was signed closed. The seal rule
-adopted from that cycle stands over all of this work: **"structure closed" is
-not "hypothesis proven"** — no claim of a proof of RH is made here.
+proofs, explicit constants and saved data at every step. Three errors of the
+laboratory's and three of the audit drafts' were caught and corrected, all in
+the open, the breakage theorem's *structure* was signed closed, and the cycle
+produced the laboratory's **first named theorem** (quantitative finite
+detection of an off-line zero, with an explicit bound N₀(r,θ) — see
+[docs/TEOREMAS.md](docs/TEOREMAS.md)). The seal rule adopted from that cycle
+stands over all of this work: **"structure closed" is not "hypothesis
+proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **241 reproducible experiments** under `cmd/`, **144
+The laboratory today: **244 reproducible experiments** under `cmd/`, **147
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[272-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[275-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.

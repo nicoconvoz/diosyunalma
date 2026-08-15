@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🎯 LA DETECCIÓN FINITA — el próximo teorema, construido</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">la hoja de ruta pedía tres niveles: A cerrado por composición · B cerrado con N₀ explícita y dos lemas nuevos · C rojo, intacto</text>
+<rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">NIVEL A + LOS DOS LEMAS NUEVOS</text>
+<text x="90" y="180" font-size="13" font-family="Georgia" fill="#cfe6ff">A · n ∈ S y rⁿ &gt; 4 + (4/π)n·log n ⟹ λₙ &lt; 0 — composición de lo sellado ∎</text>
+<text x="90" y="216" font-size="13" font-family="Georgia" fill="#ffd98a">LEMA DE LA VENTANA: un paso de tamaño θ no puede saltar un arco de 2π/3</text>
+<text x="90" y="240" font-size="12.5" font-family="Georgia" fill="#cfe6ff">⟹ toda ventana de ⌈2π/θ⌉+1 enteros toca S · automático para ζ (|θ| ≤ π/2)</text>
+<text x="90" y="268" font-size="12.5" font-family="monospace" fill="#7ee0c0">medido: K = 540 contra gap máximo real 360 ✅</text>
+<text x="90" y="304" font-size="13" font-family="Georgia" fill="#ffd98a">LEMA RADIAL: n_rad = ⌈(3/δ)·log(3/δ)⌉ vale para TODO n ≥ n_rad</text>
+<text x="90" y="328" font-size="12.5" font-family="Georgia" fill="#cfe6ff">se reduce al lemita u² ≥ 3(log u)² + 2 (cierto en 3: 9 ≥ 5.62, creciente)</text>
+<text x="90" y="356" font-size="12.5" font-family="monospace" fill="#7ee0c0">n_rad(DH) = 798210 · verificada en n_rad, +1, +5×10⁴, ×2 ✅</text>
+<text x="90" y="392" font-size="12.5" font-family="Georgia" fill="#9aa8c4">alcance: un cuarteto desafinado sobre fondo en la línea — el de la cadena sellada</text>
+<rect x="720" y="110" width="620" height="310" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">EL TEOREMA — Y LA ESCALERA DE GARANTÍAS</text>
+<text x="750" y="184" font-size="15" font-family="monospace" fill="#ffd98a">N₀(r,θ) = ⌈(3/δ)log(3/δ)⌉ + ⌈2π/θ⌉ + 1</text>
+<text x="750" y="214" font-size="13.5" font-family="Georgia" fill="#cfe6ff">algún n ≤ N₀ cumple las dos condiciones ⟹ λₙ &lt; 0 ⟹ M no es PSD ∎</text>
+<text x="750" y="252" font-size="14" font-family="monospace" fill="#ffd98a">N₀(par DH) = 798750 — explícita, cerrada, finita</text>
+<text x="750" y="292" font-size="13" font-family="Georgia" fill="#cfe6ff">la escalera, separada como ordenó el §10:</text>
+<text x="750" y="320" font-size="13" font-family="monospace" fill="#7ee0c0">n₀ medido 85622 &lt; n₁ cota pura 371842 &lt; N₀ cerrada 798750</text>
+<text x="750" y="348" font-size="12.5" font-family="Georgia" fill="#cfe6ff">cada una más conservadora, todas finitas — experimento ≠ cota ≠ fórmula</text>
+<text x="750" y="384" font-size="12.5" font-family="Georgia" fill="#9aa8c4">⚖️ ronda tres recíproca: su «371908» recalculado con su r y el nuestro: 371842</text>
+<text x="750" y="406" font-size="12.5" font-family="Georgia" fill="#9aa8c4">las dos veces — los 66 escalones se devuelven con cariño</text>
+<rect x="60" y="450" width="1280" height="130" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="700" y="482" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">EL NIVEL C — LO QUE ESTE TEOREMA NO ES</text>
+<text x="700" y="514" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la hoja lo ordena y el taller obedece: no confundir los niveles A y B con el problema mayor</text>
+<text x="700" y="542" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">¿por qué la aritmética de los primos fuerza M ⪰ 0? — el eslabón rojo, intacto, 74 años</text>
+<text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">regla del sello visible: esto es estructura cerrada y un teorema de detección — no una demostración de RH</text>
+<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Los nueve pasos del plan: 1-6 ejecutados · 7 en las corridas de 150 bits · 8 futuro · 9 formulado — para la próxima auditoría.</text>
+<text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Una simulación descubre; una identidad explica; una demostración cierra todos los pasos — especialmente los infinitos.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

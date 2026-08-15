@@ -55,6 +55,7 @@ type Sala struct {
 }
 
 var salas = []Sala{
+	{"teoremas", "🏛️", "Los Teoremas", "el sector de los resultados sellados: enunciado, prueba por lemas y auditoría — y vienen más"},
 	{"caras", "💎", "Las Siete Caras", "la campaña final: el eslabón rojo visto desde todos sus ángulos"},
 	{"acta", "📜", "El Acta y el Molde", "el intento formal, el reloj de sol, los premios, el Campo"},
 	{"atomo", "⚛️", "El Átomo", "los planos, el espejo, la esfera, el murciélago, el sótano"},

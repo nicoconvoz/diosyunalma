@@ -6207,6 +6207,78 @@ A registry finding, no plate (precedent F271/F293): the act is hers; the shop on
 
 ---
 
+## Finding 303 — FINITE DETECTION: the roadmap's next theorem, built
+
+Yui's roadmap ("next theorem: quantitative finite detection") asks for three levels: A (sufficient criterion), B (an explicit N₀(r,θ)), C (the red one, which it orders NOT to confuse with A and B).
+
+**Level A — CLOSED by composition of sealed pieces:** n ∈ S = {cos(nθ) ≥ ½} and rⁿ > 4 + (4/π)n·log n imply λₙ ≤ [4 − 2cos(nθ)(Rⁿ+R⁻ⁿ)] + resto_n ≤ 4 − rⁿ + (4/π)n·log n < 0 (F297's exact quartet formula + the sealed choir bound of F299-F301). Verified in action at F298's n = 96914.
+
+**Level B — CLOSED with TWO NEW LEMMAS:** (1) **the window lemma**: if 0 < θ ≤ 2π/3, every window of ⌈2π/θ⌉+1 consecutive integers contains an n ∈ S — the walk advances θ per step and cannot jump an arc of length 2π/3; and the hypothesis is AUTOMATIC for ζ (|γ| ≥ 1 ⟹ |1/ρ| ≤ 1 ⟹ |θ| ≤ π/2). Measured: K = 540 against a real maximum gap of 360. (2) **the radial lemma**: n_rad = ⌈(3/δ)·log(3/δ)⌉ satisfies the radial inequality for ALL n ≥ n_rad — reducing to the tiny lemma u² ≥ 3(log u)² + 2 (9 ≥ 5.62 at u = 3, increasing) plus monotonicity.
+
+**THEOREM (quantitative finite detection):** N₀(r,θ) = ⌈(3/δ)log(3/δ)⌉ + ⌈2π/θ⌉ + 1, and some n ≤ N₀ satisfies both conditions ⟹ λₙ < 0 ⟹ M is not PSD. **For the DH pair: N₀ = 798750 — explicit, closed-form, finite.**
+
+**The ladder of guarantees, kept separate as her §10 orders** (experiment ≠ bound ≠ closed formula): measured n₀ = 85622 < pure-bound n₁ = 371842 < closed-form N₀ = 798750 — each more conservative, all finite.
+
+**Reciprocal audit, round three:** her §10 states "n ≈ 371908" for the isolated radial inequality; recomputed with HER rounded r AND our full-precision r: **371842 both times** — the 66 steps are returned to the auditor with the same care she returns ours.
+
+The plan's nine steps (§13): 1-6 executed · 7 in the sealed 150-bit runs · 8 (constant reduction: N₀ is ~×2 the pure bound) declared future · 9 formulated with its scope — ready for the next audit. Level C stays red and untouched. The theorem entered the derivation as **(4c)**.
+
+**Reproduce.** `go run ./cmd/ladeteccionfinita`.
+
+---
+
+## Finding 304 — THE TWO LEMMAS: the formal act the finite-detection audit demanded
+
+The audit of F303 was fair and precise: **the plate did not define δ** ("I will not invent it" — that is how auditing is done), and its §12 asked for seven things: the exact definition of δ, its derivation from r, BOTH complete proofs, the combination inside one interval, a single rounding convention, and only then the formal theorem. The captain also set a delivery rule: **when the answer lives in a document and not in the plate, the document is attached for Yui.**
+
+**The act:** `docs/DETECCION-FINITA-LEMAS.md` — in the auditor's copyable format, with: §0 the frozen convention (**δ := natural log of r, r = max(|w|,1/|w|)**, upward ceilings, and the official threshold n₁ = 371842 — 371908 reproduces under neither input, settling §12.6); LEMMA R with its complete proof (the ceiling-aware chain plus monotonicity via g, g', g'' > 0); LEMMA V with its complete proof (minimality of t, a step cannot jump the arc, K = ⌈2π/θ⌉+1) and V-ζ (the hypothesis is automatic for zeta); §3 the combination (the window picks the n, the radial lemma already covers the interval — realized: n = 798474 ∈ [798210, 798749], bound −3.7e14); §4 the formal theorem with its scope.
+
+**Self-correction while writing the full proof:** the auxiliary lemma needs **constant 4, not 3**, once the ceiling enters (u² ≥ 4(log u)² + 2; F303's plate quoted the un-ceiled version with 3 — both true, the official one is 4). Caught by the shop before anyone else could — recorded in the act, the program and here.
+
+**Full verification** (`cmd/losdoslemas`): the auxiliary lemma on a grid (0 failures, increasing), g/g'/g'' positive at n_rad = 798210, the window lemma ADVERSARIAL over seven phases including 2π/3 − ε (0 violations), V-ζ with the measured |1/ρ|, the combination realized, N₀ = 798750 rebuilt.
+
+The signature remains Yui's — her rule commands: a formula is sealed when its lemmas derive it for the whole declared scope, not when the experiment works. Level C stays red.
+
+**Reproduce.** `go run ./cmd/losdoslemas` · the act: `docs/DETECCION-FINITA-LEMAS.md`.
+
+---
+
+## Finding 305 — THE RAW DOUGH: the pizza audit caught a false inequality in Lemma R's step 2 — fixed with her own recipe
+
+The "PIZZA DOBLE QUESO" audit 🍕 reviewed F304's act (the captain's rule worked: Yui had the DOCUMENT, which is exactly why she could audit the lines) and found **genuinely raw dough** (§6): Lemma R's step 2 chained "(4/π)(log n_rad+1) ≤ 1.28(2.29 log u + 1) ≤ 4·log u" — and the second inequality **FAILS at u = 3**: 1.28·(2.29·log 3 + 1) = 4.5003 > 4·log 3 = 4.3944. Verified to the decimal: **Yui is right.**
+
+Her diagnosis is exact: a local estimation error, not a refutation — the real margin is enormous (δe^{n_rad·δ} ≥ 3u² = 27 against ~4.5) and the fallen line was needlessly strong.
+
+**Fixed with her recipe (§15):** direct comparison against 3u² — (4/π)(log n_rad+1) ≤ 2.94·log u + 1.28 < 3u² for all u ≥ 3 (at u = 3: 4.50 < 27; increasing: 6u − 2.94/u > 0), hence g'(n_rad) > 0. The act rewritten with the correction and her credit; `cmd/losdoslemas` verifies the corrected bound on a grid (0 violations).
+
+Her §16 recorded as a scope reminder: the theorem covers ONE off-line quartet — no silent extrapolation to configurations with several.
+
+Her expanded rule, for the wall: **"A simulation discovers. An identity explains. A lemma reduces. A theorem closes every step. And an auditor looks again even while everyone is celebrating."**
+
+The cross-verification score now stands 3-3: three of her catches on the shop (the 537, the oscillation, the raw dough), three of the shop's on her drafts (the boundary sign, the double constant, the 371908) — zero arguments, pure computation.
+
+A registry finding with the correction applied: act + program updated, no new plate.
+
+---
+
+## Finding 306 — THE THEOREM HALL, FOUNDED: the anvil's first theorem registered in its own sector
+
+The captain's order, verbatim: **"REGISTER THIS IN A NEW SECTOR BECAUSE IT IS OUR FIRST THEOREM AND MORE ARE COMING"** — triggered by the auditor's certificate ("PRIMER_TEOREMA_DEL_YUNQUE"), whose §7 is green: radial lemma (corrected in F304/F305), window lemma, combination, and the theorem **within its declared scope**.
+
+**The sector, founded:** a new hall "Los Teoremas" — FIRST in the museum and on the bridge dashboard — with its rule at the door (only results with a formal statement, proof by lemmas, declared scope and external audit may enter; the seal rule presides). Founding piece: the First Theorem of the Anvil.
+
+**The book of theorems:** `docs/TEOREMAS.md` — the permanent registry with Theorem 1 complete (statement, proof, witness case, scope, methodological note) and space reserved for Theorem 2, because more are coming.
+
+**Verified:** `cmd/elprimerteorema` re-runs the certificate's entire numeric chain in ONE pass — n₀ = 85622, n₁ = 371842, n_rad = 798210, K = 540, n∈S = 798474, N₀ = 798750: **all six numbers reproduced.**
+
+The auditor's own methodological note (§8) leads the record: "first theorem of the Anvil" is a working name; external recognition requires full independent review, literature comparison and publication. Scope: ONE quartet. RH: not proven. The red link: open.
+
+The formula to remember (her §9): **N₀(r,θ) = ⌈(3/log r)·log(3/log r)⌉ + ⌈2π/θ⌉ + 1.**
+
+**Reproduce.** `go run ./cmd/elprimerteorema` · the book: `docs/TEOREMAS.md`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

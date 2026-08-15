@@ -334,3 +334,32 @@ auditoría):
   371842** — ruptura garantizada por cota pura, sin numérica. El n₀ =
   85622 medido rompe antes, como corresponde a una cota conservadora.
 - **F.** Marcar este parágrafo en verde es decisión de la auditora.
+
+**(4c) TEOREMA DE DETECCIÓN FINITA CUANTITATIVA** (F303, `cmd/ladeteccionfinita`,
+el objetivo de la hoja de ruta «próximo teorema»):
+
+*Hipótesis:* espectro = ceros en la línea + UN cuarteto desafinado de
+radio r > 1 y fase theta con 0 < theta ≤ 2π/3 — hipótesis automática para
+zeta: todo cero con |gamma| ≥ 1 tiene |1/rho| ≤ 1, luego |theta| ≤ π/2.
+
+*Nivel A (criterio suficiente):* si n ∈ S = {cos(n·theta) ≥ 1/2} y
+r^n > 4 + (4/π)·n·log n, entonces lambda_n < 0 (composición: fórmula
+exacta del cuarteto de 4b + cota sellada del coro de 4b-quater).
+
+*Lema de la ventana:* toda ventana de ceil(2π/theta) + 1 enteros
+consecutivos contiene un elemento de S — el paseo n·theta avanza theta
+por paso y el arco {cos ≥ ½} mide 2π/3 ≥ theta: un paso no puede
+saltarlo; la ventana cubre una vuelta entera. ∎
+
+*Lema radial:* con delta = log r y u = 3/delta ≥ 3,
+n_rad = ceil(u·log u) cumple la desigualdad radial para TODO n ≥ n_rad
+(se reduce a u² ≥ 3(log u)² + 2, cierto en u = 3 y creciente, más la
+monotonía de g(n) = r^n − 4 − (4/π)n·log n). ∎
+
+*Teorema:*  N₀(r, theta) = ceil((3/delta)·log(3/delta)) + ceil(2π/theta) + 1
+y existe n ≤ N₀ con ambas condiciones ⟹ lambda_n < 0 ⟹ M_N no es PSD
+para N ≥ n. ∎
+
+*Para el par DH real:* N₀ = 798750. La escalera de garantías, separada
+como ordena la hoja (§10): n₀ medido 85622 < n₁ cota pura 371842 <
+N₀ fórmula cerrada 798750. Mejora de constantes: trabajo futuro (§13.8).
