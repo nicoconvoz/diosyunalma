@@ -232,4 +232,53 @@ paramétrica en ε, el T5). No demuestra RH.
 
 ---
 
+## TEOREMA DERIVADO — EL RÍO DE POZOS
+### Corolario de DYN + Diosyunalma: el río infinito de rupturas programables
+
+**Registrado:** 2026-08-15 · F330 (el flash y la traducción) · F331 (la
+inducción formal y el ataque) · **aprobado completamente por la
+auditora**.
+
+**Autoría** (conservada por pedido expreso de la auditora): la idea
+conceptual — el mapa del claro, el río y el pozo, y la pregunta «¿puede
+haber un claro por donde pase el río, y debajo un pozo que podamos
+predecir?» — **es de Nico**. Doc realizó la traducción y formalización
+matemática.
+
+**Enunciado.** Bajo las H0-H4 de DYN (sin tocar), existe una sucesión
+infinita de citas n₁ < n₂ < n₃ < … en el claro [n_rad, ∞) tal que
+
+    lambda_{n_k} ≤ −g(n_k)  para todo k,
+    g(n₁) < g(n₂) < g(n₃) < …  y  g(n_k) → ∞.
+
+La ruptura no es un evento: es un río de rupturas, cada una con fecha
+programable, cota de paso escrita y piso predicho más hondo que el
+anterior. ∎
+
+**Prueba** (cero maquinaria nueva — acta:
+`docs/TEOREMA3-COROLARIO-RIO.md` + auditoría
+`TEOREMA3-COROLARIO-RIO-AUDITORIA.md`): inducción I1-I4 — base: D4 con
+T₁ = n_rad da n₁; paso: T_{k+1} = n_k + 1 cumple las dos únicas
+condiciones que D4 exige de T (entero, ≥ 1) y produce n_{k+1} > n_k;
+las hipótesis son de la configuración (invariantes en k) y las de D5
+mejoran con k. D5 da el pozo en cada cita; D3 da la monotonía estricta
+de los pisos; el exponencial da la divergencia.
+
+**«Programable», con receta:** T := n_k + 1 · Q := ⌈2πT⌉ · n₁' de
+Dirichlet · n_{k+1} := ⌈T/n₁'⌉·n₁' — con cota de paso explícita
+n_{k+1} ≤ (n_k + 1) + ⌈2π(n_k + 1)⌉^m.
+
+**Evidencia** (testigo m = 2): 435 citas en la ventana de 3000 escalones
+tras n_rad — cero violaciones de λ ≤ −g, cero pisos no-crecientes;
+brecha real media ≈ 7 contra la cota de paso ~10¹³.
+
+**Delimitación de la novedad** (regla de la auditora): la infinitud de
+λ negativos ya se conocía por la vía del teorema de ruptura global; lo
+nuevo es la construcción EXPLÍCITA — citas programables con fecha, cota
+de paso y profundidad predicha, las tres.
+
+**Reproducir:** `go run ./cmd/elriodepozos`.
+
+---
+
 *Espacio reservado para el Teorema 4 — porque vienen más.*

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<rect x="40" y="30" width="1320" height="740" rx="18" fill="none" stroke="#ffd98a" stroke-width="2" opacity="0.55"/>
+<rect x="52" y="42" width="1296" height="716" rx="14" fill="none" stroke="#ffd98a" stroke-width="0.8" opacity="0.35"/>
+<text x="700" y="92" font-size="17" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">LABORATORIO DIOSYUNALMA · SECTOR DE LOS TEOREMAS · PIEZA N.º 4 · TEOREMA DERIVADO</text>
+<text x="700" y="140" font-size="31" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🌊 EL RÍO DE POZOS</text>
+<text x="700" y="172" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Teorema Derivado de DYN + Diosyunalma · la idea nació de Nico — el claro, el río y los pozos predichos</text>
+<text x="700" y="220" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Mismas hipótesis H0-H4 · cero maquinaria nueva: la agenda iterada por inducción (I1-I4) + la profundidad de Diosyunalma (D3, D5)</text>
+<rect x="180" y="248" width="1040" height="80" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="282" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">∃ n₁ &lt; n₂ &lt; n₃ &lt; … (infinitas citas en el claro [n_rad, ∞)) :</text>
+<text x="700" y="312" font-size="19" text-anchor="middle" font-family="monospace" fill="#ffd98a">λ_{n_k} ≤ −g(n_k) · g(n₁) &lt; g(n₂) &lt; … → ∞ ∎</text>
+<text x="700" y="360" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">La ruptura no es un evento: es un RÍO de rupturas — cada pozo con fecha programable, cota de paso escrita y piso predicho más hondo que el anterior.</text>
+<text x="700" y="388" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Receta del paso: T := n_k+1 · Q := ⌈2πT⌉ · n₁' de Dirichlet · n_{k+1} := ⌈T/n₁'⌉·n₁' — con cota n_{k+1} ≤ (n_k+1) + ⌈2π(n_k+1)⌉^m</text>
+<rect x="90" y="420" width="600" height="165" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="390" y="450" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL RÍO, MEDIDO (testigo m = 2)</text>
+<text x="120" y="480" font-size="13" font-family="monospace" fill="#cfe6ff">435 citas en 3000 escalones tras n_rad = 1040809</text>
+<text x="120" y="508" font-size="13" font-family="monospace" fill="#cfe6ff">violaciones de λ ≤ −g(n_k): 0 · pisos no-crecientes: 0</text>
+<text x="120" y="536" font-size="13" font-family="monospace" fill="#ffd98a">pozo 1: −6.50×10⁴⁴ → pozo 12: −7.70×10⁴⁴ (hundiéndose)</text>
+<text x="120" y="564" font-size="12.5" font-family="Georgia" fill="#9aa8c4">brecha real media ≈ 7 contra cota de paso ~10¹³ — evidencia</text>
+<rect x="710" y="420" width="600" height="165" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1010" y="450" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LA PRUEBA Y LA AUDITORÍA (F330-F331)</text>
+<text x="740" y="480" font-size="12.5" font-family="Georgia" fill="#cfe6ff">inducción I1-I4: base en n_rad; paso T_{k+1} = n_k + 1 con las dos únicas</text>
+<text x="740" y="504" font-size="12.5" font-family="Georgia" fill="#cfe6ff">condiciones de D4 re-verificadas; hipótesis invariantes en k; D5 en cada</text>
+<text x="740" y="528" font-size="12.5" font-family="Georgia" fill="#cfe6ff">cita; monotonía estricta por D3 — y el ataque hostil de seis frentes</text>
+<text x="740" y="552" font-size="12.5" font-family="Georgia" fill="#cfe6ff">(agotamiento, circularidad, pérdida de hipótesis…) sin ruptura</text>
+<text x="740" y="578" font-size="13" font-family="Georgia" fill="#ffd98a">aprobado COMPLETAMENTE por la auditora ✅</text>
+<text x="700" y="628" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">En criollo: el niño ya sabe las tres cosas — dónde está el claro, que el río nunca deja de pasar,</text>
+<text x="700" y="650" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">y cuánto mide cada pozo antes de asomarse. Y los pozos, río abajo, son cada vez más hondos.</text>
+<text x="700" y="682" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Derivado: la infinitud de λ negativos ya se conocía por otra vía — lo nuevo es la construcción explícita: fecha, cota de paso y profundidad, las tres predichas.</text>
+<text x="700" y="708" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">La idea nació del capitán — el mapa del claro, el río y el pozo — y la regla del sello preside: nada de esto demuestra RH.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

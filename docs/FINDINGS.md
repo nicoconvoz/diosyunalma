@@ -6639,6 +6639,48 @@ The theorems hall: three pieces — Astorga (detection), DYN (interaction), Dios
 
 ---
 
+## Finding 330 — THE RIVER OF WELLS: the captain's flash uniting the three theorems — clearing, river and well, in one corollary
+
+The story-map (from the captain's talk with Yui): THE CLEARING = Astorga (the child enters the forest and the apparent chaos had hidden order) · THE RIVER = DYN (the water changes ceaselessly yet remains the same river) · THE WELL = Diosyunalma (observe, compute, predict the depth before arriving — and the well is there). And the captain's flash-question: "can there be a clearing where the river passes, and under the river a well we can predict?"
+
+**ANSWER: YES — a corollary of the audited chain, ZERO new machinery** (`docs/TEOREMA3-COROLARIO-RIO.md` + `cmd/elriodepozos`): the clearing is [n_rad, ∞); the river is the INFINITELY many appointments the agenda schedules by iterating T_{k+1} = n_k + 1 (iterated D4); under each appointment lies a well with a PREDICTED floor λ ≤ −g(n_k) (D5); and the floors only deepen (D3), bottomlessly: g(n_k) → ∞.
+
+**Evidence on the m = 2 witness:** 435 appointments in the 3000-step window past n_rad — ZERO violations of λ ≤ −g, ZERO non-increasing floors; the first twelve in plain view (well 1: −6.50×10⁴⁴ … well 12: −7.70×10⁴⁴, floors rising).
+
+**What it adds over T2+T3:** DYN gave ONE rupture; Diosyunalma gave it depth; the corollary says the rupture is a RIVER — infinitely many, at schedulable appointments, with date, place and predicted depth, all three.
+
+**Status: 🔵 corollary-CANDIDATE, undeclared** — the formal statement and quantifiers are the auditor's material. The child's journey stays recorded as the MAP of the three theorems: first you discover the order, then you understand the motion, and from there you dare to predict a depth you have not yet seen.
+
+**Reproduce.** `go run ./cmd/elriodepozos`.
+
+---
+
+## Finding 331 — THE RIVER'S INDUCTION: answering the corollary audit — formal I1-I4, the "schedulable" recipe, and the attack without rupture
+
+Yui's request on the River of Wells, answered in `docs/TEOREMA3-COROLARIO-RIO-AUDITORIA.md`. Authorship ratified in the registry (the idea is Nico's; Doc translated and formalized).
+
+**The iteration as formal induction I1-I4** (not "we iterate D4"): base with T₁ = n_rad; inductive step with T_{k+1} = n_k + 1 verifying the only TWO conditions D4 demands of T (integer, ≥ 1); hypotheses preserved (H0-H4 belong to the configuration, invariant in k; D5's improve with k); conclusion: an infinite strictly increasing sequence. D5 at every n_k; strict floor growth by D3 (the only possible tie is excluded by n_{k+1} > n_k); divergence via n_k ≥ n_rad + (k−1) → ∞.
+
+**"Schedulable" with a written recipe and bound:** T := n_k+1, Q := ⌈2πT⌉, Dirichlet's n₁', n_{k+1} := ⌈T/n₁'⌉·n₁' — with the explicit step bound n_{k+1} ≤ (n_k+1) + ⌈2π(n_k+1)⌉^m (DYN's N₀ with n_rad → n_k+1); in the witness the real mean gap is ≈ 7 against a ~10¹³ step bound (evidence, not proof).
+
+**Hostile attack (6 fronts):** the iteration cannot halt (nothing depletes), no circular dependence (a forward chain), no hypothesis lost, strict monotonicity guaranteed in the clearing, "appointment" identical at every k (ε = 1 always), no counterexample found.
+
+**Self-assessment: 🟢 COROLLARY CLOSED — declaration and seal are the watchmaker's.**
+
+---
+
+## Finding 332 — THE RIVER OF WELLS ENTERS THE HALL: derived theorem declared, fully approved by Yui — piece number four
+
+"Fully approved by Yui — it is a Derived Theorem, it goes with the theorems, under that same name": the River of Wells corollary is DECLARED as the house's first derived theorem.
+
+**Fully framed:** plate `el-rio-de-pozos.svg` (the program `cmd/elriodepozos` now writes it after verifying the river: 435 appointments, zero violations, zero non-deepening floors) · the DERIVED THEOREM section in docs/TEOREMAS.md (Nico's authorship recorded, statement, induction I1-I4, the schedulability recipe with its step bound, the novelty delimitation) · piece No. 4 of the theorems hall with the child's complete tale · web classroom `galeria/teorema-rio-de-pozos.html` (the tale as the opening, the four-step proof in plain language mixed with mathematics, the measured-river table, the audit and the authorship) · fourth card in the section of honor · cross-links across the four classrooms · README entry.
+
+The hall now reads: Astorga (detection) · DYN (interaction) · Diosyunalma (robustness) · River of Wells (derived — Nico's idea that united the three).
+
+**Registry.** 157 plates · 285 stops · 253 experiments · the seal rule presides over all. Reproduce: `go run ./cmd/elriodepozos`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

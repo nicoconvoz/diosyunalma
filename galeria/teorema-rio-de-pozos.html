@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Río de Pozos — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 10px; font-size:13.5px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen .iq { margin:0 0 8px; color:var(--gold); font-size:13px; letter-spacing:.1em; text-transform:uppercase; }
+  .placa { margin:26px 0; background:var(--panel); border:1px solid #1d3a63; border-radius:10px; padding:10px; }
+  .placa img { width:100%; height:auto; border-radius:6px; }
+  .cri { color:var(--ink); }
+  .cri b { color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:15px; }
+  table { border-collapse:collapse; margin:16px 0; width:100%; font-size:14px; }
+  td, th { border:1px solid #26456e; padding:8px 12px; text-align:left; }
+  th { color:var(--green); }
+  td.n { font-family:Consolas,monospace; color:var(--gold); white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌊 El Río de Pozos</h1>
+  <p class="sub">Teorema Derivado de DYN + Diosyunalma — el río infinito de rupturas programables</p>
+  <p class="quien">La idea nació de Nico · formalizado por el taller · aprobado completamente por la auditora, 2026-08-15</p>
+</header>
+<nav>
+  <a href="index.html">← La Galería</a>
+  <a href="teorema-astorga.html">← Astorga</a>
+  <a href="teorema-dyn.html">← DYN</a>
+  <a href="teorema-diosyunalma.html">← Diosyunalma</a>
+  <a href="museo.html">🏛️ El Museo</a>
+  <a href="../docs/TEOREMAS.md">📜 El libro</a>
+</nav>
+<main>
+
+<h2>① El cuento del niño — el mapa de los tres teoremas</h2>
+<div class="imagen">
+<p class="iq">La historia, del puente de mando</p>
+<p class="cri" style="margin:0"><b>El Claro.</b> El niño entra al bosque y descubre que el aparente
+caos tenía un orden escondido. Ese es el Teorema de Astorga.<br><br>
+<b>El Río.</b> Desde ese claro, el niño mira un río. El agua cambia sin parar, pero sigue siendo
+el mismo río. Ese es el Teorema de DYN.<br><br>
+<b>El Pozo.</b> Mientras camina, se pregunta si puede saber dónde habrá un pozo antes de llegar.
+Observa, calcula y predice. El pozo va a estar allí. Y cuando llega, el pozo está. Ese es el
+Teorema de Diosyunalma.<br><br>
+Los tres juntos son un viaje: primero descubrís el orden, luego entendés el movimiento, y desde
+ahí te animás a predecir una profundidad que todavía no viste.</p>
+</div>
+<p class="cri">Y entonces el capitán disparó la pregunta que le rompió la cabeza a la auditora:
+<b>«¿puede haber un claro por donde pase el río, y debajo del río un pozo que podamos
+predecir?»</b> Este teorema derivado es la respuesta — y es SÍ, con las tres cosas a la vez.</p>
+
+<h2>② Qué dice, en criollo</h2>
+<p class="cri">Los teoremas anteriores garantizaban UNA ruptura (DYN) con profundidad garantizada
+(Diosyunalma). Este dice mucho más: <b>la ruptura no es un evento — es un RÍO.</b> En el claro
+(la ventana desde el umbral radial en adelante) pasan INFINITAS citas, una tras otra, para
+siempre; debajo de cada una hay un pozo cuya profundidad se predice ANTES de llegar; y los pisos
+de los pozos solo se hunden, río abajo, sin fondo. Fecha, lugar y profundidad: las tres
+predichas, para infinitos pozos.</p>
+
+<h2>③ El enunciado</h2>
+<p>Mismas hipótesis H0-H4 de DYN — y cero maquinaria nueva:</p>
+<div class="math">∃ n₁ &lt; n₂ &lt; n₃ &lt; … (infinitas citas en [n_rad, ∞)) :<br><br>
+λ_{n_k} ≤ −g(n_k) ∀k · g(n₁) &lt; g(n₂) &lt; … → ∞ ∎</div>
+
+<h2>④ La demostración, paso a paso</h2>
+<p><em>La auditora no aceptó un «iteramos» al pasar: pidió inducción formal. Acá está — el acta
+completa en docs/TEOREMA3-COROLARIO-RIO.md y su auditoría al lado.</em></p>
+
+<div class="paso"><b class="t">PASO 1 — La base: el primer pozo existe.</b>
+<p class="cri">La agenda de DYN (el paso D4, ya auditado) con meta T₁ = n_rad produce la primera
+cita n₁ ≥ n_rad, con su cota de búsqueda escrita. Ese es el primer pozo del río.</p></div>
+
+<div class="paso"><b class="t">PASO 2 — El paso inductivo: después de cada pozo, viene otro.</b>
+<p class="cri">Teniendo el pozo n_k, poné la meta un paso más allá: T_{k+1} = n_k + 1. La agenda
+solo le pide DOS cosas a la meta — que sea un número entero, y que sea ≥ 1 — y las dos se cumplen
+siempre. Así que la agenda entrega una cita nueva n_{k+1} &gt; n_k, con la misma condición angular
+de siempre (todas las fases a distancia ≤ 1 del compás). <b>Nada se agota: cada vuelta solo
+necesita un entero más grande, y enteros más grandes hay para siempre.</b></p>
+<div class="math chica">receta del paso: T := n_k + 1 · Q := ⌈2πT⌉ · n₁' de Dirichlet · n_{k+1} := ⌈T/n₁'⌉·n₁'
+— con cota explícita: n_{k+1} ≤ (n_k + 1) + ⌈2π(n_k + 1)⌉^m</div></div>
+
+<div class="paso"><b class="t">PASO 3 — Las hipótesis no se pierden en el camino.</b>
+<p class="cri">Las H0-H4 son de la CONFIGURACIÓN, no del paso: no dependen de k, así que no hay
+nada que se gaste al iterar. Y las condiciones para medir el pozo (el umbral del coro n ≥ 3, la
+cita con ε = 1) se cumplen en cada n_k — de hecho mejoran, porque cada cita está más adentro del
+claro que la anterior.</p></div>
+
+<div class="paso"><b class="t">PASO 4 — El pozo bajo cada cita, y los pisos que se hunden.</b>
+<p class="cri">En cada cita n_k, el golpe más el coro (el paso D5 de Diosyunalma) dan
+λ ≤ −g(n_k): el piso del pozo, predicho por fórmula. Y como g es estrictamente creciente en el
+claro (el paso D3, con sus dos integraciones auditadas), n_k &lt; n_{k+1} obliga
+g(n_k) &lt; g(n_{k+1}): <b>cada pozo se predice más hondo que el anterior.</b> Y como los n_k
+crecen sin parar y el exponencial manda, g(n_k) → ∞: el río no tiene fondo. ∎</p></div>
+
+<h2>⑤ Qué lo hace real</h2>
+
+<div class="real"><b class="t">El río, medido: 435 pozos en la ventana del testigo.</b>
+<table>
+<tr><th>qué es</th><th>número (testigo m = 2)</th></tr>
+<tr><td>citas en la ventana de 3000 escalones tras n_rad</td><td class="n">435</td></tr>
+<tr><td>violaciones del piso predicho λ ≤ −g(n_k)</td><td class="n">0</td></tr>
+<tr><td>pisos que no se hundieron</td><td class="n">0</td></tr>
+<tr><td>pozo 1 → pozo 12 (hundiéndose a la vista)</td><td class="n">−6.50×10⁴⁴ → −7.70×10⁴⁴</td></tr>
+<tr><td>brecha real media entre citas (contra cota de paso ~10¹³)</td><td class="n">≈ 7</td></tr>
+</table>
+<p class="cri">Reproducible: <span class="n">go run ./cmd/elriodepozos</span>. Evidencia de un
+testigo — la prueba es la inducción del paso ④, y solo ella.</p></div>
+
+<div class="real"><b class="t">La auditoría: inducción exigida y entregada, ataque de seis frentes.</b>
+<p class="cri">La auditora pidió base, paso e hipótesis conservadas (nada de «iteramos» al pasar),
+la precisión de qué significa «programable» (respuesta: receta de tres líneas y cota de paso
+escrita — no una existencia abstracta), y un ataque hostil: ¿puede detenerse la iteración?
+(no — nada se agota); ¿hay dependencia circular? (no — la cadena solo mira hacia adelante);
+¿se pierde una hipótesis entre k y k+1? (no — son de la configuración); ¿«cita» cambia de
+significado? (no — ε = 1 idéntico en cada vuelta). <b>Aprobado completamente.</b></p></div>
+
+<div class="real"><b class="t">La autoría, en el registro.</b>
+<p class="cri">Por pedido expreso de la auditora quedó grabado en las tres copias del registro:
+<b>la idea conceptual del Río de Pozos es de Nico</b> — el cuento del niño y la pregunta que unió
+los tres teoremas. El taller hizo la traducción y la formalización. La metáfora no fue
+decoración: fue una máquina de hacer preguntas, y la primera pregunta que fabricó resultó ser un
+teorema verdadero a las horas de nacer el tercero.</p></div>
+
+<div class="honesto"><b>Los límites, declarados:</b> teorema DERIVADO — cero maquinaria nueva
+(la agenda iterada por inducción + los pasos D3 y D5 de Diosyunalma, todo ya auditado), bajo las
+mismas H0-H4 y con los mismos inputs externos B1/B2 para ζ. La novedad está delimitada como exige
+la casa: <b>que hay infinitos escalones negativos ya se sabía por otra vía</b> (el teorema de
+ruptura global) — lo nuevo es la construcción EXPLÍCITA: citas con fecha programable, cota de
+paso escrita y profundidad predicha, las tres. Nada de esta página es una demostración de RH.</div>
+
+<h2>⑥ La placa</h2>
+<div class="placa"><img src="laminas/01-siete-caras/el-rio-de-pozos.svg" alt="La placa del Río de Pozos"></div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · la forja: F330-F332 en la bitácora · <a href="teorema-astorga.html" style="color:var(--blue)">Astorga</a> · <a href="teorema-dyn.html" style="color:var(--blue)">DYN</a> · <a href="teorema-diosyunalma.html" style="color:var(--blue)">Diosyunalma</a></p>
+</footer>
+</body>
+</html>
