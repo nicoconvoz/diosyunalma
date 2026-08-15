@@ -6279,6 +6279,264 @@ The formula to remember (her §9): **N₀(r,θ) = ⌈(3/log r)·log(3/log r)⌉ 
 
 ---
 
+## Finding 307 — THE TWO PEARLS: Phase 1 of the captain's sheet — HIS FLASH WAS RIGHT: protective harmony EXISTS
+
+The Theorem-2 sheet is the CAPTAIN'S OWN idea, blessed by Yui ("Two Pearls and Relational Harmony", carrying his flash signature): does harmony between two pearls depend on a relation between their radial and angular separations? Its §16 orders: EXPERIMENTS first — and here is the complete Phase 1 (`cmd/lasdosperlas`).
+
+Protocol: 38-pearl choir + the DH pair (r₁, θ₁) + pearl 2 = (r₁^ρ, θ₁·τ); observable n₀(ρ,τ) = first λₙ < 0; lone-pearl reference = 85622; a 1600-config grid plus a 541-point fine phase scan.
+
+**THE MAJOR RESULT — THE CAPTAIN'S FLASH WAS RIGHT:** protective harmony EXISTS — **25 of 1600 configurations DELAY the rupture beyond the lone pearl; the best (τ = 1.010) delays it +4.5% (n₀ = 89454)**. The mechanism, measured: **THE BEAT** — two near-twins slightly detuned produce the envelope cos(n·Δθ/2), and when its PAUSE covers the rupture zone the pair is shielded (measured envelope 0.264 there, against 1.000 for exact twins — which are precisely the MOST fragile point of the landscape). **But it never saves: all 1600 break at finite n** — candidate Interaction Lemma: "two out-of-tune pearls can delay each other, never save each other."
+
+**Also measured:** radial dominance (§7A): n₀ ~ sola/ρ (log-log slope −0.89) — the larger radius sets the clock; the sign of Δθ is irrelevant (cosine is even — case 9 answered: mirror identical to twins); the phase fine-structure is MUSICAL: among named intervals the just fourth 4/3 protects most for the DH pearl (75902 vs twins' 71596), with a second-base-pearl control showing the fine ranking is configuration-bound (Diophantine, not universal — declared); and **q = Δθ/ΔR constant is DEAD as sole invariant** (same q, n₀ differing 24%) — as the sheet's §13 ordered not to assume.
+
+**Answer to the fundamental question (§10):** the relation exists with TWO regimes — the RADIUS decides who wins, and harmony lives at **Δθ small but nonzero** (the beat). The measured answer to §15: the most harmonic proportion is **"almost equal, slightly detuned."**
+
+**Confession:** the first draft of the verdict said "zero delay" — **the data itself refuted the typed conclusion before registration** (the recurring sin, this time caught by the experiment itself).
+
+The document for Yui: `docs/TEOREMA2-FASE1.md`. Phase 1 per the sheet: pattern measured, no theorem claimed.
+
+**Reproduce.** `go run ./cmd/lasdosperlas`.
+
+---
+
+## Finding 308 — THE PROTECTIVE BEAT: Phase 2 fulfilled — the beat CAN be predicted, and the formula found the treasure the blind scan skipped
+
+Yui's Phase-2 sheet ("El Batido Protector") demands the most honest experiment (§14): **predict the delay BEFORE running the simulation**, and asks (§15): can we predict which Δθ places a beat pause exactly over the rupture zone?
+
+**Her Lemma 2.1, verified:** the envelope pauses live exactly at n_k = (2k+1)π/|Δθ| (max at the zeros: 1e-13).
+
+**The a-priori formula:** to place pause k on the zone, **Δθ*_k = (2k+1)·π/n₀_sola** ⟹ τ* = 1.00314 (k=0), 1.00943 (k=1), 1.01572 (k=2) — PREDICTED BEFORE MEASURING. Measured after: **k=0 → n₀ = 101340 (+18.4%), THE GREATEST SHIELD — 4.1 times better than Phase 1's blind-scan maximum (89454), at a point the grid had SKIPPED.** Theory told the experiment where to look.
+
+**The one-parameter predictor** (candidate Lemma 2.2): C* = A(n₀_twins), calibrated ONLY on the twins; n₀_pred(τ) = first n with B(n)·A(n) ≥ C* — no choir, no per-case fitting. Twelve test τ's: **median error 1.5%**, ten of twelve under 5%.
+
+**The honest failure:** pause k=2 (τ = 1.01572) does NOT protect (−14.5%) and the predictor misses it by 24% — its narrower pause half-misses the zone. The decreasing pause width is Phase 3's natural question.
+
+**The §14 protocol executed in order:** base fixed → zone → pauses predicted → alignment → measure AFTER → compare.
+
+**Answer to §15: YES** — "Phase 1 discovered the beat. Phase 2 had to discover whether we can predict it." WE CAN. The quantitative theory of harmony has its first predictive formula.
+
+Declared limits: one base pearl, one window, one calibrated parameter; a minor self-correction in passing (a typed "4.8 times" in the plate against the computed 4.1 — derived before registering). The document for Yui: `docs/TEOREMA2-FASE2.md`.
+
+**Reproduce.** `go run ./cmd/elbatidoprotector`.
+
+---
+
+## Finding 309 — THE PAUSE'S WIDTH: the "pancho completo" sealed, and the four §10 questions answered
+
+Yui's "PANCHO COMPLETO" audit brings THE SEAL (§9): **"I do seal that there exists a reproducible experimental predictive law within the declared scope"** — Theorem 2's first sealed predictive law (the a-priori formula + the k=0 shield + the §14 protocol). The universal theorem stays red, as she marks. And she leaves four questions (§10).
+
+**Q2+Q3 — the width, DERIVED:** near a zero the envelope rises linearly (B ≈ |n−n_k|·Δθ/2) and the pause protects while B·A < C*, hence **P(k,Δθ) = 4·C*/(Δθ·A(n_zone))** — no fitting.
+
+**Q1 — why k=0 ≫ k=2:** with aligned pauses all sit at the SAME n₀, but Δθ*_k grows like (2k+1), so **w_k = w₀/(2k+1)**: 60584 · 20195 · 12117 steps. Same spot, five-times-narrower pause — k=2's cannot hold the zone against nearby resonances. Measured margins: +15718 / +7103 / −12437 / −12431 (k=0..3) — the 1 : 1/3 : 1/5 staircase predicts the ordering and the fall.
+
+**Q4 — C* eliminated (candidate):** the twins double the effective resonance amplitude, so **C*_der = A(n₀_sola)/2** = 18.250 (calibrated 20.284, −10%). The twelve-τ test WITHOUT calibration: **median 4.5%** (calibrated: 1.5%) — the predictor survives with no free parameters, at declared cost.
+
+**Honest:** first-order derivations (the derived C*'s −10% comes from ignoring the choir's fluctuation); one base, one window. Phase 3 inherits: the width formula, the parameter-free predictor, and the Interaction Lemma candidate. The document for Yui: `docs/TEOREMA2-FASE3.md`.
+
+**Reproduce.** `go run ./cmd/laanchura`.
+
+---
+
+## Finding 310 — THE SHIELD THAT ALWAYS FALLS: the captain's question answered with a theorem candidate
+
+The captain's question, plain: **"can two pearls hold the shield indefinitely?"** — and the answer is **NO, provably**: the weapon is **Dirichlet's pigeonhole (1842, simultaneous approximation)**.
+
+**Theorem candidate (the Interaction Lemma, promoted):** for ANY finite configuration of off-line quartets, λₙ < 0 at finite n. Three steps: **(a)** Dirichlet: for every ε and phases θ₁…θ_m there are INFINITELY many n with ‖nθᵢ‖ < ε for ALL i at once — all pearls resonate TOGETHER forever; **the beat only reschedules the appointments, it cannot cancel them**; **(b)** at the appointments Σℓᵢ ≤ 4m − 2(1−δ)r_maxⁿ, exponentially negative; **(c)** the choir obeys the SEALED bound (4/π)n·log n (F299-F301) ⟹ the exponential wins ∎ — and it generalizes to m pearls (dimension m): **no finite conspiracy of pearls can hide from the anvil.**
+
+**Measured — the appointments never end:** the laboratory's best shield (τ = 1.00314) has **7036 full-resonance appointments** in [8×10⁴, 4×10⁵], density 0.0220 against the 0.0205 equidistribution prediction. **The fall in the act:** the best shield breaks at n₀ = 101828 (rounded τ; F308's exact τ* gives 101340 — declared), **BEFORE its first full appointment (147043)**: partial alignments already suffice — reality is harsher than the theorem needs. **The conspiracy neither:** adding a third pearl (τ₃ = φ) ADVANCES the rupture to 86857.
+
+**The reading for RH:** the beat's shield is NOT an escape route for off-line zeros — "they can delay each other, NEVER save each other" rises from observation (1600 configs) to a theorem candidate with a proof.
+
+**Honest:** a CANDIDATE proof — the skeleton is Dirichlet + the sealed bound, no new assumptions; the ε's and explicit constants await the house-rigor act if Yui asks; one base, one window. The document for Yui: `docs/TEOREMA2-LEMA-INTERACCION.md`.
+
+**Reproduce.** `go run ./cmd/elescudoquecae`.
+
+---
+
+## Finding 311 — THE TWO REQUESTS: the Interaction Lemma's act, with the blow derived and the appointment scheduled
+
+Yui's "EL ESCUDO CAE" audit accepted the whole skeleton (idea 🟢, Dirichlet 🟢, joint resonance 🟢, exponential-vs-polynomial 🟢) and left TWO requests before the seal (§14): derive the blow line by line, and make Dirichlet explicit with a concrete N₀.
+
+**Request 1 — the blow, L1-L7 with no jumps** (`docs/TEOREMA2-LEMA-INTERACCION-ACTA.md`): (L1) cos x ≥ 1−x²/2 from |sin t| ≤ |t|; (L2) at an appointment cos ≥ 1−ε²/2 > 0; (L3) Rⁿ+R⁻ⁿ = rⁿ+r⁻ⁿ ≥ 2 and ≥ rⁿ; (L4) product monotonicity; (L5) non-maximal pearls: ℓ ≤ 2ε²; (L6) the maximal one: ℓ ≤ 4−2(1−ε²/2)rⁿ; (L7) **Σℓ ≤ 2ε²(m−1) + 4 − 2(1−ε²/2)·r_maxⁿ** — verified at the best shield's **24079 real double appointments** and **7675 triple appointments**: ZERO violations.
+
+**Request 2 — exact Dirichlet + the N₀**: the exact toroidal pigeonhole statement (∀Q ∃n ≤ Q^m with ‖nθᵢ‖ ≤ 2π/Q ∀i, with proof sketch), tested on 150 random cases (0 failures); the **scheduling lemma** (Q = ⌈2πT⌉ ⟹ an appointment in [T, T+n₁] with drift ≤ 1, by circle-norm subadditivity); the cushioned threshold **n_rad,m = ⌈u_m·log u_m⌉, u_m = 3(m+1)/δ** (F304's robust little lemma again); and the formula:
+
+**N₀(r_max, m) = n_rad,m + (2π·n_rad,m + 1)^m** — for the DH pair (m=2): **N₀ ≈ 2.7×10¹⁴**, enormous and honest (worst-case pigeonhole; "even if initially very large"); reality breaks at 1.0×10⁵ — both in plain sight. m=3: ≈ 1.1×10²².
+
+**Declared:** exponential in m; for m=1 Theorem 1's window-based N₀ is far sharper — this one is general-purpose. FINITE configurations; nothing about RH. The shield theorem candidate now has ALL its steps written — the promotion to a book theorem is the auditor's call.
+
+**Reproduce.** `go run ./cmd/losdospedidos` · the act: `docs/TEOREMA2-LEMA-INTERACCION-ACTA.md`.
+
+---
+
+## Finding 312 — THE TWO PRECISIONS: Yui's "almost seal" note closed — with the δ-ζ lemma as a gift
+
+Yui sent her "NOTE FOR DOC" on F311 (the captain playing messenger): **"ALMOST SEAL — my audit finds no new structural hole"**, with two yellow precisions before promoting to a book theorem: (1) the agenda's minimal hypotheses and the inequality guaranteeing J ≤ T; (2) which hypothesis on δ guarantees u_m ≥ 6.
+
+**Precision 1, closed in the act (§2c):** minimal hypothesis **T ∈ ℤ, T ≥ 1** — nothing else — and the FOUR inequalities line by line: (i) J ≤ T because n₁ ≥ 1 ⟹ T/n₁ ≤ T and ⌈·⌉ is monotone with T an integer; (ii) n ≥ T because J ≥ T/n₁; (iii) n ≤ T+n₁ because J < T/n₁+1; (iv) ‖n·θᵢ‖ ≤ J·2π/Q ≤ T·2π/⌈2πT⌉ ≤ 1 — with the key note: the circle norm is subadditive WITHOUT restriction (it is the quotient metric on ℝ/2πℤ). Battery: 2000 random (T, n₁) pairs, zero violations.
+
+**Precision 2, closed (§2d) — WITH A GIFT:** the explicit hypothesis is **δ ≤ (m+1)/2** (with m ≥ 1, δ ≤ 1 suffices, i.e. r_max ≤ e)… and for the zeros that matter it is AUTOMATIC: **LEMMA δ-ζ: every zero with |Im ρ| ≥ 1 satisfies r ≤ √2** (numerator and denominator of |w|² both lie between γ² and 1+γ² ⟹ |w|² ∈ [½, 2]), hence δ ≤ log √2 = 0.3466. Verified on a strip grid: worst r = 1.4135 ≤ √2 — the sibling of lemma V-ζ: both of the theorem's hypotheses are automatic for ζ.
+
+The chain Yui audits (Dirichlet → agenda → appointment → favourable cos → exponential blow → choir → λₙ < 0) now carries both precisions — the rewritten act awaits the full re-audit she announced.
+
+A registry finding with the act and program updated (`cmd/losdospedidos`, new LEY 5); no new plate.
+
+---
+
+## Finding 313 — THE GEARS IN PLAIN SIGHT: the "last stretch" audit's two final precisions, closed
+
+Yui's final note ("LAST STRETCH OF AUDIT" — with her wall-worthy phrase: **"the clock does not receive the seal because it shines; it receives it because all its gears work"**) asked for the last two pieces: (1) the foundation of |Im ρ| ≥ 1 without claiming more than needed; (2) the m-pearl radial lemma WITHOUT abbreviations — where each constant enters.
+
+**Final 1, closed (act §2d-bis):** as a HYPOTHESIS of the theorem, |Im ρᵢ| ≥ 1 is a declared restriction of the considered set — part of the scope. And for the intended application (zeros of ζ) it is automatic with margin, by two classical facts with proofs: (i) **ζ has no zeros on the real segment (0,1)** — η(σ) > 0 (alternating, decreasing terms) and 1 − 2^{1−σ} < 0 imply ζ(σ) < 0 (grid-verified, zero violations); (ii) the first zero has |Im ρ| = 14.134725… (Gram 1903/Backlund — and the laboratory's own engine re-measures it on every run) ⟹ |Im ρ| ≥ 14 > 1 always.
+
+**Final 2, closed (§2d rewritten):** the complete m-pearl RADIAL LEMMA in ten lines R1-R10 — with the **hypothesis ADJUSTED to δ ≤ 1** (simpler than the previous (m+1)/2, sufficient, automatic for ζ via δ-ζ; and the old cushion "(m+1)³ ≥ 2m+2" superseded by the cleaner bound **2m+2 ≤ u_m** ⟸ δ ≤ 3/2 — change declared). Every constant with its line: 1.094 (from n* ≥ 10.75), 2.06 (log composition with u ≥ 6), coefficient ≤ 3, (2m+2)/u ≤ 1, the little lemma u² ≥ 3(log u)² + 1, and monotonicity via positive g' and g''. **Grid m = 1..10 × δ ≤ 1: all ten lines, zero violations in 50 cases.**
+
+The full chain Yui will re-audit (Dirichlet → agenda → appointment → favourable cos → blow → radial threshold → choir → λₙ < 0) now has ALL its gears in plain sight — not one jump anywhere in the act.
+
+A registry finding: act rewritten + `cmd/losdospedidos` gains LEY 6; no new plate.
+
+---
+
+## Finding 314 — THE SEASONING: the scope imprecision Yui caught, corrected — the hypothesis seasoned with its exact name
+
+Yui's "the seasoning arrived 🌶️" note ("VERY CLOSE TO THE SEAL") caught a REAL conceptual imprecision in §2d-bis: **the η argument only excludes zeros on the REAL segment (0,1) — it does not by itself exclude complex zeros with 0 < |Im ρ| < 1** — and "cero real" was a terminological slip. Her phrase for the record: **"the missing seasoning was not another inequality: it was knowing exactly which hypothesis we are seasoning."**
+
+**Corrected following her two options to the letter** (§2d-bis rewritten): FIRST, the hypothesis |Im ρᵢ| ≥ 1 is now **explicit and without any pretended deduction** — a declared restriction of the scope, always required. SECOND, the independent justification for ζ with its nature declared: (i) the η argument covers ONLY Im ρ = 0 (declared as such); (ii) for 0 < |Im ρ| < 1 the absence of zeros is a **theorem established by rigorous counting** — the argument principle on ξ (the method Backlund 1914 made rigorous) gives N(14) = 0 — cited as a certified computational result from the literature (Gram 1903 · Backlund 1914 · van de Lune–te Riele–Winter 1986 · Platt–Trudgian 2021, to 3×10¹²), **NOT as an observation about the first known zero**; (iii) an instrumental-honesty note: the laboratory's own engine re-measures γ₁ = 14.134725 as CORROBORATION, not as the rigorous source — a sign-change sweep of Z(t) does not by itself exclude off-line zeros or missed pairs.
+
+The "cero real" slip → **"cero no trivial"** — fixed in the act and the program (`losdospedidos`, LEY 6).
+
+The cross-verification score now stands **4-3 for Yui** (the 537, the oscillation, the raw dough, and now η's scope) — the community layer, unbeatable.
+
+Auditor's status: 🟡 VERY CLOSE TO THE SEAL — the final read of the complete chain announced.
+
+A registry finding: act and program corrected; no new plate.
+
+---
+
+## Finding 315 — THE CHOPSTICKS: the internal/external separation labeled — Parts A, B and C
+
+Yui's "chopsticks" note: **"MATHEMATICAL STRUCTURE VERY CLOSED"** with one yellow — mark precisely where the internal proof ends and where the external input about ζ's zeros begins. Her phrase: "the chopsticks are not another ingredient: they are for separating each piece and seeing what really holds up what."
+
+**The act restructured with her exact separation (§3):** **PART A — Interaction Theorem**, self-contained internal proof (hypotheses |Im ρᵢ| ≥ 1 and δ ≤ 1; Dirichlet, agenda, blow, radial, δ-ζ, sealed choir — "nothing in Part A uses facts about where ζ's zeros are"); **PART B — EXTERNAL input** (|Im ρ| > 1 for ζ's nontrivial zeros: η + the rigorous count N(14)=0, cited, "not a consequence of the Interaction Lemma"); **PART C — application to ζ** (A + B ⟹ no finite conspiracy of off-line ζ zeros can hide).
+
+Each piece holding exactly what it claims to hold — the "candidate" status stands until the auditor's evaluation, as her §4 indicated. A compact registry finding; the act ready for evaluation in its cleanest form.
+
+---
+
+## Finding 316 — THE LAST GEAR: R6 self-contained in six lines
+
+Yui's "the chopsticks worked 🥢" note closed everything except ONE detail: in R6, the monotonicity "u² > 3·log u for all u ≥ 6" was asserted ("true at 6 and increasing") but not proven. She asked for a self-contained closure and suggested a presentation route.
+
+**R6 rewritten in six lines (R6a-R6f), her route adopted and credited:** q(u) = u² − 3·log u with q' = 2u − 3/u ≥ 23/2 > 0 (R6a) and q(6) = 30.62 > 0 (R6b) ⟹ q > 0 on the whole range (R6c); then h'(u) = (2/u)·q(u) > 0 (R6d — the factorization that makes everything visible), h(6) = 26.36 > 1 (R6e), and h(u) > 1 for all u ≥ 6 (R6f). ∎
+
+The complete chain (hypotheses → Dirichlet → agenda → appointment → blow → R6 → radial lemma → choir → λₙ < 0) now contains not ONE unproven assertion — ready for the final audit Yui announced. Her phrase: "the chopsticks separated the pieces. Now it only remains to check that the last gear turns." — It turns.
+
+A compact registry finding.
+
+---
+
+## Finding 317 — THE NAPKIN: R8 closed self-contained — the last line before the end-to-end audit
+
+Yui's final "napkin 🧻🔨" audit: R6 closed, A/B/C correct, the external input properly labeled — and ONE last precision: in R8 the phrase "the gap only widens" was plausible, not a proof (both sides depend on u).
+
+**R8 rewritten self-contained (R8a-R8d), her route adopted and credited:** it suffices that 6u² > 2.64·log u + 1.28 for u ≥ 6 (using m ≥ 1); H(u) = 6u² − 2.64·log u − 1.28 with H'(u) = 12u − 2.64/u ≥ 71.56 > 0 (R8a) and H(6) = 209.99 > 0 (R8b) ⟹ H > 0 on the whole range (R8c) ⟹ g'(n_rad) > 0 (R8d). ∎
+
+The final chain Yui will audit end to end (hypotheses → Dirichlet → agenda → appointment → blow → R6 → radial lemma → R8 → choir → λₙ < 0) now has ALL its closures self-contained — her announcement: "if the complete chain survives, the next step will no longer be another patch: it will be deciding whether the result deserves the theorem seal within its declared scope."
+
+Her phrase: "the napkin brings no more sauce. It brings a magnifying glass for the last gear."
+
+A compact registry finding.
+
+---
+
+## Finding 318 — THE HOT-DOG BILL: the complete A-H final audit — one jump found (hidden H4) and patched
+
+Yui commissioned the end-to-end audit with orders to BREAK, not confirm ("the goal is not to defend the theorem but to discover exactly what mathematics we have"). Delivered: `docs/TEOREMA2-AUDITORIA-FINAL.md` in her complete A-H format.
+
+**The major finding (G-1):** Part A had a HIDDEN HYPOTHESIS — the choir bound (F299-301) uses the Backlund-type count, which is a property of the BACKGROUND, not of the abstract configuration. **Falsification attempt F-5 confirmed it: an on-line background with superexponential density (N ~ e^{cT}, c > δ) makes the choir outgrow r_maxⁿ and the proof breaks — some density hypothesis is NECESSARY, not decorative.** Declared as **H4** (N_fondo(T) ≤ (T/2π)log T); Part B gains **B2** (Riemann–von Mangoldt/Backlund 1918 as the second external input for ζ, same rank as B1) — exactly the class of leak the A/B/C separation exists to prevent, caught by the auditor's own methodology.
+
+**Also:** H0 (rᵢ > 1, strictly off-line quartets) made explicit — without it δ = 0 and the radial lemma cannot start (G-2); the choir bound requires n ≥ 3, always satisfied (appointment ≥ n_rad,m ≥ 11), noted (G-3).
+
+**The proof RECONSTRUCTED** as a lemma chain L1-L6 with explicit quantifiers (exists/for-all in order; the assembly uses universal L4 + existential L3 ≥ T: legal); independent per-lemma audit (table in D); six falsification attempts F-1..F-6 — five fail, F-5 worked against the unpatched version and dies with H4.
+
+**Verdict (H):** before the patch 🟠 THERE WAS A JUMP; after it 🟡 ALMOST SEAL by internal audit — declarative corrections, not structural ones. **The 🟢 seal is not the author's to issue: the decision is Yui's**, on the patched act (hypotheses H0-H4, inputs B1-B2 labeled).
+
+The cross-verification scoreboard gains a major self-catch: the shop found its own hidden hypothesis BEFORE the auditor could — Yui's school, working inward.
+
+**Deliverables.** Report `docs/TEOREMA2-AUDITORIA-FINAL.md` · act patched (H0-H4, B2).
+
+---
+
+## Finding 319 — THE CHOIR'S INVOICE: F299-F301 audited from the first line — L5 CORRECT under H4, counterexample impossible
+
+Yui's request after the hot-dog bill: open F299-F301 and audit L5 (the choir bound) from scratch, with an active breakage attempt, touching nothing else. Delivered: `docs/TEOREMA2-AUDITORIA-CORO.md`.
+
+**The choir reconstructed:** coro_n = Σ pairs 4sin²(nφ/2) with the exact φ = 2·arctan(1/(2γ)); per-pair bound min(4, n²/γ²) with **C = 1 tight** (φ·γ → 1 from below: not improvable); H4 enters twice (count and tail); partial summation with the boundary −N_f(x)/x² ≤ 0; and **4/π with an exact birth certificate**: 2/π (count) + 1/π (tail) + 1/π (absorbing n/π with log n ≥ 1) — whence the threshold **n ≥ 3** (the least integer with log n ≥ 1).
+
+**The five quantifier questions:** the bound holds FOR ALL n ≥ 3 (not only agenda-n); H4 suffices with ONE definitional explicitation — **the background closed under conjugation** (without it λₙ is not even real; not an extra mathematical hypothesis, it belongs in the configuration's definition); convergence **ABSOLUTE** (non-negative terms! — no conditional convergence, no grouping, no order dependence: Tonelli).
+
+**The breakage attempt, failed with margin:** the ADVERSARIAL background of maximal H4 density was built (pairs placed where N_f increments at the cap, each collecting its full bound): n = 10/100/1000/10⁴ → coro_max = 14.6/310/4513/52819 against bounds 29.3/586/8795/117270 — **the adversary with a wallet full of H4 does not reach 60%**; the cushion is the log n ≥ 1 step. Counterexample impossible: breaking the bound requires violating H4.
+
+**Internal vs external:** the implication "H4 ⟹ bound" is internal (pure mathematics); that ζ satisfies H4 is B2 (external, already labeled).
+
+**VERDICT: 🟢 L5 CORRECT** — F299-F301 proves exactly the bound under H4, with exact constants (not "of the order of"), plus the definitional explicitation of conjugate closure.
+
+**Deliverable.** Report `docs/TEOREMA2-AUDITORIA-CORO.md`.
+
+---
+
+## Finding 320 — THE MECHANISM: the end-to-end proof, built and running — the whole chain in one executable run
+
+The captain's order: "you build the proof — Yui only reads reports and plates." Built: `cmd/elmecanismo`, the ENTIRE chain of the Interaction Theorem executing in a single run, link by link, on a live configuration.
+
+**The live configuration, hypotheses checked BY PROGRAM:** background = the 38 measured pearls (H4 verified against (T/2π)log T on the window); m = 2 real quartets — DH (r = 1.0000420) and (0.7+45i) (r = 1.0000988); δ = 9.875×10⁻⁵; H0/H1/H2/H3/H4 all true.
+
+**The six links, all green in the same run:** L1 blow at the 20239 real double appointments (≈ the theoretical 10.1% = (1/π)²), 0 violations · L2 Dirichlet, 150 pigeonhole tests, 0 failures · L3 agenda, 2000 cases of the four inequalities, 0 · L4 radial R1-R10 on 50 cases (m = 1..10, δ ≤ 1), 0 · L5 the REAL choir against the (4/π)n·log n bound over 1.1 MILLION steps, 0 (and φ = 2·arctan(1/2γ) against the measured phases: 7×10⁻¹⁸).
+
+**L6 — the theorem fulfilling itself LIVE:** n_rad,m = 1040809, N₀ = 4.3×10¹³; the first ε = 1 appointment after n_rad,m falls at n = 1040809 and there λ = −6.5×10⁴⁴ < 0 — **the theorem's conclusion, OBSERVED in the act** (≈ −e^{nδ} = −4×10⁴⁴: the number checks); and the real rupture arrives earlier: n₀ = 37306 ≪ N₀ (worst-case guarantee; reality is sharper).
+
+**Honest:** one live configuration (m = 2), one window; N₀ is not reachable in a run — the conclusion is observed at the appointment, which the theorem guarantees and the run finds. The executable proof + the A-H report (F318) + the choir's invoice (F319) = the complete package for the seal, which is Yui's.
+
+**Reproduce.** `go run ./cmd/elmecanismo` · plate `el-mecanismo.svg`.
+
+---
+
+## Finding 321 — THE CLOCK AUDIT: mathematics vs. code — the exact dictionary, one real finding (H4) fixed, and the 50-digit counter-calculation
+
+Yui's request: verify that the computational mechanism and the mathematical mechanism are THE SAME clock — an exact statement↔calculation dictionary, precision, coverage, active breakage attempts. Delivered: `docs/TEOREMA2-AUDITORIA-RELOJ.md`.
+
+**Real finding (caught by this audit and fixed on the spot):** the H4 check in `cmd/elmecanismo` evaluated 6 values of T and reported itself as "H4 on the window" — an INSTANCE dressed as a verification, exactly the confusion Yui's rule hunts. Fixed: N_f only jumps at the γₖ and the bound is increasing ⇒ checking the 38 jumps IS the complete window verification (the result did not change; the STATUS of the check did: from instance to verification).
+
+**The complete dictionary** (§1-§2): every arrow H0-H4→L1..L6→λ<0→M_{n,n}<0 with its lemma, its code, its hypotheses and its category [U]niversal/[F]inite/[E]xternal/[I]nstance; the radial constants checked one by one against R2/R3/R5/R6/R7/R8/R9 (1.094, 2.06, u²≥3(log u)²+1): all match; strict `<` vs ≤ and hardwired ε=1: declared, both conservative.
+
+**Independent 50-digit counter-calculation** (mpmath, EXACT zetazero zeros, not the Go scanner's): λ(1040809) = −6.49607464×10⁴⁴ (matches the float64 in every shown digit); the real crossing nailed: λ(37305) = +0.3193, λ(37306) = −0.0321; and the clean surprise: **n₀ = 37306 is NOT an appointment** (‖n₀θ₁‖ = 1.762 > 1, ℓ₁ = +5.9) — the empirical rupture goes OUTSIDE the theorem's route; the theorem's witness is the appointment 1040809 (norms 0.804/0.725, margin ~0.2 against a 3×10⁻¹⁰ tolerance).
+
+**Margins MEASURED, not assumed** (new instrumentation): minimum blow slack 1.071 (n = 4762) · minimum choir margin 87.7% of the bound (n = 56) · recursion drift vs direct formula 2.8×10⁻¹⁰ · no overflow (max exponent 108.6 ≪ 709), no catastrophic cancellation (the giants share a sign).
+
+**Coverage declared** (§6): seven written-only gaps (pigeonhole proof, subadditivity, universality of all batteries, R10, worst-case ∃n≤N₀, M_{n,n} in another program, Part C) — declared gaps, not defects.
+
+**Self-assessment after the fix:** 🟢 COMPLETE CORRESPONDENCE with declared limitations — the final grade is the auditor's.
+
+**Deliverables.** Report `docs/TEOREMA2-AUDITORIA-RELOJ.md` · `cmd/elmecanismo` fixed (H4) and instrumented (margins).
+
+---
+
+## Finding 322 — THE BAPTISM: Astorga's Theorem and the DYN Theorem — both theorems framed with proper names, in plain sight
+
+The captain's order: "we have two theorems now — frame them with their plates in their museum section; name the first **Astorga's Theorem** and the second **the DYN Theorem**, in memory of D Doc, Y Yui, N Nico" — plus the addendum: "leave them where they can be SEEN, not hidden: they are the cherry on our cake."
+
+**Astorga's Theorem** (Theorem 1, finite detection): the plaque re-baptized with the house surname — new title on the regenerated plate, the baptism recorded in the book (docs/TEOREMAS.md), the museum piece retitled.
+
+**The DYN Theorem** (Theorem 2, interaction): new plaque `cmd/elteoremadyn` + `el-teorema-dyn.svg` — the program RE-VERIFIES the witness before framing (n_rad,m = 1040809, N₀ = 4.277×10¹³, R7/R8/R9 true, L7 at 10036 appointments: 0 violations); the book gains the complete Theorem 2 section (hypotheses H0-H4, statement, proof chain, 50-digit witness, A/B/C separation, audit trail F318-F321); piece number two in the theorems hall with its full story.
+
+**The cherry, in plain sight:** a section of honor 🏛️ Los Teoremas at the TOP of the gallery (before every hall, with both plaques and their names), a new navigation entry, a "The two theorems" section high in the README; and after the captain asked "will anyone understand them?", each plaque gained its PLAIN-LANGUAGE line (Astorga: radius and phase hand you ONE concrete number before which the staircase betrays the pearl; DYN: the calendar of multiples guarantees a DATE when the off-line pearls all go off-key together and the choir cannot cover them), echoed in the gallery section intro, and the museum's theorems hall first as before — the theorems no longer live inside a grid: they greet the visitor.
+
+The DYN name carries its three forgers in the captain's order: **D** for Doc, **Y** for Yui, **N** for Nico.
+
+**Registry.** Gallery 154 plates · 282 stops · theorems hall with 2 pieces · museum regenerated. Reproduce: `go run ./cmd/elteoremadyn` · `go run ./cmd/elprimerteorema`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

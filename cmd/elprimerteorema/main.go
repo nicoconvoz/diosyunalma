@@ -205,8 +205,8 @@ func escribirLamina(n0, n1, nRad, K, N0, nCombo int) {
 <rect x="40" y="30" width="1320" height="740" rx="18" fill="none" stroke="#ffd98a" stroke-width="2" opacity="0.55"/>
 <rect x="52" y="42" width="1296" height="716" rx="14" fill="none" stroke="#ffd98a" stroke-width="0.8" opacity="0.35"/>
 <text x="700" y="92" font-size="17" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">LABORATORIO DIOSYUNALMA · SECTOR DE LOS TEOREMAS · PIEZA N.º 1</text>
-<text x="700" y="140" font-size="31" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🏛️ PRIMER TEOREMA DEL YUNQUE</text>
-<text x="700" y="172" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Detección Finita Cuantitativa de una Perla Desafinada</text>
+<text x="700" y="140" font-size="31" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🏛️ TEOREMA DE ASTORGA</text>
+<text x="700" y="172" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Primer Teorema del Yunque · Detección Finita Cuantitativa de una Perla Desafinada</text>
 <text x="700" y="220" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Espectro: ceros sobre la línea crítica + UN cuarteto {ρ, ρ̄, 1−ρ, 1−ρ̄} · w = 1−1/ρ = R·e^{iθ} · r = max(R, 1/R) &gt; 1</text>
 <text x="700" y="246" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">0 &lt; θ ≤ 2π/3 (automático para ζ) · δ = log r — la convención congelada del acta</text>
 <rect x="280" y="278" width="840" height="66" rx="10" fill="#101f36" stroke="#26456e"/>
@@ -224,8 +224,9 @@ func escribirLamina(n0, n1, nRad, K, N0, nCombo int) {
 <text x="740" y="530" font-size="13" font-family="Georgia" fill="#cfe6ff">🟢 lema radial (corregido F304/F305) · 🟢 lema de la ventana · 🟢 combinación</text>
 <text x="740" y="558" font-size="13" font-family="Georgia" fill="#cfe6ff">🟢 teorema de detección finita — dentro del alcance declarado</text>
 <text x="740" y="586" font-size="13" font-family="Georgia" fill="#ff9aa8">🔴 RH: NO demostrada · 🔴 positividad desde los primos: abierta</text>
-<text x="700" y="660" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Nota metodológica (§8): nombre de trabajo del laboratorio — el reconocimiento externo requiere revisión independiente y publicación.</text>
-<text x="700" y="688" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">La sala queda fundada por orden del capitán: «es nuestro primer teorema — y vienen más».</text>
+<text x="700" y="638" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">En criollo: si una perla se sale de la piel, su radio y su fase te dan UN NÚMERO — y antes de ese escalón la escalera la delata, garantizado.</text>
+<text x="700" y="663" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Nota metodológica (§8): nombre de trabajo del laboratorio — el reconocimiento externo requiere revisión independiente y publicación.</text>
+<text x="700" y="688" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">La sala fundada por orden del capitán — y el nombre puesto por él: Teorema de Astorga, el apellido de la casa (2026-08-15).</text>
 <text x="700" y="736" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>
 `, n0, n1, nRad, K, nCombo, N0)

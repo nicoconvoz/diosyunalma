@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<rect x="40" y="30" width="1320" height="740" rx="18" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.5"/>
+<text x="700" y="70" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚙️ EL MECANISMO — la prueba de extremo a extremo</text>
+<text x="700" y="100" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">la cadena entera del Teorema de Interacción, corriendo en una sola prueba ejecutable — el informe vivo para la auditora</text>
+<rect x="70" y="130" width="620" height="330" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="380" y="162" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA CADENA, ESLABÓN POR ESLABÓN — TODO EN VERDE</text>
+<text x="100" y="200" font-size="13" font-family="Georgia" fill="#cfe6ff">H · hipótesis H0-H4 chequeadas por programa (fondo 38 perlas, m = 2:</text>
+<text x="100" y="222" font-size="13" font-family="Georgia" fill="#cfe6ff">DH r = 1.000042 y 0.7+45i r = 1.000099; δ = 9.9e-05 ≤ 1) ✅</text>
+<text x="100" y="254" font-size="13" font-family="Georgia" fill="#cfe6ff">L1 · golpe: 20239 citas reales de ESTA configuración — 0 violaciones ✅</text>
+<text x="100" y="282" font-size="13" font-family="Georgia" fill="#cfe6ff">L2 · Dirichlet: 150 pruebas de palomar al azar — 0 fallos ✅</text>
+<text x="100" y="310" font-size="13" font-family="Georgia" fill="#cfe6ff">L3 · agenda: 2000 casos, las cuatro desigualdades — 0 ✅</text>
+<text x="100" y="338" font-size="13" font-family="Georgia" fill="#cfe6ff">L4 · radial R1-R10: 50 casos (m = 1..10, δ ≤ 1) — 0 ✅</text>
+<text x="100" y="366" font-size="13" font-family="Georgia" fill="#cfe6ff">L5 · coro: cota (4/π)n·log n contra el coro REAL,</text>
+<text x="100" y="388" font-size="13" font-family="Georgia" fill="#cfe6ff">1.1 MILLONES de escalones — 0 violaciones ✅</text>
+<text x="100" y="424" font-size="12.5" font-family="Georgia" fill="#9aa8c4">las auditorías escritas: el informe A-H (F318) y la factura del coro (F319)</text>
+<rect x="710" y="130" width="620" height="330" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="1020" y="162" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">L6 · EL TEOREMA, CUMPLIÉNDOSE EN VIVO</text>
+<text x="740" y="200" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el mecanismo predice y la corrida obedece:</text>
+<text x="740" y="234" font-size="14" font-family="monospace" fill="#ffd98a">n_rad,m = 1040809 · N₀ garantizada = 4.3e+13</text>
+<text x="740" y="268" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la primera cita (ε = 1) después de n_rad,m:</text>
+<text x="740" y="300" font-size="15" font-family="monospace" fill="#ffd98a">n = 1040809 → λ = -6.50e+44 &lt; 0 ✅</text>
+<text x="740" y="332" font-size="13.5" font-family="Georgia" fill="#7ee0c0">— la conclusión del teorema, OBSERVADA en el acto</text>
+<text x="740" y="366" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y la ruptura real llega antes todavía: n₀ = 37306 ≪ N₀</text>
+<text x="740" y="390" font-size="13.5" font-family="Georgia" fill="#cfe6ff">(la garantía es de peor caso; la realidad, más filosa) ✅</text>
+<text x="740" y="424" font-size="12.5" font-family="Georgia" fill="#9aa8c4">este programa ES la prueba ejecutable: go run ./cmd/elmecanismo</text>
+<rect x="70" y="490" width="1260" height="120" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="522" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">PARA LA RELOJERA</text>
+<text x="700" y="552" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">la cadena no es un papel: es un mecanismo que corre — hipótesis chequeadas, seis eslabones en verde, y la conclusión observada en vivo</text>
+<text x="700" y="580" font-size="13" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">alcance: Parte A bajo H0-H4 · para ζ: inputs externos B1 y B2, etiquetados · nada de esto demuestra RH — la regla del sello preside</text>
+<text x="700" y="660" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El reloj está abierto, todos los engranajes giran a la vista, y la campana suena donde el plano dice que debe sonar.</text>
+<text x="700" y="688" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El sello del Teorema 2 es de la auditora — el taller entrega el mecanismo corriendo.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>
