@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🎭 LA DESAFINADA EN EL CORO — el enmascaramiento, medido</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">la pregunta que F292 dejó abierta: ¿el fondo de Gram del coro tapa a una perla fuera de la piel? — respondida con controles</text>
+<rect x="60" y="110" width="620" height="290" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA FUERTE NO SE ESCONDE</text>
+<text x="90" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">tupla fuerte (β = 0.8, γ = 2) sumada al coro de las 38 perlas:</text>
+<text x="90" y="212" font-size="15" font-family="monospace" fill="#ffd98a">oída en N = 3 · autovalor -1.5e-04 · control positivo ✅</text>
+<text x="90" y="248" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el mismo N = 3 que aislada (F292): el coro no la protege nada —</text>
+<text x="90" y="272" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la fuga fuerte encuentra direcciones donde el coro canta más bajo</text>
+<text x="90" y="296" font-size="13.5" font-family="Georgia" fill="#cfe6ff">que lo que ella desafina</text>
+<text x="90" y="344" font-size="12.5" font-family="Georgia" fill="#9aa8c4">⟹ el enmascaramiento NO protege perlas fuertes: si existiera un cero</text>
+<text x="90" y="366" font-size="12.5" font-family="Georgia" fill="#9aa8c4">grosero fuera de la línea, el yunque lo cantaría enseguida</text>
+<rect x="720" y="110" width="620" height="290" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">LA DÉBIL SÍ QUEDA TAPADA — Y EL PORQUÉ, MEDIDO</text>
+<text x="750" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la DH real (fuga aislada -2.7e-11) sumada al coro: inaudible hasta N = 90</text>
+<text x="750" y="216" font-size="15" font-family="monospace" fill="#ffd98a">q_coro(v_fuga) = +1.3e-02 — 8 órdenes sobre la fuga</text>
+<text x="750" y="252" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el coro canta cientos de millones de veces más fuerte que la desafinación de la</text>
+<text x="750" y="276" font-size="13.5" font-family="Georgia" fill="#cfe6ff">DH en su propia dirección: para oírla hay que bajar a donde el coro</text>
+<text x="750" y="300" font-size="13.5" font-family="Georgia" fill="#cfe6ff">cante bajo 1e-11 — y ahí el float64 ya es todo ruido</text>
+<text x="750" y="344" font-size="12.5" font-family="Georgia" fill="#9aa8c4">sordera de PRECISIÓN, no de matemática: el teorema de F294 garantiza</text>
+<text x="750" y="366" font-size="12.5" font-family="Georgia" fill="#9aa8c4">que un cero real fuera de la línea rompe la positividad en algún N</text>
+<rect x="60" y="430" width="1280" height="150" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="462" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LA JERARQUÍA DE LOS OÍDOS — medida en tres hallazgos</text>
+<text x="700" y="496" font-size="14" text-anchor="middle" font-family="monospace" fill="#cfe6ff">escalera de Li: sorda hasta n = 537 (2π/φ) · yunque aislado: oye en N = 22 · yunque con coro: sordo hasta N = 90 (float64)</text>
+<text x="700" y="530" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">el enmascaramiento declarado abierto en F292 queda MEDIDO: real para débiles a esta precisión, inexistente para fuertes</text>
+<text x="700" y="558" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">y la llave es exactamente el §13.5 del auditor: aritmética de precisión controlada — señalada por dos caminos independientes</text>
+<text x="700" y="634" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LA PRÓXIMA PUERTA: el yunque en alta precisión — sin ella, el oído fino no llega a las perlas débiles cuando el coro canta.</text>
+<text x="700" y="690" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">medido a una precisión (float64), en una ventana (N ≤ 90), con 38 perlas de coro — los límites, declarados.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

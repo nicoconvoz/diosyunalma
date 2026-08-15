@@ -1,0 +1,50 @@
+EL YUNQUE - datos de entrada/salida del experimento n0 (pedido de Yui, auditoria 5, seccion 10)
+fecha: 2026-08-14 · programa: cmd/lastresllaves · precision: 150 bits (big.Float, caminantes multiplicados paso a paso)
+
+ENTRADA - el par desafinado (Davenport-Heilbronn, hallado a ciegas por este laboratorio):
+  rho = 0.808517 + 85.699348i · R = |w| = 0.999957995624542 · theta = arg(w) = 0.011668416599736
+
+ENTRADA - el coro: 38 perlas medidas con el motor propio (Riemann-Siegel + biseccion), proyectadas a |w| = 1:
+  gamma_01 = 14.134725142
+  gamma_02 = 21.022039639
+  gamma_03 = 25.010857580
+  gamma_04 = 30.424876126
+  gamma_05 = 32.935061588
+  gamma_06 = 37.586178159
+  gamma_07 = 40.918719012
+  gamma_08 = 43.327073281
+  gamma_09 = 48.005150881
+  gamma_10 = 49.773832478
+  gamma_11 = 52.970321478
+  gamma_12 = 56.446247697
+  gamma_13 = 59.347044003
+  gamma_14 = 60.831778525
+  gamma_15 = 65.112544048
+  gamma_16 = 67.079810529
+  gamma_17 = 69.546401711
+  gamma_18 = 72.067157674
+  gamma_19 = 75.704690699
+  gamma_20 = 77.144840069
+  gamma_21 = 79.337375020
+  gamma_22 = 82.910380854
+  gamma_23 = 84.735492981
+  gamma_24 = 87.425274613
+  gamma_25 = 88.809111208
+  gamma_26 = 92.491899271
+  gamma_27 = 94.651344041
+  gamma_28 = 95.870634228
+  gamma_29 = 98.831194218
+  gamma_30 = 101.317851006
+  gamma_31 = 103.725538040
+  gamma_32 = 105.446623052
+  gamma_33 = 107.168611184
+  gamma_34 = 111.029535543
+  gamma_35 = 111.874659177
+  gamma_36 = 114.320220915
+  gamma_37 = 116.226680321
+  gamma_38 = 118.790782866
+
+SALIDA:
+  n0 = 85622  (primer n con lambda_n < 0)
+  lambda_n0 = -3.9111529941e-02
+  coincide con float64 (F296) y con la corrida de 150 bits de F297.

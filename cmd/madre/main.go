@@ -5,10 +5,14 @@
 //	     (s(s-1)/2) pi^{-s/2} Gamma(s/2) * PROD_primes (1-p^{-s})^{-1}
 //
 // ALL the pearls (Hadamard product, conjugate-paired) on the left, ALL
-// the primes (Euler product) on the right, equal at every point s,
-// forever. And the harmonization with dimension 0 is an exact anchor:
-// at the point s=0 every factor melts to 1 and the whole infinite
-// formula weighs EXACTLY 1/2. Judges: each infinite gang against the
+// the primes (Euler product) on the right. CORRECTION (2026-08-14,
+// external audit - F293): the equality holds at every point with the
+// prime side understood by ANALYTIC CONTINUATION - the Euler product as
+// written converges only for Re s > 1, and at s = 0 each prime factor
+// (1-p^0)^{-1} diverges. (The code below always computed it right:
+// functional equation + Euler-Maclaurin; the prose overstated.) The
+// anchor at dimension 0 stands: at s = 0 every factor of the PEARL side
+// melts to 1 and the whole formula weighs EXACTLY 1/2. Judges: each infinite gang against the
 // carrier, the full chain end to end, and the anchor.
 package main
 

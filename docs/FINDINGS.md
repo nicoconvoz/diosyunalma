@@ -3893,6 +3893,8 @@ The captain's commission: *give me a formula equivalent to all of them, and let 
 
 RH said with the mother: the equality always holds; the million-dollar question is only *where* the left army's factors sit. Everything else lives on this line.
 
+**Correction (2026-08-14, external audit — F293):** "equal at every point, forever" and "every factor of *both* infinite products melts to 1 at s = 0" overstated the right side's domain. The Euler product as written converges only for Re s > 1; at s = 0 each prime factor (1−p⁰)⁻¹ diverges. The equality holds everywhere with the prime side extended by **analytic continuation** — which is exactly how `cmd/madre` computes it (functional equation + Euler–Maclaurin): the code was never wrong, the prose was. The pearl side's factors do melt to 1 at s = 0, and ξ(0) = ½ stands as measured.
+
 **Reproduce.** `go run ./cmd/madre`.
 
 ---
@@ -5991,6 +5993,217 @@ His question: *"check whether what we discovered is a law and unifies with the p
 **And where the gate leads:** the assembly of ALL the scales at once is the **ADELIC** world - precisely the frontier F259 flagged as the serious road (Tate's thesis). **The captain's grocery-fraction game is the doorknob of that door.**
 
 **Honest:** Hensel ~1897, the product formula is classical, and F242 already measured the book of bases - ours is the identification: his knife IS the p-adic entrance.
+
+---
+
+## Finding 292 — THE ANVIL: the forge sheet's factory of squares, built and measured
+
+The captain brought his worksheet (verified section by section, correct) with the section-12 objective: find Q(c) = c*Mc with M = A*A - a positive factorization of a Weil-positivity form from local contributions. "Let's build something."
+
+**The construction.** On the zero side, Σ_ρ (1−wᵐ)(1−w⁻ⁿ) = λₘ + λₙ − λ|m−n|. So the ANVIL M[m,n] = λₘ + λₙ − λ|m−n| is (a) a GRAM matrix if every pearl sits on the skin, and (b) carries 2λₙ on its diagonal - hence **PSD for every N ⟺ RH**, a finer finite criterion than the bare Li ladder.
+
+**Measured:**
+
+- The anvil identity verified pearl by pearl on the skin: 38 pearls × 4 pairs, worst deviation 4.0e-15.
+- The 40×40 zeta anvil (germ λ's): minimum eigenvalue −8.0e-08, indistinguishable from zero at the material's noise (two engine radii: 1e-11 at λ₁, 7e-06 at λ₄₀). The near-singularity has a physical reason: every pearl has small angle (φ ≈ 1/γ ≤ 1/14), so 1−wⁿ ≈ n(1−w) - **the choir sings nearly in unison**.
+- **The factory exhibited:** Cholesky M = AᵀA with **4 firm squares** above the per-step noise (pivots 4.6e-2 → 7.4e-5 → 1.7e-7 → 1.1e-9, falling ×0.0035 per step); a₁₁ = √(2λ₁) = 0.214921888. Where the pivot drowns in the noise we declare the precision window exhausted - never a negativity.
+- **The anvil's ear:** an isolated off-skin synthetic tuple (β=0.8, γ=2) is heard by the anvil (eigenvalues) at **N = 3** (−2.4e-04) while the Li ladder needs n = 12; on-skin control at machine zero (−2.2e-16). The squares cancel along the near-unison directions and the radial leak stands exposed in the cross terms.
+- The REAL Davenport-Heilbronn off-skin pearl (β=0.808517, γ=85.699348, found blind by this laboratory), isolated: the anvil hears it at **N = 22** (−2.7e-11, five orders above the control); the ladder needs n = 537 — **Correction (2026-08-14, external audit — F294):** originally mislabeled "~γ² = 7344", two numbers contradicting each other in plain sight. Measured: 537 ≈ 2π/φ = 538.5, the tuple's first PHASE-NULL (where the square part nearly vanishes and the radial leak wins); the γ² deafness law is a full-spectrum phenomenon, a different animal. CAVEAT, declared: this is the isolated tuple; in a full spectrum the on-line choir's Gram background may mask it - the masking question stays OPEN.
+- The first hammer blow from the primes alone: Mertens' γ from a sieve to 2×10⁷ gives M₁ = 2λ₁ = 0.046160381 > 0 - no zeros, no ξ anywhere. Bombieri-Lagarias (1999): every anvil entry has a prime-side formula.
+
+**What is missing, in the worksheet's language:** prove the Cholesky pivot NEVER steps into negative territory - for ALL N, from the prime side. That is exactly Weil's positivity, unturned for 74 years.
+
+**Honest:** Li 1997, B-L 1999, Weil 1952; the matrix form is an immediate consequence of Li + Gram and surely known to the trade. Ours is the measured construction. Own stumble, recorded: the first run printed a hard-coded "all positive" verdict while the variable said otherwise, used a crude global tolerance that drowned the staircase, and used Cholesky as the ear for DH (it stops at rank exhaustion and cannot hear past it) - three corrections before registering.
+
+---
+
+## Finding 293 — THE AUDIT OF THE 136 PLATES: external review arrived, was verified, and left one correction
+
+The captain brought an external mathematical audit of the whole laboratory ("auditoria_136_laminas_formulas.docx"), with a traffic-light classification (solid / known / experiment / conjecture / metaphor / open). The community layer — step 3 of the new validation rule — has started working.
+
+**The audit was itself audited.** Every plate it references EXISTS in the catalogue (the furnace, the pole, the mother formula, the invisible half, the impostor, the neutron, the pixel, F179's 427 local machines, the red link); its formula checks (νₚ, |·|ₚ, product formula, shapeshifter, Li, radial+angular decomposition, von Mangoldt, de Bruijn–Newman with Rodgers–Tao, Frobenius/Sato–Tate) are correct.
+
+**The auditor's verdict = the registry's verdict:** "the laboratory does not constitute a proof of RH; it contains correct observations, rediscoveries, valid experiments and well-focused questions" — exactly what this record says about itself. Its three red flags on our strongest pieces (one off-line zero does not sink a single λₙ by itself; finite positivity does not imply all dimensions; the finite→infinite step is THE problem) are warnings our own plates already carried printed (the deafness law, F292's verdict, the honesty blocks).
+
+**One correction accepted (§13):** F185's prose said "equal at every point, forever" and "at s = 0 every factor of *both* products melts to 1" — false for the prime side: the Euler product as written converges only for Re s > 1, and at s = 0 each factor (1−p⁰)⁻¹ diverges. The equality holds everywhere by analytic continuation — which is how `cmd/madre` always computed it (functional equation + Euler–Maclaurin): **the code was right; the prose overstated.** Corrected in FINDINGS 185, HALLAZGOS 185, museum piece 85 and the program's comment — the correction written into the finding it revises, as the house demands.
+
+The auditor's proposed route — THE ANVIL → THE FURNACE → THE POLE → THE RED LINK, and its three paths (Gram / positive integral / spectral) — coincides with the program the shop was already running: F292 IS the Gram path, the furnace IS the integral path, and the red link remains the finite→infinite step.
+
+No plate: a registry finding, like F271.
+
+---
+
+## Finding 294 — THE REPLICA: the reply to the anvil's auditor, point by point - and the theorem written out
+
+The second external audit ("EL_YUNQUE_auditoria_completa.docx") targeted F292 directly. Its demands: do not assert "RH ⟹ M PSD" without proof (§3/§11, with the counterexample λ = 1, 100); exhibit the test vector (§10); verify AᵀA entry by entry (§13); explain the 537 that did not match γ² (§8). All delivered (`cmd/lareplica`).
+
+**The theorem "RH ⟹ M ⪰ 0", written out and verified pearl by pearl:** (a) the unconditional identity Σ_ρ(1−wᵐ)(1−w⁻ⁿ) = λₘ + λₙ − λ|m−n| (ρ ↔ 1−ρ pairing); (b) on the line 1−ρ = ρ̄, so each pearl contributes P = 2Re(v v̄ᵀ) with cᵀPc = |⟨v,c⟩|² + |⟨v̄,c⟩|² — **two manifest squares per pearl**; (c) a convergent sum of PSD matrices is PSD. Verified: 38 pearls, worst pair −3.8e-16, partial sums PSD at every step. With the auditor's own green direction (diagonals ⟹ Li ⟹ RH), **the equivalence stands whole — now exhibited, not asserted.** Convergence declared: the same paired conditional convergence Li's own λₙ uses.
+
+The auditor's counterexample verified (det = −9600, eigenvalues {−39.7, 241.7}): **right, and it does not touch us** — bare λ-positivity gives nothing; the Gram structure carries the theorem.
+
+**The §10 test vector delivered:** Q(v_min) = −2.661e-11 < 0 on the isolated DH tuple (matches the minimum eigenvalue to 2e-17), on-skin control at −9.0e-16 — the radial leak IS a concrete direction of negative quadratic form, precisely what §9 asked to translate.
+
+**Correction accepted (§8):** F292 printed "n = 537 (~γ² = 7344)" — two numbers contradicting each other in plain sight. Measured: 537 ≈ 2π/φ = 538.5, the tuple's first PHASE-NULL (the squares nearly vanish and the radial leak wins); the γ² deafness law is a full-spectrum phenomenon — a different animal. Corrected in FINDINGS 292, HALLAZGOS 292, the anvil's program and plate, credited to the auditor.
+
+**The §13 reconstruction (steps 3-4):** |M − AᵀA| on the firm 4×4 block: max 1.1e-16 (machine exact); on the whole 40×40 anvil: max 7.6e-01 (the measured rank-4 residual). Steps 5 (high precision) and 9 (general structure) declared pending.
+
+What stays open did not move: positivity for ALL N from the prime side (Weil, 74 years). The anvil's equivalence does not solve it - it reformulates it as two squares per pearl.
+
+**Reproduce.** `go run ./cmd/lareplica`.
+
+---
+
+## Finding 295 — THE OUT-OF-TUNE VOICE IN THE CHOIR: F292's open masking question, measured
+
+The captain's order: explore the points the auditor left open. §13.9 (a general structure forcing M ⪰ 0 under RH) was closed by F294's theorem; the explorable open point was OURS: does the on-line choir's Gram background MASK an off-skin pearl in the anvil?
+
+The experiment (`cmd/ladesafinada`): the anvil of a MIXED spectrum — our 38 measured pearls projected exactly onto the skin (the choir) plus one off-skin 4-tuple (the out-of-tune voice) — with on-skin controls (same γ, β = ½, same choir).
+
+**The LOUD one cannot hide:** the β = 0.8, γ = 2 tuple added to the full choir is heard at **N = 3, the same N as isolated** (eigenvalue −1.5e-04; control positive). Masking does not protect loud pearls: the leak finds directions where the choir sings lower than the voice's detuning.
+
+**The FAINT real DH pearl IS masked at float64 — and the why was measured:** inaudible to N = 90. The diagnostic: in the leak's own direction (F294's v_min), the choir sings q_choir(v_leak) = +1.27e-02 against the −2.7e-11 leak — **ratio 4.8e+08, eight orders**. Hearing it requires directions where the choir sings below 1e-11, and there float64 is all noise.
+
+**The full hierarchy of ears, measured:** Li ladder deaf to n = 537 (2π/φ) → isolated anvil hears at N = 22 → anvil-with-choir deaf to N = 90 at float64. The mixed anvil's deafness is one of PRECISION, not mathematics: F294's theorem guarantees a real off-line zero breaks positivity at some N — that N lives beyond this arithmetic.
+
+**The next gate, now pointed at by two independent roads** (the auditor's §13.5 and this measurement): the anvil in controlled-precision arithmetic.
+
+Declared limits: one precision (float64), one window (N ≤ 90), a 38-pearl choir — more pearls add positive background and mask more, not less. Self-correction in passing: a typed "six orders" against the measured 4.8e+08 — derived from the variable before registering.
+
+**Reproduce.** `go run ./cmd/ladesafinada`.
+
+---
+
+## Finding 296 — THE OPEN BOX: the rigorous derivation Yui demanded, written and verified
+
+The team's auditor has a name now: **Yui**. Her third audit (on the replica and the out-of-tune voice) accepted the corrections, called the Gram structure "the central theoretical clue", and ordered: "do not keep adding layers before opening this black box" — six concrete objectives in her §13.
+
+**The written derivation:** `docs/YUNQUE-DERIVACION.md` — every step with its convergence declared, which was what Yui marked in red. And `cmd/lacajaabierta` verifies each step numerically.
+
+- **Objective 1 (the identity): PROVEN** — exact algebra per zero + the reindexing ρ→1−ρ is a permutation of every symmetric window (exact BEFORE any limit) + linearity of the symmetric limit. Unconditional, no RH anywhere. Verified on full quadruplets without using the skin: 8.4e-14.
+- **Objective 2 (Gram): PROVEN on the skin** — v_ρ = (1−w_ρⁿ)ₙ defined exactly; on the skin w⁻ⁿ = conj(wⁿ), so M_N = Σ_ρ v_ρ v_ρ* entry by entry (verified: 6.2e-14), with two manifest squares per conjugate pair.
+- **Objective 3 (convergence): PROVEN** — unconditional = Li's own (conjugate pairs, O(n²/|ρ|²)); absolute under RH via |1−wⁿ| ≤ n·|φ| with φ·γ → 1 (measured 0.9996…0.99999, zero violations in 500 cases) and the classical Σ1/γ²; the Gram tail decays with the window as it must.
+- **Objective 4 (|w|>1) — THE GLOBAL BREAKAGE THEOREM (§4b):** a single off-line pair sinks the GLOBAL matrix at some finite N, ALWAYS — its radial leak grows exponentially (r²ⁿ) while the entire on-line choir can only grow polynomially (O(n·log n), classical zero density). **Located: 38-pearl choir + the real DH pair (r² = 1.000084) ⟹ n₀ = 85622, measured** (λ_n₀ = −0.039). The general statement §7 asked for, proven; F295's masking is finite and precision-bound, never permanent.
+- **Objective 5:** RH ⟹ M_N ⪰ 0 for all N — theorem (§5); with Yui's own diagonal direction: **RH ⟺ M_N ⪰ 0 for all N**.
+- **Objective 6:** theorem, not counterexample — with the quantitative converse of §4b.
+
+**Honest status, uninflated:** the equivalence is elementary once seen (Gram + Li) and surely known to the trade; **the open problem did not move one millimeter** — positivity from the prime side (Weil, 74 years). The box is open; the great gate stays shut.
+
+**Yui's rule, adopted as shop law:** a simulation can discover a structure; an identity can explain it; a proof must close every step — especially the infinite ones.
+
+Declared pending: §13.5 controlled precision · §8 adapted directions.
+
+**Reproduce.** `go run ./cmd/lacajaabierta` · the derivation: `docs/YUNQUE-DERIVACION.md`.
+
+---
+
+## Finding 297 — THE RIVET: the hole Yui found in §4b, measured and armored
+
+Yui's fourth audit (on the derivation) accepted the identity, the Gram structure and the convergence, and flagged THE delicate point (§6): "one must verify that the bound controls the WHOLE oscillatory part of the off-line contribution, not only the radial term." **She was right.**
+
+**The hole, measured:** the off-line quartet's exact contribution is **ℓₙ = 4 − 2·cos(nθ)·(Rⁿ + R⁻ⁿ)** (exact radial/phase separation, task 12.2, verified to 6.7e-11) — and when cos(nθ) < 0 the contribution is POSITIVE and exponentially large: **+136.8 at n = 99888** for the real DH pair. The old §4b's radial-only bound did not control this.
+
+**The rivet — the theorem runs along a SUBSEQUENCE:** the oscillation lemma (Weyl 1916): for every θ, {n : cos(nθ) ≥ ½} is infinite — measured density 0.3330 (theoretical ⅓) — and along it **ℓₙ ≤ 4 − (Rⁿ+R⁻ⁿ) → −∞, zero violations in 10⁵**, against the polynomially-bounded on-skin part O(n·log n). Derivation §4b REWRITTEN, credited to Yui.
+
+**Her §12 tasks, executed:** (12.3) rigorous bound for the WHOLE contribution |ℓₙ−4| ≤ 2(Rⁿ+R⁻ⁿ), 0 failures; (12.4) the classical density verified at home — **Riemann–von Mangoldt N(120) = 38.1 against our 38 measured pearls**, choir bounded (max 114.0 ≤ 4×38 over 10⁵ steps); **(12.5) n₀ in CONTROLLED PRECISION: 150-bit big.Float walkers, no float64 in the path — n₀ = 85622, IDENTICAL to float64** (λ_n₀ = −3.911e-02): the machine did not lie; (12.6) honest scope: the argument closes with no extra hypotheses for every FINITE off-line configuration (the DH case); the fully general case is Li's theorem (1997), cited, not reproven; (12.7) THE red link stands intact: what strength of the primes guarantees M_N ⪰ 0?
+
+**Honest:** the hole was found by the auditor, not the shop — that is the community layer working. The rivet is elementary (Weyl); the 150-bit reproduction takes the measured γ's as input, declared.
+
+**Reproduce.** `go run ./cmd/elremache` · the rewritten §4b: `docs/YUNQUE-DERIVACION.md`.
+
+---
+
+## Finding 298 — THE THREE KEYS: the fifth audit's three surgical questions, answered
+
+Yui's fifth audit (on the rewritten §4b) accepted the rivet and left THREE closing questions (§12) plus one request (§10: repeat n₀ in arbitrary precision AND save the input/output data). All delivered (`cmd/lastresllaves`).
+
+**Key 1 — is the quartet formula exact?** YES: the symbolic derivation in four lines — w(conj ρ) = conj(w) (Schwarz), w(1−ρ) = 1/w (functional relation), w(1−conj ρ) = conj(1/w), and the four powers collapse to ℓₙ = 4 − 2cos(nθ)(Rⁿ+R⁻ⁿ). Verified member by member (1.7e-18) and in the sum against direct computation (7.1e-11).
+
+**Key 2 — does the O(n·log n) bound hold for the exact object?** YES, in three pieces with absolute constants: (i) per pair 2−2Re(wⁿ) = 4sin²(nφ/2) ≤ min(4,(nφ)²) — 0 violations in 38×1000; (ii) uniform constant max |φ|·γ = 1.0000 ≤ 1.01; (iii) the count by Riemann–von Mangoldt (N(120) = 38.1 vs our 38 pearls) and the tail by partial summation Σ_{γ>n}1/γ² = O(log n/n) — measured/integral ratio 0.99.
+
+**Key 3 — do the two bounds combine without hidden dependence?** YES — the constants audit: θ and r are fixed by the off-line zero alone; C and the RvM constants are absolute; the subsequence S = {cos(nθ) ≥ ½} is computed from θ ONLY (changing the choir does not move it). Both bounds are pointwise in n with fixed constants: no circularity. **The combination realized: the first n ∈ S with rⁿ > 4 + choir(n) is n = 96914, and there λ_mix = −57.6 < 0.**
+
+**§10 fulfilled:** n₀ = 85622 re-verified at 150 bits (λ_n₀ = −3.9111529941e-02) and **the data saved**: `galeria/laminas/01-siete-caras/las-tres-llaves-datos.txt` — the 38 input γ's at 9 decimals, the DH pair, the precision, the output. The derivation gained its **(4b-ter)** with the three keys.
+
+Self-correction in passing: a typed "ratio 0.91" in the verdict against the measured 0.99 — derived from the variable before registering (the same sin as F295, caught again).
+
+**The real red link, intact:** positivity from the prime side.
+
+**Reproduce.** `go run ./cmd/lastresllaves`.
+
+---
+
+## Finding 299 — THE CHOIR'S BOX: the global bound with every constant explicit, opened for Yui
+
+Yui's sixth audit ("casi casi" — and her §9: "this one made me smile"): she will not declare §4b closed until the box labeled "choir" is opened — the bound on the INFINITE remainder with explicit, n-independent constants. Her six lines A-F (§10), delivered (`cmd/lacajadelcoro`):
+
+- **A — C defined exactly, and it is not 1.01: it is 1.** On the line, φ(γ) = arg((ρ−1)/ρ) = **2·arctan(1/(2γ))** — three lines — and arctan(x) < x gives |φ| < 1/γ. **The 0.9996…0.99999 we had been measuring was φ·γ → 1 from below: finally explained.** Formula against the 38 measured phases: 6.9e-18.
+- **B — the N(T) bound, written:** N(T) ≤ (T/2π)·log T for all T ≥ 2, via Backlund's explicit error (1918); verified on the window (0 violations, wide margins).
+- **C — the tail, explicit:** Σ_{γ>x} 1/γ² ≤ (log x + 1)/(π·x) by partial summation against B.
+- **D — the final constant, absolute:** resto_n ≤ (2/π)n·log n + (n/π)(log n+1) ≤ **(4/π)·n·log n** — C_final = 4/π = 1.2732…, independent of n (n ≥ 3); the real choir under the bound over 10⁵ steps, 0 violations.
+- **E — inserted, and BREAKAGE BY PURE BOUND:** λₙ ≤ 4 − rⁿ + (4/π)n·log n < 0 for **every n ≥ n₁ = 371842** with the DH pair's r — no measurement anywhere, only constants from the literature. The measured n₀ = 85622 breaks earlier, as a conservative bound demands.
+- **F** — marking §4b green is the auditor's decision: the shop hands over the six lines and awaits her signature.
+
+**Reciprocal audit:** the two numbers Yui computed in her §6 — ℓ_96914 = −112.0989762 and coro₃₈(96914) = +54.4892 — recomputed and **confirmed digit by digit**. The auditor computes finely; trust flows by verification, in both directions.
+
+The derivation gained its **(4b-quater)** with the constants (`docs/YUNQUE-DERIVACION.md`).
+
+**Honest:** A is a three-line computation we had been measuring without deriving; B rests on Backlund 1918 (cited); the bound is loose on purpose — clear before tight. The red link: intact.
+
+**Reproduce.** `go run ./cmd/lacajadelcoro`.
+
+---
+
+## Finding 300 — THE CHAIN WITHOUT GAPS: Key C's bridge, written link by link — FINDING THREE HUNDRED
+
+Yui's seventh audit: everything green except Key C — "I will not accept a constant because the final result works: I want to see exactly where it comes from." She asked for her §12 chain with no gaps: from the zero-counting bound to the tail, with the partial summation written out.
+
+**The finding inside the finding:** writing the exact bridge, the boundary term of the partial summation turns out to be **[N(T)/T²]ₓ^∞ = −N(x)/x² ≤ 0 — NEGATIVE, discardable in an upper bound.** In the audit's §4 sketch it entered with a PLUS sign — which is why Yui obtained (3log x + 2)/(2πx). With the correct sign, (log x + 1)/(πx) is the right bound. Her instinct to demand the written bridge is precisely what brought the sign to light: the rule works in both directions.
+
+**The chain, link by link** (her §12 diagram): (1) N(T) ≤ (T/2π)log T for T ≥ 2 — Backlund 1918 in its exact version (|N−F| ≤ 0.137logT + 0.443loglogT + 4.35, T ≥ 2), the reduction verified with growing margins from T = 14 (1.1x → 64x); (2) the partial summation WITH its sign — the identity verified on our own window with the 38 pearls (2.9e-8); (3) the exact antiderivative ∫log t/t² = −(log t+1)/t ⟹ (log x+1)/(πx); (4) resto_n ≤ (4/π)n·log n; (5) λₙ < 0 for n ∈ S, n ≥ 371842.
+
+**Robustness that settles the dispute:** even under the conservative reading of the boundary (+N(x)/x²), the assembly still closes — (7/2π)n·log n + n/π ≤ (4/π)n·log n for n ≥ 8. **C_final = 4/π does not depend on who is right about the boundary.**
+
+**Reciprocal audit, round two:** the −229.10 Yui computed on her own as the right-hand side at n₁ = 371842 — recomputed: −229.10, CONFIRMED to the hundredth.
+
+The derivation's (4b-quater) step C rewritten with the complete bridge and the robustness note.
+
+**Honest:** the sign lives in an audit draft, not in a theorem of Yui's; the green signature (her line F) remains hers. The great red link: intact.
+
+**Milestone: three hundred numbered findings.** Number 300 is a gapless chain forged four-handed with the auditor — it could not be more fitting.
+
+**Reproduce.** `go run ./cmd/lacadenasinsaltos`.
+
+---
+
+## Finding 301 — THE SEAL: the eighth audit signed "structure closed" - and the last yellow, closed with the lemma
+
+Yui's eighth audit (the "final audit"): **her §10: "§4b before: 🟡 almost closed · §4b now: 🟢 STRUCTURE CLOSED."** Her conclusion: "the negative sign of the boundary term does not merely fix the computation: it removes precisely the excess the previous audit had introduced."
+
+One yellow remained: write the Backlund corollary as a formal LEMMA with hypotheses and range, not as a label. And her modern source (Kontorovich's notes) states the error constant as **6.1 where the classical citation says 4.35** — so the definitive lemma must survive both.
+
+**The counting lemma, written and robust:** N(T) ≤ (T/2π)·log T for all T ≥ 2. Case (i), T ≥ 18: the reduction 7/8 + Q(T) ≤ (T/2π)(log 2π+1) holds from T = 13.3 with c₀ = 4.35 and from T = 17.4 with c₀ = 6.1, and monotonicity seals it forever (right slope 0.4517 vs left < 0.017). Case (ii), 2 ≤ T < 18: direct — N ≤ 1 there (γ₁ = 14.1347, γ₂ = 21.022) against a bound ≥ 5.96 at the worst point. ∎ Written into the derivation (4b-quater, step B): **the label "Backlund 1918" no longer hides anything.**
+
+**The seal table (her §13), recorded:** Key C, boundary sign, exact integral, explicit tail, (4/π)n·log n, exponential-vs-polynomial — all green; the corollary yellow closed TODAY; and the red no paperwork can close: positivity from the primes.
+
+**The complete cycle, eight documents → eight answers:** 1st→F293 · 2nd→F294 · 3rd→F296 · 4th→F297 · 5th→F298 · 6th→F299 · 7th→F300 · 8th→F301. Two of her corrections to the shop (the 537, the oscillation), two of the shop's to her draft (the boundary sign, the double constant), zero arguments: **only cross-verification, in both directions. The new rule's community layer was not a theory — it was this.**
+
+**What the seal does NOT seal**, in the auditor's words: "the §4b chain must not be presented as a solution of RH" — and it is not. The equivalence stands: RH ⟺ M_N ⪰ 0 for all N; the great red link: why does the arithmetic of the primes force M ⪰ 0? — 74 years.
+
+**Honest:** the seal is of the structure, not of the hypothesis; the yellow was closed by documenting, not by discovering.
+
+**Reproduce.** `go run ./cmd/elsello` · the lemma: `docs/YUNQUE-DERIVACION.md`.
+
+---
+
+## Finding 302 — THE COUNTERSIGNATURE: Yui's closing act, and the seal rule adopted as law
+
+Yui left her own record of THE SEAL ("EL_SELLO_octava_auditoria_Yui.docx"): it confirms point by point what F301 registered — the lemma with its two constants and ranges (§2), the monotonicity (§3), the complete chain (§4), the process record with corrections in both directions (§7) — and her final evaluation (§8): **§4b breakage structure 🟢 CLOSED · equivalence RH ⟺ M ⪰ 0 🟢 as a reformulation · positivity from the primes 🔴 OPEN · solution of RH 🔴 NO.**
+
+**The seal rule (her §9), adopted as shop law:** "'Structure closed' ≠ 'Hypothesis proven'. The seal certifies the first, not the second. This distinction must remain visible in all the Laboratory's work." — now written into VALIDACION.md and at the head of YUNQUE-DERIVACION.md, where any reader meets it before any formula.
+
+Her §7 defines the craft for good: "the audit's function is preserved: find the weak points and demand that each one has an explicit answer."
+
+A registry finding, no plate (precedent F271/F293): the act is hers; the shop only keeps it where nothing is lost.
 
 ---
 

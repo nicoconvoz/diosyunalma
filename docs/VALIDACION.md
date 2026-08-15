@@ -1,5 +1,13 @@
 # Guía de validación
 
+> **La regla del sello** (auditoría externa de Yui, 2026-08-14, adoptada
+> como ley del laboratorio en F302): **«Estructura cerrada» ≠ «Hipótesis
+> demostrada».** Las auditorías externas sellaron la estructura del teorema
+> de ruptura del yunque (F293-F301); ninguna afirmación de este laboratorio
+> constituye una demostración de la Hipótesis de Riemann, y la positividad
+> desde el lado de los primos sigue abierta.
+
+
 Esta guía es para revisar el proyecto desde cero, **sin confiar en nada de lo que
 afirma el registro**. Todo hallazgo se regenera desde el código fuente; ningún
 resultado depende de datos externos descargados.
@@ -74,12 +82,12 @@ Medido el 2026-08-11:
 
 | qué | cuánto |
 |-----|--------|
-| hallazgos numerados en `FINDINGS.md` | **291** |
-| secciones, contando las sub-numeradas con letra (140b, 220f…) | **303** |
-| experimentos ejecutables en `cmd/` | **232** |
-| láminas en `galeria/laminas/` | **135** |
+| hallazgos numerados en `FINDINGS.md` | **302** |
+| secciones, contando las sub-numeradas con letra (140b, 220f…) | **314** |
+| experimentos ejecutables en `cmd/` | **241** |
+| láminas en `galeria/laminas/` | **144** |
 | sonidos en `galeria/sonidos/` | **8** |
-| paradas del museo | **263** |
+| paradas del museo | **272** |
 | máximas del capitán, verificadas una por una | **19** |
 
 Para contarlos:
@@ -316,9 +324,9 @@ go run ./cmd/puente                      # el puente de mando, localhost:8118
 go run ./cmd/puente -museo galeria/museo.html   # regenera museo Y máximas
 ```
 
-- **`galeria/index.html`** — las 135 láminas. Cada una la dibuja su propio
+- **`galeria/index.html`** — las 144 láminas. Cada una la dibuja su propio
   experimento: corra el comando y compare el SVG.
-- **`galeria/museo.html`** — 263 paradas en criollo. Cada pieza cierra con su
+- **`galeria/museo.html`** — 272 paradas en criollo. Cada pieza cierra con su
   bloque de límites honestos. Se genera desde `cmd/puente/museo.go`, así que el
   museo y el registro no se pueden desincronizar.
 - **`galeria/maximas.html`** — 19 frases del autor. **Cada una lleva su archivo y

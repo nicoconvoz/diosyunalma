@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🗝️ LAS TRES LLAVES — las tres preguntas del §12 de Yui, respondidas</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">la quinta auditoría dejó tres preguntas quirúrgicas sobre el §4b — las tres tienen llave, y los datos quedaron guardados</text>
+<rect x="60" y="110" width="413" height="300" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="266" y="142" font-size="15" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LLAVE 1 · LA FÓRMULA, EXACTA</text>
+<text x="85" y="178" font-size="12.5" font-family="Georgia" fill="#cfe6ff">el cuarteto, en cuatro renglones:</text>
+<text x="85" y="206" font-size="12.5" font-family="monospace" fill="#ffd98a">w(ρ̄) = conj(w)</text>
+<text x="85" y="230" font-size="12.5" font-family="monospace" fill="#ffd98a">w(1−ρ) = 1/w</text>
+<text x="85" y="254" font-size="12.5" font-family="monospace" fill="#ffd98a">w(1−ρ̄) = conj(1/w)</text>
+<text x="85" y="282" font-size="12.5" font-family="monospace" fill="#ffd98a">Σ = 4 − 2cos(nθ)(Rⁿ+R⁻ⁿ) ∎</text>
+<text x="85" y="318" font-size="12" font-family="Georgia" fill="#7ee0c0">Schwarz + relación funcional —</text>
+<text x="85" y="340" font-size="12" font-family="Georgia" fill="#7ee0c0">verificada a 7e-11 ✅</text>
+<rect x="493" y="110" width="413" height="300" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="142" font-size="15" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LLAVE 2 · LA COTA, JUSTIFICADA</text>
+<text x="518" y="178" font-size="12.5" font-family="Georgia" fill="#cfe6ff">tres piezas, todas con constantes absolutas:</text>
+<text x="518" y="208" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· por par: 2−2Re(wⁿ) ≤ min(4,(nφ)²), 0 fallos</text>
+<text x="518" y="234" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· constante uniforme: max |φ|·γ = 1.0000 ≤ 1.01</text>
+<text x="518" y="260" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· conteo: N(120) = 38.1 vs 38 perlas (RvM) ✅</text>
+<text x="518" y="286" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· cola por sumación parcial: cociente 0.99 ✅</text>
+<text x="518" y="322" font-size="12" font-family="Georgia" fill="#7ee0c0">⟹ parte-en-la-piel(λₙ) = O(n·log n),</text>
+<text x="518" y="344" font-size="12" font-family="Georgia" fill="#7ee0c0">para el objeto exacto que se suma</text>
+<rect x="926" y="110" width="413" height="300" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="1132" y="142" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">LLAVE 3 · SIN DEPENDENCIA OCULTA</text>
+<text x="951" y="178" font-size="12.5" font-family="Georgia" fill="#cfe6ff">la auditoría de constantes:</text>
+<text x="951" y="206" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· θ, r: fijos por el cero desafinado solo</text>
+<text x="951" y="230" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· C y RvM: absolutas, de la literatura</text>
+<text x="951" y="254" font-size="12.5" font-family="Georgia" fill="#cfe6ff">· S = {cos(nθ) ≥ ½}: calculada SOLO de θ</text>
+<text x="951" y="286" font-size="12.5" font-family="Georgia" fill="#cfe6ff">la combinación, realizada: primer n ∈ S con</text>
+<text x="951" y="310" font-size="12.5" font-family="monospace" fill="#ffd98a">rⁿ &gt; 4 + coro: n = 96914, λ &lt; 0 ✅</text>
+<text x="951" y="344" font-size="12" font-family="Georgia" fill="#7ee0c0">puntuales en n, constantes fijas: sin circularidad</text>
+<rect x="60" y="440" width="1280" height="140" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="472" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">EL §10 DE YUI — LOS DATOS, GUARDADOS</text>
+<text x="700" y="506" font-size="14" text-anchor="middle" font-family="monospace" fill="#ffd98a">n₀ = 85622 re-verificado a 150 bits · las-tres-llaves-datos.txt: los 38 γ de entrada, el par DH, la precisión, la salida</text>
+<text x="700" y="536" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">«conviene repetirlo con precisión arbitraria y guardar los datos de entrada/salida» — hecho, tal cual lo pidió</text>
+<text x="700" y="564" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">el experimento queda separado del argumento teórico, como ella marcó: la evidencia en el archivo, el teorema en la derivación</text>
+<text x="700" y="640" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Con las tres llaves giradas, el §4b queda al nivel de rigor que Yui especificó.</text>
+<text x="700" y="668" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El eslabón rojo de verdad sigue donde estaba: la positividad desde el lado de los primos.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

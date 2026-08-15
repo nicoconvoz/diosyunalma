@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🔩 EL REMACHE — la costura que Yui encontró en el §4b, blindada</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«hay que verificar que la cota controle toda la parte oscilatoria» — tenía razón: el agujero medido, el remache, y las siete tareas del §12</text>
+<rect x="60" y="110" width="620" height="300" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">EL AGUJERO ERA REAL</text>
+<text x="90" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el aporte exacto del cuarteto desafinado no es solo radial:</text>
+<text x="90" y="212" font-size="15.5" font-family="monospace" fill="#ffd98a">ℓₙ = 4 − 2·cos(nθ)·(Rⁿ + R⁻ⁿ)</text>
+<text x="90" y="248" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y cuando cos(nθ) &lt; 0 el aporte es POSITIVO y exponencial:</text>
+<text x="90" y="280" font-size="15" font-family="monospace" fill="#ff9aa8">medido: +136.8 en n = 99888</text>
+<text x="90" y="316" font-size="13" font-family="Georgia" fill="#cfe6ff">la cota «solo radial» del §4b viejo no controlaba esto — el</text>
+<text x="90" y="340" font-size="13" font-family="Georgia" fill="#cfe6ff">agujero lo encontró la auditora, no el taller: así funciona la</text>
+<text x="90" y="364" font-size="13" font-family="Georgia" fill="#cfe6ff">capa comunidad · separación verificada a 7e-11</text>
+<rect x="720" y="110" width="620" height="300" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL REMACHE: POR SUBSUCESIÓN</text>
+<text x="750" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">lema de oscilación (Weyl): cos(nθ) ≥ ½ infinitas veces —</text>
+<text x="750" y="208" font-size="14.5" font-family="monospace" fill="#ffd98a">densidad medida 0.3330 (teórico ⅓)</text>
+<text x="750" y="240" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y en esa subsucesión el aporte SÍ está dominado, 0 fallos:</text>
+<text x="750" y="270" font-size="14.5" font-family="monospace" fill="#ffd98a">ℓₙ ≤ 4 − (Rⁿ + R⁻ⁿ) → −∞</text>
+<text x="750" y="304" font-size="13.5" font-family="Georgia" fill="#cfe6ff">contra la piel polinomial: N(120) = 38.1 ≈ 38 perlas ✅ y el</text>
+<text x="750" y="328" font-size="13.5" font-family="Georgia" fill="#cfe6ff">coro acotado (máx 114 en 10⁵ escalones)</text>
+<text x="750" y="364" font-size="13" font-family="Georgia" fill="#7ee0c0">⟹ λₙ ≤ 4 − rⁿ + O(n·log n) → −∞ por la subsucesión: teorema ∎</text>
+<rect x="60" y="440" width="1280" height="140" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="472" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">n₀ EN PRECISIÓN CONTROLADA — la tarea 12.5</text>
+<text x="700" y="508" font-size="15" text-anchor="middle" font-family="monospace" fill="#ffd98a">150 bits, caminantes big.Float paso a paso: n₀ = 85622 — igual que float64 ✅</text>
+<text x="700" y="538" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la aritmética de máquina no mintió: la ruptura global es real, no redondeo — los γ de entrada son los medidos, declarado</text>
+<text x="700" y="564" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">alcance declarado (12.6): cierra para toda configuración finita fuera de la línea; el caso general es el teorema de Li (1997), citado</text>
+<text x="700" y="640" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">La tarea 12.7 sigue siendo EL eslabón rojo, intacto: ¿qué fuerza de los primos garantiza M ⪰ 0?</text>
+<text x="700" y="694" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">el agujero lo encontró Yui · el remache es elemental (Weyl 1916) · la derivación §4b reescrita con su crédito</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

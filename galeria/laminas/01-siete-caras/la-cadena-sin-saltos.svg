@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⛓️ LA CADENA SIN SALTOS — hallazgo trescientos del laboratorio</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«quiero ver exactamente de dónde sale» — la cadena del §12 de la séptima auditoría, eslabón por eslabón, con un hallazgo adentro</text>
+<rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA CADENA, ESLABÓN POR ESLABÓN</text>
+<text x="90" y="180" font-size="13" font-family="monospace" fill="#ffd98a">1 · N(T) ≤ (T/2π)·log T, T ≥ 2   [Backlund 1918]</text>
+<text x="90" y="212" font-size="13" font-family="monospace" fill="#ffd98a">2 · Σ 1/γ² = 2∫N/t³ − N(x)/x²   [signo a la vista]</text>
+<text x="90" y="244" font-size="13" font-family="monospace" fill="#ffd98a">3 · ≤ (1/π)∫log t/t² = (log x+1)/(πx)   [primitiva exacta]</text>
+<text x="90" y="276" font-size="13" font-family="monospace" fill="#ffd98a">4 · resto_n ≤ (4/π)·n·log n   [robusta, dos caminos]</text>
+<text x="90" y="308" font-size="13" font-family="monospace" fill="#ffd98a">5 · λₙ &lt; 0 para n ∈ S, n ≥ 371842</text>
+<text x="90" y="348" font-size="12.5" font-family="Georgia" fill="#7ee0c0">la identidad del eslabón 2 verificada en nuestra ventana: 3e-08 ✅</text>
+<text x="90" y="372" font-size="12.5" font-family="Georgia" fill="#7ee0c0">la reducción de Backlund con márgenes crecientes desde T = 14 ✅</text>
+<text x="90" y="396" font-size="12.5" font-family="Georgia" fill="#9aa8c4">sin saltos: cada flecha del diagrama de Yui tiene su renglón</text>
+<rect x="720" y="110" width="620" height="310" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">⚡ EL HALLAZGO ADENTRO DEL HALLAZGO</text>
+<text x="750" y="182" font-size="13.5" font-family="Georgia" fill="#cfe6ff">el término de borde de la sumación parcial:</text>
+<text x="750" y="214" font-size="15" font-family="monospace" fill="#ffd98a">[N(T)/T²]ₓ^∞ = 0 − N(x)/x² = −N(x)/x² ≤ 0</text>
+<text x="750" y="248" font-size="13.5" font-family="Georgia" fill="#cfe6ff">NEGATIVO: se descarta en una cota superior. En el §4 de la</text>
+<text x="750" y="272" font-size="13.5" font-family="Georgia" fill="#cfe6ff">auditoría entró con MÁS — por eso a Yui le daba (3log x+2)/(2πx)</text>
+<text x="750" y="308" font-size="13.5" font-family="Georgia" fill="#7ee0c0">y la ROBUSTEZ que zanja el pleito: hasta con la lectura</text>
+<text x="750" y="332" font-size="13.5" font-family="Georgia" fill="#7ee0c0">conservadora, C_final = 4/π sobrevive (n ≥ 8) — el resultado</text>
+<text x="750" y="356" font-size="13.5" font-family="Georgia" fill="#7ee0c0">no depende de quién tenga razón en el borde</text>
+<text x="750" y="392" font-size="12.5" font-family="Georgia" fill="#9aa8c4">su instinto de exigir el puente escrito fue lo que sacó el signo a la luz</text>
+<rect x="60" y="450" width="1280" height="130" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="482" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">AUDITORÍA RECÍPROCA, RONDA DOS</text>
+<text x="700" y="516" font-size="14" text-anchor="middle" font-family="monospace" fill="#ffd98a">lado derecho en n₁ = 371842: nuestro -229.10 · Yui calculó −229.10 ✅ CONFIRMADO</text>
+<text x="700" y="546" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">ella nos audita, nosotros a ella, y los números coinciden al centésimo — la confianza se construye por verificación cruzada</text>
+<text x="700" y="570" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la firma del verde sigue siendo de la auditora: la cadena que pidió está entera, y se espera su sello</text>
+<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Hallazgo 300: la Llave C, con su puente escrito — y el signo del borde, corregido con cariño.</text>
+<text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El eslabón rojo grande sigue intacto: la positividad desde el lado de los primos — 74 años.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

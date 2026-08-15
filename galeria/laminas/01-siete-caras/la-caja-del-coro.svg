@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">📦 LA CAJA DEL CORO — la cota global con todas sus constantes, abierta</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«quiero abrir la caja que dice coro y ver exactamente qué cota está detrás de esa palabra» — las seis líneas A-F de Yui, entregadas</text>
+<rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LAS CONSTANTES, UNA POR UNA</text>
+<text x="90" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">A · φ(γ) = 2·arctan(1/(2γ)) ⟹ <tspan fill="#ffd98a">C = 1, demostrada</tspan> (no 1.01)</text>
+<text x="90" y="208" font-size="12.5" font-family="Georgia" fill="#9aa8c4">— y φ·γ → 1 por abajo: el 0.9996…0.99999 medido, por fin explicado</text>
+<text x="90" y="240" font-size="13.5" font-family="Georgia" fill="#cfe6ff">B · N(T) ≤ (T/2π)·log T, todo T ≥ 2 — vía Backlund 1918</text>
+<text x="90" y="272" font-size="13.5" font-family="Georgia" fill="#cfe6ff">C · Σ_{γ&gt;x} 1/γ² ≤ (log x + 1)/(π·x) — sumación parcial</text>
+<text x="90" y="304" font-size="13.5" font-family="Georgia" fill="#cfe6ff">D · resto_n ≤ (2/π)n·log n + (n/π)(log n+1) ≤ <tspan fill="#ffd98a">(4/π)·n·log n</tspan></text>
+<text x="90" y="332" font-size="12.5" font-family="Georgia" fill="#9aa8c4">— C_final = 4/π = 1.2732…, absoluta, independiente de n (n ≥ 3)</text>
+<text x="90" y="364" font-size="13" font-family="Georgia" fill="#7ee0c0">verificado: fórmula de φ contra las 38 fases (7e-18) · coro real bajo la</text>
+<text x="90" y="386" font-size="13" font-family="Georgia" fill="#7ee0c0">cota final en 10⁵ escalones, 0 violaciones</text>
+<rect x="720" y="110" width="620" height="310" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LA LÍNEA E — RUPTURA POR COTA PURA</text>
+<text x="750" y="184" font-size="15" font-family="monospace" fill="#ffd98a">λₙ ≤ 4 − rⁿ + (4/π)·n·log n   (n ∈ S)</text>
+<text x="750" y="220" font-size="13.5" font-family="Georgia" fill="#cfe6ff">con el r del par DH, el lado derecho es NEGATIVO para</text>
+<text x="750" y="252" font-size="16" font-family="monospace" fill="#ffd98a">todo n ≥ n₁ = 371842</text>
+<text x="750" y="288" font-size="13.5" font-family="Georgia" fill="#cfe6ff">— sin una sola medición: cota pura, constantes de la</text>
+<text x="750" y="312" font-size="13.5" font-family="Georgia" fill="#cfe6ff">literatura. Y S tiene densidad ⅓: los n buenos abundan.</text>
+<text x="750" y="348" font-size="13" font-family="Georgia" fill="#7ee0c0">el n₀ = 85622 medido rompe ANTES que n₁ — como debe:</text>
+<text x="750" y="372" font-size="13" font-family="Georgia" fill="#7ee0c0">la cota es conservadora, la realidad es más filosa</text>
+<rect x="60" y="450" width="1280" height="130" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="700" y="482" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">AUDITORÍA RECÍPROCA — los números del §6 de Yui, recalculados</text>
+<text x="700" y="516" font-size="14" text-anchor="middle" font-family="monospace" fill="#ffd98a">ℓ_96914 = -112.0989762 (Yui: −112.0989762) ✅ · coro₃₈ = 54.4892 (Yui: +54.4892) ✅</text>
+<text x="700" y="546" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">confirmados al dígito: la auditora calcula fino — y el taller también la audita a ella. Confianza por verificación, en las dos direcciones.</text>
+<text x="700" y="570" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la línea F — marcar el §4b en verde — es decisión de la auditora: el taller entrega las seis líneas y espera su firma</text>
+<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">La palabra «coro» ya no es una palabra: es (4/π)·n·log n con cada constante a la vista.</text>
+<text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El eslabón rojo de verdad sigue donde estaba: la positividad desde el lado de los primos — 74 años.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">📦 LA CAJA ABIERTA — la derivación de Yui, verificada paso por paso</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«no conviene seguir agregando capas antes de abrir esta caja negra» — los seis objetivos del §13, respondidos (docs/YUNQUE-DERIVACION.md)</text>
+<rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LOS SEIS OBJETIVOS</text>
+<text x="90" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">1 · la identidad de la matriz — DEMOSTRADA (§1), exacta: 8e-14</text>
+<text x="90" y="208" font-size="13.5" font-family="Georgia" fill="#cfe6ff">2 · M = Σ v·v* en la piel — DEMOSTRADA (§2), entrada por entrada: 6e-14</text>
+<text x="90" y="236" font-size="13.5" font-family="Georgia" fill="#cfe6ff">3 · convergencia — DEMOSTRADA (§3): |1−wⁿ| ≤ n|φ|, φ·γ → 1, Σ1/γ²</text>
+<text x="90" y="264" font-size="13.5" font-family="Georgia" fill="#cfe6ff">4 · |w| &gt; 1 — TEOREMA de ruptura global (§4b), localizado abajo</text>
+<text x="90" y="292" font-size="13.5" font-family="Georgia" fill="#cfe6ff">5 · RH ⟹ M ⪰ 0 ∀N — SÍ, teorema (§5) ⟹ RH ⟺ M ⪰ 0 ∀N</text>
+<text x="90" y="320" font-size="13.5" font-family="Georgia" fill="#cfe6ff">6 · ¿teorema o contraejemplo? — TEOREMA, con recíproco cuantitativo</text>
+<text x="90" y="360" font-size="12.5" font-family="Georgia" fill="#9aa8c4">verificado con las 38 perlas del laboratorio · la reindexación ρ → 1−ρ es</text>
+<text x="90" y="382" font-size="12.5" font-family="Georgia" fill="#9aa8c4">una permutación de cada ventana simétrica: exacta antes de todo límite</text>
+<rect x="720" y="110" width="620" height="310" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">EL TEOREMA DE RUPTURA GLOBAL, EN ACTO</text>
+<text x="750" y="182" font-size="13.5" font-family="Georgia" fill="#cfe6ff">un solo par fuera de la línea hunde la matriz GLOBAL en algún N</text>
+<text x="750" y="206" font-size="13.5" font-family="Georgia" fill="#cfe6ff">finito, SIEMPRE: su fuga radial crece exponencial (r²ⁿ) y el coro</text>
+<text x="750" y="230" font-size="13.5" font-family="Georgia" fill="#cfe6ff">entero solo puede crecer polinomial (O(n·log n), densidad clásica)</text>
+<text x="750" y="274" font-size="15" font-family="monospace" fill="#ffd98a">par DH real: r² = 1.000084 (a 8e-05 de la piel)</text>
+<text x="750" y="306" font-size="16" font-family="monospace" fill="#ffd98a">ruptura medida: n₀ = 85622 · λ_n₀ = -0.039 &lt; 0</text>
+<text x="750" y="342" font-size="13" font-family="Georgia" fill="#7ee0c0">⟹ el enmascaramiento de F295 es finito y de precisión — jamás</text>
+<text x="750" y="364" font-size="13" font-family="Georgia" fill="#7ee0c0">permanente: la desafinada siempre se descubre, tarde pero seguro</text>
+<text x="750" y="396" font-size="12.5" font-family="Georgia" fill="#9aa8c4">la afirmación general que el §7 pedía — probada y localizada</text>
+<rect x="60" y="450" width="1280" height="130" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="482" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">EL ESTATUS HONESTO</text>
+<text x="700" y="514" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">la equivalencia RH ⟺ M ⪰ 0 es elemental una vez vista (Gram + Li) y seguramente conocida en el oficio</text>
+<text x="700" y="542" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">lo abierto no se movió un milímetro: la positividad desde el lado de los primos — Weil, 74 años</text>
+<text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">pendientes declarados: precisión controlada (§13.5, también señalada por F295) · direcciones adaptadas (§8)</text>
+<text x="700" y="640" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Regla de Yui, adoptada: una simulación descubre una estructura; una identidad la explica;</text>
+<text x="700" y="668" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">una demostración debe cerrar todos los pasos — especialmente los infinitos.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

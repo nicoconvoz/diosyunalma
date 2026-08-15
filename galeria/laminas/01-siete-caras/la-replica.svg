@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">⚒️ LA RÉPLICA — la respuesta al auditor del yunque, punto por punto</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">el teorema exhibido · el contraejemplo verificado · el vector test entregado · la etiqueta falsa corregida</text>
+<rect x="60" y="110" width="620" height="300" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL TEOREMA «RH ⟹ M ⪰ 0», ESCRITO</text>
+<text x="90" y="178" font-size="13.5" font-family="Georgia" fill="#cfe6ff">(a) identidad incondicional: Σ_ρ (1−wᵐ)(1−w⁻ⁿ) = λₘ + λₙ − λ|m−n|</text>
+<text x="90" y="206" font-size="13.5" font-family="Georgia" fill="#cfe6ff">(b) en la línea 1−ρ = ρ̄: el aporte de cada perla es DOS CUADRADOS</text>
+<text x="90" y="230" font-size="14.5" font-family="monospace" fill="#ffd98a">cᵀPc = |⟨v,c⟩|² + |⟨v̄,c⟩|² ≥ 0</text>
+<text x="90" y="258" font-size="13.5" font-family="Georgia" fill="#cfe6ff">(c) suma convergente de PSD es PSD ⟹ M positiva para todo N</text>
+<text x="90" y="294" font-size="13" font-family="Georgia" fill="#7ee0c0">verificado en las 38 perlas: peor par -4e-16, sumas parciales PSD ✅</text>
+<text x="90" y="322" font-size="12.5" font-family="Georgia" fill="#9aa8c4">con la vuelta del auditor (diagonales ⟹ Li ⟹ RH): la equivalencia entera</text>
+<text x="90" y="350" font-size="12.5" font-family="Georgia" fill="#9aa8c4">convergencia: la misma condicional apareada del propio λₙ — declarada</text>
+<text x="90" y="386" font-size="13" font-family="Georgia" fill="#ff9aa8">y el contraejemplo del auditor (λ = 1, 100: det = −9600) es correcto — la</text>
+<text x="90" y="406" font-size="13" font-family="Georgia" fill="#ff9aa8">Gram es la que carga el teorema, no los λ positivos a secas</text>
+<rect x="720" y="110" width="620" height="300" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1030" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">EL VECTOR TEST DEL §10, ENTREGADO</text>
+<text x="750" y="182" font-size="14.5" font-family="monospace" fill="#ffd98a">Q(v_min) = v_minᵀ M v_min = -2.66e-11 &lt; 0</text>
+<text x="750" y="212" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la perla DH aislada, yunque 22×22 — el certificado explícito de que</text>
+<text x="750" y="234" font-size="13.5" font-family="Georgia" fill="#cfe6ff">la fuga radial ES una dirección con forma cuadrática negativa (§9)</text>
+<text x="750" y="270" font-size="13" font-family="Georgia" fill="#7ee0c0">control en la piel al mismo N: -9e-16 — cero de máquina ✅</text>
+<text x="750" y="314" font-size="13.5" font-family="Georgia" fill="#cfe6ff">y la reconstrucción del §13: |M − AᵀA| en el bloque firme 4×4</text>
+<text x="750" y="338" font-size="14" font-family="monospace" fill="#ffd98a">máx 1e-16 (máquina) · matriz entera: 8e-01</text>
+<text x="750" y="382" font-size="12.5" font-family="Georgia" fill="#9aa8c4">alta precisión (§13.5) y la estructura general (§13.9): declaradas pendientes</text>
+<rect x="60" y="440" width="1280" height="170" rx="12" fill="#2b1020" stroke="#8a3557"/>
+<text x="700" y="472" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">⚖️ LA CORRECCIÓN ACEPTADA — el auditor cazó una etiqueta falsa en F292</text>
+<text x="700" y="506" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">F292 imprimió «n = 537 (~γ² = 7344)» — dos números contradiciéndose a la vista, y el auditor lo señaló (§8)</text>
+<text x="700" y="538" font-size="15" text-anchor="middle" font-family="monospace" fill="#ffd98a">lo real: 537 ≈ 2π/φ = 538.5 — el primer NULO DE FASE de la tupla, no la sordera γ²</text>
+<text x="700" y="568" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">en el casi-nulo de fase los cuadrados casi se apagan y la fuga radial gana; la sordera n ~ γ² es del espectro completo</text>
+<text x="700" y="594" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">corregido en todos los registros de F292, crédito al auditor — la corrección se escribe adentro del hallazgo que revisa</text>
+<text x="700" y="656" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">LO QUE SIGUE ABIERTO, igual que ayer: la positividad para TODO N desde los primos — Weil, 74 años.</text>
+<text x="700" y="684" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">La equivalencia del yunque no lo resuelve: lo reformula con dos cuadrados por perla. El examen externo lo dejó más fuerte.</text>
+<text x="700" y="744" font-size="14" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">auditoría externa 2026-08-14 · Li 1997 · el teorema de la LEY 1 es elemental (Gram + Li) — y ahora está escrito, no afirmado.</text>
+<text x="700" y="776" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>
