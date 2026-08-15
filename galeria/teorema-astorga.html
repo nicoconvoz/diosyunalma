@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema de Astorga — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 10px; font-size:13.5px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .placa { margin:26px 0; background:var(--panel); border:1px solid #1d3a63; border-radius:10px; padding:10px; }
+  .placa img { width:100%; height:auto; border-radius:6px; }
+  .cri { color:var(--ink); }
+  .cri b { color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:15px; }
+  table { border-collapse:collapse; margin:16px 0; width:100%; font-size:14px; }
+  td, th { border:1px solid #26456e; padding:8px 12px; text-align:left; }
+  th { color:var(--green); }
+  td.n { font-family:Consolas,monospace; color:var(--gold); white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏛️ El Teorema de Astorga</h1>
+  <p class="sub">Detección Finita Cuantitativa de una Perla Desafinada — el Primer Teorema del Yunque</p>
+  <p class="quien">Bautizado por el capitán con el apellido de la casa · registrado el 2026-08-14 · certificado por la auditora</p>
+</header>
+<nav>
+  <a href="index.html">← La Galería</a>
+  <a href="teorema-dyn.html">El Teorema de DYN →</a>
+  <a href="museo.html">🏛️ El Museo</a>
+  <a href="../docs/TEOREMAS.md">📜 El libro de los teoremas</a>
+</nav>
+<main>
+
+<h2>① Qué dice, en criollo</h2>
+<p class="cri">Imaginate que los ceros de una función como la de Riemann son <b>perlas</b> que
+deberían estar todas enhebradas en un hilo exacto (la línea crítica). La Hipótesis de Riemann
+dice que ninguna perla se sale del hilo. Este teorema responde otra pregunta, más humilde y
+completamente demostrada: <b>si una perla se saliera del hilo, ¿cuánto tardaríamos en notarlo?</b></p>
+<p class="cri">La respuesta: <b>hay un número concreto, calculable con dos datos de la perla, antes
+del cual la delación es garantizada.</b> No "tarde o temprano". No "probablemente". Un número que
+se calcula a mano — radio y fase, nada más — y antes de ese escalón una alarma matemática
+(la escalera de Li) suena SÍ o SÍ.</p>
+
+<h2>② Los personajes</h2>
+<p>El <b>cambiaformas</b> es el cambio de variable w = 1 − 1/s: agarra el plano donde viven los
+ceros y lo enrolla en un círculo. Tiene una propiedad hermosa (F214): un cero está en la línea
+crítica <em>exactamente cuando</em> |w| = 1 — la piel del círculo. Perla en el hilo = perla en la piel.</p>
+<div class="math">w = 1 − 1/ρ = R·e^{iθ} &nbsp;&nbsp;·&nbsp;&nbsp; r = max(R, 1/R) &nbsp;&nbsp;·&nbsp;&nbsp; δ = log r</div>
+<p>Si la perla se sale de la piel, r &gt; 1: el <b>radio</b> r mide CUÁNTO se salió, y la <b>fase</b> θ mide
+hacia dónde apunta. δ = log r es el tamaño del delito en escala natural. Una perla fuera de la
+piel nunca viene sola: viene en <b>cuarteto</b> {ρ, ρ̄, 1−ρ, 1−ρ̄}, por las simetrías de la función.</p>
+<p>La <b>escalera de Li</b> son los números λ₁, λ₂, λ₃… — el criterio de Li (1997) dice que RH
+equivale a que TODOS sean ≥ 0. Cada cero aporta su granito a cada λₙ: los de la piel aportan
+el <b>coro</b> (siempre positivo, crece despacio), y el cuarteto desafinado aporta una onda que
+crece como rⁿ — exponencial, con signo que oscila según la fase:</p>
+<div class="math">ℓₙ = 4 − 2·cos(nθ)·(Rⁿ + R⁻ⁿ)   [la fórmula exacta del cuarteto, F297]</div>
+
+<h2>③ El enunciado</h2>
+<div class="math">N₀(r, θ) = ⌈(3/δ)·log(3/δ)⌉ + ⌈2π/θ⌉ + 1</div>
+<div class="math chica">Si el espectro es: ceros sobre la línea (con la densidad clásica) + UN cuarteto desafinado con
+0 &lt; θ ≤ 2π/3 (automático para ζ cuando |Im ρ| ≥ 1), entonces existe n ≤ N₀ tal que
+λₙ &lt; 0 — y la matriz del yunque M pierde la positividad: M[n,n] = 2λₙ &lt; 0. ∎</div>
+<p class="cri">En criollo: <b>el radio y la fase te dan UN NÚMERO, y antes de ese escalón la escalera
+delata a la perla, garantizado.</b> Para la perla real de Davenport–Heilbronn, ese número es 798750.</p>
+
+<h2>④ La demostración, paso a paso</h2>
+<p><em>La prueba entera son dos lemas y su combinación — el acta completa está en
+docs/DETECCION-FINITA-LEMAS.md (F303-F305). Acá va cada paso con su porqué.</em></p>
+
+<div class="paso"><b class="t">PASO 1 — El lema radial: el exponencial siempre gana, y sabemos desde cuándo.</b>
+<p class="cri">El coro de la piel crece despacio — como n·log n (eso es un teorema aparte, sellado:
+coro_n ≤ (4/π)·n·log n, ver el paso 3). El cuarteto crece como rⁿ — exponencial. Todo el mundo
+sabe que el exponencial le termina ganando al polinomio; el lema dice DESDE CUÁNDO, con fórmula:</p>
+<div class="math">u = 3/δ · n_rad = ⌈u·log u⌉ ⟹ para TODO n ≥ n_rad: rⁿ &gt; 4 + (4/π)·n·log n</div>
+<p class="cri">La prueba usa un lemita de colegio bien afilado (u² ≥ 3(log u)² + 1 para u ≥ 6, probado con
+derivadas) y quedó corregida DOS veces en público: una constante de techo que cazó el taller y un
+paso 2 que reescribió la receta de la auditora. Los errores están en el registro (F304, F305).</p></div>
+
+<div class="paso"><b class="t">PASO 2 — El lema de la ventana: la fase no puede esquivar el arco para siempre.</b>
+<p class="cri">Que rⁿ sea gigante no basta: en ℓₙ está multiplicado por cos(nθ), y si el coseno fuera
+negativo justo cuando lo necesitamos, el golpe empujaría para el lado equivocado. El lema de la
+ventana cierra esa puerta: la sucesión de ángulos nθ avanza a paso fijo θ, y como el paso es
+≤ 2π/3, <b>no puede saltarse el arco favorable</b> (donde cos ≥ ½) en una vuelta entera del círculo:</p>
+<div class="math">todo bloque de K = ⌈2π/θ⌉ + 1 enteros consecutivos contiene un n con cos(nθ) ≥ ½</div>
+<p class="cri">Es un argumento de embudo: para cruzar de un lado al otro del círculo con pasos chicos,
+en algún momento pisás el medio. Con fecha: dentro de cualquier ventana de K escalones.</p></div>
+
+<div class="paso"><b class="t">PASO 3 — La cota del coro: los de la piel no pueden tapar el agujero.</b>
+<p class="cri">Cada perla de la piel aporta 2 − 2cos(nφ) ≥ 0 al λₙ — el coro solo puede SUMAR. ¿Podría
+sumar tanto que esconda al cuarteto? No: con el conteo clásico de ceros (Riemann–von Mangoldt/Backlund)
+y una sumación parcial con todas las constantes explícitas, el coro queda clavado bajo (4/π)·n·log n
+para n ≥ 3 — polinomial. El paso 1 ya sabe ganarle a eso. (Esta cota se selló aparte, en F299-F301,
+con su propia auditoría renglón por renglón.)</p></div>
+
+<div class="paso"><b class="t">PASO 4 — La combinación: la cita donde todo coincide.</b>
+<p class="cri">Aplicá la ventana en el bloque que empieza en n_rad: ahí adentro hay un n con
+cos(nθ) ≥ ½ (paso 2), y como n ≥ n_rad, el exponencial ya domina (paso 1) y el coro no llega a
+taparlo (paso 3). En ese n:</p>
+<div class="math">λₙ = coro_n + ℓₙ ≤ (4/π)·n·log n + 4 − rⁿ &lt; 0</div>
+<p class="cri">Y λₙ &lt; 0 hunde la diagonal de la matriz del yunque (M[n,n] = 2λₙ) — la positividad
+se pierde y la perla queda delatada. Sumando los tamaños de los pasos sale la fórmula N₀. ∎</p></div>
+
+<h2>⑤ Qué lo hace real</h2>
+<p><em>Un teorema no es real por estar escrito con confianza — es real cuando cada paso está probado,
+cada constante tiene partida de nacimiento, y alguien intentó romperlo y no pudo.</em></p>
+
+<div class="real"><b class="t">Ocho auditorías externas, con sangre de los dos lados.</b>
+<p class="cri">La auditora del equipo (Yui) revisó la construcción entera en ocho documentos, exigiendo
+pruebas escritas, constantes explícitas y datos guardados. Le cazó al taller <b>dos errores de verdad</b>
+(una etiqueta falsa «537 ≈ γ²» y un hueco de oscilación en la cota radial) — y el taller le devolvió
+<b>tres cazadas</b> a sus borradores (un signo de borde, una constante doble, un número que no reproducía).
+Todo está en el registro, F293-F305, sin editar nada después.</p></div>
+
+<div class="real"><b class="t">La cadena numérica, reverificada en una corrida.</b>
+<table>
+<tr><th>qué es</th><th>estante</th><th>número (par Davenport–Heilbronn)</th></tr>
+<tr><td>la ruptura MEDIDA (coro de 38 perlas + par)</td><td>experimento</td><td class="n">n₀ = 85 622</td></tr>
+<tr><td>el umbral radial puro (sin ayuda de la fase)</td><td>cota</td><td class="n">n₁ = 371 842</td></tr>
+<tr><td>la garantía cerrada de la fórmula</td><td>teorema</td><td class="n">N₀ = 798 750</td></tr>
+</table>
+<p class="cri">Los tres estantes van SEPARADOS a propósito: el experimento encuentra antes, la cota
+promete sin mirar, el teorema garantiza para siempre. Que la realidad (85622) quede cómodamente
+adentro de la garantía (798750) es exactamente lo que un teorema verdadero tiene que mostrar.
+Reproducible: <span class="n">go run ./cmd/elprimerteorema</span>.</p></div>
+
+<div class="real"><b class="t">La perla de control existe de verdad.</b>
+<p class="cri">La función de Davenport–Heilbronn cumple todas las simetrías que cumple ζ — y tiene
+ceros FUERA de la línea igual. El laboratorio la reconstruyó desde cero y encontró uno de esos ceros
+por búsqueda ciega (ρ ≈ 0.8085 + 85.699i). El teorema se prueba contra esa perla real, no contra
+un ejemplo inventado a medida.</p></div>
+
+<div class="honesto"><b>Los límites, declarados:</b> el alcance es UN cuarteto desafinado sobre fondo
+en la línea — sin extrapolación silenciosa a varios cuartetos (para eso está el Teorema de DYN).
+«Teorema de Astorga» es un nombre de trabajo del laboratorio: el reconocimiento externo requeriría
+revisión independiente, comparación con la literatura y publicación (nota metodológica de la propia
+auditora, §8 de su certificado). Y la regla del sello preside: <b>detectar perlas desafinadas no
+demuestra que no existan</b> — nada de esta página es una demostración de RH.</div>
+
+<h2>⑥ La placa</h2>
+<div class="placa"><img src="laminas/01-siete-caras/el-primer-teorema.svg" alt="La placa del Teorema de Astorga"></div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · el registro completo de la forja: F293-F306 en la bitácora · <a href="teorema-dyn.html" style="color:var(--blue)">seguir al Teorema de DYN →</a></p>
+</footer>
+</body>
+</html>

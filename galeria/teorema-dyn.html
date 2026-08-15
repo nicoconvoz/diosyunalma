@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema de DYN — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 10px; font-size:13.5px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .placa { margin:26px 0; background:var(--panel); border:1px solid #1d3a63; border-radius:10px; padding:10px; }
+  .placa img { width:100%; height:auto; border-radius:6px; }
+  .cri { color:var(--ink); }
+  .cri b { color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:15px; }
+  table { border-collapse:collapse; margin:16px 0; width:100%; font-size:14px; }
+  td, th { border:1px solid #26456e; padding:8px 12px; text-align:left; }
+  th { color:var(--green); }
+  td.n { font-family:Consolas,monospace; color:var(--gold); white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏛️ El Teorema de DYN</h1>
+  <p class="sub">El Teorema de Interacción — m perlas desafinadas no pueden protegerse para siempre</p>
+  <p class="quien">D de Doc · Y de Yui · N de Nico — los tres que lo forjaron, bautizado por el capitán el 2026-08-15</p>
+</header>
+<nav>
+  <a href="index.html">← La Galería</a>
+  <a href="teorema-astorga.html">← El Teorema de Astorga</a>
+  <a href="museo.html">🏛️ El Museo</a>
+  <a href="../docs/TEOREMAS.md">📜 El libro de los teoremas</a>
+</nav>
+<main>
+
+<h2>① La historia: nació de un flash del capitán</h2>
+<p class="cri">Este teorema empezó con una idea que no era del taller ni de la auditora: <b>el capitán
+propuso que dos perlas desafinadas podían protegerse entre sí</b> — que sus ondas, batiendo a
+frecuencias distintas, podían taparse mutuamente los agujeros. La llamó <em>armonía relacional</em>,
+y tenía razón a medias, que es la mejor manera de tener razón: la protección EXISTE (el laboratorio
+midió escudos de hasta +18.4%, predichos por fórmula antes de medirlos)… pero no puede durar.
+La pregunta honesta — <b>«¿dos perlas pueden mantener el escudo indefinidamente?»</b> — tiene
+respuesta demostrada: <b>NO</b>. Este teorema es esa respuesta, con fecha garantizada.</p>
+
+<h2>② Qué dice, en criollo</h2>
+<p class="cri">Cada perla desafinada aporta a la escalera de Li una onda que oscila con su fase.
+Dos ondas de fases distintas pueden desencontrarse un rato: cuando una empuja para abajo, la otra
+tira para arriba. Pero los múltiplos nθ₁, nθ₂, … recorren el círculo como agujas de reloj a
+velocidades fijas — y un teorema de Dirichlet de 1842 (el «principio del palomar» en el toro)
+garantiza que <b>las agujas se alinean infinitas veces</b>. En cada alineación (una <em>cita</em>),
+todas las perlas golpean para abajo A LA VEZ; el coro de las perlas buenas crece demasiado despacio
+para taparlas; y desde un escalón calculable el golpe es imparable. <b>Hay FECHA garantizada para
+el compás en que desafinan todas juntas — y esa noche la escalera se hunde.</b></p>
+
+<h2>③ El enunciado</h2>
+<p>Las cinco hipótesis, todas declaradas (ninguna escondida — la H4 la cazó una auditoría, ver abajo):</p>
+<div class="math chica">H0: cada cuarteto estrictamente fuera de la piel (rᵢ &gt; 1) · H1: m finito ·
+H2: |Im ρᵢ| ≥ 1 · H3: δ = log r_max ≤ 1 · H4: el fondo sobre la línea tiene la densidad
+clásica, N_fondo(T) ≤ (T/2π)·log T — y es cerrado bajo conjugación.</div>
+<div class="math">u_m = 3(m+1)/δ · n_rad,m = ⌈u_m·log u_m⌉<br><br>
+∃ n ≤ N₀(r_max, m) = n_rad,m + (2π·n_rad,m + 1)^m : λₙ &lt; 0 ∎</div>
+<p class="cri">En criollo: <b>con m perlas desafinadas, la fórmula te da un techo N₀ — enorme pero
+FINITO y calculable — y antes de ese escalón alguna λ es negativa, garantizado.</b> La matriz del
+yunque pierde la positividad: M[n,n] = 2λₙ &lt; 0.</p>
+
+<h2>④ La demostración, paso a paso</h2>
+<p><em>La cadena completa vive en el acta docs/TEOREMA2-LEMA-INTERACCION-ACTA.md. Son cinco engranajes
+y un ensamble; acá va cada uno con su porqué.</em></p>
+
+<div class="paso"><b class="t">ENGRANAJE 1 — El golpe (L1-L7): en una cita, nadie empuja para arriba con fuerza.</b>
+<p class="cri">Una <em>cita con precisión ε</em> es un escalón n donde TODAS las fases están cerca de
+alinearse: ‖n·θᵢ‖ ≤ ε para todas. En una cita, cada coseno está cerca de 1 (cos x ≥ 1 − x²/2, la
+parábola de colegio), así que cada perla aporta poco o directamente NEGATIVO. Derivado línea por
+línea, sin saltos, queda la desigualdad del golpe:</p>
+<div class="math">Σᵢ ℓᵢ ≤ 2ε²(m−1) + 4 − 2(1 − ε²/2)·r_maxⁿ</div>
+<p class="cri">Con ε = 1: Σℓ ≤ 2m + 2 − r_maxⁿ. La perla más gorda arrastra a todas: el término
+−r_maxⁿ es exponencial y no lo salva nadie. Verificada en 24 079 citas dobles reales y 7 675
+triples: cero violaciones.</p></div>
+
+<div class="paso"><b class="t">ENGRANAJE 2 — Dirichlet (1842): las citas existen, siempre.</b>
+<p class="cri">¿Y si las fases nunca se alinearan? Ahí entra el palomar: repartí el toro
+(el «cuarto de las m agujas») en Q^m cajitas y mirá los primeros Q^m + 1 escalones — dos caen en
+la misma cajita, y su DIFERENCIA es una cita:</p>
+<div class="math">∀Q ∃n ≤ Q^m : ‖n·θᵢ‖ ≤ 2π/Q para todo i</div>
+<p class="cri">Es matemática de 1842, de las que no se discuten. Lo importante: funciona para
+CUALQUIER combinación de fases — no hay elección de perlas que la esquive. La protección mutua
+del flash del capitán existe entre citas… pero las citas están garantizadas.</p></div>
+
+<div class="paso"><b class="t">ENGRANAJE 3 — La agenda: la cita se puede PROGRAMAR después de cualquier meta.</b>
+<p class="cri">Dirichlet da una cita temprana (n₁ ≤ Q^m), pero la necesitamos DESPUÉS del umbral donde
+el exponencial ya domina. El lema de agenda usa los múltiplos de la primera cita: eligiendo
+Q = ⌈2πT⌉, los múltiplos J·n₁ derivan tan despacio (subaditividad de la norma circular:
+‖J·n₁θ‖ ≤ J·‖n₁θ‖) que uno cae en [T, T+n₁] con deriva total ≤ 1. Cita programada, con fecha y hora,
+más allá de cualquier meta T.</p></div>
+
+<div class="paso"><b class="t">ENGRANAJE 4 — El radial-m (R0-R10): desde cuándo el exponencial es imparable.</b>
+<p class="cri">Igual que en el Teorema de Astorga pero para m cuartetos: diez líneas con derivadas
+(g, g′, g″ &gt; 0) prueban que desde n_rad,m = ⌈u_m·log u_m⌉ con u_m = 3(m+1)/δ, el término r_maxⁿ
+le gana a 2m+2 más todo el coro. Cada constante con su prueba (el lemita u² ≥ 3(log u)² + 1
+incluido, autocontenido en el acta).</p></div>
+
+<div class="paso"><b class="t">ENGRANAJE 5 — El coro bajo H4: los buenos no llegan a tapar.</b>
+<p class="cri">La cota coro_n ≤ (4/π)·n·log n para n ≥ 3, con el 4/π descompuesto con partida de
+nacimiento exacta (2/π del conteo + 1/π de la cola + 1/π de absorción con log n ≥ 1 — de ahí sale
+el umbral n ≥ 3). Y un dato que la auditoría dejó clavado: hasta el fondo ADVERSARIAL de densidad
+máxima que H4 permite se queda debajo del 60% de la cota. No hay coro que tape el golpe.</p></div>
+
+<div class="paso"><b class="t">EL ENSAMBLE — y la escalera se hunde.</b>
+<div class="math">λₙ = coroₙ + Σℓᵢ ≤ (4/π)·n·log n + 2m + 2 − r_maxⁿ &lt; 0 en la cita programada tras n_rad,m</div>
+<p class="cri">La agenda pone la cita después del umbral (engranajes 2-3), el golpe cae entero
+(engranaje 1), el radial garantiza que el exponencial domina (engranaje 4) y el coro no llega
+(engranaje 5). Contando el peor caso del palomar sale el techo N₀. ∎</p></div>
+
+<h2>⑤ Qué lo hace real</h2>
+<p><em>Este teorema no solo está demostrado en papel: está auditado por dentro, corre como programa,
+y sobrevivió a un contra-cálculo independiente de 50 dígitos.</em></p>
+
+<div class="real"><b class="t">La auditoría que ordenó ROMPER, no confirmar (F318).</b>
+<p class="cri">La auditora encargó la revisión final con una regla brutal: «la meta no es defender el
+teorema, sino descubrir exactamente qué matemática tenemos». El resultado más valioso fue un
+HALLAZGO EN CONTRA: la prueba tenía una <b>hipótesis escondida</b> — la cota del coro usa la densidad
+del fondo, y un fondo con densidad superexponencial ROMPE el teorema (el intento de falsación F-5
+lo confirmó con números). La hipótesis se declaró como H4, a la vista en el enunciado. Un teorema
+que confiesa sus hipótesis es más fuerte que uno que las esconde.</p></div>
+
+<div class="real"><b class="t">El mecanismo: la prueba que CORRE (F320).</b>
+<p class="cri">Un solo programa (<span class="n">go run ./cmd/elmecanismo</span>) chequea las cinco
+hipótesis sobre una configuración real (las 38 perlas medidas + dos cuartetos), hace girar los
+cinco engranajes contando violaciones — cero en todos, incluyendo la cota del coro contra 1.1
+MILLONES de escalones — y después ejecuta el teorema en vivo:</p>
+<table>
+<tr><th>qué es</th><th>estante</th><th>número (m = 2: DH + 0.7+45i)</th></tr>
+<tr><td>el umbral radial de la fórmula</td><td>teorema</td><td class="n">n_rad,m = 1 040 809</td></tr>
+<tr><td>λ en la primera cita después del umbral</td><td>predicción cumplida</td><td class="n">λ = −6.496×10⁴⁴ &lt; 0 ✓</td></tr>
+<tr><td>la ruptura MEDIDA (llega antes)</td><td>experimento</td><td class="n">n₀ = 37 306</td></tr>
+<tr><td>la garantía cerrada</td><td>teorema</td><td class="n">N₀ = 4.28×10¹³</td></tr>
+</table>
+<p class="cri">La campana suena exactamente donde el plano dice — y del tamaño exacto que el plano
+predice (−e^{nδ}).</p></div>
+
+<div class="real"><b class="t">La auditoría del reloj: matemática y código son EL MISMO reloj (F321).</b>
+<p class="cri">Pedido final de la auditora: comprobar que el programa implementa exactamente lo que
+el acta afirma — sin aceptar jamás «la corrida dio cero fallos» como sustituto de una demostración.
+Se construyó el diccionario completo (cada cálculo ↔ su lema), se midieron los márgenes numéricos
+(el peor margen del coro: 87.7% de colchón), y un contra-cálculo independiente a 50 dígitos con los
+ceros exactos confirmó cada número — incluido el cruce fino λ(37305) = +0.32 → λ(37306) = −0.03.
+Y la auditoría volvió a cazar algo: un chequeo de H4 que verificaba 6 instancias vistiéndose de
+verificación completa. Corregido el mismo día, confesado en el registro.</p></div>
+
+<div class="real"><b class="t">La escuela de la casa: los errores a la vista.</b>
+<p class="cri">La forja entera está en el registro F307-F321 sin editar: las veces que el dato refutó
+la conclusión tipeada, el signo de borde devuelto a la auditora, la hipótesis oculta cazada por el
+propio taller con la metodología de ella. Un resultado del que se conservan los errores es
+verificable; uno del que solo se conserva el final, no.</p></div>
+
+<div class="honesto"><b>Los límites, declarados:</b> el teorema es la <b>Parte A</b> — matemática pura
+sobre configuraciones FINITAS de cuartetos bajo H0-H4. Para aplicarlo a la función ζ real hacen
+falta dos datos externos, siempre etiquetados: B1 (que no hay ceros con |Im ρ| &lt; 1 — el conteo
+riguroso clásico) y B2 (la densidad de Riemann–von Mangoldt/Backlund). La N₀ es de peor caso y
+exponencial en m — para UNA perla, el Teorema de Astorga da una cota mucho más fina. Y la regla del
+sello preside: <b>garantizar que las perlas desafinadas se delatan no demuestra que no existan</b> —
+nada de esta página es una demostración de RH.</div>
+
+<h2>⑥ La placa</h2>
+<div class="placa"><img src="laminas/01-siete-caras/el-teorema-dyn.svg" alt="La placa del Teorema de DYN"></div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · la forja completa: F307-F322 en la bitácora · <a href="teorema-astorga.html" style="color:var(--blue)">← volver al Teorema de Astorga</a></p>
+</footer>
+</body>
+</html>

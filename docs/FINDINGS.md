@@ -6537,6 +6537,18 @@ The DYN name carries its three forgers in the captain's order: **D** for Doc, **
 
 ---
 
+## Finding 323 — THE TWO CLASSROOMS: each theorem gets its own web page — statement, step-by-step proof, and what makes it real, in plain language mixed with mathematics
+
+The captain's order: "the theorems are under-explained on the web — their proof, and what makes them REAL — in plain language mixed with mathematics, and each on its own screen, not both in one."
+
+**galeria/teorema-astorga.html** — the complete page for Astorga's Theorem: what it says in plain language, the cast (shapeshifter, radius, phase, Li's staircase, the choir), the statement with its formula, the proof in 4 steps (radial lemma with its little lemma, window lemma as a funnel argument, the choir bound, the combination), and "what makes it real": the eight audits with errors caught on both sides, the numeric chain as a table (85622 / 371842 / 798750, three shelves kept separate), the real DH control pearl — plus declared limits and the plaque.
+
+**galeria/teorema-dyn.html** — the complete page for the DYN Theorem: the story of the captain's flash (relational harmony: half right, the best way to be right), what it says in plain language (the clock hands that must align), the five hypotheses H0-H4 in plain view, the proof in 5 gears + assembly (blow L1-L7, Dirichlet 1842 with the pigeonhole told in plain words, the agenda, radial-m, the choir under H4), and "what makes it real": the audit that ordered BREAK and found the hidden H4, the running mechanism (table with n_rad = 1040809, λ = −6.5×10⁴⁴, n₀ = 37306, N₀ = 4.28×10¹³), the 50-digit clock audit, and the school of visible errors.
+
+**Separate, as ordered:** the gallery's section of honor rebuilt — no longer two plaques in one grid: two stacked cards, each with its plain-language summary and its own "→ Enter the theorem" button to its own page; cross-navigation between both pages, the museum and the book. Verified in the browser: both pages render (responsive, house style).
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
