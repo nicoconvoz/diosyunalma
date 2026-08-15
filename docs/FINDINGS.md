@@ -6573,6 +6573,24 @@ Maxims regenerated (20 phrases) · the release stays as is.
 
 ---
 
+## Finding 326 — THE ROBUSTNESS: the margin recovered from the trash — Δ(r_max, m) = u³·(u^{3m} − 1), the Theorem 3 candidate
+
+Yui's THEOREM 3 PLAN arrived (🔵 open investigation): four candidates and the First Mission for Doc (§7): keep the quantitative margins discarded during simplifications and derive an explicit bound for −λₙ. Delivered: `docs/TEOREMA3-ROBUSTEZ-ACTA.md` + `cmd/larobustez`.
+
+**The discard, located:** line R7 of the DYN act degraded e^{n_rad·δ} ≥ u^{3(m+1)} (what R1 actually gives) down to ≥ u³, because it only needed positivity — an ENTIRE factor u^{3m} in the trash (7.6×10²⁹ for the m=2 witness). Recovering it and chaining D1-D6 (only already-audited lemmas: R1, R4-R6, R8-R10, L2-L3, L5, L7 — touching nothing):
+
+**T3 CANDIDATE (DYN Robustness):** under H0-H4, with Δ = u³·(u^{3m} − 1) > 0 (u = 3(m+1)/δ ≥ 6), there exists n ≤ N₀ with **λₙ ≤ −Δ** — DYN said the rupture arrives; robustness says HOW DEEP: exponential in m.
+
+**The three shelves:** derivation battery g(n_rad) ≥ Δ > 0 on 50 cases (0 violations) · m=2 witness: Δ = 4.34×10⁴⁴ against the measured −λ = 6.496×10⁴⁴ — **ratio 1.50: the bound is TIGHT, capturing the real exponential scale** · and the NEW m=3 witness (DH + 0.7+45i + 0.75+62i, never built before): **Δ = 1.04×10⁶¹ computed BEFORE the run; the first triple appointment past n_rad,3 = 1422703 fell at 1423112 with λ = −1.91×10⁶¹ ≤ −Δ** ✅ (ratio 1.84) — the formula predicted the floor of a virgin configuration and reality obeyed.
+
+**Gift for Nico's mission (§9):** the structural resonance↔depth relation, parametric in ε from L7: −λ ≥ 2(1−ε²/2)·r_maxⁿ − coro − 2ε²(m−1) − 4 — a perfect appointment doubles the leader's blow and silences the companions like ε².
+
+**Mission rules kept:** H0-H4 intact · zero new externals · simulation = evidence, never proof · the remaining post-recovery margin is O(1) (ratios 1.5-1.8), not exponential. **T3 NOT declared: criterion §10 and the quantifiers belong to the auditor.**
+
+**Deliverables.** Act `docs/TEOREMA3-ROBUSTEZ-ACTA.md` · `cmd/larobustez` · plate `la-robustez.svg`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,
