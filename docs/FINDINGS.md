@@ -6781,6 +6781,34 @@ The hall now reads: Astorga · DYN · Diosyunalma · River of Wells · Trinity. 
 
 ---
 
+## Finding 340 — THE TRAIN'S RADAR: the five theorems turned into navigation instruments
+
+The captain's question: "can the theorems improve our train to sail deeper waters?" — YES: `cmd/elradardeltren` + `el-radar-del-tren.svg`, three new instruments.
+
+**THE MAP (Astorga inverted):** every λ verified ≥ 0 up to N refutes AT ONCE every pearl with N₀(r,θ) ≤ N — region-wise exclusion. The map's table: with N = 10⁸, no pearl with γ = 100 and β ≥ ½ + 2.4×10⁻⁴ can exist; at N = 10¹⁶ the frontier reaches ½ + 10⁻¹⁰ — whole seas signed by theorem.
+
+**THE FLEET (DYN):** the cooperation loophole closed — conspiracies with N₀_DYN ≤ N refuted wholesale (m=2, N=10¹⁶: every fleet with δ_max ≥ 7.9×10⁻⁶).
+
+**THE TELESCOPE (agenda + window):** a hypothetical pearl's crime MUST show in every K-block — at the frontier example (γ = 1000, N = 10¹²), 53 MILLION times fewer steps than blind scanning.
+
+**The honest limit up front:** ε → 0 ⇒ N₀ → ∞ — the frontier never touches the line (the lab's own runaway-horizon negative theorem). The radar sails deeper; it cannot close RH. N is a PARAMETER: citing verified λ-positivity for ζ would be a labeled external input.
+
+**Reproduce.** `go run ./cmd/elradardeltren`.
+
+---
+
+## Finding 341 — THE SETTING SAIL: train and lighthouse sailing together, bound for 10⁴⁸
+
+The captain's order: "set the train sailing with the lighthouse — as deep as it gets." Launched as lookouts (no prior duplicates; workshop rule checked): `bin/faro.exe` (live dashboard on :8117, HTTP 200 ✓) and `bin/circulo.exe -cazar` (the standing Landsberg-Schaar hunt).
+
+The train is already hunting: mute beasts and shoals at t = 10³³, bottom storms at 10³⁴ — the frontier ladder climbs through 3×10⁴², 10⁴³, 10⁴⁴, 10⁴⁶ up to 10⁴⁸, the honest limit of the dd arithmetic (deeper, the machine will not sign).
+
+The radar's note for this voyage (instrument honesty): radar and train cover DIFFERENT waters — excluding β ≥ ½ + 0.01 at γ = 10⁶ requires N ≈ 5×10¹⁵ verified λ's; at γ = 10²⁴ it requires N ≈ 2×10⁵² — at the train's depths the radar's map is unaffordable: the train reads phases where the radar cannot reach, and the radar signs seas the train does not sweep. The fleet complements itself; it does not replace itself.
+
+Logged live: the lookouts keep sailing; catches go to luz/cazadero.log and luz/fondo.log, shown live by the lighthouse.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

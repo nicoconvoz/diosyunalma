@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 158 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 286 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 159 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 287 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -58,8 +58,8 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **339 numbered
-findings** (351 entries counting the lettered sub-findings)
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **341 numbered
+findings** (353 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -73,7 +73,7 @@ proofs, explicit constants and saved data at every step. Three errors of the
 laboratory's and three of the audit drafts' were caught and corrected, all in
 the open, the breakage theorem's *structure* was signed closed, and the cycle
 produced the laboratory's first named theorem. The cycle then continued
-(findings 307–339) and kept forging: the theorems hall now holds
+(findings 307–341) and kept forging: the theorems hall now holds
 **Astorga's Theorem** (finite detection), **the DYN Theorem** (interaction),
 **the Diosyunalma Theorem** (robustness), **the River of Wells** (derived)
 and **the Trinity Theorem** (the Plates Theorem / Leader's Law, with its
@@ -83,9 +83,9 @@ audited lemma chains and executable verification runs — see
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **257 reproducible experiments** under `cmd/`, **158
+The laboratory today: **258 reproducible experiments** under `cmd/`, **159
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[286-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[287-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.

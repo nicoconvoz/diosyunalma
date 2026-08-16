@@ -3381,3 +3381,17 @@
 - 📐 los tres programas de la campaña entran al catálogo (`lasplacas`, `lageometria`, `labandafina`) — la sala queda: Astorga · DYN · Diosyunalma · Río de Pozos · Trinidad
 - la honestidad como parte del enunciado: POZO | REGIÓN NO CLASIFICADA | MONTAÑA — la frontera declarada abierta con prueba de que debe quedarlo (m ≥ 2); la paramétrica F(η) como desarrollo posterior declarado
 - la regla del sello preside los cinco: nada de esto demuestra RH
+
+### F340 — EL RADAR DEL TREN: los cinco teoremas convertidos en instrumentos de navegación — 2026-08-16
+- pregunta del capitán: «¿podemos mejorar nuestro tren con los teoremas para navegar aguas más profundas?» — SÍ: `cmd/elradardeltren` + `el-radar-del-tren.svg`, tres instrumentos nuevos
+- 📡 **EL MAPA (Astorga invertido)**: cada λ verificada ≥ 0 hasta N refuta DE UNA VEZ toda perla con N₀(r,θ) ≤ N — exclusión por regiones. La tabla: con N = 10⁸, ninguna perla con γ = 100 y β ≥ ½ + 2.4×10⁻⁴; con N = 10¹⁶ la frontera baja a ½ + 10⁻¹⁰ — mares enteros firmados por teorema
+- ⚓ **LA FLOTA (DYN)**: la escapatoria de la cooperación, cerrada — conspiraciones con N₀_DYN ≤ N refutadas en bloque (m=2, N=10¹⁶: toda flota con δ_max ≥ 7.9×10⁻⁶)
+- 🔭 **EL CATALEJO (la agenda + la ventana)**: el crimen de una perla hipotética DEBE asomar en cada bloque de K pasos — en el ejemplo de la frontera (γ = 1000, N = 10¹²), 53 MILLONES de veces menos escalones que el barrido ciego
+- ⚖️ **el límite honesto al frente**: ε → 0 ⇒ N₀ → ∞ — la frontera jamás toca la línea (nuestro teorema negativo del horizonte que huye). El radar navega más hondo; no cierra RH. N es PARÁMETRO: citar λ verificadas de ζ sería input externo etiquetado
+- escrita: `cmd/elradardeltren` · lámina `el-radar-del-tren.svg`
+
+### F341 — LA ZARPADA: el tren y el faro navegando juntos, rumbo a 10⁴⁸ — 2026-08-16
+- orden del capitán: «pon a navegar al tren junto al faro, lo más profundo que se pueda». Zarpados como vigías (sin duplicados previos, regla del taller verificada): `bin/faro.exe` (tablero vivo en :8117, HTTP 200 ✓) y `bin/circulo.exe -cazar` (la cacería permanente de Landsberg-Schaar)
+- 🚂 el tren ya está cazando: bestias mudas y cardúmenes en t = 10³³, tormentas de fondo en 10³⁴ — la escalera de fronteras sube por 3×10⁴², 10⁴³, 10⁴⁴, 10⁴⁶ hasta 10⁴⁸, el límite honesto de la aritmética dd (más hondo, la máquina no firma)
+- 📡 la nota del radar para esta travesía (honestidad de instrumentos): el radar y el tren cubren aguas DISTINTAS — excluir β ≥ ½ + 0.01 a γ = 10⁶ exige N ≈ 5×10¹⁵ λ verificadas; a γ = 10²⁴ exige N ≈ 2×10⁵² — en las profundidades del tren, el mapa del radar es impagable: el tren mira fases donde el radar no llega, y el radar firma mares donde el tren no barre. La flota se complementa, no se reemplaza
+- registrado en caliente: los vigías quedan navegando; sus presas van a luz/cazadero.log y luz/fondo.log, y el faro las muestra en vivo
