@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema de la Trinidad — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 8px; font-size:13px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen .iq { margin:0 0 8px; color:var(--gold); font-size:13px; letter-spacing:.1em; text-transform:uppercase; }
+  .placa { margin:26px 0; background:var(--panel); border:1px solid #1d3a63; border-radius:10px; padding:10px; }
+  .placa img { width:100%; height:auto; border-radius:6px; }
+  .cri { color:var(--ink); }
+  .cri b { color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:15px; }
+  table { border-collapse:collapse; margin:16px 0; width:100%; font-size:14px; }
+  td, th { border:1px solid #26456e; padding:8px 12px; text-align:left; }
+  th { color:var(--green); }
+  td.n { font-family:Consolas,monospace; color:var(--gold); white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏛️ El Teorema de la Trinidad</h1>
+  <p class="sub">El Teorema de las Placas / Ley del Líder — tres regiones, una ley</p>
+  <p class="quien">Nacido del flash tectónico de Nico · sellado por la auditora · bautizado por el capitán, 2026-08-15</p>
+</header>
+<nav>
+  <a href="index.html">← La Galería</a>
+  <a href="teorema-astorga.html">Astorga</a>
+  <a href="teorema-dyn.html">DYN</a>
+  <a href="teorema-diosyunalma.html">Diosyunalma</a>
+  <a href="teorema-rio-de-pozos.html">Río de Pozos</a>
+  <a href="museo.html">🏛️ Museo</a>
+  <a href="../docs/TEOREMAS.md">📜 El libro</a>
+</nav>
+<main>
+
+<h2>① La historia: del terremoto al mapa</h2>
+<p class="cri">Este teorema empezó con un flash del capitán que no hablaba de números: hablaba de
+<b>placas tectónicas</b> — regiones que se separan, se unen, se quiebran; grietas que se ramifican;
+y la pregunta de si una misma fragilidad puede terminar en un colapso… o en una cordillera. La
+auditora destiló la imagen en preguntas de formalización con una regla de hierro: <em>la metáfora
+abre la puerta, la definición decide qué hay detrás</em>. Y detrás había de todo: las placas
+existían literalmente (las citas forman bloques contiguos separados por océanos), el conjunto de
+citas resultó ser un semigrupo con su grafo, y sobre todo el mapa apareció una ley que nadie había
+pedido y lo gobierna todo.</p>
+
+<h2>② Qué dice, en criollo</h2>
+<p class="cri"><b>EL LÍDER MANDA.</b> Entre todas las perlas desafinadas de una configuración, la
+de radio más grande — el líder — decide SOLA el destino de cada escalón de la escalera de Li,
+con las demás perlas ignoradas por completo. El paisaje tiene tres regiones, y la fase del líder
+es el único juez: donde el líder afina (su fase cerca del compás), la escalera se hunde — POZO.
+Donde desafina a pleno (fase en el compás opuesto), la escalera se levanta — MONTAÑA. Y donde el
+líder enmudece, en la franja del medio, ningún teorema puede decidir — <b>y eso también está
+demostrado</b>.</p>
+<div class="imagen">
+<p class="iq">La imagen para llevarse</p>
+<p class="cri" style="margin:0">Un paisaje con una cordillera, un valle de pozos, y entre ellos una
+franja de niebla. El teorema es el mapa que dice: de este lado del meridiano del líder, todo pozo;
+del otro lado, toda montaña; y la niebla del medio no es un descuido del cartógrafo — <b>es un
+cartel que dice «aquí los mapas no alcanzan», con la prueba de por qué</b>. Tres regiones, una
+ley, y la honestidad dibujada en el mapa mismo.</p>
+</div>
+
+<h2>③ El enunciado</h2>
+<p>Hipótesis: las H0-H4 de DYN intactas, más UNA nueva y explícita — <b>HL, líder estricto</b>
+(existe una única perla de radio máximo; vacua si hay una sola). Con N* = max(n_rad, n_comp) y
+los umbrales calculables del libro:</p>
+<div class="math">P1 · banda fina ‖nθ_L‖ ≤ 1, n ≥ N*  ⟹  λₙ &lt; 0  (POZO)<br>
+P2 · banda anti ‖nθ_L−π‖ ≤ 1, n ≥ max(1, n_comp)  ⟹  λₙ &gt; 0  (MONTAÑA)<br>
+P3 · cada ventana de K_L pasos contiene habitantes de ambas bandas ∎</div>
+<div class="math chica">ALCANCE DECLARADO:   POZO  |  REGIÓN NO CLASIFICADA POR ESTE TEOREMA  |  MONTAÑA</div>
+<p class="cri">En criollo: <b>mirá solo la fase del líder y sabés el destino: pozo garantizado de
+un lado, montaña garantizada del otro, ambos con fecha por ventana — y la franja del medio,
+declarada abierta con honestidad de enunciado.</b></p>
+
+<h2>④ La demostración, paso a paso</h2>
+<p><em>Las cadenas completas: F1-F6 (pozos) y A1-A6 (montañas), en las actas de las placas. Acá,
+cada pieza con su porqué.</em></p>
+
+<div class="paso"><b class="t">PASO 1 — Los pozos (F1-F6): el líder afinado arrastra todo para abajo.</b>
+<p class="cri">En la banda fina el coseno del líder está cerca de 1, así que su onda empuja
+−2cos(1)·r_Lⁿ — exponencial y negativa. Lo que juega en contra: el coro (acotado por
+(4/π)n·log n bajo H4), las constantes, y los competidores (a lo sumo 2r₂ⁿ cada uno). Desde
+n_comp, el líder les paga la cuenta a los competidores (r_Lⁿ crece más rápido que r₂ⁿ: ahí y
+solo ahí entra líder-estricto); y desde n_rad, le gana al coro — <b>reciclando el lema radial de
+DYN con el corchete duplicado, pagado por el margen que recuperó el Teorema de Diosyunalma</b>.
+Suma total: negativa, para TODO n de la banda desde N*. Sin agenda: la banda entera.</p></div>
+
+<div class="paso"><b class="t">PASO 2 — Las montañas (A1-A6): el líder a contramano levanta el paisaje.</b>
+<p class="cri">En la banda anti el coseno del líder es ≤ −cos(1): su onda empuja PARA ARRIBA con
++2cos(1)·r_Lⁿ. El coro también suma (siempre es ≥ 0), y los competidores restan a lo sumo
+2(m−1)r₂ⁿ — que el líder vuelve a pagar desde el mismo n_comp. <b>La sorpresa del diseño: las
+montañas salen más baratas que los pozos</b> — no necesitan ni H4 ni el lema radial. Y para una
+sola perla, la mitad entera del paisaje (‖nθ‖ ≥ π/2) es montaña desde n = 1, con una prueba de
+UNA línea: coseno ≤ 0 ⟹ la onda no resta ⟹ λ ≥ 4.</p></div>
+
+<div class="paso"><b class="t">PASO 3 — La programabilidad: pozos y montañas con fecha.</b>
+<p class="cri">El lema de la ventana de Astorga, aplicado a los dos arcos (el del compás y el del
+compás opuesto, ambos de largo 2 ≥ θ_L bajo H2): cada bloque de K_L pasos consecutivos pisa las
+dos bandas. Pozos infinitos y montañas infinitas, ambos programables — para siempre.</p></div>
+
+<div class="paso"><b class="t">PASO 4 — La frontera: la honestidad con prueba.</b>
+<p class="cri">En la franja donde el líder enmudece (su coseno cerca de cero), su onda exponencial
+desaparece y quedan mandando los competidores y el coro. Para m ≥ 2 está DEMOSTRADO que ahí no
+puede haber signo universal: un competidor afinado cava, uno a contramano levanta — ambos
+realizables bajo las mismas hipótesis. <b>La región queda fuera del teorema por teorema, no por
+cansancio.</b> (Para una perla sola, la frontera es la curva exacta ‖nθ‖ = π/2.)</p></div>
+
+<h2>⑤ Qué lo hace real</h2>
+
+<div class="real"><b class="t">Las tres bandas medidas — ignorando a la otra perla por completo.</b>
+<table>
+<tr><th>banda del líder</th><th>predicción</th><th>medido (testigo m = 2, ventana tras N*)</th></tr>
+<tr><td>fina (‖nθ_L‖ ≤ 1)</td><td>λ &lt; 0 siempre</td><td class="n">978/978 negativos — 0 excepciones ✓</td></tr>
+<tr><td>anti (‖nθ_L−π‖ ≤ 1)</td><td>λ &gt; 0 siempre</td><td class="n">944/944 positivos — 0 excepciones ✓</td></tr>
+<tr><td>frontera</td><td>mixta (declarado)</td><td class="n">540 λ&lt;0 · 539 λ&gt;0 — al medio ✓</td></tr>
+</table>
+<p class="cri">La perla 1 se ignoró en la clasificación y el signo obedeció igual: el líder manda.
+Más las baterías: F6 en 50 casos de grilla, F5 en 84 bordes exactos, las montañas del líder desde
+el umbral precalculado (926 casos) — todo con cero violaciones.
+Reproducible: <span class="n">go run ./cmd/elteoremadelatrinidad</span>.</p></div>
+
+<div class="real"><b class="t">La forja: seis actas con la relojera (F333-F338).</b>
+<p class="cri">La traducción del flash (el semigrupo y las placas literales), la Ley del Líder, el
+cierre de la banda fina con N* explícito, el diseño completo en formato de auditoría I-X, la
+costura de la paramétrica (afuera del mínimo, por orden de la auditora: no se declara cerrado lo
+que falta redactar), y las dos últimas puntadas de notación que solo una relojera ve — separar P1
+por casos para que r₂ jamás pise fuera de su dominio, y el cuantificador cristalino
+max(1, n_comp). <b>Sellado.</b></p></div>
+
+<div class="real"><b class="t">La autoría, como manda la casa.</b>
+<p class="cri">La intuición tectónica — placas, grietas, colapso y reorganización — <b>es de
+Nico</b>. La auditora fijó las preguntas; el taller puso la arquitectura. Y el nombre del capitán
+las une a todas: <b>Trinidad</b> — las tres regiones del paisaje, y los tres de la mesa que lo
+forjaron.</p></div>
+
+<div class="honesto"><b>Los límites, declarados:</b> hipótesis H0-H4 más líder estricto (nueva,
+explícita, vacua en m = 1). La región intermedia queda FUERA del teorema a propósito — con prueba
+de que para m ≥ 2 no puede clasificarse con estas hipótesis. La versión paramétrica (bandas más
+anchas) es desarrollo posterior pendiente de redacción — declarado. Las montañas conjuntas
+(todas las perlas a contramano a la vez) siguen abiertas y el teorema no las usa. Las corridas
+son evidencia; las pruebas son las cadenas auditadas. <b>Nada de esta página es una demostración
+de RH.</b></div>
+
+<h2>⑥ La placa</h2>
+<div class="placa"><img src="laminas/01-siete-caras/el-teorema-de-la-trinidad.svg" alt="La placa del Teorema de la Trinidad"></div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · la forja: F333-F339 en la bitácora · <a href="teorema-astorga.html" style="color:var(--blue)">Astorga</a> · <a href="teorema-dyn.html" style="color:var(--blue)">DYN</a> · <a href="teorema-diosyunalma.html" style="color:var(--blue)">Diosyunalma</a> · <a href="teorema-rio-de-pozos.html" style="color:var(--blue)">Río de Pozos</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<rect x="40" y="30" width="1320" height="740" rx="18" fill="none" stroke="#ffd98a" stroke-width="2" opacity="0.55"/>
+<rect x="52" y="42" width="1296" height="716" rx="14" fill="none" stroke="#ffd98a" stroke-width="0.8" opacity="0.35"/>
+<text x="700" y="90" font-size="17" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">LABORATORIO DIOSYUNALMA · SECTOR DE LOS TEOREMAS · PIEZA N.º 5</text>
+<text x="700" y="138" font-size="31" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🏛️ TEOREMA DE LA TRINIDAD</text>
+<text x="700" y="170" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El Teorema de las Placas / Ley del Líder — tres regiones, una ley · nacido del flash tectónico de Nico</text>
+<text x="700" y="212" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Hipótesis: H0-H4 (las de DYN, intactas) + HL (líder estricto: r_L &gt; rᵢ; vacua en m = 1) · cero inputs externos nuevos</text>
+<rect x="130" y="238" width="1140" height="106" rx="10" fill="#101f36" stroke="#26456e"/>
+<text x="700" y="268" font-size="16.5" text-anchor="middle" font-family="monospace" fill="#7ee0c0">P1 · banda fina  ‖nθ_L‖ ≤ 1,  n ≥ N*        ⟹  λₙ &lt; 0   (POZO)</text>
+<text x="700" y="296" font-size="16.5" text-anchor="middle" font-family="monospace" fill="#ff9aa8">P2 · banda anti  ‖nθ_L−π‖ ≤ 1, n ≥ max(1, n_comp) ⟹  λₙ &gt; 0   (MONTAÑA)</text>
+<text x="700" y="324" font-size="16.5" text-anchor="middle" font-family="monospace" fill="#ffd98a">P3 · ambas bandas habitadas en cada ventana de K_L pasos — con fecha, para siempre ∎</text>
+<text x="700" y="366" font-size="15" text-anchor="middle" font-family="Georgia" fill="#dce8f7">ALCANCE DECLARADO:   POZO  |  REGIÓN NO CLASIFICADA POR ESTE TEOREMA  |  MONTAÑA</text>
+<text x="700" y="392" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la frontera no se maquilla: para m ≥ 2 está DEMOSTRADO que ahí no puede haber signo universal — abierta por teorema, no por cansancio</text>
+<rect x="90" y="418" width="600" height="160" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
+<text x="390" y="448" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LAS TRES BANDAS, MEDIDAS (la perla 1 ignorada)</text>
+<text x="120" y="478" font-size="13" font-family="monospace" fill="#cfe6ff">POZO:    978/978 negativos — 0 excepciones</text>
+<text x="120" y="506" font-size="13" font-family="monospace" fill="#cfe6ff">MONTAÑA: 944/944 positivos — 0 excepciones</text>
+<text x="120" y="534" font-size="13" font-family="monospace" fill="#cfe6ff">FRONTERA: 540/539 — mixta, como el teorema declara</text>
+<text x="120" y="562" font-size="12.5" font-family="Georgia" fill="#9aa8c4">batería F6: 50 casos, 0 violaciones · m=1: λ ≥ 4 en ‖nθ‖ ≥ π/2, desde n = 1</text>
+<rect x="710" y="418" width="600" height="160" rx="12" fill="#101f36" stroke="#26456e"/>
+<text x="1010" y="448" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">LA FORJA Y LA AUDITORÍA (F333-F338)</text>
+<text x="740" y="478" font-size="12.5" font-family="Georgia" fill="#cfe6ff">el flash tectónico de Nico → el semigrupo de citas y las placas (F333) →</text>
+<text x="740" y="502" font-size="12.5" font-family="Georgia" fill="#cfe6ff">la Ley del Líder (F334) → la banda fina F1-F6 con N* explícito (F335) →</text>
+<text x="740" y="526" font-size="12.5" font-family="Georgia" fill="#cfe6ff">el diseño I-X (F336) → la costura de F(η) afuera (F337) → las puntadas</text>
+<text x="740" y="550" font-size="12.5" font-family="Georgia" fill="#cfe6ff">de notación (F338) — y el sello de la auditora ✅</text>
+<text x="700" y="614" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">En criollo: el paisaje tiene tres regiones — el pozo, la montaña, y la frontera que las separa — y una sola ley</text>
+<text x="700" y="636" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">las gobierna: EL LÍDER MANDA. Donde el líder afina, la escalera se hunde; donde desafina a pleno, se levanta</text>
+<text x="700" y="658" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">montaña; y donde enmudece, ningún teorema puede decidir — y eso también está demostrado.</text>
+<text x="700" y="692" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Tres regiones, tres en la mesa que lo forjaron, y el nombre del capitán: Trinidad. La regla del sello preside: nada de esto demuestra RH.</text>
+<text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
+</svg>

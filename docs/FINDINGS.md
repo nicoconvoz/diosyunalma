@@ -6681,6 +6681,106 @@ The hall now reads: Astorga (detection) · DYN (interaction) · Diosyunalma (rob
 
 ---
 
+## Finding 333 — THE PLATES: the tectonic flash translated — the appointment semigroup, the six blocks, and the MOUNTAINS
+
+Yui's F325 request (Nico's idea: plates, cracks, emergent structures), answered in `docs/PLACAS-ACTA.md` + `cmd/lasplacas`.
+
+**The translation:** the object is C_ε = {n : ‖nθᵢ‖ ≤ ε ∀i} (a Bohr set) with INTRINSIC structure: (LP1) SEMIGROUP — appointment + appointment = appointment with qualities adding (subadditivity, one line); (LP2) accessibility v→w ⇔ w−v ∈ C, translation-invariant; (LP3) unbounded branching (the (ε/π)²·H law nailed to 3%%); (LP4) recombination — diamonds by commutativity, exhibited.
+
+**LP5, the find — THE MOUNTAINS:** anti-appointments ‖nθ−π‖ ≤ 1; for m = 1 the window lemma on the arc shifted to π (under H2: θ ≤ π/2 < 2) yields an anti-appointment in every K-block with λ ≥ 4 + 2cos(1)·rⁿ → +∞ — **the same fragility digs wells AND raises exponential mountains, both with dates**; 981 anti-appointments verified, 0 violations.
+
+**The plates literally exist:** in the witness window the 435 appointments form ONLY 6 contiguous blocks (429 gaps of size 1) separated by ~480-step oceans — gap alphabet {1, 476, 477, 480, 508}: 5 values out of 434 possible (a relative of the three-distance theorem; for m ≥ 2: declared as conjecture). The tectonic boundary table: FF→WELL (435, λ<0 always), FA/AF mixed (216/388), AA→MOUNTAIN (200, mean λ +9×10⁴⁴); global regime: collapse 1518 vs reorganization 1483 — collapse is the scheduled minority.
+
+**H-F3 answered AGAINST intuition:** depth does not cause branches (translation invariance ⇒ identical descendants for every v); the quality ε_eff is the common cause of depth (Pearson −0.464) and branching budget — correlation with mechanism, not implication.
+
+**Classification (§15):** 🟢 LP1-LP5 lemma candidates · 🟠 conjectures (finite gap alphabet for m≥2; joint mountains m≥2 — named obstacle: simultaneous INHOMOGENEOUS approximation) · possible big destination: a PLATES THEOREM for m = 1 (the full landscape of alternating wells and mountains). Nothing declared — the lens is Yui's.
+
+**Reproduce.** `go run ./cmd/lasplacas`.
+
+---
+
+## Finding 334 — THE LEADER'S LAW: the geometry of appointments answered — the sign of λ obeys the leader's phase band alone
+
+Yui's F326 request answered point by point in `docs/PLACAS-GEOMETRIA-ACTA.md` + `cmd/lageometria`.
+
+**The central find — THE LEADER'S LAW:** under strict leader (r_L > rᵢ, a new explicit hypothesis), the LEADER'S phase band alone decides the sign: fine ⇒ WELL (∀n ≥ N*), anti ⇒ MOUNTAIN (∀n ≥ n_mont = ⌈log(2(m−1)/cos 1)/(δ_L−δ₂)⌉, explicit), frontier ⇒ mixed. **Verified ignoring pearl 1 entirely: fine 978/978 negative · anti 944/944 positive · frontier 540/539 split — ZERO exceptions in the outer bands**; n_mont = 23064 computed beforehand, 926 leader anti-appointments verified, 0 floor violations. **The m ≥ 2 inhomogeneous obstacle is NO LONGER NEEDED for the landscape**: leader mountains suffice and the window lemma schedules them.
+
+**The twelve §13 questions:** ε_eff = the level function of the filtration (number and geometry are one); plate := interval component of C_ε (2/4/6 plates at ε = 0.25/0.5/1); exact structure: graded commutative monoid with declared domain (informative only if ε+ε' < π); the graph is the CAYLEY graph of (ℕ,+) with generator C_{ε_d} — directed, irreflexive, gradedly transitive, translation-invariant; out-degree ≥ 2 BY CONSTRUCTION (c and 2c via Dirichlet at ε_d/2); diamonds proven for every pair; the crossing n₀ = 37306 lived in the frontier band (‖nθ₁‖ = 1.76) as the law predicts.
+
+**The m = 1 anti-appointment audited step by step (A1-A6)** with its domain declared (θ ≤ 2; under H2 amply satisfied) · exponential-regime battery [37000, 42000]: 1543 anti-appointments, 0 violations, minimum slack 0.21.
+
+**Hostile attack §15:** branching without any agenda (c, 2c pre-exist), depth/branching independence PROVEN (identical out-degree ∀v: 25 measured), coordinate-free plates, sum domain declared, and "more depth ⇒ more branches" structurally FALSIFIED (a 🔴 gain).
+
+**Classification §16:** 🟢 big theorem candidate — THE LEADER'S LAW / PLATES THEOREM (the full landscape under strict leader, explicit thresholds; the fine-band N* and quantifiers remain for the auditor's lens) · 🟡 six lemma candidates · 🟠 conjectures (inhomogeneous, now unnecessary; gap alphabet m≥2).
+
+**Reproduce.** `go run ./cmd/lageometria`.
+
+---
+
+## Finding 335 — THE YELLOW POINT, CLOSED: fine band → N* → λ < 0 with all quantifiers
+
+Yui asked to close exclusively the Leader's Law's yellow point before writing the Plates Theorem. Closed: `docs/PLACAS-BANDA-FINA-ACTA.md` + `cmd/labandafina`.
+
+**The lemma candidate:** ∀ configuration under H0-H4 with strict leader, ∀n ≥ N* = max(n_rad, n_comp) with ‖nθ_L‖ ≤ 1 ⇒ λₙ < 0 — a STRONG quantifier (every n of the band, no agenda, other pearls unrestricted), with an explicit majorant and n_comp = ⌈log(2(m−1)/cos 1)/(δ_L−δ₂)⌉.
+
+**The chain F1-F6:** F1 leader in band (cos ≥ cos 1) · F2 competitors ≤ 6+2r₂ⁿ · F3 choir under H4 · F4 assembly · F5 the leader pays for the competitors past n_comp (the ONLY use of strict-leader) · F6 DYN's radial RECYCLED with a doubled bracket: bracket₂(n_rad) = 2·bracket_DYN + (8m−8) ≤ 3u³ ≤ u^{3(m+1)} ≤ e^{n_radδ_L} — Diosyunalma's margin paying yet another bill — plus the audited D3 pattern (two nested integrations) for all n ≥ n_rad.
+
+**Dependency map:** H2 does NOT enter the sign (only the window schedulability corollary); strict-leader only in F5; H4 only in F3.
+
+**Verification:** F6 on the 50-case grid (0 violations) · F5 at 84 exact synthetic boundaries (0) · the chain live: the witness's 978 fine-band steps past N* = 1040809 — majorant and sign, ZERO violations.
+
+The landscape's two outer bands now stand at the same level (anti ⇒ mountain past n_mont; fine ⇒ well past N*): the serious reason to sit down and write the PLATES THEOREM exists — the assembly and the seal belong to the table of three.
+
+**Reproduce.** `go run ./cmd/labandafina`.
+
+---
+
+## Finding 336 — THE FINAL DESIGN OF THE PLATES THEOREM: the complete architecture in I-X format
+
+Yui's urgent F327 request (design stage: assemble, audit, delimit — invent nothing), answered in `docs/PLACAS-DISENO-FINAL.md` in her exact I-X format.
+
+**I: F1-F6 CLOSED** line by line (F1b's subtle orientation explained: discarding −2cos(1)r⁻ⁿ is valid BECAUSE cos(1) > 0; the discrete step gapless; universality agenda-free) · **II: WELL LEMMA** exact statement · **III: MOUNTAINS separated** — m=1: ∀n ≥ 1, ‖nθ‖ ≥ π/2 ⇒ λ ≥ 4 (unconditional, one line!); m≥2: ∀n ≥ n_comp (the SAME threshold as F5 — one competitor threshold for both bands!) λ ≥ cos(1)r_Lⁿ + 2m+2.
+
+**IV: THE FRONTIER IS AN EQUATOR** — Yui's three exits delivered WITH proof: parametric well/mountain subzones (∀η, explicit thresholds — sketch flagged X.3), and the residue: for m=1 the frontier is the CURVE ‖nθ‖ = π/2 (the whole ≥ π/2 side is mountain); for m≥2 the equator has NO universal sign AND WE PROVE IT (the leader goes silent and the competitors decide: both signs realizable) — open by theorem, not by fatigue; witness frontier 540/539 as evidence.
+
+**VII, the design's asymmetry:** MOUNTAINS use neither H4 nor the radial — cheaper than wells; H2 only pays for schedulability; each hypothesis with exactly one bill. **VI: the minimal statement P1-P4** · V: G1-G5 as independent frame lemmas · VIII: eight counterexamples sought, none found, all documented (barely-dominant leader: n_comp explodes finitely, declared) · IX: all evidence labeled · X: five real open points (door X.2: a recursive sub-leader law at the equator?).
+
+**Proposed state for her §14 criterion: 🟠 OPEN FRONTIER** — the theorem correct with closed quantifiers in P1/P2/P4, and the m≥2 frontier open ON PURPOSE with proof that it must be. The seal and the name belong to the table of three.
+
+---
+
+## Finding 337 — THE SEAM CLOSED: the final minimal statement of the Plates Theorem
+
+Yui's verdict on the design: 🟡 ALMOST — one seam: do not declare P3 closed while F(η) lacks its rigorous write-up. Decision: the parametric version OUT of the minimum. Her §8 instruction: write the clean statement NOW. Done: `docs/TEOREMA-PLACAS-ENUNCIADO.md`.
+
+**The minimal statement:** hypotheses H0-H4 + HL (strict leader, vacuous at m=1) · P1 WELLS (fine band, n ≥ N*, with majorant) · P2 MOUNTAINS (m=1: ‖nθ‖ ≥ π/2 ⇒ λ ≥ 4 from n=1; m≥2: anti band from n_comp) · P3 SCHEDULABILITY (K_L window, under H2) · and the DECLARED SCOPE with the auditor's honest sign: WELL | REGION NOT CLASSIFIED BY THIS THEOREM | MOUNTAIN.
+
+Separated as ordered: frame lemmas G1-G5 · corollaries (the River runs through this landscape's fine band; Diosyunalma adds depth at joint appointments) · posterior development F(η) (idea identified, write-up pending — declared) · a delimitation observation with proof (m≥2: impossibility of a universal sign in the silent zone) · open problems.
+
+Yui's state: PREPARE THE SEAL — no "Theorem 4" until her lens sees this clean statement.
+
+---
+
+## Finding 338 — THE LAST STITCH: P1 split into m=1 and m≥2 — r₂ never outside its domain
+
+Yui's final correction before the seal (favorable on everything else): P1 displayed 2(m−1)·r₂ⁿ with r₂ defined only for m ≥ 2 — the factor vanishes at m=1 but the notation was improper. A notation fix, not a mathematical objection.
+
+P1 split: m=1 → λ ≤ (4/π)n·log n + 4 − 2cos(1)r_Lⁿ; m≥2 → the general form — with the note that at m=1 lines F2 and F5 are vacuous. Nothing else touched (P2, P3, G1-G5, scope: intact, as ordered). The auditor: if no further formal inconsistency appears, READY FOR THE SEAL.
+
+---
+
+## Finding 339 — THE TRINITY THEOREM: the fourth great theorem is born — three regions, one law, and the captain's name
+
+Sealed by Yui and baptized by the captain: **THE TRINITY THEOREM** (the Plates Theorem / Leader's Law) — the landscape's three regions (well, frontier, mountain) and the three at the table who forged it. The tectonic intuition is Nico's (authorship preserved).
+
+**Fully framed:** plaque `cmd/elteoremadelatrinidad` + `el-teorema-de-la-trinidad.svg` (re-verifies the F6 battery and the three bands before framing: well 978/978, mountain 944/944, frontier 540/539 — pearl 1 ignored) · the THEOREM 4 section in docs/TEOREMAS.md (Theorem 5's space reserved) · hall piece No. 5 with the earthquake tale and the honest-fog map metaphor · classroom `galeria/teorema-trinidad.html` · fifth honor card · cross-links across the five classrooms · README "The theorems hall". The three campaign programs enter the catalog (`lasplacas`, `lageometria`, `labandafina`).
+
+The hall now reads: Astorga · DYN · Diosyunalma · River of Wells · Trinity. Honesty as part of the statement: WELL | REGION NOT CLASSIFIED | MOUNTAIN — the frontier declared open with proof that it must stay so (m ≥ 2); the parametric F(η) as a declared posterior development. The seal rule presides over all five: nothing here proves RH.
+
+**Reproduce.** `go run ./cmd/elteoremadelatrinidad`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

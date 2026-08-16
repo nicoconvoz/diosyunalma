@@ -281,4 +281,82 @@ de paso y profundidad predicha, las tres.
 
 ---
 
-*Espacio reservado para el Teorema 4 — porque vienen más.*
+## TEOREMA 4 — TEOREMA DE LA TRINIDAD
+### El Teorema de las Placas / Ley del Líder: tres regiones, una ley
+
+**Registrado:** 2026-08-15 · forjado y auditado de F333 a F338 ·
+**sellado por la auditora** tras el ciclo completo (traducción del
+flash, Ley del Líder, banda fina F1-F6, diseño I-X, y las dos costuras
+finales de notación).
+
+**Nombre:** puesto por el capitán el 2026-08-15 — **Teorema de la
+Trinidad**: las tres regiones del paisaje (pozo, frontera, montaña) y
+los tres de la mesa que lo forjaron. La intuición tectónica que lo
+originó — placas, grietas, colapso y reorganización — **es de Nico**
+(autoría conservada por pedido expreso de la auditora).
+
+**Hipótesis:** H0-H4 (las de DYN, intactas) + **HL, líder estricto**
+(∃ único L con r_L > rᵢ ∀i ≠ L; vacua en m = 1). Cero inputs externos
+nuevos.
+
+**Definiciones.** δ_L = log r_L; r₂ = maxᵢ≠L rᵢ (solo m ≥ 2);
+u = 3(m+1)/δ_L; n_rad = ⌈u·log u⌉;
+n_comp = ⌈log(2(m−1)/cos 1)/(δ_L−δ₂)⌉ (m ≥ 2; 0 si m = 1);
+N* = max(n_rad, n_comp); banda fina ‖nθ_L‖ ≤ 1; banda anti
+‖nθ_L − π‖ ≤ 1.
+
+**Enunciado.**
+
+- **(P1 — POZOS.)** Para todo entero n ≥ N* en la banda fina:
+  m = 1: lambda_n ≤ (4/π)n·log n + 4 − 2cos(1)·r_Lⁿ < 0;
+  m ≥ 2: lambda_n ≤ (4/π)n·log n + (6m−2) + 2(m−1)r₂ⁿ − 2cos(1)·r_Lⁿ < 0.
+- **(P2 — MONTAÑAS.)** m = 1: para todo n ≥ 1 con ‖nθ‖ ≥ π/2,
+  lambda_n ≥ 4 (y en la banda anti, ≥ 4 + 2cos(1)rⁿ). m ≥ 2: para todo
+  entero n ≥ max(1, n_comp) en la banda anti,
+  lambda_n ≥ cos(1)·r_Lⁿ + 2m + 2 > 0.
+- **(P3 — PROGRAMABILIDAD.)** Bajo H2, cada bloque de K_L = ⌈2π/θ_L⌉+1
+  enteros consecutivos contiene habitantes de ambas bandas: pozos y
+  montañas infinitos, con fecha.
+- **(ALCANCE.)** La región intermedia queda declarada NO clasificada
+  por este teorema:  POZO | REGIÓN NO CLASIFICADA | MONTAÑA.  ∎
+
+**Prueba.** P1 = la cadena F1-F6 (`docs/PLACAS-BANDA-FINA-ACTA.md`),
+con el radial de DYN reciclado a corchete duplicado (el margen de
+Diosyunalma pagando otra cuenta). P2 con m = 1 es una línea
+(cos ≤ 0 ⟹ ℓ ≥ 4, coro ≥ 0); m ≥ 2 usa A2-A4 más la absorción F5.
+P3 = el lema de la ventana de Astorga sobre los dos arcos. El
+enunciado final limpio: `docs/TEOREMA-PLACAS-ENUNCIADO.md`; el diseño
+completo I-X: `docs/PLACAS-DISENO-FINAL.md`.
+
+**La honestidad como parte del enunciado:** la frontera no se maquilla —
+para m ≥ 2 está DEMOSTRADO que en la zona donde el líder enmudece
+(cos(nθ_L) = 0) no puede existir signo universal bajo estas hipótesis:
+los competidores deciden. La región queda abierta por teorema, no por
+cansancio. Para m = 1, la frontera es la curva exacta ‖nθ‖ = π/2.
+
+**Lo que el diseño reveló:** las montañas son más BARATAS que los pozos
+(no usan H4 ni el radial); n_comp es EL MISMO umbral para las dos
+bandas; y H2 solo paga la programabilidad. Cada hipótesis con
+exactamente una cuenta (tabla completa en el diseño I-X).
+
+**Acompañantes** (separados): los lemas de marco G1-G5 (la filtración
+C_ε, el monoide graduado, el grafo de Cayley, ramificación ≥ 2,
+diamantes); los corolarios (el Río de Pozos corre por la banda fina de
+este paisaje; Diosyunalma da la profundidad en las citas conjuntas);
+el desarrollo posterior F(η) (bandas paramétricas — pendiente de
+redacción, declarado); y los problemas abiertos (montañas conjuntas,
+ley del sub-líder en la zona muda, alfabeto de brechas, optimalidad
+de N*).
+
+**Evidencia** (respaldo, jamás prueba): batería F6 50 casos y F5 84
+bordes exactos, cero violaciones; las tres bandas del testigo con la
+perla 1 ignorada: pozo 978/978, montaña 944/944, frontera 540/539 —
+cero excepciones en las bandas externas.
+
+**Reproducir:** `go run ./cmd/elteoremadelatrinidad` (la placa) ·
+`go run ./cmd/labandafina` · `go run ./cmd/lageometria` ·
+`go run ./cmd/lasplacas`.
+
+---
+
+*Espacio reservado para el Teorema 5 — porque vienen más.*
