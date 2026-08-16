@@ -6809,6 +6809,76 @@ Logged live: the lookouts keep sailing; catches go to luz/cazadero.log and luz/f
 
 ---
 
+## Finding 342 — THE COLOR OF FRAGILITY: the landscape projected onto the phase torus
+
+The captain's flash-question: do wells, frontiers and mountains have a COLOR? Does recombination give deeper and lighter tones? Can it be projected? — YES: `cmd/elcolordelafragilidad` + `el-color-de-la-fragilidad.svg`.
+
+**The natural screen is the PHASE TORUS:** each step n lives at (‖nθ₁‖, ‖nθ₂‖) ∈ [0,π]², and there the landscape paints itself — deep blues = wells (darker the deeper, log scale of −λ), light golds = mountains (brighter the higher).
+
+**The two-waters answer:** in SHALLOW water (n ≤ 3000, radii ≈ 1) the two phase channels TINT TOGETHER — the mix is real: tones depending on both axes (ℓ₁+ℓ₂ ∈ [0, 16.2]); in DEEP water (past n_rad) dominance BLEACHES the mixture: pure horizontal bands — the color depends on the leader's axis alone (λ ∈ [−1.2×10⁴⁵, +1.2×10⁴⁵]) — **the Leader's Law, seen as paint**.
+
+In plain words: the colors exist and recombine; in the deep the leader keeps the brush and the mixture only shades the tone. Fragility has a palette, and the palette obeys the theorems. Honest: a projection of the ALREADY-proven landscape (Trinity + geometry) — visualization, not a new proof.
+
+**Reproduce.** `go run ./cmd/elcolordelafragilidad`.
+
+---
+
+## Finding 343 — THE LANDSCAPE'S RELIEF: the grand view with zoom — mountains, water and wells, color plus relief
+
+The captain's request: "paint it at grand scale with zoom... I want to see it all, with its relief: color plus relief" — done: `cmd/elrelievedelpaisaje` + `el-relieve-del-paisaje.svg`.
+
+**Real terrain-map technique:** altitude = log of λ (10⁴⁵ summits and 10⁴⁵ trenches fit one canvas), HYPSOMETRIC TINTING (golden snow on the summits → gold → sand → aqua at the shore → luminous ultramarine toward the abyss) plus SLOPE SHADING with the sun from the left.
+
+**Three scales:** (A) THE GRAND VIEW — 1,043,809 steps as a per-column envelope: calm sea on the left (the choir barely above water), the first crack opening at n₀ = 37306, and the double wedge growing unchecked toward the clearing — golden cordillera above, ultramarine trench below; (B) THE ZOOM — three leader periods (849 steps) past the clearing at full resolution: summits and wells taking turns on the leader's beat; (C) THE MICRO-ZOOM — one period (283 steps): well, shore and summit — the plate seen in profile.
+
+Hot fix: the first palette drowned the trenches into the dark background — the abyss was recolored to luminous ultramarine so the wells SHINE (verified in the browser before framing). A projection of the proven landscape (Trinity) — visualization, not a new proof.
+
+**Reproduce.** `go run ./cmd/elrelievedelpaisaje`.
+
+---
+
+## Finding 344 — THE SKY: the fourth regime, fished — the wave that remains when height goes away
+
+The captain's flash translated by Yui (F328): does a SKY exist — a fourth regime that is not just a taller mountain? Rule: fish before naming. Fished: `cmd/elcielo` + `docs/CIELO-ACTA.md`.
+
+**The fish (experiment 5):** A(n) = λₙ/r_Lⁿ neither converges to a constant nor dies nor diverges — it locks onto the PURE BOUNDED WAVE −2cos(nθ_L), amplitude exactly 2. **The clearing curve nails the 2(r₂/r_L)ⁿ prediction across five orders**: at n = 200k measured 2.4×10⁻⁵ vs predicted 2.4×10⁻⁵; at 400k, 2.8×10⁻¹⁰ vs 2.8×10⁻¹⁰; from 700k, the float64 floor. The clearing constant is THE LEADER'S GAP (δ_L−δ₂) — the same as n_comp: experiment 8's new natural scale.
+
+**The layers (exp. 6-7):** the sub-sky (removing ℓ_L, the residue/r₁ⁿ locks onto −2cos(nθ₁), deviation 1.5×10⁻¹¹) and the FIRMAMENT (removing all pearls leaves exactly coroₙ, bounded in [0.02, 114.0], theoretical ceiling 152): the hierarchy leader → sub-leader → firmament, each layer with its wave. **The invariant (exp. 10):** with m = 3, the SAME wave (1.1×10⁻¹⁰). **Destruction (exp. 11):** not a disguised mountain (bounded vs growth), not a log artifact (linear scale), coordinate- and scale-independent; and the real frontier declared: WITHOUT strict leader the quotient does not converge to a pure wave — the candidate lives where the Leader's Law lives.
+
+**Lemma-candidate** (unnamed): |λₙ/r_Lⁿ + 2cos(nθ_L)| ≤ [(4/π)n log n + (6m−2) + 2(m−1)r₂ⁿ + 4 + 2r_L⁻ⁿ]/r_Lⁿ → 0 — two lines from the already-audited F2-F3.
+
+**Proposed verdict (§12): 🟡** — the sky would be the ASYMPTOTIC REGIME OF THE QUOTIENT: the landscape seen from so far away that height vanishes and only the leader's phase wave remains. The landscape grows; the sky does not. Trinity intact. The name, whenever the table wishes.
+
+**Reproduce.** `go run ./cmd/elcielo`.
+
+---
+
+## Finding 345 — THE SKY'S FORMAL LEMMA: the fish, fully proven
+
+The F329 request solved whole in `docs/CIELO-LEMA-FORMAL.md`: exact statement (m=1 without r₂ / m≥2), threshold n ≥ 3 (demanded only by the choir bound), full proof of the inequality (P1-P3: exact leader identity + triangle with the already-audited C1-C4) and of the limit (L-a..L-e term by term; L-a elementary via e^{nδ} ≥ (nδ)³/6).
+
+**Formalization's find: MINIMAL hypotheses** — H0 + H1 + H4, plus HL ONLY for m ≥ 2 and ONLY at L-c. **Neither H2 nor H3 is used** (declared).
+
+**Corollary 1 (the clearing scale, formally extracted):** limsup (1/n)log|A(n)+2cos(nθ_L)| ≤ −(δ_L−δ₂) — the clearing constant IS the leader's gap, a consequence of the lemma, not a numerical coincidence. **Corollary 2 (the hierarchy, formalized):** R(n) = λ − ℓ_L is EXACTLY the λ of the reduced configuration ⇒ sub-sky by induction (under all-distinct radii, declared) and firmament bounded by 4p for finite background — and Task 7's invariance becomes proven, not observed.
+
+**HL is NECESSARY, proven:** at the tie r₂ = r_L the identity gives λ/r_Lⁿ + 2cos(nθ_L) = −2cos(nθ₂) + o(1), which does NOT tend to 0 (window lemma: infinitely many n with |cos| ≥ ½) — the fishing act's "two cosines", now with proof that the candidate dies without a strict leader.
+
+No hidden agenda (∀n ≥ 3), linear normalization, domains verified, evidence separated from proof. **Self-assessment §15: 🟢 — quantifiers closed; the seal and the name belong to the table. Trinity intact.**
+
+---
+
+## Finding 346 — THE SKY THEOREM: the fifth great theorem is born — piece number six of the hall
+
+Baptized by the captain: **THE SKY THEOREM** — the landscape stripped of its height converges to the leader's pure wave. Born from his flash ("is there a sky above the mountains?"), fished BEFORE being named (F344, the table's rule) and proven whole (F345).
+
+**Fully framed:** plaque `cmd/elteoremadelcielo` + `el-teorema-del-cielo.svg` (re-verifies before framing: the inequality on 2100 steps of 7 windows without violation, the clearing curve nailed — dev(200k) = 2.37e-5 vs 2.4e-5, dev(400k) = 2.76e-10 vs 2.8e-10 —, the firmament bounded 114.0 ≤ 152) · the THEOREM 5 section in docs/TEOREMAS.md (Theorem 6 reserved) · hall piece No. 6 with the space metaphor ("climb high enough and every cordillera becomes texture") · classroom `galeria/teorema-cielo.html` · sixth honor card · cross-links across the six classrooms · README · the fishing program `elcielo` into the catalog.
+
+The hall now reads: Astorga · DYN · Diosyunalma · River of Wells · Trinity · SKY — five theorems and one derived. Workshop confession: the museum piece broke compilation TWICE (escapes as literal text, then real newlines inside the string — the usual ghost); rescued via git checkout + reinsertion + the Edit tool for the two seams. The seal rule presides over all six: nothing here proves RH.
+
+**Reproduce.** `go run ./cmd/elteoremadelcielo`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

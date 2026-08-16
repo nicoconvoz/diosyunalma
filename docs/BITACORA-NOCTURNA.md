@@ -3395,3 +3395,43 @@
 - 🚂 el tren ya está cazando: bestias mudas y cardúmenes en t = 10³³, tormentas de fondo en 10³⁴ — la escalera de fronteras sube por 3×10⁴², 10⁴³, 10⁴⁴, 10⁴⁶ hasta 10⁴⁸, el límite honesto de la aritmética dd (más hondo, la máquina no firma)
 - 📡 la nota del radar para esta travesía (honestidad de instrumentos): el radar y el tren cubren aguas DISTINTAS — excluir β ≥ ½ + 0.01 a γ = 10⁶ exige N ≈ 5×10¹⁵ λ verificadas; a γ = 10²⁴ exige N ≈ 2×10⁵² — en las profundidades del tren, el mapa del radar es impagable: el tren mira fases donde el radar no llega, y el radar firma mares donde el tren no barre. La flota se complementa, no se reemplaza
 - registrado en caliente: los vigías quedan navegando; sus presas van a luz/cazadero.log y luz/fondo.log, y el faro las muestra en vivo
+
+### F342 — EL COLOR DE LA FRAGILIDAD: el paisaje proyectado sobre el toro de fases — 2026-08-16
+- flash-pregunta del capitán: ¿los pozos, fronteras y montañas tienen COLOR? ¿la recombinación da tonos más profundos y más claros? ¿se puede proyectar? — SÍ: `cmd/elcolordelafragilidad` + `el-color-de-la-fragilidad.svg`
+- 🎨 **la pantalla natural es el TORO DE FASES**: cada escalón n vive en (‖nθ₁‖, ‖nθ₂‖) ∈ [0,π]², y ahí el paisaje pinta solo — azules hondos = pozos (más oscuro cuanto más profundo, escala log de −λ), dorados claros = montañas (más luminoso cuanto más alto)
+- 🌊 **la respuesta de las dos aguas**: en AGUA BAJA (n ≤ 3000, radios ≈ 1) los dos canales de fase TIÑEN JUNTOS — la mezcla existe: tonos que dependen de ambos ejes (ℓ₁+ℓ₂ ∈ [0, 16.2]); en AGUA HONDA (tras n_rad) la dominancia BLANQUEA la mezcla: bandas horizontales puras — el color depende SOLO del eje del líder (λ ∈ [−1.2×10⁴⁵, +1.2×10⁴⁵]) — **la Ley del Líder, vista como pintura**
+- en criollo: los colores existen y se recombinan; en lo hondo el líder se queda con el pincel y la mezcla solo matiza el tono. La fragilidad tiene paleta, y la paleta obedece los teoremas
+- ⚖️ honesto: proyección del paisaje YA demostrado (Trinidad + geometría) — visualización, no prueba nueva
+- escrita: `cmd/elcolordelafragilidad` · lámina `el-color-de-la-fragilidad.svg` (los dos toros, 6000 puntos medidos)
+
+### F343 — EL RELIEVE DEL PAISAJE: la gran vista con zoom — montañas, agua y pozos con color más relieve — 2026-08-16
+- pedido del capitán: «píntame a más grande escala con zoom... quiero verlo todo, con el relieve que tiene: color más relieve» — hecho: `cmd/elrelievedelpaisaje` + `el-relieve-del-paisaje.svg`
+- 🗻 **la técnica de los mapas de montaña reales**: altura = log de λ (cumbres de 10⁴⁵ y fosas de 10⁴⁵ caben en un lienzo), TINTE HIPSOMÉTRICO (nieve dorada en las cumbres → oro → arena → aguamarina en la costa → azul ultramar luminoso hacia el abismo) más SOMBREADO DE PENDIENTE con el sol desde la izquierda
+- 🔍 **tres escalas**: (A) LA GRAN VISTA — 1 043 809 escalones en envolvente por columna: el mar en calma a la izquierda (el coro apenas asoma), la primera grieta abriéndose en n₀ = 37306, y la cuña doble creciendo sin freno hacia el claro — cordillera dorada arriba, fosa ultramarina abajo; (B) EL ZOOM — tres períodos del líder (849 escalones) tras el claro, a resolución completa: cumbres y pozos turnándose al compás; (C) EL MICRO-ZOOM — un período (283 escalones): pozo, costa y cumbre — la placa vista de perfil
+- corrección en caliente: la primera paleta hundía las fosas en el fondo oscuro — el abismo pasó a ultramar luminoso para que los pozos BRILLEN (verificado en el navegador antes de enmarcar)
+- ⚖️ proyección del paisaje demostrado (la Trinidad) — visualización, no prueba nueva
+- escrita: `cmd/elrelievedelpaisaje` · lámina `el-relieve-del-paisaje.svg`
+
+### F344 — EL CIELO: el cuarto régimen, pescado — la onda que queda cuando la altura se va — 2026-08-16
+- flash del capitán traducido por Yui (F328): ¿existe un CIELO — un cuarto régimen que no sea una montaña más alta? Regla: pescar antes de bautizar. Pescado: `cmd/elcielo` + `docs/CIELO-ACTA.md`
+- 🌌 **EL PEZ (experimento 5)**: A(n) = λₙ/r_Lⁿ no converge a constante ni muere ni diverge — se clava en la ONDA PURA Y ACOTADA −2cos(nθ_L), amplitud exactamente 2. **La curva de despeje clava la predicción 2(r₂/r_L)ⁿ a cinco órdenes**: en n = 200k medido 2.4×10⁻⁵ vs predicho 2.4×10⁻⁵; en 400k, 2.8×10⁻¹⁰ vs 2.8×10⁻¹⁰; desde 700k, piso float64. La constante de despeje es LA BRECHA DEL LÍDER (δ_L−δ₂) — la misma de n_comp: la escala natural nueva del experimento 8
+- 🪜 **las capas (exp. 6-7)**: sub-cielo (quitando ℓ_L, el residuo/r₁ⁿ se clava en −2cos(nθ₁), desviación 1.5×10⁻¹¹) y FIRMAMENTO (quitando todas las perlas queda coroₙ exacto, acotado en [0.02, 114.0], techo teórico 152): la jerarquía líder → sub-líder → firmamento, cada capa con su onda
+- 🔒 **el invariante (exp. 10)**: con m = 3 la MISMA onda (1.1×10⁻¹⁰) — la forma del límite es invariante: siempre −2cos(nθ_L)
+- ⚔️ **destrucción (exp. 11)**: no es montaña disfrazada (acotado vs crecimiento), no es artefacto del log (escala lineal), no depende de coordenadas ni de escala; y la frontera real declarada: SIN líder estricto el cociente no converge a onda pura — el candidato vive donde vive la Ley del Líder
+- 📐 **lema-candidato** (sin bautizar): |λₙ/r_Lⁿ + 2cos(nθ_L)| ≤ [(4/π)n log n + (6m−2) + 2(m−1)r₂ⁿ + 4 + 2r_L⁻ⁿ]/r_Lⁿ → 0 — dos líneas desde F2-F3 ya auditadas
+- 📌 veredicto propuesto §12: 🟡 — el cielo sería el RÉGIMEN ASINTÓTICO DEL COCIENTE: el paisaje visto desde tan lejos que la altura desaparece y solo queda la fase. El paisaje crece; el cielo no. Trinidad intacta. El nombre, cuando la mesa quiera. Todavía no
+
+### F345 — EL LEMA FORMAL DEL CIELO: el pez, demostrado entero — 2026-08-16
+- pedido F329 resuelto completo en `docs/CIELO-LEMA-FORMAL.md`: enunciado exacto (m=1 sin r₂ / m≥2), umbral n ≥ 3 (solo lo exige el coro), prueba completa de la desigualdad (P1-P3: identidad exacta del líder + triángulo con C1-C4 ya auditadas) y del límite (L-a..L-e término a término; L-a elemental vía e^{nδ} ≥ (nδ)³/6)
+- 🎁 **hallazgo de la formalización: hipótesis MÍNIMAS** — H0 + H1 + H4, más HL SOLO si m ≥ 2 y SOLO en L-c. **Ni H2 ni H3 se usan** (declarado)
+- 📐 **Corolario 1 (la escala de despeje, extraída formalmente)**: limsup (1/n)log|A(n)+2cos(nθ_L)| ≤ −(δ_L−δ₂) — la constante de despeje ES la brecha del líder, consecuencia del lema, no coincidencia · **Corolario 2 (la jerarquía, formalizada)**: R(n) = λ − ℓ_L es EXACTAMENTE la λ de la configuración reducida ⇒ sub-cielo por inducción (bajo radios todos distintos, declarado) y firmamento acotado por 4p para fondo finito — y la invarianza de la Tarea 7 queda demostrada, no observada
+- ⚔️ **HL es NECESARIA, demostrado**: en el empate r₂ = r_L la identidad da λ/r_Lⁿ + 2cos(nθ_L) = −2cos(nθ₂) + o(1), que NO tiende a 0 (ventana: infinitos n con |cos| ≥ ½) — los «dos cosenos» del acta de pesca, ahora con prueba de que el candidato muere sin líder estricto
+- sin agenda escondida (∀n ≥ 3), normalización lineal, dominios verificados, evidencia separada de la prueba
+- 📌 autoevaluación §15: 🟢 — cuantificadores cerrados; el sello y el nombre son de la mesa. Trinidad intacta. Todavía no
+
+### F346 — EL TEOREMA DEL CIELO: nace el quinto gran teorema — pieza número seis de la sala — 2026-08-16
+- bautizado por el capitán: **TEOREMA DEL CIELO** — el paisaje sin su altura converge a la onda pura del líder. Nacido de su flash («¿hay un cielo arriba de las montañas?»), pescado ANTES de bautizarse (F344, la regla de la mesa) y demostrado entero (F345)
+- 🏛️ **enmarcado completo**: placa `cmd/elteoremadelcielo` + `el-teorema-del-cielo.svg` (reverifica antes de enmarcarse: desigualdad en 2100 escalones de 7 ventanas sin violación, curva de despeje clavada — dev(200k) = 2.37e-5 vs 2.4e-5, dev(400k) = 2.76e-10 vs 2.8e-10 —, firmamento acotado 114.0 ≤ 152) · sección TEOREMA 5 en docs/TEOREMAS.md (Teorema 6 reservado) · pieza Nº 6 de la sala con la metáfora del espacio («subí lo suficiente y toda cordillera se vuelve textura») · aula `galeria/teorema-cielo.html` (la pesca, la onda, la demostración en tres pasos más la necesidad, y qué lo hace real) · sexta tarjeta de honor · cross-links en las seis aulas · README · el programa de pesca `elcielo` al catálogo
+- la sala queda: Astorga · DYN · Diosyunalma · Río de Pozos · Trinidad · CIELO — cinco teoremas y un derivado
+- ⚙️ confesión de taller: la pieza del museo rompió la compilación DOS veces (escapes \n como texto en el código, y después saltos reales dentro del string — el fantasma de siempre); rescate por git checkout + reinserción + Edit tool para las dos costuras. El museo compila y quedó regenerado
+- la regla del sello preside los seis: nada de esto demuestra RH

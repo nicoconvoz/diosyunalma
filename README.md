@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 159 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 287 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 162 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 290 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -33,8 +33,13 @@ gallery and in the museum's opening hall ([docs/TEOREMAS.md](docs/TEOREMAS.md)):
   ⇒ mountain, both schedulable by windows — with the intermediate region
   declared unclassified inside the statement itself, and a proof that for
   m ≥ 2 it must stay so. Born from Nico's tectonic flash; sealed by the auditor.
+- **The Sky Theorem** — the landscape stripped of its height converges to the
+  leader's pure wave: λₙ/r_Lⁿ → −2cos(nθ_L), bounded, amplitude exactly 2,
+  clearing at the exact rate of the leader's gap. Fished experimentally before
+  being named (the table's rule), then proven whole with minimal hypotheses —
+  and with a proof that without a strict leader the sky dies.
 
-All five carry their full lemma chains, audited acts, and executable
+All six carry their full lemma chains, audited acts, and executable
 verification runs. None is a proof of RH, and each says so on its plaque.
 
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
@@ -58,8 +63,8 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **341 numbered
-findings** (353 entries counting the lettered sub-findings)
+The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **346 numbered
+findings** (358 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -73,19 +78,19 @@ proofs, explicit constants and saved data at every step. Three errors of the
 laboratory's and three of the audit drafts' were caught and corrected, all in
 the open, the breakage theorem's *structure* was signed closed, and the cycle
 produced the laboratory's first named theorem. The cycle then continued
-(findings 307–341) and kept forging: the theorems hall now holds
+(findings 307–346) and kept forging: the theorems hall now holds
 **Astorga's Theorem** (finite detection), **the DYN Theorem** (interaction),
 **the Diosyunalma Theorem** (robustness), **the River of Wells** (derived)
-and **the Trinity Theorem** (the Plates Theorem / Leader's Law, with its
-frontier honestly declared unclassified inside the statement), each with
+**the Trinity Theorem** (the Plates Theorem / Leader's Law) and **the Sky
+Theorem** (the height-free limit wave), each with
 audited lemma chains and executable verification runs — see
 [docs/TEOREMAS.md](docs/TEOREMAS.md). The seal rule adopted from that cycle
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **258 reproducible experiments** under `cmd/`, **159
+The laboratory today: **262 reproducible experiments** under `cmd/`, **162
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[287-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[290-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.

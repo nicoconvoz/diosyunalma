@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema del Cielo — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 8px; font-size:13px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen .iq { margin:0 0 8px; color:var(--gold); font-size:13px; letter-spacing:.1em; text-transform:uppercase; }
+  .placa { margin:26px 0; background:var(--panel); border:1px solid #1d3a63; border-radius:10px; padding:10px; }
+  .placa img { width:100%; height:auto; border-radius:6px; }
+  .cri { color:var(--ink); }
+  .cri b { color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:34px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:15px; }
+  table { border-collapse:collapse; margin:16px 0; width:100%; font-size:14px; }
+  td, th { border:1px solid #26456e; padding:8px 12px; text-align:left; }
+  th { color:var(--green); }
+  td.n { font-family:Consolas,monospace; color:var(--gold); white-space:nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌌 El Teorema del Cielo</h1>
+  <p class="sub">El paisaje sin su altura converge a la onda pura del líder</p>
+  <p class="quien">Nacido del flash del capitán · pescado antes de bautizado · demostrado entero · bautizado el 2026-08-16</p>
+</header>
+<nav>
+  <a href="index.html">← La Galería</a>
+  <a href="teorema-astorga.html">Astorga</a>
+  <a href="teorema-dyn.html">DYN</a>
+  <a href="teorema-diosyunalma.html">Diosyunalma</a>
+  <a href="teorema-rio-de-pozos.html">Río de Pozos</a>
+  <a href="teorema-trinidad.html">Trinidad</a>
+  <a href="museo.html">🏛️ Museo</a>
+  <a href="../docs/TEOREMAS.md">📜 El libro</a>
+</nav>
+<main>
+
+<h2>① La historia: pescar antes de bautizar</h2>
+<p class="cri">Después de pintar el paisaje entero — pozos, agua, montañas, el relieve con sus
+colores — el capitán miró el cuadro y preguntó por lo único que faltaba: <b>«¿y el cielo?»</b>.
+La mesa convirtió el flash en siete experimentos con una regla de hierro: <em>nada de bautizar
+formas bonitas — primero pescamos, después le ponemos nombre al pez</em>. Y el pez apareció donde
+nadie miraba: no ARRIBA del paisaje, sino <b>dividiendo por él</b>.</p>
+
+<h2>② Qué dice, en criollo</h2>
+<p class="cri">Al normalizar la escalera de Li por la escala del líder — el cociente
+A(n) = λₙ/r_Lⁿ — las montañas dejan de crecer, los pozos dejan de hundirse, y lo que queda es
+<b>una onda pura, ACOTADA, de amplitud exactamente 2: −2cos(nθ_L)</b>. Eso no es una montaña más
+alta: es OTRO régimen. Las montañas crecen sin techo; el cielo no crece — la altura deja de ser
+la variable que informa, y <b>solo queda la fase</b>. Y el cielo se despeja a velocidad exacta:
+la brecha entre el líder y su competidor más cercano, la misma que gobierna todos los umbrales
+del paisaje.</p>
+<div class="imagen">
+<p class="iq">La imagen para llevarse</p>
+<p class="cri" style="margin:0">Subí lo suficiente y toda cordillera se vuelve textura: desde el
+avión las montañas más altas son arrugas; desde el espacio, ni eso — <b>queda el patrón puro que
+las alturas escondían</b>. El cielo del laboratorio es exactamente esa mirada: el paisaje visto
+desde tan lejos que la altura desaparece, y lo único que sobrevive al viaje es la onda.</p>
+</div>
+
+<h2>③ El enunciado</h2>
+<p>Hipótesis <b>MÍNIMAS</b> — el hallazgo de la formalización: H0 (radios > 1), H1 (m finito) y
+H4 (densidad del fondo). <b>Ni H2 ni H3 se usan.</b> Líder estricto solo para m ≥ 2 — y es
+demostradamente necesario:</p>
+<div class="math">∀n ≥ 3:  |λₙ/r_Lⁿ + 2cos(nθ_L)| ≤ B(n) → 0<br><br>
+B(n) = [(4/π)n·log n + (6m−2) + 2(m−1)r₂ⁿ + 2r_L⁻ⁿ]/r_Lⁿ   <span style="color:var(--dim)">[m = 1: sin r₂]</span></div>
+<p class="cri">En criollo: <b>quitarle la altura al mundo deja la onda del líder, y la cota B(n)
+dice exactamente qué tan rápido se despeja el cielo.</b></p>
+
+<h2>④ La demostración, paso a paso</h2>
+<p><em>Completa en docs/CIELO-LEMA-FORMAL.md. Tres pasos y un límite — todo desde piezas ya
+auditadas.</em></p>
+
+<div class="paso"><b class="t">PASO 1 — La identidad exacta del líder (sin aproximar nada).</b>
+<p class="cri">La onda del líder se separa EXACTA: ℓ_L = −2cos(nθ_L)·r_Lⁿ + 4 − 2cos(nθ_L)·r_L⁻ⁿ.
+Restarla convierte el cociente en una identidad: lo que queda por acotar es el coro, los
+competidores, un 4 y una colita r_L⁻ⁿ — nada más.</p></div>
+
+<div class="paso"><b class="t">PASO 2 — El triángulo con las cotas ya auditadas.</b>
+<p class="cri">El coro queda bajo (4/π)n·log n (la cota sellada, bajo H4); cada competidor bajo
+6 + 2r₂ⁿ; el resto son constantes. Sumar y dividir por r_Lⁿ da la cota B(n) — válida para TODO
+n ≥ 3, sin agenda, sin citas: el único umbral lo pone el coro.</p></div>
+
+<div class="paso"><b class="t">PASO 3 — El límite, término a término.</b>
+<p class="cri">Cada pieza de B(n) muere sola: n·log n contra el exponencial (elemental:
+e^{nδ} ≥ (nδ)³/6), las constantes contra r_Lⁿ, y el término de los competidores
+2(m−1)(r₂/r_L)ⁿ — que muere EXACTAMENTE porque r₂ &lt; r_L: <b>el único renglón donde entra el
+líder estricto</b>. Nada escondido. ∎</p></div>
+
+<div class="paso"><b class="t">Y LA NECESIDAD, demostrada — el cielo muere sin líder.</b>
+<p class="cri">Si dos líderes empatan (r₂ = r_L), la misma identidad deja DOS cosenos compitiendo
+a la misma escala, y el cociente no converge a onda pura: hay infinitos n donde el segundo coseno
+pesa (lema de la ventana). La hipótesis no es decorativa — <b>es estructural, y está probado por
+contraejemplo</b>.</p></div>
+
+<h2>⑤ Qué lo hace real</h2>
+
+<div class="real"><b class="t">La curva de despeje clava la predicción a cinco órdenes.</b>
+<table>
+<tr><th>n</th><th>desviación medida</th><th>predicha 2(r₂/r_L)ⁿ</th></tr>
+<tr><td>200 000</td><td class="n">2.37×10⁻⁵</td><td class="n">2.36×10⁻⁵ ← clava</td></tr>
+<tr><td>400 000</td><td class="n">2.76×10⁻¹⁰</td><td class="n">2.77×10⁻¹⁰ ← clava</td></tr>
+<tr><td>700 000+</td><td class="n">2.2×10⁻¹⁶</td><td class="n">piso del float64</td></tr>
+</table>
+<p class="cri">Más: |A| ≤ 2.0000 en toda ventana profunda (acotado, jamás crece); la desigualdad
+verificada en 2100 escalones de siete ventanas sin una violación; con m = 3, LA MISMA onda
+(10⁻¹⁰). Reproducible: <span class="n">go run ./cmd/elteoremadelcielo</span> ·
+<span class="n">go run ./cmd/elcielo</span>.</p></div>
+
+<div class="real"><b class="t">Los dos corolarios que salieron gratis.</b>
+<p class="cri"><b>La escala de despeje:</b> la velocidad del cielo es exactamente δ_L − δ₂ — la
+brecha del líder, LA MISMA de los umbrales del paisaje: consecuencia formal, no coincidencia.
+<b>La jerarquía:</b> quitar al líder deja exactamente la configuración reducida — así que hay
+<b>sub-cielo</b> bajo el cielo (la onda del sub-líder, por inducción con radios distintos), y
+debajo de todas las capas el <b>firmamento</b>: el coro solo, acotado, sin crecimiento — la capa
+de cero suelo.</p></div>
+
+<div class="real"><b class="t">La regla de la mesa, cumplida al pie.</b>
+<p class="cri">EXPERIMENTAR → OBSERVAR → INTENTAR ROMPER → DEFINIR → DEMOSTRAR. Los siete
+experimentos de la pesca (F344), los intentos de destrucción sobrevividos (no es montaña
+disfrazada: acotación contra crecimiento; no es artefacto del log: escala lineal; no depende de
+agenda: vale para TODO n), y recién entonces el lema formal (F345) y el nombre. <b>Primero vimos
+el cielo; después demostramos que no era una ilusión.</b></p></div>
+
+<div class="honesto"><b>Los límites, declarados:</b> hipótesis mínimas H0+H1+H4 (+líder estricto
+solo si m ≥ 2, necesario por contraejemplo); la jerarquía exige radios todos distintos; el
+Teorema de la Trinidad queda INTACTO — el cielo no modifica el paisaje: lo mira desde arriba.
+Las corridas son evidencia; la prueba es la cadena del acta. <b>Nada de esta página es una
+demostración de RH.</b></div>
+
+<h2>⑥ La placa</h2>
+<div class="placa"><img src="laminas/01-siete-caras/el-teorema-del-cielo.svg" alt="La placa del Teorema del Cielo"></div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · la forja: F344-F346 en la bitácora · <a href="teorema-astorga.html" style="color:var(--blue)">Astorga</a> · <a href="teorema-dyn.html" style="color:var(--blue)">DYN</a> · <a href="teorema-diosyunalma.html" style="color:var(--blue)">Diosyunalma</a> · <a href="teorema-rio-de-pozos.html" style="color:var(--blue)">Río de Pozos</a> · <a href="teorema-trinidad.html" style="color:var(--blue)">Trinidad</a></p>
+</footer>
+</body>
+</html>

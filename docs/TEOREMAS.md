@@ -359,4 +359,68 @@ cero excepciones en las bandas externas.
 
 ---
 
-*Espacio reservado para el Teorema 5 — porque vienen más.*
+## TEOREMA 5 — TEOREMA DEL CIELO
+### El paisaje sin su altura converge a la onda pura del líder
+
+**Registrado:** 2026-08-16 · nacido del flash del capitán («¿existe un
+cielo arriba de las montañas?»), pescado experimentalmente ANTES de
+bautizarse (F344, la regla de la mesa: primero el pez, después el
+nombre) y demostrado entero (F345). Bautizado por el capitán el
+2026-08-16.
+
+**Hipótesis MÍNIMAS** (hallazgo de la formalización): **H0** (rᵢ > 1),
+**H1** (m finito), **H4** (densidad del fondo) — **ni H2 ni H3 se
+usan** — más **HL (líder estricto), solo para m ≥ 2**, usada en un
+único renglón y DEMOSTRADAMENTE necesaria.
+
+**Enunciado.** Sea δ_L = log r_L. Para todo entero n ≥ 3:
+
+    m = 1:  |lambda_n/r_Lⁿ + 2cos(nθ_L)| ≤ [(4/π)n·log n + 4 + 2r_L⁻ⁿ]/r_Lⁿ
+    m ≥ 2:  |lambda_n/r_Lⁿ + 2cos(nθ_L)| ≤ [(4/π)n·log n + (6m−2) + 2(m−1)r₂ⁿ + 2r_L⁻ⁿ]/r_Lⁿ
+
+y en consecuencia **lambda_n/r_Lⁿ → −2cos(nθ_L)**: el paisaje
+normalizado por la escala del líder pierde su altura y converge a la
+onda pura y ACOTADA de amplitud exactamente 2. El paisaje crece sin
+techo; el cielo no. ∎
+
+**Prueba** (completa en `docs/CIELO-LEMA-FORMAL.md`): la identidad
+exacta del líder (ℓ_L = −2cos(nθ_L)r_Lⁿ + 4 − 2cos(nθ_L)r_L⁻ⁿ, sin
+aproximar), triángulo con las cotas ya auditadas del coro (L5/H4) y de
+los competidores (F2), y el límite término a término (el paso
+n·log n/r_Lⁿ → 0 con e^{nδ} ≥ (nδ)³/6, elemental).
+
+**Corolario 1 — la escala de despeje:** la tasa de convergencia es
+exactamente la brecha del líder: limsup (1/n)·log|desviación| ≤
+−(δ_L − δ₂) para m ≥ 2 (y −δ_L para m = 1, a menos del polinomio).
+**La misma brecha de n_comp** — extraída como consecuencia formal.
+
+**Corolario 2 — la jerarquía:** λₙ − ℓ_L es EXACTAMENTE la λ de la
+configuración sin el líder ⟹ con radios todos distintos, el mismo
+teorema se aplica por inducción capa por capa: **cielo → sub-cielo →
+… → firmamento** (el coro solo: acotado por 4p para fondo finito de p
+pares — la capa sin crecimiento).
+
+**La necesidad de HL, demostrada:** en el empate r₂ = r_L el cociente
+converge a −2cos(nθ_L) − 2cos(nθ₂) (dos ondas compitiendo) y NO a la
+onda del líder — infinitos n con |cos(nθ₂)| ≥ ½ por el lema de la
+ventana. Sin líder estricto, el cielo muere.
+
+**Qué es el cielo (y qué no):** NO es λ > 0 (eso son las montañas de
+la Trinidad, que queda intacta) — es el **régimen asintótico del
+cociente**: el paisaje visto desde tan lejos que la altura desaparece
+y solo queda la fase del líder. La altura deja de ser la variable; la
+onda es lo que queda.
+
+**Evidencia** (respaldo, jamás prueba): la curva de despeje clava la
+tasa a cinco órdenes (2.37×10⁻⁵ vs 2.4×10⁻⁵ en n = 200k; 2.76×10⁻¹⁰
+vs 2.8×10⁻¹⁰ en 400k; piso float64 desde 700k); |A| ≤ 2.0000 en toda
+ventana profunda; sub-cielo a 1.5×10⁻¹¹; firmamento acotado en
+[0.02, 114.0] ≤ 152; con m = 3, la misma onda (1.1×10⁻¹⁰);
+desigualdad verificada en 2100 escalones de 7 ventanas sin violación.
+
+**Reproducir:** `go run ./cmd/elteoremadelcielo` (la placa) ·
+`go run ./cmd/elcielo` (los siete experimentos de la pesca).
+
+---
+
+*Espacio reservado para el Teorema 6 — porque vienen más.*
