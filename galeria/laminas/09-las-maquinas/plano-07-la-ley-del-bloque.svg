@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="52.0" font-size="26.0" font-family="Georgia" fill="#dce8f7" text-anchor="middle">⑦ LA LEY DEL BLOQUE — la viga que se comba y se parte en dos</text>
+<text x="700.0" y="80.0" font-size="14.0" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">el bloque se estira ×31.623 entre 10²¹ y 10⁴⁸, y la comba que deja es siempre la misma: 0,15 radianes</text>
+<rect x="46.0" y="98.0" width="1308.0" height="392.0" rx="10" fill="#0d1830" stroke="#ffd98a" opacity="0.96"/>
+<text x="60.0" y="122.0" font-size="14.5" font-family="Georgia" fill="#ffd98a" text-anchor="start">LA VIGA Y SU COMBA — la fase cúbica que el primer orden no explica</text>
+<text x="136.0" y="158.0" font-size="12.0" font-family="Georgia" fill="#8fb4d9" text-anchor="end">la viga ideal</text>
+<line x1="150.00" y1="168.00" x2="1180.00" y2="168.00" stroke="#8fb4d9" stroke-width="1.40" stroke-dasharray="6 5"/>
+<line x1="201.50" y1="168.00" x2="201.50" y2="168.01" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="304.50" y1="168.00" x2="304.50" y2="168.38" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="407.50" y1="168.00" x2="407.50" y2="169.76" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="510.50" y1="168.00" x2="510.50" y2="172.82" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="613.50" y1="168.00" x2="613.50" y2="178.25" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="716.50" y1="168.00" x2="716.50" y2="186.72" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="819.50" y1="168.00" x2="819.50" y2="198.90" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="922.50" y1="168.00" x2="922.50" y2="215.46" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1025.50" y1="168.00" x2="1025.50" y2="237.09" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1128.50" y1="168.00" x2="1128.50" y2="264.45" stroke="#1d3a63" stroke-width="1.20"/>
+<path d="M150.00 168.00 L158.58 168.00 L167.17 168.00 L175.75 168.00 L184.33 168.00 L192.92 168.01 L201.50 168.01 L210.08 168.02 L218.67 168.03 L227.25 168.05 L235.83 168.07 L244.42 168.09 L253.00 168.11 L261.58 168.14 L270.17 168.18 L278.75 168.22 L287.33 168.27 L295.92 168.32 L304.50 168.38 L313.08 168.45 L321.67 168.52 L330.25 168.60 L338.83 168.69 L347.42 168.79 L356.00 168.90 L364.58 169.02 L373.17 169.14 L381.75 169.28 L390.33 169.43 L398.92 169.59 L407.50 169.76 L416.08 169.94 L424.67 170.13 L433.25 170.34 L441.83 170.56 L450.42 170.79 L459.00 171.04 L467.58 171.30 L476.17 171.57 L484.75 171.86 L493.33 172.17 L501.92 172.49 L510.50 172.82 L519.08 173.18 L527.67 173.55 L536.25 173.93 L544.83 174.34 L553.42 174.76 L562.00 175.20 L570.58 175.66 L579.17 176.14 L587.75 176.64 L596.33 177.15 L604.92 177.69 L613.50 178.25 L622.08 178.83 L630.67 179.43 L639.25 180.06 L647.83 180.70 L656.42 181.37 L665.00 182.06 L673.58 182.78 L682.17 183.52 L690.75 184.28 L699.33 185.07 L707.92 185.88 L716.50 186.72 L725.08 187.58 L733.67 188.47 L742.25 189.39 L750.83 190.33 L759.42 191.30 L768.00 192.30 L776.58 193.33 L785.17 194.38 L793.75 195.47 L802.33 196.58 L810.92 197.72 L819.50 198.90 L828.08 200.10 L836.67 201.33 L845.25 202.60 L853.83 203.90 L862.42 205.23 L871.00 206.59 L879.58 207.98 L888.17 209.41 L896.75 210.87 L905.33 212.37 L913.92 213.90 L922.50 215.46 L931.08 217.06 L939.67 218.70 L948.25 220.37 L956.83 222.07 L965.42 223.82 L974.00 225.60 L982.58 227.42 L991.17 229.28 L999.75 231.17 L1008.33 233.10 L1016.92 235.08 L1025.50 237.09 L1034.08 239.14 L1042.67 241.23 L1051.25 243.37 L1059.83 245.54 L1068.42 247.76 L1077.00 250.01 L1085.58 252.31 L1094.17 254.65 L1102.75 257.04 L1111.33 259.47 L1119.92 261.94 L1128.50 264.45 L1137.08 267.02 L1145.67 269.62 L1154.25 272.27 L1162.83 274.97 L1171.42 277.71 L1180.00 280.50" fill="none" stroke="#ff9aa8" stroke-width="3.00" opacity="0.98" stroke-linejoin="round"/>
+<line x1="144.00" y1="160.00" x2="156.00" y2="176.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<line x1="156.00" y1="160.00" x2="144.00" y2="176.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<rect x="864.16" y="205.50" width="315.84" height="75.00" fill="#ff9aa8" stroke="none" opacity="0.16"/>
+<line x1="150.00" y1="205.50" x2="1180.00" y2="205.50" stroke="#ffd98a" stroke-width="1.80" stroke-dasharray="8 6"/>
+<text x="158.0" y="197.5" font-size="12.0" font-family="Georgia" fill="#ffd98a" text-anchor="start">presupuesto: 0,05 rad</text>
+<text x="1188.0" y="285.5" font-size="12.5" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">η = 0,150000</text>
+<text x="876.2" y="300.5" font-size="12.0" font-family="Georgia" fill="#ff9aa8" text-anchor="start">de acá para allá la viga ya se pasó de comba</text>
+<text x="150.0" y="322.5" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">una sola pieza de largo L — comba η = t·L³/(3k₀³) = 0,150000 rad</text>
+<line x1="760.00" y1="306.00" x2="760.00" y2="330.20" stroke="#ffd98a" stroke-width="3.00"/>
+<path d="M760.00 344.00 L754.37 331.40 L765.63 331.40 Z" fill="#ffd98a"/>
+<text x="776.0" y="332.0" font-size="13.0" font-family="Georgia" fill="#ffd98a" text-anchor="start">se parte en 2</text>
+<line x1="150.00" y1="372.00" x2="655.00" y2="372.00" stroke="#8fb4d9" stroke-width="1.40" stroke-dasharray="6 5"/>
+<line x1="175.25" y1="372.00" x2="175.25" y2="372.00" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="225.75" y1="372.00" x2="225.75" y2="372.05" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="276.25" y1="372.00" x2="276.25" y2="372.22" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="326.75" y1="372.00" x2="326.75" y2="372.60" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="377.25" y1="372.00" x2="377.25" y2="373.28" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="427.75" y1="372.00" x2="427.75" y2="374.34" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="478.25" y1="372.00" x2="478.25" y2="375.86" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="528.75" y1="372.00" x2="528.75" y2="377.93" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="579.25" y1="372.00" x2="579.25" y2="380.64" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="629.75" y1="372.00" x2="629.75" y2="384.06" stroke="#1d3a63" stroke-width="1.20"/>
+<path d="M150.00 372.00 L154.21 372.00 L158.42 372.00 L162.62 372.00 L166.83 372.00 L171.04 372.00 L175.25 372.00 L179.46 372.00 L183.67 372.00 L187.88 372.01 L192.08 372.01 L196.29 372.01 L200.50 372.01 L204.71 372.02 L208.92 372.02 L213.12 372.03 L217.33 372.03 L221.54 372.04 L225.75 372.05 L229.96 372.06 L234.17 372.07 L238.38 372.08 L242.58 372.09 L246.79 372.10 L251.00 372.11 L255.21 372.13 L259.42 372.14 L263.62 372.16 L267.83 372.18 L272.04 372.20 L276.25 372.22 L280.46 372.24 L284.67 372.27 L288.88 372.29 L293.08 372.32 L297.29 372.35 L301.50 372.38 L305.71 372.41 L309.92 372.45 L314.12 372.48 L318.33 372.52 L322.54 372.56 L326.75 372.60 L330.96 372.65 L335.17 372.69 L339.38 372.74 L343.58 372.79 L347.79 372.84 L352.00 372.90 L356.21 372.96 L360.42 373.02 L364.62 373.08 L368.83 373.14 L373.04 373.21 L377.25 373.28 L381.46 373.35 L385.67 373.43 L389.88 373.51 L394.08 373.59 L398.29 373.67 L402.50 373.76 L406.71 373.85 L410.92 373.94 L415.12 374.03 L419.33 374.13 L423.54 374.23 L427.75 374.34 L431.96 374.45 L436.17 374.56 L440.38 374.67 L444.58 374.79 L448.79 374.91 L453.00 375.04 L457.21 375.17 L461.42 375.30 L465.62 375.43 L469.83 375.57 L474.04 375.72 L478.25 375.86 L482.46 376.01 L486.67 376.17 L490.88 376.32 L495.08 376.49 L499.29 376.65 L503.50 376.82 L507.71 377.00 L511.92 377.18 L516.12 377.36 L520.33 377.55 L524.54 377.74 L528.75 377.93 L532.96 378.13 L537.17 378.34 L541.38 378.55 L545.58 378.76 L549.79 378.98 L554.00 379.20 L558.21 379.43 L562.42 379.66 L566.62 379.90 L570.83 380.14 L575.04 380.38 L579.25 380.64 L583.46 380.89 L587.67 381.15 L591.88 381.42 L596.08 381.69 L600.29 381.97 L604.50 382.25 L608.71 382.54 L612.92 382.83 L617.12 383.13 L621.33 383.43 L625.54 383.74 L629.75 384.06 L633.96 384.38 L638.17 384.70 L642.38 385.03 L646.58 385.37 L650.79 385.71 L655.00 386.06" fill="none" stroke="#7ee0c0" stroke-width="3.00" opacity="0.98" stroke-linejoin="round"/>
+<line x1="144.00" y1="364.00" x2="156.00" y2="380.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<line x1="156.00" y1="364.00" x2="144.00" y2="380.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<line x1="675.00" y1="372.00" x2="1180.00" y2="372.00" stroke="#8fb4d9" stroke-width="1.40" stroke-dasharray="6 5"/>
+<line x1="700.25" y1="372.00" x2="700.25" y2="372.00" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="750.75" y1="372.00" x2="750.75" y2="372.05" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="801.25" y1="372.00" x2="801.25" y2="372.22" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="851.75" y1="372.00" x2="851.75" y2="372.60" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="902.25" y1="372.00" x2="902.25" y2="373.28" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="952.75" y1="372.00" x2="952.75" y2="374.34" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1003.25" y1="372.00" x2="1003.25" y2="375.86" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1053.75" y1="372.00" x2="1053.75" y2="377.93" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1104.25" y1="372.00" x2="1104.25" y2="380.64" stroke="#1d3a63" stroke-width="1.20"/>
+<line x1="1154.75" y1="372.00" x2="1154.75" y2="384.06" stroke="#1d3a63" stroke-width="1.20"/>
+<path d="M675.00 372.00 L679.21 372.00 L683.42 372.00 L687.62 372.00 L691.83 372.00 L696.04 372.00 L700.25 372.00 L704.46 372.00 L708.67 372.00 L712.88 372.01 L717.08 372.01 L721.29 372.01 L725.50 372.01 L729.71 372.02 L733.92 372.02 L738.12 372.03 L742.33 372.03 L746.54 372.04 L750.75 372.05 L754.96 372.06 L759.17 372.07 L763.38 372.08 L767.58 372.09 L771.79 372.10 L776.00 372.11 L780.21 372.13 L784.42 372.14 L788.62 372.16 L792.83 372.18 L797.04 372.20 L801.25 372.22 L805.46 372.24 L809.67 372.27 L813.88 372.29 L818.08 372.32 L822.29 372.35 L826.50 372.38 L830.71 372.41 L834.92 372.45 L839.12 372.48 L843.33 372.52 L847.54 372.56 L851.75 372.60 L855.96 372.65 L860.17 372.69 L864.38 372.74 L868.58 372.79 L872.79 372.84 L877.00 372.90 L881.21 372.96 L885.42 373.02 L889.62 373.08 L893.83 373.14 L898.04 373.21 L902.25 373.28 L906.46 373.35 L910.67 373.43 L914.88 373.51 L919.08 373.59 L923.29 373.67 L927.50 373.76 L931.71 373.85 L935.92 373.94 L940.12 374.03 L944.33 374.13 L948.54 374.23 L952.75 374.34 L956.96 374.45 L961.17 374.56 L965.38 374.67 L969.58 374.79 L973.79 374.91 L978.00 375.04 L982.21 375.17 L986.42 375.30 L990.62 375.43 L994.83 375.57 L999.04 375.72 L1003.25 375.86 L1007.46 376.01 L1011.67 376.17 L1015.88 376.32 L1020.08 376.49 L1024.29 376.65 L1028.50 376.82 L1032.71 377.00 L1036.92 377.18 L1041.12 377.36 L1045.33 377.55 L1049.54 377.74 L1053.75 377.93 L1057.96 378.13 L1062.17 378.34 L1066.38 378.55 L1070.58 378.76 L1074.79 378.98 L1079.00 379.20 L1083.21 379.43 L1087.42 379.66 L1091.62 379.90 L1095.83 380.14 L1100.04 380.38 L1104.25 380.64 L1108.46 380.89 L1112.67 381.15 L1116.88 381.42 L1121.08 381.69 L1125.29 381.97 L1129.50 382.25 L1133.71 382.54 L1137.92 382.83 L1142.12 383.13 L1146.33 383.43 L1150.54 383.74 L1154.75 384.06 L1158.96 384.38 L1163.17 384.70 L1167.38 385.03 L1171.58 385.37 L1175.79 385.71 L1180.00 386.06" fill="none" stroke="#7ee0c0" stroke-width="3.00" opacity="0.98" stroke-linejoin="round"/>
+<line x1="669.00" y1="364.00" x2="681.00" y2="380.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<line x1="681.00" y1="364.00" x2="669.00" y2="380.00" stroke="#8fb4d9" stroke-width="2.00"/>
+<line x1="657.00" y1="360.00" x2="673.00" y2="366.00" stroke="#ffd98a" stroke-width="2.00"/>
+<line x1="657.00" y1="368.00" x2="673.00" y2="374.00" stroke="#ffd98a" stroke-width="2.00"/>
+<line x1="657.00" y1="376.00" x2="673.00" y2="382.00" stroke="#ffd98a" stroke-width="2.00"/>
+<line x1="657.00" y1="384.00" x2="673.00" y2="390.00" stroke="#ffd98a" stroke-width="2.00"/>
+<line x1="657.00" y1="392.00" x2="673.00" y2="398.00" stroke="#ffd98a" stroke-width="2.00"/>
+<text x="665.0" y="348.0" font-size="12.0" font-family="Georgia" fill="#ffd98a" text-anchor="middle">costura dd</text>
+<text x="1188.0" y="391.1" font-size="12.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">η/2³ = 0,018750</text>
+<text x="150.0" y="414.1" font-size="12.0" font-family="Georgia" fill="#7ee0c0" text-anchor="start">cada mitad, casi recta: bajo el presupuesto, y el tren se la come de un saque</text>
+<text x="665.0" y="458.0" font-size="11.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">la costura gira −T·[ln(k₀+off) − ln k₀], la fase del arranque de cada mitad, llevada en doble-doble</text>
+<rect x="46.0" y="504.0" width="1308.0" height="196.0" rx="10" fill="#0d1830" stroke="#7fb2ff" opacity="0.96"/>
+<text x="60.0" y="528.0" font-size="14.5" font-family="Georgia" fill="#7fb2ff" text-anchor="start">EL DURMIENTE EN CADA AGUA — ocho mares, ocho vigas, una sola comba</text>
+<rect x="129.00" y="548.00" width="26.00" height="22.00" fill="#4a2740" stroke="#8fb4d9" opacity="0.95"/>
+<text x="142.0" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=967</text>
+<text x="142.0" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^21</text>
+<rect x="282.86" y="548.00" width="39.43" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="302.6" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=4248</text>
+<text x="302.6" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^25</text>
+<rect x="436.71" y="548.00" width="52.86" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="463.1" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=18665</text>
+<text x="463.1" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^29</text>
+<rect x="590.57" y="548.00" width="66.29" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="623.7" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=82014</text>
+<text x="623.7" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^33</text>
+<rect x="744.43" y="548.00" width="79.71" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="784.3" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=360365</text>
+<text x="784.3" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^36</text>
+<rect x="898.29" y="548.00" width="93.14" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="944.9" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=1583434</text>
+<text x="944.9" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^40</text>
+<rect x="1052.14" y="548.00" width="106.57" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="1105.4" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=6957562</text>
+<text x="1105.4" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^44</text>
+<rect x="1206.00" y="548.00" width="120.00" height="22.00" fill="#1d3a63" stroke="#8fb4d9" opacity="0.95"/>
+<text x="1266.0" y="590.0" font-size="10.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="middle">L=30571323</text>
+<text x="1266.0" y="608.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">t=10^48</text>
+<line x1="120.00" y1="554.00" x2="1302.00" y2="554.00" stroke="#ffd98a" stroke-width="2.00"/>
+<line x1="120.00" y1="564.00" x2="1302.00" y2="564.00" stroke="#ffd98a" stroke-width="2.00"/>
+<text x="142.0" y="632.0" font-size="11.0" font-family="Georgia" fill="#ff9aa8" text-anchor="middle">L = 967 &lt; 2000: 1 pieza</text>
+<text x="1302.0" y="632.0" font-size="11.0" font-family="Georgia" fill="#8fb4d9" text-anchor="end">durmiente dibujado en escala logarítmica (el número de al lado es el real)</text>
+<line x1="120.00" y1="664.00" x2="1302.00" y2="664.00" stroke="#ffd98a" stroke-width="2.20"/>
+<circle cx="142.00" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="302.57" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="463.14" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="623.71" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="784.29" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="944.86" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="1105.43" cy="664.00" r="5.50" fill="#ffd98a"/>
+<circle cx="1266.00" cy="664.00" r="5.50" fill="#ffd98a"/>
+<text x="120.0" y="654.0" font-size="12.0" font-family="Georgia" fill="#ffd98a" text-anchor="start">la comba η</text>
+<text x="1302.0" y="654.0" font-size="12.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="end">η = 0,150000 rad — PLANA, agua por agua</text>
+<text x="700.0" y="688.0" font-size="12.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="middle">L se multiplica por 31.623 · η se multiplica por 1,000000 (dispersión medida entre las 8 aguas: 8,3e-17)</text>
+<rect x="46.0" y="712.0" width="1308.0" height="34" rx="8" fill="#0d1830" stroke="#ffd98a" opacity="0.5"/>
+<text x="700.0" y="735.0" font-size="14.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">L = k₀·(0,45/t)^{1/3}  ⟹  η = t·L³/(3k₀³) = 0,45/3 = 0,15 rad, en TODA agua   ·   piezas = ⌈(η/0,04)^{1/3}⌉ = 2</text>
+<rect x="46.0" y="762.0" width="1308.0" height="92.0" rx="9" fill="#0d1830" stroke="#7ee0c0" opacity="0.35"/>
+<text x="59.0" y="788.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">EN CRIOLLO: el tren no puede sumar el mar entero de una, así que lo corta en bloques. ¿De qué largo? El largo se elige para que la viga se combe</text>
+<text x="59.0" y="807.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">siempre lo mismo: no importa si el agua tiene veintiún ceros o cuarenta y ocho, el bloque se estira treinta mil veces pero la panza que hace es</text>
+<text x="59.0" y="826.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">idéntica. Esa es la ley: la regla no mide metros, mide comba. Y como esa comba pasa el presupuesto, la viga se parte al medio; cada mitad comba</text>
+<text x="59.0" y="845.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">ocho veces menos y queda derecha. La costura que las vuelve a unir se lleva en doble-doble, para que no se note el corte por ningún lado.</text>
+<text x="700.0" y="924.0" font-size="13.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">go run ./cmd/losplanos · lámina ⑦ del recorrido de las máquinas · riel 7 del tren · Todavía no.</text>
+</svg>

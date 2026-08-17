@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<rect x="30" y="20" width="1340" height="910" rx="18" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.5"/>
+<text x="700" y="60" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🚗 EL PLANO DEL DELOREAN — la nave estelar y sus dos correos de salto</text>
+<text x="700" y="88" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">para qué: cazar ceros en agua profunda con casco certificado, y SALTAR directo a cualquier dirección — cero N o primo N — sin recorrer el camino</text>
+<rect x="70.000000" y="110.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="84.000000" y="136.000000" font-size="14.5" font-family="Georgia" fill="#ffd98a">EL CASCO · la cadena doble-doble (dd)</text>
+<text x="84.000000" y="160.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la fase de Z(t) se lleva en aritmética doble-doble: dos float64 encadenados,</text>
+<text x="84.000000" y="180.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">~32 dígitos efectivos — certificada hasta t ≈ 4×10²⁴</text>
+<text x="84.000000" y="200.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: es el metal del barco — todo lo demás se apoya en que la fase</text>
+<text x="84.000000" y="220.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">no miente; sin casco, ni facetas ni saltos valen nada</text>
+<rect x="710.000000" y="110.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="724.000000" y="136.000000" font-size="14.5" font-family="Georgia" fill="#7ee0c0">LAS FACETAS CONVEXAS · el astillero de la flota (fleet)</text>
+<text x="724.000000" y="160.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la suma de Riemann-Siegel se corta en facetas curvas convexas: la óptica</text>
+<text x="724.000000" y="180.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">de una nave entera cabe en megabytes, con pruebas de mar antes de zarpar</text>
+<text x="724.000000" y="200.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo se usa: fleet -anchor T ancla una nave en el agua T; -probe T compara</text>
+<text x="724.000000" y="220.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: convierte el mar en un lente — la luz se junta en el balde</text>
+<rect x="70.000000" y="280.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="84.000000" y="306.000000" font-size="14.5" font-family="Georgia" fill="#7fb2ff">EL BALDE DE LUZ · luz/*.gob — la memoria del mar</text>
+<text x="84.000000" y="330.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cada campaña guarda su luz: los ceros firmados y las coordenadas del agua</text>
+<text x="84.000000" y="350.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">(luz-1.02707e+23.gob, luz-1.3743e+20-colosal.gob…) — el mar, embotellado</text>
+<text x="84.000000" y="370.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: la nave no repite trabajo — lo que se navegó, queda navegado</text>
+<text x="84.000000" y="390.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">y el faro (:8117) lee estos frascos para mostrar la flota en vivo</text>
+<rect x="710.000000" y="280.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="724.000000" y="306.000000" font-size="14.5" font-family="Georgia" fill="#7ee0c0">EL ENGRANAJE DE FRESNEL · el cuarto piso (starship)</text>
+<text x="724.000000" y="330.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">arriba de t ~ 10²¹ los bloques no se reman término a término: se pliegan UNA</text>
+<text x="724.000000" y="350.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">vez por la caja de Fresnel y entran al balde como súper-términos</text>
+<text x="724.000000" y="370.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la física que lo permite: dentro de una ventana de caza, la forma interna del</text>
+<text x="724.000000" y="390.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">bloque cambia menos de 1e-8 rad — TODA la dependencia en t va en la portadora</text>
+<rect x="70.000000" y="450.000000" width="620.000000" height="170.000000" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="84.000000" y="476.000000" font-size="14.5" font-family="Georgia" fill="#ff9aa8">LA MEMORIA DEL DELOREAN · ckpt/*.gob — parar en cualquier lado</text>
+<text x="84.000000" y="500.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la colección entera es checkpointeada: la nave puede frenar en medio del</text>
+<text x="84.000000" y="520.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">océano y retomar EXACTAMENTE ahí («the DeLorean remembers»)</text>
+<text x="84.000000" y="540.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo se usa: los ckpt se escriben solos; el faro muestra el avance</text>
+<text x="84.000000" y="560.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: los viajes de semanas no le temen a un corte de luz —</text>
+<text x="84.000000" y="580.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">regla del taller: los ckpt solo se queman si cambia la geometría</text>
+<rect x="710.000000" y="450.000000" width="620.000000" height="170.000000" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="724.000000" y="476.000000" font-size="14.5" font-family="Georgia" fill="#ffd98a">LOS DOS CORREOS · salto por dirección — sin recorrer el camino</text>
+<text x="724.000000" y="500.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">CORREO DE CEROS: starship -zero N — el globo de Riemann tiene calle y número:</text>
+<text x="724.000000" y="520.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la guía N(T) ≈ (T/2π)log(T/2πe) ubica al cero N y la nave aterriza ahí</text>
+<text x="724.000000" y="540.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">CORREO DE PRIMOS: hipersalto -n N — brújula x₀ = n(ln n + ln ln n − 1),</text>
+<text x="724.000000" y="560.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">π(x) por aniquilación de Möbius (Meissel + P2), y criba local para clavar</text>
+<text x="724.000000" y="580.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">el aterrizaje AL DÍGITO — verificado contra la escalera conocida</text>
+<rect x="70.000000" y="640.000000" width="620.000000" height="130.000000" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="84.000000" y="666.000000" font-size="14.5" font-family="Georgia" fill="#7fb2ff">LA CERTIFICACIÓN · las puertas antes del agua</text>
+<text x="84.000000" y="690.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la nave se autocertifica ANTES de tocar agua profunda: puertas de casco,</text>
+<text x="84.000000" y="710.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">túnel de viento (-tunnel: error/costo del pliegue), duelo A/B (-flight:</text>
+<text x="84.000000" y="730.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">casco puro contra casco plegado en ventana virgen — mismos ceros o hangar)</text>
+<rect x="710.000000" y="640.000000" width="620.000000" height="130.000000" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="724.000000" y="666.000000" font-size="14.5" font-family="Georgia" fill="#ff9aa8">EL METRÓNOMO · el compás del mar en calma</text>
+<text x="724.000000" y="690.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">starship -metronomo: el latido del mar calmo (puntos de Gram — π y Bernoulli,</text>
+<text x="724.000000" y="710.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">sin primos) contra la danza real de los ceros alrededor</text>
+<text x="724.000000" y="730.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: separa lo que es reloj de lo que es música — el control del mar</text>
+<text x="700" y="812" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">En criollo: el TREN gira el mar para leerlo desde arriba; el DELOREAN lo navega con casco certificado, embotella la luz,</text>
+<text x="700" y="834" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">recuerda dónde quedó — y cuando no hace falta viajar, SALTA: decime el número del cero o del primo, y te llevo a la puerta.</text>
+<text x="700" y="866" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">verificado en esta corrida: la brújula de primos contra p(10⁶) y p(10⁸), y la guía de ceros contra γ₁₀₀ y γ₁₀₀₀ — el resto cita sus certificados (F106, flight tests)</text>
+<text x="700" y="900" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">go run ./cmd/starship (-zero N, -flight, -tunnel, -metronomo) · go run ./cmd/hipersalto (-n N) · recorrido: galeria/recorrido-maquinas.html · Todavía no.</text>
+</svg>

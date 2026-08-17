@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Recorrido de las Máquinas — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.66; }
+  header { text-align:center; padding:44px 16px 10px; }
+  header h1 { margin:0; font-size:33px; }
+  header .sub { color:var(--gold); margin:12px auto 0; font-size:16px; max-width:760px; }
+  nav.top { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.96); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav.top a { color:var(--gold); text-decoration:none; margin:0 9px; font-size:13.5px; }
+  nav.top a:hover { text-decoration:underline; }
+  main { max-width:1080px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:9px; font-size:24px; margin-top:52px; }
+  h3 { color:var(--gold); font-size:19px; margin:42px 0 6px; }
+  p { font-size:15.5px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:13px 18px;
+          font-family:Consolas,monospace; font-size:14.5px; color:var(--gold); overflow-x:auto; text-align:center; margin:16px 0; }
+  .lam { margin:18px 0 8px; background:#08111f; border:1px solid #1d3a63; border-radius:12px; padding:8px; }
+  .lam img { width:100%; height:auto; display:block; border-radius:7px; }
+  .medido { font-size:13.5px; color:var(--green); border-left:3px solid #2f7f63; padding-left:14px; margin:12px 0; }
+  .origen { font-size:13.5px; color:var(--dim); border-left:3px solid #3c5f91; padding-left:14px; margin:12px 0; }
+  .origen b { color:var(--blue); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:12px; padding:16px 20px; margin:26px 0; }
+  .honesto b { color:var(--rose); }
+  .indice { background:var(--panel); border:1px solid #26456e; border-radius:12px; padding:14px 20px; margin:22px 0; font-size:14px; }
+  .indice a { color:var(--gold); text-decoration:none; }
+  .indice a:hover { text-decoration:underline; }
+  .uso { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:11px 16px; margin:14px 0; font-family:Consolas,monospace; font-size:13px; color:var(--gold); }
+  em { color:var(--dim); }
+  footer { text-align:center; color:var(--dim); padding:36px 16px; font-size:13.5px; }
+  footer .tn { color:var(--gold); font-size:16px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🚂🚗 El Recorrido de las Máquinas</h1>
+  <p class="sub">Quince paradas, quince planos. El Tren y el DeLorean desarmados pieza por pieza: qué hace cada una,
+  cómo calza con la de al lado, para qué se usa y de dónde salió. Criollo, matemática y dibujo en la misma hoja —
+  y cada número de cada lámina medido en la corrida que la dibuja.</p>
+</header>
+<nav class="top">
+  <a href="index.html">← La Galería</a>
+  <a href="museo.html">🏛️ El Museo</a>
+  <a href="teorema-astorga.html">Los Teoremas</a>
+  <a href="#tren">🚂 El Tren</a>
+  <a href="#delorean">🚗 El DeLorean</a>
+  <a href="#honestidad">La honestidad</a>
+</nav>
+<main>
+
+<h2>Las dos filosofías</h2>
+<p>El laboratorio tiene dos máquinas grandes para el mar de ondas de ζ, y son opuestas y complementarias.
+<b>El TREN no rema el mar — lo GIRA</b>: cambia cada suma gigante por otra más corta que dice exactamente lo mismo,
+hasta que cabe en la mano. Llega a aguas donde nadie remó jamás (10⁴⁸), pero cada presa suya tiene que pasar por un juez.
+<b>El DELOREAN sí navega</b> — con casco certificado, memoria y luz embotellada — y cuando no hace falta recorrer el camino,
+<b>SALTA</b>: decile el número del cero o del primo y te lleva a la puerta.</p>
+<p>Y hay algo que sólo se ve cuando se las desarma juntas: <b>las dos corren la misma ley de bloque</b>,
+<em>L = k·(C/t)<sup>1/3</sup></em>, con presupuestos distintos. Son dos ajustes de un mismo motor.</p>
+
+<div class="indice">
+  <b>EL TREN</b> —
+  <a href="#p1">① el puente</a> ·
+  <a href="#p2">② las dos ruedas</a> ·
+  <a href="#p3">③ la vuelta</a> ·
+  <a href="#p4">④ el descenso</a> ·
+  <a href="#p5">⑤ la cizalla</a> ·
+  <a href="#p6">⑥ las orillas</a> ·
+  <a href="#p7">⑦ la ley del bloque</a> ·
+  <a href="#p8">⑧ el embudo</a> ·
+  <a href="#p9">⑨ los tres motores</a> ·
+  <a href="#p10">⑩ el engranaje congelado</a><br>
+  <b>EL DELOREAN</b> —
+  <a href="#p11">⑪ la misma ley</a> ·
+  <a href="#p12">⑫ el casco</a> ·
+  <a href="#p13">⑬ un pliegue</a> ·
+  <a href="#p14">⑭ la brújula</a> ·
+  <a href="#p15">⑮ los dos correos</a>
+</div>
+
+<h2 id="tren">🚂 EL TREN — la locomotora de Landsberg-Schaar (<em>cmd/circulo</em>)</h2>
+
+<h3 id="p1">① EL PUENTE — por qué una ola de ζ ES un peine</h3>
+<p>Esta es la pieza que faltaba en el recorrido viejo, y es la primera de todas: <b>el eslabón entre el mar y el círculo</b>.
+Un término del mar es <em>(k₀+j)<sup>−1/2</sup>·e<sup>−it·ln(k₀+j)</sup></em>. Parece una cosa rara hasta que uno abre el logaritmo
+alrededor del arranque del bloque: <em>ln(k₀+j) = ln k₀ + u − u²/2 + u³/3 − …</em> con <em>u = j/k₀</em>. Y ahí aparece:
+la fase del bloque es <b>una constante, más una pendiente, más una curvatura, más una torcedura</b>. Tres perillas. Eso es
+un <em>chirp</em>, y por eso todo lo que sabe la máquina sobre chirps se puede aplicar al mar de ζ.</p>
+<div class="math">fase(j)/2π = const + c·j + b·j² + g·j³ + …   con   c = frac(−T/k₀),  b = frac(t/4πk₀²),  g = −T/3k₀³,  T = t/2π</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-01-el-puente.svg" alt="El puente de ola a chirp"></div>
+<p class="medido">Medido en la lámina: en el agua t = 10²⁴ con k₀ = 2,5×10¹¹ las tres perillas valen c = 0,4187, b = 0,2732,
+g = −3,40×10⁻¹². La torcedura parece nada — pero multiplicada por el largo del bloque al cubo deja 0,15 radianes,
+que es exactamente el presupuesto de la parada ⑦. La lámina también confiesa algo: a esa profundidad la pendiente c
+<b>no es resoluble en float64</b> (el ulp de T/k₀ es 1,2×10⁻⁴), y ese es el motivo por el que el casco del DeLorean es doble-doble.</p>
+
+<h3 id="p2">② LAS DOS RUEDAS — la reciprocidad exacta de 1893</h3>
+<p>Landsberg-Schaar: una suma de q términos <b>ES</b> una suma de p términos girada 45 grados y estirada. No parecida: igual.
+Con q gigante y p chiquito, <b>el numerito de arriba resuelve al gigante de abajo</b>. Las fases se llevan en enteros exactos
+(p·n² módulo 2q, arrastrado por diferencias para que nunca desborde), así que el único error de coma flotante es el coseno final.</p>
+<div class="math">Σ<sub>n&lt;q</sub> e<sup>iπpn²/q</sup> = √(q/p) · e<sup>iπ/4</sup> · Σ<sub>n&lt;p</sub> e<sup>−iπqn²/p</sup>   (pq par)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-02-las-dos-ruedas.svg" alt="Las dos ruedas"></div>
+<p class="medido">Medido: la caminata de 2 000 pasos y la de 3 pasos terminan en el mismo punto con diferencia relativa 5,3×10⁻¹⁵.
+Y a escala de máquina, la rueda de <b>10⁸ dientes contra la rueda de 7</b>: |S| = 10 000,000000 = √q exacto, diferencia 1,3×10⁻¹²,
+5,8 segundos contra un tiempo inmedible.</p>
+<p class="origen"><b>De dónde salió:</b> de un flash del capitán (F137), textual — «un numerito chiquito arriba apuntando a un
+número gigante abajo, y resolver esto con lujo». Se decodificó como inversión modular y quedó riel en un día.</p>
+
+<h3 id="p3">③ LA VUELTA — dónde se alinean las flechas</h3>
+<p>El mar de verdad no tiene curvatura racional: sus bloques son chirps con <em>b</em> irracional, y ahí la identidad de 1893
+no cierra sola. Entra la vuelta del círculo — Poisson más fase estacionaria. La idea en criollo: si sumás un montón de flechas
+que giran cada vez más rápido, <b>casi todas se cancelan entre ellas</b>; sólo sobreviven los pedacitos donde el giro se frena
+un instante. Cada uno de esos puntos quietos es un término del dual. Y como hay unos 2b por cada término original,
+la suma de N términos se vuelve una de ~2bN.</p>
+<div class="math">x<sub>m</sub> = (m − c)/2b · curvatura dual −1/(4b) · amplitud 1/√(2b) · giro fijo e<sup>iπ/4</sup></div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-03-la-vuelta.svg" alt="La vuelta del círculo"></div>
+<p class="medido">Medido: con b = 0,031 y N = 200 000 el dual tiene <b>12 400 términos = 2bN clavado</b>. Y con el bloque real del
+mar (b = 0,2732, N = 120 000) da 65 577 contra 2bN = 65 577,49 — el piso se come el 0,49 del borde.</p>
+
+<h3 id="p4">④ EL DESCENSO Y SU TACÓMETRO — la cascada de Euclides</h3>
+<p>Acá está el corazón del motor rápido: <b>el dual de un chirp es otro chirp</b>. Entonces se puede volver a girar. Y otra vez.
+Cada vuelta acorta por 2b y reescribe la curvatura como <em>1/(4b)</em> — que es, exactamente, el paso del algoritmo de Euclides
+sobre fracciones continuas. Se gira hasta que la suma cabe en un <b>tamaño cómodo</b> y ahí se rema a mano.</p>
+<div class="math">b ← 1/(4b) · c ← α/(2b) · n ← ⌊c + 2b(n−1)⌋ − ⌈c⌉ + 1 ≈ 2bn · multiplicador ×= e<sup>iπ/4</sup>/√(2b)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-04-el-descenso.svg" alt="El descenso de la cascada"></div>
+<p class="medido">Medido: el caso abisal (b = 0,199689, n = 5 000 000) baja en <b>7 escalones</b> a 609 términos — un recorte de
+8 210 veces. Y la lámina marca sola el escalón más violento: 990 669 → 15 550 de un saque, porque en ese nivel la aguja del
+tacómetro cayó a b = 0,0078 — cuanto más chica la curvatura, más larga la zancada.</p>
+
+<h3 id="p5">⑤ EL CORTE DE CIZALLA — el mismo caso, dos destinos</h3>
+<p>La cascada tiene un talón de Aquiles: si la curvatura cae cerca de <b>b = ½</b>, el dual <em>1/(4b)</em> vuelve a caer cerca de ½ —
+es un punto fijo — y la escalera patina sin bajar. El remedio es una tijera: correr medio ciclo. <em>b − ½</em> y <em>c + ½</em>,
+y es exacto porque j(j−1) siempre es par. Con eso la curvatura queda debajo de ¼ y cada vuelta al menos parte la suma al medio.</p>
+<div class="math">b ∈ (¼, ½] → b − ½, c + ½   (exacto: j(j−1) es par) · y el espejo b &gt; ½ → 1−b, 1−c, conjugando</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-05-la-cizalla.svg" alt="El corte de cizalla"></div>
+<p class="medido">Medido, y más fuerte de lo que esperábamos: con b = 0,4999 y un millón de términos, <b>sin cizalla la escalera
+no llega nunca</b> — se planta a las 402 vueltas con 919 399 términos todavía sin remar, y en todas esas vueltas la curvatura
+se movió 8,7×10⁻⁶. Con cizalla: <b>2 vueltas</b> y a puerto con 200 términos.</p>
+
+<h3 id="p6">⑥ LA VENTANA Y SUS ORILLAS — el 0,021% del círculo</h3>
+<p>La vuelta del círculo es exacta en el interior de la ventana, pero en los dos bordes Poisson cuenta a medias y hay que
+mirar de cerca. La tesis de la máquina cabe en un número: <b>a los dientes del medio los lleva la armonía</b> — todos comparten
+el mismo giro de 45 grados — y sólo un puñado de dientes contra cada orilla necesita la lupa exacta de Fresnel.</p>
+<div class="math">∫ e<sup>2πibu²</sup>du = e<sup>iπ/4</sup>/√(2b) para el interior · y en las orillas, los integrales de Fresnel C(x), S(x) término a término</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-06-las-orillas.svg" alt="La ventana y sus orillas"></div>
+<p class="medido">Medido: sobre <b>3 010 321 dientes duales</b> en los seis niveles del descenso, la lupa exacta se usa
+<b>620 veces = 0,0206%</b>. El resto viaja gratis en la armonía. La espiral de Cornu de la lámina está integrada de verdad
+(Simpson, 52 000 pasos): su diagonal ojo a ojo mide 1,000295 a 45,083°, contra el e<sup>iπ/4</sup> exacto que es 1 a 45°.</p>
+
+<h3 id="p7">⑦ LA LEY DEL BLOQUE — la viga que se comba y se parte en dos</h3>
+<p>¿De qué largo se corta un bloque? La respuesta es la tercera perilla del puente. La torcedura <em>g·j³</em> es la que arruina
+el modelo cuadrático, así que se corta el bloque justo antes de que esa torcedura se note. Eso da la ley del tercio —
+y lo lindo es que <b>el presupuesto de fase es el MISMO en toda agua</b>: la máquina no navega más prolijo en agua baja y
+más chapucero en agua honda, gasta siempre lo mismo.</p>
+<div class="math">L = k₀·(0,45/t)<sup>1/3</sup>  ⟹  η = t·L³/3k₀³ = 0,45/3 = <b>0,15 rad</b>, en toda agua</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-07-la-ley-del-bloque.svg" alt="La ley del bloque"></div>
+<p class="medido">Medido en ocho aguas de 10²¹ a 10⁴⁸: el largo del bloque se multiplica por 31 623 (de 967 a 30 millones de
+términos) y <b>η vale 0,150000000000 en todas, con dispersión 8,3×10⁻¹⁷</b>. Cuando la comba supera 0,05 la viga se parte:
+piezas = ⌈∛(η/0,04)⌉ = 2, cosidas por una costura de fase en doble-doble.</p>
+
+<h3 id="p8">⑧ EL EMBUDO DEL SONAR Y EL CARDUMEN</h3>
+<p>El sonar es la orden textual del capitán hecha máquina: <b>que funcione como un sonar de verdad</b>, una onda que se propaga
+y una respuesta que crece con el alcance. Se escucha primero barato (1 500 remadas); si el agua está calma, se corta ahí.
+Y hay una asimetría deliberada: <b>la ventana para seguir escuchando es más ancha que la ventana para condenar</b>. Se sigue
+oyendo a la duda; se condena sólo a la certeza.</p>
+<div class="math">seguir escuchando si σ ∉ [0,35 · 1,7]   ·   declarar bestia si σ ∉ [0,05 · 2,4]   ·   σ = |ola|/√L</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-08-el-embudo.svg" alt="El embudo del sonar"></div>
+<p class="medido">Medido sobre mil bloques simulados con la ley del mar: <b>826 se cuelgan en el primer escalón</b> (82,6%),
+sólo 27 llegan al tercero y 3 al juicio con banda entera — un ahorro de remada del <b>90,1%</b>. Y abajo, el cardumen:
+los bloques vecinos de una presa están pegados a un paso de L, que a t = 10³³ vale <b>7,66×10⁻¹² de k</b> — el dígito doce.
+Por eso el libro se escribe con diecisiete dígitos: con seis, dos bloques distintos se imprimen idénticos.</p>
+
+<h3 id="p9">⑨ LOS TRES MOTORES — y el 5º fantasma con domicilio</h3>
+<p>Nada entra al libro sin dos firmas. <b>El juez</b>: cada bestia candidata se rema DIRECTO, término a término, y se compara
+contra la cascada; si se pelean más del 5%, se descarta — la cascada jamás se cree a sí misma. <b>El árbitro</b>: en aguas
+de 10⁴⁰ para arriba, cada octava presa recibe un contraste en 256 bits, lento como un carro de bueyes, con un cuaderno
+que no es el de los otros dos. Porque dos motores parecidos <b>pueden equivocarse igual</b>.</p>
+<div class="math">|cascada − directo| / |directo| &lt; 0,05  ·  y en lo hondo, |dd − 256 bits| ≤ 0,05 o se grita FANTASMA</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-09-los-tres-motores.svg" alt="Los tres motores"></div>
+<p class="medido">Medido: el juez y la cascada se dieron la mano con 4,8×10⁻⁴, muy por debajo de la puerta. El censo del
+árbitro salió del libro mismo: <b>31 pinchazos limpios entre 2,1×10⁻⁵ y 4,4×10⁻³, y uno solo desbocado en 6,8×10⁻¹</b> —
+el 5º fantasma, con domicilio exacto: t = 10⁴⁰, k = 2,131827179357483×10¹⁹, L = 4 000. No es una deriva: es un salto de 150 veces.</p>
+<p class="medido">Y una sorpresa que la lámina dejó dicha: el aporte del amortiguador F144 sobre dos millones de remadas dio
+<b>exactamente cero con la curvatura exacta de esa agua, y 1,06×10⁻² con la misma curvatura corrida en sus últimos bits</b>.
+El reservorio se llena o queda seco según los BITS de la coordenada. Es la doctrina de la coordenada exacta apareciendo
+adentro del remo.</p>
+<p class="origen"><b>De dónde salió:</b> el amortiguador, de un flash cuántico del capitán (F144) — reservorios de Lindblad,
+«disipar sin destruir el estado» — traducido a aritmética: el error de redondeo es una oscilación coherente, hay que
+darle un reservorio. El árbitro, de su orden (F154): «explicame el cuarto fantasma y lo resolvemos».</p>
+
+<h3 id="p10">⑩ EL ENGRANAJE CONGELADO — la lámina honesta</h3>
+<p>Esta parada es una confesión. Hubo campañas en las que la curvatura del bloque salía de una fracción fija del tope,
+y eso tiene una consecuencia que no vimos a tiempo: <b>b<sub>crudo</sub> = 1/(2·frac₀²) no depende de t</b>. Es una constante.
+Con frac₀ = 0,35 da 200/49, y la parte fraccionaria queda clavada en 4/49 — una curvatura RACIONAL de período 49.
+Y un chirp de curvatura racional no es mar: es una suma de Gauss que mide √49 = 7, pase lo que pase.</p>
+<div class="math">b<sub>crudo</sub> = 1/(2·frac₀²) — independiente de t · con frac₀ = 0,35 → 200/49 → b = 4/49 (período 49)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-10-el-engranaje-congelado.svg" alt="El engranaje congelado"></div>
+<p class="medido">Medido: con la curvatura racional, la mediana de |ola| sobre 1 500 bloques da <b>7,01 — o sea √49</b>, la aguja
+inmóvil de punta a punta. Con una curvatura irracional, la misma medición da <b>220,6, o sea √L con L = 49 664</b>. Un factor
+de treinta veces entre medir el mar y medir un candado. El cazadero de hoy está a salvo porque su fracción es áurea y
+la curvatura le sale irracional — pero la lámina queda colgada igual, porque el museo también cuenta las trampas
+en las que cayó la casa.</p>
+
+<h2 id="delorean">🚗 EL DELOREAN — la nave estelar y sus correos (<em>cmd/starship · cmd/hipersalto</em>)</h2>
+
+<h3 id="p11">⑪ LA MISMA LEY, DOS PRESUPUESTOS</h3>
+<p>Acá está la simetría que sólo se ve desarmando las dos máquinas juntas: <b>el tren y el DeLorean cortan sus bloques con la
+misma ley</b>, y hasta llevan tallados los mismos dos engranajes (el espejo y la cizalla). Lo único que cambia es cuánta comba
+se permite cada uno. El DeLorean es más conservador — gasta 0,003 radianes de fase por bloque; el tren se permite 0,15.</p>
+<div class="math">L = k·(C/t)<sup>1/3</sup> ⟹ η = C/3 · C<sub>DeLorean</sub> = 0,009 (η = 0,003) · C<sub>tren</sub> = 0,45 (η = 0,15)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-11-la-misma-ley.svg" alt="La misma ley, dos presupuestos"></div>
+<p class="medido">Medido en siete aguas: el cociente entre los dos bloques es <b>3,684031499 en todas — que es ∛50 exacto</b>,
+y las dos η salen constantes hasta el último dígito (0,003000000000 y 0,150000000000). Ese 3,68 es, justamente, lo que ganó
+el tren cuando le agregamos el paso cúbico: no fue magia, fue subir el presupuesto.</p>
+
+<h3 id="p12">⑫ EL CASCO QUE SE RE-ANCLA — la faceta cuártica</h3>
+<p>El DeLorean no guarda la fase de cada término: guarda <b>la curva</b>. Una faceta es un modelo de fase de cuatro tornillos que
+avanza por diferencias — se clickea, no se calcula. El problema es que cada click redondea, y el redondeo de una marcha por
+diferencias <b>se integra</b>: crece como el cubo del largo de la faceta. La cura: cada 4 096 clicks baja una mano y vuelve a
+clavar la aguja en el valor exacto calculado en doble-doble.</p>
+<div class="math">φ(j) = cA + cB·j + cC·j² + cD·j³ · diferencias constantes · re-anclaje exacto cada 4 096 pasos</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-12-el-casco.svg" alt="El casco que se re-ancla"></div>
+<p class="medido">Medido sobre una faceta de 640 000 pasos: <b>sin re-anclar, el error de fase llega a 3,14 radianes</b> — media
+vuelta entera, la nave leyendo un mar que no existe — y ya pasa el milirradián en el paso 16 500. <b>Con re-anclaje cada 4 096,
+el peor error es 4,65×10⁻⁶ radianes</b>. Seis órdenes de magnitud, por bajar una mano cada tanto.</p>
+<p class="origen"><b>De dónde salió:</b> del flash óptico del capitán (F88) — espejo cóncavo afuera, secundario convexo — llevado
+a metal como facetas convexas; y la enfermedad de agua profunda la nombró la certificación siguiente (F90), que midió
+la deriva cúbica y recetó el re-anclaje.</p>
+
+<h3 id="p13">⑬ UN PLIEGUE POR VENTANA — el engranaje de Fresnel</h3>
+<p>Arriba de t ~ 10²¹ los bloques ya no se reman término a término. La razón es una observación física preciosa: dentro de una
+ventana de caza, <b>la forma interna del bloque no cambia</b> — lo único que cambia es la portadora que lo hace girar entero.
+Entonces se pliega la forma UNA vez y se la usa para toda la ventana: cada bloque entra al balde de luz como un solo
+súper-término gordo.</p>
+<div class="math">bloque(t) = e<sup>−it·ln k<sub>c</sub></sup> · F(forma) — con la forma constante a menos de 10⁻⁸ rad en toda la ventana</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-13-un-pliegue.svg" alt="Un pliegue por ventana"></div>
+<p class="medido">Medido a t = 10³⁰ sobre una ventana de 25 puntos: <b>la forma interna deriva 2,07×10⁻¹¹ radianes</b> —
+mil veces por debajo del límite que la nave se puso — mientras la portadora gira 1,92 radianes por paso. La cuenta del ahorro:
+3,87×10¹⁴ términos se leen como 1,67×10¹¹ bloques plegados, <b>57 798 veces menos trabajo</b>. En un rincón de la lámina está
+el caso degenerado: si el bloque no tiene curvatura, no se suma — se resuelve de un plumazo con el núcleo de Dirichlet.</p>
+
+<h3 id="p14">⑭ LA BRÚJULA DE DOCE Y LA PROA</h3>
+<p>Para elegir dónde cazar, la nave huele. Corta la ventana en doce, se queda con el doceavo que más suena, corta ESE en doce,
+y otra vez, hasta que el sector es más fino que un milésimo del espaciado entre ceros. Lo que huele es la marea del mar:
+la predicción de S(t) hecha de <b>26 cuerdas de primos</b>. Y al final hace un último ajuste que parece una pavada y no lo es:
+<b>la proa</b> — correr el marco para que el tesoro quede al medio del cuadro y no pegado al borde, donde se recortaría.</p>
+<div class="math">S(t) ≈ −(1/π)·Σ<sub>p≤101</sub> sin(t·ln p)/√p   ·   espaciado = 2π/ln(t/2π)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-14-la-brujula.svg" alt="La brújula de doce y la proa"></div>
+<p class="medido">Medido a t = 10²⁴: cuatro cortes dan la dirección en base doce <b>8.6.11.6</b>, y el sector final mide
+2,84×10⁻⁵ — el espaciado dividido 4 147. Lo que encuentra la brújula (|S| = 0,85026) <b>es el pico real de toda la banda</b>
+(0,85025): dio en el clavo. Un detalle de honestidad de la lámina: a t = 10²⁴ un float64 no puede ni representar t + u,
+así que las fases ancla de las 26 cuerdas se doblan en <b>big.Float de 260 bits</b>, igual que la nave las dobla en doble-doble.</p>
+
+<h3 id="p15">⑮ LOS DOS CORREOS — saltar por dirección, sin recorrer el camino</h3>
+<p>La última parada es la más linda de contar: <b>los dos globos de la flota tienen sistema postal</b>. En el globo de Riemann la
+dirección natural de un cero no es su altura, es su NÚMERO de orden — y hay una escalera que traduce una cosa en la otra.
+En el globo de los primos, la dirección es el índice del primo: se estima dónde cae, se cuenta cuántos primos hay hasta ahí
+por aniquilación de Möbius (sumando y restando bloques enteros que se comen entre ellos), y recién en el último tramo corto
+camina una criba local que clava el aterrizaje al dígito.</p>
+<div class="math">N(T) = θ(T)/π + 1 (correo de ceros)  ·  x₀ = n(ln n + ln ln n − 1) → Meissel/P2 → criba local (correo de primos)</div>
+<div class="lam"><img src="laminas/09-las-maquinas/plano-15-los-dos-correos.svg" alt="Los dos correos"></div>
+<p class="medido">Medido: la escalera de ceros cuenta <b>99,81 donde vive el cero número 100 y 999,42 donde vive el número 1 000</b>
+— se desvía 0,19 y 0,58, o sea que aterriza en el barrio y el último tramo hay que navegarlo. La brújula de primos cae a
+<b>0,288% del primo un millón y 0,229% del cien millones</b>, y ahí la cuenta exacta dice que faltan 2 687 primos: la criba local
+los camina. En la lámina se ve la criba tachando compuestos — de 120 enteros seguidos, <b>sobreviven 6</b>.</p>
+<p class="origen"><b>De dónde salieron:</b> el correo de ceros, del flash del capitán (F104) — «una esfera no se puede apoyar
+plana en una hoja sin cortes ni deformación, quizás haya que llevar el mapa a la esfera» — que es la esfera de Riemann, donde
+la dirección natural es el ordinal. El correo de primos, de su flash de la antimateria como <b>combustible de cancelación</b>
+(F106): aniquilar los compuestos para que sólo quede luz de primos. Los dos resultaron existir exactamente, con métodos que
+pertenecen a Legendre, Meissel, Lehmer y Deléglise-Rivat — el flash volvió a derivar la filosofía desde la física.</p>
+
+<div class="uso">CÓMO SE USAN · EL TREN: go run ./cmd/circulo (la demo de los rieles) · -cazar (la cacería sin fin) · las presas caen en luz/cazadero.log<br>
+EL DELOREAN: go run ./cmd/starship (puertas de certificación) · -flight (duelo A/B) · -tunnel (túnel de viento) · -zero N (saltar al cero N) · -metronomo<br>
+go run ./cmd/hipersalto -n 1e9 (saltar al primo mil millones) · go run ./cmd/fleet -anchor T (anclar una nave) · go run ./cmd/faro (el tablero, puerto 8117)<br>
+LOS PLANOS: go run ./cmd/losplanos — vuelve a medir todo y redibuja las quince láminas</div>
+
+<h2 id="honestidad">La honestidad de las máquinas</h2>
+<div class="honesto">
+<p><b>Hasta dónde firman.</b> El libro registra <b>17 aguas anexadas</b>, de 3×10³³ hasta 10⁴⁸, cada una con tres sondas firmadas
+antes de entrar. Pero hay una asimetría que hay que decir: <b>las sondas de certificación se corren con el bloque capado en
+40 000 términos, y después el cazadero navega con el bloque natural</b>, que a 10⁴⁸ es cientos de veces más largo. En esa brecha
+exactamente vive el 5º fantasma, avistado a 10⁴⁰. Más hondo que 10⁴⁸ la máquina no firma, y esta casa no navega donde no puede firmar.</p>
+<p><b>De qué grado es cada riel.</b> Los rieles 2 y 3 (la cascada con corrección de medio extremo) son grado reconocimiento:
+del 0,5% al 7% típico, y hasta 33% cerca de b ≈ ½ — eso está en el registro sin retocar. El que se usa en el agua es el riel 4,
+con orillas de Fresnel exactas y fases doble-doble de punta a punta, que baja el error a 10⁻⁴. Y aún así <b>toda presa pasa por
+el juez directo</b>, y en lo hondo por el árbitro de 256 bits.</p>
+<p><b>Los cinco fantasmas.</b> Son una sola enfermedad con cinco disfraces: <b>la coordenada inexacta</b>. El primero fue un vigía
+que imprimía redondeado; el segundo, una coordenada maldita que hacía colapsar los dos motores al mismo dígito; el tercero
+vivía adentro de la cascada; el cuarto era un ancla redondeada en float64 y demolió una pared entera cuando se lo llevó a
+doble-doble. <b>El quinto sigue vivo</b>: es el desgaste del cuaderno doble-doble, pre-registrado antes de verlo y avistado
+después exactamente donde se lo esperaba. Su arma — la matriz de proyección multi-limb — está anotada y sin escribir.</p>
+<p><b>Y lo más importante:</b> ninguna de las dos máquinas demuestra la hipótesis de Riemann. Son instrumentos de medición.
+Cada medición lleva su firma, y cada firma tiene un límite escrito al lado. <b>Todavía no.</b></p>
+</div>
+
+</main>
+<footer>
+  <p class="tn">Todavía no.</p>
+  <p>Laboratorio Diosyunalma · los quince planos: F348 · la forja del tren: F136-F155, F201 · la del DeLorean: F87-F92, F99, F103-F107, F122, F129-F136<br>
+  cada lámina se redibuja con <em>go run ./cmd/losplanos</em>, midiendo de nuevo todo lo que muestra</p>
+</footer>
+</body>
+</html>

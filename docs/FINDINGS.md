@@ -6879,6 +6879,40 @@ The hall now reads: Astorga · DYN · Diosyunalma · River of Wells · Trinity �
 
 ---
 
+## Finding 347 — THE TOUR OF THE MACHINES: the train and the DeLorean, exploded piece by piece
+
+The captain asked for the museum tour of the two great machines, SEPARATELY: how every piece fits, what it is for and how it is used — in plain language with the mathematics, and with plates.
+
+**The train's blueprint** (`cmd/elplanodeltren` + `el-plano-del-tren.svg`): the three rails (exact Landsberg-Schaar reciprocity · the chirp cascade with its N→2bN circle flip · calibration to the comfortable size), the F144 damper, the whale sonar, the 5% judge, the 256-bit arbiter and the march. Verified live before framing: 50,000 terms = 3 terms with error 4.5e-15; one flip turns 100,000 → 26,000 (ratio 0.260 = 2b exactly).
+
+**The DeLorean's blueprint** (`cmd/elplanodeldelorean` + `el-plano-del-delorean.svg`): the dd hull (~32 digits, certified to 4e24), the convex facets, the light bucket, the Fresnel gearbox (internal shape < 1e-8 rad ⇒ super-terms), the checkpoint memory, and THE TWO POSTAL SYSTEMS: jump by zero address (starship -zero N, the N(T) guide) and by prime address (hipersalto -n N, the x₀ compass + Möbius + local sieve). Both guides verified live: prime compass off by 0.29%/0.23% against p(10⁶)/p(10⁸); zero guide off by 0.19/0.58 against γ₁₀₀/γ₁₀₀₀.
+
+**Framed:** the tour page `galeria/recorrido-maquinas.html` (the two philosophies: the train TURNS the sea, the DeLorean sails it and JUMPS; every piece with how-it-fits / what-for / how-to plus the commands) · gallery button · two new pieces at the head of The Instruments hall (Nos. 115-116) · two catalog entries · both plates hung. House counts: 264 experiments · 164 plates · 292 museum stops. Honesty: the blueprints cite their acts' certifications (F144-F155, F201, F106, flight tests) without re-running them; only the rails and the postal guides are verified live. The machines measure and sign — they do not prove RH.
+
+**Reproduce.** `go run ./cmd/elplanodeltren` · `go run ./cmd/elplanodeldelorean`.
+
+---
+
+## Finding 348 — THE FIFTEEN BLUEPRINTS: the machine tour, exploded piece by piece
+
+The captain looked at F347's two summary blueprints and asked for three things: (a) the images report an error, (b) make it more graphic and more mechanical - several plates, part by part, with an intuitive drawing plus the mathematics plus the plain-language line, and (c) go back to the source and check whether anything was missed, and where each mechanism came from.
+
+**(a) The error, confessed.** It was mine and it was elementary: raw `<` and `>` characters inside SVG text nodes. In XML those two characters open and close tags, so the whole file stops being readable. Both F347 plates are fixed and validated; the new drawing bench (`cmd/losplanos/lienzo.go`) escapes every caption before writing it.
+
+**(b) `cmd/losplanos` - fifteen new plates**, each measuring live what it draws: the wave-to-chirp bridge; the two wheels (10^8 terms = 7 terms, |S| = sqrt(q) exact); the flip (dual 12,400 = 2bN on the nose); the descent (5,000,000 to 609 in 7 rungs); the shear cut (without it the ladder stalls after 402 turns, with it 2); the window edges (620 exact evaluations over 3,010,321 dual teeth = 0.0206%); the block law (eta = 0.15 across EIGHT waters, spread 8.3e-17); the sonar funnel (826 of 1000 hang on the first step, 90.1% rowing saved); the three engines (arbiter census read from the hunt's own book: 31 clean, one at 6.8e-1); the frozen gear; the shared law (ratio cbrt(50) = 3.684031499 in every water); the re-anchored hull (3.14 rad adrift versus 4.65e-6 anchored); one fold per window (shape drift 2.07e-11 rad, 57,798x saved); the base-twelve compass (8.6.11.6, landing on the band's true peak); and the two postal services.
+
+**(c) What had been missed.** A deep source read with seven readers found the biggest hole was THE BRIDGE - the link between the sea and the circle: a zeta term's phase, expanded in Taylor, becomes slope + curvature + twist, and that IS a chirp. Also missing: the shear cut, the complete rail 4, the cubic step, and the prettiest symmetry of all - the train and the DeLorean cut their blocks with THE SAME law, separated by cbrt(50).
+
+**Three factual errors of the previous tour, corrected:** the sea reaches 10^48, not 10^42 (17 annexed waters, verified in the hunt log); the rail actually sailed is 4, not 3; and certification runs with the block capped at 40,000 while the hunt sails the natural block - the 5th ghost lives in exactly that gap.
+
+**Two findings that came from verifying instead of trusting:** the F144 damper's contribution over two million rows is exactly ZERO at that water's exact curvature and 1.06e-02 at the same curvature nudged in its last bits - the reservoirs fill or stay dry according to the BITS of the coordinate; and the compass, with the original window, climbed to the boundary and returned 12.12.12.12 - re-aimed at a stretch with treasure inside it, it returns 8.6.11.6 and lands on the band's real peak.
+
+House counts: 265 experiments, 179 plates, 293 museum stops.
+
+**Reproduce.** `go run ./cmd/losplanos`.
+
+---
+
 ## Annex — log entries that never got a number
 
 Campaign closures, honest corrections, the captain's orders and maxims,

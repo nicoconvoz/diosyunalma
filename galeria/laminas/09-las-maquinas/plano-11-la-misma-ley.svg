@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="52.0" font-size="26.0" font-family="Georgia" fill="#dce8f7" text-anchor="middle">⑪ LA MISMA LEY, DOS PRESUPUESTOS — el tren y el DeLorean comparten geometría</text>
+<text x="700.0" y="80.0" font-size="14.0" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">una sola regla para el largo del bloque; cada máquina elige cuánta panza le tolera a la viga</text>
+<rect x="468.00" y="98.00" width="464.00" height="46.00" fill="#0d1830" stroke="#ffd98a" opacity="0.55"/>
+<text x="700.0" y="128.0" font-size="20.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">L = k · (C / t)^(1/3)</text>
+<text x="700.0" y="158.0" font-size="12.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">LA MISMA LEY</text>
+<line x1="560.00" y1="146.00" x2="383.33" y2="181.71" stroke="#ffd98a" stroke-width="1.60"/>
+<path d="M372.00 184.00 L381.41 177.29 L383.28 186.53 Z" fill="#ffd98a"/>
+<line x1="840.00" y1="146.00" x2="1018.66" y2="181.73" stroke="#ffd98a" stroke-width="1.60"/>
+<path d="M1030.00 184.00 L1018.73 186.55 L1020.57 177.31 Z" fill="#ffd98a"/>
+<rect x="40.0" y="176.0" width="600.0" height="206.0" rx="10" fill="#0d1830" stroke="#7fb2ff" opacity="0.96"/>
+<text x="54.0" y="200.0" font-size="14.5" font-family="Georgia" fill="#7fb2ff" text-anchor="start">EL DELOREAN — presupuesto C = 0.009</text>
+<path d="M62.00 300.00 L74.00 286.00 L112.00 280.00 L138.00 258.00 L188.00 256.00 L214.00 278.00 L240.00 284.00 L244.00 298.00 L238.00 308.00 L68.00 308.00 L62.00 300.00" fill="none" stroke="#7fb2ff" stroke-width="1.90" opacity="1.00" stroke-linejoin="round"/>
+<path d="M146.00 260.00 L184.00 258.00 L180.00 274.00 L150.00 276.00 L146.00 260.00" fill="none" stroke="#8fb4d9" stroke-width="1.20" opacity="0.90" stroke-linejoin="round"/>
+<path d="M162.00 256.00 L170.00 220.00 L210.00 234.00 L200.00 260.00" fill="none" stroke="#7fb2ff" stroke-width="1.40" opacity="0.75" stroke-linejoin="round"/>
+<circle cx="106.00" cy="308.00" r="14.00" fill="none" stroke="#7fb2ff" stroke-width="1.70"/>
+<circle cx="106.00" cy="308.00" r="3.20" fill="#7fb2ff"/>
+<circle cx="204.00" cy="308.00" r="14.00" fill="none" stroke="#7fb2ff" stroke-width="1.70"/>
+<circle cx="204.00" cy="308.00" r="3.20" fill="#7fb2ff"/>
+<line x1="48.00" y1="328.00" x2="266.00" y2="328.00" stroke="#1d3a63" stroke-width="3.00"/>
+<rect x="760.0" y="176.0" width="600.0" height="206.0" rx="10" fill="#0d1830" stroke="#ff9aa8" opacity="0.96"/>
+<text x="774.0" y="200.0" font-size="14.5" font-family="Georgia" fill="#ff9aa8" text-anchor="start">EL TREN — presupuesto C = 0.45</text>
+<rect x="784.00" y="302.00" width="186.00" height="12.00" fill="none" stroke="#ff9aa8" opacity="0.90"/>
+<rect x="790.00" y="242.00" width="50.00" height="60.00" fill="none" stroke="#ff9aa8" opacity="0.90"/>
+<rect x="840.00" y="260.00" width="116.00" height="42.00" fill="none" stroke="#ff9aa8" opacity="0.90"/>
+<rect x="932.00" y="234.00" width="20.00" height="26.00" fill="none" stroke="#ff9aa8" opacity="0.90"/>
+<rect x="954.00" y="274.00" width="14.00" height="28.00" fill="none" stroke="#ff9aa8" opacity="0.90"/>
+<circle cx="878.00" cy="260.00" r="11.00" fill="none" stroke="#ff9aa8" stroke-width="0.90"/>
+<rect x="798.00" y="250.00" width="34.00" height="20.00" fill="none" stroke="#8fb4d9" opacity="0.70"/>
+<circle cx="816.00" cy="318.00" r="20.00" fill="none" stroke="#ff9aa8" stroke-width="1.60"/>
+<circle cx="816.00" cy="318.00" r="3.20" fill="#ff9aa8"/>
+<circle cx="870.00" cy="314.00" r="14.00" fill="none" stroke="#ff9aa8" stroke-width="1.60"/>
+<circle cx="870.00" cy="314.00" r="3.20" fill="#ff9aa8"/>
+<circle cx="908.00" cy="314.00" r="14.00" fill="none" stroke="#ff9aa8" stroke-width="1.60"/>
+<circle cx="908.00" cy="314.00" r="3.20" fill="#ff9aa8"/>
+<circle cx="942.00" cy="314.00" r="14.00" fill="none" stroke="#ff9aa8" stroke-width="1.60"/>
+<circle cx="942.00" cy="314.00" r="3.20" fill="#ff9aa8"/>
+<circle cx="946.00" cy="220.00" r="7.00" fill="none" stroke="#8fb4d9" stroke-width="0.80"/>
+<circle cx="964.00" cy="206.00" r="9.50" fill="none" stroke="#8fb4d9" stroke-width="0.80"/>
+<circle cx="982.00" cy="192.00" r="12.00" fill="none" stroke="#8fb4d9" stroke-width="0.80"/>
+<line x1="768.00" y1="334.00" x2="986.00" y2="334.00" stroke="#1d3a63" stroke-width="3.00"/>
+<rect x="314.00" y="214.00" width="292.00" height="158.00" fill="#0b1526" stroke="#1d3a63" opacity="0.75"/>
+<circle cx="386.00" cy="280.00" r="38.00" fill="none" stroke="#7fb2ff" stroke-width="1.80"/>
+<circle cx="386.00" cy="280.00" r="12.16" fill="none" stroke="#7fb2ff" stroke-width="1.20"/>
+<line x1="424.00" y1="280.00" x2="430.50" y2="280.00" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="418.91" y1="299.00" x2="424.54" y2="302.25" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="405.00" y1="312.91" x2="408.25" y2="318.54" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="386.00" y1="318.00" x2="386.00" y2="324.50" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="367.00" y1="312.91" x2="363.75" y2="318.54" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="353.09" y1="299.00" x2="347.46" y2="302.25" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="348.00" y1="280.00" x2="341.50" y2="280.00" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="353.09" y1="261.00" x2="347.46" y2="257.75" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="367.00" y1="247.09" x2="363.75" y2="241.46" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="386.00" y1="242.00" x2="386.00" y2="235.50" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="405.00" y1="247.09" x2="408.25" y2="241.46" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="418.91" y1="261.00" x2="424.54" y2="257.75" stroke="#7fb2ff" stroke-width="3.20"/>
+<circle cx="496.00" cy="280.00" r="38.00" fill="none" stroke="#7fb2ff" stroke-width="1.80"/>
+<circle cx="496.00" cy="280.00" r="12.16" fill="none" stroke="#7fb2ff" stroke-width="1.20"/>
+<line x1="534.00" y1="280.00" x2="540.50" y2="280.00" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="528.91" y1="299.00" x2="534.54" y2="302.25" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="515.00" y1="312.91" x2="518.25" y2="318.54" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="496.00" y1="318.00" x2="496.00" y2="324.50" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="477.00" y1="312.91" x2="473.75" y2="318.54" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="463.09" y1="299.00" x2="457.46" y2="302.25" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="458.00" y1="280.00" x2="451.50" y2="280.00" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="463.09" y1="261.00" x2="457.46" y2="257.75" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="477.00" y1="247.09" x2="473.75" y2="241.46" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="496.00" y1="242.00" x2="496.00" y2="235.50" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="515.00" y1="247.09" x2="518.25" y2="241.46" stroke="#7fb2ff" stroke-width="3.20"/>
+<line x1="528.91" y1="261.00" x2="534.54" y2="257.75" stroke="#7fb2ff" stroke-width="3.20"/>
+<text x="386.0" y="344.0" font-size="12.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">espejo  b → 1−b</text>
+<text x="496.0" y="344.0" font-size="12.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">cizalla b → b−½</text>
+<text x="441.0" y="364.0" font-size="11.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">las mismas dos ruedas</text>
+<rect x="1034.00" y="214.00" width="292.00" height="158.00" fill="#0b1526" stroke="#1d3a63" opacity="0.75"/>
+<circle cx="1106.00" cy="280.00" r="38.00" fill="none" stroke="#ff9aa8" stroke-width="1.80"/>
+<circle cx="1106.00" cy="280.00" r="12.16" fill="none" stroke="#ff9aa8" stroke-width="1.20"/>
+<line x1="1144.00" y1="280.00" x2="1150.50" y2="280.00" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1138.91" y1="299.00" x2="1144.54" y2="302.25" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1125.00" y1="312.91" x2="1128.25" y2="318.54" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1106.00" y1="318.00" x2="1106.00" y2="324.50" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1087.00" y1="312.91" x2="1083.75" y2="318.54" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1073.09" y1="299.00" x2="1067.46" y2="302.25" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1068.00" y1="280.00" x2="1061.50" y2="280.00" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1073.09" y1="261.00" x2="1067.46" y2="257.75" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1087.00" y1="247.09" x2="1083.75" y2="241.46" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1106.00" y1="242.00" x2="1106.00" y2="235.50" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1125.00" y1="247.09" x2="1128.25" y2="241.46" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1138.91" y1="261.00" x2="1144.54" y2="257.75" stroke="#ff9aa8" stroke-width="3.20"/>
+<circle cx="1216.00" cy="280.00" r="38.00" fill="none" stroke="#ff9aa8" stroke-width="1.80"/>
+<circle cx="1216.00" cy="280.00" r="12.16" fill="none" stroke="#ff9aa8" stroke-width="1.20"/>
+<line x1="1254.00" y1="280.00" x2="1260.50" y2="280.00" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1248.91" y1="299.00" x2="1254.54" y2="302.25" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1235.00" y1="312.91" x2="1238.25" y2="318.54" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1216.00" y1="318.00" x2="1216.00" y2="324.50" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1197.00" y1="312.91" x2="1193.75" y2="318.54" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1183.09" y1="299.00" x2="1177.46" y2="302.25" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1178.00" y1="280.00" x2="1171.50" y2="280.00" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1183.09" y1="261.00" x2="1177.46" y2="257.75" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1197.00" y1="247.09" x2="1193.75" y2="241.46" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1216.00" y1="242.00" x2="1216.00" y2="235.50" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1235.00" y1="247.09" x2="1238.25" y2="241.46" stroke="#ff9aa8" stroke-width="3.20"/>
+<line x1="1248.91" y1="261.00" x2="1254.54" y2="257.75" stroke="#ff9aa8" stroke-width="3.20"/>
+<text x="1106.0" y="344.0" font-size="12.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">espejo  b → 1−b</text>
+<text x="1216.0" y="344.0" font-size="12.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">cizalla b → b−½</text>
+<text x="1161.0" y="364.0" font-size="11.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">las mismas dos ruedas</text>
+<rect x="40.0" y="396.0" width="940.0" height="304.0" rx="10" fill="#0d1830" stroke="#ffd98a" opacity="0.96"/>
+<text x="54.0" y="420.0" font-size="14.5" font-family="Georgia" fill="#ffd98a" text-anchor="start">LAS DOS VIGAS A ESCALA — misma agua, mismo k</text>
+<line x1="96.00" y1="468.00" x2="246.00" y2="468.00" stroke="#1d3a63" stroke-width="1.20" stroke-dasharray="5 5"/>
+<path d="M96.00 468.00 L98.50 468.00 L101.00 468.00 L103.50 468.00 L106.00 468.00 L108.50 468.00 L111.00 468.00 L113.50 468.00 L116.00 468.00 L118.50 468.00 L121.00 468.00 L123.50 468.00 L126.00 468.01 L128.50 468.01 L131.00 468.01 L133.50 468.01 L136.00 468.01 L138.50 468.02 L141.00 468.02 L143.50 468.02 L146.00 468.03 L148.50 468.03 L151.00 468.04 L153.50 468.04 L156.00 468.05 L158.50 468.05 L161.00 468.06 L163.50 468.07 L166.00 468.08 L168.50 468.08 L171.00 468.09 L173.50 468.10 L176.00 468.11 L178.50 468.12 L181.00 468.14 L183.50 468.15 L186.00 468.16 L188.50 468.18 L191.00 468.19 L193.50 468.21 L196.00 468.22 L198.50 468.24 L201.00 468.26 L203.50 468.28 L206.00 468.30 L208.50 468.32 L211.00 468.34 L213.50 468.36 L216.00 468.38 L218.50 468.41 L221.00 468.43 L223.50 468.46 L226.00 468.49 L228.50 468.52 L231.00 468.55 L233.50 468.58 L236.00 468.61 L238.50 468.64 L241.00 468.68 L243.50 468.71 L246.00 468.75" fill="none" stroke="#7fb2ff" stroke-width="3.00" opacity="1.00" stroke-linejoin="round"/>
+<line x1="96.00" y1="459.00" x2="96.00" y2="477.00" stroke="#7fb2ff" stroke-width="2.00"/>
+<line x1="246.00" y1="459.00" x2="246.00" y2="477.75" stroke="#7fb2ff" stroke-width="2.00"/>
+<text x="96.0" y="446.0" font-size="13.0" font-family="Georgia" fill="#7fb2ff" text-anchor="start">DeLorean</text>
+<text x="260.0" y="472.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">η = 0.0030 rad</text>
+<line x1="96.00" y1="580.00" x2="648.60" y2="580.00" stroke="#1d3a63" stroke-width="1.20" stroke-dasharray="5 5"/>
+<path d="M96.00 580.00 L105.21 580.00 L114.42 580.00 L123.63 580.00 L132.84 580.01 L142.05 580.02 L151.26 580.04 L160.47 580.06 L169.68 580.09 L178.89 580.13 L188.10 580.17 L197.31 580.23 L206.52 580.30 L215.73 580.38 L224.94 580.48 L234.15 580.59 L243.36 580.71 L252.57 580.85 L261.78 581.01 L270.99 581.19 L280.20 581.39 L289.41 581.61 L298.62 581.85 L307.83 582.11 L317.04 582.40 L326.25 582.71 L335.46 583.05 L344.67 583.42 L353.88 583.81 L363.09 584.23 L372.30 584.69 L381.51 585.17 L390.72 585.69 L399.93 586.24 L409.14 586.82 L418.35 587.44 L427.56 588.10 L436.77 588.79 L445.98 589.53 L455.19 590.30 L464.40 591.11 L473.61 591.97 L482.82 592.86 L492.03 593.80 L501.24 594.79 L510.45 595.82 L519.66 596.90 L528.87 598.02 L538.08 599.20 L547.29 600.43 L556.50 601.70 L565.71 603.03 L574.92 604.41 L584.13 605.85 L593.34 607.34 L602.55 608.88 L611.76 610.49 L620.97 612.15 L630.18 613.87 L639.39 615.66 L648.60 617.50" fill="none" stroke="#ff9aa8" stroke-width="3.00" opacity="1.00" stroke-linejoin="round"/>
+<line x1="96.00" y1="571.00" x2="96.00" y2="589.00" stroke="#ff9aa8" stroke-width="2.00"/>
+<line x1="648.60" y1="571.00" x2="648.60" y2="626.50" stroke="#ff9aa8" stroke-width="2.00"/>
+<text x="96.0" y="558.0" font-size="13.0" font-family="Georgia" fill="#ff9aa8" text-anchor="start">tren</text>
+<text x="662.6" y="584.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">η = 0.1500 rad</text>
+<line x1="96.00" y1="648.00" x2="648.60" y2="648.00" stroke="#ffd98a" stroke-width="1.20" stroke-dasharray="4 4"/>
+<line x1="96.00" y1="642.00" x2="96.00" y2="654.00" stroke="#ffd98a" stroke-width="1.60"/>
+<line x1="648.60" y1="642.00" x2="648.60" y2="654.00" stroke="#ffd98a" stroke-width="1.60"/>
+<text x="372.3" y="668.0" font-size="12.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">el bloque del tren es 3.6840 veces más largo</text>
+<circle cx="866.00" cy="500.00" r="66.00" fill="#0b1526" stroke="#ffd98a" stroke-width="1.60"/>
+<line x1="806.00" y1="480.00" x2="926.00" y2="480.00" stroke="#1d3a63" stroke-width="1.10" stroke-dasharray="4 4"/>
+<path d="M806.00 480.00 L809.00 480.00 L812.00 480.00 L815.00 480.02 L818.00 480.04 L821.00 480.07 L824.00 480.13 L827.00 480.20 L830.00 480.30 L833.00 480.43 L836.00 480.59 L839.00 480.78 L842.00 481.01 L845.00 481.29 L848.00 481.61 L851.00 481.98 L854.00 482.40 L857.00 482.88 L860.00 483.42 L863.00 484.02 L866.00 484.69 L869.00 485.43 L872.00 486.24 L875.00 487.13 L878.00 488.10 L881.00 489.16 L884.00 490.30 L887.00 491.53 L890.00 492.86 L893.00 494.29 L896.00 495.82 L899.00 497.46 L902.00 499.20 L905.00 501.06 L908.00 503.03 L911.00 505.12 L914.00 507.34 L917.00 509.68 L920.00 512.15 L923.00 514.76 L926.00 517.50" fill="none" stroke="#7fb2ff" stroke-width="2.40" opacity="1.00" stroke-linejoin="round"/>
+<text x="866.0" y="552.0" font-size="12.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">×50</text>
+<rect x="1000.0" y="396.0" width="360.0" height="304.0" rx="10" fill="#0d1830" stroke="#7ee0c0" opacity="0.96"/>
+<text x="1014.0" y="420.0" font-size="14.5" font-family="Georgia" fill="#7ee0c0" text-anchor="start">EL COCIENTE EN SIETE AGUAS</text>
+<line x1="1042.00" y1="642.00" x2="1330.00" y2="642.00" stroke="#1d3a63" stroke-width="1.40"/>
+<line x1="1042.00" y1="452.00" x2="1042.00" y2="642.00" stroke="#1d3a63" stroke-width="1.40"/>
+<text x="1044.0" y="444.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">L_tren / L_DeLorean</text>
+<line x1="1042.00" y1="542.21" x2="1330.00" y2="542.21" stroke="#ffd98a" stroke-width="1.60" stroke-dasharray="6 5"/>
+<circle cx="1050.00" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1050.0" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">12</text>
+<circle cx="1095.33" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1095.3" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">18</text>
+<circle cx="1140.67" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1140.7" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">24</text>
+<circle cx="1186.00" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1186.0" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">30</text>
+<circle cx="1231.33" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1231.3" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">36</text>
+<circle cx="1276.67" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1276.7" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">42</text>
+<circle cx="1322.00" cy="542.21" r="5.50" fill="#7ee0c0"/>
+<text x="1322.0" y="662.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">48</text>
+<text x="1326.0" y="529.2" font-size="11.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="end">∛50 = 3.684031</text>
+<text x="1186.0" y="682.0" font-size="11.5" font-family="Georgia" fill="#8fb4d9" text-anchor="middle">log₁₀ t — siete aguas, un solo cociente</text>
+<rect x="40.0" y="712.0" width="1320.0" height="34" rx="8" fill="#0d1830" stroke="#ffd98a" opacity="0.5"/>
+<text x="700.0" y="735.0" font-size="14.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">L = k·(C/t)^(1/3)  ⇒  η = t·L³/(3k³) = C/3   |   0.009 → 0.0030 rad ;  0.45 → 0.1500 rad ;  cociente = ∛50 = 3.684031</text>
+<rect x="40.0" y="760.0" width="1320.0" height="92.0" rx="9" fill="#0d1830" stroke="#ffd98a" opacity="0.35"/>
+<text x="53.0" y="786.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">EN CRIOLLO: las dos máquinas cortan el mar en bloques y usan la MISMA regla para decidir el largo de cada bloque.</text>
+<text x="53.0" y="805.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">Lo único distinto es cuánta panza le permiten a la viga: el DeLorean tolera 0.0030 radianes de curva sobrante, el tren 0.1500.</text>
+<text x="53.0" y="824.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">Cincuenta veces más tolerancia le da al tren bloques 3.6840 veces más largos — la raíz cúbica de cincuenta, en cualquier agua.</text>
+<text x="53.0" y="843.0" font-size="13.0" font-family="Georgia" fill="#dce8f7" text-anchor="start">Y adentro de las dos cajas están las mismas dos ruedas dentadas: el espejo (b→1−b) y la cizalla (b→b−½).</text>
+<text x="700.0" y="924.0" font-size="13.5" font-family="Georgia" fill="#ffd98a" text-anchor="middle">Una sola geometría; dos presupuestos de curvatura. El resto es la misma máquina.</text>
+</svg>

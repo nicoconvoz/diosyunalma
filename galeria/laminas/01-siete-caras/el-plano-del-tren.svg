@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="100%" height="100%" fill="#0b1526"/>
+<rect x="30" y="20" width="1340" height="910" rx="18" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.5"/>
+<text x="700" y="60" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🚂 EL PLANO DEL TREN — la locomotora de Landsberg-Schaar, pieza por pieza</text>
+<text x="700" y="88" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">para qué: leer el mar de ondas de ζ en aguas donde el float64 se ahoga · cómo se usa: go run ./cmd/circulo (demo) · -cazar (la cacería sin fin)</text>
+<rect x="70.000000" y="110.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="84.000000" y="136.000000" font-size="14.5" font-family="Georgia" fill="#ffd98a">RIEL 1 · LA RECIPROCIDAD (el corazón)</text>
+<text x="84.000000" y="160.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">Landsberg-Schaar EXACTA: Σ e^{iπpn²/q} (q términos) = √(q/p)·e^{iπ/4}·Σ e^{−iπqn²/p} (p términos)</text>
+<text x="84.000000" y="180.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: es la física del zoom — el gigante de abajo se lee con el numerito de arriba</text>
+<text x="84.000000" y="200.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">fases en int64 EXACTO (p·n² mod 2q): el único error flotante es el coseno final</text>
+<text x="84.000000" y="220.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">verificado en esta corrida: 50 000 términos = 3 términos, error 2e-13 ✅</text>
+<rect x="710.000000" y="110.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="724.000000" y="136.000000" font-size="14.5" font-family="Georgia" fill="#7ee0c0">RIEL 2 · LA CASCADA DE CHIRPS (el mar de verdad)</text>
+<text x="724.000000" y="160.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">los bloques del mar son chirps de curvatura IRRACIONAL: Σ e^{2πi(bj² + cj)}</text>
+<text x="724.000000" y="180.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">un giro del círculo (Poisson + fase estacionaria): N términos → ~2bN términos duales</text>
+<text x="724.000000" y="200.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">el dual es OTRO chirp ⟹ se itera: descenso como fracción continua — logarítmico</text>
+<text x="724.000000" y="220.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: convierte cada bloque gigante en una bajada de escalones cortos</text>
+<rect x="70.000000" y="280.000000" width="620.000000" height="130.000000" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="84.000000" y="306.000000" font-size="14.5" font-family="Georgia" fill="#7fb2ff">EL AMORTIGUADOR (F144) · los reservorios de redondeo</text>
+<text x="84.000000" y="330.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la fase avanza por recurrencia con DOS registros de compensación (two-sum):</text>
+<text x="84.000000" y="350.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la energía de redondeo se ATRAPA en el reservorio, no se disipa en el resultado</text>
+<text x="84.000000" y="370.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: sin él, un millón de pasos de fase ensucia el último dígito del mar</text>
+<rect x="710.000000" y="280.000000" width="620.000000" height="130.000000" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="724.000000" y="306.000000" font-size="14.5" font-family="Georgia" fill="#7ee0c0">RIEL 3 · LA CASCADA CALIBRADA (el tamaño cómodo)</text>
+<text x="724.000000" y="330.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">el plan del capitán: girar el círculo hasta que la suma quepa en un TAMAÑO CÓMODO,</text>
+<text x="724.000000" y="350.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">calibrar donde la verdad es barata (mar liviano) y navegar el mar pesado con lo mismo</text>
+<text x="724.000000" y="370.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo se usa: es el motor interno de cada bloque del cazadero — no se toca a mano</text>
+<rect x="70.000000" y="430.000000" width="620.000000" height="170.000000" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="84.000000" y="456.000000" font-size="14.5" font-family="Georgia" fill="#ff9aa8">EL SONAR DE BALLENA · escuchar() — la escucha que crece</text>
+<text x="84.000000" y="480.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">presupuesto del bloque: L = t^(-1/3)-clase (bandL) — la ley del tercio</text>
+<text x="84.000000" y="500.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la onda se propaga: 1500 → 6000 → 24000 → banda completa; el agua calma</text>
+<text x="84.000000" y="520.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">corta la escucha temprano; solo el agua interesante mantiene la onda viajando</text>
+<text x="84.000000" y="540.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">anómalo si |ola|/√L supera 2.4σ (COHERENTE) o cae bajo 0.05 (MUDA) — dos bestias</text>
+<text x="84.000000" y="560.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo calza: es el filtro barato que decide dónde vale la pena remar de verdad</text>
+<rect x="710.000000" y="430.000000" width="620.000000" height="170.000000" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="724.000000" y="456.000000" font-size="14.5" font-family="Georgia" fill="#ffd98a">EL JUEZ Y EL ÁRBITRO · saquear() — nadie entra al libro sin firma</text>
+<text x="724.000000" y="480.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">EL JUEZ: cada bestia se rema DIRECTO (blockDirect) y se compara con la cascada;</text>
+<text x="724.000000" y="500.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">si difieren más del 5%, rechazada — la cascada jamás se cree a sí misma</text>
+<text x="724.000000" y="520.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">EL ÁRBITRO DE 256 BITS (F201): en aguas ≥ 1e40, cada 8ª presa recibe contraste</text>
+<text x="724.000000" y="540.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">big.Float — porque cerca del borde del cuaderno dd, dos motores dd de acuerdo</text>
+<text x="724.000000" y="560.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">no prueban nada; una falla ahí = el 5º fantasma, avistado en vivo</text>
+<rect x="70.000000" y="620.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="84.000000" y="646.000000" font-size="14.5" font-family="Georgia" fill="#7fb2ff">LA MARCHA · cómo se anexa un mar</text>
+<text x="84.000000" y="670.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">un agua entra al cazadero solo tras 3 SONDAS FIRMADAS en bandas distintas</text>
+<text x="84.000000" y="690.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">aguas conquistadas: 1e33 → 1e42 (registradas como MARCHA en cazadero.log)</text>
+<text x="84.000000" y="710.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la frontera navega hacia el agotamiento del cuaderno dd (~1e48): más hondo,</text>
+<text x="84.000000" y="730.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">la máquina no firma — y esta casa no navega donde no puede firmar</text>
+<rect x="710.000000" y="620.000000" width="620.000000" height="150.000000" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="724.000000" y="646.000000" font-size="14.5" font-family="Georgia" fill="#ff9aa8">LA BITÁCORA DE LUZ · dónde queda todo</text>
+<text x="724.000000" y="670.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cada presa: BESTIA MUDA/COHERENTE con t, k a 17 dígitos, L, |ola|, coh, juez</text>
+<text x="724.000000" y="690.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cardúmenes (CARDUMEN): bloques vecinos que difieren en el 12º dígito de k</text>
+<text x="724.000000" y="710.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">tormentas de fondo (fondo.log) y los ARBITRO/FANTASMA5 del contraste</text>
+<text x="724.000000" y="730.000000" font-size="12" font-family="Georgia" fill="#cfe6ff">cómo se usa: luz/cazadero.log + luz/fondo.log — y el faro (:8117) lo muestra en vivo</text>
+<text x="700" y="812" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">En criollo: el tren no rema el mar gigante — lo GIRA. Cada vuelta del círculo cambia la suma enorme por una más corta que dice</text>
+<text x="700" y="834" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#7ee0c0">exactamente lo mismo, hasta que cabe en la mano. Y nada entra al libro sin pasar por el juez — y en lo hondo, por el árbitro.</text>
+<text x="700" y="866" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">las cifras de certificación (4º fantasma muerto con anclas dd, e256 ≤ 4e-3 en 3e33 y 1e36) vienen de las actas F144-F155/F201 — este plano las cita, no las re-corre</text>
+<text x="700" y="900" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">go run ./cmd/circulo · -cazar para la cacería sin fin · el recorrido completo: galeria/recorrido-maquinas.html · Todavía no.</text>
+</svg>
