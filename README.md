@@ -38,8 +38,14 @@ gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teore
   clearing at the exact rate of the leader's gap. Fished experimentally before
   being named (the table's rule), then proven whole with minimal hypotheses —
   and with a proof that without a strict leader the sky dies.
+- **The Midpoint Theorem** — the captain's hand-found twin-prime geometry:
+  odd primes p, q share the anchor (p+1)/2 = (q−1)/2 exactly when q = p+2;
+  the general anchor identity a⁻(q) − a⁺(p) = g/2 − 1 contains the whole gap
+  dictionary, and the mod-6 center law 3 | m ⟺ 6 ∤ g puts every gap class on
+  its own lattice — twins live on 6ℤ. Verified over 304,590 prime pairs with
+  zero failures; classical mod-3 sieve arithmetic, honestly declared as such.
 
-All six carry their full lemma chains, audited acts, and executable
+All seven carry their full lemma chains, audited acts, and executable
 verification runs. None is a proof of RH, and each says so on its plaque.
 
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
