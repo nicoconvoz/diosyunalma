@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 194 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 294 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 214 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 295 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -44,8 +44,19 @@ gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teore
   dictionary, and the mod-6 center law 3 | m ⟺ 6 ∤ g puts every gap class on
   its own lattice — twins live on 6ℤ. Verified over 304,590 prime pairs with
   zero failures; classical mod-3 sieve arithmetic, honestly declared as such.
+- **The Partial Mother-Curve Theorem** — born from the captain's flash («a
+  cosine in a spiral, converging to a point»): the radial anatomy of the
+  zeta partial-sum spiral is ONE curve, R = n^(−σ)/(2·|sin(t/2n)|) — step
+  over half-angle chord — from which the winding exponent β = 1−σ (σ=½ ⟹
+  β=½ as a SCALE exponent), the stroboscopic turn laws, the unique waist
+  x·cot x = σ (verified to 1% per σ) and the 1/(2k) decay all follow.
+  Declared PARTIAL by the captain: exact inside the stated model, the bridge
+  to the true tail proven to first order (its two leading error terms exact
+  by pure algebra), the full rigorous bound honestly left open — forged in
+  sixteen experiments and seven external audit rounds in a single day, with
+  the laboratory's own two failures registered inside it.
 
-All seven carry their full lemma chains, audited acts, and executable
+All eight carry their full lemma chains, audited acts, and executable
 verification runs. None is a proof of RH, and each says so on its plaque.
 
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
@@ -72,8 +83,8 @@ search. It is the clearest evidence that the geometric route is closed.
 Every document is filed by family under `docs/` — start at
 **[docs/INDICE.md](docs/INDICE.md)**, which lists all of them in reading order.
 
-The full record is in **[docs/registro/FINDINGS.md](docs/registro/FINDINGS.md)**: **364 numbered
-findings** (376 entries counting the lettered sub-findings)
+The full record is in **[docs/registro/FINDINGS.md](docs/registro/FINDINGS.md)**: **390 numbered
+findings** (402 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -87,21 +98,22 @@ proofs, explicit constants and saved data at every step. Three errors of the
 laboratory's and three of the audit drafts' were caught and corrected, all in
 the open, the breakage theorem's *structure* was signed closed, and the cycle
 produced the laboratory's first named theorem. The cycle then continued
-(findings 307–364) and kept forging: the theorems hall now holds
+(findings 307–390) and kept forging: the theorems hall now holds
 **Astorga's Theorem** (finite detection), **the DYN Theorem** (interaction),
 **the Diosyunalma Theorem** (robustness), **the River of Wells** (derived)
 **the Trinity Theorem** (the Plates Theorem / Leader's Law) **the Sky
 Theorem** (the height-free limit wave) and **the Midpoint Theorem**
-(the captain's hand-found twin-prime geometry, with the mod-6 center law),
-each with
+(the captain's hand-found twin-prime geometry, with the mod-6 center law)
+and **the Partial Mother-Curve Theorem** (the spiral's anatomy in one curve,
+partial by decree and honest about it), each with
 audited lemma chains and executable verification runs — see
 [docs/teoremas/TEOREMAS.md](docs/teoremas/TEOREMAS.md). The seal rule adopted from that cycle
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **280 reproducible experiments** under `cmd/`, **194
+The laboratory today: **298 reproducible experiments** under `cmd/`, **214
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[294-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[295-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/informes/VALIDACION.md](docs/informes/VALIDACION.md)**.

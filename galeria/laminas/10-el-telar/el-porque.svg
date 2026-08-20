@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="830" viewBox="0 0 1240 830">
+<rect width="1240" height="830" fill="#0b1220"/>
+<rect x="14" y="14" width="1212" height="802" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.6"/>
+<text x="620.0" y="48.0" font-size="22.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🪞🧠 ¿POR QUÉ CRUZA EL ESPEJO? — derivar primero, comparar después</text>
+<text x="620.0" y="74.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">Fase XVI · la identidad de cuatro términos · GUE puro · GUE + fórmula explícita · el residuo</text>
+<line x1="110.0" y1="359.5" x2="770.0" y2="359.5" stroke="#8fb4d9" stroke-width="1.6"/>
+<line x1="192.5" y1="112.0" x2="192.5" y2="552.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="192.5" y="568.0" font-size="10.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">0.6</text>
+<line x1="357.5" y1="112.0" x2="357.5" y2="552.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="357.5" y="568.0" font-size="10.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">0.8</text>
+<line x1="522.5" y1="112.0" x2="522.5" y2="552.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="522.5" y="568.0" font-size="10.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">1.0</text>
+<line x1="687.5" y1="112.0" x2="687.5" y2="552.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="687.5" y="568.0" font-size="10.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">1.2</text>
+<circle cx="130.6" cy="356.7" r="3.6" fill="#8fb4d9"/>
+<line x1="130.6" y1="356.7" x2="171.9" y2="362.0" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="171.9" cy="362.0" r="3.6" fill="#8fb4d9"/>
+<line x1="171.9" y1="362.0" x2="213.1" y2="380.7" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="213.1" cy="380.7" r="3.6" fill="#8fb4d9"/>
+<line x1="213.1" y1="380.7" x2="254.4" y2="364.6" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="254.4" cy="364.6" r="3.6" fill="#8fb4d9"/>
+<line x1="254.4" y1="364.6" x2="295.6" y2="339.2" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="295.6" cy="339.2" r="3.6" fill="#8fb4d9"/>
+<line x1="295.6" y1="339.2" x2="336.9" y2="363.2" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="336.9" cy="363.2" r="3.6" fill="#8fb4d9"/>
+<line x1="336.9" y1="363.2" x2="378.1" y2="369.3" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="378.1" cy="369.3" r="3.6" fill="#8fb4d9"/>
+<line x1="378.1" y1="369.3" x2="419.4" y2="348.9" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="419.4" cy="348.9" r="3.6" fill="#8fb4d9"/>
+<line x1="419.4" y1="348.9" x2="460.6" y2="369.2" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="460.6" cy="369.2" r="3.6" fill="#8fb4d9"/>
+<line x1="460.6" y1="369.2" x2="501.9" y2="387.1" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="501.9" cy="387.1" r="3.6" fill="#8fb4d9"/>
+<line x1="501.9" y1="387.1" x2="543.1" y2="362.3" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="543.1" cy="362.3" r="3.6" fill="#8fb4d9"/>
+<line x1="543.1" y1="362.3" x2="584.4" y2="354.9" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="584.4" cy="354.9" r="3.6" fill="#8fb4d9"/>
+<line x1="584.4" y1="354.9" x2="625.6" y2="379.9" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="625.6" cy="379.9" r="3.6" fill="#8fb4d9"/>
+<line x1="625.6" y1="379.9" x2="666.9" y2="366.9" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="666.9" cy="366.9" r="3.6" fill="#8fb4d9"/>
+<line x1="666.9" y1="366.9" x2="708.1" y2="359.6" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="708.1" cy="359.6" r="3.6" fill="#8fb4d9"/>
+<line x1="708.1" y1="359.6" x2="749.4" y2="370.6" stroke="#8fb4d9" stroke-width="1.4"/>
+<circle cx="749.4" cy="370.6" r="3.6" fill="#8fb4d9"/>
+<circle cx="130.6" cy="303.8" r="3.6" fill="#ffd98a"/>
+<line x1="130.6" y1="303.8" x2="171.9" y2="293.7" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="171.9" cy="293.7" r="3.6" fill="#ffd98a"/>
+<line x1="171.9" y1="293.7" x2="213.1" y2="317.1" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="213.1" cy="317.1" r="3.6" fill="#ffd98a"/>
+<line x1="213.1" y1="317.1" x2="254.4" y2="339.2" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="254.4" cy="339.2" r="3.6" fill="#ffd98a"/>
+<line x1="254.4" y1="339.2" x2="295.6" y2="385.5" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="295.6" cy="385.5" r="3.6" fill="#ffd98a"/>
+<line x1="295.6" y1="385.5" x2="336.9" y2="353.3" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="336.9" cy="353.3" r="3.6" fill="#ffd98a"/>
+<line x1="336.9" y1="353.3" x2="378.1" y2="376.3" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="378.1" cy="376.3" r="3.6" fill="#ffd98a"/>
+<line x1="378.1" y1="376.3" x2="419.4" y2="398.0" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="419.4" cy="398.0" r="3.6" fill="#ffd98a"/>
+<line x1="419.4" y1="398.0" x2="460.6" y2="334.4" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="460.6" cy="334.4" r="3.6" fill="#ffd98a"/>
+<line x1="460.6" y1="334.4" x2="501.9" y2="391.3" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="501.9" cy="391.3" r="3.6" fill="#ffd98a"/>
+<line x1="501.9" y1="391.3" x2="543.1" y2="351.3" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="543.1" cy="351.3" r="3.6" fill="#ffd98a"/>
+<line x1="543.1" y1="351.3" x2="584.4" y2="367.6" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="584.4" cy="367.6" r="3.6" fill="#ffd98a"/>
+<line x1="584.4" y1="367.6" x2="625.6" y2="374.1" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="625.6" cy="374.1" r="3.6" fill="#ffd98a"/>
+<line x1="625.6" y1="374.1" x2="666.9" y2="366.5" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="666.9" cy="366.5" r="3.6" fill="#ffd98a"/>
+<line x1="666.9" y1="366.5" x2="708.1" y2="340.4" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="708.1" cy="340.4" r="3.6" fill="#ffd98a"/>
+<line x1="708.1" y1="340.4" x2="749.4" y2="328.6" stroke="#ffd98a" stroke-width="2.2"/>
+<circle cx="749.4" cy="328.6" r="3.6" fill="#ffd98a"/>
+<circle cx="130.6" cy="168.5" r="3.6" fill="#7ee0c0"/>
+<line x1="130.6" y1="168.5" x2="171.9" y2="201.2" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="171.9" cy="201.2" r="3.6" fill="#7ee0c0"/>
+<line x1="171.9" y1="201.2" x2="213.1" y2="226.9" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="213.1" cy="226.9" r="3.6" fill="#7ee0c0"/>
+<line x1="213.1" y1="226.9" x2="254.4" y2="263.7" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="254.4" cy="263.7" r="3.6" fill="#7ee0c0"/>
+<line x1="254.4" y1="263.7" x2="295.6" y2="292.2" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="295.6" cy="292.2" r="3.6" fill="#7ee0c0"/>
+<line x1="295.6" y1="292.2" x2="336.9" y2="315.7" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="336.9" cy="315.7" r="3.6" fill="#7ee0c0"/>
+<line x1="336.9" y1="315.7" x2="378.1" y2="332.4" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="378.1" cy="332.4" r="3.6" fill="#7ee0c0"/>
+<line x1="378.1" y1="332.4" x2="419.4" y2="367.8" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="419.4" cy="367.8" r="3.6" fill="#7ee0c0"/>
+<line x1="419.4" y1="367.8" x2="460.6" y2="404.6" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="460.6" cy="404.6" r="3.6" fill="#7ee0c0"/>
+<line x1="460.6" y1="404.6" x2="501.9" y2="409.7" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="501.9" cy="409.7" r="3.6" fill="#7ee0c0"/>
+<line x1="501.9" y1="409.7" x2="543.1" y2="439.5" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="543.1" cy="439.5" r="3.6" fill="#7ee0c0"/>
+<line x1="543.1" y1="439.5" x2="584.4" y2="451.1" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="584.4" cy="451.1" r="3.6" fill="#7ee0c0"/>
+<line x1="584.4" y1="451.1" x2="625.6" y2="462.6" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="625.6" cy="462.6" r="3.6" fill="#7ee0c0"/>
+<line x1="625.6" y1="462.6" x2="666.9" y2="483.9" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="666.9" cy="483.9" r="3.6" fill="#7ee0c0"/>
+<line x1="666.9" y1="483.9" x2="708.1" y2="494.3" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="708.1" cy="494.3" r="3.6" fill="#7ee0c0"/>
+<line x1="708.1" y1="494.3" x2="749.4" y2="517.2" stroke="#7ee0c0" stroke-width="2.6"/>
+<circle cx="749.4" cy="517.2" r="3.6" fill="#7ee0c0"/>
+<line x1="409.7" y1="112.0" x2="409.7" y2="552.0" stroke="#7ee0c0" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="124.0" y="130.0" font-size="11.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">verde: E(s) OBSERVADO en los 3474 ceros reales</text>
+<text x="124.0" y="148.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">dorado: GUE + FÓRMULA EXPLÍCITA (densidad modulada por los primos, gap Wigner)</text>
+<text x="124.0" y="166.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">celeste: GUE PURO — plano: sin primos no hay curva</text>
+<text x="440.0" y="590.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">s = gap / espaciado medio local →</text>
+<text x="800.0" y="120.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">LA IDENTIDAD (su §2–4)</text>
+<text x="800.0" y="148.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">E(s) = T1 + T2 + T3 + T4, exacta:</text>
+<text x="800.0" y="168.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">cos(mT) = cosγT·cos(gT/2)</text>
+<text x="800.0" y="188.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">        − sinγT·sin(gT/2)</text>
+<text x="800.0" y="208.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">T2+T4 = SELECCIÓN × factor:</text>
+<text x="800.0" y="228.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">«el cero de un par apretado</text>
+<text x="800.0" y="248.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">vive en la cresta de la onda</text>
+<text x="800.0" y="268.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">de los primos» — y domina.</text>
+<text x="800.0" y="288.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">T1+T3 = covarianzas internas,</text>
+<text x="800.0" y="308.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">chicas (ver corrida).</text>
+<text x="800.0" y="340.0" font-size="13.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">EL VEREDICTO (su §10), honesto</text>
+<text x="800.0" y="368.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">GUE puro: PLANO — sin primos</text>
+<text x="800.0" y="388.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">no hay curva. Descartado.</text>
+<text x="800.0" y="408.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">GUE + fórmula (densidad</text>
+<text x="800.0" y="428.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">modulada): produce el SIGNO y</text>
+<text x="800.0" y="448.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">la caída, pero SE QUEDA CORTO:</text>
+<text x="800.0" y="468.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">amplitud ⅓ de la real, cruce en</text>
+<text x="800.0" y="488.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">0.70/0.70/0.69 (real: 0.863),</text>
+<text x="800.0" y="508.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">pendiente −0,6 (real: −0,92).</text>
+<text x="800.0" y="528.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">El residuo conserva la mayor</text>
+<text x="800.0" y="548.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">parte de la estructura.</text>
+<text x="800.0" y="568.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">⟹ Y LA IDENTIDAD NOMBRA LO QUE</text>
+<text x="800.0" y="588.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">FALTA: domina T4, el acople</text>
+<text x="800.0" y="608.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">seno·seno — los ceros no sólo se</text>
+<text x="800.0" y="628.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">APRIETAN donde la onda encresta:</text>
+<text x="800.0" y="648.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">se CORREN con ella. El modelo</text>
+<text x="800.0" y="668.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">movía gaps; falta mover las</text>
+<text x="800.0" y="688.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">POSICIONES coherentemente.</text>
+<text x="620.0" y="734.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">«y si una explicación conocida mata la novedad, decirlo» — se dice lo contrario, con números: la explicación conocida NO mata la curva todavía —</text>
+<text x="620.0" y="754.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">explica un tercio; los dos tercios restantes tienen nombre y domicilio: el término T4, el corrimiento coherente de los ceros con la onda de los primos</text>
+<text x="620.0" y="786.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/laformulamadre fase16 · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

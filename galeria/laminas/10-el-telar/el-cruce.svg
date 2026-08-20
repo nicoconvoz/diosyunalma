@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#0b1220"/>
+<rect x="14" y="14" width="1172" height="772" rx="16" fill="none" stroke="#ffd98a" stroke-width="2" opacity="0.6"/>
+<text x="600.0" y="48.0" font-size="22.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🪞🎯 LOCALIZAR EL CRUCE — dónde el espejo cambia de signo</text>
+<text x="600.0" y="74.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">Fase XV · zoom s ∈ [0,50, 1,30) en bins de 0,05 · E(s) = real − nulo · bootstrap y mundo nulo de cruces</text>
+<line x1="110.0" y1="350.0" x2="750.0" y2="350.0" stroke="#8fb4d9" stroke-width="1.6"/>
+<line x1="110.0" y1="110.0" x2="110.0" y2="530.0" stroke="#1d3a63" stroke-width="1.2"/>
+<line x1="190.0" y1="110.0" x2="190.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="190.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">0.6</text>
+<line x1="270.0" y1="110.0" x2="270.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="270.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">0.7</text>
+<line x1="350.0" y1="110.0" x2="350.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="350.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">0.8</text>
+<line x1="430.0" y1="110.0" x2="430.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="430.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">0.9</text>
+<line x1="510.0" y1="110.0" x2="510.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="510.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">1.0</text>
+<line x1="590.0" y1="110.0" x2="590.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="590.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">1.1</text>
+<line x1="670.0" y1="110.0" x2="670.0" y2="530.0" stroke="#1d3a63" stroke-width="0.6" stroke-dasharray="3 5"/>
+<text x="670.0" y="546.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">1.2</text>
+<circle cx="130.0" cy="141.3" r="4.2" fill="#7ee0c0"/>
+<line x1="130.0" y1="141.3" x2="170.0" y2="175.8" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="170.0" cy="175.8" r="4.2" fill="#7ee0c0"/>
+<line x1="170.0" y1="175.8" x2="210.0" y2="207.7" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="210.0" cy="207.7" r="4.2" fill="#7ee0c0"/>
+<line x1="210.0" y1="207.7" x2="250.0" y2="245.7" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="250.0" cy="245.7" r="4.2" fill="#7ee0c0"/>
+<line x1="250.0" y1="245.7" x2="290.0" y2="274.3" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="290.0" cy="274.3" r="4.2" fill="#7ee0c0"/>
+<line x1="290.0" y1="274.3" x2="330.0" y2="302.9" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="330.0" cy="302.9" r="4.2" fill="#7ee0c0"/>
+<line x1="330.0" y1="302.9" x2="370.0" y2="320.6" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="370.0" cy="320.6" r="4.2" fill="#7ee0c0"/>
+<line x1="370.0" y1="320.6" x2="410.0" y2="358.5" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="410.0" cy="358.5" r="4.2" fill="#7ee0c0"/>
+<line x1="410.0" y1="358.5" x2="450.0" y2="398.4" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="450.0" cy="398.4" r="4.2" fill="#7ee0c0"/>
+<line x1="450.0" y1="398.4" x2="490.0" y2="406.3" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="490.0" cy="406.3" r="4.2" fill="#7ee0c0"/>
+<line x1="490.0" y1="406.3" x2="530.0" y2="437.5" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="530.0" cy="437.5" r="4.2" fill="#7ee0c0"/>
+<line x1="530.0" y1="437.5" x2="570.0" y2="450.0" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="570.0" cy="450.0" r="4.2" fill="#7ee0c0"/>
+<line x1="570.0" y1="450.0" x2="610.0" y2="461.3" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="610.0" cy="461.3" r="4.2" fill="#7ee0c0"/>
+<line x1="610.0" y1="461.3" x2="650.0" y2="484.9" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="650.0" cy="484.9" r="4.2" fill="#7ee0c0"/>
+<line x1="650.0" y1="484.9" x2="690.0" y2="496.0" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="690.0" cy="496.0" r="4.2" fill="#7ee0c0"/>
+<line x1="690.0" y1="496.0" x2="730.0" y2="522.6" stroke="#7ee0c0" stroke-width="2.4"/>
+<circle cx="730.0" cy="522.6" r="4.2" fill="#7ee0c0"/>
+<line x1="401.0" y1="110.0" x2="401.0" y2="530.0" stroke="#ffd98a" stroke-width="2.0" stroke-dasharray="6 4"/>
+<text x="401.0" y="102.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">s* = 0.864</text>
+<text x="430.0" y="568.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">s = gap / espaciado medio local → · verde: E(s) a fondo (3474 ceros)</text>
+<text x="110.0" y="592.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">EL MUNDO NULO (su §6): dónde cruzan los 200 barajados — histograma de sus cruces</text>
+<rect x="110.0" y="648.0" width="38.0" height="32.0" fill="#ff9aa8" opacity="0.55"/>
+<rect x="150.0" y="618.3" width="38.0" height="61.7" fill="#ff9aa8" opacity="0.55"/>
+<rect x="190.0" y="610.0" width="38.0" height="70.0" fill="#ff9aa8" opacity="0.55"/>
+<rect x="230.0" y="621.9" width="38.0" height="58.1" fill="#ff9aa8" opacity="0.55"/>
+<rect x="270.0" y="613.6" width="38.0" height="66.4" fill="#ff9aa8" opacity="0.55"/>
+<rect x="310.0" y="625.4" width="38.0" height="54.6" fill="#ff9aa8" opacity="0.55"/>
+<rect x="350.0" y="623.1" width="38.0" height="56.9" fill="#ff9aa8" opacity="0.55"/>
+<rect x="390.0" y="617.1" width="38.0" height="62.9" fill="#ff9aa8" opacity="0.55"/>
+<rect x="430.0" y="611.2" width="38.0" height="68.8" fill="#ff9aa8" opacity="0.55"/>
+<rect x="470.0" y="625.4" width="38.0" height="54.6" fill="#ff9aa8" opacity="0.55"/>
+<rect x="510.0" y="625.4" width="38.0" height="54.6" fill="#ff9aa8" opacity="0.55"/>
+<rect x="550.0" y="621.9" width="38.0" height="58.1" fill="#ff9aa8" opacity="0.55"/>
+<rect x="590.0" y="626.6" width="38.0" height="53.4" fill="#ff9aa8" opacity="0.55"/>
+<rect x="630.0" y="632.5" width="38.0" height="47.5" fill="#ff9aa8" opacity="0.55"/>
+<rect x="670.0" y="612.4" width="38.0" height="67.6" fill="#ff9aa8" opacity="0.55"/>
+<rect x="710.0" y="658.6" width="38.0" height="21.4" fill="#ff9aa8" opacity="0.55"/>
+<line x1="401.0" y1="600.0" x2="401.0" y2="682.0" stroke="#ffd98a" stroke-width="2.0" stroke-dasharray="6 4"/>
+<line x1="110.0" y1="680.0" x2="750.0" y2="680.0" stroke="#1d3a63" stroke-width="1.0"/>
+<text x="790.0" y="120.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">s*(M) — ¿converge o se mueve?</text>
+<text x="790.0" y="148.0" font-size="11.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">     M       s*          boot 95%    dE/ds</text>
+<text x="790.0" y="170.0" font-size="11.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">   649    0.725 [ 0.702,  0.797]    -1.13</text>
+<text x="790.0" y="192.0" font-size="11.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">  1517    0.848 [ 0.764,  0.878]    -1.00</text>
+<text x="790.0" y="214.0" font-size="11.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">  3474    0.864 [ 0.844,  0.885]    -0.94</text>
+<text x="790.0" y="260.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· el cruce EXISTE en las tres</text>
+<text x="790.0" y="279.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  profundidades, dentro del zoom.</text>
+<text x="790.0" y="298.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· la pendiente es NEGATIVA y</text>
+<text x="790.0" y="317.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  estable: cruce suave, no meseta</text>
+<text x="790.0" y="336.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  ni salto (su §7).</text>
+<text x="790.0" y="355.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· el segundo control (centros</text>
+<text x="790.0" y="374.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  intactos, etiquetas permutadas)</text>
+<text x="790.0" y="393.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  APLANA la curva entera: toda la</text>
+<text x="790.0" y="412.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  dependencia en s es del</text>
+<text x="790.0" y="431.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  emparejamiento, no de las</text>
+<text x="790.0" y="450.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  marginales (su §10).</text>
+<text x="790.0" y="469.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· batería de refutación: sobrevive</text>
+<text x="790.0" y="488.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  al desdoblado global, y a las</text>
+<text x="790.0" y="507.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  dos mitades independientes de</text>
+<text x="790.0" y="526.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  los ceros (ver corrida).</text>
+<text x="790.0" y="553.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">s* NO se declara constante:</text>
+<text x="790.0" y="571.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">se declara localizado, con su</text>
+<text x="790.0" y="589.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">intervalo y su mundo nulo.</text>
+<text x="600.0" y="730.0" font-size="12.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">«no persigas el 34,3σ — perseguí la forma que produce ese 34,3σ» — la auditora · zoom, nulos y reglas congelados antes de medir</text>
+<text x="600.0" y="756.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/laformulamadre fase15 · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

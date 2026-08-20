@@ -3601,3 +3601,170 @@
 ### F361 — LAS RELACIONES (Fase XI): registro diferido, completado al armar todo — 2026-08-19
 - (detalle en `docs/atomo/RELACIONES-FASE11-ACTA.md` y en F361 de FINDINGS)
 - lo esencial: el catálogo congelado (Λ, μ, λ) es INADMISIBLE entero — densidades naturales 0,33–0,54 vacían la banda · B≈A≈C a densidad igualada (quinta hoja) · el borde q=0,05 era accidental (2 de 12) · si la aritmética entra por relaciones, necesita dilución declarada de antemano
+
+### F365 — EL ESPEJO DEL PUNTO MEDIO: el gap de un par de ceros SABE la fase de los primos — 2026-08-20
+- **flash del capitán**: aplicar la fórmula del Teorema del Punto Medio a los CEROS en vez de a los pares de primos. Tres trasplantes medidos sobre ceros reales (Riemann–Siegel)
+- §A/§B (esperados, confirman la coordenada): los puntos medios de ceros consecutivos invierten la voz (−68% del eco crudo, factor de fase cos(gap·T/2)); las ANCLAS (γ−1)/2 MUDAN la voz de log p a 2·log p = log p² exacto (−0,3σ en el lugar viejo, −18,9σ en el nuevo) — la coordenada que divide gaps por 2 corre el eco una octava, tal como manda el álgebra
+- ⚡ **§C, EL HALLAZGO — los centros de pares APRETADOS y ANCHOS cantan al revés**: con 649 ceros, gemelos (gap<0,7·medio) −E = +0,248 → **+12,4σ** (absorción, como los primos crudos) y anchos (gap>1,3·medio) −E = −0,212 → **−8,0σ** (emisión). **Control decisivo, gaps barajados**: la señal se derrumba a +1,9σ/−2,9σ — NO es la trigonometría del corrimiento: el emparejamiento real gap↔posición lleva la información
+- ✅ **RÉPLICA a γ=2000 (1517 ceros): crece** — gemelos **+23,5σ**, anchos **−20,6σ**, contra +6,2/−8,3 del barajado: la parte genuina se mantiene ~3× sobre el factor de fase en las dos profundidades
+- lectura honesta: es territorio de la correlación de pares de Montgomery —dónde el coro se aprieta lo deciden las ondas de los primos—, así que la física es conocida en teoría; lo propio del taller es la FORMA: el trasplante del Punto Medio la vuelve un partidor limpio (+/−) con control interno. Candidato a profundizar: barrer el umbral 0,7/1,3, más ceros, y la conexión Hardy–Littlewood
+- `cmd/laformulamadre` (madre + espejo) · sin acta ni lámina: exploración, registro mínimo hasta que Yui lo mire
+
+### F366 — EL BARRIDO (Fase XIV): la curva completa del gap — monótona, cruce estable en s*≈0,85, y el excedente con magnitud fija — 2026-08-20
+- protocolo de la auditora cumplido a la letra: malla congelada ANTES de correr (9 bins simétricos alrededor de 1), 23 períodos log p fijos, nulo empírico de 200 barajados del pool de gaps por profundidad (nunca ruido blanco), tres profundidades (649/1517/3474 ceros hasta γ=4000, paso 0,02), bins con <15 pares no reportados
+- mejora declarada sobre F365, antes de medir: DESDOBLADO LOCAL s = gap·log(γ/2π)/2π — los ceros bajos tienen gaps anchos por altura, no por soltura; la clase «ancho» de F365 era también la clase «bajo»
+- ⚡ **LA CURVA**: monótona decreciente en s — pares apretados cantan absorción (bin 0,3–0,5: real +0,554 contra nulo +0,125±0,013 → **+34,3σ**), pares anchos cantan emisión (bin 1,3–1,6: −0,446 contra −0,137±0,012 → **−26,8σ**). Todos los bins del fondo entre 6,3σ y 34σ. **Cruce de signo del excedente estable en s* ≈ 0,8–0,9 en las tres profundidades** (localización fina deriva con M: NO se declara constante, su §13). Mínimo en s ∈ [1,3, 1,6]
+- la distinción de su §14, hecha: la MAGNITUD física del excedente es ESTABLE con M (Δ ≈ +0,43 arriba, −0,24/−0,31 abajo, casi idénticas en las tres profundidades) — lo que crece es la σ por tamaño de muestra. No se llama nueva física al crecimiento de σ
+- separación conocido/propio (su §17-18): la física de fondo es Montgomery/Bogomolny–Keating en teoría; la curva en la coordenada del Punto Medio con este control es del taller — búsqueda bibliográfica seria PENDIENTE y declarada. Riesgo declarado: las tres profundidades comparten ceros (prefijos), no son réplicas independientes entre sí
+- siguiente, en el orden de ella: localizar fino s*, DESPUÉS Hardy–Littlewood, DESPUÉS el trasplante al Telar
+- `cmd/laformulamadre fase14` · acta `docs/atomo/BARRIDO-FASE14-ACTA.md` · lámina `galeria/laminas/10-el-telar/el-barrido.svg` · semilla 20260821
+
+### F367 — EL CRUCE (Fase XV): localizado, convergente, y sobrevivió al intento de asesinato — 2026-08-20
+- orden de la auditora: localizar el cruce de la Fase XIV, medirlo, e INTENTAR MATARLO. Todo congelado antes: zoom s∈[0,50, 1,30) en bins de 0,05, E(s)=real−nulo, 200 barajados, 200 bootstrap, s* por interpolación en el cambio de signo monótono
+- **s*(M) CONVERGE**: 0,7249 [0,702-0,797] → 0,8476 [0,764-0,878] → **0,8638 [0,844-0,885]** — el paso se achica de +0,123 a +0,016 y el intervalo se estrecha. Pendiente dE/ds ≈ −1,0 estable: cruce SUAVE, ni meseta ni salto. NO se declara constante: se declara localizado y convergente
+- **el mundo nulo (su §6), sin maquillaje**: los barajados cruzan ~3,8 veces cada uno, dispersos por toda la ventana (~14% cerca del real, compatible con dispersión uniforme). La UBICACIÓN sola no es improbable en el mundo nulo; lo que el nulo NO tiene es la ESTRUCTURA — un solo cruce monótono con pendiente −1 y amplitud 3×. Lo distintivo es la curva, no el punto
+- **batería de refutación: sobrevive entera** — malla corrida 0,863 · desdoblado global 0,844 · mitad baja 0,847 · **mitad ALTA (réplica independiente) 0,895** — todos en [0,84, 0,90], y las dos mitades disjuntas encierran al total
+- **segundo control (su §10)**: centros intactos + gaps intactos + etiquetas permutadas → curva PLANA (−0,072±0,031): TODA la estructura E(s) vive en la asociación centro↔gap
+- criterio de avance de su §12: CUMPLIDO — queda habilitada la pregunta «¿por qué existe s*?» y con ella Hardy–Littlewood, esperando su orden
+- `cmd/laformulamadre fase15` · acta `docs/atomo/CRUCE-FASE15-ACTA.md` · lámina `galeria/laminas/10-el-telar/el-cruce.svg` · semilla 20260822
+
+### F368 — EL PORQUÉ (Fase XVI): la identidad de cuatro términos, GUE descartado, y el término que falta tiene nombre — 2026-08-20
+- orden de la auditora: derivar primero, comparar después. **La identidad exacta**: E(s) = T1+T2+T3+T4 (covarianzas internas + SELECCIÓN×factor, en coseno y seno), verificada bin por bin contra el E medido (0,327 vs 0,347 … −0,283 vs −0,287) — y de paso el nulo barajado ≈ nulo analítico
+- **la respuesta a su §3**: masa de SELECCIÓN 2,33 contra 0,38 de covarianzas — el 86% del espejo es «qué ceros caen en cada clase de gap». Y dentro de la selección **domina T4, el término seno·seno**: los ceros de pares apretados no solo viven donde la onda de los primos aprieta — viven CORRIDOS con ella. El factor cos(gT/2) de su §4: derivado y medido, F(s) de +0,455 a −0,643, y no alcanza (multiplica la selección, no la crea)
+- **GUE puro: PLANO** (|E| máx 0,050 contra 0,35 real, 3 semillas) — sin primos no hay curva
+- **GUE + fórmula explícita** (densidad modulada por ε(γ) truncada en los mismos n≤97, gaps Wigner locales): produce el signo y la caída pero SE QUEDA CORTO — amplitud ⅓, cruce 0,70±0,01 contra 0,863, pendiente −0,6 contra −0,92. El residuo conserva la mayor parte de la estructura (máx 0,34 de 0,35)
+- ⚡ **veredicto por la rama «ningún modelo reproduce» de su §10 — el término que falta, identificado**: el modelo mueve TAMAÑOS de gaps (produce T2-coseno); el espejo real está dominado por T4-seno = CORRIMIENTO COHERENTE de las posiciones con la onda. El próximo modelo debe mover posiciones, no solo modular densidad — predicción concreta y falsable lista
+- Hardy–Littlewood: NO pertinente todavía (el déficit se nombra con la propia fórmula explícita); el Telar sigue congelado. Los 4 objetos de su §15 entregados: E obs / E GUE / E modelo / residuo bin por bin
+- `cmd/laformulamadre fase16` · acta `docs/atomo/PORQUE-FASE16-ACTA.md` · lámina `galeria/laminas/10-el-telar/el-porque.svg` · semilla 20260823
+
+### F369 — EL DESPLAZAMIENTO (Fase XVII): la causa que podía fallar, falló donde debía — y dejó la reforma señalada — 2026-08-20
+- regla sin circularidad y CERO parámetros libres: δγ(γ) = −S(γ)/ρ̄(γ) con S la fluctuación de conteo de la fórmula explícita truncada en n≤97; amplitud fijada POR LA FÓRMULA; predicción pre-registrada en el código antes de correr
+- **veredicto por sus criterios del §18: FRACASO cuantitativo declarado** — amplitud 0,082 contra 0,124 de la densidad (real: 0,351), cruce 0,61–0,70 (real 0,863), pendiente −0,1/−0,3 (real −0,93), residuo igual (0,300 vs 0,312). Y la robustez no es monótona: ×0,5 da 0,115, ×2 da 0,051 — el corrimiento grande EMBORRONA el eco
+- **las dos huellas verdaderas**: (1) el control asesino funciona — con fases φₙ aleatorizadas la señal cae a 0,029 = nivel GUE puro: lo poco que produce, lo produce por COHERENCIA; (2) la prueba clave de su §9: el desplazamiento es el ÚNICO brazo que genera T4 con el patrón de signos correcto (la densidad da ruido incoherente) — pero a ⅓ de la magnitud real, el mismo factor 3 de toda la campaña
+- **conclusión (su §19): REFORMULAR con dirección precisa** — el defecto es estructural: corrimiento aplicado SOBRE gaps ya sorteados (secuencial); los ceros reales son AUTO-CONSISTENTES (la repulsión opera sobre posiciones corridas). Hipótesis reformulada: repulsión + campo resolviéndose JUNTOS (gas de Coulomb 1D en el potencial de la fórmula explícita), cero parámetros nuevos
+- ni el tamaño de los gaps (XVI) ni las posiciones a posteriori (XVII): el espejo pide las dos cosas A LA VEZ. HL y el Telar siguen congelados
+- `cmd/laformulamadre fase17` · acta `docs/atomo/DESPLAZAMIENTO-FASE17-ACTA.md` · lámina `galeria/laminas/10-el-telar/el-desplazamiento.svg` · semilla 20260824
+
+### F370 — EL ACOPLADO (Fase XVIII): la auto-consistencia importa — 2,5× sobre el a posteriori — y el déficit nuevo se llama RIGIDEZ — 2026-08-20
+- construcción sin perillas: puntos GUE desplegados u_k clavados por la ecuación de conteo COMPLETA N_liso(γ)+S(γ)=u_k — el campo entra ADENTRO del clavado; tamaños y posiciones emergen juntos (la hipótesis hecha ecuación). El gas de Coulomb diferido y declarado (necesita temperatura = perilla)
+- **veredicto por sus criterios del §16: APOYO PARCIAL CUANTITATIVO** — amplitud 0,138 contra 0,115 (densidad) y 0,055 (a posteriori): mejora a AMBAS referencias; **la comparación decisiva simultáneo/a-posteriori da 2,5×**; el cruce se muda de 0,70 a 0,88–0,96 encerrando el 0,865 real; T4 con patrón correcto y 0,116 (el doble del a posteriori, 43% del real — el factor faltante bajó de 3 a 2,3 sin perillas); fase destruida → 0,037 = piso GUE: muere como debe. Ningún criterio de fracaso del §17 se cumplió
+- **su §12, registrado sin ocultar — y es la pista**: el acoplado paga desvío de espaciados 0,58 contra 0,42 Wigner; LOS CEROS REALES llevan la señal completa manteniendo 0,42 exacto. Y de paso quedó expuesto que el modelo de densidad de XVI siempre tuvo la estadística rota (desvío 3,67). El brazo «campo solo» da 0,285 > acoplado: la repulsión iid DILUYE la coherencia
+- ⚡ **déficit con nombre nuevo: la RIGIDEZ de largo alcance** — nuestros u_k son paseo browniano de gaps Wigner iid donde el GUE verdadero es casi una regla (varianza log). Hipótesis siguiente, sin perillas: secuencia con rigidez GUE genuina (autovalores CUE/GUE reales) clavada por la misma ecuación
+- escalera: XVI tamaños=⅓ · XVII posiciones-después=menos · XVIII juntos=2× separados y encierra el cruce · lo que falta es rigidez, no fuerza. HL y Telar congelados
+- `cmd/laformulamadre fase18` · acta `docs/atomo/ACOPLADO-FASE18-ACTA.md` · lámina `galeria/laminas/10-el-telar/el-acoplado.svg` · semilla 20260825
+
+### F371 — LA RIGIDEZ (Fase XIX): la hipótesis murió por su regla pre-registrada — y su muerte coronó al control escondido — 2026-08-20
+- material GUE GENUINO (ensamble tridiagonal de Hermite β=2, autovalores exactos, desplegado semicircular), verificado ANTES del campo: varianza de conteo 0,59 = GUE teórico (el paseo daba 1,82). Clavado por la misma ecuación de conteo. Cero perillas
+- **veredicto por la regla pre-registrada: MUERTA** — rígido+campo 0,120 contra paseo+campo 0,133: no supera ni amplitud, ni T4, ni el ensanchamiento de espaciados (0,56 vs 0,57). La coherencia sigue necesaria (fase rota → 0,026). La rigidez de largo alcance NO era el ingrediente
+- 🔬 **el diagnóstico que deja**: los cuatro acoplados de la campaña comparten dos síntomas — ⅓ de amplitud y espaciados 0,56-0,58 contra el 0,42 EXACTO de los ceros reales. Todos suman fluctuación GUE independiente ENCIMA del campo: dos fuentes de varianza donde los ceros tienen UNA. La fluctuación «GUE» de los ceros ES aritmética (los términos n>97 que la truncación tira): la imagen de Berry
+- ⚡ **el ganador estaba en un control**: el brazo F de la Fase XVIII (campo solo, estacada rígida SIN ruido) da amplitud 0,285 = 82% del real CON espaciados 0,42 clavados — el mejor modelo de toda la campaña, y nadie lo coronó por ser control. Todo lo agregado encima solo lo empeoró
+- **hipótesis siguiente, sin perillas, para bendición de Yui**: NO HAY MATERIAL — el campo es el material. N_liso+S = k−½ puro con la truncación extendida (97 → 997 → 9973, barrido declarado como robustez): si los términos nuevos fabrican solos la estadística local (Berry) y la amplitud sube de 0,285 a 0,346 con el cruce bajando de 0,94 a 0,862 — el espejo se explica con MÁS ARITMÉTICA, NO MÁS RUIDO
+- `cmd/laformulamadre fase19` · acta `docs/atomo/RIGIDEZ-FASE19-ACTA.md` · lámina `galeria/laminas/10-el-telar/la-rigidez.svg` · semilla 20260826
+
+### F372 — LA TRUNCACIÓN (Fase XX): las tres convergencias ocurrieron — y la auditoría adelantada reencuadra la campaña — 2026-08-20
+- orden estricta cumplida: NADA agregado; única variable el tope N ∈ {97, 997, 9973, 99991} (declarados antes). Modelo determinista, estabilidad verificada con dos semillas de nulos
+- **LAS TRES CONVERGENCIAS (su §7)**: amplitud 0,267→0,374 atravesando el 0,348 real · cruce 0,847→**0,861** contra 0,866 (¡cinco milésimas!) · pendiente −0,867 vs −0,924 · T4 0,215→0,292 encerrando 0,267 · **residuo total colapsa monótono 0,096→0,027** con señal de 0,35 · espaciados con deriva LEVE 0,42→0,39 (reportada, no corregida). Por su §18: resultado fuerte → FRENAR Y AUDITAR
+- ⚡ **el elemento 1 de la auditoría, adelantado, reencuadra todo**: distancia de los puntos del modelo al cero real más cercano: 0,060 (N=97) → **0,018 (N=99991), 100% a menos de 0,1** — el modelo no se parece a los ceros: SON los ceros, reconstruidos desde los primos. La ecuación de conteo con S completa es en el límite la definición de los ceros: la convergencia es la DUALIDAD operando, no un mecanismo independiente
+- **cierre honesto de la campaña del Espejo (XV–XX)**: la curva del espejo es aritmética PURA — cruce, pendiente, amplitud y T4 codificados en la fórmula explícita sin una gota de aleatoriedad independiente. La imagen de Berry medida en nuestro observable: los términos profundos fabrican solos la estadística local. No es física nueva: es la dualidad de siempre, demostrada de punta a punta sobre el observable que abrió el Teorema del Punto Medio del capitán. El valor es el CIRCUITO completo: teorema a mano → espejo → curva → identidad → eliminación → reconstrucción convergente
+- queda para orden de Yui: la segunda implementación independiente, el rango de γ, la precisión fina — y la pregunta de si agregan algo con el elemento 1 a la vista. Cabo suelto numérico: la deriva 0,42→0,39. HL y Telar congelados
+- `cmd/laformulamadre fase20` + `audit20` · acta `docs/atomo/TRUNCACION-FASE20-ACTA.md` · lámina `galeria/laminas/10-el-telar/la-truncacion.svg` · semilla 20260827
+
+### F373 — LA AUDITORÍA INDEPENDIENTE (Fase XXI): todo reproducido, y el cabo suelto RESUELTO — 2026-08-20
+- **Prueba 1 (prioridad absoluta)**: segunda implementación DESDE CERO (`cmd/laauditoria`, cero código compartido): S por primo y potencia, θ con término extra, buscador por barrido de semienteros, ceros reales re-hallados a paso 0,01, RNG splitmix64, eco/bins/cruce/T4 reescritos. **Reproduce la escalera entera**: amplitud 0,247→0,365, cruce → 0,856 (real B: 0,863), T4 0,197→0,291, residuo 0,123→0,019, distancia a los ceros reales 0,047→**0,009** con 100% a <0,1. Diferencias A↔B de milésimas en los escalones profundos; N=97 más sensible al buscador (declarado)
+- **Prueba 2 (rango de γ)**: no es local — ventanas [30,2000]/[2000,4000]/[30,4000] dan modelo≈real a milésimas, y el cruce real VARÍA con la ventana (0,847/0,891) y el modelo reproduce hasta esa dependencia
+- **Prueba 3 (sensibilidad)**: roca — paso 0,010 vs 0,004 vs θ sin término extra: nada se mueve más de 3 milésimas
+- ⚡ **EL CABO SUELTO 0,42→0,39, RESUELTO**: los ceros reales medidos con el barrido fino dan s-desv 0,39 — el 0,42 era de la REFERENCIA de la implementación A (paso 0,02 desde γ=10, de ahí también sus 3 ceros extra). Por ventanas: real 0,383/0,392 y modelo N=99991 **0,383/0,392 — dígito a dígito**. No había deriva del modelo: había artefacto en la vara
+- **conclusión formal (su §13)**: niveles A y B establecidos — TODO el observable es consecuencia de la fórmula explícita (posiciones a 0,009, estadística local exacta, curva completa). **Nivel C: NO EXISTE ninguna afirmación legítima dentro de este marco, y se dice con todas las letras.** Anomalía restante: ninguna. Pregunta abierta legítima: si existe algún observable donde la reconstrucción y los ceros se separen, o una construcción de nivel C sin la dualidad — que es el problema de Riemann de siempre, con el mapa de qué NO lo resuelve mucho mejor dibujado
+- `cmd/laauditoria` · acta `docs/atomo/AUDITORIA-FASE21-ACTA.md` · HL/Telar/mecánica siguen congelados
+
+### F374 — LA SILUETA: el espacio vacío proyectado, y LA PARED DE FUERZA — 2026-08-20
+- el flash del capitán («proyectá el espacio vacío donde no hay guitarra con lo que dio negativo»): los dieciséis rebotes de la campaña, cada uno con su número de muerte, dibujan el molde del nivel C
+- ⚡ el número nunca medido: mover la escalera de 400 modos del Telar a los 400 ceros reales exige ‖P‖_F ≥ 7496 — **250× el presupuesto F=30** de todas las fases; y la estructura fina sola pide 91,4 (3×). El techo de 19× era de la CAJA, no del ingenio
+- la silueta en seis trazos: no-perturbación, densidad creciente, no-local, relacional, determinista, inestabilidad 1 — y los tres candidatos que caben: adeles, Suzuki no-local, xp con frontera aritmética
+- `cmd/lasilueta` · lámina `galeria/laminas/10-el-telar/la-silueta.svg`
+
+### F375 — LA ESPIRAL: el coseno enroscado que converge a un punto — la primera cuerda — 2026-08-20
+- el flash es literal: la caminata de sumas parciales se enrosca y el ojo (suma parcial + Euler–Maclaurin) ES ζ(½+it): cae en el ORIGEN a la altura del cero real (0,003) y clava |Z| = 2,114/2,116 en el hueco
+- el ojo se queda quieto mientras la espiral gira (X = 150…600: 0,006/0,004/0,002/0,003) — instrumento, no dibujo
+- `cmd/laespiral` · lámina `la-espiral.svg`
+
+### F376 — LA PROPORCIÓN: el esqueleto angular trae un medio espontáneo — 2026-08-20
+- esqueleto de pasos unitarios (sin σ): K·nMin = τ clava el punto medio logarítmico en 0,5000 por toda la escalera t = 400…102 400; la pinza cierra desde los dos lados
+- la pintura obedece β = 1−σ exacto (0,693/0,493/0,293 medidos): el único σ donde la pintura empata al esqueleto es ½
+- `cmd/laproporcion` · lámina `la-proporcion.svg`
+
+### F377 — LA COMPLEMENTARIA: la identidad sin el ½ en ningún lado — 2026-08-20
+- orden ciega: producto crudo K·nMin/τ = 0,987–1,0007 en nueve peldaños hasta t = 1 638 400; cada corrida j vive en τ/j (cero saltos en 79); el centro del espejo por BISECCIÓN da 0,500000 — la comparación con un medio, recién al final
+- `cmd/lacomplementaria` · lámina `la-complementaria.svg`
+
+### F378 — EL COCIENTE: Q clasificado, y el corrimiento que se midió solo — 2026-08-20
+- Q no es identidad: es consecuencia de las definiciones CONDICIONAL a instrumento honesto — 45/61 casos siguen la ley sin parámetros 1−x/(eˣ−1) (mediana 0,96); 16 detectores ALUCINARON bajo el límite de resolución y Q se destruye
+- ⚡ la escalera es τ/j MENOS una constante que los datos nombraron: d_j = 0,4990 ± 0,0012 sobre 73 corridas nítidas
+- dos fallos propios corregidos en vivo: auditoría de pertenencia desdentada (zona densa) y etiquetas nítidas/borrosas invertidas — registrados
+- `cmd/elcociente` · lámina `el-cociente.svg`
+
+### F379 — LA DERIVACIÓN: la misma ley en un mundo sin zeta — 2026-08-20
+- programa estructuralmente libre de zeta (diales √2·10³…√2·10⁶): escalera n_j = 1/(e^(j/τ)−1) con residuos 0,0001, orden=índice 98,7%, ley mediana 0,98
+- la rotura es contabilidad: restaurando j*, 6/13 rotos CURADOS, 7 indecidibles en zona densa, 0 se niegan
+- `cmd/laderivacion` · lámina `la-derivacion.svg`
+
+### F380 — EL TAMBOR: quién golpea la guitarra — 2026-08-20
+- el parche es la espiral con radio log n: golpe en n = tono ln n con fuerza 1/√n (BOOM/TAK — a igual energía solo cambia el timbre); los golpes espejo suman siempre ln τ
+- ⚡ la profundidad del canto suena SOLO en primos y potencias (2→0,3524/0,3536 … 19→0,1146/0,1147; compuestos en 0,003): señal/silencio 39,6×
+- confesión: mi clasificador de primos tenía un bug y los datos defendieron a 3, 5, 7, 11, 13 solos antes de la corrección
+- `cmd/eltambor` · lámina `el-tambor.svg`
+
+### F381 — EL PARCHE: la Auditoría 54 respondida con los controles que podían matarla — 2026-08-20
+- tres señales: primos+potencias (19 tonos) EMPATA a todos los enteros (39): los compuestos aportan −0,0003 de R²
+- control negativo: p+1 suena 0,0429 y Λ lo predice 0,0409 (sus potencias accidentales); 20 conjuntos al azar: correlación 1,000
+- la amplitud se DERIVA del producto de Euler: Λ(m)/(2√m·ln m) — «callan» = Λ = 0 = factorización única; acta con las 14 preguntas
+- `cmd/elparche` · acta `docs/atomo/TAMBOR-AUDITORIA-ACTA.md` · lámina `el-parche.svg`
+
+### F382 — LA CADENA: los 8 pasos de la guía por ruta B, y la calibración — 2026-08-20
+- ruta B independiente: identidad algebraica a 6,9×10⁻¹⁸; valores reproducidos; controles a la milésima
+- ⚡ calibración sintética con tono plantado EN el compuesto 10: recuperado 0,0999/0,1000 — el silencio es DE ZETA, no del aparato
+- `cmd/lacadena` · acta `docs/atomo/TAMBOR-CADENA-ACTA.md`
+
+### F383 — EL RESIDUO: la escalera continúa y los ceros viven en el resto — 2026-08-20
+- la fuga del m=6 PREDICHA sin parámetros (0,0093/0,0033/0,0002 vs 0,0096/0,0035/0,0007): era interferencia de colas de ventana
+- el espectro del residuo continúa la escalera: 5/5 potencias nuevas (7² clavado 0,0357/0,0357), 11/11 compuestos callados
+- ⚡ apilado sobre 589 ceros reales: púa −4,22 en s=0 contra +0,57 del control — la mitad del canto que los primos no explican es la posición fina de los ceros
+- `cmd/elresiduo` · acta `docs/atomo/TAMBOR-RESIDUO-ACTA.md` · lámina `el-residuo.svg`
+
+### F384 — LA SEPARACIÓN: la batería completa, y la contabilidad a la milésima — 2026-08-20
+- la púa sobrevive a retirar TODA la aritmética controlable (1280 tonos: −4,895→−4,133); la cola sintética sola carga −0,761 y la púa real perdió −0,762: el libro cierra
+- centros falsos ciegos (+0,455/+0,029/−0,010); tres alturas misma púa; el fondo se profundiza con la resolución (firma de singularidad log)
+- ORO: α punto a punto 0,30 NO clava el 1 (declarado, con el corte duro α=0,14 confesado); la pendiente del perfil apilado vs log|s| da 0,877 donde Hadamard pone 1, control al azar −0,033
+- `cmd/laseparacion` · acta `docs/atomo/TAMBOR-SEPARACION-ACTA.md` · lámina `la-separacion.svg`
+
+### F385 — LA CONTRACCIÓN: la espiral a ciegas — el medio vive en el exponente — 2026-08-20
+- ni 0,5 ni 0,34 como razón por vuelta (medianas ciegas 1,000–1,004); la contracción de acercamiento (0,80→0,95) es idéntica en cero/casi-cero/control: del instrumento
+- β = 0,4927 a ciegas, controles 0,6926/0,2927 = 1−σ exacto; lección de F376 reaplicada tras caer en la misma trampa de ventana (β=0,265 contaminado, corregido)
+- `cmd/lacontraccion` · crudos `docs/atomo/CONTRACCION-CRUDOS.csv` · lámina `la-contraccion.svg`
+
+### F386 — LA MERMA: ε_k cae como potencia, y la cintura aparece — 2026-08-20
+- potencia gana 6/6 (α = −0,90…−1,25) sobre exponencial e hipérbola; ε = p·Δn/n medido por ciclo
+- cintura en n ≈ 3,7τ en los seis casos y diferencia cero↔control 83× menor que la señal — con las dos interpretaciones (3/2 del resto; σ se cancela) después REFUTADAS por F387 y registradas como fallos
+- `cmd/lamerma` · lámina `la-merma.svg`
+
+### F387 — LA UNIFICADA: una ecuación, cuatro observables — la Curva Madre — 2026-08-20
+- R(n) = n^(−σ)/(2|sin(t/2n)|) derivada por resumación geométrica ANTES de comparar: medianas 0,993–1,004 contra la trayectoria en seis casos
+- β = 1−σ obligado (con el sesgo de ventana −0,0073 predicho); vueltas ESTROBOSCÓPICAS a trozos (0,996–1,003); cintura (θ/2)cot(θ/2) = σ al 1% σ por σ; merma → 1/(2k)
+- DOS fallos de F386 registrados: el «3/2» era espejismo de rango; la cintura universal era el detector (la real depende de σ)
+- `cmd/launificada` · actas `docs/atomo/UNIFICADA-ACTA.md` + `UNIFICADA-DERIVACION-ACTA.md` · lámina `la-unificada.svg`
+
+### F388 — LA AUDITORÍA MADRE: la curva atacada, y sangró donde debía — 2026-08-20
+- dos fallos registrados sin reparar: las cotas de primer orden NO son cotas superiores (14/21 violadas, ×4,4; envoltura ×5; rigurosa PENDIENTE); la frontera real escala como √(τ/(2π·tol)) (predice 50, medido 43)
+- cerrados bajo ataque: A3 (Abel exacta), β, Δn, cintura (existencia/unicidad/monotonía); el ½ tiene DOS familias (sin/cot mismo objeto; 1/(2k) es x²/2) — separadas
+- `cmd/laauditoriamadre` · acta `docs/atomo/MADRE-AUDITORIA-ACTA.md` · veredicto PARCIALMENTE CERRADO
+
+### F389 — EL TEOREMA PARCIAL DE LA CURVA MADRE: Teorema 7 del taller — 2026-08-20
+- construido por orden de la relojera y ajustado en dos rondas de referee: A1–A3 formalizadas, Lema como cadena de seis flechas, cuatro corolarios con niveles separados, no-circularidad 6/6, prueba de referee A–G, clasificación de los ocho resultados
+- rango TEOREMA PARCIAL por decreto del capitán; «la ecuación ES la trayectoria» eliminada y reemplazada por la regla de lectura r = R_M(1+η)
+- inscripto en `docs/teoremas/TEOREMAS.md` · documento `docs/teoremas/TEOREMA-CURVA-MADRE.md` · página `galeria/teorema-curva-madre.html`
+
+### F390 — EL PUENTE: los dos primeros términos del error, exactos — CASO B — 2026-08-20
+- la forma cerrada del modelo resuma las partes (it) de la serie EM: E_n arranca con D₁ = n^(1−s)·[1/(s−1) − 1/(it)] y D₂ = σ·n^(−s−1)/12, exactos por álgebra
+- verificado: residuo 0,002–0,026 para θ ≤ 1; la cola de Bernoulli queda ABIERTA y nombrada con precisión; la definición de C cerrada (ζ + representación EM + resto clásico)
+- ⚡ Yui: «esto ya no parece una libreta de patrones sueltos: tiene una arquitectura matemática reconocible» — el puente subió de CASO C a CASO B porque el álgebra lo permitió
+- `cmd/elpuente` · el teorema queda blindado dentro de sus hipótesis

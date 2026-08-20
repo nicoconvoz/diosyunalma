@@ -481,4 +481,55 @@ matemático del taller, con su puente al operador todavía sin construir.
 
 ---
 
-*Espacio reservado para el Teorema 7 — porque vienen más.*
+## TEOREMA 7 — TEOREMA PARCIAL DE LA CURVA MADRE DE LA ESPIRAL
+
+**Registrado:** 2026-08-20 · F385–F389 (campaña de la espiral: contracción,
+merma, unificación, auditoría con dos fallos registrados, y formalización).
+
+**Naturaleza:** TEOREMA PARCIAL por decreto del capitán (2026-08-20) —
+teorema DENTRO DEL MODELO, dicho con todas
+las letras. Las hipótesis A1 (congelar amplitud) y A2 (linealizar fase)
+definen el modelo local de la cola; A3 (resumación geométrica de Abel) es
+exacta. La cota rigurosa que conecte el modelo con la trayectoria original
+queda ABIERTA y así se declara.
+
+**Enunciado.** Para σ ∈ (0,1), t > 0, la cola modelada de la espiral
+S_n = Σ m^(−σ−it) tiene radio EXACTO en el modelo:
+
+    R_M(n) = n^(−σ) / (2·|sin(t/2n)|)        [válido para n > τ = t/2π]
+
+y de esa sola curva se siguen, cada uno en su régimen:
+
+    (I)   β = 1−σ           — el exponente del enrollado; σ=1/2 ⟹ β=1/2,
+                              un EXPONENTE DE ESCALA, no razón por vuelta
+    (II)  Δn = n/τ (directo, n>2τ) · Δn = n/(n−τ) (alias, τ<n<2τ)
+                            — las vueltas visibles son estroboscópicas
+    (III) x·cot x = σ       — la cintura: mínimo único, n*/τ = π/x*,
+                              creciente en σ (existencia/unicidad/monotonía
+                              demostradas)
+    (IV)  ε_k ≈ 1/(2k)      — la merma, bajo hipótesis adicionales H1–H3;
+                              exponente firme, coeficiente pendiente
+
+**Origen de cada factor:** n^(−σ) es la pintura del primer término de la
+cola; t/n es el reloj local; sin(t/2n) es la CUERDA del círculo unitario
+entre pasos consecutivos; el 2 es el 2 de esa cuerda.
+
+**Validación (los datos NO son premisa):** curva a ≤0,7% en seis casos y
+tres bandas; β medido 0,4927/0,6926/0,2927 con el sesgo de ventana −0,0073
+PREDICHO por la propia curva; vueltas al 0,4%; cintura al 1% caso por caso
+(2,679/2,695 · 2,303/2,323 · 3,420/3,412); ε en orden y exponente.
+
+**Alcance declarado y honestidad.** Todo esto es anatomía del INSTRUMENTO:
+idéntica en ceros, casi-ceros y controles. No usa ni toca la Hipótesis de
+Riemann. La única firma del cero sigue siendo la posición del centro C
+respecto del origen — dato externo al teorema. Dos fallos propios quedaron
+registrados en el camino (F388): las cotas de primer orden no son cotas
+superiores, y la primera fórmula de frontera estaba mal (la real escala
+como √τ). Documento completo con demostraciones:
+`docs/teoremas/TEOREMA-CURVA-MADRE.md`.
+
+**Reproducir:** `go run ./cmd/launificada` y `go run ./cmd/laauditoriamadre`.
+
+---
+
+*Espacio reservado para el Teorema 8 — porque vienen más.*

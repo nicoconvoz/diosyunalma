@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema Parcial de la Curva Madre — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 8px; font-size:13px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen b { color:var(--gold); }
+  figure { margin:26px 0; text-align:center; }
+  figure img { max-width:100%; border-radius:12px; border:1px solid #1d3a63; }
+  figcaption { color:var(--dim); font-size:13px; margin-top:8px; }
+  table { border-collapse:collapse; margin:18px auto; font-size:14px; }
+  th, td { border:1px solid #26456e; padding:7px 14px; text-align:center; }
+  th { color:var(--gold); background:var(--panel); }
+  .sello { text-align:center; color:var(--dim); font-size:13.5px; margin-top:46px; border-top:1px solid #1d3a63; padding-top:18px; }
+  .sello b { color:var(--gold); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌀 El Teorema Parcial de la Curva Madre</h1>
+  <p class="sub">Teorema 7 del taller · la anatomía de la espiral de cosenos · nacido del flash del capitán</p>
+  <p class="quien">Flash fundador: <b>Jesús Nicolás Astorga</b> («¿has visto un coseno en espiral, convergiendo en un punto?») · derivación, dieciséis experimentos y dos fallos propios registrados: el taller · auditado en siete rondas por la relojera · declarado TEOREMA PARCIAL por el capitán el 2026-08-20</p>
+</header>
+
+<nav>
+  <a href="index.html">← la galería</a>
+  <a href="#cuento">el cuento</a>
+  <a href="#enunciado">el enunciado</a>
+  <a href="#demo">la demostración en criollo</a>
+  <a href="#mate">la matemática</a>
+  <a href="#lamina">la lámina</a>
+  <a href="#real">qué lo hace real</a>
+</nav>
+
+<main>
+
+<h2 id="cuento">El cuento — la espiral que se muerde la cola</h2>
+<p>El capitán preguntó una tarde: <i>«¿has visto un coseno en espiral, convergiendo en un
+punto?»</i>. Y resultó que ese dibujo vive en el corazón de nuestra guitarra: si sumás la serie de
+zeta término a término — un cosenito por cada número n — y dibujás el camino en el plano, el
+camino no avanza derecho: <b style="color:var(--gold)">se enrosca en espiral y converge a un
+ojo</b>. Y el ojo es el valor de zeta. Un cero de Riemann es la altura exacta donde la espiral se
+muerde la cola en el origen.</p>
+<p>Lo que este teorema cuenta es la <b>anatomía de esa espiral</b>: por qué se enrosca como se
+enrosca. La imagen es la de un caminante que da pasos en ronda: cada paso gira un poquito más que
+el anterior — el reloj marca t/n radianes en el paso n — y el caminante que gira casi-igual en
+cada paso queda atrapado en una rueda. El tamaño de la rueda lo decide <b>la cuerda</b>: la
+distancia entre dos direcciones consecutivas en el círculo. Cuerda corta (pasos casi paralelos):
+rueda grande. Cuerda larga: rueda chica. Y de esa sola idea — el paso dividido la cuerda — sale
+TODO: el grosor de la espiral, sus vueltas visibles, su cintura, y cómo se apaga su contracción.</p>
+
+<h2 id="enunciado">El enunciado — una curva, cuatro consecuencias</h2>
+<div class="math">R<sub>M</sub>(n) &nbsp;=&nbsp; n<sup>−σ</sup> / [ 2·|sin(t/2n)| ] &nbsp;&nbsp;&nbsp;&nbsp;(válida para n &gt; τ = t/2π)</div>
+<p>Exacta <b>dentro del modelo</b> A1–A3 (abajo está qué significa eso, sin maquillaje). Y de esa
+sola curva se siguen, cada una en su régimen:</p>
+<table>
+<tr><th>consecuencia</th><th>fórmula</th><th>qué dice</th></tr>
+<tr><td>I · el enrollado</td><td>β = 1−σ</td><td>σ=½ ⟹ β=½: un exponente de ESCALA, no una razón por vuelta</td></tr>
+<tr><td>II · las vueltas</td><td>Δn = n/τ &nbsp;·&nbsp; Δn = n/(n−τ)</td><td>las vueltas visibles son estroboscópicas: directas lejos, alias cerca de τ</td></tr>
+<tr><td>III · la cintura</td><td>x·cot x = σ</td><td>el mínimo único del radio, en n*/τ = π/x*</td></tr>
+<tr><td>IV · la merma</td><td>ε<sub>k</sub> ≈ 1/(2k)</td><td>cómo se apaga la contracción, vuelta a vuelta (nivel de certeza menor, declarado)</td></tr>
+</table>
+
+<h2 id="demo">La demostración, en criollo</h2>
+<div class="paso"><b class="t">Paso 1 — la cola es un polígono casi-geométrico.</b>
+<p>Parado en el paso n, lo que te falta caminar (la cola) son pasos que giran casi lo mismo:
+θ = t/n radianes cada uno. Congelá dos cosas — el largo de los pasos al del primero (hipótesis A1)
+y el giro a exactamente θ (hipótesis A2) — y la cola se vuelve una serie geométrica pura.</p></div>
+<div class="paso"><b class="t">Paso 2 — la cuerda.</b>
+<p>¿A qué distancia queda el final de un polígono así? A (primer lado)/(cuerda del giro). Y la
+cuerda entre dos puntos del círculo separados θ mide 2·sin(θ/2) — el 2 y el seno de la fórmula son
+literalmente eso: <b>la cuerda de medio ángulo</b>. Primer lado n<sup>−σ</sup>, cuerda abajo, y la
+curva madre queda armada. Tres pasos de la cadena son identidades; solo A1 y A2 son hipótesis.</p></div>
+<div class="paso"><b class="t">Paso 3 — el enrollado (β).</b>
+<p>Lejos del centro (n mucho mayor que t) el giro θ es chiquito y la cuerda ≈ θ = t/n. Entonces
+R ≈ n<sup>−σ</sup>·n/t = n<sup>1−σ</sup>/t: el radio crece con exponente <b>1−σ</b>. Con la
+pintura en σ=½, el exponente es ½ — el medio del capitán, vuelto exponente de escala.</p></div>
+<div class="paso"><b class="t">Paso 4 — las vueltas son de estroboscopio.</b>
+<p>El caminante solo pisa en n entero: muestrea la rotación como las luces de una discoteca
+muestrean un ventilador. Si el giro real por paso pasa de media vuelta (θ &gt; π), el ojo ve el
+ALIAS: la rueda parece girar al revés y despacio, a 2π−θ por paso. De ahí la ley a trozos: vueltas
+de n/τ pasos lejos, de n/(n−τ) pasos cerca de τ — medida ciclo por ciclo con error del 0,4%.</p></div>
+<div class="paso"><b class="t">Paso 5 — la cintura.</b>
+<p>El radio tiene dos fuerzas: la pintura n<sup>−σ</sup> que lo encoge y la cuerda que lo agranda.
+Se empatan donde (θ/2)·cot(θ/2) = σ. Esa ecuación tiene UNA sola solución (la función x·cot x baja
+sin parar de 1 a −∞), así que la espiral tiene UNA cintura, y su posición depende de σ — la
+predicción le erró a lo medido por menos del 1% en los tres σ ensayados.</p></div>
+<div class="paso"><b class="t">Paso 6 — la merma.</b>
+<p>Cerca de τ las vueltas alias se acumulan como (n−τ)² ≈ 2τk — el k de la vuelta entra por una
+integral de x·dx = x²/2 — y la contracción por vuelta queda ε<sub>k</sub> ≈ 1/(2k). El exponente
+−1 es firme; el coeficiente ½ queda como asintótica del modelo, con su verificación fina pendiente
+y dicho con todas las letras.</p></div>
+
+<h2 id="mate">La matemática, con sus niveles a la vista</h2>
+<div class="math chica">Modelo:&nbsp; T_n^M := n^(−s)·Σ_{j≥1} e^(−iθj)&nbsp;&nbsp;(A1: amplitud congelada · A2: fase linealizada · A3: suma de Abel, EXACTA)
+<br>Lema:&nbsp;&nbsp;&nbsp; T_n^M = n^(−s)/(e^(iθ)−1) ⟹ R_M = n^(−σ)/(2|sin(θ/2)|)&nbsp;&nbsp;·&nbsp;&nbsp;dln R_M/dln n = −σ + (θ/2)cot(θ/2)
+<br>Puente:&nbsp; T_n = T_n^M + E_n, con D₁ = n^(1−s)[1/(s−1) − 1/(it)] y D₂ = σn^(−s−1)/12 EXACTOS (álgebra) — CASO B
+<br>Regla de lectura:&nbsp; toda igualdad con lo medido significa r(n) = R_M(n)·(1+η), η ≤ 0,7% en el dominio estudiado</div>
+<p>El documento completo — definiciones, hipótesis, lemas, corolarios, no-circularidad, prueba de
+referee A–G y la tabla de clasificación de los ocho resultados — vive en
+<b>docs/teoremas/TEOREMA-CURVA-MADRE.md</b>.</p>
+
+<h2 id="lamina">La lámina</h2>
+<figure>
+  <img src="laminas/10-el-telar/la-unificada.svg" loading="lazy" alt="La Curva Madre sobre los datos">
+  <figcaption>Los puntos azules son la trayectoria medida punto a punto; la curva dorada no fue
+  ajustada: fue derivada antes de mirar. A la derecha, el tablero de las cuatro consecuencias con
+  sus números.</figcaption>
+</figure>
+<div class="imagen"><b>Reproducir:</b> <code>go run ./cmd/launificada</code> (la curva y las
+cuatro consecuencias) · <code>go run ./cmd/laauditoriamadre</code> (el ataque con cotas) ·
+<code>go run ./cmd/elpuente</code> (los términos exactos del puente).</div>
+
+<h2 id="real">Qué lo hace real</h2>
+<div class="real"><b class="t">Derivada primero, medida después.</b>
+<p>Las predicciones se pre-registraron en el código antes de comparar. La curva contra la
+trayectoria: medianas 0,993–1,004 en seis casos y tres bandas. β medido 0,4927/0,6926/0,2927 para
+σ=0,5/0,3/0,7 — y hasta el desvío de 0,0073 respecto de 1−σ estaba predicho por la propia curva
+(es su curvatura θ²/24 vista por la ventana de ajuste). Vueltas al 0,4%. Cintura al 1%, σ por σ.</p></div>
+<div class="real"><b class="t">Atacada por su propio taller — y los fallos, registrados.</b>
+<p>La auditoría F388 encontró que nuestras «cotas» de primer orden no eran cotas (violadas 14 de
+21 veces) y que la primera fórmula de frontera estaba mal — los dos fallos quedaron en el registro
+sin maquillar, y el teorema los incorpora como límites. Antes, F387 había matado dos
+interpretaciones nuestras de F386. Este teorema está hecho de sus propias correcciones.</p></div>
+<div class="real"><b class="t">La firma del cero, afuera a propósito.</b>
+<p>La curva es la anatomía del instrumento: idéntica en ceros, casi-ceros y controles. Lo único
+que los ceros deciden es DÓNDE queda el ojo — y esa pregunta quedó explícitamente fuera del
+teorema, esperando su propio capítulo.</p></div>
+<div class="honesto"><b>La honestidad, sin anestesia.</b> Es un teorema PARCIAL y el rango lo puso
+el capitán a conciencia: exacto dentro del modelo A1–A3; el puente con el objeto original tiene
+sus dos primeros términos demostrados por álgebra (D₁, D₂ — CASO B) y verificados al 0,2–2,6% en
+su zona, pero la cota rigurosa de la cola sigue ABIERTA, igual que el dígito fino del coeficiente
+de ε<sub>k</sub>. Debajo de τ mandan las resonancias de la escalera armónica y la curva no aplica.
+Nada de esto usa ni toca la Hipótesis de Riemann.</div>
+
+<p class="sello">Teorema 7 del libro del taller · documento con demostraciones en
+<b>docs/teoremas/TEOREMA-CURVA-MADRE.md</b> · la regla del sello preside:
+<b>estructura cerrada no es hipótesis demostrada — Todavía no.</b></p>
+
+</main>
+</body>
+</html>
