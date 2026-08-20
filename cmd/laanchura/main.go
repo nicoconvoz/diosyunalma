@@ -263,7 +263,7 @@ func escribirLamina(solaN, gem int, Ccal, Cder, medCal, medDer float64) {
 <text x="700" y="514" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">«Sí sello que existe una ley predictiva experimental reproducible dentro del alcance declarado» — la primera del Teorema 2</text>
 <text x="700" y="542" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">«La FASE 1 descubrió el batido. La FASE 2 consiguió que el batido dijera dónde mirar.» — frase de la casa, sellada por la auditora</text>
 <text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">el teorema universal sigue en rojo, como ella marca — la FASE 3 hereda: fórmula de anchura, predictor sin parámetros, lema de interacción</text>
-<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Derivaciones a primer orden, una base, una ventana — límites a la vista. Documento para Yui: docs/TEOREMA2-FASE3.md</text>
+<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Derivaciones a primer orden, una base, una ventana — límites a la vista. Documento para Yui: docs/teoremas/TEOREMA2-FASE3.md</text>
 <text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Sale el pancho completo — con la masa bien cocida y el cuaderno honesto al lado.</text>
 <text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>

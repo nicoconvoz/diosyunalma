@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="52.0" font-size="25.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🧵 EL TELAR — Fase II: la geometría sola es vacía, y los primos solos alcanzan</text>
+<text x="700.0" y="78.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">sin leer un solo cero · 620 ceros verdaderos como regla en [100, 1000] · ln(T/2π) va de 2,767 a 5,070</text>
+<rect x="36.0" y="96.0" width="650.0" height="300.0" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="50.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">A · LAS DOS MITADES — Σ²(10): la rigidez que ninguna matriz al azar tiene</text>
+<line x1="70.00" y1="340.00" x2="650.00" y2="340.00" stroke="#1d3a63" stroke-width="1.40"/>
+<rect x="110.00" y="339.30" width="78.00" height="0.70" fill="#7fb2ff" stroke="#7fb2ff" opacity="0.55"/>
+<text x="149.0" y="331.3" font-size="12.0" font-family="Consolas,monospace" fill="#7fb2ff" text-anchor="middle">0,0017</text>
+<text x="149.0" y="358.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">la</text>
+<text x="149.0" y="371.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">caja</text>
+<text x="149.0" y="384.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">que</text>
+<text x="149.0" y="397.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">respira</text>
+<rect x="250.00" y="200.06" width="78.00" height="139.94" fill="#7ee0c0" stroke="#7ee0c0" opacity="0.55"/>
+<text x="289.0" y="192.1" font-size="12.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="middle">0,3314</text>
+<text x="289.0" y="358.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">primos</text>
+<text x="289.0" y="371.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">≤</text>
+<text x="289.0" y="384.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">10</text>
+<text x="289.0" y="397.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">(7</text>
+<text x="289.0" y="410.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">términos)</text>
+<rect x="390.00" y="197.97" width="78.00" height="142.03" fill="#7ee0c0" stroke="#7ee0c0" opacity="0.55"/>
+<text x="429.0" y="190.0" font-size="12.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="middle">0,3364</text>
+<text x="429.0" y="358.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">primos</text>
+<text x="429.0" y="371.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">≤</text>
+<text x="429.0" y="384.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">100000</text>
+<rect x="530.00" y="197.97" width="78.00" height="142.03" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.55"/>
+<text x="569.0" y="190.0" font-size="12.0" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="middle">0,3364</text>
+<text x="569.0" y="358.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">los</text>
+<text x="569.0" y="371.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">ceros</text>
+<text x="569.0" y="384.0" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">VERDADEROS</text>
+<line x1="70.00" y1="197.97" x2="650.00" y2="197.97" stroke="#ff9aa8" stroke-width="1.20" stroke-dasharray="5 5"/>
+<text x="78.0" y="190.0" font-size="10.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">el valor de los ceros</text>
+<text x="56.0" y="380.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">la caja acierta el CONTEO exacto y su Σ² es 0,0017: una reja demasiado rígida. Con 7 términos ya está en el valor de los ceros.</text>
+<rect x="700.0" y="96.0" width="664.0" height="300.0" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="714.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">B · LOS PRIMOS SOLOS SE ACERCAN — |nivel − γ| contra cuántos primos se permiten</text>
+<line x1="760.00" y1="330.00" x2="1330.00" y2="330.00" stroke="#1d3a63" stroke-width="1.40"/>
+<line x1="760.00" y1="150.00" x2="760.00" y2="330.00" stroke="#1d3a63" stroke-width="1.40"/>
+<path d="M880.43 163.06 L980.03 196.35 L1085.69 223.92 L1202.78 243.34 L1328.11 255.41" fill="none" stroke="#8fb4d9" stroke-width="1.80" opacity="0.75"/>
+<path d="M880.43 215.25 L980.03 245.94 L1085.69 279.25 L1202.78 300.59 L1328.11 312.88" fill="none" stroke="#7ee0c0" stroke-width="2.60" opacity="1.00"/>
+<circle cx="880.43" cy="215.25" r="4.50" fill="#7ee0c0"/>
+<text x="880.4" y="346.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">7</text>
+<circle cx="980.03" cy="245.94" r="4.50" fill="#7ee0c0"/>
+<text x="980.0" y="346.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">35</text>
+<circle cx="1085.69" cy="279.25" r="4.50" fill="#7ee0c0"/>
+<text x="1085.7" y="346.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">193</text>
+<circle cx="1202.78" cy="300.59" r="4.50" fill="#7ee0c0"/>
+<text x="1202.8" y="346.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">1280</text>
+<circle cx="1328.11" cy="312.88" r="4.50" fill="#7ee0c0"/>
+<text x="1328.1" y="346.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">9700</text>
+<text x="1045.0" y="364.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">términos de Λ(n) usados</text>
+<text x="766.0" y="142.0" font-size="10.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">medio (verde) y peor (gris), en unidades de altura</text>
+<text x="716.0" y="366.0" font-size="11.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">con 9700 términos: |nivel − γ| medio = 0,00777, peor = 0,03379</text>
+<text x="716.0" y="384.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">y el 100% de los 620 niveles cae dentro de un décimo del espaciado medio.</text>
+<rect x="36.0" y="410.0" width="1328.0" height="288.0" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="50.0" y="434.0" font-size="14.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">C · EL SIGNO — medido en nuestros propios ceros, período por período</text>
+<line x1="90.00" y1="470.00" x2="1330.00" y2="470.00" stroke="#1d3a63" stroke-width="1.60"/>
+<text x="78.0" y="474.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="end">0</text>
+<rect x="100.00" y="470.00" width="24.00" height="89.25" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="124.00" y="470.00" width="24.00" height="62.49" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="124.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">2</text>
+<text x="124.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="190.00" y="470.00" width="24.00" height="115.50" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="214.00" y="470.00" width="24.00" height="80.87" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="214.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">3</text>
+<text x="214.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="280.00" y="470.00" width="24.00" height="63.11" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="304.00" y="470.00" width="24.00" height="44.19" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="304.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">4</text>
+<text x="304.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="370.00" y="470.00" width="24.00" height="131.07" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="394.00" y="470.00" width="24.00" height="91.77" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="394.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">5</text>
+<text x="394.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="460.00" y="470.00" width="24.00" height="133.93" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="484.00" y="470.00" width="24.00" height="93.79" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="484.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">7</text>
+<text x="484.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="550.00" y="470.00" width="24.00" height="44.63" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="574.00" y="470.00" width="24.00" height="31.27" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="574.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">8</text>
+<text x="574.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="640.00" y="470.00" width="24.00" height="66.68" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="664.00" y="470.00" width="24.00" height="46.72" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="664.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">9</text>
+<text x="664.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="730.00" y="470.00" width="24.00" height="131.65" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="754.00" y="470.00" width="24.00" height="92.21" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="754.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">11</text>
+<text x="754.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="820.00" y="470.00" width="24.00" height="129.54" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="844.00" y="470.00" width="24.00" height="90.71" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="844.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">13</text>
+<text x="844.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="910.00" y="470.00" width="24.00" height="31.55" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="934.00" y="470.00" width="24.00" height="22.10" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="934.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">16</text>
+<text x="934.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="1000.00" y="470.00" width="24.00" height="125.13" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="1024.00" y="470.00" width="24.00" height="87.62" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="1024.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">17</text>
+<text x="1024.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="1090.00" y="470.00" width="24.00" height="123.01" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="1114.00" y="470.00" width="24.00" height="86.13" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="1114.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">19</text>
+<text x="1114.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<rect x="1180.00" y="470.00" width="24.00" height="119.05" fill="#1d3a63" stroke="#8fb4d9" opacity="0.55"/>
+<rect x="1204.00" y="470.00" width="24.00" height="83.36" fill="#ff9aa8" stroke="#ff9aa8" opacity="0.75"/>
+<text x="1204.0" y="642.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">23</text>
+<text x="1204.0" y="660.0" font-size="9.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">▼</text>
+<text x="106.0" y="456.0" font-size="11.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">barra rosa: coeficiente medido |D(τ)| · barra gris: la predicción |−Λ(n)/(π√n)| · TODAS hacia abajo</text>
+<text x="90.0" y="682.0" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">13 de 13 períodos aritméticos con coeficiente NEGATIVO — el espectro de absorción, leído en los datos, no argumentado</text>
+<text x="90.0" y="702.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">la fórmula de Selberg entra con + en las órbitas; la explícita con − en los primos. No es convención: es una restricción de diseño.</text>
+<rect x="36.0" y="712.0" width="1328.0" height="128.0" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="50.0" y="736.0" font-size="14.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">D · LAS CUATRO CAPAS, SEPARADAS — y la tautología declarada</text>
+<text x="60.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">candidato</text>
+<text x="330.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">conteo</text>
+<text x="470.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">correlaciones</text>
+<text x="660.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">identidad</text>
+<text x="830.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">aritmética</text>
+<text x="1040.0" y="758.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">R6</text>
+<text x="60.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">H = diag(γₙ)</text>
+<text x="330.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">sí</text>
+<text x="470.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">sí</text>
+<text x="660.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">sí</text>
+<text x="830.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">sí</text>
+<text x="1040.0" y="782.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">CIRCULAR</text>
+<text x="60.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">matriz GUE al azar</text>
+<text x="330.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">reescalable</text>
+<text x="470.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">sí</text>
+<text x="660.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">no</text>
+<text x="830.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">NO</text>
+<text x="1040.0" y="798.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">limpio pero vacío</text>
+<text x="60.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">la caja que respira</text>
+<text x="330.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">sí</text>
+<text x="470.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">NO — rígida</text>
+<text x="660.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">no</text>
+<text x="830.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">NO</text>
+<text x="1040.0" y="814.0" font-size="11.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">ESTIPULADA</text>
+<text x="60.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">los primos solos</text>
+<text x="330.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">sí</text>
+<text x="470.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">SÍ</text>
+<text x="660.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">SÍ</text>
+<text x="830.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">tautológica</text>
+<text x="1040.0" y="830.0" font-size="11.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">limpio</text>
+<text x="60.0" y="852.0" font-size="11.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">⚠ el eco de «los primos solos» NO informa: lleva log n en su definición, así que está garantizado. Lo que informa es Σ² y la identidad — y ésas no se pusieron a mano.</text>
+<rect x="36" y="866" width="1328" height="34" rx="8" fill="#0d1830" stroke="#ffd98a" opacity="0.5"/>
+<text x="700.0" y="889.0" font-size="13.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">N_p(T) = θ(T)/π + 1 − (1/π)·Σ_{n=p^k ≤ P} Λ(n)·sin(T·log n)/(√n·log n)      —      ningún γ entra en la definición</text>
+<text x="700.0" y="924.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/eltelar · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

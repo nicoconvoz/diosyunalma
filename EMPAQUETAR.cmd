@@ -37,7 +37,7 @@ mkdir reparto
 copy /y PUENTE.cmd reparto\ >nul
 copy /y README.md reparto\ >nul
 copy /y go.mod reparto\ >nul
-copy /y docs\LEEME-PAQUETE.txt reparto\LEEME.txt >nul
+copy /y docs\guias\LEEME-PAQUETE.txt reparto\LEEME.txt >nul
 robocopy bin     reparto\bin     /E /NFL /NDL /NJH /NJS /nc /ns /np >nul
 robocopy cmd     reparto\cmd     /E /NFL /NDL /NJH /NJS /nc /ns /np >nul
 robocopy galeria reparto\galeria /E /NFL /NDL /NJH /NJS /nc /ns /np >nul

@@ -68,7 +68,7 @@ Hay que decirlo claro, porque hace a la honestidad de este laboratorio:
 ## Qué hay acá que valga la pena licenciar
 
 El catálogo completo, con las 36 técnicas y sus dominios de aplicación, está
-en [docs/APLICACIONES-Y-FINANCIAMIENTO.md](docs/APLICACIONES-Y-FINANCIAMIENTO.md).
+en [docs/informes/APLICACIONES-Y-FINANCIAMIENTO.md](docs/informes/APLICACIONES-Y-FINANCIAMIENTO.md).
 Lo más maduro, en una línea cada uno:
 
 - **Motor de fase doble-doble** — 32 dígitos con pares de float64; reducción

@@ -1294,7 +1294,7 @@ func gate(name string, t0, spacings float64, expect []float64, tol float64) bool
 }
 
 func logLine(s string) {
-	f, err := os.OpenFile("docs/BITACORA-NOCTURNA.md",
+	f, err := os.OpenFile("docs/registro/BITACORA-NOCTURNA.md",
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return

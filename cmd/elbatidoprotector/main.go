@@ -252,7 +252,7 @@ func main() {
 	fmt.Println("\n⚖️ Honesto: una perla base, una ventana (n ≤ 3×10⁵), un parámetro calibrado")
 	fmt.Println("  en las gemelas; la pausa k = 2 no protege y el predictor la yerra 24% —")
 	fmt.Println("  la anchura decreciente de las pausas es la próxima pregunta. El documento")
-	fmt.Println("  para Yui: docs/TEOREMA2-FASE2.md. Todavía no.")
+	fmt.Println("  para Yui: docs/teoremas/TEOREMA2-FASE2.md. Todavía no.")
 
 	escribirLamina(solaN, mejorK, mejorTau, mejorN0, gem, mediana, errs[len(errs)-1])
 }
@@ -288,7 +288,7 @@ func escribirLamina(solaN, mejorK int, mejorTau float64, mejorN0, gem int, media
 <text x="700" y="514" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">¿Podemos predecir qué diferencia angular coloca una pausa exactamente sobre la zona de ruptura? — SÍ: Δθ* = (2k+1)π/n₀</text>
 <text x="700" y="542" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">«FASE 1 descubrió el batido. FASE 2 debía descubrir si podemos predecirlo.» PODEMOS — dentro de los límites declarados</text>
 <text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la teoría cuantitativa de la armonía tiene su primera fórmula predictiva — y la FASE 3 (lema de interacción) espera a la auditora</text>
-<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Una perla base, una ventana, un parámetro — límites a la vista. El documento para Yui: docs/TEOREMA2-FASE2.md</text>
+<text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Una perla base, una ventana, un parámetro — límites a la vista. El documento para Yui: docs/teoremas/TEOREMA2-FASE2.md</text>
 <text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">La teoría le dijo al experimento dónde mirar — y ahí estaba el tesoro que la grilla ciega se había saltado.</text>
 <text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>

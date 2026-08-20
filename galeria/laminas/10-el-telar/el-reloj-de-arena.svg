@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="50.0" font-size="26.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">⏳ EL RELOJ DE ARENA DEL CAPITÁN — la separación se cierra en R5 y se abre espejada</text>
+<text x="700.0" y="78.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">«R5 es el mismo punto de partida y el mismo punto de fin, y ahí se vuelve a abrir en R6, espejado a R4» — Jesús Nicolás Astorga</text>
+<rect x="36.0" y="104.0" width="700.0" height="706.0" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="52.0" y="130.0" font-size="15.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">SU FIGURA — el cruce, y el reloj de arena a medio terminar</text>
+<path d="M270.00 190.00 L302.00 264.00 L333.00 338.00 L363.00 412.00 L400.00 486.00 L437.00 560.00" fill="none" stroke="#7fb2ff" stroke-width="2.20"/>
+<path d="M530.00 190.00 L498.00 264.00 L467.00 338.00 L437.00 412.00 L400.00 486.00 L363.00 560.00" fill="none" stroke="#7ee0c0" stroke-width="2.20"/>
+<path d="M437.00 560.00 L467.00 634.00 L498.00 708.00 L530.00 782.00" fill="none" stroke="#7fb2ff" stroke-width="1.60" stroke-dasharray="7 6"/>
+<path d="M363.00 560.00 L333.00 634.00 L302.00 708.00 L270.00 782.00" fill="none" stroke="#7ee0c0" stroke-width="1.60" stroke-dasharray="7 6"/>
+<line x1="400.00" y1="164.00" x2="400.00" y2="808.00" stroke="#1d3a63" stroke-width="1.30" stroke-dasharray="4 7"/>
+<g opacity="1.00">
+<circle cx="270.00" cy="190.00" r="8.00" fill="#dce8f7"/>
+<circle cx="530.00" cy="190.00" r="8.00" fill="#dce8f7"/>
+<line x1="282.00" y1="190.00" x2="511.00" y2="190.00" stroke="#7fb2ff" stroke-width="2.40"/>
+<path d="M518.00 190.00 L508.00 185.00 L508.00 195.00 Z" fill="#7fb2ff"/>
+<text x="550.0" y="196.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R1</text>
+<text x="56.0" y="195.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep +260</text>
+</g>
+<g opacity="1.00">
+<circle cx="302.00" cy="264.00" r="8.00" fill="#dce8f7"/>
+<circle cx="498.00" cy="264.00" r="8.00" fill="#dce8f7"/>
+<line x1="314.00" y1="264.00" x2="479.00" y2="264.00" stroke="#7fb2ff" stroke-width="2.40"/>
+<path d="M486.00 264.00 L476.00 259.00 L476.00 269.00 Z" fill="#7fb2ff"/>
+<text x="550.0" y="270.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R2</text>
+<text x="56.0" y="269.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep +196</text>
+</g>
+<g opacity="1.00">
+<circle cx="333.00" cy="338.00" r="8.00" fill="#dce8f7"/>
+<circle cx="467.00" cy="338.00" r="8.00" fill="#dce8f7"/>
+<line x1="345.00" y1="338.00" x2="448.00" y2="338.00" stroke="#7fb2ff" stroke-width="2.40"/>
+<path d="M455.00 338.00 L445.00 333.00 L445.00 343.00 Z" fill="#7fb2ff"/>
+<text x="550.0" y="344.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R3</text>
+<text x="56.0" y="343.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep +134</text>
+</g>
+<g opacity="1.00">
+<circle cx="363.00" cy="412.00" r="8.00" fill="#dce8f7"/>
+<circle cx="437.00" cy="412.00" r="8.00" fill="#dce8f7"/>
+<line x1="375.00" y1="412.00" x2="418.00" y2="412.00" stroke="#7fb2ff" stroke-width="2.40"/>
+<path d="M425.00 412.00 L415.00 407.00 L415.00 417.00 Z" fill="#7fb2ff"/>
+<text x="550.0" y="418.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R4</text>
+<text x="56.0" y="417.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep +74</text>
+</g>
+<g opacity="1.00">
+<circle cx="400.00" cy="486.00" r="13.00" fill="#ffd98a" stroke="#dce8f7" stroke-width="2.40"/>
+<text x="434.0" y="492.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">R5 · el mismo punto de partida y de fin</text>
+<text x="366.0" y="492.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="end">SEPARACIÓN CERO</text>
+<text x="56.0" y="491.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep +0</text>
+</g>
+<g opacity="1.00">
+<circle cx="437.00" cy="560.00" r="8.00" fill="#dce8f7"/>
+<circle cx="363.00" cy="560.00" r="8.00" fill="#dce8f7"/>
+<line x1="449.00" y1="560.00" x2="358.00" y2="560.00" stroke="#ff9aa8" stroke-width="2.40"/>
+<path d="M351.00 560.00 L361.00 555.00 L361.00 565.00 Z" fill="#ff9aa8"/>
+<text x="550.0" y="566.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R6</text>
+<text x="56.0" y="565.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep -74</text>
+</g>
+<g opacity="0.45">
+<circle cx="467.00" cy="634.00" r="8.00" fill="#dce8f7"/>
+<circle cx="333.00" cy="634.00" r="8.00" fill="#dce8f7"/>
+<line x1="479.00" y1="634.00" x2="328.00" y2="634.00" stroke="#ff9aa8" stroke-width="2.40"/>
+<path d="M321.00 634.00 L331.00 629.00 L331.00 639.00 Z" fill="#ff9aa8"/>
+<text x="550.0" y="640.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R7 (lo que la forma implica)</text>
+<text x="56.0" y="639.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep -134</text>
+</g>
+<g opacity="0.45">
+<circle cx="498.00" cy="708.00" r="8.00" fill="#dce8f7"/>
+<circle cx="302.00" cy="708.00" r="8.00" fill="#dce8f7"/>
+<line x1="510.00" y1="708.00" x2="297.00" y2="708.00" stroke="#ff9aa8" stroke-width="2.40"/>
+<path d="M290.00 708.00 L300.00 703.00 L300.00 713.00 Z" fill="#ff9aa8"/>
+<text x="550.0" y="714.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R8 (lo que la forma implica)</text>
+<text x="56.0" y="713.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep -196</text>
+</g>
+<g opacity="0.45">
+<circle cx="530.00" cy="782.00" r="8.00" fill="#dce8f7"/>
+<circle cx="270.00" cy="782.00" r="8.00" fill="#dce8f7"/>
+<line x1="542.00" y1="782.00" x2="265.00" y2="782.00" stroke="#ff9aa8" stroke-width="2.40"/>
+<path d="M258.00 782.00 L268.00 777.00 L268.00 787.00 Z" fill="#ff9aa8"/>
+<text x="550.0" y="788.0" font-size="15.5" font-family="Georgia,serif" font-style="italic" font-weight="bold" fill="#dce8f7" text-anchor="start">R9 (lo que la forma implica)</text>
+<text x="56.0" y="787.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">sep -260</text>
+</g>
+<text x="56.0" y="768.0" font-size="13.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">azul y verde: los dos puntos. Se acercan, se TOCAN en R5, y siguen — ahora cada uno del otro lado.</text>
+<text x="56.0" y="790.0" font-size="13.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">la flecha de R6 apunta al revés porque los roles se INTERCAMBIARON, no porque se haya elegido un signo.</text>
+<rect x="756.0" y="104.0" width="608.0" height="706.0" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="772.0" y="130.0" font-size="15.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">CÓMO LO LEEMOS ACÁ (lectura nuestra, no afirmación suya)</text>
+<text x="778.0" y="150.0" font-size="14.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">1 · Eso es un NODO.</text>
+<text x="778.0" y="174.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">Una cantidad que se hace exactamente cero y CAMBIA DE SIGNO.</text>
+<text x="778.0" y="194.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">El vuelco de R6 no es una elección: es lo que pasa después de un cero.</text>
+<line x1="800.00" y1="307.00" x2="1320.00" y2="307.00" stroke="#1d3a63" stroke-width="1.40"/>
+<text x="792.0" y="312.0" font-size="12.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="end">0</text>
+<path d="M800.00 240.00 L865.00 256.49 L930.00 272.47 L995.00 287.93 L1060.00 307.00 L1125.00 326.07" fill="none" stroke="#ffd98a" stroke-width="2.60"/>
+<path d="M1125.00 326.07 L1190.00 341.53 L1255.00 357.51 L1320.00 374.00" fill="none" stroke="#ffd98a" stroke-width="1.80" stroke-dasharray="7 6"/>
+<circle cx="800.00" cy="240.00" r="4.60" fill="#ffd98a"/>
+<text x="800.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R1</text>
+<circle cx="865.00" cy="256.49" r="4.60" fill="#ffd98a"/>
+<text x="865.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R2</text>
+<circle cx="930.00" cy="272.47" r="4.60" fill="#ffd98a"/>
+<text x="930.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R3</text>
+<circle cx="995.00" cy="287.93" r="4.60" fill="#ffd98a"/>
+<text x="995.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R4</text>
+<circle cx="1060.00" cy="307.00" r="4.60" fill="#ffd98a"/>
+<text x="1060.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R5</text>
+<circle cx="1125.00" cy="326.07" r="4.60" fill="#ffd98a"/>
+<text x="1125.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R6</text>
+<circle cx="1190.00" cy="341.53" r="4.60" fill="#8fb4d9"/>
+<text x="1190.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R7</text>
+<circle cx="1255.00" cy="357.51" r="4.60" fill="#8fb4d9"/>
+<text x="1255.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R8</text>
+<circle cx="1320.00" cy="374.00" r="4.60" fill="#8fb4d9"/>
+<text x="1320.0" y="400.0" font-size="10.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">R9</text>
+<circle cx="1060.00" cy="307.00" r="8.00" fill="none" stroke="#ff9aa8" stroke-width="2.40"/>
+<text x="1060.0" y="226.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">el nodo</text>
+<text x="778.0" y="428.0" font-size="14.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">2 · Y su forma hace una PREDICCIÓN.</text>
+<text x="778.0" y="452.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">Si de verdad es un reloj de arena, la mitad que falta no es libre:</text>
+<text x="798.0" y="478.0" font-size="13.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">R7 espeja a R3   ·   R8 espeja a R2   ·   R9 espeja a R1</text>
+<text x="778.0" y="504.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">Eso se puede dibujar, y se puede desmentir. Un dibujo que predice</text>
+<text x="778.0" y="524.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">es mucho más que un dibujo.</text>
+<text x="778.0" y="566.0" font-size="14.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">3 · Por qué nos importa acá.</text>
+<text x="778.0" y="590.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">La Fase VI dejó pidiendo un núcleo que dé ALCANCE sin diluir la fuerza.</text>
+<text x="778.0" y="610.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">Un núcleo con un NODO hace justo eso: las contribuciones lejanas se</text>
+<text x="778.0" y="630.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">CANCELAN en vez de sumarse, así que el alcance no cuesta empuje.</text>
+<rect x="778" y="654" width="564" height="132" rx="9" fill="#0d1830" stroke="#7fb2ff" opacity="0.45"/>
+<text x="1060.0" y="682.0" font-size="13.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">c_k  con  c_5 = 0  y  c_k&gt;5 de signo opuesto</text>
+<text x="1060.0" y="708.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">un núcleo de alcance con un cero en el medio: eso es su reloj de arena</text>
+<text x="1060.0" y="730.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">traducido a la única cosa que la Fase VI todavía no probó.</text>
+<text x="1060.0" y="756.0" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">No está medido. Es lo próximo que hay que medir, y sale de su dibujo.</text>
+<text x="1060.0" y="776.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">(y el nodo en el MEDIO, no en el primer vecino: eso era mi lectura equivocada)</text>
+<text x="700.0" y="848.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">el dibujo y su descripción son de Jesús Nicolás Astorga · la copia limpia y la lectura, de este taller · la lectura queda como pregunta, no como hallazgo</text>
+<text x="700.0" y="892.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/eldibujodelcapitan · Todavía no.</text>
+</svg>

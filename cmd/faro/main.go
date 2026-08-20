@@ -318,7 +318,7 @@ func theMap() string {
 }
 
 func lastLogs() string {
-	data, err := os.ReadFile("docs/BITACORA-NOCTURNA.md")
+	data, err := os.ReadFile("docs/registro/BITACORA-NOCTURNA.md")
 	if err != nil {
 		return `<div class="card">sin bitácora</div>`
 	}

@@ -3,14 +3,14 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 179 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 293 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 194 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 294 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
 ### 🏛️ The theorems hall
 
 The laboratory's sealed results, framed with their plaques at the top of the
-gallery and in the museum's opening hall ([docs/TEOREMAS.md](docs/TEOREMAS.md)):
+gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teoremas/TEOREMAS.md)):
 
 - **Astorga's Theorem** — quantitative finite detection: any off-line quartet
   betrays itself before the explicit step `N₀(r, θ) = ⌈(3/δ)·log(3/δ)⌉ + ⌈2π/θ⌉ + 1`.
@@ -63,8 +63,11 @@ symmetry this laboratory proved, and violates the hypothesis anyway — is
 reproduced here from scratch, with one of its off-line zeros found by blind
 search. It is the clearest evidence that the geometric route is closed.
 
-The full record is in **[docs/FINDINGS.md](docs/FINDINGS.md)**: **348 numbered
-findings** (360 entries counting the lettered sub-findings)
+Every document is filed by family under `docs/` — start at
+**[docs/INDICE.md](docs/INDICE.md)**, which lists all of them in reading order.
+
+The full record is in **[docs/registro/FINDINGS.md](docs/registro/FINDINGS.md)**: **364 numbered
+findings** (376 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -78,22 +81,24 @@ proofs, explicit constants and saved data at every step. Three errors of the
 laboratory's and three of the audit drafts' were caught and corrected, all in
 the open, the breakage theorem's *structure* was signed closed, and the cycle
 produced the laboratory's first named theorem. The cycle then continued
-(findings 307–348) and kept forging: the theorems hall now holds
+(findings 307–364) and kept forging: the theorems hall now holds
 **Astorga's Theorem** (finite detection), **the DYN Theorem** (interaction),
 **the Diosyunalma Theorem** (robustness), **the River of Wells** (derived)
-**the Trinity Theorem** (the Plates Theorem / Leader's Law) and **the Sky
-Theorem** (the height-free limit wave), each with
+**the Trinity Theorem** (the Plates Theorem / Leader's Law) **the Sky
+Theorem** (the height-free limit wave) and **the Midpoint Theorem**
+(the captain's hand-found twin-prime geometry, with the mod-6 center law),
+each with
 audited lemma chains and executable verification runs — see
-[docs/TEOREMAS.md](docs/TEOREMAS.md). The seal rule adopted from that cycle
+[docs/teoremas/TEOREMAS.md](docs/teoremas/TEOREMAS.md). The seal rule adopted from that cycle
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **265 reproducible experiments** under `cmd/`, **179
+The laboratory today: **280 reproducible experiments** under `cmd/`, **194
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[293-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[294-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
-validation (in Spanish) is in **[docs/VALIDACION.md](docs/VALIDACION.md)**.
+validation (in Spanish) is in **[docs/informes/VALIDACION.md](docs/informes/VALIDACION.md)**.
 
 ## Quick start
 
@@ -105,7 +110,7 @@ One command starts everything: a dashboard listing every experiment in `cmd/`,
 grouped by hall, each one launchable with a click, with live output and the
 plate it draws shown inline. The gallery of plates is at
 **[galeria/index.html](https://nicoconvoz.github.io/diosyunalma/galeria/)**; the journey is documented in
-**[docs/RECORRIDO.md](docs/RECORRIDO.md)**.
+**[docs/guias/RECORRIDO.md](docs/guias/RECORRIDO.md)**.
 
 ```bash
 go test ./...        # 176 tests across 6 packages, all green

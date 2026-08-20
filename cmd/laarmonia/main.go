@@ -1,369 +1,235 @@
-// Command laarmonia makes the symmetry audible, which is the captain's order:
-// "necesitamos oir la armonia de la simetria... es una simetria armonica".
-//
-// IT IS ONE, AND THE SOUND IS NOT A METAPHOR.
-//
-// A root at rho becomes w = r e^{i phi} on the disk, and its mirror partner
-// 1 - rho becomes exactly 1/w = (1/r) e^{-i phi}. Li's price reads them over the
-// harmonics n as w^n and w^-n, which is to say:
-//
-//	SAME FREQUENCY phi.  ENVELOPES r^n AND r^-n.
-//
-// So a mirror pair is literally two voices singing the same note. What tells
-// them apart is not pitch - it is whether they hold. On the critical line r = 1
-// exactly, both envelopes are flat and the pair holds forever: a unison that
-// never drifts. Off the line one voice swells like r^n and its mirror dies like
-// r^-n. The chord tears itself apart.
-//
-// And the pair's contribution to the price is
-//
-//	4 - 2 (r^n + r^-n) cos(n phi)
-//
-// where r^n + r^-n >= 2 always, with equality only at r = 1 - the inequality of
-// means, which is Finding 229. THE MINIMUM OF THE PRICE IS THE UNISON. That is
-// what "harmonic symmetry" means here, and this program plays it.
-//
-// HONEST ABOUT THE RENDERING: which audible pitch each pearl gets is a choice
-// (proportional to its height, so deeper pearls sing higher). The ENVELOPE is
-// not a choice - r^n is the mathematics, and it is the only thing the ear needs
-// to judge.
 package main
 
+// La Armonia - the captain's flash: take ONLY the primes below 100 and ONLY the
+// Riemann zeros below 100, project a harmony between them, and let the bat
+// search for the hidden relation. Small on purpose: if the alignment already
+// shows at this tiny proportion, it scales.
+//
+// Both directions are flown:
+//   zeros sing, primes listen:  E(T) = (2/M) sum_n cos(gamma_n T) at T = m log p
+//   primes sing, zeros listen:  P(t) = sum_p (log p/sqrt p) cos(t log p) at t = gamma_n
+// Controls: random periods / random points, 2000 resamples each.
+
 import (
-	"encoding/binary"
 	"fmt"
 	"math"
-	"math/cmplx"
-	"os"
-	"strings"
+	"sort"
 )
 
-const (
-	sr    = 44100
-	bits  = 16
-	maxAm = 28000.0
-)
-
-func zetaC(s complex128) complex128 {
-	N := int(60 + 1.8*math.Abs(imag(s)))
-	var sum complex128
-	for n := 1; n < N; n++ {
-		sum += cmplx.Exp(-s * cmplx.Log(complex(float64(n), 0)))
-	}
-	lnN := cmplx.Log(complex(float64(N), 0))
-	sum += cmplx.Exp((1-s)*lnN)/(s-1) + cmplx.Exp(-s*lnN)/2
-	B := []float64{1.0 / 6, -1.0 / 30, 1.0 / 42, -1.0 / 30, 5.0 / 66}
-	fact := []float64{2, 24, 720, 40320, 3628800}
-	poch := s
-	for k := 1; k <= 5; k++ {
-		if k > 1 {
-			poch *= (s + complex(float64(2*k-3), 0)) * (s + complex(float64(2*k-2), 0))
-		}
-		sum += complex(B[k-1]/fact[k-1], 0) * poch * cmplx.Exp((-s-complex(float64(2*k-1), 0))*lnN)
-	}
-	return sum
+var ceros = []float64{
+	14.134725, 21.022040, 25.010858, 30.424876, 32.935062,
+	37.586178, 40.918719, 43.327073, 48.005151, 49.773832,
+	52.970321, 56.446248, 59.347044, 60.831779, 65.112544,
+	67.079811, 69.546402, 72.067158, 75.704691, 77.144840,
+	79.337375, 82.910381, 84.735493, 87.425275, 88.809111,
+	92.491899, 94.651344, 95.870634, 98.831194,
 }
 
-func theta(t float64) float64 {
-	t2 := t * t
-	return t/2*math.Log(t/(2*math.Pi)) - t/2 - math.Pi/8 + 1/(48*t) + 7/(5760*t*t2) + 31/(80640*t*t2*t2)
+var primosCien = []int{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47,
+	53, 59, 61, 67, 71, 73, 79, 83, 89, 97}
+
+type dado struct{ s uint64 }
+
+func (d *dado) u() float64 {
+	d.s ^= d.s << 13
+	d.s ^= d.s >> 7
+	d.s ^= d.s << 17
+	return float64(d.s>>11) / float64(uint64(1)<<53)
 }
 
-func zOf(t float64) float64 {
-	return real(cmplx.Exp(complex(0, theta(t))) * zetaC(complex(0.5, t)))
+func media(v []float64) float64 {
+	s := 0.0
+	for _, x := range v {
+		s += x
+	}
+	return s / float64(len(v))
 }
 
-func perlas(hasta float64) []float64 {
-	var ps []float64
-	prevT, prevZ := 12.0, zOf(12.0)
-	for t := 12.05; t <= hasta; t += 0.05 {
-		z := zOf(t)
-		if z*prevZ < 0 {
-			a, c := prevT, t
-			for i := 0; i < 55; i++ {
-				m := (a + c) / 2
-				if zOf(m)*prevZ < 0 {
-					c = m
-				} else {
-					a = m
-				}
-			}
-			ps = append(ps, (a+c)/2)
-		}
-		prevT, prevZ = t, z
+func desvio(v []float64) float64 {
+	m := media(v)
+	s := 0.0
+	for _, x := range v {
+		s += (x - m) * (x - m)
 	}
-	return ps
+	return math.Sqrt(s / float64(len(v)-1))
 }
 
-func w(ρ complex128) complex128 { return 1 - 1/ρ }
-
-// vozDelPar renders one mirror pair into the buffer: two voices at the SAME
-// pitch, with envelopes r^n and r^-n as the harmonic index n walks the segment.
-func vozDelPar(buf []float64, desde, largo int, hz, r float64, nMax float64) {
-	for i := 0; i < largo && desde+i < len(buf); i++ {
-		u := float64(i) / float64(largo) // 0..1 a lo largo del tramo
-		n := u * nMax                    // el indice armonico, mapeado al tiempo
-		crece := math.Pow(r, n)
-		muere := math.Pow(r, -n)
-		// suavizado en los bordes para que no chasquee
-		env := math.Min(1, math.Min(u*12, (1-u)*12))
-		t := float64(i) / sr
-		buf[desde+i] += env * (crece*math.Sin(2*math.Pi*hz*t) +
-			muere*math.Sin(2*math.Pi*hz*t+math.Pi/2))
+// eco is the bat over the zeros: E(T) = (2/M) sum cos(gamma_n T).
+func eco(zs []float64, T float64) float64 {
+	s := 0.0
+	for _, g := range zs {
+		s += math.Cos(g * T)
 	}
+	return 2 * s / float64(len(zs))
 }
 
-func escribirWav(ruta string, buf []float64) error {
-	// normalizar sin recortar
-	pico := 0.0
-	for _, v := range buf {
-		if a := math.Abs(v); a > pico {
-			pico = a
-		}
+// canto is the bat over the primes: P(t) = sum (log p/sqrt p) cos(t log p),
+// normalised by the total weight so it is comparable across prime sets.
+func canto(ps []int, t float64) float64 {
+	s, w := 0.0, 0.0
+	for _, p := range ps {
+		lp := math.Log(float64(p))
+		wp := lp / math.Sqrt(float64(p))
+		s += wp * math.Cos(t*lp)
+		w += wp
 	}
-	if pico == 0 {
-		pico = 1
+	return s / w
+}
+
+func zscore(vals []float64, base func() float64, n int) (float64, float64, float64) {
+	var res []float64
+	for r := 0; r < n; r++ {
+		res = append(res, base())
 	}
-	f, err := os.Create(ruta)
-	if err != nil {
-		return err
-	}
-	defer f.Close()
-	n := len(buf)
-	datos := n * bits / 8
-	f.WriteString("RIFF")
-	binary.Write(f, binary.LittleEndian, uint32(36+datos))
-	f.WriteString("WAVEfmt ")
-	binary.Write(f, binary.LittleEndian, uint32(16))
-	binary.Write(f, binary.LittleEndian, uint16(1))
-	binary.Write(f, binary.LittleEndian, uint16(1))
-	binary.Write(f, binary.LittleEndian, uint32(sr))
-	binary.Write(f, binary.LittleEndian, uint32(sr*bits/8))
-	binary.Write(f, binary.LittleEndian, uint16(bits/8))
-	binary.Write(f, binary.LittleEndian, uint16(bits))
-	f.WriteString("data")
-	binary.Write(f, binary.LittleEndian, uint32(datos))
-	for _, v := range buf {
-		binary.Write(f, binary.LittleEndian, int16(v/pico*maxAm))
-	}
-	return nil
+	mb, sb := media(res), desvio(res)
+	return (media(vals) - mb) / math.Max(sb, 1e-12), mb, sb
 }
 
 func main() {
-	fmt.Println("🎼 LA ARMONÍA DE LA SIMETRÍA — y es armónica de verdad")
-	fmt.Println("\n   flash del capitán: «necesitamos oír la armonía de la simetría… es una")
-	fmt.Println("   simetría armónica».")
-	fmt.Println("\n   TIENE NOMBRE Y TIENE CUENTA. Un cero y su espejo cantan LA MISMA NOTA;")
-	fmt.Println("   lo que los separa no es el tono, es si se sostienen.")
+	fmt.Println("🦇🎼 LA ARMONÍA — primos < 100 contra ceros < 100, cara a cara")
+	fmt.Printf("     %d ceros · %d primos · el murciélago vuela en las DOS direcciones\n",
+		len(ceros), len(primosCien))
+	fmt.Println("     predicción declarada: la fórmula explícita dice que el eco en T = m·log p")
+	fmt.Println("     debe ser NEGATIVO (absorción, F350: 13 de 13) con volumen log p·p^(−m/2).")
 
-	fmt.Println("\npescando perlas hasta t=200…")
-	ps := perlas(200)
-	fmt.Printf("perlas: %d\n", len(ps))
+	d := &dado{s: 20260819}
 
-	// ---- LEY 1 ----
-	fmt.Println("\nLEY 1 · EL ESPEJO DA LA MISMA NOTA")
-	fmt.Println("   Un cero ρ va al disco como w = r·e^{iφ}. Su espejo 1−ρ va exactamente a 1/w.")
-	fmt.Println("   Y arg(1/w) = −arg(w): MISMA frecuencia, sentido opuesto. Medido:")
-	fmt.Println("\n        γ            φ del cero        φ del espejo       |suma|")
-	peorPar := 0.0
-	for _, i := range []int{0, 1, 4, 9} {
-		g := ps[i]
-		w1 := w(complex(0.5, g))
-		w2 := w(1 - complex(0.5, g))
-		f1, f2 := cmplx.Phase(w1), cmplx.Phase(w2)
-		if d := math.Abs(f1 + f2); d > peorPar {
-			peorPar = d
-		}
-		fmt.Printf("   %11.6f   %14.9f   %14.9f   %.1e\n", g, f1, f2, math.Abs(f1+f2))
-	}
-	fmt.Printf("   → las frecuencias son opuestas exactas (%.1e). Al oído: UNÍSONO.\n", peorPar)
-
-	// ---- LEY 2 ----
-	fmt.Println("\nLEY 2 · ⚡ LO QUE CAMBIA ES LA ENVOLVENTE, NO EL TONO")
-	fmt.Println("   El precio lee el par a lo largo de los armónicos n como wⁿ y w⁻ⁿ, o sea")
-	fmt.Println("   como dos voces con envolventes rⁿ y r⁻ⁿ. Sobre la línea r = 1 EXACTO:")
-	fmt.Println("\n        γ              r = |w|              r − 1")
-	peorR := 0.0
-	for _, i := range []int{0, 1, 4, 9, len(ps) - 1} {
-		g := ps[i]
-		r := cmplx.Abs(w(complex(0.5, g)))
-		if d := math.Abs(r - 1); d > peorR {
-			peorR = d
-		}
-		fmt.Printf("   %11.6f   %18.15f   %.1e\n", g, r, math.Abs(r-1))
-	}
-	fmt.Printf("   → las %d perlas tienen r = 1 a %.1e. Las dos voces NO se mueven: se sostienen.\n", len(ps), peorR)
-	fmt.Println("\n   📌 Y ACÁ LA ETIQUETA, QUE SI NO CAIGO EN LA TRAMPA DE SIEMPRE: ese r = 1")
-	fmt.Println("   NO ES UNA MEDICIÓN DE QUE LOS CEROS ESTÉN EN LA LÍNEA. Yo armé cada punto")
-	fmt.Println("   como complex(0.5, γ) — el 0.5 lo tipeé yo. Lo que dice esta columna es que")
-	fmt.Println("   el cambiaformas manda la línea a la piel, que es un teorema, no un hallazgo.")
-	fmt.Println("   Lo que SÍ es medición honesta es la altura γ de cada perla (esa la pescamos")
-	fmt.Println("   por cambios de signo de Z) y todo lo del impostor, que no supone nada.")
-	fmt.Println("\n   Y el impostor de F229 (a = 0.7+3i), para comparar:")
-	imp := complex(0.7, 3.0)
-	rImp := cmplx.Abs(w(imp))
-	rEsp := cmplx.Abs(w(1 - imp))
-	fmt.Printf("        r del cero    = %.9f  → en n = 200 la voz vale %.4g\n", rImp, math.Pow(rImp, 200))
-	fmt.Printf("        r del espejo  = %.9f  → en n = 200 la voz vale %.4g\n", rEsp, math.Pow(rEsp, 200))
-	fmt.Println("   ⟹ una se muere y la otra se dispara. EL ACORDE SE PARTE.")
-
-	// ---- LEY 3 ----
-	fmt.Println("\nLEY 3 · Y EL PRECIO ES EL DESAFINE, MEDIDO")
-	fmt.Println("   El par entero aporta al precio  4 − 2·(rⁿ + r⁻ⁿ)·cos(nφ).")
-	fmt.Println("   Y rⁿ + r⁻ⁿ ≥ 2 SIEMPRE, con igualdad solo si r = 1 — la desigualdad de las")
-	fmt.Println("   medias, que es F229. Medido en n = 1:")
-	fmt.Println("\n        quién                    r              rⁿ + r⁻ⁿ        de más que 2")
-	for _, c := range []struct {
-		nom string
-		r   float64
-	}{{"perla real γ=14.13", cmplx.Abs(w(complex(0.5, ps[0])))},
-		{"perla real γ=21.02", cmplx.Abs(w(complex(0.5, ps[1])))},
-		{"el impostor 0.7+3i", rImp}} {
-		v := c.r + 1/c.r
-		fmt.Printf("   %-24s %14.9f   %14.9f   %.3e\n", c.nom, c.r, v, v-2)
-	}
-	fmt.Println("\n   ⟹ EL MÍNIMO DEL PRECIO ES EL UNÍSONO. Eso es exactamente lo que quiere decir")
-	fmt.Println("     «simetría armónica»: la línea crítica es donde el acorde afina.")
-
-	// ---- LEY 4: el sonido ----
-	fmt.Println("\nLEY 4 · 🔊 Y AHORA SE OYE")
-	dur := 9
-	sil := 1
-	total := (dur*2 + sil) * sr
-	buf := make([]float64, total)
-
-	// tramo A: la linea, ocho pares espejo
-	fmt.Println("\n   TRAMO 1 (0–9 s) · LA LÍNEA CANTA — ocho perlas reales con su espejo.")
-	nVoces := 8
-	for k := 0; k < nVoces && k < len(ps); k++ {
-		g := ps[k]
-		r := cmplx.Abs(w(complex(0.5, g)))
-		hz := 110.0 * g / ps[0] // el tono es proporcional a la altura de la perla
-		if hz > 1800 {
-			hz = 1800
-		}
-		vozDelPar(buf, 0, dur*sr, hz, r, 200)
-		if k < 3 {
-			fmt.Printf("      γ = %8.4f  →  %7.2f Hz   r = %.15f\n", g, hz, r)
+	// --- direction 1: zeros sing, primes listen ------------------------------
+	fmt.Println("\n§1 · LOS CEROS CANTAN, LOS PRIMOS ESCUCHAN — eco en T = log p")
+	var vals []float64
+	fmt.Printf("     %4s %9s %10s %10s\n", "p", "T=log p", "-E(T)", "log p/√p")
+	for _, p := range primosCien {
+		T := math.Log(float64(p))
+		e := -eco(ceros, T)
+		vals = append(vals, e)
+		if p <= 13 || p >= 89 {
+			fmt.Printf("     %4d %9.4f %10.4f %10.4f\n", p, T, e, T/math.Sqrt(float64(p)))
 		}
 	}
-	fmt.Println("      … y cinco más. Todas con r = 1: el acorde se sostiene sin moverse.")
+	tMin, tMax := math.Log(2.0), math.Log(97.0)
+	z1, mb1, _ := zscore(vals, func() float64 {
+		return -eco(ceros, tMin+(tMax-tMin)*d.u())
+	}, 2000)
+	fmt.Printf("     media de -E en los 25 primos: %.4f · en períodos al azar: %.4f\n", media(vals), mb1)
+	fmt.Printf("     ⟹ los primos suenan a %.2f sigmas del azar (signo predicho: absorción)\n", z1)
 
-	// tramo B: el impostor
-	fmt.Println("\n   TRAMO 2 (10–19 s) · EL IMPOSTOR — el mismo par, con r ≠ 1.")
-	desde := (dur + sil) * sr
-	hzImp := 110.0 * 3.0 / ps[0] * 4.7 // llevado a la misma zona audible
-	vozDelPar(buf, desde, dur*sr, hzImp, rImp, 200)
-	fmt.Printf("      a = 0.7+3i  →  %7.2f Hz   r = %.9f\n", hzImp, rImp)
-	fmt.Println("      Una voz crece y la otra se apaga: se escucha cómo se rompe.")
-
-	if err := escribirWav("armonia-simetria.wav", buf); err != nil {
-		fmt.Println("no pude escribir el sonido:", err)
-	} else {
-		fi, _ := os.Stat("armonia-simetria.wav")
-		fmt.Printf("\n   🔊 sonido escrito: armonia-simetria.wav (%d s, %.0f KB)\n",
-			dur*2+sil, float64(fi.Size())/1024)
-	}
-
-	// ---- LEY 5 ----
-	fmt.Println("\nLEY 5 · ⚖️ QUÉ ES MATEMÁTICA Y QUÉ ES DECISIÓN MÍA")
-	fmt.Println("   Hay que separarlo o el sonido miente:")
-	fmt.Println("\n   ES MATEMÁTICA (no elegí nada):")
-	fmt.Println("     · que el espejo dé la MISMA frecuencia — arg(1/w) = −arg(w), exacto")
-	fmt.Println("     · que sobre la línea r = 1 y las dos voces se sostengan")
-	fmt.Println("     · que fuera de la línea una crezca como rⁿ y la otra muera como r⁻ⁿ")
-	fmt.Println("     · que rⁿ + r⁻ⁿ ≥ 2 con igualdad solo en el unísono")
-	fmt.Println("\n   ES DECISIÓN MÍA (para que se pueda oír):")
-	fmt.Println("     · qué tono audible le toca a cada perla (elegí proporcional a su altura)")
-	fmt.Println("     · cuántos armónicos entran en nueve segundos")
-	fmt.Println("     · el suavizado de los bordes para que no chasquee")
-	fmt.Println("\n   El tono es una convención. LA ENVOLVENTE NO: es la cuenta, y es lo único")
-	fmt.Println("   que el oído necesita para juzgar.")
-
-	// ---- veredicto ----
-	fmt.Println("\n════════ VEREDICTO ════════")
-	fmt.Println("LA SIMETRÍA ES ARMÓNICA, Y EL CAPITÁN LE PUSO EL NOMBRE JUSTO.")
-	fmt.Printf("  · el espejo da la misma nota: arg(w) + arg(1/w) = 0 a %.1e\n", peorPar)
-	fmt.Printf("  · sobre la línea r = 1 en las %d perlas, a %.1e — pero eso es el\n", len(ps), peorR)
-	fmt.Println("    cambiaformas mandando la línea a la piel (teorema), NO una medición de")
-	fmt.Println("    que los ceros estén ahí: el 0.5 lo tipeé yo")
-	fmt.Printf("  · el impostor: r = %.6f y %.6f — en n = 200 una vale %.3g y la otra %.3g\n",
-		rImp, rEsp, math.Pow(rImp, 200), math.Pow(rEsp, 200))
-	fmt.Printf("  · y el precio del par es 4 − 2(rⁿ+r⁻ⁿ)cos(nφ), con rⁿ+r⁻ⁿ ≥ 2\n")
-	fmt.Println("\n⟹ LA LÍNEA CRÍTICA ES DONDE EL ACORDE AFINA. Estar sobre la línea es cantar al")
-	fmt.Println("  unísono; salirse es desafinar, y el precio ES el desafine.")
-	fmt.Println("\n⚖️ PERO NO CONFUNDIR LO LINDO CON LO PROBADO: esto es F229 hecho audible, no un")
-	fmt.Println("  paso nuevo. Oír que el impostor desafina no prueba que ζ afine siempre — para")
-	fmt.Println("  eso habría que oír los INFINITOS armónicos de los INFINITOS ceros, y tenemos")
-	fmt.Println("  un puñado. Es el mismo muro de F259 y F261, ahora con oído en vez de ojo.")
-	fmt.Println("\n¿El premio? Todavía no. Pero ahora la simetría se puede escuchar.")
-
-	escribirLamina(ps, peorPar, peorR, rImp, rEsp)
-}
-
-func escribirLamina(ps []float64, peorPar, peorR, rImp, rEsp float64) {
-	var b strings.Builder
-	W, H := 1520.0, 980.0
-	fmt.Fprintf(&b, `<svg xmlns="http://www.w3.org/2000/svg" width="%.0f" height="%.0f" viewBox="0 0 %.0f %.0f">
-<rect width="100%%" height="100%%" fill="#0b1526"/>
-<text x="%.0f" y="46" font-size="26" text-anchor="middle" font-family="Georgia" fill="#dce8f7">🎼 LA ARMONÍA DE LA SIMETRÍA — y es armónica de verdad</text>
-<text x="%.0f" y="76" font-size="15" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">un cero y su espejo cantan LA MISMA NOTA · lo que los separa no es el tono, es si se sostienen</text>
-<text x="%.0f" y="116" font-size="20" text-anchor="middle" font-family="monospace" fill="#ffd98a">precio del par = 4 − 2·(rⁿ + r⁻ⁿ)·cos(nφ)     con  rⁿ + r⁻ⁿ ≥ 2</text>
-`, W, H, W, H, W/2, W/2, W/2)
-
-	// las dos envolventes
-	dib := func(x0, y0, an, al float64, r float64, tit, sub, col string) {
-		fmt.Fprintf(&b, `<rect x="%.0f" y="%.0f" width="%.0f" height="%.0f" rx="10" fill="#101f36" stroke="%s" stroke-width="1.6"/>
-<text x="%.0f" y="%.0f" font-size="16" text-anchor="middle" font-family="Georgia" fill="%s">%s</text>
-<text x="%.0f" y="%.0f" font-size="13" text-anchor="middle" font-family="monospace" fill="#8fa8c7">%s</text>`,
-			x0, y0, an, al, col, x0+an/2, y0+30, col, tit, x0+an/2, y0+52, sub)
-		gx, gy, gw, gh := x0+50, y0+72, an-90, al-140
-		mid := gy + gh/2
-		fmt.Fprintf(&b, `<line x1="%.0f" y1="%.1f" x2="%.0f" y2="%.1f" stroke="#8fa8c7" stroke-width="1" stroke-dasharray="4,4"/>`,
-			gx, mid, gx+gw, mid)
-		var p1, p2 strings.Builder
-		N := 200.0
-		esc := 2.4
-		for i := 0; i <= 200; i++ {
-			u := float64(i) / 200
-			n := u * N
-			c := math.Pow(r, n)
-			d := math.Pow(r, -n)
-			cl := math.Max(-1, math.Min(1, math.Log(c)/esc))
-			dl := math.Max(-1, math.Min(1, math.Log(d)/esc))
-			fmt.Fprintf(&p1, "%.2f,%.2f ", gx+gw*u, mid-gh/2*cl)
-			fmt.Fprintf(&p2, "%.2f,%.2f ", gx+gw*u, mid-gh/2*dl)
+	// harmonics m=2,3: the explicit formula also rings at m log p
+	var vh []float64
+	for _, p := range primosCien {
+		for m := 2; m <= 3; m++ {
+			T := float64(m) * math.Log(float64(p))
+			if T <= 2*tMax {
+				vh = append(vh, -eco(ceros, T))
+			}
 		}
-		fmt.Fprintf(&b, `<polyline points="%s" fill="none" stroke="#7ee0c0" stroke-width="2.4"/>
-<polyline points="%s" fill="none" stroke="#ff8fa0" stroke-width="2.4"/>
-<text x="%.0f" y="%.0f" font-size="12" font-family="monospace" fill="#7ee0c0">rⁿ  (el cero)</text>
-<text x="%.0f" y="%.0f" font-size="12" font-family="monospace" fill="#ff8fa0">r⁻ⁿ  (su espejo)</text>
-<text x="%.0f" y="%.0f" font-size="11.5" text-anchor="middle" font-family="monospace" fill="#8fa8c7">n = 1 … 200</text>`,
-			p1.String(), p2.String(), gx+8, gy+16, gx+8, gy+gh-6, gx+gw/2, gy+gh+26)
 	}
-	dib(40, 150, 710, 400, 1.0, "SOBRE LA LÍNEA · r = 1", "las dos voces se sostienen: unísono", "#2f7f63")
-	dib(770, 150, 710, 400, rImp, "EL IMPOSTOR · r ≠ 1", "una crece, la otra se muere: el acorde se parte", "#c0392b")
+	z1h, _, _ := zscore(vh, func() float64 {
+		return -eco(ceros, tMin+(2*tMax-tMin)*d.u())
+	}, 2000)
+	fmt.Printf("     y los ARMÓNICOS m·log p (potencias de primos): %.2f sigmas\n", z1h)
 
-	fmt.Fprintf(&b, `<rect x="40" y="576" width="1440" height="150" rx="10" fill="#0f2b22" stroke="#2f7f63"/>
-<text x="760" y="608" font-size="18" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL MÍNIMO DEL PRECIO ES EL UNÍSONO</text>
-<text x="760" y="642" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">arg(1/w) = −arg(w) exacto (%.0e): el espejo da SIEMPRE la misma nota. Sobre la línea r = 1 en las %d perlas (%.0e).</text>
-<text x="760" y="668" font-size="15.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Y rⁿ + r⁻ⁿ ≥ 2 con igualdad SOLO en r = 1 — la desigualdad de las medias, que es F229.</text>
-<text x="760" y="702" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Estar sobre la línea es cantar al unísono. Salirse es desafinar, y el precio ES el desafine.</text>
-`, peorPar, len(ps), peorR)
-
-	fmt.Fprintf(&b, `<rect x="40" y="742" width="1440" height="196" rx="10" fill="#33221c" stroke="#c0392b"/>
-<text x="760" y="774" font-size="18" text-anchor="middle" font-family="Georgia" fill="#ffb27a">⚖️ QUÉ ES MATEMÁTICA Y QUÉ ES DECISIÓN DE RENDERIZADO</text>
-<text x="70" y="810" font-size="14.5" font-family="Georgia" fill="#9fd8a8">ES LA CUENTA: que el espejo dé la misma frecuencia · que r = 1 sobre la línea · que fuera una crezca como rⁿ y la otra</text>
-<text x="70" y="834" font-size="14.5" font-family="Georgia" fill="#9fd8a8">muera como r⁻ⁿ · que rⁿ + r⁻ⁿ ≥ 2 con igualdad solo en el unísono.</text>
-<text x="70" y="866" font-size="14.5" font-family="Georgia" fill="#ffd98a">ES ELECCIÓN MÍA: qué tono audible le toca a cada perla, cuántos armónicos entran en nueve segundos, el suavizado.</text>
-<text x="760" y="902" font-size="15" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">Y no confundir lo lindo con lo probado: esto es F229 hecho audible, no un paso nuevo. Oír que el impostor desafina</text>
-<text x="760" y="926" font-size="15" text-anchor="middle" font-family="Georgia" fill="#f3d9cf">no prueba que ζ afine siempre — para eso harían falta los INFINITOS armónicos de los INFINITOS ceros.</text>
-</svg>
-`)
-
-	if err := os.WriteFile("armonia-simetria.svg", []byte(b.String()), 0o644); err != nil {
-		fmt.Println("no pude escribir la lámina:", err)
-		return
+	// the 1/2 harmony: correlate -E(log p) with log p / p^(1/2)
+	var xs, ys []float64
+	for i, p := range primosCien {
+		xs = append(xs, math.Log(float64(p))/math.Sqrt(float64(p)))
+		ys = append(ys, vals[i])
 	}
-	fmt.Println("🖼️  lámina escrita: armonia-simetria.svg")
+	mx, my := media(xs), media(ys)
+	num, dx, dy := 0.0, 0.0, 0.0
+	for i := range xs {
+		num += (xs[i] - mx) * (ys[i] - my)
+		dx += (xs[i] - mx) * (xs[i] - mx)
+		dy += (ys[i] - my) * (ys[i] - my)
+	}
+	corr := num / math.Sqrt(dx*dy)
+	// control: correlation with the WRONG laws p^0 and p^-1
+	corrCon := func(expo float64) float64 {
+		var x2 []float64
+		for _, p := range primosCien {
+			x2 = append(x2, math.Log(float64(p))*math.Pow(float64(p), expo))
+		}
+		m2 := media(x2)
+		n2, d2 := 0.0, 0.0
+		for i := range x2 {
+			n2 += (x2[i] - m2) * (ys[i] - my)
+			d2 += (x2[i] - m2) * (x2[i] - m2)
+		}
+		return n2 / math.Sqrt(d2*dy)
+	}
+	fmt.Printf("     LA RELACIÓN 1/2: correlación de -E(log p) con log p·p^(−1/2): %.3f\n", corr)
+	fmt.Printf("       contra las leyes equivocadas: p^0 da %.3f · p^(−1) da %.3f\n",
+		corrCon(0), corrCon(-1))
+
+	// --- direction 2: primes sing, zeros listen ------------------------------
+	fmt.Println("\n§2 · LOS PRIMOS CANTAN, LOS CEROS ESCUCHAN — P(t) evaluada en t = γₙ")
+	var vz []float64
+	for _, g := range ceros {
+		vz = append(vz, canto(primosCien, g))
+	}
+	z2, mb2, _ := zscore(vz, func() float64 {
+		return canto(primosCien, 10+90*d.u())
+	}, 2000)
+	fmt.Printf("     media de P en los 29 ceros: %.4f · en puntos al azar: %.4f\n", media(vz), mb2)
+	fmt.Printf("     ⟹ los ceros suenan a %.2f sigmas del azar en el canto de los primos\n", z2)
+	neg := 0
+	for _, v := range vz {
+		if v < 0 {
+			neg++
+		}
+	}
+	fmt.Printf("     y el SIGNO: %d de %d ceros escuchan canto NEGATIVO (absorción)\n", neg, len(vz))
+
+	// --- scaling: does the alignment strengthen with more zeros? -------------
+	fmt.Println("\n§3 · LA ESCALA — ¿la alineación crece con la proporción? (la apuesta del flash)")
+	fmt.Printf("     %8s %10s\n", "ceros", "eco (σ)")
+	for _, M := range []int{5, 10, 15, 20, 29} {
+		zs := ceros[:M]
+		var vm []float64
+		for _, p := range primosCien {
+			vm = append(vm, -eco(zs, math.Log(float64(p))))
+		}
+		zM, _, _ := zscore(vm, func() float64 {
+			return -eco(zs, tMin+(tMax-tMin)*d.u())
+		}, 1000)
+		fmt.Printf("     %8d %10.2f\n", M, zM)
+	}
+
+	// --- the bat free-flight: where are the TOP peaks of |E|? ----------------
+	fmt.Println("\n§4 · VUELO LIBRE — los 8 picos más fuertes de |E(T)|, sin decirle dónde mirar")
+	type pico struct{ T, v float64 }
+	var ps []pico
+	prev, prev2 := 0.0, 0.0
+	for T := 0.55; T <= 5.0; T += 0.0005 {
+		v := math.Abs(eco(ceros, T))
+		if prev > prev2 && prev > v && prev > 0.3 {
+			ps = append(ps, pico{T - 0.0005, prev})
+		}
+		prev2, prev = prev, v
+	}
+	sort.Slice(ps, func(a, b int) bool { return ps[a].v > ps[b].v })
+	if len(ps) > 8 {
+		ps = ps[:8]
+	}
+	for _, pk := range ps {
+		// nearest m log p with p prime, m<=4
+		mejor, quien := 99.0, ""
+		for _, p := range primosCien {
+			for m := 1; m <= 4; m++ {
+				d := math.Abs(pk.T - float64(m)*math.Log(float64(p)))
+				if d < mejor {
+					mejor, quien = d, fmt.Sprintf("%d·log %d", m, p)
+				}
+			}
+		}
+		marca := "  ← ¿?"
+		if mejor < 0.01 {
+			marca = "  ← " + quien
+		}
+		fmt.Printf("     T = %.4f  |E| = %.3f  (a %.4f de %s)%s\n", pk.T, pk.v, mejor, quien, marca)
+	}
+	fmt.Println("\n     nada de esto usa construcción nuestra: son los ceros y los primos, crudos.")
+
+	correr2()
+
+	correr3()
 }

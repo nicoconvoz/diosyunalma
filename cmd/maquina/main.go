@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -271,6 +272,7 @@ func main() {
 <text x="%.0f" y="888" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#8fa8c7">Laboratorio Diosyunalma · 2026-08-06 · las dos mitades, 1 completo</text>`,
 		790.0, 790.0, 790.0, 790.0, 790.0, 790.0)
 	b.WriteString(`</svg>`)
-	os.WriteFile("taller-maquinas.svg", []byte(b.String()), 0644)
-	fmt.Println("\nescrita: taller-maquinas.svg")
+	destino := filepath.Join("galeria", "laminas", "03-atomo", "taller-maquinas.svg")
+	os.WriteFile(destino, []byte(b.String()), 0644)
+	fmt.Println("\nescrita: " + destino)
 }

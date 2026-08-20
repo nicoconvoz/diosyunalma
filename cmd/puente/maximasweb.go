@@ -82,7 +82,7 @@ func escribirMaximasWeb(destino string) error {
 <nav>
   <a href="index.html">🖼️ La Galería</a>
   <a href="museo.html">🏛️ El Museo</a>
-  <a href="../docs/BITACORA-NOCTURNA.md">📖 La Bitácora</a>
+  <a href="../docs/registro/BITACORA-NOCTURNA.md">📖 La Bitácora</a>
 </nav>
 <main>
   <div class="grid">` + b.String() + `

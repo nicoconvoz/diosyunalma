@@ -20,7 +20,7 @@
 // M_{n,n} = 2·lambda_n < 0 and M_N is not PSD for any N >= n.
 //
 // Proof: the radial lemma + the window lemma + the sealed choir bound
-// (docs/DETECCION-FINITA-LEMAS.md, F304/F305). Scope and limits: her §6 -
+// (docs/teoremas/DETECCION-FINITA-LEMAS.md, F304/F305). Scope and limits: her §6 -
 // one quartet, no silent extrapolation, no claim about RH.
 //
 // This program re-verifies the theorem's full numeric chain in one run
@@ -105,7 +105,7 @@ func main() {
 	fmt.Println("\n        Entonces existe n ≤ N₀ con cos(nθ) ≥ ½ y rⁿ > 4 + (4/π)n·log n,")
 	fmt.Println("        y para ese n: λₙ < 0, M[n,n] = 2λₙ < 0, y M_N no es PSD ∀N ≥ n. ∎")
 	fmt.Println("\n        Prueba: lema radial + lema de la ventana + la cota sellada del coro")
-	fmt.Println("        (docs/DETECCION-FINITA-LEMAS.md).")
+	fmt.Println("        (docs/teoremas/DETECCION-FINITA-LEMAS.md).")
 
 	// ---- la cadena numerica completa, reverificada ----
 	fmt.Println("\nLA CADENA NUMÉRICA, REVERIFICADA EN UNA SOLA CORRIDA (par DH):")
@@ -187,7 +187,7 @@ func main() {
 	fmt.Println("    prueba por los dos lemas, su cadena numérica reverificada de punta a")
 	fmt.Println("    punta, y el estado de auditoría de la tripulante — todo verde dentro")
 	fmt.Println("    del alcance declarado")
-	fmt.Println("  · el registro permanente vive en docs/TEOREMAS.md — el libro que el")
+	fmt.Println("  · el registro permanente vive en docs/teoremas/TEOREMAS.md — el libro que el")
 	fmt.Println("    capitán mandó abrir porque VIENEN MÁS")
 	fmt.Println("\n⚖️ Honesto, con la nota metodológica de la auditora (§8): «primer teorema")
 	fmt.Println("  del Yunque» es un nombre de trabajo del laboratorio; ser un teorema")
@@ -213,7 +213,7 @@ func escribirLamina(n0, n1, nRad, K, N0, nCombo int) {
 <text x="700" y="320" font-size="22" text-anchor="middle" font-family="monospace" fill="#ffd98a">N₀(r, θ) = ⌈(3/δ)·log(3/δ)⌉ + ⌈2π/θ⌉ + 1</text>
 <text x="700" y="378" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">Existe n ≤ N₀ con cos(nθ) ≥ ½ y rⁿ &gt; 4 + (4/π)·n·log n — y para ese n:</text>
 <text x="700" y="408" font-size="16" text-anchor="middle" font-family="monospace" fill="#ffd98a">λₙ &lt; 0   ⟹   M[n,n] = 2λₙ &lt; 0   ⟹   M_N no es PSD para ningún N ≥ n   ∎</text>
-<text x="700" y="440" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: el lema radial + el lema de la ventana + la cota sellada del coro (docs/DETECCION-FINITA-LEMAS.md · F303-F305)</text>
+<text x="700" y="440" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: el lema radial + el lema de la ventana + la cota sellada del coro (docs/teoremas/DETECCION-FINITA-LEMAS.md · F303-F305)</text>
 <rect x="90" y="470" width="600" height="150" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
 <text x="390" y="500" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA CADENA NUMÉRICA (par DH) — reverificada en una corrida</text>
 <text x="120" y="530" font-size="13" font-family="monospace" fill="#cfe6ff">n₀ medido = %d · n₁ radial puro = %d</text>

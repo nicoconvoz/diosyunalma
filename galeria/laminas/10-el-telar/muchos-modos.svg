@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="50.0" font-size="25.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🔥🌊 MUCHOS MODOS — el rango compra ALCANCE, y el óptimo se corre con la distancia</text>
+<text x="700.0" y="76.0" font-size="13.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">520 modos de 507 excitaciones · canales = caracteres de Dirichlet · fuerza total FIJA para todo K (el control de la auditora)</text>
+<rect x="36.0" y="96.0" width="800.0" height="400.0" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="50.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">A · Σ²(L) CONTRA EL RANGO — tres distancias, tres óptimos distintos</text>
+<line x1="100.00" y1="430.00" x2="800.00" y2="430.00" stroke="#1d3a63" stroke-width="1.40"/>
+<line x1="100.00" y1="150.00" x2="100.00" y2="430.00" stroke="#1d3a63" stroke-width="1.40"/>
+<path d="M100.00 167.61 L223.40 181.31 L295.59 198.04 L346.81 212.39 L418.99 213.23 L491.18 222.06 L542.40 220.53 L593.62 243.22 L686.77 228.17 L800.00 231.14" fill="none" stroke="#7fb2ff" stroke-width="2.60" opacity="1.00"/>
+<circle cx="100.00" cy="167.61" r="3.60" fill="#7fb2ff"/>
+<circle cx="223.40" cy="181.31" r="3.60" fill="#7fb2ff"/>
+<circle cx="295.59" cy="198.04" r="3.60" fill="#7fb2ff"/>
+<circle cx="346.81" cy="212.39" r="3.60" fill="#7fb2ff"/>
+<circle cx="418.99" cy="213.23" r="3.60" fill="#7fb2ff"/>
+<circle cx="491.18" cy="222.06" r="3.60" fill="#7fb2ff"/>
+<circle cx="542.40" cy="220.53" r="3.60" fill="#7fb2ff"/>
+<circle cx="593.62" cy="243.22" r="7.00" fill="#7fb2ff"/>
+<circle cx="686.77" cy="228.17" r="3.60" fill="#7fb2ff"/>
+<circle cx="800.00" cy="231.14" r="3.60" fill="#7fb2ff"/>
+<path d="M100.00 301.96 L223.40 309.69 L295.59 316.58 L346.81 322.83 L418.99 327.91 L491.18 322.52 L542.40 323.37 L593.62 324.36 L686.77 311.34 L800.00 308.79" fill="none" stroke="#ffd98a" stroke-width="2.60" opacity="1.00"/>
+<circle cx="100.00" cy="301.96" r="3.60" fill="#ffd98a"/>
+<circle cx="223.40" cy="309.69" r="3.60" fill="#ffd98a"/>
+<circle cx="295.59" cy="316.58" r="3.60" fill="#ffd98a"/>
+<circle cx="346.81" cy="322.83" r="3.60" fill="#ffd98a"/>
+<circle cx="418.99" cy="327.91" r="7.00" fill="#ffd98a"/>
+<circle cx="491.18" cy="322.52" r="3.60" fill="#ffd98a"/>
+<circle cx="542.40" cy="323.37" r="3.60" fill="#ffd98a"/>
+<circle cx="593.62" cy="324.36" r="3.60" fill="#ffd98a"/>
+<circle cx="686.77" cy="311.34" r="3.60" fill="#ffd98a"/>
+<circle cx="800.00" cy="308.79" r="3.60" fill="#ffd98a"/>
+<text x="100.0" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">1</text>
+<text x="223.4" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">2</text>
+<text x="295.6" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">3</text>
+<text x="346.8" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">4</text>
+<text x="419.0" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">6</text>
+<text x="491.2" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">9</text>
+<text x="542.4" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">12</text>
+<text x="593.6" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">16</text>
+<text x="686.8" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">27</text>
+<text x="800.0" y="448.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">51</text>
+<text x="450.0" y="468.0" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">rango efectivo del acoplamiento</text>
+<line x1="100.00" y1="279.75" x2="800.00" y2="279.75" stroke="#ff9aa8" stroke-width="1.60" stroke-dasharray="6 5"/>
+<text x="108.0" y="271.7" font-size="11.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">sin acoplar: Σ²(10) = 6,4395</text>
+<line x1="100.00" y1="422.15" x2="800.00" y2="422.15" stroke="#7ee0c0" stroke-width="2.00"/>
+<text x="108.0" y="414.2" font-size="11.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">los ceros verdaderos: 0,3364</text>
+<text x="792.0" y="166.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="end">dorado: Σ²(10)   ·   azul: Σ²(20)   ·   punto gordo = el óptimo</text>
+<rect x="852.0" y="96.0" width="512.0" height="400.0" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="866.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">B · EL ÓPTIMO SE CORRE — el hallazgo</text>
+<text x="880.0" y="150.0" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">distancia    mejor rango     Σ² ahí</text>
+<text x="880.0" y="180.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">L = 5             4         2,4497</text>
+<text x="880.0" y="206.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">L = 10            6         4,3752</text>
+<text x="880.0" y="232.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">L = 20           16         8,0049</text>
+<text x="880.0" y="294.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">L=5</text>
+<line x1="932.00" y1="290.00" x2="992.00" y2="290.00" stroke="#7ee0c0" stroke-width="6.00"/>
+<text x="1002.0" y="294.0" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">rango 4</text>
+<text x="880.0" y="350.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">L=10</text>
+<line x1="932.00" y1="346.00" x2="1022.00" y2="346.00" stroke="#7ee0c0" stroke-width="6.00"/>
+<text x="1032.0" y="350.0" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">rango 6</text>
+<text x="880.0" y="406.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">L=20</text>
+<line x1="932.00" y1="402.00" x2="1172.00" y2="402.00" stroke="#7ee0c0" stroke-width="6.00"/>
+<text x="1182.0" y="406.0" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">rango 16</text>
+<text x="880.0" y="480.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">cuanto más lejos se quiere que los</text>
+<text x="880.0" y="500.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">niveles se sientan, más canales</text>
+<text x="880.0" y="520.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">necesita el medio. El rango ES el alcance.</text>
+<rect x="36.0" y="512.0" width="800.0" height="180.0" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="50.0" y="536.0" font-size="14.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">C · EL CONTROL DE LA AUDITORA — acoplado contra independiente, mismos canales</text>
+<line x1="100.00" y1="650.00" x2="800.00" y2="650.00" stroke="#1d3a63" stroke-width="1.40"/>
+<path d="M100.00 613.42 L223.40 615.63 L295.59 617.59 L346.81 619.38 L418.99 620.83 L491.18 619.29 L542.40 619.53 L593.62 619.82 L686.77 616.10 L800.00 615.37" fill="none" stroke="#ffd98a" stroke-width="2.60" opacity="1.00"/>
+<path d="M100.00 613.42 L223.40 615.63 L295.59 619.51 L346.81 623.62 L418.99 619.65 L491.18 616.94 L542.40 603.38 L593.62 608.51 L686.77 613.10 L800.00 579.55" fill="none" stroke="#ff9aa8" stroke-width="2.60" opacity="0.90"/>
+<text x="108.0" y="582.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">dorado: canales ACOPLADOS (cada uno toca a todos los primos)</text>
+<text x="108.0" y="600.0" font-size="11.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">rosa: canales INDEPENDIENTES (cada uno toca una clase, sin cruce)</text>
+<text x="108.0" y="674.0" font-size="12.0" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">al mismo rango: acoplado 5,1946  ·  independiente 10,5680  →  la mejora es de la INTERACCIÓN</text>
+<rect x="852.0" y="512.0" width="512.0" height="180.0" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="866.0" y="536.0" font-size="14.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">D · Y EL TECHO QUE QUEDA</text>
+<text x="880.0" y="566.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">lo mejor a L = 10: 4,3752</text>
+<text x="880.0" y="588.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">sin acoplar: 6,4395</text>
+<text x="880.0" y="610.0" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">los ceros: 0,3364 — todavía 13 veces abajo</text>
+<text x="880.0" y="640.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">y pasado el óptimo EMPEORA: con la fuerza total</text>
+<text x="880.0" y="660.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">fija, demasiados canales dejan a cada uno</text>
+<text x="880.0" y="680.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">demasiado débil y el medio se desordena.</text>
+<rect x="36" y="708" width="1328" height="106" rx="10" fill="#0d1830" stroke="#ffd98a" opacity="0.5"/>
+<text x="700.0" y="736.0" font-size="13.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">H = D + Σ_{a=1..K} g_a |v_a⟩⟨v_a|      con    v_a(p) ∝ Λ(p)/√p · cos(2π·a·ind(p)/K)</text>
+<text x="700.0" y="762.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">R6 LIMPIO: las únicas entradas son Λ(n) y los restos módulo q. Ningún parámetro se tocó mirando los γₙ.</text>
+<text x="700.0" y="784.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">ninguna ley de potencia describe la caída: el mejor ajuste da exponente 0,012 con residuo 0,72 — lo reportamos igual.</text>
+<text x="700.0" y="806.0" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">lo que falta ahora tiene forma: una estructura que dé ALCANCE sin DILUIR la fuerza.</text>
+<text x="700.0" y="856.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">la intuición del fluido es de Jesús Nicolás Astorga · la ruta de fases, de la auditora · las mediciones, de este taller</text>
+<text x="700.0" y="900.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/muchosmodos · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

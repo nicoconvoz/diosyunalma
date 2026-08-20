@@ -571,7 +571,7 @@ func sPred(t0, dt float64) float64 {
 // logLine appends a line to the night log ON DISK immediately, so every
 // landed beach survives any closed panel, killed session or power cut.
 func logLine(s string) {
-	f, err := os.OpenFile("docs/BITACORA-NOCTURNA.md",
+	f, err := os.OpenFile("docs/registro/BITACORA-NOCTURNA.md",
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return
@@ -697,7 +697,7 @@ func mission() {
 		logLine("")
 	}
 	logLine("### Fin de la misión — " + time.Now().Format("2006-01-02 15:04"))
-	fmt.Println("\nMISSION COMPLETE - every beach persisted in docs/BITACORA-NOCTURNA.md")
+	fmt.Println("\nMISSION COMPLETE - every beach persisted in docs/registro/BITACORA-NOCTURNA.md")
 }
 
 func main() {

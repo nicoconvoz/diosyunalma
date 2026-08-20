@@ -7,7 +7,7 @@
 //	n_rad  = ceil(u*log u), u = 3(m+1)/delta_L      [DYN's, unchanged]
 //	n_comp = ceil( log(2(m-1)/cos 1) / (delta_L - delta_2) )   [m>=2; 0 if m=1]
 //
-// via the chain F1-F6 (see docs/PLACAS-BANDA-FINA-ACTA.md):
+// via the chain F1-F6 (see docs/teoremas/PLACAS-BANDA-FINA-ACTA.md):
 // F1 leader bound in band, F2 competitors <= 6 + 2*r_2^n, F3 choir
 // under H4, F4 assembly, F5 competitor domination past n_comp,
 // F6 cos(1)*r_L^n beats the polynomial past n_rad (doubled-bracket

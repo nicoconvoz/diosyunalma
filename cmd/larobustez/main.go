@@ -22,7 +22,7 @@
 // three real quartets + the 38-pearl choir, first triple appointment
 // past n_rad,3, measured -lambda >= Delta(m=3).
 //
-// Universal proof lives in the act (docs/TEOREMA3-ROBUSTEZ-ACTA.md);
+// Universal proof lives in the act (docs/teoremas/TEOREMA3-ROBUSTEZ-ACTA.md);
 // this run is corroborating evidence, never a substitute.
 //
 // Reproduce: go run ./cmd/larobustez

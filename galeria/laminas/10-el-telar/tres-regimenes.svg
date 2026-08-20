@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="950" viewBox="0 0 1400 950">
+<rect width="1400" height="950" fill="#0b1526"/>
+<rect x="14" y="14" width="1372" height="922" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="700.0" y="50.0" font-size="25.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">⚡🌊 TRES REGÍMENES — el mapa (A, B), y una esquina donde la rigidez aparece</text>
+<text x="700.0" y="76.0" font-size="13.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">«podría tener tres modos: voltaje alto, amperaje alto, o una mezcla equilibrada de ambos» — Jesús Nicolás Astorga</text>
+<rect x="36.0" y="96.0" width="700.0" height="470.0" rx="10" fill="#0d1830" stroke="#ffd98a"/>
+<text x="50.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">A · EL MAPA DE FASES — color = α, el exponente con que crece Σ²(L)</text>
+<rect x="130.00" y="466.48" width="124.00" height="73.12" fill="rgb(178,144,167)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="192.0" y="496.5" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,096</text>
+<text x="192.0" y="516.5" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 6,32</text>
+<text x="192.0" y="532.5" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 0,5%</text>
+<rect x="260.00" y="466.48" width="124.00" height="73.12" fill="rgb(181,142,167)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="322.0" y="496.5" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,124</text>
+<text x="322.0" y="516.5" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,69</text>
+<text x="322.0" y="532.5" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 3,1%</text>
+<rect x="390.00" y="466.48" width="124.00" height="73.12" fill="rgb(176,146,168)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="452.0" y="496.5" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,076</text>
+<text x="452.0" y="516.5" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 5,95</text>
+<text x="452.0" y="532.5" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 2,3%</text>
+<rect x="520.00" y="466.48" width="124.00" height="73.12" fill="rgb(169,151,169)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="582.0" y="496.5" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,009</text>
+<text x="582.0" y="516.5" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 7,10</text>
+<text x="582.0" y="532.5" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 3,1%</text>
+<rect x="130.00" y="387.36" width="124.00" height="73.12" fill="rgb(195,133,164)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="192.0" y="417.4" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,254</text>
+<text x="192.0" y="437.4" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,73</text>
+<text x="192.0" y="453.4" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 1,8%</text>
+<rect x="260.00" y="387.36" width="124.00" height="73.12" fill="rgb(162,155,170)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="322.0" y="417.4" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">0,951</text>
+<text x="322.0" y="437.4" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,74</text>
+<text x="322.0" y="453.4" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 6,6%</text>
+<rect x="390.00" y="387.36" width="124.00" height="73.12" fill="rgb(164,154,170)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="452.0" y="417.4" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">0,968</text>
+<text x="452.0" y="437.4" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 5,03</text>
+<text x="452.0" y="453.4" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 5,8%</text>
+<rect x="520.00" y="387.36" width="124.00" height="73.12" fill="rgb(175,146,168)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="582.0" y="417.4" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,067</text>
+<text x="582.0" y="437.4" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 6,49</text>
+<text x="582.0" y="453.4" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 4,2%</text>
+<rect x="130.00" y="308.24" width="124.00" height="73.12" fill="rgb(183,141,166)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="192.0" y="338.2" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,139</text>
+<text x="192.0" y="358.2" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,01</text>
+<text x="192.0" y="374.2" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 3,6%</text>
+<rect x="260.00" y="308.24" width="124.00" height="73.12" fill="rgb(176,146,168)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="322.0" y="338.2" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,074</text>
+<text x="322.0" y="358.2" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,73</text>
+<text x="322.0" y="374.2" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 6,9%</text>
+<rect x="390.00" y="308.24" width="124.00" height="73.12" fill="rgb(206,126,161)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="452.0" y="338.2" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,352</text>
+<text x="452.0" y="358.2" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 9,85</text>
+<text x="452.0" y="374.2" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 7,4%</text>
+<rect x="520.00" y="308.24" width="124.00" height="73.12" fill="rgb(223,115,158)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="582.0" y="338.2" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,508</text>
+<text x="582.0" y="358.2" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 12,29</text>
+<text x="582.0" y="374.2" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 6,2%</text>
+<rect x="130.00" y="229.12" width="124.00" height="73.12" fill="rgb(171,149,169)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="192.0" y="259.1" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,027</text>
+<text x="192.0" y="279.1" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 4,10</text>
+<text x="192.0" y="295.1" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 4,8%</text>
+<rect x="260.00" y="229.12" width="124.00" height="73.12" fill="rgb(229,111,157)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="322.0" y="259.1" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,560</text>
+<text x="322.0" y="279.1" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 14,39</text>
+<text x="322.0" y="295.1" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 8,0%</text>
+<rect x="390.00" y="229.12" width="124.00" height="73.12" fill="rgb(242,102,154)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="452.0" y="259.1" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,681</text>
+<text x="452.0" y="279.1" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 31,08</text>
+<text x="452.0" y="295.1" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 8,8%</text>
+<rect x="520.00" y="229.12" width="124.00" height="73.12" fill="rgb(254,94,152)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="582.0" y="259.1" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,791</text>
+<text x="582.0" y="279.1" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 43,83</text>
+<text x="582.0" y="295.1" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 10,8%</text>
+<rect x="130.00" y="150.00" width="124.00" height="73.12" fill="rgb(207,125,161)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="192.0" y="180.0" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,360</text>
+<text x="192.0" y="200.0" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 5,75</text>
+<text x="192.0" y="216.0" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 5,8%</text>
+<rect x="260.00" y="150.00" width="124.00" height="73.12" fill="rgb(235,107,156)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="322.0" y="180.0" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,619</text>
+<text x="322.0" y="200.0" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 23,16</text>
+<text x="322.0" y="216.0" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 3,4%</text>
+<rect x="390.00" y="150.00" width="124.00" height="73.12" fill="rgb(180,143,167)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="452.0" y="180.0" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">1,112</text>
+<text x="452.0" y="200.0" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 21,46</text>
+<text x="452.0" y="216.0" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 9,1%</text>
+<rect x="520.00" y="150.00" width="124.00" height="73.12" fill="rgb(93,201,185)" stroke="#1d3a63" stroke-width="1.00" opacity="0.92"/>
+<text x="582.0" y="180.0" font-size="15.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">0,313</text>
+<text x="582.0" y="200.0" font-size="10.5" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">Σ²(10) 17,81</text>
+<text x="582.0" y="216.0" font-size="10.0" font-family="Consolas,monospace" fill="#0b1526" text-anchor="middle">pegados 0,0%</text>
+<text x="118.0" y="508.5" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="end">A=0</text>
+<text x="118.0" y="429.4" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="end">A=1</text>
+<text x="118.0" y="350.2" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="end">A=3</text>
+<text x="118.0" y="271.1" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="end">A=10</text>
+<text x="118.0" y="192.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="end">A=30</text>
+<text x="192.0" y="140.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">B=0.5</text>
+<text x="322.0" y="140.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">B=2.0</text>
+<text x="452.0" y="140.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">B=8.0</text>
+<text x="582.0" y="140.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">B=32.0</text>
+<text x="60.0" y="330.0" font-size="12.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">A</text>
+<text x="60.0" y="350.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">el</text>
+<text x="60.0" y="366.0" font-size="11.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">empuje</text>
+<text x="390.0" y="496.5" font-size="12.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">B — el alcance</text>
+<text x="56.0" y="540.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">verde = rígido (α → 0, como los ceros)   ·   rosa = sin rigidez (α ≈ 1, Poisson)</text>
+<rect x="752.0" y="96.0" width="612.0" height="250.0" rx="10" fill="#0d1830" stroke="#7ee0c0"/>
+<text x="766.0" y="120.0" font-size="14.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">B · LA ESQUINA — el tercer régimen del capitán, medido</text>
+<text x="780.0" y="150.0" font-size="14.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">A = 30   y   B = 32   (los dos altos)</text>
+<text x="780.0" y="180.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">α = 0,313        ← todo el resto del mapa está en 0,95…1,79</text>
+<text x="780.0" y="204.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">niveles pegados = 0,00 %   ← cero colisiones</text>
+<text x="780.0" y="228.0" font-size="13.5" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">Σ²(20) = 16,81  MENOR que  Σ²(10) = 17,81</text>
+<text x="780.0" y="258.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">la varianza DEJA DE CRECER con la distancia. Eso es rigidez:</text>
+<text x="780.0" y="278.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">los niveles se acomodan entre sí a lo largo de la escalera.</text>
+<text x="780.0" y="306.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">y no lo consigue ninguna de las dos perillas sola: con A alto</text>
+<text x="780.0" y="324.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">y B chico, α se queda en 1; con B alto y A chico, también.</text>
+<rect x="752.0" y="362.0" width="612.0" height="204.0" rx="10" fill="#0d1830" stroke="#7fb2ff"/>
+<text x="766.0" y="386.0" font-size="14.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">C · LA PRUEBA DECISIVA — misma fuerza total, distinto reparto</text>
+<text x="780.0" y="412.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">si el resultado dependiera SÓLO del total, la hipótesis perdía.</text>
+<text x="780.0" y="440.0" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">fuerza 1,54  (A=0,3  B=32)  →  Σ²(10) = 7,097</text>
+<text x="780.0" y="462.0" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">fuerza 1,82  (A=10   B=0,5) →  Σ²(10) = 4,103</text>
+<text x="780.0" y="490.0" font-size="14.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">razón 1,73×  ⟹  DEPENDE DEL REPARTO</text>
+<text x="780.0" y="520.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">son dos grados de libertad independientes, no uno.</text>
+<text x="780.0" y="542.0" font-size="12.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">la intuición del capitán queda apoyada por la medición.</text>
+<rect x="36.0" y="582.0" width="1328.0" height="150.0" rx="10" fill="#0d1830" stroke="#ff9aa8"/>
+<text x="50.0" y="606.0" font-size="14.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">D · LO QUE CUESTA, Y LO QUE QUEDA</text>
+<text x="60.0" y="626.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">en la esquina rígida Σ²(10) vale 17,81 en valor absoluto — peor que el mejor punto del mapa (A=3, B=0.5, Σ²(10)=4,0127).</text>
+<text x="60.0" y="648.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">Se gana RIGIDEZ y se paga en VARIANZA. No es todavía el espectro de los ceros: es una FASE distinta, que antes no aparecía en ningún mapa.</text>
+<text x="60.0" y="676.0" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">Lo que la Fase VII tiene que preguntar: ¿existe un camino DENTRO de esa esquina que baje la varianza sin perder la rigidez?</text>
+<text x="60.0" y="698.0" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">O sea: el mapa ya no es de un óptimo — es de una FRONTERA DE FASE, y hay que recorrerla.</text>
+<rect x="36" y="748" width="1328" height="70" rx="10" fill="#0d1830" stroke="#ffd98a" opacity="0.5"/>
+<text x="700.0" y="776.0" font-size="13.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">H_ij = A · amp_i · amp_j · exp(−|i−j|/B)      con amp = Λ(p)/√p      ·      la fuerza total es DERIVADA, no el control</text>
+<text x="700.0" y="802.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">R6 LIMPIO: única entrada aritmética Λ(n) · 400 modos · ningún parámetro elegido mirando los γₙ · los ceros se leen al final</text>
+<text x="700.0" y="858.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">la intuición de los tres regímenes es de Jesús Nicolás Astorga · la ruta y los controles, de la auditora · las mediciones, de este taller</text>
+<text x="700.0" y="902.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/tresregimenes · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

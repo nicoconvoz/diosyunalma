@@ -37,6 +37,7 @@ import (
 	"math/cmplx"
 	"math/rand"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -370,6 +371,7 @@ func escribirLamina(nPerlas, citas, citaN int, lamCita float64, n0real, nrad int
 <text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>
 `, nPerlas, r1, r2, delta, citas, nrad, N0, citaN, lamCita, n0real)
-	os.WriteFile("el-mecanismo.svg", []byte(b.String()), 0o644)
-	fmt.Println("\n🖼️  lámina escrita: el-mecanismo.svg")
+	destino := filepath.Join("galeria", "laminas", "01-siete-caras", "el-mecanismo.svg")
+	os.WriteFile(destino, []byte(b.String()), 0o644)
+	fmt.Println("\n🖼️  lámina escrita: " + destino)
 }

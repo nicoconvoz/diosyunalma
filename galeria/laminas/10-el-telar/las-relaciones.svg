@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="760" viewBox="0 0 1180 760">
+<rect width="1180" height="760" fill="#0b1220"/>
+<rect x="14" y="14" width="1152" height="732" rx="16" fill="none" stroke="#ff9aa8" stroke-width="2" opacity="0.55"/>
+<text x="590.0" y="52.0" font-size="22.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🧵🦇 LAS RELACIONES — la aritmética en la distancia, y el riel que la frena</text>
+<text x="590.0" y="78.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">catálogo congelado ANTES de mirar: Λ, μ y λ de Liouville · tres capas: aritmética / pura / permutada · R6 absoluto</text>
+<text x="80.0" y="130.0" font-size="12.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">brazo                           vivos    Σ²(10)    PR/N   dens−   veredicto</text>
+<text x="80.0" y="166.0" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">S0 · todos +1                     187    18.335   0.105   0.000   el control</text>
+<text x="80.0" y="192.0" font-size="12.5" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">B · S_Λ (potencias de primo)       98     3.734   0.291   0.346   banda VACIADA → inadmisible</text>
+<text x="80.0" y="218.0" font-size="12.5" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">B · S_μ (Moebius)                 100     3.226   0.286   0.326   banda VACIADA → inadmisible</text>
+<text x="80.0" y="244.0" font-size="12.5" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">B · S_λ (Liouville)                99     1.527   0.296   0.540   banda VACIADA → inadmisible</text>
+<text x="80.0" y="284.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">El riel de niveles vivos exige ≥ 149 de 187. Las tres reglas aritméticas, con sus densidades</text>
+<text x="80.0" y="304.0" font-size="13.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">naturales (0,33–0,54 de enlaces negativos), dejan 98–100 vivos: miden un recorte, no el medio.</text>
+<text x="80.0" y="338.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">Y a densidad igualada, B ≈ A ≈ C dentro del ruido: la organización aritmética exacta k→S(k)</text>
+<text x="80.0" y="358.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">no aporta nada que su propia permutación no aporte. Es la QUINTA aplicación de la misma hoja.</text>
+<text x="80.0" y="400.0" font-size="13.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">§13 de la auditora — el borde q = 0,05, replicado con 12 semillas:</text>
+<text x="100.0" y="422.0" font-size="12.5" font-family="Consolas,monospace" fill="#7fb2ff" text-anchor="start">vivos 146,8 ± 2,7 · pasa el riel 2 de 12 veces · Σ²(10) = 2,584 ± 0,436</text>
+<text x="100.0" y="442.0" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">⟹ ACCIDENTAL. El brazo del borde no es un punto de trabajo: es una moneda cargada en contra.</text>
+<text x="80.0" y="484.0" font-size="13.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">Lo que queda en pie, y no es poco:</text>
+<text x="100.0" y="506.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· el fenómeno de la Fase X (orden 3× con participación subiendo) vive en q ≤ 0,02 — densidades</text>
+<text x="100.0" y="524.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  CHICAS. Ninguna función aritmética clásica es naturalmente rala a escala 120: para entrar ahí,</text>
+<text x="100.0" y="542.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">  la aritmética necesitaría una dilución declarada de antemano — catálogo nuevo, fase nueva.</text>
+<text x="100.0" y="564.0" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">· el eco no se corrió: la regla lo prohibía sin brazo admisible. No se fuerza la conexión.</text>
+<text x="590.0" y="696.0" font-size="12.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">cerrar una pista falsa también es progreso — la auditora, §20 · el catálogo se congeló antes de mirar y se publica entero</text>
+<text x="590.0" y="720.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/lasrelaciones · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

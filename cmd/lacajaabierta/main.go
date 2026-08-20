@@ -2,7 +2,7 @@
 // ("El proximo trabajo debe ser una derivacion rigurosa de la identidad de
 // la matriz y de su posible estructura de Gram" - §13, six objectives).
 //
-// The written derivation is docs/YUNQUE-DERIVACION.md. This program
+// The written derivation is docs/teoremas/YUNQUE-DERIVACION.md. This program
 // verifies every step of it numerically, one law per step:
 //
 //	LEY 1 (objetivo 1): at every finite symmetric truncation the matrix
@@ -103,7 +103,7 @@ func pieles(gs []float64) []complex128 {
 func main() {
 	fmt.Println("📦 LA CAJA ABIERTA — la derivación que pidió Yui, verificada paso por paso")
 	fmt.Println("\n   Su §13: «no conviene seguir agregando capas antes de abrir esta caja")
-	fmt.Println("   negra». La derivación escrita está en docs/YUNQUE-DERIVACION.md;")
+	fmt.Println("   negra». La derivación escrita está en docs/teoremas/YUNQUE-DERIVACION.md;")
 	fmt.Println("   acá cada paso corre delante de los ojos.")
 
 	ps := perlas(120)
@@ -291,7 +291,7 @@ func escribirLamina(nPerlas int, peor1, peor2 float64, n0 int, lamN0, r2 float64
 	fmt.Fprintf(&b, `<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
 <rect width="100%%" height="100%%" fill="#0b1526"/>
 <text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">📦 LA CAJA ABIERTA — la derivación de Yui, verificada paso por paso</text>
-<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«no conviene seguir agregando capas antes de abrir esta caja negra» — los seis objetivos del §13, respondidos (docs/YUNQUE-DERIVACION.md)</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">«no conviene seguir agregando capas antes de abrir esta caja negra» — los seis objetivos del §13, respondidos (docs/teoremas/YUNQUE-DERIVACION.md)</text>
 <rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
 <text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LOS SEIS OBJETIVOS</text>
 <text x="90" y="180" font-size="13.5" font-family="Georgia" fill="#cfe6ff">1 · la identidad de la matriz — DEMOSTRADA (§1), exacta: %.0e</text>

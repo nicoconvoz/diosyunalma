@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema del Punto Medio — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 8px; font-size:13px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen b { color:var(--gold); }
+  figure { margin:26px 0; text-align:center; }
+  figure img { max-width:100%; border-radius:12px; border:1px solid #1d3a63; }
+  figcaption { color:var(--dim); font-size:13px; margin-top:8px; }
+  table { border-collapse:collapse; margin:18px auto; font-size:14px; }
+  th, td { border:1px solid #26456e; padding:7px 14px; text-align:center; }
+  th { color:var(--gold); background:var(--panel); }
+  .sello { text-align:center; color:var(--dim); font-size:13.5px; margin-top:46px; border-top:1px solid #1d3a63; padding-top:18px; }
+  .sello b { color:var(--gold); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📐 El Teorema del Punto Medio</h1>
+  <p class="sub">Teorema 6 del taller · la geometría de los primos gemelos · encontrado A MANO</p>
+  <p class="quien">Descubrimiento y cálculo manual: <b>Jesús Nicolás Astorga</b> · formalización por anclas y demostraciones: el taller · bautizado por el capitán el 2026-08-19</p>
+</header>
+
+<nav>
+  <a href="index.html">← la galería</a>
+  <a href="#cuento">el cuento</a>
+  <a href="#enunciado">el enunciado</a>
+  <a href="#demo">la demostración en criollo</a>
+  <a href="#general">la forma general</a>
+  <a href="#centro">la ley del centro</a>
+  <a href="#lamina">la lámina</a>
+  <a href="#real">qué lo hace real</a>
+</nav>
+
+<main>
+
+<h2 id="cuento">El cuento — dos hermanos y la puerta del medio</h2>
+<p>El capitán estaba haciendo cuentas con primos — a mano, en papel, sin computadora — y vio algo:
+si tomás el 11 y le sumás uno y lo partís al medio, te da 6. Si tomás el 13, le restás uno y lo
+partís al medio, te da 6 también. <b style="color:var(--gold)">El mismo número.</b> Probó con 17 y
+19: da 9 y 9. Con 29 y 31: da 15 y 15. Siempre que dos primos están separados por 2 — los
+gemelos — comparten ese punto.</p>
+<p>La imagen es la de dos hermanos parados en la vereda, uno en la casa 11 y otro en la casa 13:
+<b>la puerta del medio, la 12, es de los dos</b>. Y lo que el teorema termina diciendo es que esa
+puerta compartida no cae en cualquier lado: todas las puertas de gemelos del barrio están en
+esquinas múltiplo de 6. Sin excepción posible. El barrio de los primos tiene los centros ordenados
+en carriles, y el carril te dice qué clase de pareja vive ahí.</p>
+
+<h2 id="enunciado">El enunciado</h2>
+<div class="math">(p + 1)/2 &nbsp;=&nbsp; (q − 1)/2 &nbsp;&nbsp;⟺&nbsp;&nbsp; q = p + 2</div>
+<p>Para impares p &lt; q. Y el valor compartido c es un entero, con p = 2c−1 y q = 2c+1: los dos
+primos son los dos vecinos impares del doble de c.</p>
+
+<h2 id="demo">La demostración, en criollo</h2>
+<div class="paso"><b class="t">Paso 1 — multiplicar por 2.</b>
+<p>La igualdad (p+1)/2 = (q−1)/2 tiene un ½ de cada lado que molesta. Multiplicá todo por 2 y
+queda p + 1 = q − 1. Pasá el −1 para el otro lado: <b>q = p + 2</b>. Eso es todo el «⟹». Y el
+«⟸» es el mismo camino de vuelta: si q = p + 2, entonces q − 1 = p + 1, y dividiendo por 2 la
+igualdad aparece.</p></div>
+<div class="paso"><b class="t">Paso 2 — ¿por qué da un número entero?</b>
+<p>Porque p es impar: impar más uno es par, y par dividido dos es entero. Lo mismo con q − 1. Sin
+la imparidad, los «medios» quedarían con coma y el punto compartido no sería una puerta de verdad.</p></div>
+<div class="paso"><b class="t">Paso 3 — la honestidad del paso.</b>
+<p>Fijate que en estos dos pasos <b>no usamos que p y q sean primos</b> — solo que son impares. La
+forma base del teorema es una identidad de los impares. Lo que los primos agregan viene después,
+y es la parte más linda: la ley del centro.</p></div>
+
+<h2 id="general">La forma general — las anclas</h2>
+<p>Cada impar p tiene dos <b style="color:var(--green)">anclas</b>: los dos enteros que flanquean
+su mitad, a⁻(p) = (p−1)/2 y a⁺(p) = (p+1)/2. Con esa coordenada, el diccionario entero que el
+capitán dibujó en su lámina se vuelve UNA identidad:</p>
+<div class="math">a⁻(q) − a⁺(p) &nbsp;=&nbsp; g/2 − 1 &nbsp;&nbsp;&nbsp;&nbsp;(g = q − p)</div>
+<table>
+<tr><th>gap g</th><th>diferencia de anclas</th><th>lectura</th></tr>
+<tr><td>2</td><td><b style="color:var(--gold)">0</b></td><td>ancla compartida — la igualdad del capitán</td></tr>
+<tr><td>4</td><td>1</td><td>anclas adyacentes: se tocan sin superponerse</td></tr>
+<tr><td>≥ 6</td><td>g/2 − 1</td><td>hueco de exactamente (g−4)/2 enteros</td></tr>
+</table>
+<p>Y el papel exacto de los ±1/2, que la auditora pidió juzgar: la transformación
+T(n) = (n−1)/2 es la biyección estándar de los impares a los enteros, y
+<b style="color:var(--gold)">divide todo gap por 2</b>. Bajo esa lente los gemelos son exactamente
+los pares que se vuelven enteros consecutivos. Como aritmética, los ±1/2 son paridad; como
+coordenada, son el cambio de vía que compacta la pregunta de los gaps.</p>
+
+<h2 id="centro">La ley del centro — lo que los primos agregan</h2>
+<div class="math">para p, q &gt; 3 primos: &nbsp;&nbsp; 3 | m &nbsp;⟺&nbsp; 6 ∤ g &nbsp;&nbsp;&nbsp;&nbsp;(m = (p+q)/2)</div>
+<div class="paso"><b class="t">La demostración, en criollo (tres líneas de reloj mod 3).</b>
+<p>Un primo mayor que 3 nunca es múltiplo de 3, así que en el reloj de 3 horas p marca 1 o 2.
+Si el gap no es múltiplo de 6, la media distancia r = g/2 tampoco es múltiplo de 3 — y entonces de
+las dos horas posibles de p, una queda prohibida porque mandaría a q a la hora 0 (sería múltiplo de
+3, imposible para un primo). En la única hora que sobrevive, el centro m = p + r cae
+<b>exactamente en la hora 0</b>: múltiplo de 3. Y si el gap SÍ es múltiplo de 6, r marca hora 0 y
+el centro marca la misma hora que p — que nunca es 0. Se cierra solo. ∎</p></div>
+<p>Consecuencia: <b style="color:var(--gold)">los centros de cada clase de gap viven en carriles
+mod 6 separados</b>, con firma periódica en g:</p>
+<table>
+<tr><th>g</th><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td></tr>
+<tr><th>m mod 6</th><td><b style="color:var(--gold)">{0}</b></td><td>{3}</td><td>{2,4}</td><td>{3}</td><td>{0}</td><td>{1,5}</td><td>{0}</td><td>{3}</td><td>{2,4}</td></tr>
+</table>
+<p>Los gemelos viven en la red de los múltiplos de 6, y su ancla compartida c = m/2 es siempre
+múltiplo de 3. La clase del gap se lee en el residuo del centro.</p>
+
+<h2 id="lamina">La lámina</h2>
+<figure>
+  <img src="laminas/10-el-telar/el-punto-medio.svg" loading="lazy" alt="El Teorema del Punto Medio">
+  <figcaption>Las dos vías (arriba los impares con sus primos, abajo la vía de las anclas con los
+  gaps divididos por 2), los gemelos vueltos enteros consecutivos, y la rueda de los centros mod 6.</figcaption>
+</figure>
+<div class="imagen"><b>Reproducir:</b> <code>go run ./cmd/puntomedio</code> — demuestra, verifica
+exhaustivamente y dibuja esta lámina, sin tocar un solo cero de Riemann.</div>
+
+<h2 id="real">Qué lo hace real</h2>
+<div class="real"><b class="t">Verificación exhaustiva, cero fallas.</b>
+<p>La forma base sobre ~25 millones de pares impares ≤ 20 000. La identidad de las anclas sobre
+17 982 pares consecutivos de primos ≤ 200 000. La ley del centro sobre <b>todos</b> los 304 590
+pares de primos en (3, 6000] — no solo consecutivos. La firma mod 6 confirmada en 9 clases de gap
+con 15 296 pares. Cero fallas en todo.</p></div>
+<div class="real"><b class="t">El origen, registrado.</b>
+<p>La relación la encontró el capitán a mano, haciendo cuentas con primos. El taller la formalizó
+después. El orden de los hechos quedó en el acta y en la bitácora, como manda la casa: primero el
+hallazgo, después la lupa.</p></div>
+<div class="honesto"><b>La honestidad, sin anestesia.</b> La forma base es identidad de los
+impares (paridad, no primalidad). La ley del centro es criba módulo 3 clásica: verdadera y
+demostrada, no nueva para el mundo — nueva como organización para este taller, y con ese alcance
+quedó inscripta en el libro. Su proyección espectral más directa (la máscara de gemelos) se probó
+contra controles emparejados a tres escalas y quedó cerrada: la ventaja era la distribución por
+distancia. Y nada de esto afirma la infinitud de los primos gemelos ni nada sobre la Hipótesis de
+Riemann.</div>
+
+<p class="sello">Teorema 6 del libro del taller · acta en <b>docs/atomo/PUNTOMEDIO-FASE13-ACTA.md</b> ·
+la regla del sello preside: <b>estructura cerrada no es hipótesis demostrada — Todavía no.</b></p>
+
+</main>
+</body>
+</html>

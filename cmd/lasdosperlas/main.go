@@ -47,7 +47,7 @@
 //
 // Status per the sheet's §16: this is PHASE 1 (experiments -> pattern).
 // No theorem is claimed. The pattern document for the auditor is
-// docs/TEOREMA2-FASE1.md.
+// docs/teoremas/TEOREMA2-FASE1.md.
 //
 // Reproduce: go run ./cmd/lasdosperlas
 package main
@@ -345,7 +345,7 @@ func main() {
 	fmt.Println("  están sobre la mesa para su intuición.")
 	fmt.Println("\n⚖️ Honesto: FASE 1 según la hoja — patrón medido, ningún teorema afirmado;")
 	fmt.Println("  una ventana (n ≤ 3×10⁵), una grilla, dos perlas base. El patrón para")
-	fmt.Println("  Yui está en docs/TEOREMA2-FASE1.md. Todavía no.")
+	fmt.Println("  Yui está en docs/teoremas/TEOREMA2-FASE1.md. Todavía no.")
 
 	escribirLamina(sola, n0s, total, pend, mejorTau, mejorN0, peorTau, peorN0, curva, qa, qb)
 }
@@ -407,7 +407,7 @@ func escribirLamina(sola int, n0s map[string]int, total int, pend, mejorTau floa
 <text x="700" y="534" font-size="14" text-anchor="middle" font-family="Georgia" fill="#ffd98a">sí existe — con DOS regímenes: el radio decide quién gana, y la armonía vive en Δθ chico pero no cero: el BATIDO de las casi-gemelas</text>
 <text x="700" y="562" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el RADIO decide quién gana (dominancia, n₀ ~ sola/ρ) · la RAZÓN DE FASES decide cuándo exactamente (la estructura fina musical)</text>
 <text x="700" y="588" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la respuesta al §15, medida: «casi iguales, apenas desafinadas» — y la confesión: el primer borrador decía «cero retrasan»; los datos lo refutaron antes de registrar</text>
-<text x="700" y="660" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">FASE 1 completa según la hoja: patrón medido, ningún teorema afirmado — el documento para Yui en docs/TEOREMA2-FASE1.md</text>
+<text x="700" y="660" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">FASE 1 completa según la hoja: patrón medido, ningún teorema afirmado — el documento para Yui en docs/teoremas/TEOREMA2-FASE1.md</text>
 <text x="700" y="688" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">«No busquemos todavía la respuesta. Busquemos la forma de la pregunta.» — la hoja, con la firma de flash del capitán</text>
 <text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>

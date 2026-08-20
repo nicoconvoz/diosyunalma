@@ -91,7 +91,7 @@ func main() {
 	fmt.Println("🏛️ **EL TEOREMA DE DYN, ENMARCADO — pieza número dos:**")
 	fmt.Println("\n  · enunciado bajo H0-H4, prueba por la cadena L1-L6, testigo reverificado")
 	fmt.Println("  · el nombre lleva a los tres que lo forjaron: Doc, Yui, Nico")
-	fmt.Println("  · el libro permanente: docs/TEOREMAS.md")
+	fmt.Println("  · el libro permanente: docs/teoremas/TEOREMAS.md")
 	fmt.Println("\n⚖️ Honesto: Parte A bajo H0-H4; para ζ los inputs B1/B2 son externos y")
 	fmt.Println("  están etiquetados. La regla del sello preside. Nada de esto demuestra")
 	fmt.Println("  RH. Todavía no.")
@@ -113,7 +113,7 @@ func escribirLamina(delta, nrad, N0 float64, citas int) {
 <rect x="230" y="278" width="940" height="66" rx="10" fill="#101f36" stroke="#26456e"/>
 <text x="700" y="320" font-size="21" text-anchor="middle" font-family="monospace" fill="#ffd98a">∃ n ≤ N₀(r_max, m) = n_rad,m + (2π·n_rad,m + 1)^m :  λₙ &lt; 0</text>
 <text x="700" y="378" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">con n_rad,m = ⌈u_m·log u_m⌉, u_m = 3(m+1)/δ — y en ese n: M[n,n] = 2λₙ &lt; 0 ⟹ M_N no es PSD para ningún N ≥ n ∎</text>
-<text x="700" y="410" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: golpe L1-L7 · Dirichlet exacto · lema de agenda · radial-m R0-R10 · coro (4/π)n·log n bajo H4 (acta: docs/TEOREMA2-LEMA-INTERACCION-ACTA.md)</text>
+<text x="700" y="410" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: golpe L1-L7 · Dirichlet exacto · lema de agenda · radial-m R0-R10 · coro (4/π)n·log n bajo H4 (acta: docs/teoremas/TEOREMA2-LEMA-INTERACCION-ACTA.md)</text>
 <rect x="90" y="440" width="600" height="160" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
 <text x="390" y="470" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">EL TESTIGO (m = 2: DH + 0.7+45i) — reverificado</text>
 <text x="120" y="500" font-size="13" font-family="monospace" fill="#cfe6ff">δ = %.3e · n_rad,m = %.0f · N₀ = %.2e</text>

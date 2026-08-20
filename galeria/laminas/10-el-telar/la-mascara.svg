@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+<rect width="1200" height="820" fill="#0b1220"/>
+<rect x="14" y="14" width="1172" height="792" rx="16" fill="none" stroke="#7ee0c0" stroke-width="2" opacity="0.55"/>
+<text x="600.0" y="50.0" font-size="22.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🧵🌌 LA MÁSCARA — la geometría de los gemelos, del papel al operador</text>
+<text x="600.0" y="76.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">la relación (p+1)/2 = (q−1)/2 la encontró Jesús Nicolás Astorga A MANO, haciendo cuentas con primos</text>
+<text x="90.0" y="122.0" font-size="13.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">LAS ANCLAS: a±(p) = (p±1)/2 — y el diccionario entero se vuelve identidad</text>
+<line x1="80.0" y1="150.0" x2="522.0" y2="150.0" stroke="#1d3a63" stroke-width="1.4"/>
+<circle cx="80.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="80.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">4</text>
+<circle cx="114.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="114.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">5</text>
+<circle cx="148.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="148.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">6</text>
+<circle cx="182.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="182.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">7</text>
+<circle cx="216.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="216.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">8</text>
+<circle cx="250.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="250.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">9</text>
+<circle cx="284.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="284.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">10</text>
+<circle cx="318.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="318.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">11</text>
+<circle cx="352.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="352.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">12</text>
+<circle cx="386.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="386.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">13</text>
+<circle cx="420.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="420.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">14</text>
+<circle cx="454.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="454.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">15</text>
+<circle cx="488.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="488.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">16</text>
+<circle cx="522.0" cy="150.0" r="2.2" fill="#1d3a63"/>
+<text x="522.0" y="168.0" font-size="9.5" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">17</text>
+<circle cx="114.0" cy="150.0" r="5.5" fill="#7fb2ff"/>
+<text x="114.0" y="138.0" font-size="10.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="middle">a−(11)</text>
+<circle cx="148.0" cy="150.0" r="5.5" fill="#ffd98a"/>
+<text x="148.0" y="138.0" font-size="10.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">a+(11) = a−(13)</text>
+<circle cx="182.0" cy="150.0" r="5.5" fill="#7fb2ff"/>
+<text x="182.0" y="138.0" font-size="10.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="middle">a+(13)</text>
+<circle cx="216.0" cy="150.0" r="5.5" fill="#ff9aa8"/>
+<text x="216.0" y="184.0" font-size="10.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">a−(17)</text>
+<circle cx="250.0" cy="150.0" r="5.5" fill="#7fb2ff"/>
+<text x="250.0" y="184.0" font-size="10.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="middle">a+(17)</text>
+<text x="90.0" y="212.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">g=2 comparte el ancla (oro) · g=4 anclas vecinas que se tocan · g&gt;4 deja (g−4)/2 enteros de hueco</text>
+<text x="90.0" y="236.0" font-size="12.5" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">VERIFICADO sobre los 9590 pares de primos consecutivos ≤ 100000: 1224/1224 · 1215 · 7151 · CERO fallas</text>
+<text x="90.0" y="258.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">⟹ la igualdad del capitán es un TEOREMA chico y verdadero: identidad aritmética, no coincidencia visual.</text>
+<text x="90.0" y="310.0" font-size="13.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">LA MÁSCARA RALA (regla congelada antes de todo espectro): signo −1 donde |p_i − p_j| = g</text>
+<text x="90.0" y="336.0" font-size="12.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">clase                   enlaces    vivos     Σ²(10)      vs azar   vs permutada</text>
+<text x="90.0" y="358.0" font-size="12.0" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">gemelos g=2                  62      181     15.497       +3,50σ         +0,24σ</text>
+<text x="90.0" y="380.0" font-size="12.0" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">g=4                          66      185     15.491       +0,03σ         +0,80σ</text>
+<text x="90.0" y="402.0" font-size="12.0" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">g=6                         114      185     15.738       +0,06σ         +0,15σ</text>
+<text x="90.0" y="424.0" font-size="12.0" font-family="Consolas,monospace" fill="#dce8f7" text-anchor="start">S0 sin máscara                0      187     18.335</text>
+<text x="90.0" y="458.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">El matiz que la auditora anticipó textualmente: los gemelos le ganan al azar crudo (+3,5σ) pero NO a su</text>
+<text x="90.0" y="478.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">permutada por distancia (+0,24σ). Lo que aporta la máscara es EN QUÉ DISTANCIAS caen los gemelos —</text>
+<text x="90.0" y="498.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">log p casi iguales ⟹ armónicos vecinos, k ∈ [3,80] — y esa distribución, copiada sin aritmética, rinde igual.</text>
+<text x="90.0" y="528.0" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">VEREDICTO: nulo limpio A ESTE TAMAÑO. Con 400 modos la máscara marca 62 de 40740 enlaces (0,15%):</text>
+<text x="90.0" y="548.0" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">existe pero casi no toca al operador. La pregunta no muere: queda «NO DECIDIBLE a N=400» — decidirla</text>
+<text x="90.0" y="568.0" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">pide un medio más grande (más gemelos adentro), no otra regla. El eco no se corrió, por regla.</text>
+<text x="600.0" y="756.0" font-size="12.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">el hallazgo es del capitán, a mano · la formalización por anclas y los controles emparejados, del taller · R6 absoluto</text>
+<text x="600.0" y="780.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/lamascara · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

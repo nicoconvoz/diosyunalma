@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1120" viewBox="0 0 1460 1120">
+<rect width="1460" height="1120" fill="#0b1220"/>
+<rect x="14" y="14" width="1432" height="1092" rx="16" fill="none" stroke="#ffd98a" stroke-width="2" opacity="0.5"/>
+<text x="730.0" y="50.0" font-size="24.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="middle">🔧🧵 LA MECÁNICA DEL MEDIO — once palabras, un solo dial</text>
+<text x="730.0" y="76.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">«¿y si no sólo hay porosidad, sino resistencia, tensión, compresión, cizallamiento, torsión, elasticidad, plasticidad,</text>
+<text x="730.0" y="94.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">dureza, fragilidad, tenacidad y fatiga?» — Jesús Nicolás Astorga</text>
+<rect x="32.0" y="112.0" width="452.0" height="432.0" rx="10" fill="#101b30" stroke="#ffd98a"/>
+<text x="47.0" y="137.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">A · EL COLAPSO — 11 palabras → 4 objetos</text>
+<text x="48.0" y="160.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">La auditora prohibió once perillas. No hubo once:</text>
+<text x="48.0" y="178.5" font-size="12.5" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">U(x) = (s_c·b/π)·(1 − cos(πx/b))</text>
+<text x="48.0" y="196.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">UNA función escalar, leída de cuatro maneras.</text>
+<line x1="52.00" y1="324.00" x2="438.00" y2="324.00" stroke="#1d3a63" stroke-width="1.20"/>
+<path d="M52.00 320.00 L53.61 319.93 L55.22 319.72 L56.83 319.37 L58.43 318.89 L60.04 318.26 L61.65 317.50 L63.26 316.61 L64.87 315.59 L66.47 314.44 L68.08 313.17 L69.69 311.77 L71.30 310.26 L72.91 308.63 L74.52 306.90 L76.12 305.06 L77.73 303.13 L79.34 301.10 L80.95 298.98 L82.56 296.78 L84.17 294.50 L85.78 292.15 L87.38 289.74 L88.99 287.28 L90.60 284.76 L92.21 282.20 L93.82 279.60 L95.42 276.98 L97.03 274.33 L98.64 271.67 L100.25 269.00 L101.86 266.33 L103.47 263.67 L105.08 261.02 L106.68 258.40 L108.29 255.80 L109.90 253.24 L111.51 250.72 L113.12 248.26 L114.72 245.85 L116.33 243.50 L117.94 241.22 L119.55 239.02 L121.16 236.90 L122.77 234.87 L124.38 232.94 L125.98 231.10 L127.59 229.37 L129.20 227.74 L130.81 226.23 L132.42 224.83 L134.03 223.56 L135.63 222.41 L137.24 221.39 L138.85 220.50 L140.46 219.74 L142.07 219.11 L143.68 218.63 L145.28 218.28 L146.89 218.07 L148.50 218.00 L150.11 218.07 L151.72 218.28 L153.32 218.63 L154.93 219.11 L156.54 219.74 L158.15 220.50 L159.76 221.39 L161.37 222.41 L162.97 223.56 L164.58 224.83 L166.19 226.23 L167.80 227.74 L169.41 229.37 L171.02 231.10 L172.62 232.94 L174.23 234.87 L175.84 236.90 L177.45 239.02 L179.06 241.22 L180.67 243.50 L182.28 245.85 L183.88 248.26 L185.49 250.72 L187.10 253.24 L188.71 255.80 L190.32 258.40 L191.92 261.02 L193.53 263.67 L195.14 266.33 L196.75 269.00 L198.36 271.67 L199.97 274.33 L201.58 276.98 L203.18 279.60 L204.79 282.20 L206.40 284.76 L208.01 287.28 L209.62 289.74 L211.22 292.15 L212.83 294.50 L214.44 296.78 L216.05 298.98 L217.66 301.10 L219.27 303.13 L220.88 305.06 L222.48 306.90 L224.09 308.63 L225.70 310.26 L227.31 311.77 L228.92 313.17 L230.53 314.44 L232.13 315.59 L233.74 316.61 L235.35 317.50 L236.96 318.26 L238.57 318.89 L240.17 319.37 L241.78 319.72 L243.39 319.93 L245.00 320.00 L246.61 319.93 L248.22 319.72 L249.82 319.37 L251.43 318.89 L253.04 318.26 L254.65 317.50 L256.26 316.61 L257.87 315.59 L259.48 314.44 L261.08 313.17 L262.69 311.77 L264.30 310.26 L265.91 308.63 L267.52 306.90 L269.12 305.06 L270.73 303.13 L272.34 301.10 L273.95 298.98 L275.56 296.78 L277.17 294.50 L278.77 292.15 L280.38 289.74 L281.99 287.28 L283.60 284.76 L285.21 282.20 L286.82 279.60 L288.43 276.98 L290.03 274.33 L291.64 271.67 L293.25 269.00 L294.86 266.33 L296.47 263.67 L298.07 261.02 L299.68 258.40 L301.29 255.80 L302.90 253.24 L304.51 250.72 L306.12 248.26 L307.73 245.85 L309.33 243.50 L310.94 241.22 L312.55 239.02 L314.16 236.90 L315.77 234.87 L317.38 232.94 L318.98 231.10 L320.59 229.37 L322.20 227.74 L323.81 226.23 L325.42 224.83 L327.03 223.56 L328.63 222.41 L330.24 221.39 L331.85 220.50 L333.46 219.74 L335.07 219.11 L336.68 218.63 L338.28 218.28 L339.89 218.07 L341.50 218.00 L343.11 218.07 L344.72 218.28 L346.32 218.63 L347.93 219.11 L349.54 219.74 L351.15 220.50 L352.76 221.39 L354.37 222.41 L355.97 223.56 L357.58 224.83 L359.19 226.23 L360.80 227.74 L362.41 229.37 L364.02 231.10 L365.62 232.94 L367.23 234.87 L368.84 236.90 L370.45 239.02 L372.06 241.22 L373.67 243.50 L375.28 245.85 L376.88 248.26 L378.49 250.72 L380.10 253.24 L381.71 255.80 L383.32 258.40 L384.93 261.02 L386.53 263.67 L388.14 266.33 L389.75 269.00 L391.36 271.67 L392.97 274.33 L394.57 276.98 L396.18 279.60 L397.79 282.20 L399.40 284.76 L401.01 287.28 L402.62 289.74 L404.22 292.15 L405.83 294.50 L407.44 296.78 L409.05 298.98 L410.66 301.10 L412.27 303.13 L413.88 305.06 L415.48 306.90 L417.09 308.63 L418.70 310.26 L420.31 311.77 L421.92 313.17 L423.53 314.44 L425.13 315.59 L426.74 316.61 L428.35 317.50 L429.96 318.26 L431.57 318.89 L433.18 319.37 L434.78 319.72 L436.39 319.93 L438.00 320.00" fill="none" stroke="#ffd98a" stroke-width="2.40"/>
+<circle cx="52.00" cy="320.00" r="4.20" fill="#7ee0c0"/>
+<circle cx="245.00" cy="320.00" r="4.20" fill="#7ee0c0"/>
+<circle cx="438.00" cy="320.00" r="4.20" fill="#7ee0c0"/>
+<circle cx="148.50" cy="218.00" r="4.20" fill="#ff9aa8"/>
+<line x1="148.50" y1="218.00" x2="148.50" y2="324.00" stroke="#ff9aa8" stroke-width="1.00" stroke-dasharray="3 3"/>
+<circle cx="341.50" cy="218.00" r="4.20" fill="#ff9aa8"/>
+<line x1="341.50" y1="218.00" x2="341.50" y2="324.00" stroke="#ff9aa8" stroke-width="1.00" stroke-dasharray="3 3"/>
+<text x="48.0" y="340.5" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">x en unidades de b · los pozos verdes son los estados plásticos</text>
+<text x="48.0" y="361.5" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">curvatura del fondo  →  DUREZA</text>
+<text x="48.0" y="378.5" font-size="11.0" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">el máximo, s_c       →  RESISTENCIA</text>
+<text x="48.0" y="395.5" font-size="11.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">el área de la barrera →  TENACIDAD</text>
+<text x="48.0" y="412.5" font-size="11.0" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="start">el salto al cruzarlo  →  FRAGILIDAD</text>
+<text x="48.0" y="429.5" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">en qué pozo queda    →  ELÁSTICO / PLÁSTICO</text>
+<text x="48.0" y="446.5" font-size="11.0" font-family="Consolas,monospace" fill="#7fb2ff" text-anchor="start">el signo de x        →  TRACCIÓN / COMPRESIÓN</text>
+<text x="48.0" y="468.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">Estado: UN real por sitio, igual que Fase VIII.</text>
+<text x="48.0" y="485.5" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">s_c y η son DERIVADOS: 1,2619 y 8.7e-03.</text>
+<rect x="500.0" y="112.0" width="452.0" height="432.0" rx="10" fill="#101b30" stroke="#7fb2ff"/>
+<text x="515.0" y="137.0" font-size="14.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">B · LA MECÁNICA MEDIDA — los nulos a la vista</text>
+<text x="516.0" y="160.0" font-size="12.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">✓ ELASTICIDAD: residuo 8e−25 · reversible</text>
+<text x="516.0" y="178.0" font-size="12.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">✓ recuperación DERIVADA ≈ 10,2 pasos — su §5</text>
+<text x="516.0" y="196.0" font-size="12.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">✓ RESISTENCIA medida: rho_c = 0,9516 (tracción)</text>
+<text x="516.0" y="214.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">   compresión 1,3148 ⟹ asimetría -0,160, que NO</text>
+<text x="516.0" y="232.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">   se puso: sale de h = h⁰·exp(x). Pero el SIGNO</text>
+<text x="516.0" y="250.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">   salió al REVÉS de la predicción pre-registrada.</text>
+<text x="516.0" y="268.0" font-size="12.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">✓ PLASTICIDAD: 1 sitio en un pozo entero</text>
+<text x="516.0" y="290.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">✗ FATIGA: NULO. El mismo impulso en 1 golpe o en</text>
+<text x="516.0" y="308.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   32 difiere 2,7e−25 · y al doblar el reposo cae</text>
+<text x="516.0" y="326.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   a 9e−48: es relajación, no memoria. Era la ÚNICA</text>
+<text x="516.0" y="344.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   palabra dejada como predicción falsable en vez</text>
+<text x="516.0" y="362.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   de construirla — por eso el nulo vale algo.</text>
+<text x="516.0" y="380.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">✗ GRIETAS: avalancha [1 1 1 1 1] — cada golpe tumba UN</text>
+<text x="516.0" y="398.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   sitio y nada se propaga. Fallas aisladas.</text>
+<rect x="516.00" y="408.00" width="420.00" height="73.00" fill="#101b30" stroke="#ff9aa8" opacity="0.50"/>
+<text x="726.0" y="435.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">✗ Y EL ESPECTRO NO SE MUEVE</text>
+<text x="726.0" y="454.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">memoria sola 18,179 contra 18,335 del virgen</text>
+<text x="726.0" y="473.0" font-size="12.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">La mecánica es real y espectralmente MUDA.</text>
+<rect x="968.0" y="112.0" width="460.0" height="432.0" rx="10" fill="#101b30" stroke="#7ee0c0"/>
+<text x="983.0" y="137.0" font-size="14.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">C · EL CANAL DE SIGNOS — la única ganancia real</text>
+<text x="984.0" y="159.5" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">Fase VIII tenía el núcleo TODO positivo: no había</text>
+<text x="984.0" y="177.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">tensión. Un signo de ENLACE la da a costo CERO, y</text>
+<text x="984.0" y="194.5" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">como signo² = 1 la fuerza total queda intacta.</text>
+<rect x="1148.00" y="204.50" width="208.44" height="17.00" fill="#8fb4d9" stroke="#8fb4d9" opacity="0.60"/>
+<text x="1140.0" y="217.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">S0 · todos +1</text>
+<text x="1362.4" y="217.5" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">18,335</text>
+<rect x="1148.00" y="229.50" width="208.44" height="17.00" fill="#8fb4d9" stroke="#8fb4d9" opacity="0.60"/>
+<text x="1140.0" y="242.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">S1 · gauge (test)</text>
+<text x="1362.4" y="242.5" font-size="11.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="start">18,335</text>
+<rect x="1148.00" y="254.50" width="56.59" height="17.00" fill="#7fb2ff" stroke="#7fb2ff" opacity="0.60"/>
+<text x="1140.0" y="267.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">S2 · azar frustrado</text>
+<text x="1210.6" y="267.5" font-size="11.0" font-family="Consolas,monospace" fill="#7fb2ff" text-anchor="start">4,978</text>
+<rect x="1148.00" y="279.50" width="63.27" height="17.00" fill="#7ee0c0" stroke="#7ee0c0" opacity="0.60"/>
+<text x="1140.0" y="292.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">S3 · reciprocidad</text>
+<text x="1217.3" y="292.5" font-size="11.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">5,565</text>
+<rect x="1148.00" y="304.50" width="61.68" height="17.00" fill="#ffd98a" stroke="#ffd98a" opacity="0.60"/>
+<text x="1140.0" y="317.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">nodo solo</text>
+<text x="1215.7" y="317.5" font-size="11.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">5,426</text>
+<rect x="1148.00" y="329.50" width="45.94" height="17.00" fill="#ffd98a" stroke="#ffd98a" opacity="0.60"/>
+<text x="1140.0" y="342.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">nodo + azar</text>
+<text x="1199.9" y="342.5" font-size="11.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">4,041</text>
+<rect x="1148.00" y="354.50" width="36.29" height="17.00" fill="#ffd98a" stroke="#ffd98a" opacity="0.60"/>
+<text x="1140.0" y="367.5" font-size="11.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="end">nodo + reciprocidad</text>
+<text x="1190.3" y="367.5" font-size="11.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">3,193</text>
+<text x="984.0" y="397.0" font-size="11.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">S1 devuelve S0 EXACTO (Δ = 0): el teorema de gauge,</text>
+<text x="984.0" y="414.5" font-size="11.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">verificado bit a bit. Queda como test unitario.</text>
+<rect x="984.00" y="424.50" width="428.00" height="90.00" fill="#101b30" stroke="#ffd98a" opacity="0.50"/>
+<text x="1198.0" y="451.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">⚡ EL NODO ESTABA HACIENDO FRUSTRACIÓN</text>
+<text x="1198.0" y="469.5" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">nodo solo 5,426  ·  azar SIN nodo 4,978 ± 1,313</text>
+<text x="1198.0" y="488.0" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">a 0,34 σ: toda la mejora del reloj de arena sale con</text>
+<text x="1198.0" y="506.5" font-size="11.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">signos al azar, sin nodo y sin un solo primo adentro.</text>
+<rect x="32.0" y="560.0" width="690.0" height="254.0" rx="10" fill="#101b30" stroke="#ff9aa8"/>
+<text x="47.0" y="585.0" font-size="14.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">D · LA HOJA ARITMÉTICA, TERCERA APLICACIÓN — y da lo mismo</text>
+<text x="48.0" y="608.5" font-size="12.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">La reciprocidad (p ≡ 3 mod 4) contra signos AL AZAR a la MISMA densidad medida:</text>
+<text x="48.0" y="626.5" font-size="12.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="start">sin nodo   reciprocidad 5,565   azar 4,978 ± 1,313   →  0,45 σ</text>
+<text x="48.0" y="644.5" font-size="12.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="start">con nodo   reciprocidad 3,193   azar 4,041 ± 0,723   →  1,17 σ</text>
+<text x="48.0" y="667.0" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">⟹ La aritmética NO se separa del azar. Lo que mueve el espectro es la</text>
+<text x="48.0" y="685.5" font-size="12.5" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="start">   FRUSTRACIÓN: que la mitad de los triángulos dé producto de signos negativo.</text>
+<text x="48.0" y="703.0" font-size="11.5" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">   medida: gauge 0,000 · azar 0,537 · reciprocidad 0,536 — iguales</text>
+<text x="48.0" y="725.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">Es la MISMA hoja que mató la atribución aritmética en Fase VIII (una onda lisa a</text>
+<text x="48.0" y="743.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">0,81 σ) y la misma respuesta. Tres mecanismos distintos, tres veces lo mismo.</text>
+<text x="48.0" y="760.5" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">Y el precio: PR/N cae de 0,105 a 0,035 ⟹ buena parte es alcance APARENTE.</text>
+<rect x="738.0" y="560.0" width="690.0" height="254.0" rx="10" fill="#101b30" stroke="#ffd98a"/>
+<text x="753.0" y="585.0" font-size="14.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">E · EL TECHO — y por qué reencuadra el taller entero</text>
+<line x1="794.00" y1="620.00" x2="1364.00" y2="620.00" stroke="#1d3a63" stroke-width="1.40"/>
+<line x1="809.54" y1="611.00" x2="809.54" y2="629.00" stroke="#ffd98a" stroke-width="2.20"/>
+<circle cx="809.54" cy="620.00" r="4.00" fill="#ffd98a"/>
+<text x="809.5" y="604.0" font-size="10.0" font-family="Consolas,monospace" fill="#ffd98a" text-anchor="middle">0,336</text>
+<text x="809.5" y="644.0" font-size="10.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">ceros</text>
+<line x1="883.32" y1="611.00" x2="883.32" y2="629.00" stroke="#7fb2ff" stroke-width="2.20"/>
+<circle cx="883.32" cy="620.00" r="4.00" fill="#7fb2ff"/>
+<text x="883.3" y="604.0" font-size="10.0" font-family="Consolas,monospace" fill="#7fb2ff" text-anchor="middle">0,579</text>
+<text x="883.3" y="644.0" font-size="10.0" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="middle">piso GUE</text>
+<line x1="944.41" y1="611.00" x2="944.41" y2="629.00" stroke="#8fb4d9" stroke-width="2.20"/>
+<circle cx="944.41" cy="620.00" r="4.00" fill="#8fb4d9"/>
+<text x="944.4" y="604.0" font-size="10.0" font-family="Consolas,monospace" fill="#8fb4d9" text-anchor="middle">0,909</text>
+<text x="944.4" y="644.0" font-size="10.0" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">piso GOE</text>
+<line x1="1114.96" y1="611.00" x2="1114.96" y2="629.00" stroke="#7ee0c0" stroke-width="2.20"/>
+<circle cx="1114.96" cy="620.00" r="4.00" fill="#7ee0c0"/>
+<text x="1115.0" y="604.0" font-size="10.0" font-family="Consolas,monospace" fill="#7ee0c0" text-anchor="middle">3,193</text>
+<text x="1115.0" y="644.0" font-size="10.0" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="middle">mejor de la fase</text>
+<line x1="1352.20" y1="611.00" x2="1352.20" y2="629.00" stroke="#ff9aa8" stroke-width="2.20"/>
+<circle cx="1352.20" cy="620.00" r="4.00" fill="#ff9aa8"/>
+<text x="1352.2" y="604.0" font-size="10.0" font-family="Consolas,monospace" fill="#ff9aa8" text-anchor="middle">18,335</text>
+<text x="1352.2" y="644.0" font-size="10.0" font-family="Georgia,serif" fill="#ff9aa8" text-anchor="middle">virgen</text>
+<text x="754.0" y="666.5" font-size="10.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="start">                                Σ²(10), escala logarítmica</text>
+<text x="754.0" y="689.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">⟹ EL OBJETIVO ESTÁ DEBAJO DE LOS DOS PISOS DE MATRIZ ALEATORIA.</text>
+<text x="754.0" y="707.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">Los ceros son MÁS rígidos que GUE a esta distancia. Ninguna ingeniería de clase</text>
+<text x="754.0" y="725.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">de simetría puede llegar — y un modelo que se acerca al piso GOE se volvió una</text>
+<text x="754.0" y="743.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">matriz aleatoria sin estructura: eso es PERDER contenido aritmético disfrazado</text>
+<text x="754.0" y="761.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">de ganarlo. El hueco que falta no es un déficit de simetría.</text>
+<rect x="32.0" y="830.0" width="1396.0" height="186.0" rx="10" fill="#101b30" stroke="#7fb2ff"/>
+<text x="47.0" y="855.0" font-size="14.5" font-family="Georgia,serif" fill="#7fb2ff" text-anchor="start">F · DOS TEOREMAS QUE NO NECESITARON CORRER NADA</text>
+<text x="48.0" y="878.5" font-size="12.5" font-family="Georgia,serif" fill="#7ee0c0" text-anchor="start">1 · UNA FASE DE SITIO ES GAUGE PURA.  H' = D H D† con D = diag(e^{−iθ}) ⟹ mismo espectro y misma PR/N, exactamente.</text>
+<text x="48.0" y="896.5" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">    ⟹ Resuelve el PENDIENTE 3 de la Fase VIII —«¿entra la aritmética como FASE?»— en NEGATIVO para la fase de sitio: no</text>
+<text x="48.0" y="914.5" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">    mueve ni un observable. No hacía falta correr, hacía falta mirar. Se verificó igual, y dio Δ = 0 exacto.</text>
+<text x="48.0" y="939.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="start">2 · CORRECCIÓN A SU §8: LA TORSIÓN NO NECESITA UNA RED 2D.  Un signo o fase de ENLACE de la forma u_i − u_j es un coborde,</text>
+<text x="48.0" y="957.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">    y tampoco mueve nada. Lo que falta NO es dimensión: con kmax = 120 el grafo ya está lleno de triángulos (todo i&lt;j&lt;k con</text>
+<text x="48.0" y="975.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">    k−i ≤ 120). Falta que la fase de enlace NO sea un coborde. Una cadena de vecinos próximos sería un árbol y ahí sí la</text>
+<text x="48.0" y="993.0" font-size="12.0" font-family="Georgia,serif" fill="#dce8f7" text-anchor="start">    torsión sería imposible: la cola larga que eligió la Fase VII quitó esa excusa.</text>
+<text x="730.0" y="1046.0" font-size="11.5" font-family="Georgia,serif" fill="#8fb4d9" text-anchor="middle">400 modos · fuerza total fija · R6 limpio: la ley se declaró sin mirar un solo cero · Σσ = 0 y la invariancia de escala, verificadas a 1e−13</text>
+<text x="730.0" y="1068.0" font-size="12.0" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">el flash de las once palabras es de Jesús Nicolás Astorga · los dieciséis controles, de la auditoría · el defecto del brazo uniforme lo cazó nuestro propio teorema</text>
+<text x="730.0" y="1092.0" font-size="12.5" font-family="Georgia,serif" fill="#ffd98a" text-anchor="middle">go run ./cmd/lamecanica · estructura cerrada no es hipótesis demostrada · Todavía no.</text>
+</svg>

@@ -1,5 +1,5 @@
 // Command losdospedidos verifies, piece by piece, the formal act written
-// for the auditor in docs/TEOREMA2-LEMA-INTERACCION-ACTA.md - the two
+// for the auditor in docs/teoremas/TEOREMA2-LEMA-INTERACCION-ACTA.md - the two
 // requests of her "EL ESCUDO CAE" audit (§14): (1) the blow inequality
 // derived line by line; (2) the exact Dirichlet statement, the scheduling
 // lemma, and an explicit N0(r_max, m).
@@ -49,7 +49,7 @@ func main() {
 	fmt.Println("📬 LOS DOS PEDIDOS — el acta del Lema de Interacción, verificada")
 	fmt.Println("\n   La auditoría del escudo pidió dos cierres antes del sello (§14): el")
 	fmt.Println("   golpe línea por línea, y Dirichlet exacto con N₀ explícita. El acta")
-	fmt.Println("   está en docs/TEOREMA2-LEMA-INTERACCION-ACTA.md — acá corre cada pieza.")
+	fmt.Println("   está en docs/teoremas/TEOREMA2-LEMA-INTERACCION-ACTA.md — acá corre cada pieza.")
 
 	// ---- LEY 1: (L1) ----
 	fmt.Println("\nLEY 1 · LA LÍNEA (L1): cos x ≥ 1 − x²/2 — de |sin t| ≤ |t|, verificada")

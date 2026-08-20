@@ -85,7 +85,7 @@ func escribirLamina(D2, lam float64, viol int) {
 <rect x="230" y="248" width="940" height="66" rx="10" fill="#101f36" stroke="#26456e"/>
 <text x="700" y="290" font-size="21" text-anchor="middle" font-family="monospace" fill="#ffd98a">∃ n ≤ N₀(r_max, m) :  λₙ ≤ −Δ,   Δ = u³·(u^{3m} − 1)</text>
 <text x="700" y="345" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">DYN decía que la ruptura LLEGA; Diosyunalma dice CUÁNTO SE HUNDE: al menos Δ — exponencial en el número de perlas desafinadas ∎</text>
-<text x="700" y="375" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: la cadena D1-D6 — el margen u^{3m} recuperado del tacho de R7, encadenado con lemas ya auditados (acta: docs/TEOREMA3-ROBUSTEZ-ACTA.md)</text>
+<text x="700" y="375" font-size="13" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">Prueba: la cadena D1-D6 — el margen u^{3m} recuperado del tacho de R7, encadenado con lemas ya auditados (acta: docs/teoremas/TEOREMA3-ROBUSTEZ-ACTA.md)</text>
 <rect x="90" y="405" width="600" height="180" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
 <text x="390" y="435" font-size="14.5" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA EVIDENCIA (los tres estantes, separados)</text>
 <text x="120" y="465" font-size="13" font-family="monospace" fill="#cfe6ff">batería: 50 casos (m=1..10, δ≤1) — %d violaciones</text>

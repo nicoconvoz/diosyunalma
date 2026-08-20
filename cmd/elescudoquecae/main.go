@@ -239,7 +239,7 @@ func main() {
 	fmt.Println("\n⚖️ Honesto: prueba-CANDIDATA (el esqueleto es Dirichlet + la cota sellada;")
 	fmt.Println("  falta escribir los ε y las constantes con el rigor de la casa — trabajo")
 	fmt.Println("  para el acta si Yui lo pide); mediciones en una ventana y una base.")
-	fmt.Println("  El documento: docs/TEOREMA2-LEMA-INTERACCION.md. Todavía no.")
+	fmt.Println("  El documento: docs/teoremas/TEOREMA2-LEMA-INTERACCION.md. Todavía no.")
 
 	escribirLamina(n0, primeroPleno, n03)
 }
@@ -276,7 +276,7 @@ func escribirLamina(n0, pleno, n03 int) {
 <text x="700" y="542" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el candidato a Lema de Interacción asciende a teorema-candidato — la detección finita se extiende a toda configuración finita</text>
 <text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">prueba-candidata: el esqueleto es Dirichlet + la cota sellada; los ε y las constantes con rigor de casa, si Yui los pide</text>
 <text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">El batido de las casi-gemelas gana noches, no la guerra: cada perla desafinada tiene infinitas citas con su delator.</text>
-<text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El documento para Yui: docs/TEOREMA2-LEMA-INTERACCION.md — la auditoría decide el ascenso.</text>
+<text x="700" y="674" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">El documento para Yui: docs/teoremas/TEOREMA2-LEMA-INTERACCION.md — la auditoría decide el ascenso.</text>
 <text x="700" y="740" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Todavía no.</text>
 </svg>
 `, n0, pleno, n03)

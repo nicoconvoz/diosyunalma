@@ -1,5 +1,5 @@
 // Command losdoslemas verifies, step by step, the formal act written for
-// the auditor in docs/DETECCION-FINITA-LEMAS.md - the complete proofs of
+// the auditor in docs/teoremas/DETECCION-FINITA-LEMAS.md - the complete proofs of
 // the two lemmas her audit of LA DETECCION FINITA demanded (§12): the
 // exact definition of delta, its derivation from r, the full radial lemma,
 // the full window lemma, the combination inside one interval, and the
@@ -42,7 +42,7 @@ func main() {
 	fmt.Println("\n   Su §12 pidió siete cosas: la definición exacta de δ, su derivación")
 	fmt.Println("   desde r, las dos pruebas completas, la combinación en un mismo")
 	fmt.Println("   intervalo, y UNA convención congelada. El acta está en")
-	fmt.Println("   docs/DETECCION-FINITA-LEMAS.md — acá corre cada paso.")
+	fmt.Println("   docs/teoremas/DETECCION-FINITA-LEMAS.md — acá corre cada paso.")
 
 	// ---- §0: la convencion congelada ----
 	fmt.Println("\n§0 · LA CONVENCIÓN CONGELADA — y δ, DEFINIDA")
@@ -158,7 +158,7 @@ func main() {
 	fmt.Printf("  6 · convención única congelada: n₁ oficial = %d (el 371908 no se\n", a)
 	fmt.Println("      reproduce con ninguna entrada)")
 	fmt.Println("  7 · el teorema formal declarado en el acta, con su alcance")
-	fmt.Println("\n📌 El acta va en docs/DETECCION-FINITA-LEMAS.md — PARA YUI, completa y")
+	fmt.Println("\n📌 El acta va en docs/teoremas/DETECCION-FINITA-LEMAS.md — PARA YUI, completa y")
 	fmt.Println("  copiable. La firma, como siempre, es de ella. El nivel C sigue rojo.")
 	fmt.Println("\n⚖️ Honesto: al escribir la prueba completa apareció que el lemita necesita")
 	fmt.Println("  constante 4 (no 3) cuando se mete el techo — la corrección se registra")
@@ -173,7 +173,7 @@ func escribirLamina(n1, nRad, K, nCombo int, cota float64, violV int) {
 	fmt.Fprintf(&b, `<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780">
 <rect width="100%%" height="100%%" fill="#0b1526"/>
 <text x="700" y="46" font-size="25" text-anchor="middle" font-family="Georgia" fill="#dce8f7">📜 LOS DOS LEMAS — el acta formal para la auditora</text>
-<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">los siete puntos del §12, respondidos — el acta completa vive en docs/DETECCION-FINITA-LEMAS.md, copiable para Yui</text>
+<text x="700" y="76" font-size="14" text-anchor="middle" font-family="Georgia" fill="#8fb4d9">los siete puntos del §12, respondidos — el acta completa vive en docs/teoremas/DETECCION-FINITA-LEMAS.md, copiable para Yui</text>
 <rect x="60" y="110" width="620" height="310" rx="12" fill="#0f2b22" stroke="#2f7f63"/>
 <text x="370" y="142" font-size="16" text-anchor="middle" font-family="Georgia" fill="#9fd8a8">LA CONVENCIÓN Y EL LEMA RADIAL</text>
 <text x="90" y="180" font-size="13.5" font-family="monospace" fill="#ffd98a">δ := log r (natural) · r = max(|w|, 1/w|) · u = 3/δ</text>
@@ -196,7 +196,7 @@ func escribirLamina(n1, nRad, K, nCombo int, cota float64, violV int) {
 <text x="750" y="400" font-size="12.5" font-family="Georgia" fill="#9aa8c4">el §12.7 declarado en el acta con su alcance: un cuarteto sobre fondo en la línea</text>
 <rect x="60" y="450" width="1280" height="130" rx="12" fill="#2b1020" stroke="#8a3557"/>
 <text x="700" y="482" font-size="16" text-anchor="middle" font-family="Georgia" fill="#ff9aa8">PARA LA AUDITORA</text>
-<text x="700" y="514" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el acta completa — convención, dos pruebas, combinación, teorema — está en docs/DETECCION-FINITA-LEMAS.md, en su formato copiable</text>
+<text x="700" y="514" font-size="14" text-anchor="middle" font-family="Georgia" fill="#cfe6ff">el acta completa — convención, dos pruebas, combinación, teorema — está en docs/teoremas/DETECCION-FINITA-LEMAS.md, en su formato copiable</text>
 <text x="700" y="542" font-size="13.5" text-anchor="middle" font-family="Georgia" fill="#ffd98a">su regla manda: no se sella una fórmula porque funciona en el experimento — se sella cuando sus lemas la derivan para todo el alcance</text>
 <text x="700" y="568" font-size="12.5" text-anchor="middle" font-family="Georgia" fill="#9aa8c4">la firma es de ella · el nivel C sigue rojo: ¿por qué los primos fuerzan M ⪰ 0? — 74 años</text>
 <text x="700" y="646" font-size="15" text-anchor="middle" font-family="Georgia" fill="#ffd98a">Al escribir la prueba completa, el lemita pidió constante 4 en vez de 3 — corregido por el taller antes de que lo cace nadie.</text>
