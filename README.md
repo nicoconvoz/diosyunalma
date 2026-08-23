@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 214 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 295 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 214 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 350 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -113,7 +113,7 @@ proven"** — no claim of a proof of RH is made here.
 
 The laboratory today: **298 reproducible experiments** under `cmd/`, **214
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[295-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[350-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/informes/VALIDACION.md](docs/informes/VALIDACION.md)**.

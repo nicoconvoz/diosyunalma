@@ -81,6 +81,9 @@ func piezaHTML(pz Pieza, idx map[string]string) string {
 	if pz.Honesto != "" {
 		fmt.Fprintf(&b, `<div class="pbloque phon"><b>⚖️ Lo honesto</b>%s</div>`, esc(pz.Honesto))
 	}
+	if pz.Enlace != "" {
+		fmt.Fprintf(&b, `<p class="penl"><a href="%s">→ Entrar a la página entera de esta pieza</a></p>`, esc(pz.Enlace))
+	}
 	b.WriteString(`</div></article>`)
 	return b.String()
 }
@@ -196,6 +199,7 @@ const museoPlantilla = `<!DOCTYPE html>
   .pmet{background:rgba(127,178,255,.07);border:1px solid #2c4a6b}.pmet b{color:var(--blue)}
   .pmir{background:rgba(255,209,102,.06);border:1px solid #6b5b2c}.pmir b{color:var(--gold)}
   .phon{background:rgba(201,182,255,.07);border:1px solid #5a4fa8}.phon b{color:var(--violet)}
+  .penl{margin:14px 0 0;text-align:center}.penl a{display:inline-block;border:1px solid #6b5a26;border-radius:10px;padding:9px 20px;background:rgba(255,217,138,.06);color:var(--gold);text-decoration:none;font-size:14px}.penl a:hover{background:rgba(255,217,138,.14)}
   .psim{margin:14px 0}
   .psim b{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
   .psim dl,.dicc{margin:0}

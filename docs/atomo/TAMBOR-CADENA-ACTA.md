@@ -8,7 +8,7 @@ descendente, paso de grilla 0,005 (no 0,01), integración trapezoidal (no suma
 simple), ventana corrida a [10000,5, 11000,5], clamp 1e-5 (no 1e-4). Nada
 compartido con la ruta A salvo las definiciones — que es el experimento.
 
-Se reproduce con `go run ./cmd/lacadena`.
+Se reproduce con `go run ./cmd/lacadenadeltambor`.
 
 ---
 

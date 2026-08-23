@@ -3723,7 +3723,7 @@
 ### F382 — LA CADENA: los 8 pasos de la guía por ruta B, y la calibración — 2026-08-20
 - ruta B independiente: identidad algebraica a 6,9×10⁻¹⁸; valores reproducidos; controles a la milésima
 - ⚡ calibración sintética con tono plantado EN el compuesto 10: recuperado 0,0999/0,1000 — el silencio es DE ZETA, no del aparato
-- `cmd/lacadena` · acta `docs/atomo/TAMBOR-CADENA-ACTA.md`
+- `cmd/lacadenadeltambor` · acta `docs/atomo/TAMBOR-CADENA-ACTA.md` · **corrección registrada:** al crearlo pisé `cmd/lacadena`, que ya era la melodía de Gilbreath (F267); el original quedó restaurado desde git y este experimento renombrado
 
 ### F383 — EL RESIDUO: la escalera continúa y los ceros viven en el resto — 2026-08-20
 - la fuga del m=6 PREDICHA sin parámetros (0,0093/0,0033/0,0002 vs 0,0096/0,0035/0,0007): era interferencia de colas de ventana

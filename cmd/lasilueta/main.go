@@ -133,7 +133,8 @@ func suave(v []float64, ventana int) []float64 {
 
 func main() {
 	fmt.Println("🕳️🎸 LA SILUETA — el espacio vacío donde no hay guitarra, proyectado")
-	fmt.Println("   con todo lo que dio negativo · codo a codo · modo explorador\n")
+	fmt.Println("   con todo lo que dio negativo · codo a codo · modo explorador")
+	fmt.Println()
 
 	// ---- half 2 first: the force wall, computed --------------------------------
 	fmt.Println("§1 · LA PARED DE FUERZA — el número que nunca habíamos medido")
