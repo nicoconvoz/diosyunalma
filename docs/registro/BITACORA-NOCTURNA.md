@@ -3768,3 +3768,325 @@
 - verificado: residuo 0,002–0,026 para θ ≤ 1; la cola de Bernoulli queda ABIERTA y nombrada con precisión; la definición de C cerrada (ζ + representación EM + resto clásico)
 - ⚡ Yui: «esto ya no parece una libreta de patrones sueltos: tiene una arquitectura matemática reconocible» — el puente subió de CASO C a CASO B porque el álgebra lo permitió
 - `cmd/elpuente` · el teorema queda blindado dentro de sus hipótesis
+
+### F391 — LAS DOS PARÁBOLAS: el punto de contacto pinza el ½, y la mitad del «exacto» es del espejo — 2026-09-10
+- flash del capitán: «dos parábolas, una arriba y otra abajo, que se tocan en un punto llegando a 0: ¿descubren el punto exacto del ½?»
+- construcción sin ½: f₊ = |ζ(σ+it)|², f₋ = −|ζ(1−σ+it)|², las dos por Euler–Maclaurin directo; ceros a ciegas en 0,2 ≤ σ ≤ 0,8 por barrido 2-D + Newton: 15 ceros, β = ½ a 2×10⁻¹²
+- ⚠️ décima trampa del 0.0e+00, declarada antes: el punto medio de los vértices es ½ por construcción (identidad a 0,0e+00, con y sin cero)
+- corrección al pre-registro: V1 decía «a toda altura» y olvidó «con ventanas espejadas»; en la misma ventana el punto medio se va a 0,83 en los controles — el ½ vive en el espejo
+- ⚡ medido: vértice individual en ½ SOLO en ceros (controles a 0,426); contacto SOLO en ceros (brecha 1,7e-18 vs 1,02)
+- ⚡⚡ la parábola está inclinada por el reloj: Re(ζ''/ζ')(ρ) = −2θ'(γ) ≈ −log(γ/2π); corrimiento del vértice L·(Σx⁴/Σx²)/2, predicho/medido 0,9996 (γ<50) y 0,9964 (γ≈1000); en el par espejado se cancela
+- `cmd/lasdosparabolas` · `docs/atomo/DOSPARABOLAS-ACTA.md` · lámina `las-dos-parabolas.svg`
+
+### F392 — LAS PARÁBOLAS CENTRADAS: la rama derecha llega más lejos, y cuánto más lejos es el reloj — 2026-09-10
+- flash: contacto en el (0,0) absoluto; relación de distancias ±, relación del ½ con la altura, el ángulo, las separaciones
+- marco: x = σ−β (β por Newton, nunca supuesto), y = |ζ|²; espejo y ↦ −f₊(−x); 15 ceros a ciegas; todo predicho con y = a·x² − a·L·x³ (F391) antes de medir
+- ⚡ distancias ±: x₊ + x₋ = L·y/a al 0,01 % (γ<50) y 0,5 % (γ≈1000); x₊/|x₋| = 1 + L·w → 1,016 en γ≈14, 1,107 en γ≈1000
+- el ½ y la altura: β = ½ en los 15 (2e-12); lo que cambia es L = log(γ/2π) (determinista) y a = |ζ'(ρ)|² (0,63 → 21,4, errante)
+- el ángulo: 0 entre las parábolas en el contacto; el eje se inclina con pendiente L/(2a) (0,6443 vs 0,6444 en γ=14); ψ = atan(L/2a) depende de la escala de y, la pendiente no
+- separaciones: mitad−mitad de la misma parábola −2aLw³ (medido/predicho al 0,3 %); ⚠️ trampa #11 declarada: la separación vertical entre las dos curvas es par por construcción, 0,0e+00
+- ⚡⚡ reloj leído del ajuste cúbico: L medido/L peor desvío 2,4e-3 — la asimetría ES 2θ'(γ)
+- `cmd/lasparabolascentradas` · `docs/atomo/PARABOLASCENTRADAS-ACTA.md` · lámina `las-parabolas-centradas.svg`
+
+### F393 — EL MEDIO Y LOS PRIMOS: dividir por dos no dice nada, dividir por la raíz lo dice todo — 2026-09-15
+- flash: «¿qué relación hay entre el ½ de la parábola y dividir el primo por dos, que da fracción? ¿y dividir por primos?»
+- ⚠️ DUODÉCIMA trampa del 0.0e+00: frac(p/2) = ½ en 78.497 primos impares (100 %) y en 421.502 compuestos impares (100 %); señal/silencio 1,0000 — es la definición de impar; F272 ya la había cazado como la séptima
+- ⚠️ p/q entero exactamente una vez (p/p = 1): la definición de primo
+- ⚡⚡ la respuesta real: en ∏ₚ(1−p^(−s))^(−1) cada primo pesa p^(−σ), así que σ = ½ ES dividir cada primo por su propia raíz cuadrada (2 → 0,7071; 3 → 0,5774; 97 → 0,1015)
+- ⚡ el origen del ½, eslabón por eslabón: el borde en 1 lo ponen los primos (Σ1/p diverge, Euler 1737 — medido 3,04 en σ=1 vs 2,02 convergiendo en 1,1); el 0 lo pone la simetría s↦1−s; el ½ es el único punto que es su propio espejo
+- ⚡⚡ puente hondo medido sin mirar un cero (Von Koch 1901): θ crudo de |ψ(x)−x| hasta 10⁷ = 0,4809 · moneda de Cramér = 0,4888 — el mismo número, los primos cancelan como una moneda
+- ✅ calibración: sesgo plantado x^0,70 → 0,6995; x^0,90 → 0,8996
+- ⚖️ límites dichos: la corrección por log²x da 0,3091 y sobre-corrige; a 10⁷ no se distingue ½ de 0,52 — la medición solo podía REFUTAR, y no refutó; θ=½ ES la Hipótesis, no una conclusión
+- `cmd/elmedioylosprimos` · `docs/atomo/ELMEDIOYLOSPRIMOS-ACTA.md` · lámina `el-medio-y-los-primos.svg`
+
+### F394 — LOS CEROS Y LA RAÍZ: el primo se divide por ella, el cero se multiplica por ella — 2026-09-15
+- flash: «¿hay alguna relación entre los ceros y la división por la raíz?» — sí, un espejo exacto
+- ⚠️ decimotercera trampa declarada antes: |x^ρ| = x^β es álgebra; lo que se mide es que la SUMA reproduzca ψ(x)−x
+- ⚡ fórmula explícita con 649 alturas hasta γ=1000 vs ψ(x)−x en x ∈ [200,5000]: correlación 0,9804 · control con alturas al azar: −0,0323
+- ⚡⚡ β dejado LIBRE y barrido de 0,30 a 0,70: mínimo del residuo en β = 0,5000; pozo agudo (2,366 en ½ vs 42,562 en 0,70, 18× peor) — el ½ es estructural
+- ⚡ lado primo medido aparte: log|Z(t)| proyectado sobre tonos ln p → amplitud ∝ p^(−0,5069), α = 0,5069
+- 📌 la respuesta: primo ↦ p^(−½) dividido, cero ↦ x^(+½) multiplicado; lo que un lado divide el otro lo multiplica porque la ecuación funcional ata σ con 1−σ, y ½ es el equilibrio
+- ⚖️ R6 declarado: las alturas vienen de Z(t) = la línea, NO son evidencia; lo medido son los exponentes libres. Alturas con 0,0025 de error a t bajo, anotado
+- `cmd/loscerosylaraiz` · `docs/atomo/LOSCEROSYLARAIZ-ACTA.md` · lámina `los-ceros-y-la-raiz.svg`
+
+### F395 — EL ANTERIOR Y EL SIGUIENTE: cada divisor de p−1 veta un hueco, y pesa 0,12 % — 2026-09-15
+- flash: «¿hay relación entre la composición de los divisores del número anterior a un primo y el primo siguiente?»
+- ⚡ la regla, en un renglón: q | (p−1) ⟹ p ≡ 1 (mod q) ⟹ p+(q−1) es compuesto ⟹ el hueco no puede valer q−1. El 3 veta el 2, el 5 el 4, el 7 el 6
+- ⚠️ decimocuarta trampa declarada: «p−1 es par» es la definición de impar; el 2 excluido, solo divisores impares
+- ✅ verificado en 664.578 huecos hasta 10⁷: CERO violaciones (q = 3,5,7,11,13) — teorema verificándose, no hallazgo
+- ⚡ corrimiento medido: 3 | p−1 → hueco medio 15,5205 vs 14,5741 (+6,49 %); 7 | p−1 → 15,9445 vs 14,8680 (+7,24 %)
+- ⚡⚡ la escalera: 0 divisores → 14,97 · 2 → 15,07 · 3 → 15,79 · 4 → 17,01 · 5 → 18,21 · 6 → 22,05
+- ⚖️ irregularidad anotada: con 1 divisor (14,78) el hueco es MENOR que con 0 (14,97); la clase de 0 selecciona p atípicos y no se ofrece explicación medida
+- ⚖️ control del espejo con su límite: q | (p+1) veta el hueco q+1, pero para q=3 las dos clases son complementarias por necesidad (no es control independiente); para q≥5 sí
+- 📌 el efecto es real y demostrable pero CHICO: 0,12 % de la varianza del hueco. Vetar no es predecir
+- 📌 no es matemática nueva: es el argumento de admisibilidad de Hardy–Littlewood
+- `cmd/elanterioryelsiguiente` · `docs/atomo/ELANTERIORYELSIGUIENTE-ACTA.md` · lámina `el-anterior-y-el-siguiente.svg`
+
+### F396 — LOS DOS ESPEJOS: el primo es el que menos se refleja — 2026-09-15
+- flash: «si ponemos entre dos espejos a un número primo, ¿qué observamos adelante y atrás?»
+- ⚡ traducción exacta: mirar a distancia k para los dos lados da (n−k, n+k), y (n−k)+(n+k) = 2n ⟹ contar reflejos ES contar particiones de Goldbach de 2n. El flash preguntó Goldbach sin saberlo
+- ⚠️ decimoquinta trampa declarada: la paridad de k tacha la mitad para todo n; y el reflejo a k=0 (verse a sí mismo) es exclusivo del primo pero es la definición
+- ⚡⚡ medido en [100.000, 101.000): 81 primos → 1.065,6 reflejos medios · 919 compuestos → 1.660,9 ⟹ el primo ve 35,8 % MENOS
+- ⚡⚡ la ley: reflejos/S(n) clavado en 1.065 ± 1 con S variando 2,5× (1 div → 1.069 · 2 → 1.433 · 3 → 1.962 · 4 → 2.698); dispersión de 0,3879 a 0,0131, aplana 29,6×
+- 📌 razón compuestos/primos de reflejos 1,5586 vs razón de S(n) 1,5554 — coinciden al 0,2 %
+- ⚠️ defecto propio cazado antes de registrar: no se sacaba el factor 2 antes de buscar divisores impares (100002 salía con 2 en vez de 3) y se inventaba una clase espuria de «0 divisores»; corregido, conclusión intacta
+- ⚖️ lo que NO se ve: que los reflejos nunca lleguen a cero es GOLDBACH, abierta desde 1742; y la fórmula es de Hardy–Littlewood (1923), también conjetura
+- `cmd/losdosespejos` · `docs/atomo/LOSDOSESPEJOS-ACTA.md` · lámina `los-dos-espejos.svg`
+
+### F397 — EL PRIMO PARTIDO: sí se puede, de tres maneras, y ninguna es nueva — 2026-09-15
+- idea del capitán: «divisores fracciones de los primos, repartidos en partes, para que puedan ser múltiplos de algo» — avisando que quizás no se pudiera
+- ⚠️ decimosexta trampa declarada: dentro de ℤ, «dos divisores» es la definición; las rutas cambian el anillo, la cuenta o los primos
+- ⚡ RUTA A (Fermat 1640, Gauss 1832): en ℤ[i] el 5 es múltiplo de 1+2i; se parte ⟺ p ≡ 1 (mod 4); cero violaciones hasta 100.000 con a²+b² explícito; fracción 0,49984 a 10⁷
+- ⚡ RUTA B (Selberg–Delange): d_z con d_z(p) = z, generada por ζ(s)^z; con z = ½ cada primo tiene 0,5000 divisores, exacto; razones medidas 1,0258 · 1,0000 · 1,0100 a x = 5×10⁶
+- ⚡ RUTA C (Beurling 1937): «primos» en lugares fraccionarios (2,5 · 3,5 · 5,5 …) con zeta y factorización única propias; se construyó y anda
+- ⚠️ dos errores propios cazados antes de registrar: (1) d_1 rotulada como «la cuenta normal» — la de siempre es z = 2; (2) la densidad decreciente del sistema de Beurling es artefacto MÍO por cortar los primos en 300, no un resultado suyo
+- 📌 veredicto: se puede, ninguna ruta es nuestra, y ninguna encuentra un divisor escondido DENTRO de los enteros — eso es la definición, no falta de ingenio. Todas pagan el mismo precio: salir de ℤ
+- `cmd/elprimopartido` · `docs/atomo/ELPRIMOPARTIDO-ACTA.md` · lámina `el-primo-partido.svg`
+
+### F398 — EL PRIMO CONSTRUIDO: fabricado con dos números que no son enteros — 2026-09-15
+- orden: «construime un primo a partir de múltiplos que no sean enteros, hacé el intento aunque digas que no se pueda»
+- ⚡⚡ HACIA ADELANTE (lo pedido): se eligen primero los irracionales y el primo sale después — 7 = 3,414213562373… × 1,585786437627… · 23 = (5+√2)(5−√2) · 47 · 79 · 17 · 41; nueve construcciones verificadas
+- ⚡ HACIA ATRÁS: 11 = 4,464101615 × 2,464101615 (ℤ[√3]) · 19 = 5,472135955 × 3,472135955 (ℤ[√5]) · 41 en ℤ[√2]; doce decimales
+- ⚡ la ley: cada anillo alcanza ~la mitad (0,4910 a 0,4967) y la congruencia dice cuál; CERO violaciones en 1.228 primos (Gauss 1832)
+- 📌 cobertura acumulada de cinco anillos: 625 → 312 → 160 → 81 → 0 sin alcanzar hasta 10.000
+- ⚠️ decimoséptima trampa, reportada con cartel: √p × √p alcanza a todos pero factoriza al 4 y al 6 igual
+- ⚠️ dos correcciones propias: la regla olvidaba los primos RAMIFICADOS (una falsa violación por anillo real), y el signo de la norma negativa daba productos negativos; ambas arregladas antes de registrar
+- ⚖️ lo que NO se ganó: el primo sigue siendo primo en ℤ; los factores nuevos son primos ellos (el problema se muda de casa); ningún anillo alcanza a todos; nada es nuevo
+- `cmd/elprimoconstruido` · `docs/atomo/ELPRIMOCONSTRUIDO-ACTA.md` · lámina `el-primo-construido.svg`
+
+### F399 — LA ESCALERA DESCENDENTE: el fondo es la ecuación de Pell — 2026-09-15
+- flash sobre F398: «partí el 5 de (5+√2)(5−√2) y a cada uno agregale el mismo, hasta llegar al mínimo»
+- ⚡ la escalera del 5 baja: 23 · 17 · 7 · −7 · −25 · −47 · −73 · −103; se acerca al cero, lo pasa sin pisarlo y sigue del otro lado
+- ⚠️ decimoctava trampa declarada: que a²−2b² nunca sea 0 es la irracionalidad de √2 (los griegos), no una medición nuestra; cero apariciones en 10⁴×10⁴
+- ⚡⚡ EL FONDO es ±1 y lo tocan 3/2, 7/5, 17/12, 41/29, 99/70, 169/119 — los convergentes de √2: la escalera ES la ecuación de Pell (Brahmagupta s. VII, Lagrange 1768)
+- ⚡ el mínimo cae siempre en el b más cercano a a/√2 (a=577 → b=408, a/√2 = 408,0006): bajar la escalera ES aproximar √2 por fracciones
+- ⚡ el veto confirmado desde el otro lado: de 46 primos hasta 200 solo 21 son alcanzables y 25 nunca (los ≡ 3 y ≡ 5 mod 8); cero violaciones de la ley de F398
+- ⚖️ la otra lectura (el primo como nuevo arranque) muere enseguida: 5 → 23 → 527 = 17×31; 11 → 119 = 7×17. Reportada igual
+- `cmd/laescaleradescendente` · `docs/atomo/LAESCALERADESCENDENTE-ACTA.md` · lámina `la-escalera-descendente.svg`
+
+### F400 — EL DESCENSO AL MÍNIMO: el átomo del ladrillo es el 2 — 2026-09-15
+- corrección del capitán a F399: quería la operación aplicada AL 5 MISMO, recursivamente, hasta el mínimo; y a mitad pidió «el átomo de los ladrillos», cobrando la metáfora de F397
+- ⚡ el 5 se parte igual: n ↦ n² − 2 pide a = √7, y 5 = (√7+√2)(√7−√2) = 4,059964873438 × 1,231537748691, verificado
+- ⚡⚡ el descenso converge: 5 → 2,6458 → 2,1554 → 2,0385 → 2,0096 → … → 2; con n = 2·cosh(t) el parámetro t se parte exactamente al medio en cada escalón (doce decimales)
+- ⚡⚡ el 2 SE REPRODUCE: (2+√2)(2−√2) = 2,000000000000. Único punto fijo (x²−2 = x), y es un filo: abajo se desbarranca, arriba se dispara
+- ⚡ el porqué: la operación duplica un ángulo (n = 2cosh t ⟹ n²−2 = 2cosh 2t), bajar lo parte al medio, el fondo es t = 0 → Chebyshev
+- ⚡ subiendo con enteros: 3 → 7 → 47 → 2207 → 4870847 → 23725150497407 = Lucas en potencias de dos; primalidad MEDIDA, se cae en L(32)
+- ⚠️ decimonovena trampa: la raíz anidada 2 = √(2+√(2+…)) es identidad clásica, reportada con nombre (60 raíces: 2,000000000000000)
+- 📌 el átomo del ladrillo de F397 tiene número: el 2, y la prueba de que es átomo es que al partirlo devuelve lo mismo
+- `cmd/eldescensoalminimo` · `docs/atomo/ELDESCENSOALMINIMO-ACTA.md` · lámina `el-descenso-al-minimo.svg`
+
+### F401 — LA REGLA Y SU ALCANCE: «sin excepciones» no es lo mismo que «alcanza» — 2026-09-15
+- propuesta del capitán: con F398–F400 armar todos los primos y demostrar RH, «si nada escapa a la regla». Instinto correcto; las dos afirmaciones, medidas y falsas
+- ⛔ 1a: 39.276 primos hasta 10⁶ (50,04 %) son INALCANZABLES — a²−2b² nunca da ≡ 3,5 (mod 8); el 3, 5, 11, 13 afuera para siempre
+- ⛔ 1b: de 14.110 combinaciones solo 2.549 dieron primo (18,07 %): genera candidatos, no primos; el test de primalidad queda intacto
+- ⛔ 1c: circular — para elegir el anillo hace falta p mod 8, o sea hace falta tener p
+- ⛔⛔ 2 · LA PRUEBA DECISIVA (control nuevo): primos que obedecen la regla siempre → exponente 0,5045; los que no la obedecen nunca → 0,4756; diferencia 0,0290, el mismo número. Calibración: sesgo x^0,75 → mide 0,7561. La regla no tiene fuerza sobre la distribución
+- ⛔ chequeo histórico: Gauss cierra la ley completa en 1832, Riemann plantea RH en 1859 (27 años después) y sigue abierta
+- ⚡ LA LECCIÓN: misma forma cazada en F272 (trampa 7) y F393 (trampa 12) — tres reglas con cero excepciones, ninguna con alcance. «Sin excepciones» mide la FUERZA, no el ALCANCE
+- 📌 esta regla habla de cómo se FACTORIZAN los primos; RH habla de DÓNDE ESTÁN
+- `cmd/laregladelalcance` · `docs/atomo/LAREGLAYSUALCANCE-ACTA.md` · lámina `la-regla-y-su-alcance.svg`
+
+### F402 — LOS CUATRO LADRILLOS: dos aceptan el molde del √2 y dos lo rechazan — 2026-09-15
+- pedido: ver al 2, 3, 5 y 7 en el formato de 23 = (5+√2)(5−√2)
+- ⚡ entran: 2 = (2+√2)(2−√2) y 7 = (3+√2)(3−√2), exactos
+- ⛔ se niegan: el 3 y el 5, barridos 2.000 valores sin acierto — a²−2b² nunca da ≡ 3,5 (mod 8); piden otra raíz: 3 = (3+√6)(3−√6), 5 = (5+2√5)(5−2√5)
+- ⚠️ corrección propia antes de registrar: «solo el 2 usa su propia raíz» era FALSO (el 5 también); en general vale cuando p−1 es cuadrado perfecto (2, 5, 17, 37…)
+- 📌 lo exclusivo del 2: único con a = d = p y b = 1 ⟹ p² − p = p ⟹ p = 2. Al 5 le hizo falta b = 2
+- `cmd/loscuatroladrillos` · lámina `los-cuatro-ladrillos.svg`
+
+### F403 — EL PATRÓN DEL CAPITÁN: bien las cuatro, identidad real, patrón coincidente — 2026-09-15
+- el capitán escribió los cuatro con 1, 2, 4 y 8 copias bajo la raíz y preguntó si estaba mal. NO lo está: las cuatro verifican (el 7 da −7 por usar 8 copias en vez de 6)
+- ⚡ identidad verdadera encontrada por él: n = (n + √(n(n−1)))(n − √(n(n−1))), porque n² − n(n−1) = n
+- ⛔ el patrón 1,2,4,8 como potencias de dos SE ROMPE en el 11 (2⁴ = 16 da −55, no ±11); la lectura correcta es p−1 copias, que aguanta siempre
+- ⚠️ vigésima trampa: 9.592/9.592 primos cumplen (100 %) y 90.407/90.407 compuestos también (100 %); señal/silencio 1,0000
+- 📌 la lección: en F398 el número bajo la raíz era FIJO y por eso excluía a la mitad (información); acá CAMBIA con cada primo, y un molde que se adapta entra siempre y no mide nada
+- `cmd/elpatrondelcapitan` · lámina `el-patron-del-capitan.svg`
+
+### F404 — LOS MÚLTIPLOS VECINOS: la lectura del capitán, mejor que la de la casa — 2026-09-15
+- el capitán miró los pares: «4 y 2 son 2×2 y 2×1 · 9 y 6 son 3×3 y 3×2 · 25 y 20 son 5×5 y 5×4 · 49 y 56 son 7×7 y 7×8»
+- ⚡⚡ su lectura EXPLICA donde la nuestra solo verificaba: p·k − p·(k−1) = p·[k − (k−1)] = p·1 = p — restar dos múltiplos VECINOS
+- ⚡⚡ y destapó lo que no habíamos medido: cada número tiene INFINITAS de estas factorizaciones, no una — el 2 se parte como (2±√2), (4±√14), (6±√34), (8±√62)…; el 7 como (7±√42), (14±√189), (21±√434)…
+- ⚖️ cierra la trampa vigésima de F403 con su razón adentro: la identidad es la DEFINICIÓN de múltiplo, por eso el 4 (4±√12, 8±√60) y el 100 (100±√9900) también la cumplen
+- 📌 un patrón con infinitas formas por entero no puede señalar a ninguno
+- `cmd/losmultiplosvecinos` · lámina `los-multiplos-vecinos.svg`
+
+### F405 — LOS DOS LATIDOS: la primera regla del capitán con señal de verdad — 2026-09-15
+- flash: «dos latidos contra más latidos… tiene que haber una relación entre el 2, el 1 y el mismo primo, encontrala»
+- ⚠️ vigesimoprimera trampa declarada: «un primo tiene dos divisores» es la definición, no informa
+- ⚡⚡⚡ la relación existe y no es tautología: 2^(p−1) ≡ 1 (mod p) — los tres números que nombró, atados
+- ⚡⚡⚡ POR PRIMERA VEZ EL CONTROL NO DA 1: hasta 10⁶ los 78.497 primos impares la cumplen (100 %) y solo 245 de 421.502 compuestos (0,0581 %) → señal/silencio 1.720,4
+- comparación: F393 razón 1,0000 · F403 1,0000 · F404 1,0000 · F401 exponentes iguales · ÉSTA 1.720
+- ⚖️ límite medido: 245 impostores, el primero 341 = 11×31 (hallado por búsqueda), densidad 0,058 %, infinitos
+- ⚖️ falla profunda: los Carmichael (561 = 3×11×17, 1105, 1729, 2465, 2821, 6601) pasan con CUALQUIER base ⟹ no es demostración de primalidad, es filtro
+- ⚖️ no es nuevo: pequeño teorema de Fermat, 1640; base de Miller–Rabin
+- `cmd/losdoslatidos` · lámina `los-dos-latidos.svg`
+
+### F406 — LOS CINCO ATADOS: la raíz es el pliegue de los divisores — 2026-09-15
+- pedido: la relación entre el 1, el primo, el 2, el ½ y la raíz del primo
+- ⚡ el nudo: √p = √(1 × p) = (1 × p)^½ — latidos, cuenta, exponente y resultado en un renglón; y el 2 vuelve en la media aritmética (1+p)/2 = σ(p)/2
+- ⚡⚡ la raíz es EL PLIEGUE: cada divisor se abraza con n/d alrededor de √n, y un primo es el que tiene un solo par (1 × p). Ahorro medido del test: 10× a cien, 10.000× a cien millones
+- ⚠️ vigesimosegunda trampa: «la raíz de un primo es irracional» le pasa igual al 6, al 8 y al 10; razón ≈ 1
+- ⚡ lo que sí separa: √n / (mayor divisor ≤ √n) da 43,95 en primos contra 5,38 en compuestos (8,2×) — con circularidad declarada, porque hallarlo ES dividir
+- ⚖️ el paralelo con la línea crítica queda como ANALOGÍA DE FORMA: d↔n/d fija √n, s↔1−s fija ½, p^(−s)↔p^(−(1−s)) fija 1/√p. Misma forma, no mismo teorema (lección de F401)
+- `cmd/loscincoatados` · lámina `los-cinco-atados.svg`
+
+### F407 — LA MAGIA INTENTADA: el pliegue que sí fabrica el ½ — 2026-09-15
+- orden: «probemos que es un teorema, hagamos magia». Se intentó en serio y se reporta el resultado
+- ⚠️ vigesimotercera trampa declarada primero: todo emparejamiento x ↔ c−x tiene punto fijo c/2; «misma forma» es cierto y vacío
+- ✅ el pliegue de los divisores SÍ es ecuación funcional: σ_s(n) = n^s·σ_(−s)(n), exacta (2,3e-13)
+- ⛔ pero FALLA como demostración: su simetría es s ↔ −s con punto fijo CERO; hereda el ½ de ζ, no lo produce
+- ⚡⚡⚡ LA MAGIA REAL: θ(1/t) = √t·θ(t) — el pliegue t ↔ 1/t con el ½ escrito en el factor; Jacobi verificada a 8,9e-16 y el exponente AJUSTADO de los datos: 0,500000000
+- ⚡ y de ahí, por Mellin, sale ξ(s) = ξ(1−s) — verificada a 9,3e-09 en cinco puntos, incluido el primer cero
+- 📌 veredicto: no se volvió teorema, pero el instinto era correcto — un pliegue fabrica el ½, solo que es el de theta (Jacobi, Riemann 1859) y no el de los divisores
+- `cmd/lamagiaintentada` · lámina `la-magia-intentada.svg`
+
+### F408 — EL BARRIDO DE LOS ANTERIORES: el mecanismo exacto, y la palabra «azar» corregida — 2026-09-19
+- lectura del capitán: el primo siguiente se corre hasta el hueco que ningún múltiplo de los anteriores cubre. EXACTO: es la criba de Eratóstenes
+- ⚡ exhibido casillero por casillero en el hueco 113→127 (el 2 tapa el 114, el 5 el 115, el 11 el 121…) y el 127 no lo tapa nadie; cero fallos en 200.001 casilleros
+- ⚡ y su consecuencia: los huecos crecen porque cada primo suma un tapador; la supervivencia cae como e^(−γ)/log y (Mertens), razón medida 0,9374 → 0,9997
+- ⛔⛔ la palabra AZAR, corregida: los gemelos son 1,2699 · 1,2953 · 1,3078 · 1,3254 veces MÁS de lo que dicta la moneda — 32 % de exceso, convergiendo a la constante de Hardy–Littlewood 1,3203236
+- ⛔ segunda puerta: el hueco 6 se lleva el 15,04 % contra 8,82 % del 4 y 6,37 % del 8; los múltiplos de 6 son el 43,04 %. El azar no tiene favoritos
+- ⚡ el porqué del exceso ES el barrido: si q no divide a n, tampoco divide a n+2 en 2 de cada q−1 casos; los tapados NO son independientes
+- 📌 los primos SÍ están donde deberían: el barrido los pone ahí, determinista. Lo que falta es una fórmula corta para adelantarse — y esa falta se SIENTE como azar
+- `cmd/elbarridodelosanteriores` · lámina `el-barrido-de-los-anteriores.svg`
+
+### F409 — LA RAMA DE LOS PARES: el 2 corta de un hachazo, los impares no se podan nunca — 2026-09-19
+- flash: «el 2 anula toda la rama de los pares; los impares son muchas ramas infinitas, por eso está el 3, el 5, el 7»
+- ⚠️ vigesimocuarta trampa: «el 2 se lleva los pares» es la definición de par; lo que informa es la COMPARACIÓN
+- ⚡⚡ tajada por primo: 2 → 50,00 % · 3 → 16,67 % · 5 → 6,67 % · 7 → 3,81 % · 11 → 2,08 %. El 2 hace 3× el trabajo del 3, 7,5× el del 5, 13,1× el del 7
+- ⚡⚡ la pregunta del flash, por búsqueda: hicieron falta TRES impares (3, 5, 7) para igualar lo que el 2 hizo solo (0,6667 → 0,5333 → 0,4571)
+- ⚡⚡⚡ las ramas infinitas en números: 1/2 cuesta 1 primo · 1/4 cuesta 4 · 1/8 cuesta 22 · 1/16 cuesta 996 (hasta el 7.879) · 1/32 no entró en una criba de 5 millones
+- ⚡ ninguna cuadrilla finita termina: el cuadrado del primo siguiente siempre escapa (9, 25, 49, 121, 10.609)
+- ⚡ Mertens 1874: para bajar a la mitad hay que elevar al cuadrado el tope
+- 📌 por eso el 2 es el átomo de F400 y el mínimo de F276: es el único que corta una rama entera
+- `cmd/laramadelospares` · lámina `la-rama-de-los-pares.svg`
+
+### F410 — EL LOGARITMO DE LA CURVA: la recta que aparece con dos logaritmos — 2026-09-19
+- pedido del capitán: el logaritmo de la curva de F409 en todas las ramas; y su corrección a mitad de camino: «no empieza en el 2, empieza en el 1 con el 100 %»
+- ⚡ la corrección es importante: en logaritmo el 100 % es CERO exacto, así que el 1 es el ORIGEN — por eso el logaritmo es la lente natural
+- ⚡ rama por rama: el 1 aporta 0,00000000 · el 2 −0,69314718 (el mayor) · el 3 −0,40546511 · el 5 −0,22314355 · el 7 −0,15415068; hacen falta 3, 5 y 7 juntos para igualar al 2
+- ⚡⚡⚡ la forma: log(sobrevive) = −log(log y) − γ, con pendiente AJUSTADA de los datos en −0,999329
+- ⚡⚡ la convergencia, más fuerte que el ajuste: la suma log(sobrevive)+log(log y) va a −0,57722445 con desvíos de −γ cayendo 1,3e-2 → 8,8e-6
+- ⚡ la hermana: Σ1/p = log(log y) + M, con la constante de Mertens medida
+- 📌 el doble logaritmo mide la lentitud: para bajar a la mitad hay que ELEVAR AL CUADRADO el tope
+- `cmd/ellogaritmodelacurva` · lámina `el-logaritmo-de-la-curva.svg`
+
+### F411 — EL CERO QUE NO SE ALCANZA: el piso del universo no es cero, y ζ está en el cielo — 2026-09-19
+- pregunta del capitán: ¿hay relación entre el tiempo, el espacio, la materia y el cero absoluto que el universo puede alcanzar?
+- ⚡ la relación: T × a = constante, así que la temperatura del fondo ES un reloj (3.000 K a los 380.000 años · 2,725 K hoy)
+- ⚡⚡⚡ LA SORPRESA: el universo no llega al cero absoluto. El horizonte de De Sitter irradia y pone un PISO en 2,655e-30 K (Gibbons–Hawking 1977), treinta órdenes por debajo de hoy; lo fija la energía oscura, o sea la geometría
+- ⚡⚡ y ζ estaba en el cielo: la energía del fondo lleva ζ(4) = 1,082323234 (= π⁴/90) y contar fotones necesita ζ(3) = 1,202056903 (Apéry) → 4,1072e8 fotones del Big Bang por metro cúbico
+- ⚡ el vínculo hondo: β = ħ/(k·T) es una vuelta de tiempo imaginario; el cero absoluto sería una vuelta infinita
+- ⚡ forma repetida: la tercera ley de Nernst tiene la misma estructura que la criba de F409
+- ⚖️ nada es nuestro (Nernst 1912, Planck 1900, Gibbons–Hawking 1977) y depende de ΛCDM con energía oscura constante; es física, refutable con telescopios
+- `cmd/elceroquenosealcanza` · lámina `el-cero-que-no-se-alcanza.svg`
+
+### F412 — APÉRY EN LA CASA: el experimento pedido, y el control que lo decide — 2026-09-19
+- pedido: meter ζ(3) en el cambiaformas w(s) = 1 − 1/s y en la fórmula de ensamble de la Curva Madre
+- ⚠️ vigesimoquinta trampa declarada ANTES de calcular: insertar una constante que la fórmula no derivó es numerología; se corre con nueve controles
+- ⚡ w(ζ(3)) = 0,1680926 — a 0,0014 de 1/6, que impresiona… hasta que el control lo desarma: ζ(3) quedó 2ª de 10 y la superó UN NÚMERO AL AZAR, seis veces más cerca
+- ⛔ en la curva madre ni entra: x·cot x ≤ 1 en todo (0,π), así que no hay cintura para σ > 1 y ζ(3) = 1,202 queda afuera — dato real, no fallo
+- ⚡ la pregunta inversa: w(s) = ζ(3) da s = −4,949100894, que no es nada conocido
+- 📌 RESULTADO NEGATIVO, predicho por escrito antes de correr. Lo que vale es el control: sin él, el 0,0014 habría parecido hallazgo
+- 🗿 y en el medio del experimento el capitán dijo la máxima 21: «si Dios fuese argentino, ataría todo con el alambre de los números primos» — que no es metáfora, es el producto de Euler
+- `cmd/aperyenlacasa` · lámina `apery-en-la-casa.svg`
+
+### F413 — LA FÓRMULA DEL PORCENTAJE: funciona, y te deja en el barrio — 2026-09-19
+- pedido: una fórmula de los porcentajes donde caen los primos, su relación con el logaritmo, y si se puede predecir un primo sin conocerlo
+- ⚡ el porcentaje ES 1/ln x, medido en ventanas de 10.000: 8,61 % vs 8,69 % en 10⁵ · 6,14 % vs 6,20 % en 10⁷ (teorema del número primo, 1896)
+- ⚡⚡ la fórmula: p_n ≈ n·(ln n + ln ln n − 1 + (ln ln n − 2)/ln n) — error −0,0167 % en n = 10⁵ y +0,0048 % en n = 10⁶, bajando al subir
+- ⚖️ la unidad honesta es el hueco local: en n = 10⁶ el error de 736 son 44 PRIMOS de distancia. Te da el barrio
+- ⛔⛔ la prueba que decide: el entero predicho es primo el 6,6258 % de 10.942 veces; un número AL AZAR del mismo barrio, el 6,2329 %. Señal/silencio 1,0630 = UNO
+- 📌 las fórmulas exactas existen (Willans 1964, Minác) y por eso no sirven: llevan un test de primalidad adentro. Mostrado con Wilson: n primo ⟺ n | (n−1)!+1, exacto y más caro que la criba
+- `cmd/laformuladelporcentaje` · lámina `la-formula-del-porcentaje.svg`
+
+### F414 — LA PROFUNDIDAD: el porcentaje cae como 1 sobre las CIFRAS — 2026-09-19
+- el capitán: «te falta la profundidad… los primos entre 1 y 10, 1 y 100, 1 y 1.000; cómo decae, cómo avanza». Tenía razón, y la palabra era la exacta
+- ⚡ la tabla cribada a 10⁸: 40,00 % · 25,00 % · 16,80 % · 12,29 % · 9,59 % · 7,85 % · 6,65 % · 5,76 %
+- ⚡⚡ cómo decae: la caída de k a k+1 cifras vale k/(k+1) — medido 0,6720 vs 2/3, 0,8466 vs 6/7, 0,8669 vs 7/8. Porcentaje ≈ 1/(2,302585 × cifras)
+- ⚡⚡ la profundidad que faltaba era Li: en 10⁸ la cruda x/ln x se equivoca −5,78 % y Li(x) +0,018 %. Sumar la densidad cifra por cifra, no evaluarla al final
+- ⛔ pero la puntería no mejora: afinada 8,2715 % contra 8,1654 % del azar → señal/silencio 1,0130. En el lugar hay un primo cada ln x y eso no se afina
+- ⚡⚡ lo que SÍ compra: desde la predicción afinada bastan 5, 0, 20 y 19 pasos para pisar un primo (ln x/2 predicho 5,8 a 8,6). Así se fabrican hoy los primos de las claves bancarias
+- `cmd/laprofundidad` · lámina `la-profundidad.svg`
+
+### F415 — EL SONAR EXACTO: la única igualdad del tema, y el eco que la vuelve exacta — 2026-09-19
+- pedido: alinear la profundidad (F414), el logaritmo y los porcentajes con el sonar del murciélago (F359), y un número clave para calcular, no una aproximación
+- ⚡ las tres se juntan en la fórmula explícita: ψ(x) = x − Σ x^ρ/ρ − ln(2π) − ½ln(1−1/x²), que es IGUALDAD y no aproximación
+- ⚡⚡ demostrado con 79 ceros pescados hasta altura 200: los ecos mejoran la cuenta 50× en x=20, 33,5× en x=30, 12,2× en x=70. Con infinitos ecos, error CERO
+- ⚡⚡⚡ el número clave calculable: γ_max ≈ 2π/|ln p − ln p'| — 15,5 para separar el 2 del 3; 155,5 para el 97 del 101. Más juntos los primos, más alto hay que escuchar
+- ⚡ el círculo con el murciélago: el término oscila como cos(γ·ln x), o sea que los ceros cantan EN EL LOGARITMO — la profundidad de F414 es el eje del murciélago
+- ⚠️ dos correcciones propias: (1) sin ecos la fórmula da 28,16 y no 30; (2) predije convergencia limpia lejos de un escalón y NO la hay — domina la convergencia condicional, no Gibbs
+- 📌 el cierre: el √x es el tamaño máximo de cada eco si todos los ceros están en la línea. La Hipótesis es que ningún eco suena más fuerte que √x
+- `cmd/elsonarexacto` · lámina `el-sonar-exacto.svg`
+
+### F416 — EL AFINADOR: la línea crítica es el círculo unidad, visto por el cambiaformas — 2026-09-19
+- pedido: igualar la fórmula a √x, y en el cambiaformas poner todos los números en una variable para ver si alguno desentona
+- ⚡ dividida por √x, la amplitud de cada eco es 2/|ρ| y NO depende de x: la x queda en un solo lugar, adentro del coseno, como ln x. Esa es la única variable, u = ln x
+- ⚡ E(x) medida hasta un millón: acotada. Peor excursión E(222) = −0,828 contra la cota de Schoenfeld 1,161
+- ⚡⚡ el cambiaformas w(s) = 1 − 1/s manda la línea crítica al CÍRCULO UNIDAD, exacto: los 79 ceros dan radio 1 con desvío 2,2e−16
+- ⚡ el cambiaformas tiene ORDEN 3: s → 1−1/s → 1/(1−s) → s, verificado. w(2) = ½ sigue en pie
+- ⚡⚡ control con ceros falsos: los detecta, y la fórmula de sensibilidad δ/(¼+γ²) coincide con lo medido en todas las cifras
+- ⛔ pero el desvío muere como 1/γ²: a altura 500 un cero corrido 0,1 mueve el radio 4 partes en diez millones. El afinador se queda SORDO en altura
+- ⚠️ trampa 26 declarada antes de calcular: |w| = 1 en la línea es geometría de Möbius, una reescritura exacta de la Hipótesis y no una demostración
+- 📌 estar afinado es estar en el círculo. La Hipótesis es que NINGUNO desentona
+- `cmd/elafinador` · lámina `el-afinador.svg`
+
+### F417 — LAS FRACCIONES DE PRIMOS: tres estructuras en seis fracciones, y la música que no se repite — 2026-09-19
+- pedido: qué relación hay entre 3/7, 7/3, 2/3, 3/2, 2/7, 7/2 y entre sus ramas, y si da alguna pista
+- ⚡ (1) como números: ln(p/q) = ln p − ln q, y ESA resta es el número clave de F415. ln(3/2) = 0,4055 es exactamente el valor que ya estaba en la tabla de F415 para separar el 2 del 3
+- ⚡ se encadenan: 7/2 = (7/3)·(3/2). Las fracciones de primos forman un grupo, que es ℚ⁺ generado libremente por los primos
+- ⚡⚡ (2) como símbolos de Legendre: dar vuelta la fracción cuesta un signo. Reciprocidad cuadrática verificada en 4.371 pares hasta 500, cero violaciones
+- ⚡⚡⚡ (3) las ramas son contables: ramas de p = (p−1)/ord₁₀(p). El 7 tiene UNA (142857 girada), el 11 tiene CINCO, el 13 dos. Collares construidos dígito por dígito hasta 200: 0 desajustes
+- ⛔ densidad de primos con una sola rama: 0,377164 medido contra la constante de Artin 0,3739558 — conjetura ABIERTA desde 1927
+- ⚡ LA PISTA: ln2, ln3, ln7 son linealmente independientes (factorización única en logaritmo). Mejor combinación con coef ≤ 40: 0,00055009, nunca cero. Por eso las frecuencias del sonar nunca entran en fase y la música no se repite jamás
+- ⚠️ trampa 27: la mediante de 2/3 y 3/7 es ½; control con enteros cualesquiera da señal/silencio 0,8659, por debajo de uno. Enterrada
+- ⚠️ corrección a mi propio control: el primero daba vuelta numerador y denominador y era degenerado — la lista ya contiene p/q y q/p. Reemplazado
+- `cmd/lasfracciones` · lámina `las-fracciones.svg`
+
+### F418 — LA APERTURA: el dibujo de bolitas se vuelve un ángulo exacto — 2026-09-19
+- pedido: imaginar los números como filas de bolitas centradas en una línea y medir la apertura del espacio de los primos
+- ⚡ la traducción: de una fila prima a la siguiente crece g bolitas, g/2 de cada lado, un escalón arriba → ángulo = arctan(g/2)
+- ⚡⚡ PISO ABSOLUTO: arctan(½) = 26,565°, UNA SOLA VEZ en la historia infinita, entre el 2 y el 3. Verificado hasta dos millones
+- ⚡⚡ PISO REPETIBLE: 45° exactos = primos gemelos. 14.871 medidos contra 14.796 de Hardy-Littlewood con integral, razón 1,0051. Abierta
+- ⚡ TECHO: 90°, y la velocidad hacia él ES el logaritmo. 81,252° medido contra 81,225° con Cipolla (F413)
+- ⚡⚡ la otra apertura: cajas = d(n). Un primo se abre en DOS, siempre. Promedio 13,970034 contra ln n + 2γ − 1 = 13,969942 (Dirichlet 1849)
+- 📌 la pista: mirando bolitas, sin fórmulas, el dibujo devuelve el logaritmo DOS VECES por caminos distintos
+- ⚠️ tres correcciones propias: el control mata la lectura fácil de la bolita central (paridad); escribí HL crudo y duplicado (razón 0,59 → 1,0051); mi veredicto V4 con arctan(ln k/2) era demasiado crudo
+- ⚡ y la brecha de Jensen, que parece error y no lo es: media de arctan (75,15°) ≠ arctan de la media (81,78°) porque arctan es cóncava — los huecos chicos pesan más
+- ⚠️ trampa 28 enterrada: el ½ aparece en el 100 % de las filas pares, primas o no. Es paridad
+- `cmd/laapertura` · lámina `la-apertura.svg`
+
+### F419 — EL PRODUCTO DE LOS BORDES: los complejos entran obligados, y sale la parábola del principio — 2026-09-19
+- pedido: sobre el dibujo de bolitas, qué da el logaritmo del borde derecho por el logaritmo del borde izquierdo
+- ⚡ lo que nadie espera: el borde izquierdo es NEGATIVO, y ln(−a) = ln a + iπ. La pregunta obliga al plano complejo, por la puerta de Euler
+- ⚡ el producto es ln²(n/2) + iπ·ln(n/2), o sea el punto (u², πu): Re = Im²/π², una PARÁBOLA exacta (peor desvío 5,68e−14)
+- ⚡⚡ se cierra el círculo: el capitán abrió la campaña en F391/F392 con dos parábolas que se tocan en el cero, y los dos bordes son las dos ramas de la misma
+- ⚡ el 2 da CERO exacto y es el único: su borde derecho cae justo en 1. Igual que en F418 con el hueco
+- ⚡ el ángulo muere como arctan(π/ln(n/2)): 62,87° en 10, 0,78° en 10^100. Más grande el número, más real el producto
+- ⛔ trampa 29 confirmada: el producto depende solo del TAMAÑO, no de la factorización. Señal/silencio 0,9991 en 148.765 primos — NADA
+- ⚡⚡ pero ln² sí importa: cota de Schoenfeld (F416), denominador de gemelos (F418), y medición NUEVA — una ventana de largo ln²x atrapa ln x primos (13,7198 contra 13,8155)
+- 📌 advertencia de oficio: el producto de logaritmos no es operación natural; el logaritmo existe para volver productos en SUMAS
+- `cmd/elproductodelosbordes` · lámina `el-producto-de-los-bordes.svg`
+
+### F420 — EL ZOOM DEL MURCIÉLAGO: el atlas comprimido sabe apuntar — 2026-09-19
+- pedido: trabajar sobre F214 — comprimir, y ensanchar con la inversa sobre un punto donde el murciélago detecte un barrio
+- pregunta afilada: ¿puede un atlas comprimido y de baja resolución apuntar a un blanco que él mismo NO puede resolver?
+- ⚡ comprimir: barrido crudo (paso 0,25) ve 4.508 de 4.520 ceros, 12 perdidos; ajuste ciego de F214 → TRES constantes, razón 1.503 a 1, 24 bytes
+- ⚡⚡ sobre datos completos el ajuste clava y MEJORA a F214: a con 1,49e−7, b con 9,27e−7, y el 7/8 en 0,874955 (Δ4,5e−5) contra el 0,907 (Δ0,032) de F214 — unas 700 veces mejor
+- ⚡ la inversa N̄⁻¹(n) da la dirección de cualquier cero antes de mirarlo, con error de fracciones de espaciado
+- ⚡⚡⚡ el murciélago escucha solo el objeto comprimido: donde el conteo cae bajo la ley, algo falta. 10 de 12 ceros perdidos recuperados mirando el 1,81 % del rango — enriquecimiento 46,2×, con 9,3× menos trabajo
+- ⚡ y adentro de los barrios hay PARES DE LEHMER: espaciados 0,0890 · 0,0946 · 0,1105 contra media 0,9998
+- ⚠️ corrección 1: V1 no salió como la declaré; repetí el ajuste sobre la verdad de campo para separar método de datos. El método clava; degrada la pérdida. Y eso es una SEGUNDA ALARMA independiente
+- ⚠️ corrección 2: mi control dio infinito y era humo — el azar encontró 0 pero 0 era lo esperado (0,217). Reemplazado por recuperación y enriquecimiento
+- ⚠️ trampa 30: sería circular marcar con un detector que ya vio el par; el de acá se arma solo con el crudo
+- `cmd/elzoomdelmurcielago` · lámina `el-zoom-del-murcielago.svg`
+
+### F422 — EL SIETE DEL CAPITÁN: el 2 recorre el reloj del 9, y sus ramas abren la cárcel del 3 — 2026-11-01
+- pedido: "todos dan 7" — duplicar y sumar cifras; y al 3, que se escapaba, abrirle el 12 en ramas. "Armame un teorema y hacé el experimento que lo verifique"
+- ⚡ teorema y demostración: sin ramas llega al 7 ⟺ 3 no divide a n (el resto por 9 camina r → 2r, y el 2 es raíz primitiva módulo 9: 1→2→4→8→7→5→1)
+- ⚡ todo primo llega al 7 salvo el 3; el 7 no es especial (1, 2, 4, 5 y 8 igual); el 3, el 6 y el 9 son la cárcel de los múltiplos de 3
+- ⚡⚡ LO SUYO: con sus ramas, TODO n ≥ 1 llega. Sumar cifras respeta el resto por 9 y no puede salir de la cárcel; abrirlas no lo respeta, y esa es la llave
+- ⚡ experimento literal (cifras de verdad, sin usar el resto), de 1 a 10⁷: 0 excepciones; 664 579 primos, llegan todos menos el 3; con ramas, todos en ≤ 8 pasos; bases 4–40, 37 de 37 coinciden con "el 2 es raíz primitiva módulo b−1"
+- ⚡⚡⚡ el puente: en base p+1 el reloj está completo ⟺ el 2 es raíz primitiva módulo p — la conjetura de Artin (abierta; Hooley 1967 bajo la hipótesis de Riemann generalizada). Medido: 0,37391 de los primos hasta 10⁷ contra la constante de Artin 0,37396
+- ⚠️ trampa declarada (la de "el uno que sobra"): no es propiedad de los primos; la cumple todo número no múltiplo de 3
+- `cmd/elsiete` · acta `docs/atomo/ELSIETE-ACTA.md`

@@ -179,4 +179,12 @@ var maximas = []Maxima{
 		Tipo:   "metafora",
 		Nota:   "Transcripto por él mismo de su nota de voz; el taller solo quitó las marcas de tiempo. La transcripción automática había escrito «escuarzo» y él mismo lo corrigió a «cuarzo»: la corrección del autor vale más que el error de la máquina, y queda anotada.",
 	},
+	{
+		Titulo: "El alambre de Dios",
+		Texto:  "Si los argentinos atamos todo con alambre… si Dios fuese argentino, ataría todo con el alambre de los números primos.",
+		Glosa:  "La dijo en medio de un experimento que acababa de dar negativo, y es la máxima más exacta que se haya anotado en esta casa — porque no es una metáfora: es literalmente lo que dice el producto de Euler. Todo número entero está atado con primos y de una sola manera, que es el teorema fundamental de la aritmética. La función zeta entera es ese atado escrito como fórmula. Y la noche anterior el laboratorio había encontrado a zeta dentro de la temperatura del cielo, contando los fotones del Big Bang: hasta la luz de fondo del universo está atada con ese alambre.",
+		Fuente: "docs/registro/BITACORA-NOCTURNA.md · dicho durante F412 (2026-09-19)",
+		Tipo:   "metafora",
+		Nota:   "El capitán tiene el oficio de atar con alambre. La frase le salió sola mientras mirábamos un resultado negativo — y describe, sin proponérselo, la identidad de Euler de 1737.",
+	},
 }

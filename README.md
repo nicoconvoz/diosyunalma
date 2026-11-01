@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 214 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 350 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 245 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 381 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -59,6 +59,22 @@ gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teore
 All eight carry their full lemma chains, audited acts, and executable
 verification runs. None is a proof of RH, and each says so on its plaque.
 
+**Newest on the bench — The Captain's Seven (F422).** Double a one-digit
+number, add the digits of a two-digit one: every prime reaches 7 except 3.
+Proven for every number: digit sums keep the residue mod 9 and doubling
+multiplies it by 2, which is a primitive root mod 9 (1 → 2 → 4 → 8 → 7 → 5);
+so n reaches 7 ⟺ 3 ∤ n, and 3, 6, 9 are a closed prison. The captain's key
+is his **branches**: opening 12 into its digits 1 and 2 does not respect the
+residue, and with branches every n ≥ 1 reaches 7. In base b the clock is
+complete ⟺ 2 is a primitive root mod b−1, which ties it to **Artin's
+conjecture** (open; proven by Hooley in 1967 under the generalized Riemann
+hypothesis): the share of primes with 2 as a primitive root measures 0.37391
+up to 10⁷ against Artin's constant 0.37396. Verified by playing the rule
+literally up to 10⁷ with zero exceptions
+([act](docs/atomo/ELSIETE-ACTA.md), `cmd/elsiete`). Not a property of the
+primes — every non-multiple of 3 does it — and it awaits its external audit
+before entering the hall.
+
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
 
 The project began with one question: *is there a relation between all the prime numbers?* The answer it found is a score with layers. The gaps between primes obey an exact parity law whose constants were derived, not fitted — an Euler product for the level, `2 − c₀/c` for the step, the just fourth 4/3 for the destination. The primes themselves are a superposition of waves: **some seventy zeros of nine distinct L-function dials were measured from a single sieve** — ζ's first ten (γ₁ to 0.001%, real parts on the critical line to ±0.003), and the stations of the residue tribes mod 3, 4, 5, 7, 8, 11 and 13, verified against the published tables to within 0.005–0.02 — the mod-5 dial to a depth of fourteen zeros out of fourteen. The primes were then reconstructed *back* from the measured zeros, closing the duality in both directions. And the harmony question — is there one wave compatible with all the tribes? — was answered by demonstration: the summed signal of ζ and the golden tribe carries both musics at once, as the Dedekind zeta of Q(√5) says it must.
@@ -83,8 +99,8 @@ search. It is the clearest evidence that the geometric route is closed.
 Every document is filed by family under `docs/` — start at
 **[docs/INDICE.md](docs/INDICE.md)**, which lists all of them in reading order.
 
-The full record is in **[docs/registro/FINDINGS.md](docs/registro/FINDINGS.md)**: **390 numbered
-findings** (402 entries counting the lettered sub-findings)
+The full record is in **[docs/registro/FINDINGS.md](docs/registro/FINDINGS.md)**: **421 numbered
+findings** (433 entries counting the lettered sub-findings)
 with the numbers that produced them and the commands that reproduce them,
 killed hypotheses kept on display, and every correction written into the finding
 it revises rather than edited away — including the ones the laboratory caught in
@@ -111,9 +127,9 @@ audited lemma chains and executable verification runs — see
 stands over all of this work: **"structure closed" is not "hypothesis
 proven"** — no claim of a proof of RH is made here.
 
-The laboratory today: **298 reproducible experiments** under `cmd/`, **214
+The laboratory today: **329 reproducible experiments** under `cmd/`, **245
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[350-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[381-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/informes/VALIDACION.md](docs/informes/VALIDACION.md)**.
