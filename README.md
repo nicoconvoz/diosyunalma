@@ -62,7 +62,11 @@ gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teore
   doubling multiplies it by 2, a primitive root mod 9 (1 → 2 → 4 → 8 → 7 → 5),
   so n reaches 7 ⟺ 3 ∤ n and {3, 6, 9} is a closed prison. His key is the
   **branches**: opening 12 into its digits 1 and 2 does not respect the
-  residue, and with branches every n ≥ 1 reaches 7. In base b the clock is
+  residue, and with branches every n ≥ 1 reaches 7. And his rule has a
+  second half, **the meeting**: the branch that arrives waits, and two
+  branches on the same number join (9 → 18 → 1 and 8; the 1 climbs to 8;
+  8 + 8 = 16 → 7). All free branches live on the same turn of the clock, so
+  they always meet and end together in 7. In base b the clock is
   complete ⟺ 2 is a primitive root mod b−1, a bridge to **Artin's
   conjecture** (open; Hooley 1967 under the generalized Riemann hypothesis):
   the share of primes with 2 as a primitive root measures 0.37391 up to 10⁷

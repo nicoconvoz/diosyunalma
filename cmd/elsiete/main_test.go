@@ -58,6 +58,32 @@ func TestConRamasTodosLlegan(t *testing.T) {
 	}
 }
 
+// (6) THE MEETING (the captain, 2026-11-01): "9 = 9+9 = 18, acá se divide,
+// 1+1 = 2, 2+2 = 4, 4+4 = 8; el otro ya estaba en 8 cuando lo alcanza; se
+// encuentran y siguen juntas, 8 de una más 8 de otra, 16, y finalmente 7".
+func TestElEncuentroDelCapitan(t *testing.T) {
+	ok, pasos, juntadas, camino := encuentro(9, 7, 10)
+	if !ok || juntadas != 1 || camino != "9 → 18 → ramas 1 y 8 → 2 → 4 → 8 se junta con 8: 16 → 7" {
+		t.Errorf("el 9 del capitán: %v en %d pasos, %d juntadas, camino %q", ok, pasos, juntadas, camino)
+	}
+	ok, _, juntadas, camino = encuentro(3, 7, 10)
+	if !ok || juntadas != 1 || camino != "3 → 6 → 12 → ramas 1 y 2 → 2 se junta con 2: 4 → 8 → 16 → 7" {
+		t.Errorf("el 3: %v, %d juntadas, camino %q", ok, juntadas, camino)
+	}
+	if ok, _, juntadas, _ := encuentro(13, 7, 10); !ok || juntadas != 0 {
+		t.Errorf("el 13 no se abre: suma 4, 8, 16, 7")
+	}
+}
+
+// With the meeting, every n >= 1 ends with all its branches together in the 7.
+func TestConElEncuentroTodasLasRamasTerminanEnElSiete(t *testing.T) {
+	for n := 1; n <= 100000; n++ {
+		if ok, _, _, _ := encuentro(n, 7, 10); !ok {
+			t.Fatalf("%d no terminó con todas sus ramas en el 7", n)
+		}
+	}
+}
+
 // (5) In base b (b >= 4), without branches, from every one-digit unit of the
 // clock of b-1 the rule reaches every other unit exactly when 2 is a
 // primitive root modulo b-1. (Base 3 has a clock of one face, where

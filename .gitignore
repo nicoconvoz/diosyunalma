@@ -16,3 +16,6 @@ instalador/salida/
 
 # guia privada del capitan: no se publica
 docs/COMO-PUBLICAR.md
+
+# paquetes armados a mano: docs.zip lleva la guia privada adentro, no se publica
+docs/**/*.zip

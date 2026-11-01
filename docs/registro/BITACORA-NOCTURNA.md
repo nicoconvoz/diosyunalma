@@ -4089,4 +4089,6 @@
 - ⚡ experimento literal (cifras de verdad, sin usar el resto), de 1 a 10⁷: 0 excepciones; 664 579 primos, llegan todos menos el 3; con ramas, todos en ≤ 8 pasos; bases 4–40, 37 de 37 coinciden con "el 2 es raíz primitiva módulo b−1"
 - ⚡⚡⚡ el puente: en base p+1 el reloj está completo ⟺ el 2 es raíz primitiva módulo p — la conjetura de Artin (abierta; Hooley 1967 bajo la hipótesis de Riemann generalizada). Medido: 0,37391 de los primos hasta 10⁷ contra la constante de Artin 0,37396
 - ⚠️ trampa declarada (la de "el uno que sobra"): no es propiedad de los primos; la cumple todo número no múltiplo de 3
+- ⚡⚡ LA REGLA COMPLETA, el encuentro (corrección del capitán: me había salteado esa parte): la rama que llega espera, y al juntarse se suman — 9 → 18 → 1 y 8, el 1 sube a 8, 8+8 = 16 → 7. Ley del encuentro demostrada (todas las ramas libres viven en la misma vuelta; lo que falta solo baja) y verificada hasta 10⁷: 0 fallas, se juntan en 3.333.333 números, exactamente los múltiplos de 3
+- ⚠️ conjetura propia refutada: que en otra base las ramas se encuentran solo si el 2 es raíz primitiva; en base 5 se juntan igual (abrir vuelve a mezclar las vueltas) — queda abierta
 - `cmd/elsiete` · acta `docs/atomo/ELSIETE-ACTA.md`

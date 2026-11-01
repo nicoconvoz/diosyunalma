@@ -404,6 +404,24 @@ func main() {
 		res.artin = append(res.artin, [3]float64{float64(tope), float64(cuenta), float64(total)})
 	}
 
+	fmt.Printf("\n(6) el encuentro del capitán: la rama que llega espera, y al juntarse se suman (de 1 a %d)\n", N)
+	var noTerminan, conJuntadas, maxPasosE, maxJuntadas int
+	for n := 1; n <= N; n++ {
+		ok, p, j, _ := encuentro(n, 7, 10)
+		if !ok {
+			noTerminan++
+		}
+		if j > 0 {
+			conJuntadas++
+		}
+		maxPasosE, maxJuntadas = max(maxPasosE, p), max(maxJuntadas, j)
+	}
+	_, _, _, del9 := encuentro(9, 7, 10)
+	fmt.Printf("    no terminan con todas sus ramas en el 7: %d · se juntaron ramas en %d · a lo sumo %d pasos y %d juntadas\n",
+		noTerminan, conJuntadas, maxPasosE, maxJuntadas)
+	fmt.Printf("    el 9 del capitán: %s\n", del9)
+	res.noTerminan, res.conJuntadas, res.maxPasosE = noTerminan, conJuntadas, maxPasosE
+
 	ruta := filepath.Join("galeria", "laminas", "10-el-telar", "el-siete-del-capitan.svg")
 	if err := os.WriteFile(ruta, []byte(lamina(res)), 0o644); err != nil {
 		fmt.Println("⚠ no pude escribir la lámina:", err)

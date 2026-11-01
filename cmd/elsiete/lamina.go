@@ -9,6 +9,7 @@ import (
 // resultado is what the experiment measured, for the plate.
 type resultado struct {
 	hasta, primos, maxSin, maxCon int
+	noTerminan, conJuntadas, maxPasosE int // the meeting (6)
 	escapan, bases                []int
 	artin                         [][3]float64 // tope, primes with 2 as primitive root, odd primes
 }
@@ -119,12 +120,15 @@ func lamina(r resultado) string {
 	caja(20, 490, 500, 230)
 	txt(270, 516, 13, verde, "middle", "3 · LA LLAVE DEL CAPITÁN: LAS RAMAS")
 	txt(270, 552, 16, tinta, "middle", "3 → 6 → 12")
-	txt(270, 576, 12, tenue, "middle", "el 12 se abre en dos ramas, una por cifra:")
-	txt(270, 600, 15, verde, "middle", "rama 1: 1 → 2 → 4 → 8 → 16 → 7")
-	txt(270, 624, 15, verde, "middle", "rama 2: 2 → 4 → 8 → 16 → 7")
-	txt(270, 652, 12, suave, "middle", "sumar las cifras del 12 da 3: respeta el resto, no sale de la cárcel")
-	txt(270, 672, 12, suave, "middle", "abrirlas en 1 y 2 NO lo respeta: esa es la llave, y es suya")
-	txt(270, 700, 12, tenue, "middle", "el 6 abre el 12, el 9 abre el 18 (1 y 8): nadie queda preso")
+	txt(270, 574, 12, tenue, "middle", "el 12 se abre en dos ramas; la que llega espera, y al encontrarse se suman:")
+	txt(270, 598, 15, verde, "middle", "1 → 2 · se junta con el 2: 2 + 2 = 4 → 8 → 16 → 7")
+	txt(270, 626, 15, verde, "middle", "9 → 18 → ramas 1 y 8 · 1 → 2 → 4 → 8 · 8 + 8 = 16 → 7")
+	txt(270, 654, 12, suave, "middle", "sumar las cifras del 12 da 3: respeta el resto, no sale de la cárcel")
+	txt(270, 674, 12, suave, "middle", "abrirlas NO lo respeta, y todas las ramas viven en la misma vuelta:")
+	txt(270, 694, 12, suave, "middle", "se encuentran siempre, y terminan juntas en el 7. Esa llave es suya")
+	if r.hasta > 0 {
+		txt(270, 712, 11, tenue, "middle", fmt.Sprintf("con el encuentro, de 1 a %s: %d que no terminan · a lo sumo %d pasos", miles(r.hasta), r.noTerminan, r.maxPasosE))
+	}
 
 	// the experiment and the bridge
 	caja(540, 490, 500, 230)
@@ -135,7 +139,7 @@ func lamina(r resultado) string {
 	txt(560, 618, 12, verde, "start", "el puente: ¿en qué parte de los primos p el 2 es raíz primitiva?")
 	txt(560, 634, 11, tenue, "start", "la conjetura de Artin (abierta; Hooley 1967, si vale Riemann generalizada)")
 	const constante = 0.3739558136192
-	y0, x0, ancho := 704.0, 600.0, 360.0
+	y0, x0, ancho := 698.0, 600.0, 360.0
 	escala := func(v float64) float64 { return y0 - v*120 }
 	w(`<line x1="%.0f" y1="%.1f" x2="%.0f" y2="%.1f" stroke="%s" stroke-dasharray="4 3"/>`, x0-10, escala(constante), x0+ancho, escala(constante), oro)
 	txt(x0+ancho+4, escala(constante)+4, 11, oro, "start", coma(constante, 5))

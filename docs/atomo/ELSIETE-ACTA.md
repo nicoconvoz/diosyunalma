@@ -34,6 +34,28 @@
    de b−1 se llega a todas las otras) **si y solo si el 2 es raíz primitiva
    módulo b−1.** La base 10 es una de ellas, y por eso aparece el 7.
 
+**La regla completa (el capitán, 2026-11-01): el encuentro.** «9 = 9+9 = 18,
+acá se divide, 1+1 = 2, 2+2 = 4, 4+4 = 8; el otro ya estaba en 8 cuando lo
+alcanza; se encuentran y siguen juntas, 8 de una más 8 de otra, 16, y
+finalmente 7.» Una cifra se duplica; dos cifras se suman, salvo que la suma
+caiga en la cárcel (3, 6 o 9): ahí se abren en ramas. Avanza la rama más
+chica y las demás esperan; dos ramas en el mismo número se juntan (se suman)
+y siguen como una.
+
+6. **La ley del encuentro: con la regla completa, todas las ramas de todo
+   n ≥ 1 se encuentran y terminan juntas en el 7.** Las ramas libres viven
+   en la misma vuelta del reloj (1 → 2 → 4 → 8 → 7 → 5), cada una a un
+   número fijo de saltos del 7: moverse acerca a la que se mueve y no aleja a
+   ninguna, y juntar dos iguales es lo mismo que duplicar. Lo que falta por
+   recorrer solo baja, así que termina, y termina en el 7. Una rama presa
+   llega a 12 o 18 en dos pasos y se abre; una rama libre nunca vuelve a la
+   cárcel, así que las aperturas son finitas. ∎
+
+**Verificado con el encuentro**, jugando la regla completa del 1 al 10⁷:
+**0** números que no terminen con todas sus ramas juntas en el 7; las ramas
+se juntaron en **3.333.333** números, exactamente los múltiplos de 3 (los que
+caen presos y tienen que abrirse); a lo sumo 34 pasos y 10 juntadas.
+
 ## La demostración (vale para todos los números, no solo los medidos)
 
 - **El resto por 9.**
