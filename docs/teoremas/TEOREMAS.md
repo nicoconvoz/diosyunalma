@@ -532,4 +532,67 @@ como √τ). Documento completo con demostraciones:
 
 ---
 
-*Espacio reservado para el Teorema 8 — porque vienen más.*
+## TEOREMA 8 — TEOREMA DEL SIETE DEL CAPITÁN
+
+**Registrado:** 2026-11-01 · F422 (demostración, experimento literal hasta
+10⁷ y puente con la conjetura de Artin).
+
+**Nombre:** el del capitán, que lo encontró A MANO jugando con las cifras de
+los primos («todos dan 7») y le abrió el 12 en ramas al 3 que se escapaba.
+La demostración y el experimento, del taller.
+
+**Auditoría:** entró al libro sin auditoría externa, por decisión del
+capitán: «es para eso, para que los que lo vean lo auditen». Queda abierto
+a la auditoría de quien lo lea.
+
+**La regla (base b; la del capitán es b = 10).** Un número de una cifra se
+duplica; uno de dos o más cifras se suma. Con ramas: un número de dos o más
+cifras puede, en vez de sumarse, abrirse en sus cifras, y cada una sigue
+como su propia rama.
+
+**Enunciado.**
+
+1. Sin ramas, n ≥ 1 llega al 7 ⟺ 3 ∤ n.
+2. Todo primo llega al 7, salvo el 3.
+3. El 7 no es especial: lo mismo vale para 1, 2, 4, 5 y 8; el conjunto
+   {3, 6, 9} es cerrado.
+4. Con ramas, todo n ≥ 1 llega al 7.
+5. En base b ≥ 4, desde cada cifra que es unidad módulo b − 1 se llega a
+   todas las otras ⟺ 2 es raíz primitiva módulo b − 1.
+
+**Demostración.**
+
+- Como 10 ≡ 1 (mod 9), la suma de cifras conserva el resto módulo 9, y
+  duplicar lo multiplica por 2: a lo largo de la regla el resto evoluciona
+  como r ↦ 2r (mod 9).
+- Un número de una cifra es su resto (9 por 0). Para 5 ≤ d ≤ 9, la suma de
+  las cifras de 2d es 2d − 9. Así, en una cifra, la regla es exactamente
+  r ↦ 2r en {1, …, 9} módulo 9.
+- (1) Si 3 | n, el resto vive en {0, 3, 6}, que ×2 deja invariante. Si no,
+  vive en (ℤ/9ℤ)* = {1, 2, 4, 5, 7, 8}, cíclico de orden 6 y generado por 2
+  (2, 4, 8, 7, 5, 1); en a lo sumo cinco duplicaciones el resto es 7.
+- (2) De (1). (3) El ciclo recorre las seis unidades.
+- (4) Si 3 | n, la regla cae en 3, 6 o 9; en a lo sumo dos duplicaciones
+  aparece 12 o 18, cuya cifra 1 no es múltiplo de 3 y llega por (1).
+- (5) El mismo argumento módulo b − 1. ∎
+
+**El puente.** Con b − 1 = p primo, (5) pide que el 2 sea raíz primitiva
+módulo p: la conjetura de Artin (1927) pregunta si hay infinitos primos así
+(Hooley 1967, bajo la hipótesis de Riemann generalizada) y predice su
+proporción, 0,3739558… Medida hasta 10⁷: 0,37391.
+
+**Verificación.** La regla jugada literal, sumando cifras de verdad, del 1
+al 10⁷: cero excepciones; de los 664 579 primos llegan todos menos el 3;
+con ramas llegan todos en a lo sumo 8 pasos; bases 4 a 40, 37 de 37.
+
+**Alcance declarado y honestidad.** No es una propiedad de los primos: la
+cumple todo n no múltiplo de 3. La prueba del 9 es clásica y que el 2 sea
+raíz primitiva módulo 9 es aritmética de Gauss; lo propio del taller son las
+ramas y el puente, que no demuestra la conjetura de Artin ni dice nada nuevo
+sobre la Hipótesis de Riemann. Acta: `docs/atomo/ELSIETE-ACTA.md`.
+
+**Reproducir:** `go run ./cmd/elsiete`.
+
+---
+
+*Espacio reservado para el Teorema 9 — porque vienen más.*

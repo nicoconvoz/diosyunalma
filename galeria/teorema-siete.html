@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>El Teorema del Siete del Capitán — Laboratorio Diosyunalma</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b1526; --panel:#0d2547; --ink:#dce8f7; --dim:#8fa8c7; --gold:#ffd166; --green:#7fd7a8; --blue:#7fb2ff; --rose:#ff9aa8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,serif; line-height:1.65; }
+  header { text-align:center; padding:40px 16px 8px; }
+  header h1 { margin:0; font-size:32px; color:var(--ink); }
+  header .sub { color:var(--gold); margin:10px 0 0; font-size:16px; }
+  header .quien { color:var(--dim); margin:8px 0 0; font-size:13.5px; }
+  nav { text-align:center; padding:14px; position:sticky; top:0; background:rgba(11,21,38,.95); border-bottom:1px solid #1d3a63; z-index:5; }
+  nav a { color:var(--gold); text-decoration:none; margin:0 8px; font-size:13px; }
+  nav a:hover { text-decoration:underline; }
+  main { max-width:900px; margin:0 auto; padding:10px 22px 40px; }
+  h2 { color:var(--green); border-bottom:1px solid #1d3a63; padding-bottom:8px; font-size:21px; margin-top:44px; }
+  p { font-size:15px; }
+  .math { background:var(--panel); border:1px solid #26456e; border-radius:10px; padding:14px 18px;
+          font-family:Consolas,monospace; font-size:15px; color:var(--gold); overflow-x:auto; text-align:center; margin:18px 0; }
+  .math.chica { font-size:13.5px; color:var(--ink); text-align:left; }
+  .paso { border-left:3px solid #2f7f63; padding:2px 0 2px 16px; margin:20px 0; }
+  .paso b.t { color:var(--green); }
+  .real { border-left:3px solid var(--gold); padding:2px 0 2px 16px; margin:20px 0; }
+  .real b.t { color:var(--gold); }
+  .honesto { background:rgba(255,154,168,.05); border:1px solid #5c2b3a; border-radius:10px; padding:14px 18px; margin:22px 0; }
+  .honesto b { color:var(--rose); }
+  .imagen { background:rgba(255,209,102,.06); border:1px solid #6b5a26; border-radius:10px; padding:14px 18px; margin:20px 0; }
+  .imagen b { color:var(--gold); }
+  figure { margin:26px 0; text-align:center; }
+  figure img { max-width:100%; border-radius:12px; border:1px solid #1d3a63; }
+  figcaption { color:var(--dim); font-size:13px; margin-top:8px; }
+  table { border-collapse:collapse; margin:18px auto; font-size:14px; }
+  th, td { border:1px solid #26456e; padding:7px 14px; text-align:center; }
+  th { color:var(--gold); background:var(--panel); }
+  .sello { text-align:center; color:var(--dim); font-size:13.5px; margin-top:46px; border-top:1px solid #1d3a63; padding-top:18px; }
+  .sello b { color:var(--gold); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>7️⃣ El Teorema del Siete del Capitán</h1>
+  <p class="sub">Teorema 8 del taller · el reloj del 9 y la llave de las ramas · encontrado A MANO</p>
+  <p class="quien">Descubrimiento y juego de cifras: <b>Jesús Nicolás Astorga</b> · demostración y experimento: el taller · 2026-11-01</p>
+</header>
+
+<nav>
+  <a href="index.html">← la galería</a>
+  <a href="#cuento">el cuento</a>
+  <a href="#enunciado">el enunciado</a>
+  <a href="#demo">la demostración en criollo</a>
+  <a href="#ramas">las ramas</a>
+  <a href="#puente">el puente con Artin</a>
+  <a href="#lamina">la lámina</a>
+  <a href="#real">qué lo hace real</a>
+</nav>
+
+<main>
+
+<h2 id="cuento">El cuento — todos dan 7</h2>
+<p>El capitán jugaba con los primos: sumar cada uno consigo mismo y, cuando quedaban dos cifras,
+sumarlas. El 2 da 4, 8, 16, y 1+6 es <b style="color:var(--gold)">7</b>. El 13 da 1+3 = 4, 8, 16,
+<b style="color:var(--gold)">7</b>. Probó con todos: «todos dan 7».</p>
+<p>Todos menos uno. El 3 da 6, 12, y 1+2 vuelve a ser 3: una calesita que gira para siempre sin
+pasar por el 7. Y ahí el capitán hizo la jugada que convierte el juego en teorema:
+<b>abrió el 12 en dos ramas</b>, el 1 y el 2, y siguió cada una por su lado. Las dos llegaron al 7.</p>
+
+<h2 id="enunciado">El enunciado</h2>
+<p>La regla, en base 10: <b>una cifra se duplica; dos o más cifras se suman</b>. Con las ramas, un
+número de dos o más cifras puede, en vez de sumarse, abrirse en sus cifras.</p>
+<div class="math">sin ramas: &nbsp; n llega al 7 &nbsp;⟺&nbsp; 3 ∤ n</div>
+<div class="math chica">(1) sin ramas, n ≥ 1 llega al 7 si y solo si 3 no divide a n<br>
+(2) todo primo llega al 7, salvo el 3<br>
+(3) el 7 no es especial: el 1, 2, 4, 5 y 8, igual; el 3, el 6 y el 9 son una cárcel cerrada<br>
+(4) con las ramas del capitán, TODO n ≥ 1 llega al 7<br>
+(5) en base b, el reloj está completo ⟺ el 2 es raíz primitiva módulo b − 1</div>
+
+<h2 id="demo">La demostración, en criollo</h2>
+<div class="paso"><b class="t">Paso 1 — la prueba del 9.</b>
+<p>Como 10 = 9 + 1, un número y la suma de sus cifras dejan el mismo resto al dividirlos por 9.
+Duplicar multiplica ese resto por 2. Así que, a lo largo de la regla, el resto solo cambia como
+r → 2r, en un reloj de nueve horas.</p></div>
+<div class="paso"><b class="t">Paso 2 — una cifra ES su resto.</b>
+<p>Un número de una cifra es su propio resto (con el 9 haciendo de 0). Y el doble de una cifra
+d ≥ 5 es 2d = 10 + (2d − 10), cuyas cifras suman 2d − 9: la cifra que queda vuelve a ser el resto.
+Una vez en una cifra, la regla camina exactamente el reloj r → 2r módulo 9.</p></div>
+<div class="paso"><b class="t">Paso 3 — el 2 recorre el reloj.</b>
+<p>Las potencias del 2 dejan 2, 4, 8, 7, 5, 1: el 2 es <b>raíz primitiva módulo 9</b> y recorre,
+una detrás de otra, las seis horas que no son múltiplo de 3. Si 3 no divide a n, en a lo sumo cinco
+duplicaciones el resto es 7, y la cifra es el 7. Si 3 divide a n, el resto es 0, 3 o 6, y
+2·0 = 0, 2·3 = 6, 2·6 = 12 ≡ 3: la cárcel se cierra sobre sí misma y nunca toca el 7. ∎</p></div>
+
+<h2 id="ramas">Las ramas — la llave que es suya</h2>
+<div class="math">3 → 6 → 12 &nbsp;⇒&nbsp; rama 1: 1 → 2 → 4 → 8 → 16 → 7 &nbsp;·&nbsp; rama 2: 2 → 4 → 8 → 16 → 7</div>
+<p>Sumar las cifras del 12 da 3: respeta el resto por 9, y por eso nunca puede sacar a nadie de la
+cárcel. <b style="color:var(--gold)">Abrirlo en 1 y 2 no lo respeta</b>: el 1 y el 2 son libres, y
+llegan. Si 3 divide a n, la regla cae en 3, 6 o 9; el 3 duplica a 6, el 6 a 12, el 9 a 18, y en a
+lo sumo dos pasos aparece un 12 o un 18 para abrir. La rama del 1 está en los dos. Con las ramas,
+todo número llega. ∎</p>
+
+<h2 id="puente">El puente con los primos — la conjetura de Artin</h2>
+<p>El mismo argumento vale en cualquier base b, con b − 1 en lugar de 9: el reloj está completo
+exactamente cuando el 2 es raíz primitiva módulo b − 1. Cuando b − 1 es un primo p, eso es preguntar
+si el 2 genera todo el reloj de p. <b>¿Hay infinitos primos así?</b> Es la
+<b style="color:var(--gold)">conjetura de Artin</b> (1927), todavía abierta;
+<b>Hooley la demostró en 1967 suponiendo la hipótesis de Riemann generalizada</b>. Artin predijo
+además qué parte de los primos son así:</p>
+<table>
+<tr><th>primos impares hasta</th><th>el 2 es raíz primitiva</th><th>parte</th><th>Artin</th></tr>
+<tr><td>1 000</td><td>67 de 167</td><td>0,40120</td><td>0,37396</td></tr>
+<tr><td>100 000</td><td>3 603 de 9 591</td><td>0,37566</td><td>0,37396</td></tr>
+<tr><td>10 000 000</td><td>248 491 de 664 578</td><td><b style="color:var(--gold)">0,37391</b></td><td><b style="color:var(--gold)">0,37396</b></td></tr>
+</table>
+
+<h2 id="lamina">La lámina</h2>
+<figure>
+  <img src="laminas/10-el-telar/el-siete-del-capitan.svg" loading="lazy" alt="El Teorema del Siete del Capitán">
+  <figcaption>El reloj del 9 con la vuelta dorada del 2 y la cárcel del 3 y el 6, el teorema con su
+  prueba, las ramas abriendo el 12, y el experimento con el puente de Artin.</figcaption>
+</figure>
+<div class="imagen"><b>Reproducir:</b> <code>go run ./cmd/elsiete</code> — juega la regla literal,
+sumando cifras de verdad, hasta diez millones, mide el puente y dibuja esta lámina.</div>
+
+<h2 id="real">Qué lo hace real</h2>
+<div class="real"><b class="t">Demostrado para todo número, y verificado sin apoyarse en la prueba.</b>
+<p>El experimento no usa el resto por 9 en ningún lado: juega la regla con cifras de verdad. Del 1 al
+10 000 000: <b>cero excepciones</b>; de los 664 579 primos llegan todos menos el 3; con ramas no se
+escapa ninguno, en a lo sumo 8 pasos; y en las bases del 4 al 40, 37 de 37 coinciden con la teoría.</p></div>
+<div class="real"><b class="t">El origen, registrado.</b>
+<p>El juego y las ramas son del capitán, encontrados a mano. El taller lo demostró y lo midió
+después, en el F422, como manda la casa: primero el hallazgo, después la lupa.</p></div>
+<div class="real"><b class="t">Abierto a la auditoría de quien lo lea.</b>
+<p>Este teorema entró al libro sin la auditoría externa que pasaron los anteriores, a pedido del
+capitán: «es para eso, para que los que lo vean lo auditen». La prueba es corta y completa a
+propósito; si alguien le encuentra un error, va al Cuarto de los Errores con su nombre.</p></div>
+<div class="honesto"><b>La honestidad, sin anestesia.</b> No es una propiedad de los primos: la
+cumple todo número que no sea múltiplo de 3, el 4, el 10, el 25. La prueba del 9 es de la escuela, y
+que el 2 sea raíz primitiva módulo 9 es aritmética de Gauss. Lo propio del taller son las ramas y el
+puente. Y el puente muestra dónde se tocan los dos mapas: no demuestra la conjetura de Artin ni dice
+nada nuevo sobre la Hipótesis de Riemann.</div>
+
+<p class="sello">Teorema 8 del libro del taller · acta en <b>docs/atomo/ELSIETE-ACTA.md</b> ·
+la regla del sello preside: <b>estructura cerrada no es hipótesis demostrada — Todavía no.</b></p>
+
+</main>
+</body>
+</html>

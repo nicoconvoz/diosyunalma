@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21864277-1682D4.svg)](https://doi.org/10.5281/zenodo.21864277)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
-### 🖼️ **[→ Open the gallery: 245 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 381 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+### 🖼️ **[→ Open the gallery: 245 plates and 8 sounds](https://nicoconvoz.github.io/diosyunalma/galeria/)** · **[🏛️ Enter the museum: 382 stops in plain language](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 
 *Every experiment in this repository draws a plate. They are all here, in one page.*
 
@@ -56,24 +56,25 @@ gallery and in the museum's opening hall ([docs/teoremas/TEOREMAS.md](docs/teore
   sixteen experiments and seven external audit rounds in a single day, with
   the laboratory's own two failures registered inside it.
 
-All eight carry their full lemma chains, audited acts, and executable
-verification runs. None is a proof of RH, and each says so on its plaque.
+- **The Captain's Seven** — found by hand, playing with the digits of the
+  primes: double a one-digit number, add the digits of a two-digit one, and
+  every prime reaches 7 except 3. Digit sums keep the residue mod 9 and
+  doubling multiplies it by 2, a primitive root mod 9 (1 → 2 → 4 → 8 → 7 → 5),
+  so n reaches 7 ⟺ 3 ∤ n and {3, 6, 9} is a closed prison. His key is the
+  **branches**: opening 12 into its digits 1 and 2 does not respect the
+  residue, and with branches every n ≥ 1 reaches 7. In base b the clock is
+  complete ⟺ 2 is a primitive root mod b−1, a bridge to **Artin's
+  conjecture** (open; Hooley 1967 under the generalized Riemann hypothesis):
+  the share of primes with 2 as a primitive root measures 0.37391 up to 10⁷
+  against Artin's constant 0.37396. Verified by playing the rule literally up
+  to 10⁷ with zero exceptions. Not a property of the primes — every
+  non-multiple of 3 does it.
 
-**Newest on the bench — The Captain's Seven (F422).** Double a one-digit
-number, add the digits of a two-digit one: every prime reaches 7 except 3.
-Proven for every number: digit sums keep the residue mod 9 and doubling
-multiplies it by 2, which is a primitive root mod 9 (1 → 2 → 4 → 8 → 7 → 5);
-so n reaches 7 ⟺ 3 ∤ n, and 3, 6, 9 are a closed prison. The captain's key
-is his **branches**: opening 12 into its digits 1 and 2 does not respect the
-residue, and with branches every n ≥ 1 reaches 7. In base b the clock is
-complete ⟺ 2 is a primitive root mod b−1, which ties it to **Artin's
-conjecture** (open; proven by Hooley in 1967 under the generalized Riemann
-hypothesis): the share of primes with 2 as a primitive root measures 0.37391
-up to 10⁷ against Artin's constant 0.37396. Verified by playing the rule
-literally up to 10⁷ with zero exceptions
-([act](docs/atomo/ELSIETE-ACTA.md), `cmd/elsiete`). Not a property of the
-primes — every non-multiple of 3 does it — and it awaits its external audit
-before entering the hall.
+All nine carry their full statements, proofs and executable verification
+runs, and none is a proof of RH — each says so on its plaque. The first eight
+passed an external audit; **the Captain's Seven entered open to the audit of
+whoever reads it**, by the captain's decision: that is what the hall is for.
+([act](docs/atomo/ELSIETE-ACTA.md), `cmd/elsiete`)
 
 A laboratory for the arithmetic of the primes — built test-first across a handful of long nights, with a control for every claim, a pre-registration for every hunt, and every correction left visible in the record.
 
@@ -129,7 +130,7 @@ proven"** — no claim of a proof of RH is made here.
 
 The laboratory today: **329 reproducible experiments** under `cmd/`, **245
 plates** and **8 sounds**, **36 measurement techniques** catalogued for reuse,
-and a **[381-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
+and a **[382-piece museum](https://nicoconvoz.github.io/diosyunalma/galeria/museo.html)**
 that explains every one of them in plain language — each stop closing with its
 own block of declared limits. A step-by-step reviewer's guide for independent
 validation (in Spanish) is in **[docs/informes/VALIDACION.md](docs/informes/VALIDACION.md)**.
