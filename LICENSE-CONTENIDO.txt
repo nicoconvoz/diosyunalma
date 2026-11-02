@@ -7,7 +7,9 @@ Esta licencia cubre el CONTENIDO del laboratorio Diosyunalma: las laminas
 de galeria/, los documentos de docs/ (bitacora, hallazgos, informe tecnico,
 el museo), los textos explicativos y los sonidos.
 
-El CODIGO va aparte, bajo licencia MIT: ver el archivo LICENSE.
+El CODIGO va aparte, bajo GNU Affero General Public License v3 o posterior
+(AGPL-3.0-or-later): ver el archivo LICENSE. Quien no pueda abrir su propio
+codigo tiene la licencia comercial; el razonamiento esta en LICENCIAS.md.
 
 Como citar (atribucion minima que pide esta licencia):
 
